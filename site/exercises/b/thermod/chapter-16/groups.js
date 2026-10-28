@@ -2,19 +2,19 @@ window.GROUPS = window.GROUPS || [];
 window.GROUPS.push(...
 [
   {
-    "id": "ch16-fluids-gen",
+    "id": "ch16-gen",
     "chapter": "16",
     "title": "16.1 Γενικά - Ορισμοί",
-    "blurb": "Βασικές έννοιες, ορισμοί και είδη ροής ρευστών."
+    "blurb": "Βασικές έννοιες, ορισμοί, ροή και είδη κίνησης ρευστών."
   },
   {
-    "id": "ch16-fluid-motion",
+    "id": "ch16-motion",
     "chapter": "16",
     "title": "16.2 Τρόποι κίνησης των υγρών",
-    "blurb": "Τρόποι κίνησης, αριθμός Reynolds και τοπικές αντιστάσεις."
+    "blurb": "Στρωτή και στροβιλώδης ροή, αριθμός Reynolds."
   },
   {
-    "id": "ch16-ideal-fluids",
+    "id": "ch16-ideal",
     "chapter": "16",
     "title": "16.3 Τέλεια ή ιδανικά υγρά",
     "blurb": "Νόμος της συνέχειας, εξίσωση Bernoulli και εφαρμογές σε ιδανικά ρευστά."

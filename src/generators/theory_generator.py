@@ -26,11 +26,36 @@ except ImportError:
 if __package__ is None or __package__ == "":
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
-    from src.utils.structure import with_structure_rules
+    from src.utils.structure import catalog_id_for_subject, with_structure_rules
     from src.validators.site_validator import SiteValidator
 else:
-    from ..utils.structure import with_structure_rules
+    from ..utils.structure import catalog_id_for_subject, with_structure_rules
     from ..validators.site_validator import SiteValidator
+
+
+def _rewrite_sections_to_subject_data(js_code: str, route_id: str) -> str:
+    """Αν το AI έβγαλε window.SECTIONS, μετατροπή σε SUBJECT_DATA[route].sections."""
+    if route_id == "thermo":
+        return js_code
+    key = json.dumps(route_id, ensure_ascii=False)
+    header = (
+        "window.SUBJECT_DATA = window.SUBJECT_DATA || {};\n"
+        f"window.SUBJECT_DATA[{key}] = window.SUBJECT_DATA[{key}] "
+        "|| { sections: [], groups: [], exercises: [] };\n"
+    )
+    if re.search(r"window\.SECTIONS\s*=\s*window\.SECTIONS\s*\|\|\s*\[\]\s*;", js_code):
+        js_code = re.sub(
+            r"window\.SECTIONS\s*=\s*window\.SECTIONS\s*\|\|\s*\[\]\s*;\s*",
+            header,
+            js_code,
+            count=1,
+        )
+    js_code = re.sub(
+        r"window\.SECTIONS\.push\(",
+        f"window.SUBJECT_DATA[{key}].sections.push(",
+        js_code,
+    )
+    return js_code
 
 
 class TheoryGenerator:
@@ -130,6 +155,11 @@ class TheoryGenerator:
         )
 
         js_code = self.clean_js_output(response.text or "")
+        try:
+            route_id = catalog_id_for_subject(subject)
+        except ValueError:
+            route_id = subject
+        js_code = _rewrite_sections_to_subject_data(js_code, route_id)
 
         # Προορισμός αρχείου
         target_dir = (

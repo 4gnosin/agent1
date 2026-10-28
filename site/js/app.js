@@ -32,6 +32,55 @@ window.KIND_LABEL = {
       progressKey: "antoxi-html-progress-v1",
       mark: "forces",
     },
+    "stoixeia-michanon": {
+      title: "Στοιχεία Μηχανών",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Στοιχεία μηχανών: συνδέσεις, άξονες, έδρανα, μεταδόσεις — σημειώσεις και τράπεζα θεμάτων.",
+      progressKey: "stoixeia-michanon-html-progress-v1",
+      mark: "forces",
+    },
+    "stoixeia-psyxis-klimatismou": {
+      title: "Στοιχεία Ψύξης – Κλιματισμού",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Βασικές αρχές ψύξης και κλιματισμού με διαδραστικές ασκήσεις από την τράπεζα θεμάτων.",
+      progressKey: "stoixeia-psyxis-html-progress-v1",
+      mark: "shuttle",
+    },
+    "egkatastaseis-klimatismou": {
+      title: "Εγκαταστάσεις Κλιματισμού",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Εγκαταστάσεις κλιματισμού: θεωρία και ασκήσεις τράπεζας θεμάτων.",
+      progressKey: "egkatastaseis-klimatismou-html-progress-v1",
+      mark: "shuttle",
+    },
+    "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou": {
+      title: "Συστήματα Ελέγχου Ψύξης & Κλιματισμού",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Έλεγχος, ρύθμιση και αυτοματισμοί εγκαταστάσεων ψύξης και κλιματισμού.",
+      progressKey: "systimata-elegxou-html-progress-v1",
+      mark: "shuttle",
+    },
+    "michanes-esoterikis-kafsis-2": {
+      title: "Μηχανές Εσωτερικής Καύσης ΙΙ",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "ΜΕΚ ΙΙ: θεωρία και διαδραστικές ασκήσεις από την τράπεζα θεμάτων.",
+      progressKey: "mek2-html-progress-v1",
+      mark: "shuttle",
+    },
+    "systimata-aftokinitou": {
+      title: "Συστήματα Αυτοκινήτου",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Συστήματα αυτοκινήτου με σημειώσεις και πίνακα ασκήσεων.",
+      progressKey: "systimata-aftokinitou-html-progress-v1",
+      mark: "forces",
+    },
+    "texnologia-elegxou-diagnoseon": {
+      title: "Τεχνολογία Ελέγχου και Διαγνώσεων",
+      kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Έλεγχος και διαγνώσεις: θεωρία και ασκήσεις τράπεζας θεμάτων.",
+      progressKey: "diagnoseis-html-progress-v1",
+      mark: "forces",
+    },
   };
   const SIMULATIONS = [
     {
@@ -211,19 +260,45 @@ window.KIND_LABEL = {
     }
     return { name: "site-home" };
   }
+  /** Μοναδικά θέματα Τράπεζας: ένα ανά id (ή bankCode). Κρατάει την πρώτη εμφάνιση. */
+  function uniqueTopics(list) {
+    const seen = Object.create(null);
+    const out = [];
+    (list || []).forEach(function (item) {
+      if (!item || typeof item !== "object") return;
+      const key = item.id || item.bankCode || "";
+      if (!key || seen[key]) return;
+      seen[key] = true;
+      out.push(item);
+    });
+    return out;
+  }
+  function uniqueById(list) {
+    const seen = Object.create(null);
+    const out = [];
+    (list || []).forEach(function (item) {
+      if (!item || typeof item !== "object") return;
+      const key = item.id || "";
+      if (!key || seen[key]) return;
+      seen[key] = true;
+      out.push(item);
+    });
+    return out;
+  }
   function subjectData(id) {
     const d = (window.SUBJECT_DATA && window.SUBJECT_DATA[id]) || {};
     if (id === "thermo") {
       return {
         sections: (window.SECTIONS || []).concat(d.sections || []),
-        groups: (window.GROUPS || []).concat(d.groups || []),
-        exercises: (window.EXERCISES || []).concat(d.exercises || []),
+        groups: uniqueById((window.GROUPS || []).concat(d.groups || [])),
+        // Θέματα = μοναδικές ασκήσεις Τράπεζας (όχι διπλότυπα από παλιά/νέα αρχεία)
+        exercises: uniqueTopics((window.EXERCISES || []).concat(d.exercises || [])),
       };
     }
     return {
       sections: d.sections || [],
-      groups: d.groups || [],
-      exercises: d.exercises || [],
+      groups: uniqueById(d.groups || []),
+      exercises: uniqueTopics(d.exercises || []),
     };
   }
   function setCtx(subjectId) {
@@ -1168,31 +1243,44 @@ window.KIND_LABEL = {
       "</h1>";
     inner +=
       '<p class="lead" style="margin-top:1rem">' + esc(ctx.lead) + "</p>";
-    inner +=
-      '<div class="btn-row"><button class="btn btn-copper" data-act="go" data-to="' +
-      ctx.base +
-      "/notes/" +
-      first.slug +
-      '">Σημειώσεις</button>' +
-      (ctx.hasExercises
-        ? '<button class="btn btn-ink" data-act="go" data-to="' + ctx.base + '/board">Στον πίνακα</button>'
-        : "") +
-      "</div></div>";
+    inner += '<div class="btn-row">';
+    if (first) {
+      inner +=
+        '<button class="btn btn-copper" data-act="go" data-to="' +
+        ctx.base +
+        "/notes/" +
+        first.slug +
+        '">Σημειώσεις</button>';
+    }
+    if (ctx.hasExercises && ctx.exercises.length) {
+      inner +=
+        '<button class="btn btn-ink" data-act="go" data-to="' +
+        ctx.base +
+        '/board">Στον πίνακα</button>';
+    }
+    inner += "</div></div>";
     inner += '<div style="justify-self:center">' + subjectMark() + "</div></div>";
     inner +=
       '<div class="' +
       (ctx.hasExercises ? "grid-2" : "") +
-      '" style="margin-top:1.6rem"><button class="card" data-act="go" data-to="' +
-      ctx.base +
-      "/notes/" +
-      first.slug +
-      '" style="text-align:left"><p class="kicker">Θεωρία</p><h2 style="font-size:1.5rem;margin-top:.2rem">' +
-      ctx.sections.length +
-      " σύντομες ενότητες</h2><p style=\"color:var(--muted);margin:.4rem 0 0\">" +
-      p.read.length +
-      "/" +
-      ctx.sections.length +
-      " διαβάστηκαν</p></button>";
+      '" style="margin-top:1.6rem">';
+    if (first) {
+      inner +=
+        '<button class="card" data-act="go" data-to="' +
+        ctx.base +
+        "/notes/" +
+        first.slug +
+        '" style="text-align:left"><p class="kicker">Θεωρία</p><h2 style="font-size:1.5rem;margin-top:.2rem">' +
+        ctx.sections.length +
+        " σύντομες ενότητες</h2><p style=\"color:var(--muted);margin:.4rem 0 0\">" +
+        p.read.length +
+        "/" +
+        ctx.sections.length +
+        " διαβάστηκαν</p></button>";
+    } else if (ctx.sections.length === 0) {
+      inner +=
+        '<div class="card" style="text-align:left"><p class="kicker">Θεωρία</p><h2 style="font-size:1.5rem;margin-top:.2rem">Σημειώσεις σύντομα</h2><p style="color:var(--muted);margin:.4rem 0 0">Δεν έχουν φορτωθεί ακόμη ενότητες θεωρίας.</p></div>';
+    }
     if (ctx.hasExercises) {
       inner +=
         '<button class="card card-light" data-act="go" data-to="' +

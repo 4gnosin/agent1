@@ -67,7 +67,8 @@ window.CATALOG = [
         "id": "systimata-aftokinitou",
         "title": "Συστήματα Αυτοκινήτου Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/systimata-aftokinitou"
       },
       {
         "id": "texnologia-elegxou-diagnoseon",

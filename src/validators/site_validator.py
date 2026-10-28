@@ -151,8 +151,11 @@ class SiteValidator:
             return [f"Το αρχείο δεν υπάρχει: {path}"]
 
         content = path.read_text(encoding="utf-8")
-        if "window.SECTIONS" not in content:
-            errors.append("Δεν βρέθηκε αναφορά στο 'window.SECTIONS'.")
+        if "window.SECTIONS" not in content and not re.search(
+            r"window\.SUBJECT_DATA(?:\.[A-Za-z_$][\w$]*|\[['\"][^'\"]+['\"]\])\.sections\b",
+            content,
+        ):
+            errors.append("Δεν βρέθηκε αναφορά στο 'window.SECTIONS' ή SUBJECT_DATA.*.sections.")
 
         items = cls.extract_json_from_js(content)
         if not items:
@@ -201,9 +204,10 @@ class SiteValidator:
     def validate_groups_code(cls, content: str) -> list[str]:
         """Validates generated group JavaScript without requiring a file on disk."""
         if "window.GROUPS" not in content and not re.search(
-            r"window\.SUBJECT_DATA\.[A-Za-z_$][\w$]*\.groups\b", content
+            r"window\.SUBJECT_DATA(?:\.[A-Za-z_$][\w$]*|\[['\"][^'\"]+['\"]\])\.groups\b",
+            content,
         ):
-            return ["Δεν βρέθηκε αναφορά στο 'window.GROUPS'."]
+            return ["Δεν βρέθηκε αναφορά στο 'window.GROUPS' ή SUBJECT_DATA.*.groups."]
 
         groups = cls.extract_json_from_js(content)
         if not groups:
@@ -234,9 +238,10 @@ class SiteValidator:
     def validate_exercises_code(cls, content: str) -> list[str]:
         """Validates generated exercise JavaScript without requiring a file on disk."""
         if "window.EXERCISES" not in content and not re.search(
-            r"window\.SUBJECT_DATA\.[A-Za-z_$][\w$]*\.exercises\b", content
+            r"window\.SUBJECT_DATA(?:\.[A-Za-z_$][\w$]*|\[['\"][^'\"]+['\"]\])\.exercises\b",
+            content,
         ):
-            return ["Δεν βρέθηκε αναφορά στο 'window.EXERCISES'."]
+            return ["Δεν βρέθηκε αναφορά στο 'window.EXERCISES' ή SUBJECT_DATA.*.exercises."]
 
         exercises = cls.extract_json_from_js(content)
         if not exercises:

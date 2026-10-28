@@ -30,6 +30,7 @@ if __package__ is None or __package__ == "":
     from src.utils.structure import (
         KIND_GROUP_IDS,
         apply_greek_ordinals,
+        catalog_id_for_subject,
         extract_bank_code,
         subsection_sort_key,
         with_structure_rules,
@@ -40,11 +41,34 @@ else:
     from ..utils.structure import (
         KIND_GROUP_IDS,
         apply_greek_ordinals,
+        catalog_id_for_subject,
         extract_bank_code,
         subsection_sort_key,
         with_structure_rules,
     )
     from ..validators.site_validator import SiteValidator
+
+
+def _js_push_prefix(route_id: str, kind: str) -> str:
+    """
+    thermo → window.GROUPS / window.EXERCISES (legacy).
+    Άλλα μαθήματα → window.SUBJECT_DATA["id"].groups/exercises
+    ώστε οι ασκήσεις Αντοχής κ.λπ. να ΜΗΝ εμφανίζονται στη Θερμοδυναμική.
+    """
+    if route_id == "thermo":
+        global_name = "GROUPS" if kind == "groups" else "EXERCISES"
+        return (
+            f"window.{global_name} = window.{global_name} || [];\n"
+            f"window.{global_name}.push(...\n"
+        )
+    field = "groups" if kind == "groups" else "exercises"
+    key = json.dumps(route_id, ensure_ascii=False)
+    return (
+        "window.SUBJECT_DATA = window.SUBJECT_DATA || {};\n"
+        f"window.SUBJECT_DATA[{key}] = window.SUBJECT_DATA[{key}] "
+        "|| { sections: [], groups: [], exercises: [] };\n"
+        f"window.SUBJECT_DATA[{key}].{field}.push(...\n"
+    )
 
 
 def exercise_js_filename(chapter: int, group_id: str) -> str:
@@ -382,9 +406,9 @@ class ExerciseGenerator:
             for group in groups
             if exercises_by_group.get(group.get("id"))
         ]
+        route_id = catalog_id_for_subject(subject)
         groups_code = (
-            "window.GROUPS = window.GROUPS || [];\n"
-            "window.GROUPS.push(...\n"
+            _js_push_prefix(route_id, "groups")
             + json.dumps(ordered_groups, ensure_ascii=False, indent=2)
             + "\n);\n"
         )
@@ -397,8 +421,7 @@ class ExerciseGenerator:
             if not group_exercises:
                 continue
             code = (
-                "window.EXERCISES = window.EXERCISES || [];\n"
-                "window.EXERCISES.push(...\n"
+                _js_push_prefix(route_id, "exercises")
                 + json.dumps(group_exercises, ensure_ascii=False, indent=2)
                 + "\n);\n"
             )
@@ -416,6 +439,10 @@ class ExerciseGenerator:
         groups_file = target_dir / "groups.js"
         groups_file.write_text(groups_code, encoding="utf-8")
         generated_files = [groups_file]
+        print(
+            f"📌 Route '{route_id}' → "
+            f"{'window.GROUPS/EXERCISES' if route_id == 'thermo' else f'SUBJECT_DATA[{route_id!r}]'}"
+        )
         for group_id, code in exercise_codes.items():
             exercise_file = target_dir / exercise_js_filename(chapter, group_id)
             exercise_file.write_text(code, encoding="utf-8")
