@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Μανόμετρο σωλήνα U</title>
+  <desc id="desc">Σωλήνας U με υγρό, διαφορετικές στάθμες και διαφορά ύψους Δh.</desc>
+  <rect width="760" height="500" rx="24" fill="#fbf6ec"/>
+  <path d="M180 85v230a190 120 0 0 0 380 0V85" fill="none" stroke="#3d3830" stroke-width="28" stroke-linecap="round"/>
+  <path d="M194 230v85a176 106 0 0 0 352 0V145" fill="none" stroke="#6fa7c7" stroke-width="16" stroke-linecap="round"/>
+  <path d="M120 230h155M485 145h155" stroke="#c45c26" stroke-width="4" stroke-dasharray="12 10"/>
+  <path d="M620 145v85" stroke="#c45c26" stroke-width="5"/>
+  <path d="m608 157 12-16 12 16M608 218l12 16 12-16" fill="none" stroke="#c45c26" stroke-width="5"/>
+  <path d="M165 60v-28h-95M575 60v-28h95" fill="none" stroke="#3d3830" stroke-width="7"/>
+  <text x="74" y="285" fill="#3d3830" font-family="Arial,sans-serif" font-size="26">P₁</text>
+  <text x="650" y="285" fill="#3d3830" font-family="Arial,sans-serif" font-size="26">P₂</text>
+  <text x="640" y="195" fill="#c45c26" font-family="Arial,sans-serif" font-size="25">Δh</text>
+  <text x="380" y="455" text-anchor="middle" fill="#3d3830" font-family="Arial,sans-serif" font-size="27">ΔP = ρgΔh</text>
+</svg>

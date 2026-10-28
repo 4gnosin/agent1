@@ -1,0 +1,519 @@
+/* Hydrophore Simulation Styles */
+.hydro-simulation {
+  --hydro-blue: #0288d1;
+  --hydro-water: #29b6f6;
+  --hydro-air: #f59e0b;
+  --hydro-green: #10b981;
+  --hydro-red: #ef4444;
+  --hydro-dark: #0f172a;
+  --hydro-border: #334155;
+  --hydro-gauge-bg: #1e293b;
+}
+
+.hydro-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 0.65rem 1rem;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  box-shadow: var(--shadow-paper);
+}
+
+.hydro-toolbar-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.hydro-toolbar label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.hydro-toolbar select,
+.hydro-toolbar button,
+.hydro-control-btn {
+  min-height: 2.2rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.hydro-toolbar select:hover,
+.hydro-toolbar button:hover,
+.hydro-control-btn:hover {
+  background: var(--board);
+  color: #fff;
+}
+
+.hydro-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(20rem, 1fr);
+  align-items: start;
+  gap: 1rem;
+}
+
+.hydro-layout > .hydro-main-column {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.hydro-main-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.hydro-main-column > .hydro-panel {
+  margin-bottom: 0;
+}
+
+.hydro-layout > aside {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.hydro-panel {
+  min-width: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+}
+
+.hydro-panel h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+
+.hydro-alarm-banner {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 0.6rem;
+  height: 5.5rem;
+  overflow-y: auto;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.85rem;
+  border-radius: 0.65rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.4;
+  visibility: hidden;
+}
+
+.hydro-alarm-banner.hunting {
+  visibility: visible;
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  color: #991b1b;
+}
+
+.hydro-alarm-banner.safety {
+  visibility: visible;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #92400e;
+}
+
+.hydro-alarm-banner.success {
+  visibility: visible;
+  background: #d1fae5;
+  border: 1px solid #10b981;
+  color: #065f46;
+}
+
+.hydro-diagram-scroll {
+  overflow-x: auto;
+  border-radius: 0.85rem;
+  background: #0f172a;
+  border: 1px solid #334155;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.hydro-diagram {
+  display: block;
+  width: 100%;
+  min-width: 660px;
+  height: auto;
+  user-select: none;
+}
+
+.hydro-diagram text {
+  fill: #f1f5f9;
+  font-family: var(--font-sans);
+  font-size: 11px;
+}
+
+.hydro-diagram .text-muted {
+  fill: #94a3b8;
+  font-size: 10px;
+}
+
+.hydro-diagram .text-bold {
+  font-weight: 700;
+}
+
+/* Piping & flow */
+.hydro-pipe-water {
+  fill: none;
+  stroke: #0284c7;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hydro-pipe-air {
+  fill: none;
+  stroke: #f59e0b;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hydro-pipe-drain {
+  fill: none;
+  stroke: #64748b;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hydro-flow-water {
+  stroke-dasharray: 8 6;
+  animation: hydro-flow-anim 0.6s linear infinite;
+}
+
+.hydro-flow-air {
+  stroke-dasharray: 6 5;
+  animation: hydro-flow-anim 0.4s linear infinite;
+}
+
+@keyframes hydro-flow-anim {
+  to { stroke-dashoffset: -14; }
+}
+
+/* Interactive elements inside SVG */
+.hydro-clickable {
+  cursor: pointer;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.hydro-clickable:hover {
+  filter: brightness(1.25) drop-shadow(0 0 4px rgba(255,255,255,0.4));
+}
+
+/* Dashboard readings grid */
+.hydro-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  grid-auto-rows: 9.5rem;
+  gap: 0.65rem;
+  margin-top: 0.85rem;
+}
+
+.hydro-metric-card {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 0.65rem 0.85rem;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+.hydro-metric-card .title {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hydro-metric-card .value {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.hydro-metric-card [data-hydro="val-pump-status"] {
+  overflow: hidden;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hydro-metric-card .sub {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.75rem;
+  color: var(--muted);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* Control switch board */
+.hydro-controls-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hydro-control-group {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: #fbf9f4;
+}
+
+.hydro-control-group h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Mode toggle buttons */
+.hydro-toggle-group {
+  display: flex;
+  border-radius: 0.55rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.hydro-toggle-btn {
+  flex: 1;
+  padding: 0.45rem 0.5rem;
+  border: none;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.hydro-toggle-btn:not(:last-child) {
+  border-right: 1px solid var(--line);
+}
+
+.hydro-toggle-btn.active-off {
+  background: #ef4444;
+  color: #fff;
+}
+
+.hydro-toggle-btn.active-auto {
+  background: #10b981;
+  color: #fff;
+}
+
+.hydro-toggle-btn.active-man {
+  background: #f59e0b;
+  color: #fff;
+}
+
+/* Sliders */
+.hydro-slider-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 3.2rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.45rem 0;
+  font-size: 0.85rem;
+}
+
+.hydro-slider-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--copper);
+}
+
+.hydro-slider-val {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  text-align: right;
+}
+
+/* Valve buttons grid */
+.hydro-valves-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.5rem;
+}
+
+.hydro-valve-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--cream);
+  font-size: 0.84rem;
+}
+
+.hydro-valve-btn {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.hydro-valve-btn.is-open {
+  background: #10b981;
+  color: #fff;
+  border-color: #059669;
+}
+
+.hydro-valve-btn.is-closed {
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.hydro-vent-anim {
+  animation: hydro-vent-puff 0.5s ease-out infinite;
+}
+
+@keyframes hydro-vent-puff {
+  0% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 0.9; }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+
+/* Steps list */
+.hydro-steps {
+  margin: 0;
+  padding-left: 1.3rem;
+  list-style: decimal;
+}
+
+.hydro-steps li {
+  margin: 0.45rem 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+
+.hydro-steps li.done {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.hydro-steps li.active {
+  color: var(--ink);
+  font-weight: 700;
+  list-style-type: "👉 ";
+}
+
+/* Log area */
+.hydro-log {
+  max-height: 14rem;
+  overflow-y: auto;
+  font-size: 0.82rem;
+  border-radius: 0.5rem;
+  background: #f8fafc;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--line);
+}
+
+.hydro-log-item {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #f1f5f9;
+  line-height: 1.35;
+}
+
+.hydro-log-item small {
+  color: #94a3b8;
+  margin-right: 0.35rem;
+}
+
+.hydro-log-item.info { color: #334155; }
+.hydro-log-item.warn { color: #b45309; font-weight: 600; }
+.hydro-log-item.err { color: #b91c1c; font-weight: 600; }
+.hydro-log-item.ok { color: #15803d; font-weight: 600; }
+
+/* Theory modal / accordion */
+.hydro-theory-details {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: var(--cream);
+  padding: 0.75rem 1rem;
+}
+
+.hydro-theory-details summary {
+  cursor: pointer;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.hydro-theory-content {
+  margin-top: 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.hydro-theory-content h4 {
+  margin: 0.85rem 0 0.35rem;
+  font-size: 0.98rem;
+  color: var(--board);
+}
+
+.hydro-theory-content p {
+  margin: 0.35rem 0;
+}
+
+.hydro-theory-content ul {
+  padding-left: 1.25rem;
+  margin: 0.35rem 0;
+}
+
+@media (max-width: 960px) {
+  .hydro-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hydro-layout > .hydro-main-column,
+  .hydro-layout > aside {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .hydro-alarm-banner {
+    height: 6.5rem;
+  }
+}

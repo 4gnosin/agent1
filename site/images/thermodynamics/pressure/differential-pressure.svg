@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Μέτρηση διαφορικής πίεσης σε φίλτρο</title>
+  <desc id="desc">Ροή από αριστερά προς τα δεξιά μέσα από φίλτρο, με δύο λήψεις πίεσης πριν και μετά.</desc>
+  <rect width="900" height="420" rx="24" fill="#fbf6ec"/>
+  <path d="M70 210h760" stroke="#3d3830" stroke-width="30" stroke-linecap="round"/>
+  <path d="M100 210h185m330 0h185" stroke="#c45c26" stroke-width="12" stroke-linecap="round"/>
+  <path d="m260 190 34 20-34 20" fill="#c45c26"/>
+  <path d="m690 190 34 20-34 20" fill="#c45c26"/>
+  <rect x="365" y="125" width="170" height="170" rx="18" fill="#ebe3d4" stroke="#3d3830" stroke-width="8"/>
+  <path d="m400 155 100 110m0-110L400 265m0-110 100 110" stroke="#c45c26" stroke-width="8"/>
+  <path d="M250 195V98h-36" fill="none" stroke="#3d3830" stroke-width="8"/>
+  <path d="M650 195V98h36" fill="none" stroke="#3d3830" stroke-width="8"/>
+  <circle cx="180" cy="95" r="56" fill="#fff" stroke="#3d3830" stroke-width="8"/>
+  <circle cx="720" cy="95" r="56" fill="#fff" stroke="#3d3830" stroke-width="8"/>
+  <path d="m180 95 21-25M720 95l-10-18" stroke="#c45c26" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="180" cy="95" r="8" fill="#3d3830"/>
+  <circle cx="720" cy="95" r="8" fill="#3d3830"/>
+  <text x="180" y="180" text-anchor="middle" fill="#3d3830" font-family="Arial,sans-serif" font-size="25">P₁</text>
+  <text x="720" y="180" text-anchor="middle" fill="#3d3830" font-family="Arial,sans-serif" font-size="25">P₂</text>
+  <text x="450" y="350" text-anchor="middle" fill="#3d3830" font-family="Arial,sans-serif" font-size="27">Φίλτρο · ΔP = P₁ − P₂</text>
+</svg>

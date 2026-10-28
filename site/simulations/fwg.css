@@ -1,0 +1,158 @@
+.fwg-simulation {
+  --fwg-green: #3ecf6e;
+  --fwg-amber: #f0b429;
+  --fwg-red: #ef5350;
+}
+.fwg-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+.fwg-toolbar label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+.fwg-toolbar select,
+.fwg-pop button {
+  min-height: 2.5rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+}
+.fwg-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 1fr);
+  align-items: start;
+  gap: 0.8rem;
+}
+.fwg-panel {
+  min-width: 0;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+}
+.fwg-panel h2 {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+}
+.fwg-diagram-scroll {
+  overflow-x: auto;
+  border-radius: 0.7rem;
+  background: var(--board-2);
+}
+.fwg-diagram {
+  display: block;
+  width: 100%;
+  min-width: 560px;
+  height: auto;
+  background: var(--board-2);
+  border-radius: 0.7rem;
+}
+.fwg-diagram text {
+  fill: var(--chalk);
+  stroke: var(--board-2);
+  stroke-width: 3px;
+  paint-order: stroke;
+  font-family: var(--font-sans);
+  font-size: 10px;
+}
+.fwg-diagram .fwg-small-text { font-size: 9px; }
+.fwg-diagram .fwg-reading { font-size: 12px; }
+.fwg-pipe { fill: none; stroke-width: 6; }
+.fwg-flow { stroke-dasharray: 10 8; animation: fwg-flow 0.8s linear infinite; }
+@keyframes fwg-flow { to { stroke-dashoffset: -18; } }
+.fwg-help {
+  display: block;
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+.fwg-steps {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.fwg-steps li {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.fwg-steps li.done { color: var(--fwg-green); }
+.fwg-steps li.done::marker { content: "✔ "; }
+.fwg-steps li.next { color: var(--ink); font-weight: 700; }
+.fwg-readings {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.35rem 0.8rem;
+  font-size: 0.88rem;
+}
+.fwg-readings b,
+.fwg-gauge-value {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.fwg-good { color: var(--fwg-green) !important; }
+.fwg-bad { color: var(--fwg-red) !important; }
+.fwg-diagram text.fwg-good { fill: var(--fwg-green); }
+.fwg-diagram text.fwg-bad { fill: var(--fwg-red); }
+.fwg-log {
+  max-height: 15rem;
+  overflow-y: auto;
+  font-size: 0.85rem;
+}
+.fwg-log > div {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.fwg-log small { color: var(--muted); }
+.fwg-log .ok { color: var(--fwg-green); }
+.fwg-log .er { color: var(--fwg-red); }
+.fwg-log .in { color: var(--muted); }
+.fwg-log .wa { color: var(--fwg-amber); }
+.fwg-pop {
+  position: fixed;
+  z-index: 40;
+  width: min(17rem, calc(100vw - 1rem));
+  padding: 0.8rem;
+  border: 1px solid var(--copper);
+  border-radius: 1rem;
+  background: var(--cream);
+  color: var(--ink);
+  box-shadow: var(--shadow-paper);
+}
+.fwg-pop[hidden] { display: none; }
+.fwg-pop-row {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr 2.5rem 2.5rem;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.65rem 0;
+}
+.fwg-pop input { width: 100%; accent-color: var(--copper); }
+.fwg-pop button { min-width: 0; padding: 0.3rem; }
+.fwg-pop-value { text-align: right; font-variant-numeric: tabular-nums; }
+.fwg-panel button:focus-visible,
+.fwg-panel select:focus-visible,
+.fwg-panel input:focus-visible,
+.fwg-diagram [role="button"]:focus-visible,
+.fwg-pop button:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
+}
+@media (max-width: 900px) {
+  .fwg-layout { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fwg-flow { animation: none; }
+}

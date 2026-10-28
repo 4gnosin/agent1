@@ -1,0 +1,318 @@
+.eje3d-simulation {
+  --eje-green: #3ecf6e;
+  --eje-amber: #f0b429;
+  --eje-red: #ef5350;
+  --eje-vel: #6fc4e8;
+}
+.eje3d-simulation .eje-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+.eje3d-simulation .eje-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 1fr);
+  align-items: start;
+  gap: 0.8rem;
+}
+.eje3d-simulation .eje-panel {
+  min-width: 0;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--cream);
+  box-shadow: var(--shadow-paper);
+}
+.eje3d-simulation .eje-panel h2 {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+}
+.eje3d-simulation .eje-diagram-scroll {
+  overflow-x: auto;
+  border-radius: 0.7rem;
+  background: var(--board-2);
+}
+.eje3d-simulation .eje-diagram {
+  display: block;
+  width: 100%;
+  min-width: 560px;
+  height: auto;
+  background: var(--board-2);
+  border-radius: 0.7rem;
+}
+.eje3d-simulation .eje-diagram text {
+  fill: var(--chalk);
+  stroke: var(--board-2);
+  stroke-width: 3px;
+  paint-order: stroke;
+  font-family: var(--font-sans);
+  font-size: 10px;
+}
+.eje3d-simulation .eje-diagram .eje-small-text { font-size: 9px; }
+.eje3d-simulation .eje-diagram text.eje-good { fill: var(--eje-green); }
+.eje3d-simulation .eje-diagram text.eje-bad { fill: var(--eje-red); }
+.eje3d-simulation .eje-diagram text.eje-vel { fill: var(--eje-vel); }
+.eje3d-simulation .eje-help {
+  display: block;
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+.eje3d-simulation .eje-key {
+  display: inline-block;
+  width: 1.4rem;
+  height: 0.25rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+  border-radius: 0.2rem;
+}
+.eje3d-simulation .eje-key-p { background: var(--eje-amber); }
+.eje3d-simulation .eje-key-v { background: var(--eje-vel); }
+.eje3d-simulation .eje-ctl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.15rem 0.6rem;
+  margin: 0 0 0.7rem;
+  font-size: 0.88rem;
+}
+.eje3d-simulation .eje-ctl input {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: var(--copper);
+}
+.eje3d-simulation .eje-value {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.eje3d-simulation .eje-status {
+  margin: 0 0 0.65rem;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+.eje3d-simulation .eje-status.eje-good { border-color: var(--eje-green); }
+.eje3d-simulation .eje-status.eje-warn { border-color: var(--eje-amber); }
+.eje3d-simulation .eje-status.eje-bad { border-color: var(--eje-red); }
+.eje3d-simulation .eje-readings {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.35rem 0.8rem;
+  font-size: 0.88rem;
+}
+.eje3d-simulation .eje-readings b {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.eje3d-simulation .eje-good { color: var(--eje-green) !important; }
+.eje3d-simulation .eje-bad { color: var(--eje-red) !important; }
+.eje3d-simulation .eje-warn { color: var(--eje-amber) !important; }
+.eje3d-simulation .eje-steps {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.eje3d-simulation .eje-steps li {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.eje3d-simulation .eje-steps li.done { color: var(--eje-green); }
+.eje3d-simulation .eje-steps li.done::marker { content: "✔ "; }
+.eje3d-simulation .eje-numbers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.8rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+}
+.eje3d-simulation .eje-theory h3 {
+  margin: 1.1rem 0 0.35rem;
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+}
+.eje3d-simulation .eje-theory p,
+.eje3d-simulation .eje-theory li { line-height: 1.6; }
+.eje3d-simulation .eje-theory mjx-container[display="true"],
+.eje3d-simulation .eje-theory .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.eje3d-simulation .eje-toolbar .eje-seg {
+  display: inline-flex;
+  overflow: hidden;
+  border: 1px solid var(--copper);
+  border-radius: 0.55rem;
+}
+.eje3d-simulation .eje-seg button {
+  padding: 0.4rem 0.8rem;
+  border: 0;
+  background: var(--cream);
+  color: var(--copper);
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.eje3d-simulation .eje-seg button + button {
+  border-left: 1px solid var(--copper);
+}
+.eje3d-simulation .eje-seg button.active {
+  background: var(--copper);
+  color: var(--cream);
+}
+.eje3d-simulation .eje-glossary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.4rem 1.2rem;
+  margin-top: 0.65rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: var(--paper);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.eje3d-simulation .eje-glossary div { color: var(--ink); }
+.eje3d-simulation .eje-glossary b { font-weight: 700; }
+.eje3d-simulation input:focus-visible,
+.eje3d-simulation button:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
+}
+.eje3d-simulation .eje3d-view {
+  position: relative;
+  height: clamp(360px, 38vw, 600px);
+  overflow: hidden;
+  border-radius: 0.7rem;
+  background: #1c242b;
+}
+.eje3d-simulation .eje3d-view canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  cursor: grab;
+}
+.eje3d-simulation .eje3d-view canvas:active { cursor: grabbing; }
+.eje3d-simulation .eje3d-overlay {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.eje3d-simulation .eje3d-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+.eje3d-simulation .eje3d-dot {
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--copper);
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 45%);
+}
+.eje3d-simulation .eje3d-chip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3px 7px;
+  border: 1px solid rgb(255 255 255 / 16%);
+  border-radius: 6px;
+  background: rgb(12 19 26 / 84%);
+  color: #e7eff4;
+  font: 500 11px/1.35 var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.eje3d-simulation .eje3d-chip b { color: var(--copper); }
+.eje3d-simulation .eje3d-chip.good { border-color: #3ecf6e; }
+.eje3d-simulation .eje3d-chip.bad {
+  border-color: #ef5350;
+  color: #ffd2d0;
+}
+.eje3d-simulation .eje3d-above { transform: translate(-50%, calc(-100% - 9px)); }
+.eje3d-simulation .eje3d-below { transform: translate(-50%, 9px); }
+.eje3d-simulation .eje3d-left { transform: translate(calc(-100% - 9px), -50%); }
+.eje3d-simulation .eje3d-right { transform: translate(9px, -50%); }
+.eje3d-simulation .eje3d-hint {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  left: 10px;
+  color: rgb(231 239 244 / 70%);
+  font-size: 11px;
+  pointer-events: none;
+}
+.eje3d-simulation .eje3d-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 1.5rem;
+  color: #e7eff4;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.eje3d-simulation.is-expanded {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  overflow: auto;
+  padding: 1rem;
+  background: var(--paper);
+}
+.eje3d-simulation:fullscreen,
+.eje3d-simulation.is-expanded {
+  min-height: 100vh;
+}
+.eje3d-simulation:fullscreen {
+  overflow: auto;
+  padding: 1rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+.eje3d-simulation:fullscreen .eje3d-view,
+.eje3d-simulation.is-expanded .eje3d-view {
+  height: clamp(360px, 64vh, 820px);
+}
+.eje3d-simulation:fullscreen .eje-layout,
+.eje3d-simulation.is-expanded .eje-layout {
+  grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 1fr);
+}
+@media (max-width: 900px) {
+  .eje3d-simulation .eje-layout,
+  .eje3d-simulation:fullscreen .eje-layout,
+  .eje3d-simulation.is-expanded .eje-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .eje3d-simulation:fullscreen .eje3d-view,
+  .eje3d-simulation.is-expanded .eje3d-view {
+    height: clamp(360px, 55vh, 640px);
+  }
+}
+@media (max-width: 560px) {
+  .eje3d-simulation .eje3d-chip {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  .eje3d-simulation .eje3d-hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .eje3d-simulation .eje-flow { animation: none; }
+}

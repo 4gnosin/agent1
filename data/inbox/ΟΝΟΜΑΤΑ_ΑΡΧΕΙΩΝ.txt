@@ -1,0 +1,56 @@
+Οδηγίες ονοματοδοσίας PDF / MD για τον αυτοματισμό (διπλό κλικ στο ΤΡΑΠΕΖΑ_ΑΣΚΗΣΕΙΣ.bat)
+================================================================================
+
+ΜΟΡΦΗ:
+  {τάξη}_{μάθημα}_ch{αριθμός}.pdf
+
+  τάξη     = b  (Β΄ ΕΠΑΛ)  ή  c  (Γ΄ ΕΠΑΛ)
+  μάθημα   = κωδικός από τον πίνακα παρακάτω
+  αριθμός  = κεφάλαιο με 2 ψηφία (01, 02, … 05)
+
+Παραδείγματα:
+  b_thermod_ch05.pdf
+  b_antoxi_ch01.pdf
+  c_stoixeia-michanon_ch03.pdf
+
+
+Β΄ ΤΑΞΗ
+-------
+  Θερμοδυναμική Θεωρία          →  b_thermod_ch01.pdf
+                                   b_thermod_ch02.pdf
+                                   b_thermod_ch05.pdf   κ.ο.κ.
+
+  Θερμοδυναμική Εργαστήριο      →  b_thermo-lab_ch01.pdf
+
+  Αντοχή Υλικών                 →  b_antoxi_ch01.pdf
+
+
+Γ΄ ΤΑΞΗ
+-------
+  Στοιχεία Μηχανών              →  c_stoixeia-michanon_ch01.pdf
+
+  Στοιχεία Ψύξης–Κλιματισμού    →  c_stoixeia-psyxis-klimatismou_ch01.pdf
+
+  Εγκαταστάσεις Κλιματισμού     →  c_egkatastaseis-klimatismou_ch01.pdf
+
+  Συστήματα Ελέγχου / Αυτοματισμού Ψύξης–Κλιματισμού
+                                →  c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01.pdf
+
+  Μηχανές Εσωτερικής Καύσης ΙΙ →  c_michanes-esoterikis-kafsis-2_ch01.pdf
+
+  Συστήματα Αυτοκινήτου         →  c_systimata-aftokinitou_ch01.pdf
+
+  Τεχνολογία Ελέγχου & Διαγνώσεων
+                                →  c_texnologia-elegxou-diagnoseon_ch01.pdf
+
+
+ΡΟή ΕΡΓΑΣΙΑΣ
+------------
+1. Βάλε τα PDF (ή έτοιμα .md) σε αυτόν τον φάκελο:  data\inbox\
+2. Διπλό κλικ στο  ΤΡΑΠΕΖΑ_ΑΣΚΗΣΕΙΣ.bat  (ρίζα του project)
+3. Ο agent:
+   - διαβάζει τάξη + μάθημα + κεφάλαιο από το όνομα
+   - μετατρέπει PDF → Markdown (data\chapters\)
+   - παράγει ασκήσεις στο site\exercises\{τάξη}\{μάθημα}\chapter-NN\
+   - ενημερώνει index.html και catalog.js
+   - μετακινεί το αρχείο στο data\inbox\done\

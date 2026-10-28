@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <!-- KaTeX CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <meta name="google-site-verification" content="tUwiaR_MXaD1QgrllESxKXPLNWhssnDWzk1TujfInqw" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Μηχανολογία ΕΠΑΛ — Σημειώσεις &amp; ασκήσεις</title>
+  <meta name="description" content="Διδακτικές σημειώσεις, διαδραστικές ασκήσεις και προσομοιώσεις για μαθήματα μηχανολογίας ΕΠΑΛ.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="simulations/fwg.css">
+  <link rel="stylesheet" href="simulations/hydrophore.css">
+  <link rel="stylesheet" href="simulations/ejector-evaporator.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="content/catalog.js"></script>
+  <script src="content/links.js"></script>
+  <script src="content/math/dekadika-klasmata.js"></script>
+  <script src="content/math/tautotites.js"></script>
+  <script src="content/math/idiotites-dynameon.js"></script>
+  <script src="content/math/kanones-paragontopoiisis.js"></script>
+  <script src="content/math.js"></script>
+  <script src="content/b/thermod/chapter-01/00-stoxoi.js"></script>
+  <script src="content/b/thermod/chapter-01/01-genika.js"></script>
+  <script src="content/b/thermod/chapter-01/02-efarmoges.js"></script>
+  <script src="content/b/thermod/chapter-01/03-monades.js"></script>
+  <script src="content/b/thermod/chapter-01/04-systima.js"></script>
+  <script src="content/b/thermod/chapter-01/05-isorropia.js"></script>
+  <script src="content/b/thermod/chapter-01/06-epilogi.js"></script>
+  <script src="content/b/thermod/chapter-01/07-perilipsi.js"></script>
+  <script src="content/b/thermod/chapter-02/07-katastatiki.js"></script>
+  <script src="content/b/thermod/chapter-03/00-stoxoi.js"></script>
+  <script src="content/b/thermod/chapter-03/01-katastatiko_diagramma.js"></script>
+  <script src="content/b/thermod/chapter-03/02-metavoli.js"></script>
+  <script src="content/b/thermod/chapter-03/03-eidi_metavolon.js"></script>
+  <script src="content/b/thermod/chapter-03/04-thermotita.js"></script>
+  <script src="content/b/thermod/chapter-03/05-thermokrasia.js"></script>
+  <script src="content/b/thermod/chapter-03/06-epilogi.js"></script>
+  <script src="content/b/thermod/chapter-03/06-paragogi_thermiki.js"></script>
+  <script src="content/b/thermod/chapter-03/07-esoteriki_energeia.js"></script>
+  <script src="content/b/thermod/chapter-03/08-enthalpia.js"></script>
+  <script src="content/b/thermod/chapter-03/09-kyklos.js"></script>
+  <script src="content/b/thermod/chapter-03/10-perilipsi.js"></script>
+  <script src="content/b/thermod/chapter-04/00-stoxoi.js"></script>
+  <script src="content/b/thermod/chapter-04/01-ergo.js"></script>
+  <script src="content/b/thermod/chapter-04/02-michaniko-ergo.js"></script>
+  <script src="content/b/thermod/chapter-04/03-ergo-statheris-dynamis.js"></script>
+  <script src="content/b/thermod/chapter-04/04-ergo-anypsosis.js"></script>
+  <script src="content/b/thermod/chapter-04/05-ergo-elatiriou.js"></script>
+  <script src="content/b/thermod/chapter-04/06-ergo-atraktou.js"></script>
+  <script src="content/b/thermod/chapter-04/07-ergo-epitaxynsis.js"></script>
+  <script src="content/b/thermod/chapter-04/08-ergo-ogkometavolis.js"></script>
+  <script src="content/b/thermod/chapter-04/09-ergo-rois.js"></script>
+  <script src="content/b/thermod/chapter-04/10-alles-morfes-ergou.js"></script>
+  <script src="content/b/thermod/chapter-04/11-perilipsi.js"></script>
+  <script src="exercises/b/thermod/chapter-01/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-01/calc.js"></script>
+  <script src="exercises/b/thermod/chapter-01/ch01-systems.js"></script>
+  <script src="exercises/b/thermod/chapter-01/ch01-units.js"></script>
+  <script src="exercises/b/thermod/chapter-01/energy.js"></script>
+  <script src="exercises/b/thermod/chapter-01/systems.js"></script>
+  <script src="exercises/b/thermod/chapter-01/units.js"></script>
+  <script src="exercises/b/thermod/chapter-02/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-02/07-katastatiki.js"></script>
+  <script src="exercises/b/thermod/chapter-02/ch02-ideal-gases.js"></script>
+  <script src="exercises/b/thermod/chapter-03/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-03/ch03-heat-temperature.js"></script>
+  <script src="exercises/b/thermod/chapter-03/ch03-thermodynamic-processes.js"></script>
+  <script src="exercises/b/thermod/chapter-03/ch03-uses-production.js"></script>
+  <script src="exercises/b/thermod/chapter-04/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-ergo-pv.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-ergo.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-ergon.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-metavliti-dynami.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-michaniko-ergo.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ch04-statheri-dynami.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ergo-theoria.js"></script>
+  <script src="exercises/b/thermod/chapter-04/ergo-ypologistika.js"></script>
+  <script src="exercises/b/thermod/chapter-04/proto-theorema.js"></script>
+  <script src="exercises/b/thermod/chapter-05/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-05/ch05-first-law.js"></script>
+  <script src="exercises/b/thermod/chapter-06/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-06/ch06-gas-transformations.js"></script>
+  <script src="exercises/b/thermod/chapter-06/ch06-isobaric.js"></script>
+  <script src="exercises/b/thermod/chapter-06/ch06-isochoric.js"></script>
+  <script src="exercises/b/thermod/chapter-06/ch06-isothermal.js"></script>
+  <script src="exercises/b/thermod/chapter-06/ch06-pv-diagrams.js"></script>
+  <script src="exercises/b/thermod/chapter-07/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-07/ch07-second-law.js"></script>
+  <script src="exercises/b/thermod/chapter-08/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-08/ch08-carnot.js"></script>
+  <script src="exercises/b/thermod/chapter-09/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-09/ch09-internal-combustion-engines.js"></script>
+  <script src="exercises/b/thermod/chapter-10/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-10/ch10-pumps.js"></script>
+  <script src="exercises/b/thermod/chapter-12/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-12/ch12-heat-transfer.js"></script>
+  <script src="exercises/b/thermod/chapter-13/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-13/ch13-fuels.js"></script>
+  <script src="exercises/b/thermod/chapter-16/groups.js"></script>
+  <script src="exercises/b/thermod/chapter-16/ch16-fluid-motion.js"></script>
+  <script src="exercises/b/thermod/chapter-16/ch16-fluids-gen.js"></script>
+  <script src="exercises/b/thermod/chapter-16/ch16-ideal-fluids.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/arxes.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/ch1-force.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/ch1-statix.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/dynameis.js"></script>
+  <script src="exercises/b/antoxi/chapter-01/ypologistika.js"></script>
+  <script src="exercises/b/antoxi/chapter-02/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-02/ch02-torque.js"></script>
+  <script src="exercises/b/antoxi/chapter-02/ch02-varignon.js"></script>
+  <script src="exercises/b/antoxi/chapter-03/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-03/ch03-coplanar-forces.js"></script>
+  <script src="exercises/b/antoxi/chapter-03/ch03-forces-composition.js"></script>
+  <script src="exercises/b/antoxi/chapter-03/ch03-parallel-forces.js"></script>
+  <script src="exercises/b/antoxi/chapter-03/ch03-parallel-opposing.js"></script>
+  <script src="exercises/b/antoxi/chapter-04/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-04/ch04-isorropia.js"></script>
+  <script src="exercises/b/antoxi/chapter-04/ch04-kentroeidi.js"></script>
+  <script src="exercises/b/antoxi/chapter-04/ch04-kentrom-varous.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-allowable-stress.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-elongation.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-hooke.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-intro.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-loads.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-strength.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-stress-concept.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-stresses.js"></script>
+  <script src="exercises/b/antoxi/chapter-05/ch05-tension-test.js"></script>
+  <script src="exercises/b/antoxi/chapter-06/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-06/ch06-axial.js"></script>
+  <script src="exercises/b/antoxi/chapter-06/ch06-pressure.js"></script>
+  <script src="exercises/b/antoxi/chapter-08/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-08/ch08-internal.js"></script>
+  <script src="exercises/b/antoxi/chapter-08/ch08-supports.js"></script>
+  <script src="exercises/b/antoxi/chapter-09/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-09/ch09-2-deformation.js"></script>
+  <script src="exercises/b/antoxi/chapter-09/ch09-3-quantities.js"></script>
+  <script src="exercises/b/antoxi/chapter-10/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-10/ch10-bending-general.js"></script>
+  <script src="exercises/b/antoxi/chapter-11/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-11/ch11-shaft-calc.js"></script>
+  <script src="exercises/b/antoxi/chapter-11/ch11-torsion-relations.js"></script>
+  <script src="exercises/b/antoxi/chapter-12/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-12/ch12-buckling.js"></script>
+  <script src="exercises/b/antoxi/chapter-12/ch12-intro.js"></script>
+  <script src="exercises/b/antoxi/chapter-14/groups.js"></script>
+  <script src="exercises/b/antoxi/chapter-14/ch14-friction.js"></script>
+  <script src="content/b/thermo-lab/chapter-01/01-organa-piesis.js"></script>
+  <script src="simulations/fwg.js"></script>
+  <script src="simulations/hydrophore.js"></script>
+  <script src="simulations/ejector-evaporator.js"></script>
+  <!-- KaTeX (πρέπει να φορτώνει πριν το app.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9231e9772cfb4c118742138b379c1880"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
