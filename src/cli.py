@@ -758,6 +758,8 @@ def process_inbox_command(args: argparse.Namespace) -> None:
         print(f"   Τάξη={grade} | Μάθημα={subject} | Κεφάλαιο={chapter}")
         stem = standard_chapter_stem(grade, subject, chapter)
         md_path = chapters_dir / f"{stem}.md"
+        manifest_path = None
+        web_prefix = None
 
         try:
             if source.suffix.lower() == ".pdf":
@@ -771,6 +773,28 @@ def process_inbox_command(args: argparse.Namespace) -> None:
                     ai_clean=False,
                     model=args.model,
                 )
+                # Εικόνες → site/images/{grade}/{subject}/chapter-NN/ (0 tokens)
+                try:
+                    from src.utils.image_extractor import (
+                        extract_chapter_images,
+                        web_prefix_for,
+                    )
+
+                    print("   🖼  Εξαγωγή εικόνων PDF (fig/sol ανά #κωδικό)...")
+                    manifest_path = extract_chapter_images(
+                        pdf_path=source,
+                        site_dir=site_dir,
+                        grade=grade,
+                        subject=subject,
+                        chapter=chapter,
+                        render_empty_pages=True,
+                        crop=True,
+                        verbose=False,
+                    )
+                    web_prefix = web_prefix_for(grade, subject, chapter)
+                    print(f"      ✓ {manifest_path}")
+                except Exception as img_exc:  # noqa: BLE001
+                    print(f"   ⚠️ Εικόνες: {img_exc} (συνέχεια χωρίς εικόνες)")
             else:
                 from src.utils.pdf_extractor import normalize_pdf_symbols, clean_greek_pdf_text
 
@@ -789,6 +813,19 @@ def process_inbox_command(args: argparse.Namespace) -> None:
             )
             for f in files:
                 print(f"      ✓ {f}")
+
+            if manifest_path and web_prefix:
+                try:
+                    from src.utils.image_extractor import attach_images_to_js_files
+
+                    n = attach_images_to_js_files(
+                        js_files=list(files),
+                        manifest_path=manifest_path,
+                        web_prefix=web_prefix,
+                    )
+                    print(f"   🖼  Συνδέθηκαν εικόνες σε {n} ασκήσεις ({web_prefix})")
+                except Exception as link_exc:  # noqa: BLE001
+                    print(f"   ⚠️ Σύνδεση εικόνων: {link_exc}")
 
             subjects_touched.add((grade, subject))
             target = done_dir / source.name

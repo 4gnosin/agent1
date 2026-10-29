@@ -1,0 +1,18 @@
+window.SUBJECT_DATA = window.SUBJECT_DATA || {};
+window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [], groups: [], exercises: [] };
+window.SUBJECT_DATA["antoxi"].groups.push(...
+[
+  {
+    "id": "ch11-torsion-relations",
+    "chapter": "11",
+    "title": "11.3 Η στρεπτική ροπή και οι σχέσεις της με τις τάσεις και τις παραμορφώσεις",
+    "blurb": "Υπολογισμός διατομής και στρεπτικής ροπής σε ατράκτους."
+  },
+  {
+    "id": "ch11-shaft-calc",
+    "chapter": "11",
+    "title": "11.6 Υπολογισμός ατράκτου σε στρέψη",
+    "blurb": "Βασικές έννοιες, χαρακτηριστικά και καταπόνηση ατράκτων."
+  }
+]
+);

@@ -49,7 +49,8 @@ window.CATALOG = [
         "id": "egkatastaseis-klimatismou",
         "title": "Εγκαταστάσεις Κλιματισμού Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/egkatastaseis-klimatismou"
       },
       {
         "id": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
@@ -67,8 +68,7 @@ window.CATALOG = [
         "id": "systimata-aftokinitou",
         "title": "Συστήματα Αυτοκινήτου Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "ready",
-        "href": "#/systimata-aftokinitou"
+        "status": "soon"
       },
       {
         "id": "texnologia-elegxou-diagnoseon",

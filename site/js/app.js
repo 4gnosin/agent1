@@ -135,7 +135,14 @@ window.KIND_LABEL = {
   };
   let simulationCleanup = null;
 
-  function esc(s) {
+    /** Encode path for <img src> — το # στο όνομα αρχείου αλλιώς κόβει το URL. */
+  function imgUrl(src) {
+    if (!src) return "";
+    return String(src).split("/").map(function (part) {
+      return encodeURIComponent(part);
+    }).join("/");
+  }
+function esc(s) {
     return String(s)
       .replace(/&/g, "\u0026amp;")
       .replace(/</g, "\u0026lt;")
@@ -685,7 +692,7 @@ window.KIND_LABEL = {
       if (!src) return "";
       return (
         '<figure class="note-image"><img src="' +
-        esc(src) +
+        imgUrl(src) +
         '" alt="' +
         esc(b.alt || "") +
         '" loading="lazy">' +
@@ -1664,6 +1671,26 @@ window.KIND_LABEL = {
     inner += '<h1 style="font-size:clamp(1.7rem,4vw,2.4rem);margin-top:.35rem">' + fmtOrd(ex.title) + "</h1>";
     inner += '<p style="margin:.4rem 0 0;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;opacity:.65">' + fmtOrd(ex.code) + "</p>";
     if (ex.stem) inner += '<p style="margin-top:.7rem;opacity:.8;line-height:1.5;white-space:pre-line">' + esc(ex.stem) + "</p>";
+    // Σχήματα εκφώνησης (πάντα ορατά)
+    (function () {
+      const figs = [];
+      if (ex.image) figs.push(ex.image);
+      if (ex.images && ex.images.length) {
+        ex.images.forEach(function (src) {
+          if (figs.indexOf(src) < 0) figs.push(src);
+        });
+      }
+      if (figs.length) {
+        inner += '<div class="ex-figures" style="margin-top:1rem;display:flex;flex-direction:column;gap:.75rem">';
+        figs.forEach(function (src) {
+          inner +=
+            '<figure class="ex-figure" style="margin:0"><img src="' +
+            imgUrl(src) +
+            '" alt="Σχήμα θέματος" style="max-width:100%;height:auto;border-radius:8px;background:#fff" loading="lazy"/></figure>';
+        });
+        inner += "</div>";
+      }
+    })();
     if (ex.givens) {
       inner += '<div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.9rem">';
       ex.givens.forEach(function (g) {
@@ -1692,6 +1719,21 @@ window.KIND_LABEL = {
       }
       inner += "</section>";
     });
+
+    // Εικόνες λύσης: ΜΟΝΟ μετά τον έλεγχο
+    if (state.checked && ex.solutionImages && ex.solutionImages.length) {
+      inner +=
+        '<div class="ex-solution-figures" style="margin-top:1.2rem;padding-top:1rem;border-top:1px dashed rgb(128 128 128 / .35)">';
+      inner +=
+        '<p class="kicker" style="margin:0 0 .6rem">Σχήμα λύσης</p>';
+      ex.solutionImages.forEach(function (src) {
+        inner +=
+          '<figure class="ex-figure" style="margin:0 0 .75rem"><img src="' +
+          imgUrl(src) +
+          '" alt="Σχήμα λύσης" style="max-width:100%;height:auto;border-radius:8px;background:#fff" loading="lazy"/></figure>';
+      });
+      inner += "</div>";
+    }
 
     inner += '<div class="btn-row">';
     if (!state.checked) {
