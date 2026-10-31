@@ -81,6 +81,56 @@ def normalize_pdf_symbols(text: str) -> str:
     return text
 
 
+def sort_page_blocks_and_images(items: list[dict], page_width: float = 595.0) -> list[dict]:
+    """
+    Διατάσσει blocks και εικόνες σε φυσική αναγνωστική ροή,
+    αναγνωρίζοντας περιοχές δύο στηλών (π.χ. Στήλη Α / Στήλη Β σε πίνακες αντιστοίχισης)
+    και διατηρώντας τα στοιχεία κάθε στήλης ενιαία αντί για άναρχο ζιγκ-ζαγκ.
+    """
+    if not items:
+        return []
+
+    mid_x = page_width / 2.0
+
+    for it in items:
+        r = it["rect"]
+        is_wide = (r.x1 - r.x0 > page_width * 0.55) or (r.x0 < 120 and r.x1 > page_width * 0.65)
+        it["is_wide"] = is_wide
+        it["col"] = -1 if is_wide else (0 if r.x1 <= mid_x + 35 else 1)
+
+    items_sorted = sorted(items, key=lambda x: x["rect"].y0)
+
+    chunks = []
+    current_chunk = []
+    chunk_type = None
+
+    for it in items_sorted:
+        t = "wide" if it["is_wide"] else "column"
+        if t != chunk_type and current_chunk:
+            chunks.append((chunk_type, current_chunk))
+            current_chunk = []
+        chunk_type = t
+        current_chunk.append(it)
+    if current_chunk:
+        chunks.append((chunk_type, current_chunk))
+
+    ordered_items = []
+    for c_type, c_items in chunks:
+        if c_type == "column":
+            has_col0 = any(x["col"] == 0 for x in c_items)
+            has_col1 = any(x["col"] == 1 for x in c_items)
+            if has_col0 and has_col1:
+                # Δίστήλη διάταξη: διαβάζουμε ολόκληρη τη Στήλη Α και μετά τη Στήλη Β
+                c_items = sorted(c_items, key=lambda x: (x["col"], x["rect"].y0))
+            else:
+                c_items = sorted(c_items, key=lambda x: x["rect"].y0)
+        else:
+            c_items = sorted(c_items, key=lambda x: x["rect"].y0)
+        ordered_items.extend(c_items)
+
+    return ordered_items
+
+
 def clean_greek_pdf_text(text: str) -> str:
     """
     Καθαρίζει το εξαγόμενο κείμενο από το PDF:
@@ -121,13 +171,13 @@ def ai_normalize_formulas(raw_markdown: str, model_name: str | None = None) -> s
     χωρίς να αφαιρεί ή να αλλοιώνει το κείμενο της θεωρίας.
     """
     if genai is None or types is None:
-        print("⚠️ Η βιβλιοθήκη 'google-genai' δεν είναι διαθέσιμη. Παράλειψη AI καθαρισμού τύπων.")
+        print("[WARN] Η βιβλιοθήκη 'google-genai' δεν είναι διαθέσιμη. Παράλειψη AI καθαρισμού τύπων.")
         return raw_markdown
 
     import os
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        print("⚠️ Δεν βρέθηκε GEMINI_API_KEY. Παράλειψη AI καθαρισμού τύπων.")
+        print("[WARN] Δεν βρέθηκε GEMINI_API_KEY. Παράλειψη AI καθαρισμού τύπων.")
         return raw_markdown
 
     client = genai.Client(api_key=api_key)
@@ -147,7 +197,7 @@ def ai_normalize_formulas(raw_markdown: str, model_name: str | None = None) -> s
         "5. Επέστρεψε ΜΟΝΟ το διορθωμένο Markdown κείμενο, χωρίς επιπλέον εισαγωγές ή σχόλια."
     )
 
-    print("🤖 Εκτέλεση αυτόματης αποκατάστασης τύπων με AI (Gemini Formula Normalizer)...")
+    print("Εκτέλεση αυτόματης αποκατάστασης τύπων με AI (Gemini Formula Normalizer)...")
     try:
         response = client.models.generate_content(
             model=model,
@@ -163,8 +213,14 @@ def ai_normalize_formulas(raw_markdown: str, model_name: str | None = None) -> s
         cleaned_text = re.sub(r"\s*```$", "", cleaned_text)
         return cleaned_text.strip()
     except Exception as exc:
-        print(f"⚠️ Σφάλμα κατά τον AI καθαρισμό τύπων: {exc}. Χρήση αρχικού κειμένου.")
+        print(f"[WARN] Σφάλμα κατά τον AI καθαρισμό τύπων: {exc}. Χρήση αρχικού κειμένου.")
         return raw_markdown
+
+
+try:
+    import fitz
+except ImportError:
+    fitz = None
 
 
 def extract_chapter_from_pdf(
@@ -175,46 +231,149 @@ def extract_chapter_from_pdf(
     title: str = "",
     ai_clean: bool = False,
     model: str | None = None,
+    manifest_path: Path | str | None = None,
+    web_prefix: str = "",
 ) -> Path:
     """
     Εξάγει συγκεκριμένες σελίδες από ένα PDF σχολικού βιβλίου και τις αποθηκεύει σε Markdown.
+    Υποστηρίζει αυτόματη χωρική παρεμβολή εικόνων (spatial image interleaving) και 
+    ανίχνευση σαρωμένων θεμάτων πλήρους σελίδας όταν διατίθεται το PyMuPDF (fitz).
     Οι σελίδες είναι 1-indexed (όπως φαίνονται στον PDF reader).
     """
-    try:
-        from pypdf import PdfReader
-    except ImportError:
-        print(
-            "❌ Σφάλμα: Η βιβλιοθήκη 'pypdf' δεν είναι εγκατεστημένη.\n"
-            "Εγκαταστήστε την με: pip install pypdf",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
     src = Path(pdf_path)
     if not src.exists():
         raise FileNotFoundError(f"Το αρχείο PDF δεν βρέθηκε: {src}")
 
-    reader = PdfReader(src)
-    total_pages = len(reader.pages)
+    # Φόρτωση εικόνων από manifest.json αν υπάρχει
+    images_by_page: dict[int, list[dict]] = {}
+    m_path = Path(manifest_path) if manifest_path else None
+    if not m_path or not m_path.is_file():
+        # Αυτόματη αναζήτηση manifest στον αντίστοιχο φάκελο εικόνων αν δεν δόθηκε ρητά
+        candidate = Path("site/images")
+        for found in candidate.glob("**/manifest.json"):
+            try:
+                import json
+                m_data = json.loads(found.read_text(encoding="utf-8"))
+                if m_data.get("source_pdf") == src.name:
+                    m_path = found
+                    break
+            except Exception:
+                pass
 
-    p_start = max(1, start_page or 1)
-    p_end = min(total_pages, end_page or total_pages)
-
-    if p_start > p_end:
-        raise ValueError(f"Η αρχική σελίδα ({p_start}) είναι μεγαλύτερη από την τελική ({p_end}).")
-
-    print(f"📄 Ανάγνωση σελίδων {p_start} έως {p_end} (από σύνολο {total_pages})...")
+    if m_path and m_path.is_file():
+        import json
+        m_data = json.loads(m_path.read_text(encoding="utf-8"))
+        for img in m_data.get("images", []):
+            pno = img.get("page")
+            if pno:
+                images_by_page.setdefault(pno, []).append(img)
+        if not web_prefix:
+            gr = m_data.get("grade")
+            sb = m_data.get("subject")
+            ch = m_data.get("chapter")
+            if gr and sb and ch:
+                web_prefix = f"images/{gr}/{sb}/chapter-{int(ch):02d}"
 
     extracted_chunks: list[str] = []
     if title:
         extracted_chunks.append(f"# {title}\n")
 
-    for p_num in range(p_start, p_end + 1):
-        page = reader.pages[p_num - 1]  # 0-indexed internally
-        page_text = page.extract_text() or ""
-        cleaned = clean_greek_pdf_text(page_text)
-        if cleaned:
-            extracted_chunks.append(f"<!-- Σελίδα {p_num} -->\n{cleaned}")
+    # Χρήση PyMuPDF (fitz) για προηγμένη χωρική εξαγωγή κειμένου & εικόνων
+    if fitz is not None:
+        doc = fitz.open(src)
+        total_pages = doc.page_count
+        p_start = max(1, start_page or 1)
+        p_end = min(total_pages, end_page or total_pages)
+        if p_start > p_end:
+            raise ValueError(f"Η αρχική σελίδα ({p_start}) είναι μεγαλύτερη από την τελική ({p_end}).")
+
+        print(f"Ανάγνωση σελίδων {p_start} έως {p_end} (από σύνολο {total_pages}) μέσω PyMuPDF...")
+
+        for p_num in range(p_start, p_end + 1):
+            page = doc[p_num - 1]
+            p_imgs = images_by_page.get(p_num, [])
+            page_text = page.get_text("text").strip()
+            has_full_scan = any(img.get("is_full_page_scan") for img in p_imgs)
+
+            # Σαρωμένη σελίδα ή ολοσέλιδο διάγραμμα/χάρτης εκφώνησης χωρίς άλλο κείμενο
+            if (len(page_text) < 40 and p_imgs) or has_full_scan:
+                header_lines = []
+                for b in page.get_text("blocks"):
+                    bt = b[4].strip()
+                    if bt and b[1] < 65 and "#" in bt:
+                        prefix = "### " if bt.lower().startswith("λύση") or bt.lower().startswith("λυση") else "## "
+                        header_lines.append(prefix + clean_greek_pdf_text(bt))
+                img_tags = []
+                for img in p_imgs:
+                    f_name = img["file"]
+                    src_url = f"{web_prefix}/{f_name}" if web_prefix else f_name
+                    img_tags.append(f"![{f_name}]({src_url})")
+                img_block = "\n\n".join(header_lines + img_tags)
+                is_inherited_chart = any(img.get("bank_code_inherited") for img in p_imgs)
+                comment_lbl = (
+                    f"Σελίδα {p_num}: Διάγραμμα / Χάρτης εκφώνησης θέματος"
+                    if is_inherited_chart
+                    else f"Σελίδα {p_num}: Σαρωμένη σελίδα θέματος (εικόνα εκφώνησης)"
+                )
+                extracted_chunks.append(f"<!-- {comment_lbl} -->\n\n{img_block}")
+                continue
+
+            blocks = page.get_text("blocks")
+            img_rects = [fitz.Rect(img["bbox"]) for img in p_imgs if img.get("bbox")]
+            raw_items = []
+            for b in blocks:
+                t = b[4].strip()
+                if not t:
+                    continue
+                r = fitz.Rect(b[:4])
+                # Καταστολή κειμένων (π.χ. 1, 2, 3, 4) που είναι ήδη overlays μέσα στην εικόνα
+                if any(ir.contains(r) or (ir.intersects(r) and (ir & r).get_area() > 0.5 * r.get_area()) for ir in img_rects):
+                    continue
+                cleaned = clean_greek_pdf_text(t)
+                if b[1] < 65 and "#" in cleaned:
+                    prefix = "### " if cleaned.lower().startswith("λύση") or cleaned.lower().startswith("λυση") else "## "
+                    content = f"{prefix}{cleaned}"
+                else:
+                    content = cleaned
+                raw_items.append({"rect": r, "type": "text", "content": content})
+
+            for img in p_imgs:
+                bbox = img.get("bbox") or [0, 0, 0, 0]
+                r = fitz.Rect(bbox)
+                f_name = img["file"]
+                src_url = f"{web_prefix}/{f_name}" if web_prefix else f_name
+                anchor = f" ({img.get('question_anchor')})" if img.get("question_anchor") else ""
+                tag = f"![{f_name}{anchor}]({src_url})"
+                raw_items.append({"rect": r, "type": "image", "content": tag})
+
+            ordered = sort_page_blocks_and_images(raw_items, page_width=page.rect.width)
+            page_content = "\n\n".join(it["content"] for it in ordered if it["content"]).strip()
+            if page_content:
+                extracted_chunks.append(f"<!-- Σελίδα {p_num} -->\n\n{page_content}")
+
+        doc.close()
+    else:
+        # Fallback μέσω pypdf
+        try:
+            from pypdf import PdfReader
+        except ImportError:
+            print("[ERROR] Σφάλμα: Απαιτείται 'pymupdf' ή 'pypdf'.", file=sys.stderr)
+            sys.exit(1)
+
+        reader = PdfReader(src)
+        total_pages = len(reader.pages)
+        p_start = max(1, start_page or 1)
+        p_end = min(total_pages, end_page or total_pages)
+        if p_start > p_end:
+            raise ValueError(f"Η αρχική σελίδα ({p_start}) είναι μεγαλύτερη από την τελική ({p_end}).")
+
+        print(f"Ανάγνωση σελίδων {p_start} έως {p_end} (από σύνολο {total_pages}) μέσω pypdf...")
+        for p_num in range(p_start, p_end + 1):
+            page = reader.pages[p_num - 1]
+            page_text = page.extract_text() or ""
+            cleaned = clean_greek_pdf_text(page_text)
+            if cleaned:
+                extracted_chunks.append(f"<!-- Σελίδα {p_num} -->\n{cleaned}")
 
     full_markdown = "\n\n".join(extracted_chunks)
 
@@ -225,9 +384,32 @@ def extract_chapter_from_pdf(
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(full_markdown, encoding="utf-8")
 
-    print(f"✅ Επιτυχής εξαγωγή! Το αρχείο αποθηκεύτηκε στο: {dest}")
+    print(f"Επιτυχής εξαγωγή! Το αρχείο αποθηκεύτηκε στο: {dest}")
     if ai_clean:
-        print("✨ Οι μαθηματικοί τύποι αποκαταστάθηκαν αυτόματα σε έγκυρο LaTeX ($/$$)!")
+        print("Οι μαθηματικοί τύποι αποκαταστάθηκαν αυτόματα σε έγκυρο LaTeX ($/$$)!")
     else:
-        print(f"📊 Σύνολο χαρακτήρων: {len(full_markdown)} (καθαρό κείμενο, 0 AI tokens).")
+        print(f"Σύνολο χαρακτήρων: {len(full_markdown)} (καθαρό κείμενο, 0 AI tokens).")
     return dest
+
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Εξαγωγή κεφαλαίων από PDF σε Markdown με εικόνες & τύπους.")
+    parser.add_argument("pdf", help="Διαδρομή του αρχείου PDF")
+    parser.add_argument("-o", "--output", required=True, help="Διαδρομή αρχείου εξόδου Markdown (.md)")
+    parser.add_argument("--start", type=int, default=None, help="Αρχική σελίδα")
+    parser.add_argument("--end", type=int, default=None, help="Τελική σελίδα")
+    parser.add_argument("--title", default="", help="Τίτλος κεφαλαίου")
+    parser.add_argument("--manifest", default=None, help="Διαδρομή manifest.json εξαγόμενων εικόνων")
+    parser.add_argument("--ai-clean", action="store_true", help="Εκτέλεση AI εξομάλυνσης μαθηματικών τύπων")
+    args = parser.parse_args()
+
+    extract_chapter_from_pdf(
+        args.pdf,
+        args.output,
+        start_page=args.start,
+        end_page=args.end,
+        title=args.title,
+        manifest_path=args.manifest,
+        ai_clean=args.ai_clean,
+    )

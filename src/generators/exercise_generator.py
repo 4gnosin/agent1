@@ -71,14 +71,51 @@ def _js_push_prefix(route_id: str, kind: str) -> str:
     )
 
 
-def exercise_js_filename(chapter: int, group_id: str) -> str:
-    """Όνομα αρχείου ασκήσεων με αριθμό κεφαλαίου: ch05-first-law.js"""
-    slug = group_id.strip()
-    if re.match(rf"^ch0*{int(chapter)}[-_]", slug, flags=re.IGNORECASE):
-        return f"{slug}.js"
-    if re.match(r"^ch\d{1,2}[-_]", slug, flags=re.IGNORECASE):
-        return f"{slug}.js"
-    return f"ch{int(chapter):02d}-{slug}.js"
+def normalize_subchapter_group_id(chapter: int, group_id: str, title: str = "") -> str:
+    """
+    Διασφαλίζει ότι το id της ομάδας (και το αντίστοιχο .js αρχείο)
+    περιλαμβάνει τόσο το κεφάλαιο όσο και το υποκεφάλαιο με 2 ψηφία συν περιγραφή:
+    π.χ. ch02-04-psychrometry, ch02-10-exartimata, ch08-02-rolos-klimatistikon-monadon
+    """
+    slug = (group_id or "").strip()
+
+    # 1. Ελέγχουμε αν υπάρχει ήδη πλήρης μορφή chNN-SS-slug (ή chN-S-slug)
+    m_full = re.match(r"^ch0*(\d{1,2})[-_]0*(\d{1,2})[-_](.+)$", slug, flags=re.IGNORECASE)
+    if m_full:
+        c_num = int(m_full.group(1))
+        s_num = int(m_full.group(2))
+        sub_slug = m_full.group(3).strip("-_")
+        return f"ch{c_num:02d}-{s_num:02d}-{sub_slug}"
+
+    # 2. Αναζήτηση υποκεφαλαίου στον τίτλο (π.χ. "2.4 Η αποτύπωση...", "2.10 ...")
+    sub_num = None
+    if title:
+        m_title = re.search(r"\b(\d{1,2})\.(\d{1,2})\b", title)
+        if m_title:
+            sub_num = int(m_title.group(2))
+
+    # 3. Αν δεν βρέθηκε στον τίτλο, αναζήτηση αριθμού μετά το chNN (π.χ. ch02-4-psychrometry)
+    if sub_num is None:
+        m_id_num = re.match(r"^ch0*\d{1,2}[-_](\d{1,2})[-_](.+)$", slug, flags=re.IGNORECASE)
+        if m_id_num:
+            sub_num = int(m_id_num.group(1))
+            slug = m_id_num.group(2)
+
+    # Καθαρισμός του slug από τυχόν προθέματα chNN-
+    cleaned_slug = re.sub(r"^ch0*\d{1,2}[-_]?", "", slug, flags=re.IGNORECASE).strip("-_")
+    if not cleaned_slug or cleaned_slug.isdigit():
+        cleaned_slug = "section"
+
+    if sub_num is not None:
+        return f"ch{int(chapter):02d}-{sub_num:02d}-{cleaned_slug}"
+
+    return f"ch{int(chapter):02d}-{cleaned_slug}"
+
+
+def exercise_js_filename(chapter: int, group_id: str, title: str = "") -> str:
+    """Όνομα αρχείου ασκήσεων με αριθμό κεφαλαίου και υποκεφαλαίου: ch02-04-psychrometry.js ή ch02-10-....js"""
+    norm = normalize_subchapter_group_id(chapter, group_id, title)
+    return f"{norm}.js"
 
 
 class ExerciseGenerator:
@@ -268,11 +305,37 @@ class ExerciseGenerator:
                 "ΠΗΓΗ ΑΠΟ PDF: Το κείμενο μπορεί να είναι σπασμένο (κλάσματα σε πολλές γραμμές, "
                 "παράξενα σύμβολα, κομμένες λέξεις). ΜΗΝ επινοείς φυσική ή αριθμούς που δεν φαίνονται "
                 "ρητά στην εκφώνηση ή στην ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ. Στήριξε calc answers ΜΟΝΟ σε εμφανείς "
-                "αριθμούς της λύσης/εκφώνησης. formula και hint σε απλό κείμενο/Unicode (όχι raw LaTeX). "
-                "LaTeX ΜΟΝΟ μέσα σε explain με \\( ... \\). Αν ένα μέρος είναι σχέδιο/διάγραμμα, βάλε "
-                "την εκφώνηση + ό,τι ελέγχεται αριθμητικά ή με mc — ΜΗΝ παραλείψεις ολόκληρο το θέμα.\n"
-                "Διάβασε ΥΠΟΧΡΕΩΤΙΚΑ την πρώτη σελίδα κάθε εκφώνησης: υποενότητα ύλης και κωδικός "
-                "Τράπεζας (π.χ. #18622). Ένα θέμα = μία άσκηση με ΟΛΑ τα μέρη στα items, layout unified.\n"
+                "αριθμούς της λύσης/εκφώνησης.\n"
+                "ΚΡΙΣΙΜΟΙ ΚΑΝΟΝΕΣ ΠΙΣΤΗΣ ΑΝΤΙΓΡΑΦΗΣ & ΔΟΜΗΣ:\n"
+                "1. ΠΙΣΤΗ ΑΝΤΙΓΡΑΦΗ ΕΚΦΩΝΗΣΗΣ: Απαγορεύεται να παραφράζεις ή να κόβεις την εκφώνηση. "
+                "Αν υπάρχει εισαγωγικό κείμενο/δεδομένα πριν τα υποερωτήματα, βάλ' το αυτούσιο στο 'stem'. "
+                "Χρησιμοποίησε LaTeX με $ ... $ για όλα τα σύμβολα/μεταβλητές (π.χ. $t_{db}$, $\\phi$, $\\Delta h_L$).\n"
+                "2. ΑΡΙΘΜΗΣΗ ΥΠΟΕΡΩΤΗΜΑΤΩΝ ('subq'): Σε ΚΑΘΕ item βάλε υποχρεωτικά το πεδίο 'subq' με τον "
+                "ακριβή κωδικό υποερωτήματος του PDF (π.χ. '2.1', '2.2', '2.3', '4.1', '4.2', '4.3', '4.4' ή 'α', 'β', 'γ', 'δ'). "
+                "Όταν το 2.1 έχει προτάσεις Σωστό/Λάθος (α, β, γ, δ) ή ένα υποερώτημα (π.χ. 4.3 πίνακας) έχει πολλαπλές τιμές, "
+                "δώσε σε ΟΛΑ τα επιμέρους items το ΙΔΙΟ 'subq' (π.χ. '2.1' ή '4.3') και βάλε στο πρώτο item 'subqPrompt' "
+                "με την εκφώνηση του υποερωτήματος, ώστε να εμφανίζονται ενιαία και να ΜΗΝ σπάνε σε πολλά μικρά ερωτήματα!\n"
+                "3. ΕΡΩΤΗΣΕΙΣ ΑΝΑΠΤΥΞΗΣ / ΑΙΤΙΟΛΟΓΗΣΗΣ (π.χ. '2.2 Με βάση τον ψυχρομετρικό χάρτη να αιτιολογήσετε την απάντηση...', "
+                "'Δικαιολογήστε την απάντησή σας στο γ.', 'Να εξηγήσετε...'): ΑΠΑΓΟΡΕΥΕΤΑΙ να παραλείπονται! "
+                "Δημιούργησε ξεχωριστό item με 'kind': 'mc', 'openEnded': true, 'subq': τον αριθμό του (π.χ. '2.2'), "
+                "'prompt': την ακριβή εκφώνηση, και σωστή απάντηση την ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ.\n"
+                "4. ΣΧΕΔΙΑΣΤΙΚΑ ΕΡΩΤΗΜΑΤΑ ΧΑΡΤΗ (π.χ. '4.1 Εντοπίστε πάνω στον χάρτη το σημείο...', "
+                "'4.2 ...εντοπίστε το νέο σημείο και σχεδιάστε τη μεταβολή'): ΜΗΝ τα παραλείπεις! "
+                "Βάλ' τα ως ξεχωριστά items με 'kind': 'open', 'subq': '4.1' / '4.2', 'prompt': την ακριβή εκφώνηση του PDF, "
+                "και 'explain': την επεξήγηση της λύσης.\n"
+                "5. ΚΕΦΑΛΙΔΕΣ PDF: Η κεφαλίδα '## Θέμα #ΚΩΔΙΚΟΣ | Υποενότητα' δείχνει την αρχή του θέματος, τον ακριβή κωδικό "
+                "και την υποενότητα, ενώ η κεφαλίδα '### Λύση #ΚΩΔΙΚΟΣ' δείχνει πού ξεκινά η λύση.\n"
+                "6. ΟΝΟΜΑΤΟΔΟΣΙΑ ΥΠΟΕΝΟΤΗΤΩΝ (groups[].id):\n"
+                "Το id κάθε υποενότητας ΠΡΕΠΕΙ υποχρεωτικά να έχει τη μορφή: "
+                "'ch{Κεφάλαιο:02d}-{Υποκεφάλαιο:02d}-{slug}' (με διψήφιο αριθμό κεφαλαίου και υποκεφαλαίου)!\n"
+                "Παραδείγματα:\n"
+                "- Για την ενότητα '2.4 Η αποτύπωση...': 'ch02-04-psychrometry' (παράγει το αρχείο ch02-04-psychrometry.js).\n"
+                "- Για την ενότητα '2.10 Ειδικές διατάξεις...': 'ch02-10-eidikes-diataxeis' (παράγει το αρχείο ch02-10-eidikes-diataxeis.js).\n"
+                "- Για την ενότητα '8.2 Ο ρόλος...': 'ch08-02-rolos-klimatistikon-monadon' (παράγει το ch08-02-rolos-klimatistikon-monadon.js).\n"
+                "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match) ΜΕ ΣΧΗΜΑ:\n"
+                "Όταν η Στήλη Α αναφέρεται σε σχήμα/διάγραμμα με αριθμημένα βέλη/γραμμές (π.χ. 1, 2, 3, 4):\n"
+                "- Στο 'left', τα κείμενα 'text' πρέπει να είναι ΑΥΣΤΗΡΑ ΚΑΙ ΜΟΝΟ τα ονόματα/αριθμοί όπως ορίζονται στην εκφώνηση (π.χ. 'Γραμμή 1' ή απλώς '1', 'Γραμμή 2' κ.ο.κ.).\n"
+                "- ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
                 "Στο code/title γράψε απλά «Θέμα 2ο · #18622» (ΧΩΡΙΣ <sup>).\n"
                 "sourceOrder = σειρά στην πηγή. answer/pairs από την ενδεικτική λύση — ποτέ εικασίες.\n"
                 "stem: ΜΟΝΟ ουσιαστική εκφώνηση/δεδομένα ΠΡΙΝ τα υποερωτήματα. "
@@ -280,13 +343,13 @@ class ExerciseGenerator:
                 "αν δεν υπάρχει άλλη εκφώνηση, ΜΗΝ βάλεις καθόλου το πεδίο stem.\n"
                 "item.prompt = ολόκληρο το υποερώτημα. Κάθε item έχει explain. calc: answer + unit.\n\n"
                 "Επέστρεψε αποκλειστικά ένα JSON object με σχήμα:\n"
-                '{"groups":[{"id":"ch05-first-law","title":"5.1 Πρώτος Θερμοδυναμικός Νόμος",'
+                '{"groups":[{"id":"ch02-04-psychrometry","title":"2.4 Η αποτύπωση των θερμοδυναμικών χαρακτηριστικών",'
                 '"blurb":"..."}],'
-                '"exercises":[{"id":"ch05-18622","group":"ch05-first-law","kind":"tf",'
-                '"layout":"unified","bankCode":"18622","code":"Θέμα 2ο · #18622",'
-                '"title":"#18622 — Θέμα 2ο","units":25,"theory":"...","sourceOrder":1,'
+                '"exercises":[{"id":"ch02-23768","group":"ch02-04-psychrometry","kind":"tf",'
+                '"layout":"unified","bankCode":"23768","code":"Θέμα 2ο · #23768",'
+                '"title":"#23768 — Θέμα 2ο","units":25,"theory":"...","sourceOrder":1,'
                 '"items":[{"kind":"tf","prompt":"...","answer":true,"explain":"..."},'
-                '{"kind":"match","prompt":"...","left":[],"right":[],"pairs":{},'
+                '{"kind":"match","prompt":"...","left":[{"id":"1","text":"Γραμμή 1"}],"right":[{"id":"a","text":"..."}],"pairs":{"1":"a"},'
                 '"explain":"..."}]}],"omitted":[]}\n\n'
                 f"ΠΗΓΗ ΑΣΚΗΣΕΩΝ ΚΑΙ ΛΥΣΕΩΝ:\n{content}"
             ),
@@ -316,6 +379,24 @@ class ExerciseGenerator:
 
         if any(not isinstance(group, dict) for group in groups):
             raise ValueError("Κάθε ομάδα πρέπει να είναι αντικείμενο JSON.")
+
+        # Κανονικοποίηση group ids (π.χ. ch02-04-..., ch02-10-...) και ενημέρωση των exercises[].group
+        id_mapping = {}
+        for group in groups:
+            old_id = str(group.get("id") or "").strip()
+            title = str(group.get("title") or "").strip()
+            new_id = normalize_subchapter_group_id(chapter, old_id, title)
+            group["id"] = new_id
+            if old_id and old_id != new_id:
+                id_mapping[old_id] = new_id
+
+        if id_mapping and isinstance(exercises, list):
+            for exercise in exercises:
+                if isinstance(exercise, dict):
+                    ex_grp = exercise.get("group")
+                    if ex_grp in id_mapping:
+                        exercise["group"] = id_mapping[ex_grp]
+
         group_ids = [group.get("id") for group in groups]
         for group_id in group_ids:
             if not isinstance(group_id, str) or not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", group_id):
@@ -351,7 +432,7 @@ class ExerciseGenerator:
             items = exercise.get("items")
             if not isinstance(items, list) or not items:
                 raise ValueError(f"Η άσκηση '{exercise_id}' δεν περιέχει ερωτήματα.")
-            allowed_kinds = {"mc", "tf", "match", "blank", "calc"}
+            allowed_kinds = {"mc", "tf", "match", "blank", "calc", "open"}
             for item in items:
                 if not isinstance(item, dict) or item.get("kind") not in allowed_kinds:
                     raise ValueError(
@@ -359,8 +440,15 @@ class ExerciseGenerator:
                     )
                 if not item.get("explain"):
                     raise ValueError(f"Η άσκηση '{exercise_id}' περιέχει ερώτημα χωρίς explain.")
-            first_kind = items[0].get("kind")
-            exercise["kind"] = first_kind if first_kind in allowed_kinds else exercise.get("kind")
+                # Καθαρισμός τυχόν αυθαίρετων επεξηγήσεων σε παρένθεση στη Στήλη Α ασκήσεων match (π.χ. 'Γραμμή 1 (καμπύλη)')
+                if item.get("kind") == "match" and isinstance(item.get("left"), list):
+                    for l in item["left"]:
+                        if isinstance(l, dict) and "text" in l:
+                            cleaned_txt = re.sub(r"\s*\([^)]*\)$", "", str(l["text"])).strip()
+                            if cleaned_txt:
+                                l["text"] = cleaned_txt
+            first_interactive = next((it.get("kind") for it in items if it.get("kind") != "open"), items[0].get("kind"))
+            exercise["kind"] = first_interactive if first_interactive in allowed_kinds else exercise.get("kind")
             exercise["layout"] = "unified"
             # Αφαίρεση περιττού stem: κενό ή μόνο «Θέμα Xο» / «Θέμα X<sup>ο</sup>»
             stem = exercise.get("stem")

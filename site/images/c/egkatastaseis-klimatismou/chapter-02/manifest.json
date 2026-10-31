@@ -9,24 +9,12 @@
     "min_size": 80,
     "min_area": 15000,
     "repeat_threshold": 4,
-    "render_empty_pages": true,
+    "render_empty_pages": false,
     "dpi": 160,
     "crop": true,
     "vector_threshold": 12
   },
   "images": [
-    {
-      "file": "c_egkatastaseis-klimatismou_ch02_#23653_fig01.png",
-      "bank_code": "23653",
-      "role": "fig",
-      "page": 2,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
-    },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23768_fig01.png",
       "bank_code": "23768",
@@ -37,7 +25,17 @@
       "height": 533,
       "sha1": "d051f72169a3",
       "bank_code_inherited": false,
-      "xref": 94
+      "xref": 94,
+      "bbox": [
+        72.7,
+        247.7,
+        316.7,
+        421.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Θερμοκρασία σημείου δρόσου",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23770_fig01.png",
@@ -49,7 +47,17 @@
       "height": 1370,
       "sha1": "5a33a58762ec",
       "bank_code_inherited": true,
-      "xref": 274
+      "xref": 274,
+      "bbox": [
+        70.9,
+        70.9,
+        519.2,
+        728.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23770_sol01.png",
@@ -61,19 +69,17 @@
       "height": 1091,
       "sha1": "05a40d7fa215",
       "bank_code_inherited": false,
-      "xref": 280
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch02_#23824_fig01.png",
-      "bank_code": "23824",
-      "role": "fig",
-      "page": 12,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
+      "xref": 280,
+      "bbox": [
+        70.9,
+        114.8,
+        524.4,
+        423.9
+      ],
+      "question_anchor": null,
+      "text_before": "Θέμα 4o",
+      "text_after": "Αρχικά βρίσκουμε το σημείο ακολουθώντας τις γραμμές των θερμοκρασιών υγρού και ξηρού",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23828_fig01.png",
@@ -85,19 +91,39 @@
       "height": 392,
       "sha1": "8c356cd71c27",
       "bank_code_inherited": false,
-      "xref": 412
+      "xref": 412,
+      "bbox": [
+        173.7,
+        422.5,
+        423.1,
+        612.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "τα θερμοδυναμικά χαρακτηριστικά του αέρα, που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23894_fig01.png",
       "bank_code": "23894",
       "role": "fig",
-      "page": 18,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
+      "page": 19,
+      "kind": "embedded",
+      "width": 934,
+      "height": 1370,
+      "sha1": "5a33a58762ec",
+      "bank_code_inherited": true,
+      "xref": 621,
+      "bbox": [
+        90.0,
+        72.0,
+        505.3,
+        681.1
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23894_sol01.png",
@@ -109,7 +135,39 @@
       "height": 665,
       "sha1": "2577ca7f3358",
       "bank_code_inherited": false,
-      "xref": 627
+      "xref": 627,
+      "bbox": [
+        90.0,
+        137.9,
+        381.0,
+        563.2
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.1.    4.2",
+      "text_after": "4.3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch02_#23825_fig01.png",
+      "bank_code": "23825",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 934,
+      "height": 1370,
+      "sha1": "5a33a58762ec",
+      "bank_code_inherited": true,
+      "xref": 707,
+      "bbox": [
+        70.9,
+        70.9,
+        519.2,
+        728.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23825_sol01.png",
@@ -121,31 +179,17 @@
       "height": 640,
       "sha1": "29a214f65bf9",
       "bank_code_inherited": false,
-      "xref": 713
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch02_#23849_sol01.png",
-      "bank_code": "23849",
-      "role": "sol",
-      "page": 25,
-      "kind": "crop-render",
-      "reason": "keyword",
-      "width": 1324,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch02_#23871_fig01.png",
-      "bank_code": "23871",
-      "role": "fig",
-      "page": 26,
-      "kind": "crop-render",
-      "reason": "keyword",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
+      "xref": 713,
+      "bbox": [
+        72.4,
+        136.8,
+        526.1,
+        443.1
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.1 - 4.2",
+      "text_after": "4.3",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23871_sol01.png",
@@ -157,7 +201,39 @@
       "height": 549,
       "sha1": "4e637e2dcf7a",
       "bank_code_inherited": false,
-      "xref": 898
+      "xref": 898,
+      "bbox": [
+        91.5,
+        115.9,
+        506.5,
+        363.9
+      ],
+      "question_anchor": null,
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch02_#23771_fig01.png",
+      "bank_code": "23771",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 934,
+      "height": 1370,
+      "sha1": "5a33a58762ec",
+      "bank_code_inherited": true,
+      "xref": 978,
+      "bbox": [
+        70.9,
+        70.9,
+        519.2,
+        728.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23771_sol01.png",
@@ -169,7 +245,39 @@
       "height": 877,
       "sha1": "f81bf7a68cb2",
       "bank_code_inherited": false,
-      "xref": 984
+      "xref": 984,
+      "bbox": [
+        70.9,
+        114.8,
+        524.4,
+        409.4
+      ],
+      "question_anchor": null,
+      "text_before": "Θέμα 4o",
+      "text_after": "Αρχικά βρίσκουμε τα σημεία 1 και 2 πάνω στον ψυχρομετρικό χάρτη με βάση τα δεδομένα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch02_#23811_fig01.png",
+      "bank_code": "23811",
+      "role": "fig",
+      "page": 34,
+      "kind": "embedded",
+      "width": 934,
+      "height": 1370,
+      "sha1": "5a33a58762ec",
+      "bank_code_inherited": true,
+      "xref": 1152,
+      "bbox": [
+        70.9,
+        70.9,
+        519.2,
+        728.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch02_#23811_sol01.png",
@@ -181,21 +289,49 @@
       "height": 945,
       "sha1": "6b98a5c10523",
       "bank_code_inherited": false,
-      "xref": 1158
+      "xref": 1158,
+      "bbox": [
+        70.9,
+        136.8,
+        524.4,
+        446.1
+      ],
+      "question_anchor": null,
+      "text_before": "Θέμα 4o",
+      "text_after": "Αρχικά βρίσκουμε το σημείο 1 πάνω στον ψυχρομετρικό χάρτη με βάση τα δεδομένα που",
+      "is_full_page_scan": false
     }
   ],
   "by_bank_code": {
-    "23653": {
-      "fig": [
-        "c_egkatastaseis-klimatismou_ch02_#23653_fig01.png"
-      ],
-      "sol": []
-    },
     "23768": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch02_#23768_fig01.png"
       ],
-      "sol": []
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23768_fig01.png",
+          "bank_code": "23768",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 751,
+          "height": 533,
+          "sha1": "d051f72169a3",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            72.7,
+            247.7,
+            316.7,
+            421.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Θερμοκρασία σημείου δρόσου",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
     },
     "23770": {
       "fig": [
@@ -203,50 +339,274 @@
       ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23770_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23770_fig01.png",
+          "bank_code": "23770",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 934,
+          "height": 1370,
+          "sha1": "5a33a58762ec",
+          "bank_code_inherited": true,
+          "xref": 274,
+          "bbox": [
+            70.9,
+            70.9,
+            519.2,
+            728.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23770_sol01.png",
+          "bank_code": "23770",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 1600,
+          "height": 1091,
+          "sha1": "05a40d7fa215",
+          "bank_code_inherited": false,
+          "xref": 280,
+          "bbox": [
+            70.9,
+            114.8,
+            524.4,
+            423.9
+          ],
+          "question_anchor": null,
+          "text_before": "Θέμα 4o",
+          "text_after": "Αρχικά βρίσκουμε το σημείο ακολουθώντας τις γραμμές των θερμοκρασιών υγρού και ξηρού",
+          "is_full_page_scan": false
+        }
       ]
     },
     "23771": {
-      "fig": [],
+      "fig": [
+        "c_egkatastaseis-klimatismou_ch02_#23771_fig01.png"
+      ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23771_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23771_fig01.png",
+          "bank_code": "23771",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 934,
+          "height": 1370,
+          "sha1": "5a33a58762ec",
+          "bank_code_inherited": true,
+          "xref": 978,
+          "bbox": [
+            70.9,
+            70.9,
+            519.2,
+            728.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23771_sol01.png",
+          "bank_code": "23771",
+          "role": "sol",
+          "page": 30,
+          "kind": "embedded",
+          "width": 1350,
+          "height": 877,
+          "sha1": "f81bf7a68cb2",
+          "bank_code_inherited": false,
+          "xref": 984,
+          "bbox": [
+            70.9,
+            114.8,
+            524.4,
+            409.4
+          ],
+          "question_anchor": null,
+          "text_before": "Θέμα 4o",
+          "text_after": "Αρχικά βρίσκουμε τα σημεία 1 και 2 πάνω στον ψυχρομετρικό χάρτη με βάση τα δεδομένα",
+          "is_full_page_scan": false
+        }
       ]
     },
     "23811": {
-      "fig": [],
+      "fig": [
+        "c_egkatastaseis-klimatismou_ch02_#23811_fig01.png"
+      ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23811_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23811_fig01.png",
+          "bank_code": "23811",
+          "role": "fig",
+          "page": 34,
+          "kind": "embedded",
+          "width": 934,
+          "height": 1370,
+          "sha1": "5a33a58762ec",
+          "bank_code_inherited": true,
+          "xref": 1152,
+          "bbox": [
+            70.9,
+            70.9,
+            519.2,
+            728.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23811_sol01.png",
+          "bank_code": "23811",
+          "role": "sol",
+          "page": 35,
+          "kind": "embedded",
+          "width": 1386,
+          "height": 945,
+          "sha1": "6b98a5c10523",
+          "bank_code_inherited": false,
+          "xref": 1158,
+          "bbox": [
+            70.9,
+            136.8,
+            524.4,
+            446.1
+          ],
+          "question_anchor": null,
+          "text_before": "Θέμα 4o",
+          "text_after": "Αρχικά βρίσκουμε το σημείο 1 πάνω στον ψυχρομετρικό χάρτη με βάση τα δεδομένα που",
+          "is_full_page_scan": false
+        }
       ]
     },
-    "23824": {
-      "fig": [
-        "c_egkatastaseis-klimatismou_ch02_#23824_fig01.png"
-      ],
-      "sol": []
-    },
     "23825": {
-      "fig": [],
+      "fig": [
+        "c_egkatastaseis-klimatismou_ch02_#23825_fig01.png"
+      ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23825_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23825_fig01.png",
+          "bank_code": "23825",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 934,
+          "height": 1370,
+          "sha1": "5a33a58762ec",
+          "bank_code_inherited": true,
+          "xref": 707,
+          "bbox": [
+            70.9,
+            70.9,
+            519.2,
+            728.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23825_sol01.png",
+          "bank_code": "23825",
+          "role": "sol",
+          "page": 23,
+          "kind": "embedded",
+          "width": 949,
+          "height": 640,
+          "sha1": "29a214f65bf9",
+          "bank_code_inherited": false,
+          "xref": 713,
+          "bbox": [
+            72.4,
+            136.8,
+            526.1,
+            443.1
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.1 - 4.2",
+          "text_after": "4.3",
+          "is_full_page_scan": false
+        }
       ]
     },
     "23828": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch02_#23828_fig01.png"
       ],
-      "sol": []
-    },
-    "23849": {
-      "fig": [],
-      "sol": [
-        "c_egkatastaseis-klimatismou_ch02_#23849_sol01.png"
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23828_fig01.png",
+          "bank_code": "23828",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 537,
+          "height": 392,
+          "sha1": "8c356cd71c27",
+          "bank_code_inherited": false,
+          "xref": 412,
+          "bbox": [
+            173.7,
+            422.5,
+            423.1,
+            612.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "τα θερμοδυναμικά χαρακτηριστικά του αέρα, που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
       ]
     },
     "23871": {
-      "fig": [
-        "c_egkatastaseis-klimatismou_ch02_#23871_fig01.png"
-      ],
+      "fig": [],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23871_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23871_sol01.png",
+          "bank_code": "23871",
+          "role": "sol",
+          "page": 27,
+          "kind": "embedded",
+          "width": 918,
+          "height": 549,
+          "sha1": "4e637e2dcf7a",
+          "bank_code_inherited": false,
+          "xref": 898,
+          "bbox": [
+            91.5,
+            115.9,
+            506.5,
+            363.9
+          ],
+          "question_anchor": null,
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        }
       ]
     },
     "23894": {
@@ -255,6 +615,52 @@
       ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch02_#23894_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23894_fig01.png",
+          "bank_code": "23894",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 934,
+          "height": 1370,
+          "sha1": "5a33a58762ec",
+          "bank_code_inherited": true,
+          "xref": 621,
+          "bbox": [
+            90.0,
+            72.0,
+            505.3,
+            681.1
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch02_#23894_sol01.png",
+          "bank_code": "23894",
+          "role": "sol",
+          "page": 20,
+          "kind": "embedded",
+          "width": 455,
+          "height": 665,
+          "sha1": "2577ca7f3358",
+          "bank_code_inherited": false,
+          "xref": 627,
+          "bbox": [
+            90.0,
+            137.9,
+            381.0,
+            563.2
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.1.    4.2",
+          "text_after": "4.3.",
+          "is_full_page_scan": false
+        }
       ]
     }
   }

@@ -16,6 +16,9 @@
   --wrong: #e07a5f;
   --font-serif: "EB Garamond", "Noto Serif", "Times New Roman", Palatino, serif;
   --font-sans: "Source Sans 3", "Segoe UI", Calibri, system-ui, sans-serif;
+  /* Μεγέθη γραμματοσειράς επικεφαλίδας άσκησης */
+  --fs-exercise-kicker: 0.95rem;
+  --fs-exercise-title: clamp(2.1rem, 4.6vw, 2.85rem);
   --shadow-paper: 0 0 0 1px rgb(26 23 20 / 0.06), 0 10px 24px -12px rgb(26 23 20 / 0.18);
   --shadow-board: 0 0 0 1px rgb(230 224 208 / 0.08), inset 0 0 80px rgb(0 0 0 / 0.28);
 }
@@ -391,4 +394,37 @@ color: var(--copper);
   line-height: 0;
   letter-spacing: 0;
   margin-left: -0.02em;
+}
+
+
+/* ========================================================== */
+/* Επικεφαλίδα Κάρτας Άσκησης (Universal Exercise Header)    */
+/* ========================================================== */
+.exercise-header-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 0.5rem;
+  font-size: var(--fs-exercise-kicker, 0.95rem);
+  color: var(--copper);
+}
+.exercise-header-kicker .subject-sub {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+.exercise-header-kicker .kind-units {
+  opacity: 0.88;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.88em;
+}
+.exercise-main-title {
+  font-size: var(--fs-exercise-title, clamp(2.1rem, 4.6vw, 2.85rem));
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin: 0.4rem 0 0;
+  line-height: 1.25;
 }

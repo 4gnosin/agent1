@@ -254,7 +254,7 @@ class SiteValidator:
                     errors.append(f"Exercise #{idx} (id: {ex.get('id', 'άγνωστο')}): Λείπει το '{field}'.")
 
             kind = ex.get("kind")
-            if kind not in ("mc", "tf", "match", "blank", "calc"):
+            if kind not in ("mc", "tf", "match", "blank", "calc", "open"):
                 errors.append(f"Exercise #{idx}: Μη έγκυρο είδος άσκησης '{kind}'.")
 
             items = ex.get("items", [])
@@ -267,7 +267,7 @@ class SiteValidator:
                     errors.append(f"Exercise #{idx}, Item #{i_idx}: Το ερώτημα πρέπει να είναι αντικείμενο.")
                     continue
                 item_kind = item.get("kind")
-                if item_kind not in ("mc", "tf", "match", "blank", "calc"):
+                if item_kind not in ("mc", "tf", "match", "blank", "calc", "open"):
                     errors.append(f"Exercise #{idx}, Item #{i_idx}: Μη έγκυρο είδος άσκησης '{item_kind}'.")
                     continue
                 if "explain" not in item:

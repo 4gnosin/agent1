@@ -10,6 +10,13 @@ import re
 import sys
 from pathlib import Path
 
+# Fix Windows console charmap encoding
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="backslashreplace")
+
+
 # Επιτρέπει εκτέλεση είτε ως script (python src/cli.py) είτε ως module (python -m src.cli)
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -763,17 +770,7 @@ def process_inbox_command(args: argparse.Namespace) -> None:
 
         try:
             if source.suffix.lower() == ".pdf":
-                print("   📄 PDF → Markdown (τοπικός καθαρισμός συμβόλων, 0 AI tokens)...")
-                extract_chapter_from_pdf(
-                    pdf_path=source,
-                    output_path=md_path,
-                    start_page=None,
-                    end_page=None,
-                    title=f"Κεφάλαιο {chapter}",
-                    ai_clean=False,
-                    model=args.model,
-                )
-                # Εικόνες → site/images/{grade}/{subject}/chapter-NN/ (0 tokens)
+                # 1. Πρώτα εξαγωγή εικόνων (ώστε να υπάρχει το manifest για spatial interleaving)
                 try:
                     from src.utils.image_extractor import (
                         extract_chapter_images,
@@ -787,7 +784,7 @@ def process_inbox_command(args: argparse.Namespace) -> None:
                         grade=grade,
                         subject=subject,
                         chapter=chapter,
-                        render_empty_pages=True,
+                        render_empty_pages=False,
                         crop=True,
                         verbose=False,
                     )
@@ -795,6 +792,20 @@ def process_inbox_command(args: argparse.Namespace) -> None:
                     print(f"      ✓ {manifest_path}")
                 except Exception as img_exc:  # noqa: BLE001
                     print(f"   ⚠️ Εικόνες: {img_exc} (συνέχεια χωρίς εικόνες)")
+
+                # 2. Εξαγωγή Markdown με χωρική παρεμβολή των εικόνων στη σωστή θέση
+                print("   📄 PDF → Markdown (χωρική τοποθέτηση εικόνων, 0 AI tokens)...")
+                extract_chapter_from_pdf(
+                    pdf_path=source,
+                    output_path=md_path,
+                    start_page=None,
+                    end_page=None,
+                    title=f"Κεφάλαιο {chapter}",
+                    ai_clean=False,
+                    model=args.model,
+                    manifest_path=manifest_path,
+                    web_prefix=web_prefix,
+                )
             else:
                 from src.utils.pdf_extractor import normalize_pdf_symbols, clean_greek_pdf_text
 

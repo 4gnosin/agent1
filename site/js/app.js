@@ -4,7 +4,8 @@ window.KIND_LABEL = {
   "tf": "Σωστό / Λάθος",
   "match": "Αντιστοίχιση",
   "blank": "Συμπλήρωση κενού",
-  "calc": "Υπολογισμός"
+  "calc": "Υπολογισμός",
+  "open": "Σχεδίαση / Υπολογισμός"
 };
 (function () {
   const GREEK = { a: "α", b: "β", c: "γ", d: "δ", e: "ε", f: "στ" };
@@ -377,6 +378,7 @@ function esc(s) {
   }
 
   function emptyAnswer(item) {
+    if (item.kind === "open" || item.nonInteractive) return { open: true };
     if (item.kind === "mc") return { mc: null };
     if (item.kind === "tf") return { tf: null };
     if (item.kind === "match") return { match: {} };
@@ -384,6 +386,7 @@ function esc(s) {
     return { calc: "" };
   }
   function isFilled(item, a) {
+    if (item.kind === "open" || item.nonInteractive) return true;
     if (item.kind === "mc") return Boolean(a.mc);
     if (item.kind === "tf") return a.tf !== null && a.tf !== undefined;
     if (item.kind === "match") return Object.keys(a.match || {}).length === item.left.length;
@@ -391,6 +394,7 @@ function esc(s) {
     return parseNumber(a.calc || "") !== null;
   }
   function isCorrect(item, a) {
+    if (item.kind === "open" || item.nonInteractive) return true;
     if (item.kind === "mc") return a.mc === item.answer;
     if (item.kind === "tf") return a.tf === item.answer;
     if (item.kind === "match") {
@@ -437,9 +441,16 @@ function esc(s) {
       if (r.name === "exercise") {
         const exercise = getExercise(r.id);
         const group = exercise && ctx.groups.find(function (g) {
-          return g.id === exercise.group;
+          if (g.id === exercise.group) return true;
+          const gSlug = String(g.id).replace(/^ch\d+[-_]/, "");
+          const exSlug = String(exercise.group).replace(/^ch\d+[-_]/, "");
+          return gSlug && exSlug && (gSlug === exSlug || gSlug.endsWith(exSlug) || exSlug.endsWith(gSlug));
         });
-        if (group) routeChapter = String(group.chapter);
+        if (group && group.chapter) routeChapter = String(group.chapter);
+        else if (exercise) {
+          const m = String(exercise.id).match(/^ch0*(\d{1,2})/);
+          if (m) routeChapter = String(parseInt(m[1], 10));
+        }
       }
     }
     const openSection = state.navSection === undefined ? routeSection : state.navSection;
@@ -1018,13 +1029,37 @@ function esc(s) {
   function renderMathText(str) {
     if (!str) return "";
     if (typeof katex === "undefined") return esc(str);
-    return str.split(/\\\(([\s\S]*?)\\\)/g).map(function (part, index) {
-      if (index % 2 === 0) return esc(part);
-      try {
-        return katex.renderToString(part, { throwOnError: false, displayMode: false });
-      } catch (e) {
-        return esc("\\(" + part + "\\)");
+
+    var mathRegex = /(\$\$[\s\S]*?\$\$|\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\)|\$(?:\\\$|[^$\n])+\$)/g;
+    var parts = String(str).split(mathRegex);
+
+    return parts.map(function (part) {
+      if (!part) return "";
+      if ((part.startsWith("$$") && part.endsWith("$$")) || (part.startsWith("\\[") && part.endsWith("\\]"))) {
+        var tex = part.slice(2, -2).trim();
+        try {
+          return katex.renderToString(tex, { throwOnError: false, displayMode: true });
+        } catch (e) {
+          return esc(part);
+        }
       }
+      if (part.startsWith("\\(") && part.endsWith("\\)")) {
+        var tex = part.slice(2, -2).trim();
+        try {
+          return katex.renderToString(tex, { throwOnError: false, displayMode: false });
+        } catch (e) {
+          return esc(part);
+        }
+      }
+      if (part.startsWith("$") && part.endsWith("$") && part.length > 2) {
+        var tex = part.slice(1, -1).trim();
+        try {
+          return katex.renderToString(tex, { throwOnError: false, displayMode: false });
+        } catch (e) {
+          return esc(part);
+        }
+      }
+      return esc(part);
     }).join("");
   }
 
@@ -1441,8 +1476,27 @@ function esc(s) {
   function itemView(item, answer, checked, idx) {
     const matchPicked = idx === state.step ? state.matchPicked : null;
     const blankPicked = idx === state.step ? state.blankPicked : null;
+    if (item.kind === "open" || item.nonInteractive) {
+      return (
+        '<p style="font-family:var(--font-serif);font-size:1.45rem;line-height:1.4">' +
+        renderMathText(item.prompt) +
+        '</p><div style="margin-top:.6rem;padding:.55rem .85rem;border-radius:6px;background:rgba(128,128,128,.12);font-size:.88rem;line-height:1.45;opacity:.9">' +
+        "📐 <b>Σχεδιαστικό / Γραφικό ερώτημα:</b> Δεν απαιτείται πληκτρολόγηση. Πατήστε <b>«Έλεγχος όλων»</b> στο τέλος για να δείτε την ενδεικτική λύση και το διάγραμμα πάνω στον ψυχρομετρικό χάρτη." +
+        "</div>"
+      );
+    }
     if (item.kind === "mc") {
-      let h = '<fieldset><legend style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:.8rem">' + esc(item.prompt) + "</legend>";
+      let h = '<fieldset><legend style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:.65rem;line-height:1.35">' + renderMathText(item.prompt) + "</legend>";
+      if (item.openEnded || item.note) {
+        h +=
+          '<div style="margin:0 0 .85rem;padding:.55rem .85rem;border-radius:6px;background:rgba(196,92,38,.12);border-left:3px solid var(--copper,#c45c26);font-size:.88rem;line-height:1.45">' +
+          "<b>📝 Σημείωση Τράπεζας Θεμάτων:</b> " +
+          renderMathText(
+            item.note ||
+              "Στην επίσημη Τράπεζα Θεμάτων το ερώτημα αυτό είναι ανάπτυξης / αιτιολόγησης (ανοιχτής απάντησης). Εδώ δίνεται ως πολλαπλής επιλογής με σωστή την ενδεικτική απάντηση του ΙΕΠ."
+          ) +
+          "</div>";
+      }
       item.options.forEach(function (opt) {
         const selected = answer.mc === opt.id;
         const ok = checked && opt.id === item.answer;
@@ -1458,13 +1512,13 @@ function esc(s) {
           '><span class="ltr">' +
           letter(opt.id) +
           "</span><span>" +
-          esc(opt.text) +
+          renderMathText(opt.text) +
           "</span></button>";
       });
       return h + "</fieldset>";
     }
     if (item.kind === "tf") {
-      let h = '<p style="font-family:var(--font-serif);font-size:1.45rem;line-height:1.35">' + esc(item.prompt) + '</p><div class="tf-grid">';
+      let h = '<p style="font-family:var(--font-serif);font-size:1.45rem;line-height:1.35">' + renderMathText(item.prompt) + '</p><div class="tf-grid">';
       [
         { v: "true", label: "Σωστό" },
         { v: "false", label: "Λάθος" },
@@ -1495,7 +1549,7 @@ function esc(s) {
       });
       let h =
         '<p style="font-family:var(--font-serif);font-size:1.5rem">' +
-        esc(item.prompt) +
+        renderMathText(item.prompt) +
         '</p><p style="opacity:.7;font-size:.9rem;margin:.4rem 0 1rem">Πάτησε αριστερά, μετά δεξιά. Πάτησε ξανά ένα ζεύγος για να το λύσεις.</p>';
       const connected = item.left.filter(function (l) {
         return value[l.id];
@@ -1516,11 +1570,11 @@ function esc(s) {
           "><span><b style='color:var(--copper);font-family:var(--font-serif)'>" +
           esc(l.id) +
           ".</b> " +
-          esc(l.text) +
+          renderMathText(l.text) +
           "</span><span style='flex:0;opacity:.5'>→</span><span><b style='color:var(--copper);font-family:var(--font-serif)'>" +
           letter(r ? r.id : "") +
           ".</b> " +
-          esc(r ? r.text : "") +
+          renderMathText(r ? r.text : "") +
           "</span></button>";
       });
       const remainingLeft = item.left.filter(function (l) {
@@ -1542,7 +1596,7 @@ function esc(s) {
           "><b>" +
           esc(it.id) +
           ".</b> " +
-          esc(it.text) +
+          renderMathText(it.text) +
           "</button>";
       });
       if (!remainingLeft.length) h += '<p style="opacity:.5;padding:.8rem">—</p>';
@@ -1560,7 +1614,7 @@ function esc(s) {
           "><b>" +
           letter(it.id) +
           ".</b> " +
-          esc(it.text) +
+          renderMathText(it.text) +
           "</button>";
       });
       if (!remainingRight.length) h += '<p style="opacity:.5;padding:.8rem">—</p>';
@@ -1583,7 +1637,7 @@ function esc(s) {
       item.bank.forEach(function (w) {
         if (!maxCount[w]) maxCount[w] = 1;
       });
-      let h = '<p style="opacity:.75;font-size:.9rem">' + esc(item.prompt) + '</p><p class="para">';
+      let h = '<p style="opacity:.75;font-size:.9rem">' + renderMathText(item.prompt) + '</p><p class="para">';
       item.textBefore.forEach(function (chunk, i) {
         h += esc(chunk);
         if (i < item.answers.length) {
@@ -1628,13 +1682,13 @@ function esc(s) {
       const good = checked && isCorrect(item, answer);
       return (
         '<p style="font-family:var(--font-serif);font-size:1.5rem">' +
-        esc(item.prompt) +
+        renderMathText(item.prompt) +
         '</p><label style="display:block;margin-top:1.1rem"><span class="kicker">Απάντηση</span><div style="display:flex;align-items:center;gap:.5rem;margin-top:.4rem"><input class="calc-in" data-act="calc" inputmode="decimal" placeholder="π.χ. 25" value="' +
         esc(answer.calc || "") +
         '" ' +
         (checked ? "disabled" : "") +
         '><span style="font-family:var(--font-serif);font-size:1.2rem;opacity:.75">' +
-        esc(item.unit) +
+        renderMathText(item.unit) +
         "</span></div></label>" +
         (checked && !good
           ? '<p style="margin-top:.5rem;opacity:.8;font-size:.9rem">Σωστό: <b>' +
@@ -1659,6 +1713,16 @@ function esc(s) {
     const allReady = ex.items.every(function (it, i) { return isFilled(it, state.answers[i]); });
     const score = state.results.filter(Boolean).length;
 
+    const group = (ctx.groups || []).find(function (g) {
+      if (g.id === ex.group) return true;
+      const gSlug = String(g.id).replace(/^ch\d+[-_]/, "");
+      const exSlug = String(ex.group).replace(/^ch\d+[-_]/, "");
+      return gSlug && exSlug && (gSlug === exSlug || gSlug.endsWith(exSlug) || exSlug.endsWith(gSlug));
+    });
+    const subTitle = group && group.title ? group.title : "";
+    const headingSubjectAndSub = esc(ctx.title) + (subTitle ? " – " + esc(subTitle) : "");
+    const kindAndUnits = esc(KIND_LABEL[ex.kind] || "") + (ex.units ? " · " + ex.units + " μονάδες" : "");
+
     let inner =
       '<div style="display:flex;flex-wrap:wrap;gap:.7rem;align-items:center;margin-bottom:1.1rem"><button class="btn btn-chalk" data-act="go" data-to="' +
       ctx.base + '/board">← Όλες οι ασκήσεις</button>';
@@ -1666,11 +1730,16 @@ function esc(s) {
       inner += '<button class="btn btn-chalk" style="margin-left:auto" data-act="go" data-to="' +
         ctx.base + "/notes/" + theory.slug + '">' + esc(theory.num) + " " + esc(theory.title) + "</button>";
     inner += "</div>";
+    const displayHeading = fmtOrd(ex.code || ex.title);
+
     inner += '<div class="board-card">';
-    inner += '<p class="kicker">' + esc(KIND_LABEL[ex.kind]) + " · " + ex.units + " μονάδες</p>";
-    inner += '<h1 style="font-size:clamp(1.7rem,4vw,2.4rem);margin-top:.35rem">' + fmtOrd(ex.title) + "</h1>";
-    inner += '<p style="margin:.4rem 0 0;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;opacity:.65">' + fmtOrd(ex.code) + "</p>";
-    if (ex.stem) inner += '<p style="margin-top:.7rem;opacity:.8;line-height:1.5;white-space:pre-line">' + esc(ex.stem) + "</p>";
+    inner +=
+      '<div class="exercise-header-kicker">' +
+      '<span class="subject-sub">' + headingSubjectAndSub + '</span>' +
+      '<span class="kind-units">' + kindAndUnits + '</span>' +
+      '</div>';
+    inner += '<h1 class="exercise-main-title">' + displayHeading + "</h1>";
+    if (ex.stem) inner += '<p style="margin-top:.85rem;opacity:.95;font-size:1.18rem;line-height:1.6;white-space:pre-line">' + renderMathText(ex.stem) + "</p>";
     // Σχήματα εκφώνησης (πάντα ορατά)
     (function () {
       const figs = [];
@@ -1699,17 +1768,60 @@ function esc(s) {
       inner += "</div>";
     }
 
+    let prevSubq = null;
     ex.items.forEach(function (item, i) {
       const answer = state.answers[i];
-      inner += '<section data-item="' + i + '" style="margin-top:1.4rem;padding-top:1.1rem;border-top:1px solid rgb(128 128 128 / .25)">';
-      if (ex.items.length > 1)
-        inner += '<p style="margin:0 0 .6rem;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;opacity:.65">Ερώτημα ' + (i + 1) + "</p>";
+      let currSubq = item.subq || item.id || null;
+      if (!currSubq && item.prompt) {
+        const mNum = String(item.prompt).match(/^\s*([1-4]\.[1-9](?:\s*\[4\.3\]|\s*\(4\.3\)|\s*[α-ωa-z])?)/);
+        if (mNum) {
+          currSubq = mNum[1].trim();
+        } else if (item.kind === "tf" && /^\s*[α-ωa-z]\./i.test(item.prompt)) {
+          currSubq = "2.1";
+        } else {
+          const mLet = String(item.prompt).match(/^\s*([α-ωa-z])\)/i);
+          if (mLet) currSubq = mLet[1];
+        }
+      }
+      const sameSubq = Boolean(currSubq && currSubq === prevSubq);
+      prevSubq = currSubq;
+
+      const secStyle = sameSubq
+        ? "margin-top:.85rem;padding-top:.75rem;border-top:1px dashed rgb(128 128 128 / .18)"
+        : "margin-top:1.4rem;padding-top:1.1rem;border-top:1px solid rgb(128 128 128 / .25)";
+      inner += '<section data-item="' + i + '" style="' + secStyle + '">';
+      if (!sameSubq && (ex.items.length > 1 || currSubq)) {
+        const lbl = currSubq ? "Ερώτημα " + currSubq : "Ερώτημα " + (i + 1);
+        inner += '<p style="margin:0 0 .6rem;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--copper,#c45c26)">' + esc(lbl) + "</p>";
+      }
+      if (item.subqPrompt && !sameSubq) {
+        inner += '<p style="margin:0 0 .85rem;opacity:.92;font-size:1.1rem;line-height:1.5;white-space:pre-line">' + renderMathText(item.subqPrompt) + "</p>";
+      }
+      if (item.image || (item.images && item.images.length)) {
+        const itemFigs = [];
+        if (item.image) itemFigs.push(item.image);
+        if (item.images) {
+          item.images.forEach(function (src) {
+            if (itemFigs.indexOf(src) < 0) itemFigs.push(src);
+          });
+        }
+        if (itemFigs.length) {
+          inner += '<div class="item-figures" style="margin:0.5rem 0 1rem;display:flex;flex-direction:column;gap:.75rem">';
+          itemFigs.forEach(function (src) {
+            inner +=
+              '<figure class="ex-figure" style="margin:0"><img src="' +
+              imgUrl(src) +
+              '" alt="Σχήμα ερωτήματος" style="max-width:100%;height:auto;border-radius:8px;background:#fff" loading="lazy"/></figure>';
+          });
+          inner += '</div>';
+        }
+      }
       inner += itemView(item, answer, state.checked, i);
       if (item.hint) {
         inner += '<p><button class="btn btn-chalk" style="margin-top:.8rem" data-act="hint">' +
           (state.hints[i] ? "Απόκρυψη υπόδειξης" : "Υπόδειξη") + "</button></p>";
         if (state.hints[i])
-          inner += '<div class="hintbox" style="margin-top:.5rem">' + esc(item.hint) +
+          inner += '<div class="hintbox" style="margin-top:.5rem">' + renderMathText(item.hint) +
             (item.formula ? '<span class="f">' + renderMathText(item.formula) + "</span>" : "") + "</div>";
       }
       if (state.checked) {
@@ -1755,9 +1867,41 @@ function esc(s) {
     return shell(inner, true, { name: "exercise", id: ex.id });
   }
 
+  function centerActiveNav() {
+    const containers = document.querySelectorAll(".sidebar.desktop, .drawer");
+    containers.forEach(function (container) {
+      const activeEl = container.querySelector(".nav-exercise-item.active, .nav-subitem.active");
+      if (!activeEl) return;
+      const cRect = container.getBoundingClientRect();
+      const aRect = activeEl.getBoundingClientRect();
+      const delta = (aRect.top + aRect.height / 2) - (cRect.top + cRect.height / 2);
+      container.scrollTop += delta;
+    });
+  }
+
+  function scrollNavActiveIntoView() {
+    const containers = document.querySelectorAll(".sidebar.desktop, .drawer");
+    containers.forEach(function (container) {
+      const activeEl = container.querySelector(".nav-subitem.active, .nav-link.active");
+      if (!activeEl) return;
+      const cRect = container.getBoundingClientRect();
+      const aRect = activeEl.getBoundingClientRect();
+      if (aRect.top < cRect.top + 30) {
+        container.scrollTop -= (cRect.top + 30 - aRect.top);
+      } else if (aRect.bottom > cRect.bottom - 30) {
+        container.scrollTop += (aRect.bottom - (cRect.bottom - 30));
+      }
+    });
+  }
+
   function render(opts) {
     opts = opts || {};
     const y = window.scrollY;
+    const prevDesktopSidebar = document.querySelector(".sidebar.desktop");
+    const prevDesktopScroll = prevDesktopSidebar ? prevDesktopSidebar.scrollTop : null;
+    const prevDrawer = document.querySelector(".drawer");
+    const prevDrawerScroll = prevDrawer ? prevDrawer.scrollTop : null;
+
     if (simulationCleanup) {
       simulationCleanup();
       simulationCleanup = null;
@@ -1789,6 +1933,24 @@ function esc(s) {
     else if (r.name === "board") root.innerHTML = boardIndex();
     else if (r.name === "exercise") root.innerHTML = exercisePage(r.id);
     else root.innerHTML = home();
+
+    // Στις ασκήσεις και στη θεωρία, κεντράρουμε πάντα την τρέχουσα ενότητα ακριβώς στη μέση του αριστερού μενού
+    if (r.name === "exercise" || r.name === "notes") {
+      centerActiveNav();
+      requestAnimationFrame(centerActiveNav);
+    } else {
+      // Σε άλλες σελίδες / toggles, διατηρούμε τη θέση κύλισης
+      const newDesktopSidebar = document.querySelector(".sidebar.desktop");
+      if (newDesktopSidebar && prevDesktopScroll !== null) {
+        newDesktopSidebar.scrollTop = prevDesktopScroll;
+      }
+      const newDrawer = document.querySelector(".drawer");
+      if (newDrawer && prevDrawerScroll !== null) {
+        newDrawer.scrollTop = prevDrawerScroll;
+      }
+      scrollNavActiveIntoView();
+    }
+
     window.scrollTo(0, opts.keepScroll ? y : 0);
 
     // KaTeX – τρέχει μετά από κάθε αλλαγή περιεχομένου

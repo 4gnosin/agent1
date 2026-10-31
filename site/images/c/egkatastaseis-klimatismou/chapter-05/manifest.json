@@ -9,7 +9,7 @@
     "min_size": 80,
     "min_area": 15000,
     "repeat_threshold": 4,
-    "render_empty_pages": true,
+    "render_empty_pages": false,
     "dpi": 160,
     "crop": true,
     "vector_threshold": 12
@@ -25,7 +25,17 @@
       "height": 759,
       "sha1": "061141932974",
       "bank_code_inherited": false,
-      "xref": 16
+      "xref": 16,
+      "bbox": [
+        134.9,
+        290.6,
+        461.3,
+        711.2
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται ο Πίνακας 1 ( στοιχεία επιλογής στομίων τοίχου).",
+      "text_after": "Πίνακας 1: Στοιχεία επιλογής στομίων τοίχου.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#29156_sol01.png",
@@ -37,55 +47,61 @@
       "height": 778,
       "sha1": "5387cbe21846",
       "bank_code_inherited": false,
-      "xref": 70
+      "xref": 70,
+      "bbox": [
+        127.4,
+        255.8,
+        469.1,
+        670.5
+      ],
+      "question_anchor": null,
+      "text_before": "7,5 m.",
+      "text_after": "Πίνακας 1: Στοιχεία επιλογής στομίων τοίχου.",
+      "is_full_page_scan": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch05_#29156_sol02.png",
-      "bank_code": "29156",
-      "role": "sol",
+      "file": "c_egkatastaseis-klimatismou_ch05_#29329_fig01.png",
+      "bank_code": "29329",
+      "role": "fig",
       "page": 4,
       "kind": "embedded",
       "width": 648,
       "height": 655,
       "sha1": "8f7b974227de",
-      "bank_code_inherited": true,
-      "xref": 110
+      "bank_code_inherited": false,
+      "xref": 110,
+      "bbox": [
+        77.7,
+        292.2,
+        295.5,
+        556.2
+      ],
+      "question_anchor": null,
+      "text_before": "1) και ο πίνακας στοιχείων επιλογής στομίων τοίχου (πίνακας 2).",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch05_#29156_sol03.png",
-      "bank_code": "29156",
-      "role": "sol",
+      "file": "c_egkatastaseis-klimatismou_ch05_#29329_fig02.png",
+      "bank_code": "29329",
+      "role": "fig",
       "page": 4,
       "kind": "embedded",
       "width": 683,
       "height": 589,
       "sha1": "c34749e2a8e1",
-      "bank_code_inherited": true,
-      "xref": 111
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#29499_fig01.png",
-      "bank_code": "29499",
-      "role": "fig",
-      "page": 6,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#29499_sol01.png",
-      "bank_code": "29499",
-      "role": "sol",
-      "page": 7,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
+      "bank_code_inherited": false,
+      "xref": 111,
+      "bbox": [
+        297.9,
+        292.2,
+        543.8,
+        557.4
+      ],
+      "question_anchor": null,
+      "text_before": "1) και ο πίνακας στοιχείων επιλογής στομίων τοίχου (πίνακας 2).",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#29500_fig01.png",
@@ -97,7 +113,17 @@
       "height": 349,
       "sha1": "e148b9586864",
       "bank_code_inherited": false,
-      "xref": 306
+      "xref": 306,
+      "bbox": [
+        144.6,
+        444.4,
+        452.2,
+        627.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32809_fig01.png",
@@ -109,22 +135,20 @@
       "height": 210,
       "sha1": "6c8b4cf2aad6",
       "bank_code_inherited": false,
-      "xref": 471
+      "xref": 471,
+      "bbox": [
+        73.4,
+        334.6,
+        521.9,
+        492.1
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνονται τα παρακάτω (Σχήμα 1, Πίνακας 1, Πίνακας 2 και Πίνακας 3):",
+      "text_after": "Σχήμα 1: Κάτοψη δικτύου αεραγωγών ενός σχολείου.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32809_fig02.png",
-      "bank_code": "32809",
-      "role": "fig",
-      "page": 13,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": true
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#32809_fig03.png",
       "bank_code": "32809",
       "role": "fig",
       "page": 14,
@@ -133,7 +157,17 @@
       "height": 702,
       "sha1": "cdaa032e3354",
       "bank_code_inherited": true,
-      "xref": 525
+      "xref": 525,
+      "bbox": [
+        89.9,
+        70.9,
+        505.4,
+        597.4
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Πίνακας 3: Στοιχεία επιλογής στομίων τοίχου.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32809_sol01.png",
@@ -145,7 +179,17 @@
       "height": 703,
       "sha1": "18c4879301da",
       "bank_code_inherited": true,
-      "xref": 567
+      "xref": 567,
+      "bbox": [
+        90.3,
+        70.9,
+        505.0,
+        598.1
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Πίνακας 3: Στοιχεία επιλογής στομίων τοίχου.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig01.png",
@@ -157,7 +201,17 @@
       "height": 170,
       "sha1": "e7774975b08d",
       "bank_code_inherited": false,
-      "xref": 816
+      "xref": 816,
+      "bbox": [
+        129.1,
+        225.7,
+        255.1,
+        353.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(ονομασία)",
+      "text_after": "1.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig02.png",
@@ -169,7 +223,17 @@
       "height": 148,
       "sha1": "bc6f0c55a627",
       "bank_code_inherited": false,
-      "xref": 817
+      "xref": 817,
+      "bbox": [
+        111.6,
+        373.4,
+        261.6,
+        484.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig03.png",
@@ -181,19 +245,61 @@
       "height": 170,
       "sha1": "fc646953b8be",
       "bank_code_inherited": false,
-      "xref": 818
+      "xref": 818,
+      "bbox": [
+        111.0,
+        504.6,
+        261.7,
+        632.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch05_#29448_sol01.png",
-      "bank_code": "29448",
-      "role": "sol",
+      "file": "c_egkatastaseis-klimatismou_ch05_#32802_fig01.png",
+      "bank_code": "32802",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 648,
+      "height": 655,
+      "sha1": "8f7b974227de",
+      "bank_code_inherited": false,
+      "xref": 897,
+      "bbox": [
+        72.0,
+        244.3,
+        252.7,
+        486.5
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ΔΙΑΓΡΑΜΜΑ 1",
+      "text_after": "Μονάδες 18",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch05_#32802_fig02.png",
+      "bank_code": "32802",
+      "role": "fig",
       "page": 26,
       "kind": "embedded",
       "width": 849,
       "height": 711,
       "sha1": "4c9655d743fa",
-      "bank_code_inherited": true,
-      "xref": 898
+      "bank_code_inherited": false,
+      "xref": 898,
+      "bbox": [
+        252.7,
+        253.9,
+        530.4,
+        486.5
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ΔΙΑΓΡΑΜΜΑ 1",
+      "text_after": "Μονάδες 18",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32802_sol01.png",
@@ -205,7 +311,17 @@
       "height": 575,
       "sha1": "2f3c154cca9b",
       "bank_code_inherited": false,
-      "xref": 946
+      "xref": 946,
+      "bbox": [
+        165.6,
+        339.4,
+        431.1,
+        527.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "350 mm",
+      "text_after": "4.2",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32840_fig01.png",
@@ -217,31 +333,39 @@
       "height": 635,
       "sha1": "e7c1a1e58e18",
       "bank_code_inherited": false,
-      "xref": 996
+      "xref": 996,
+      "bbox": [
+        72.4,
+        372.7,
+        525.9,
+        698.8
+      ],
+      "question_anchor": "4.2",
+      "text_before": "Δίνεται το διάγραμμα επιλογής στομίων οροφής.",
+      "text_after": "",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32840_sol01.png",
       "bank_code": "32840",
       "role": "sol",
       "page": 29,
-      "kind": "crop-render",
-      "reason": "keyword",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#32840_sol02.png",
-      "bank_code": "32840",
-      "role": "sol",
-      "page": 30,
-      "kind": "crop-render",
-      "reason": "keyword",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": true
+      "kind": "embedded",
+      "width": 883,
+      "height": 635,
+      "sha1": "e7c1a1e58e18",
+      "bank_code_inherited": false,
+      "xref": 1047,
+      "bbox": [
+        72.4,
+        270.4,
+        525.9,
+        596.5
+      ],
+      "question_anchor": "4.1",
+      "text_before": "διάμετρο του κυκλικού στομίου, που στην περίπτωσή μας είναι 350 mm.",
+      "text_after": "",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32860_fig01.png",
@@ -253,7 +377,17 @@
       "height": 434,
       "sha1": "c72111d32434",
       "bank_code_inherited": false,
-      "xref": 1089
+      "xref": 1089,
+      "bbox": [
+        193.4,
+        180.8,
+        403.1,
+        374.0
+      ],
+      "question_anchor": null,
+      "text_before": "Δίδονται:",
+      "text_after": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32860_fig02.png",
@@ -265,7 +399,17 @@
       "height": 416,
       "sha1": "44b3b66c4b5e",
       "bank_code_inherited": false,
-      "xref": 1090
+      "xref": 1090,
+      "bbox": [
+        136.9,
+        424.6,
+        459.9,
+        655.1
+      ],
+      "question_anchor": null,
+      "text_before": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+      "text_after": "Σχήμα 1: Διάγραμμα επιλογής στομίων οροφής.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32860_sol01.png",
@@ -277,7 +421,17 @@
       "height": 413,
       "sha1": "a284c004584d",
       "bank_code_inherited": false,
-      "xref": 1133
+      "xref": 1133,
+      "bbox": [
+        146.1,
+        114.8,
+        450.4,
+        362.6
+      ],
+      "question_anchor": null,
+      "text_before": "Θέμα 4ο",
+      "text_after": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#32860_sol02.png",
@@ -289,19 +443,17 @@
       "height": 305,
       "sha1": "dc2701664fc0",
       "bank_code_inherited": false,
-      "xref": 1134
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#32860_sol03.png",
-      "bank_code": "32860",
-      "role": "sol",
-      "page": 33,
-      "kind": "crop-render",
-      "reason": "keyword",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": true
+      "xref": 1134,
+      "bbox": [
+        138.6,
+        457.9,
+        456.6,
+        686.6
+      ],
+      "question_anchor": null,
+      "text_before": "σε γυμναστήρια είναι v = 7,5 m/s.",
+      "text_after": "Σχήμα 1: Διάγραμμα επιλογής στομίων οροφής.",
+      "is_full_page_scan": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch05_#34654_fig01.png",
@@ -313,19 +465,17 @@
       "height": 655,
       "sha1": "5d8a9173da22",
       "bank_code_inherited": false,
-      "xref": 1168
-    },
-    {
-      "file": "c_egkatastaseis-klimatismou_ch05_#34654_sol01.png",
-      "bank_code": "34654",
-      "role": "sol",
-      "page": 35,
-      "kind": "crop-render",
-      "reason": "vector-drawings",
-      "width": 1323,
-      "height": 1629,
-      "dpi": 160,
-      "bank_code_inherited": false
+      "xref": 1168,
+      "bbox": [
+        70.8,
+        246.5,
+        199.2,
+        433.2
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ΠΙΝΑΚΑΣ 2",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
     }
   ],
   "by_bank_code": {
@@ -334,9 +484,106 @@
         "c_egkatastaseis-klimatismou_ch05_#29156_fig01.png"
       ],
       "sol": [
-        "c_egkatastaseis-klimatismou_ch05_#29156_sol01.png",
-        "c_egkatastaseis-klimatismou_ch05_#29156_sol02.png",
-        "c_egkatastaseis-klimatismou_ch05_#29156_sol03.png"
+        "c_egkatastaseis-klimatismou_ch05_#29156_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29156_fig01.png",
+          "bank_code": "29156",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 589,
+          "height": 759,
+          "sha1": "061141932974",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            134.9,
+            290.6,
+            461.3,
+            711.2
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται ο Πίνακας 1 ( στοιχεία επιλογής στομίων τοίχου).",
+          "text_after": "Πίνακας 1: Στοιχεία επιλογής στομίων τοίχου.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29156_sol01.png",
+          "bank_code": "29156",
+          "role": "sol",
+          "page": 3,
+          "kind": "embedded",
+          "width": 641,
+          "height": 778,
+          "sha1": "5387cbe21846",
+          "bank_code_inherited": false,
+          "xref": 70,
+          "bbox": [
+            127.4,
+            255.8,
+            469.1,
+            670.5
+          ],
+          "question_anchor": null,
+          "text_before": "7,5 m.",
+          "text_after": "Πίνακας 1: Στοιχεία επιλογής στομίων τοίχου.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29329": {
+      "fig": [
+        "c_egkatastaseis-klimatismou_ch05_#29329_fig01.png",
+        "c_egkatastaseis-klimatismou_ch05_#29329_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29329_fig01.png",
+          "bank_code": "29329",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 648,
+          "height": 655,
+          "sha1": "8f7b974227de",
+          "bank_code_inherited": false,
+          "xref": 110,
+          "bbox": [
+            77.7,
+            292.2,
+            295.5,
+            556.2
+          ],
+          "question_anchor": null,
+          "text_before": "1) και ο πίνακας στοιχείων επιλογής στομίων τοίχου (πίνακας 2).",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29329_fig02.png",
+          "bank_code": "29329",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 683,
+          "height": 589,
+          "sha1": "c34749e2a8e1",
+          "bank_code_inherited": false,
+          "xref": 111,
+          "bbox": [
+            297.9,
+            292.2,
+            543.8,
+            557.4
+          ],
+          "question_anchor": null,
+          "text_before": "1) και ο πίνακας στοιχείων επιλογής στομίων τοίχου (πίνακας 2).",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
       ]
     },
     "29448": {
@@ -345,38 +592,258 @@
         "c_egkatastaseis-klimatismou_ch05_#29448_fig02.png",
         "c_egkatastaseis-klimatismou_ch05_#29448_fig03.png"
       ],
-      "sol": [
-        "c_egkatastaseis-klimatismou_ch05_#29448_sol01.png"
-      ]
-    },
-    "29499": {
-      "fig": [
-        "c_egkatastaseis-klimatismou_ch05_#29499_fig01.png"
-      ],
-      "sol": [
-        "c_egkatastaseis-klimatismou_ch05_#29499_sol01.png"
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig01.png",
+          "bank_code": "29448",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 168,
+          "height": 170,
+          "sha1": "e7774975b08d",
+          "bank_code_inherited": false,
+          "xref": 816,
+          "bbox": [
+            129.1,
+            225.7,
+            255.1,
+            353.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(ονομασία)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig02.png",
+          "bank_code": "29448",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 200,
+          "height": 148,
+          "sha1": "bc6f0c55a627",
+          "bank_code_inherited": false,
+          "xref": 817,
+          "bbox": [
+            111.6,
+            373.4,
+            261.6,
+            484.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29448_fig03.png",
+          "bank_code": "29448",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 201,
+          "height": 170,
+          "sha1": "fc646953b8be",
+          "bank_code_inherited": false,
+          "xref": 818,
+          "bbox": [
+            111.0,
+            504.6,
+            261.7,
+            632.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
       ]
     },
     "29500": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch05_#29500_fig01.png"
       ],
-      "sol": []
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#29500_fig01.png",
+          "bank_code": "29500",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 587,
+          "height": 349,
+          "sha1": "e148b9586864",
+          "bank_code_inherited": false,
+          "xref": 306,
+          "bbox": [
+            144.6,
+            444.4,
+            452.2,
+            627.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
     },
     "32802": {
-      "fig": [],
+      "fig": [
+        "c_egkatastaseis-klimatismou_ch05_#32802_fig01.png",
+        "c_egkatastaseis-klimatismou_ch05_#32802_fig02.png"
+      ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch05_#32802_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32802_fig01.png",
+          "bank_code": "32802",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 648,
+          "height": 655,
+          "sha1": "8f7b974227de",
+          "bank_code_inherited": false,
+          "xref": 897,
+          "bbox": [
+            72.0,
+            244.3,
+            252.7,
+            486.5
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ΔΙΑΓΡΑΜΜΑ 1",
+          "text_after": "Μονάδες 18",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32802_fig02.png",
+          "bank_code": "32802",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 849,
+          "height": 711,
+          "sha1": "4c9655d743fa",
+          "bank_code_inherited": false,
+          "xref": 898,
+          "bbox": [
+            252.7,
+            253.9,
+            530.4,
+            486.5
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ΔΙΑΓΡΑΜΜΑ 1",
+          "text_after": "Μονάδες 18",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32802_sol01.png",
+          "bank_code": "32802",
+          "role": "sol",
+          "page": 27,
+          "kind": "embedded",
+          "width": 811,
+          "height": 575,
+          "sha1": "2f3c154cca9b",
+          "bank_code_inherited": false,
+          "xref": 946,
+          "bbox": [
+            165.6,
+            339.4,
+            431.1,
+            527.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "350 mm",
+          "text_after": "4.2",
+          "is_full_page_scan": false
+        }
       ]
     },
     "32809": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch05_#32809_fig01.png",
-        "c_egkatastaseis-klimatismou_ch05_#32809_fig02.png",
-        "c_egkatastaseis-klimatismou_ch05_#32809_fig03.png"
+        "c_egkatastaseis-klimatismou_ch05_#32809_fig02.png"
       ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch05_#32809_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32809_fig01.png",
+          "bank_code": "32809",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 598,
+          "height": 210,
+          "sha1": "6c8b4cf2aad6",
+          "bank_code_inherited": false,
+          "xref": 471,
+          "bbox": [
+            73.4,
+            334.6,
+            521.9,
+            492.1
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνονται τα παρακάτω (Σχήμα 1, Πίνακας 1, Πίνακας 2 και Πίνακας 3):",
+          "text_after": "Σχήμα 1: Κάτοψη δικτύου αεραγωγών ενός σχολείου.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32809_fig02.png",
+          "bank_code": "32809",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 554,
+          "height": 702,
+          "sha1": "cdaa032e3354",
+          "bank_code_inherited": true,
+          "xref": 525,
+          "bbox": [
+            89.9,
+            70.9,
+            505.4,
+            597.4
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Πίνακας 3: Στοιχεία επιλογής στομίων τοίχου.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32809_sol01.png",
+          "bank_code": "32809",
+          "role": "sol",
+          "page": 16,
+          "kind": "embedded",
+          "width": 553,
+          "height": 703,
+          "sha1": "18c4879301da",
+          "bank_code_inherited": true,
+          "xref": 567,
+          "bbox": [
+            90.3,
+            70.9,
+            505.0,
+            598.1
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Πίνακας 3: Στοιχεία επιλογής στομίων τοίχου.",
+          "is_full_page_scan": false
+        }
       ]
     },
     "32840": {
@@ -384,8 +851,53 @@
         "c_egkatastaseis-klimatismou_ch05_#32840_fig01.png"
       ],
       "sol": [
-        "c_egkatastaseis-klimatismou_ch05_#32840_sol01.png",
-        "c_egkatastaseis-klimatismou_ch05_#32840_sol02.png"
+        "c_egkatastaseis-klimatismou_ch05_#32840_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32840_fig01.png",
+          "bank_code": "32840",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 883,
+          "height": 635,
+          "sha1": "e7c1a1e58e18",
+          "bank_code_inherited": false,
+          "xref": 996,
+          "bbox": [
+            72.4,
+            372.7,
+            525.9,
+            698.8
+          ],
+          "question_anchor": "4.2",
+          "text_before": "Δίνεται το διάγραμμα επιλογής στομίων οροφής.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32840_sol01.png",
+          "bank_code": "32840",
+          "role": "sol",
+          "page": 29,
+          "kind": "embedded",
+          "width": 883,
+          "height": 635,
+          "sha1": "e7c1a1e58e18",
+          "bank_code_inherited": false,
+          "xref": 1047,
+          "bbox": [
+            72.4,
+            270.4,
+            525.9,
+            596.5
+          ],
+          "question_anchor": "4.1",
+          "text_before": "διάμετρο του κυκλικού στομίου, που στην περίπτωσή μας είναι 350 mm.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
       ]
     },
     "32860": {
@@ -395,16 +907,127 @@
       ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch05_#32860_sol01.png",
-        "c_egkatastaseis-klimatismou_ch05_#32860_sol02.png",
-        "c_egkatastaseis-klimatismou_ch05_#32860_sol03.png"
+        "c_egkatastaseis-klimatismou_ch05_#32860_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32860_fig01.png",
+          "bank_code": "32860",
+          "role": "fig",
+          "page": 31,
+          "kind": "embedded",
+          "width": 471,
+          "height": 434,
+          "sha1": "c72111d32434",
+          "bank_code_inherited": false,
+          "xref": 1089,
+          "bbox": [
+            193.4,
+            180.8,
+            403.1,
+            374.0
+          ],
+          "question_anchor": null,
+          "text_before": "Δίδονται:",
+          "text_after": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32860_fig02.png",
+          "bank_code": "32860",
+          "role": "fig",
+          "page": 31,
+          "kind": "embedded",
+          "width": 583,
+          "height": 416,
+          "sha1": "44b3b66c4b5e",
+          "bank_code_inherited": false,
+          "xref": 1090,
+          "bbox": [
+            136.9,
+            424.6,
+            459.9,
+            655.1
+          ],
+          "question_anchor": null,
+          "text_before": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+          "text_after": "Σχήμα 1: Διάγραμμα επιλογής στομίων οροφής.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32860_sol01.png",
+          "bank_code": "32860",
+          "role": "sol",
+          "page": 32,
+          "kind": "embedded",
+          "width": 507,
+          "height": 413,
+          "sha1": "a284c004584d",
+          "bank_code_inherited": false,
+          "xref": 1133,
+          "bbox": [
+            146.1,
+            114.8,
+            450.4,
+            362.6
+          ],
+          "question_anchor": null,
+          "text_before": "Θέμα 4ο",
+          "text_after": "Πίνακας 1: Μέγιστες επιτρεπόμενες ταχύτητες αέρα στα στόμια προσαγωγής.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#32860_sol02.png",
+          "bank_code": "32860",
+          "role": "sol",
+          "page": 32,
+          "kind": "embedded",
+          "width": 424,
+          "height": 305,
+          "sha1": "dc2701664fc0",
+          "bank_code_inherited": false,
+          "xref": 1134,
+          "bbox": [
+            138.6,
+            457.9,
+            456.6,
+            686.6
+          ],
+          "question_anchor": null,
+          "text_before": "σε γυμναστήρια είναι v = 7,5 m/s.",
+          "text_after": "Σχήμα 1: Διάγραμμα επιλογής στομίων οροφής.",
+          "is_full_page_scan": false
+        }
       ]
     },
     "34654": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch05_#34654_fig01.png"
       ],
-      "sol": [
-        "c_egkatastaseis-klimatismou_ch05_#34654_sol01.png"
+      "sol": [],
+      "images": [
+        {
+          "file": "c_egkatastaseis-klimatismou_ch05_#34654_fig01.png",
+          "bank_code": "34654",
+          "role": "fig",
+          "page": 34,
+          "kind": "embedded",
+          "width": 356,
+          "height": 655,
+          "sha1": "5d8a9173da22",
+          "bank_code_inherited": false,
+          "xref": 1168,
+          "bbox": [
+            70.8,
+            246.5,
+            199.2,
+            433.2
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ΠΙΝΑΚΑΣ 2",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
       ]
     }
   }

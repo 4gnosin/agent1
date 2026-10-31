@@ -3,3 +3,8 @@ python-dotenv>=1.0.1
 pypdf>=4.0.0
 
 pymupdf>=1.24.0
+
+# trapeza7.py (λήψη από την Τράπεζα Θεμάτων)
+# Μετά την εγκατάσταση απαιτείται μία φορά: playwright install chromium
+playwright>=1.40.0
+reportlab>=4.0.0
