@@ -26,6 +26,13 @@ window.CATALOG = [
         "desc": "Σημειώσεις και διαδραστικός πίνακας ασκήσεων.",
         "status": "ready",
         "href": "#/antoxi"
+      },
+      {
+        "id": "texnologia-michanologikon-kataskevon",
+        "title": "Τεχνολογία Μηχανολογικών Κατασκευών Θεωρία",
+        "desc": "Σημειώσεις και διαδραστικός πίνακας ασκήσεων.",
+        "status": "ready",
+        "href": "#/texnologia-michanologikon-kataskevon"
       }
     ]
   },
@@ -43,7 +50,8 @@ window.CATALOG = [
         "id": "stoixeia-psyxis-klimatismou",
         "title": "Στοιχεία Ψύξης – Κλιματισμού Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/stoixeia-psyxis-klimatismou"
       },
       {
         "id": "egkatastaseis-klimatismou",
@@ -56,19 +64,22 @@ window.CATALOG = [
         "id": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
         "title": "Συστήματα Ελέγχου, Ρύθμισης και Αυτοματισμού Εγκαταστάσεων Ψύξης και Κλιματισμού Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou"
       },
       {
         "id": "michanes-esoterikis-kafsis-2",
         "title": "Μηχανές Εσωτερικής Καύσης ΙΙ Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/michanes-esoterikis-kafsis-2"
       },
       {
         "id": "systimata-aftokinitou",
         "title": "Συστήματα Αυτοκινήτου Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/systimata-aftokinitou"
       },
       {
         "id": "texnologia-elegxou-diagnoseon",

@@ -1,0 +1,371 @@
+{
+  "source_pdf": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07.pdf",
+  "grade": "c",
+  "subject": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+  "chapter": 7,
+  "stem": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07",
+  "total_pages": 17,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.png",
+      "bank_code": "23779",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 679,
+      "height": 431,
+      "sha1": "4d74a34a6a86",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        163.9,
+        136.8,
+        431.4,
+        306.6
+      ],
+      "question_anchor": "4.1",
+      "text_before": "κλιματιστικής μονάδας νερού (FCU).",
+      "text_after": "α. Με βάση τη σχηματική παράσταση που απεικονίζεται στο παραπάνω σχήμα, να",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.png",
+      "bank_code": "23779",
+      "role": "fig",
+      "page": 3,
+      "kind": "embedded",
+      "width": 417,
+      "height": 353,
+      "sha1": "de5ade166808",
+      "bank_code_inherited": true,
+      "xref": 72,
+      "bbox": [
+        180.9,
+        70.9,
+        431.1,
+        282.7
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Μονάδες 13",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.png",
+      "bank_code": "36154",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 575,
+      "height": 362,
+      "sha1": "a78a02aa0715",
+      "bank_code_inherited": false,
+      "xref": 109,
+      "bbox": [
+        90.0,
+        184.5,
+        522.0,
+        456.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σθμειϊνεται ότι ζνα γράμμα από τθ ΣΤΗΛΗ Β κα περιςςζψει. (Μονάδες 10)",
+      "text_after": "β) Να εξθγιςετε τθ λειτουργία των ςτοιχείων από τα οποία αποτελείται ζνασ απλόσ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#30190_fig01.png",
+      "bank_code": "30190",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 1128,
+      "height": 598,
+      "sha1": "5f0c7165256a",
+      "bank_code_inherited": false,
+      "xref": 373,
+      "bbox": [
+        72.0,
+        161.8,
+        540.0,
+        409.9
+      ],
+      "question_anchor": null,
+      "text_before": "απάντησή σας:",
+      "text_after": "α) Υπάρχει έλεγχος της ποιότητας του αέρα του κλιματιζόμενου χώρου; (Μονάδες 4)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#33036_fig01.png",
+      "bank_code": "33036",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 706,
+      "height": 380,
+      "sha1": "ea8261cab7fd",
+      "bank_code_inherited": false,
+      "xref": 420,
+      "bbox": [
+        121.2,
+        202.7,
+        474.1,
+        392.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "εγκατεςτθμζνο το ςφςτθμα.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig01.png",
+      "bank_code": "35406",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 756,
+      "height": 360,
+      "sha1": "b231c8b1a653",
+      "bank_code_inherited": false,
+      "xref": 524,
+      "bbox": [
+        197.2,
+        445.5,
+        442.6,
+        562.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γ) Πώς γίνεται ο αυτοματισμός της λειτουργίας των στομίων αυτών; (Μονάδες 5)",
+      "text_after": "Μονάδες 13",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig02.png",
+      "bank_code": "35406",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 768,
+      "height": 387,
+      "sha1": "3a348904441c",
+      "bank_code_inherited": false,
+      "xref": 525,
+      "bbox": [
+        194.9,
+        569.9,
+        445.0,
+        696.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γ) Πώς γίνεται ο αυτοματισμός της λειτουργίας των στομίων αυτών; (Μονάδες 5)",
+      "text_after": "Μονάδες 13",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23779": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.png",
+          "bank_code": "23779",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 679,
+          "height": 431,
+          "sha1": "4d74a34a6a86",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            163.9,
+            136.8,
+            431.4,
+            306.6
+          ],
+          "question_anchor": "4.1",
+          "text_before": "κλιματιστικής μονάδας νερού (FCU).",
+          "text_after": "α. Με βάση τη σχηματική παράσταση που απεικονίζεται στο παραπάνω σχήμα, να",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.png",
+          "bank_code": "23779",
+          "role": "fig",
+          "page": 3,
+          "kind": "embedded",
+          "width": 417,
+          "height": 353,
+          "sha1": "de5ade166808",
+          "bank_code_inherited": true,
+          "xref": 72,
+          "bbox": [
+            180.9,
+            70.9,
+            431.1,
+            282.7
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Μονάδες 13",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30190": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#30190_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#30190_fig01.png",
+          "bank_code": "30190",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 1128,
+          "height": 598,
+          "sha1": "5f0c7165256a",
+          "bank_code_inherited": false,
+          "xref": 373,
+          "bbox": [
+            72.0,
+            161.8,
+            540.0,
+            409.9
+          ],
+          "question_anchor": null,
+          "text_before": "απάντησή σας:",
+          "text_after": "α) Υπάρχει έλεγχος της ποιότητας του αέρα του κλιματιζόμενου χώρου; (Μονάδες 4)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33036": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#33036_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#33036_fig01.png",
+          "bank_code": "33036",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 706,
+          "height": 380,
+          "sha1": "ea8261cab7fd",
+          "bank_code_inherited": false,
+          "xref": 420,
+          "bbox": [
+            121.2,
+            202.7,
+            474.1,
+            392.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "εγκατεςτθμζνο το ςφςτθμα.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "35406": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig01.png",
+          "bank_code": "35406",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 756,
+          "height": 360,
+          "sha1": "b231c8b1a653",
+          "bank_code_inherited": false,
+          "xref": 524,
+          "bbox": [
+            197.2,
+            445.5,
+            442.6,
+            562.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γ) Πώς γίνεται ο αυτοματισμός της λειτουργίας των στομίων αυτών; (Μονάδες 5)",
+          "text_after": "Μονάδες 13",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig02.png",
+          "bank_code": "35406",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 768,
+          "height": 387,
+          "sha1": "3a348904441c",
+          "bank_code_inherited": false,
+          "xref": 525,
+          "bbox": [
+            194.9,
+            569.9,
+            445.0,
+            696.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γ) Πώς γίνεται ο αυτοματισμός της λειτουργίας των στομίων αυτών; (Μονάδες 5)",
+          "text_after": "Μονάδες 13",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36154": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.png",
+          "bank_code": "36154",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 575,
+          "height": 362,
+          "sha1": "a78a02aa0715",
+          "bank_code_inherited": false,
+          "xref": 109,
+          "bbox": [
+            90.0,
+            184.5,
+            522.0,
+            456.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σθμειϊνεται ότι ζνα γράμμα από τθ ΣΤΗΛΗ Β κα περιςςζψει. (Μονάδες 10)",
+          "text_after": "β) Να εξθγιςετε τθ λειτουργία των ςτοιχείων από τα οποία αποτελείται ζνασ απλόσ",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

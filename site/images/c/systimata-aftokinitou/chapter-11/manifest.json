@@ -1,0 +1,208 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch11.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 11,
+  "stem": "c_systimata-aftokinitou_ch11",
+  "total_pages": 4,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch11_#34984_fig01.png",
+      "bank_code": "34984",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 357,
+      "height": 394,
+      "sha1": "048d56303a5f",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        267.8,
+        203.8,
+        517.6,
+        328.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α)",
+      "text_after": "β)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch11_#34984_fig02.png",
+      "bank_code": "34984",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 337,
+      "height": 288,
+      "sha1": "3c37e20f4448",
+      "bank_code_inherited": false,
+      "xref": 19,
+      "bbox": [
+        267.8,
+        358.2,
+        522.0,
+        471.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β)",
+      "text_after": "γ)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch11_#34984_fig03.png",
+      "bank_code": "34984",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 774,
+      "height": 232,
+      "sha1": "3a5bc88dd61b",
+      "bank_code_inherited": false,
+      "xref": 21,
+      "bbox": [
+        267.8,
+        501.2,
+        525.6,
+        590.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ)",
+      "text_after": "δ)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch11_#34984_fig04.png",
+      "bank_code": "34984",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 760,
+      "height": 328,
+      "sha1": "077eeadd9af1",
+      "bank_code_inherited": false,
+      "xref": 23,
+      "bbox": [
+        267.8,
+        619.6,
+        524.1,
+        730.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δ)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34984": {
+      "fig": [
+        "c_systimata-aftokinitou_ch11_#34984_fig01.png",
+        "c_systimata-aftokinitou_ch11_#34984_fig02.png",
+        "c_systimata-aftokinitou_ch11_#34984_fig03.png",
+        "c_systimata-aftokinitou_ch11_#34984_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch11_#34984_fig01.png",
+          "bank_code": "34984",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 357,
+          "height": 394,
+          "sha1": "048d56303a5f",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            267.8,
+            203.8,
+            517.6,
+            328.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α)",
+          "text_after": "β)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch11_#34984_fig02.png",
+          "bank_code": "34984",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 337,
+          "height": 288,
+          "sha1": "3c37e20f4448",
+          "bank_code_inherited": false,
+          "xref": 19,
+          "bbox": [
+            267.8,
+            358.2,
+            522.0,
+            471.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β)",
+          "text_after": "γ)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch11_#34984_fig03.png",
+          "bank_code": "34984",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 774,
+          "height": 232,
+          "sha1": "3a5bc88dd61b",
+          "bank_code_inherited": false,
+          "xref": 21,
+          "bbox": [
+            267.8,
+            501.2,
+            525.6,
+            590.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ)",
+          "text_after": "δ)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch11_#34984_fig04.png",
+          "bank_code": "34984",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 760,
+          "height": 328,
+          "sha1": "077eeadd9af1",
+          "bank_code_inherited": false,
+          "xref": 23,
+          "bbox": [
+            267.8,
+            619.6,
+            524.1,
+            730.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δ)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

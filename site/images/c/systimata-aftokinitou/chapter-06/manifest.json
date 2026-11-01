@@ -1,0 +1,312 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch06.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 6,
+  "stem": "c_systimata-aftokinitou_ch06",
+  "total_pages": 16,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34987_fig01.png",
+      "bank_code": "34987",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 317,
+      "height": 311,
+      "sha1": "76df721405d6",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        178.6,
+        158.9,
+        416.4,
+        392.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34539_fig01.png",
+      "bank_code": "34539",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 368,
+      "height": 290,
+      "sha1": "c47454eb3f24",
+      "bank_code_inherited": false,
+      "xref": 261,
+      "bbox": [
+        281.8,
+        181.9,
+        489.4,
+        341.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1. Διάταξη Servo.  α)",
+      "text_after": "2. Διάταξη Simplex.  β)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34539_fig02.png",
+      "bank_code": "34539",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 369,
+      "height": 275,
+      "sha1": "5d2c7d6da23e",
+      "bank_code_inherited": false,
+      "xref": 263,
+      "bbox": [
+        279.2,
+        370.6,
+        490.4,
+        525.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2. Διάταξη Simplex.  β)",
+      "text_after": "3. Διάταξη Duo-Duplex.  γ)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34539_fig03.png",
+      "bank_code": "34539",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 372,
+      "height": 279,
+      "sha1": "526586e92849",
+      "bank_code_inherited": false,
+      "xref": 265,
+      "bbox": [
+        278.8,
+        554.1,
+        492.4,
+        717.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3. Διάταξη Duo-Duplex.  γ)",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34539_fig04.png",
+      "bank_code": "34539",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 375,
+      "height": 277,
+      "sha1": "62dfa25427c9",
+      "bank_code_inherited": true,
+      "xref": 307,
+      "bbox": [
+        285.0,
+        93.4,
+        485.8,
+        243.1
+      ],
+      "question_anchor": null,
+      "text_before": "4. Διάταξη Duplex.  δ)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch06_#34540_fig01.png",
+      "bank_code": "34540",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 553,
+      "height": 453,
+      "sha1": "5468d7e31262",
+      "bank_code_inherited": false,
+      "xref": 350,
+      "bbox": [
+        90.2,
+        158.9,
+        505.0,
+        498.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34539": {
+      "fig": [
+        "c_systimata-aftokinitou_ch06_#34539_fig01.png",
+        "c_systimata-aftokinitou_ch06_#34539_fig02.png",
+        "c_systimata-aftokinitou_ch06_#34539_fig03.png",
+        "c_systimata-aftokinitou_ch06_#34539_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34539_fig01.png",
+          "bank_code": "34539",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 368,
+          "height": 290,
+          "sha1": "c47454eb3f24",
+          "bank_code_inherited": false,
+          "xref": 261,
+          "bbox": [
+            281.8,
+            181.9,
+            489.4,
+            341.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1. Διάταξη Servo.  α)",
+          "text_after": "2. Διάταξη Simplex.  β)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34539_fig02.png",
+          "bank_code": "34539",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 369,
+          "height": 275,
+          "sha1": "5d2c7d6da23e",
+          "bank_code_inherited": false,
+          "xref": 263,
+          "bbox": [
+            279.2,
+            370.6,
+            490.4,
+            525.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2. Διάταξη Simplex.  β)",
+          "text_after": "3. Διάταξη Duo-Duplex.  γ)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34539_fig03.png",
+          "bank_code": "34539",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 372,
+          "height": 279,
+          "sha1": "526586e92849",
+          "bank_code_inherited": false,
+          "xref": 265,
+          "bbox": [
+            278.8,
+            554.1,
+            492.4,
+            717.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3. Διάταξη Duo-Duplex.  γ)",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34539_fig04.png",
+          "bank_code": "34539",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 375,
+          "height": 277,
+          "sha1": "62dfa25427c9",
+          "bank_code_inherited": true,
+          "xref": 307,
+          "bbox": [
+            285.0,
+            93.4,
+            485.8,
+            243.1
+          ],
+          "question_anchor": null,
+          "text_before": "4. Διάταξη Duplex.  δ)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34540": {
+      "fig": [
+        "c_systimata-aftokinitou_ch06_#34540_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34540_fig01.png",
+          "bank_code": "34540",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 553,
+          "height": 453,
+          "sha1": "5468d7e31262",
+          "bank_code_inherited": false,
+          "xref": 350,
+          "bbox": [
+            90.2,
+            158.9,
+            505.0,
+            498.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34987": {
+      "fig": [
+        "c_systimata-aftokinitou_ch06_#34987_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch06_#34987_fig01.png",
+          "bank_code": "34987",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 317,
+          "height": 311,
+          "sha1": "76df721405d6",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            178.6,
+            158.9,
+            416.4,
+            392.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

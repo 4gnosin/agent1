@@ -1,0 +1,229 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch09.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 9,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch09",
+  "total_pages": 17,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.png",
+      "bank_code": "18918",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 1012,
+      "height": 920,
+      "sha1": "fe7b424e8deb",
+      "bank_code_inherited": false,
+      "xref": 15,
+      "bbox": [
+        174.8,
+        170.4,
+        403.2,
+        378.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch09_#19042_fig01.png",
+      "bank_code": "19042",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 427,
+      "height": 458,
+      "sha1": "9563a4311a21",
+      "bank_code_inherited": false,
+      "xref": 245,
+      "bbox": [
+        205.6,
+        170.3,
+        406.2,
+        385.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α (ΒΛΕΠΕ ΣΧΗΜΑ)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch09_#19365_fig01.png",
+      "bank_code": "19365",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 668,
+      "height": 317,
+      "sha1": "ef66d8d4d28a",
+      "bank_code_inherited": false,
+      "xref": 310,
+      "bbox": [
+        71.1,
+        136.9,
+        524.2,
+        351.8
+      ],
+      "question_anchor": null,
+      "text_before": "χαλκοσωλήνα.",
+      "text_after": "Δίκτυο κεντρικής θέρμανσης από σκληρό χαλκοσωλήνα.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch09_#19368_fig01.png",
+      "bank_code": "19368",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 668,
+      "height": 420,
+      "sha1": "a2ebfab67bab",
+      "bank_code_inherited": false,
+      "xref": 349,
+      "bbox": [
+        78.4,
+        157.7,
+        516.8,
+        441.8
+      ],
+      "question_anchor": null,
+      "text_before": "σιδηροσωλήνα.",
+      "text_after": "Δίκτυο κεντρικής θέρμανσης από γαλβανισμένο σιδηροσωλήνα.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "18918": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.png",
+          "bank_code": "18918",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 1012,
+          "height": 920,
+          "sha1": "fe7b424e8deb",
+          "bank_code_inherited": false,
+          "xref": 15,
+          "bbox": [
+            174.8,
+            170.4,
+            403.2,
+            378.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19042": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch09_#19042_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch09_#19042_fig01.png",
+          "bank_code": "19042",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 427,
+          "height": 458,
+          "sha1": "9563a4311a21",
+          "bank_code_inherited": false,
+          "xref": 245,
+          "bbox": [
+            205.6,
+            170.3,
+            406.2,
+            385.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α (ΒΛΕΠΕ ΣΧΗΜΑ)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19365": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch09_#19365_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch09_#19365_fig01.png",
+          "bank_code": "19365",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 668,
+          "height": 317,
+          "sha1": "ef66d8d4d28a",
+          "bank_code_inherited": false,
+          "xref": 310,
+          "bbox": [
+            71.1,
+            136.9,
+            524.2,
+            351.8
+          ],
+          "question_anchor": null,
+          "text_before": "χαλκοσωλήνα.",
+          "text_after": "Δίκτυο κεντρικής θέρμανσης από σκληρό χαλκοσωλήνα.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19368": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch09_#19368_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch09_#19368_fig01.png",
+          "bank_code": "19368",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 668,
+          "height": 420,
+          "sha1": "a2ebfab67bab",
+          "bank_code_inherited": false,
+          "xref": 349,
+          "bbox": [
+            78.4,
+            157.7,
+            516.8,
+            441.8
+          ],
+          "question_anchor": null,
+          "text_before": "σιδηροσωλήνα.",
+          "text_after": "Δίκτυο κεντρικής θέρμανσης από γαλβανισμένο σιδηροσωλήνα.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

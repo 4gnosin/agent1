@@ -1,0 +1,125 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch07.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 7,
+  "stem": "c_systimata-aftokinitou_ch07",
+  "total_pages": 8,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch07_#34986_fig01.png",
+      "bank_code": "34986",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 759,
+      "height": 363,
+      "sha1": "45715f991065",
+      "bank_code_inherited": false,
+      "xref": 89,
+      "bbox": [
+        71.1,
+        158.9,
+        524.2,
+        375.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch07_#27705_fig01.png",
+      "bank_code": "27705",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 608,
+      "height": 301,
+      "sha1": "2e866a5836b8",
+      "bank_code_inherited": false,
+      "xref": 166,
+      "bbox": [
+        70.8,
+        164.1,
+        525.1,
+        456.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα εκκίνησης αυτοκινήτου. Να γράψετε  τους ",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27705": {
+      "fig": [
+        "c_systimata-aftokinitou_ch07_#27705_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch07_#27705_fig01.png",
+          "bank_code": "27705",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 608,
+          "height": 301,
+          "sha1": "2e866a5836b8",
+          "bank_code_inherited": false,
+          "xref": 166,
+          "bbox": [
+            70.8,
+            164.1,
+            525.1,
+            456.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα εκκίνησης αυτοκινήτου. Να γράψετε  τους ",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34986": {
+      "fig": [
+        "c_systimata-aftokinitou_ch07_#34986_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch07_#34986_fig01.png",
+          "bank_code": "34986",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 759,
+          "height": 363,
+          "sha1": "45715f991065",
+          "bank_code_inherited": false,
+          "xref": 89,
+          "bbox": [
+            71.1,
+            158.9,
+            524.2,
+            375.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

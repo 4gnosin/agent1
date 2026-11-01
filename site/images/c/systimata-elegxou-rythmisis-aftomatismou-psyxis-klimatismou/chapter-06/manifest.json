@@ -1,0 +1,409 @@
+{
+  "source_pdf": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06.pdf",
+  "grade": "c",
+  "subject": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+  "chapter": 6,
+  "stem": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06",
+  "total_pages": 24,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#36449_fig01.png",
+      "bank_code": "36449",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 704,
+      "height": 338,
+      "sha1": "7c9bfd65e654",
+      "bank_code_inherited": false,
+      "xref": 291,
+      "bbox": [
+        140.9,
+        138.7,
+        499.1,
+        310.6
+      ],
+      "question_anchor": null,
+      "text_before": "χώρο. Να απαντήσετε στις παρακάτω ερωτήσεις αιτιολογώντας κάθε φορά την απάντησή σας:",
+      "text_after": "α) Το σύστημα είναι ανοικτού ή κλειστού βρόχου; (Μονάδες 5)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.png",
+      "bank_code": "23678",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 545,
+      "height": 248,
+      "sha1": "650fcd7ca449",
+      "bank_code_inherited": false,
+      "xref": 551,
+      "bbox": [
+        90.0,
+        511.4,
+        499.3,
+        697.7
+      ],
+      "question_anchor": "4.2",
+      "text_before": "καλάμου τον οποίο ελζγχει ο κερμοςτάτθσ από -4 οC ζωσ +10 οC.",
+      "text_after": "Να εξθγιςετε:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig01.png",
+      "bank_code": "26940",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 244,
+      "height": 225,
+      "sha1": "179e84612204",
+      "bank_code_inherited": false,
+      "xref": 645,
+      "bbox": [
+        88.1,
+        203.7,
+        210.1,
+        316.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Τρίοδθ βάνα για μεταβολι τθσ κερμοκραςίασ",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig02.png",
+      "bank_code": "26940",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 169,
+      "height": 116,
+      "sha1": "c570a531eb03",
+      "bank_code_inherited": false,
+      "xref": 646,
+      "bbox": [
+        88.1,
+        327.3,
+        215.1,
+        414.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Τετράοδθ βάνα",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig03.png",
+      "bank_code": "26940",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 235,
+      "height": 258,
+      "sha1": "111df76b4f5d",
+      "bank_code_inherited": false,
+      "xref": 647,
+      "bbox": [
+        88.4,
+        425.7,
+        205.9,
+        554.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Αυτόματοσ διακόπτθσ για μεταβολι του όγκου",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig01.png",
+      "bank_code": "27159",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 219,
+      "height": 188,
+      "sha1": "a1e9e3ab8c1f",
+      "bank_code_inherited": false,
+      "xref": 762,
+      "bbox": [
+        88.3,
+        203.7,
+        253.3,
+        345.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Τάμπερ με πτεπύγια πος κινούνται αντίστπουα",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig02.png",
+      "bank_code": "27159",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 108,
+      "height": 185,
+      "sha1": "633816912837",
+      "bank_code_inherited": false,
+      "xref": 763,
+      "bbox": [
+        88.3,
+        356.3,
+        142.3,
+        495.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Τάμπερ που προορίηεται για ακριβι μζτρθςθ",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig03.png",
+      "bank_code": "27159",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 91,
+      "height": 174,
+      "sha1": "f9dde12986e8",
+      "bank_code_inherited": false,
+      "xref": 764,
+      "bbox": [
+        88.6,
+        506.8,
+        134.1,
+        637.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Τάμπερ διακοπισ όγκου του αζρα",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23678": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.png",
+          "bank_code": "23678",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 545,
+          "height": 248,
+          "sha1": "650fcd7ca449",
+          "bank_code_inherited": false,
+          "xref": 551,
+          "bbox": [
+            90.0,
+            511.4,
+            499.3,
+            697.7
+          ],
+          "question_anchor": "4.2",
+          "text_before": "καλάμου τον οποίο ελζγχει ο κερμοςτάτθσ από -4 οC ζωσ +10 οC.",
+          "text_after": "Να εξθγιςετε:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26940": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig02.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig01.png",
+          "bank_code": "26940",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 244,
+          "height": 225,
+          "sha1": "179e84612204",
+          "bank_code_inherited": false,
+          "xref": 645,
+          "bbox": [
+            88.1,
+            203.7,
+            210.1,
+            316.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Τρίοδθ βάνα για μεταβολι τθσ κερμοκραςίασ",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig02.png",
+          "bank_code": "26940",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 169,
+          "height": 116,
+          "sha1": "c570a531eb03",
+          "bank_code_inherited": false,
+          "xref": 646,
+          "bbox": [
+            88.1,
+            327.3,
+            215.1,
+            414.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Τετράοδθ βάνα",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig03.png",
+          "bank_code": "26940",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 235,
+          "height": 258,
+          "sha1": "111df76b4f5d",
+          "bank_code_inherited": false,
+          "xref": 647,
+          "bbox": [
+            88.4,
+            425.7,
+            205.9,
+            554.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Αυτόματοσ διακόπτθσ για μεταβολι του όγκου",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27159": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig02.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig01.png",
+          "bank_code": "27159",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 219,
+          "height": 188,
+          "sha1": "a1e9e3ab8c1f",
+          "bank_code_inherited": false,
+          "xref": 762,
+          "bbox": [
+            88.3,
+            203.7,
+            253.3,
+            345.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Τάμπερ με πτεπύγια πος κινούνται αντίστπουα",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig02.png",
+          "bank_code": "27159",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 108,
+          "height": 185,
+          "sha1": "633816912837",
+          "bank_code_inherited": false,
+          "xref": 763,
+          "bbox": [
+            88.3,
+            356.3,
+            142.3,
+            495.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Τάμπερ που προορίηεται για ακριβι μζτρθςθ",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig03.png",
+          "bank_code": "27159",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 91,
+          "height": 174,
+          "sha1": "f9dde12986e8",
+          "bank_code_inherited": false,
+          "xref": 764,
+          "bbox": [
+            88.6,
+            506.8,
+            134.1,
+            637.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Τάμπερ διακοπισ όγκου του αζρα",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36449": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#36449_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#36449_fig01.png",
+          "bank_code": "36449",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 704,
+          "height": 338,
+          "sha1": "7c9bfd65e654",
+          "bank_code_inherited": false,
+          "xref": 291,
+          "bbox": [
+            140.9,
+            138.7,
+            499.1,
+            310.6
+          ],
+          "question_anchor": null,
+          "text_before": "χώρο. Να απαντήσετε στις παρακάτω ερωτήσεις αιτιολογώντας κάθε φορά την απάντησή σας:",
+          "text_after": "α) Το σύστημα είναι ανοικτού ή κλειστού βρόχου; (Μονάδες 5)",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

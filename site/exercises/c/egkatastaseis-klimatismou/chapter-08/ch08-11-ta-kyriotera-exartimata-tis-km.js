@@ -140,7 +140,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Πόση πρέπει να είναι η νέα επιφάνεια των φίλτρων $A_{f\\,\\text{νέο}}$ εάν μειώσουμε την ταχύτητα του αέρα σε $1,5\\text{ m/s}$ (με παροχή $Q_\\alpha = 0,45\\text{ m}^3\\text{/s}$);",
         "formula": "A_{f\\,\\text{νέο}} = \\frac{Q_\\alpha}{V_{\\text{νέο}}}",
         "answer": 0.3,
-        "unit": "m^2",
+        "unit": "m²",
         "tolerance": 0.02,
         "hint": "Χρησιμοποιήστε τον τύπο $A_{f\\,\\text{νέο}} = \\frac{Q_\\alpha}{V_{\\text{νέο}}}$.",
         "explain": "Νέα επιφάνεια: $A_{f\\,\\text{νέο}} = \\frac{0,45\\text{ m}^3\\text{/s}}{1,5\\text{ m/s}} = 0,3\\text{ m}^2$."

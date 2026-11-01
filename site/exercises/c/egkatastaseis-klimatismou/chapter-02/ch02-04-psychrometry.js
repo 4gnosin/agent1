@@ -593,7 +593,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 1: Θερμοκρασία υγρού βολβού $t_{wb}$ ($^\\circ\\text{C}$)",
         "formula": "$t_{wb1} = 15,4\\text{ }^\\circ\\text{C}$",
         "answer": 15.4,
-        "unit": "$^\\circ\\text{C}$",
+        "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε την τιμή του $t_{wb}$ διαγώνια από την Κατάσταση 1.",
         "explain": "Από τον ψυχρομετρικό χάρτη για την Κατάσταση 1, $t_{wb} = 15,4\\text{ }^\\circ\\text{C}$."
@@ -626,7 +626,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 1: Ειδικός όγκος $v_1$ ($m^3$/Kg)",
         "formula": "$v_1 = 0,852\\text{ }m^3/\\text{Kg}$",
         "answer": 0.852,
-        "unit": "$m^3$/Kg",
+        "unit": "m³/Kg",
         "tolerance": 0.005,
         "hint": "Διαβάστε τον ειδικό όγκο από τις κεκλιμένες γραμμές.",
         "explain": "Για την Κατάσταση 1, $v_1 = 0,852\\text{ }m^3/\\text{Kg}$."
@@ -637,7 +637,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 1: Θερμοκρασία σημείου δρόσου $t_{dp1}$ ($^\\circ\\text{C}$)",
         "formula": "$t_{dp1} = 9,6\\text{ }^\\circ\\text{C}$",
         "answer": 9.6,
-        "unit": "$^\\circ\\text{C}$",
+        "unit": "°C",
         "tolerance": 0.05,
         "hint": "Ακολουθήστε οριζόντια γραμμή προς την καμπύλη κορεσμού.",
         "explain": "Για την Κατάσταση 1, $t_{dp1} = 9,6\\text{ }^\\circ\\text{C}$."
@@ -648,7 +648,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 2: Θερμοκρασία υγρού βολβού $t_{wb2}$ ($^\\circ\\text{C}$)",
         "formula": "$t_{wb2} = 18,6\\text{ }^\\circ\\text{C}$",
         "answer": 18.6,
-        "unit": "$^\\circ\\text{C}$",
+        "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε το $t_{wb}$ για την Κατάσταση 2.",
         "explain": "Για την Κατάσταση 2, $t_{wb2} = 18,6\\text{ }^\\circ\\text{C}$."
@@ -681,7 +681,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 2: Ειδικός όγκος $v_2$ ($m^3$/Kg)",
         "formula": "$v_2 = 0,857\\text{ }m^3/\\text{Kg}$",
         "answer": 0.857,
-        "unit": "$m^3$/Kg",
+        "unit": "m³/Kg",
         "tolerance": 0.005,
         "hint": "Διαβάστε τον ειδικό όγκο στην Κατάσταση 2.",
         "explain": "Για την Κατάσταση 2, $v_2 = 0,857\\text{ }m^3/\\text{Kg}$."
@@ -692,7 +692,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Κατάσταση 2: Θερμοκρασία σημείου δρόσου $t_{dp2}$ ($^\\circ\\text{C}$)",
         "formula": "$t_{dp2} = 15,8\\text{ }^\\circ\\text{C}$",
         "answer": 15.8,
-        "unit": "$^\\circ\\text{C}$",
+        "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε το σημείο δρόσου στην Κατάσταση 2.",
         "explain": "Για την Κατάσταση 2, $t_{dp2} = 15,8\\text{ }^\\circ\\text{C}$."

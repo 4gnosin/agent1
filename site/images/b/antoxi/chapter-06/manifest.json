@@ -1,0 +1,177 @@
+{
+  "source_pdf": "b_antoxi_ch06.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 6,
+  "stem": "b_antoxi_ch06",
+  "total_pages": 23,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch06_#19457_fig01.png",
+      "bank_code": "19457",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 1829,
+      "height": 319,
+      "sha1": "ba7af34ba3c7",
+      "bank_code_inherited": false,
+      "xref": 188,
+      "bbox": [
+        99.5,
+        154.6,
+        512.2,
+        226.6
+      ],
+      "question_anchor": null,
+      "text_before": "୫୫మ",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch06_#20275_fig01.png",
+      "bank_code": "20275",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 721,
+      "height": 1581,
+      "sha1": "460d64016160",
+      "bank_code_inherited": false,
+      "xref": 733,
+      "bbox": [
+        224.5,
+        265.8,
+        387.2,
+        622.6
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch06_#20276_fig01.png",
+      "bank_code": "20276",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 721,
+      "height": 1580,
+      "sha1": "8717de552e97",
+      "bank_code_inherited": false,
+      "xref": 820,
+      "bbox": [
+        224.5,
+        292.0,
+        387.2,
+        648.5
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "19457": {
+      "fig": [
+        "b_antoxi_ch06_#19457_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch06_#19457_fig01.png",
+          "bank_code": "19457",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 1829,
+          "height": 319,
+          "sha1": "ba7af34ba3c7",
+          "bank_code_inherited": false,
+          "xref": 188,
+          "bbox": [
+            99.5,
+            154.6,
+            512.2,
+            226.6
+          ],
+          "question_anchor": null,
+          "text_before": "୫୫మ",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20275": {
+      "fig": [
+        "b_antoxi_ch06_#20275_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch06_#20275_fig01.png",
+          "bank_code": "20275",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 721,
+          "height": 1581,
+          "sha1": "460d64016160",
+          "bank_code_inherited": false,
+          "xref": 733,
+          "bbox": [
+            224.5,
+            265.8,
+            387.2,
+            622.6
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20276": {
+      "fig": [
+        "b_antoxi_ch06_#20276_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch06_#20276_fig01.png",
+          "bank_code": "20276",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 721,
+          "height": 1580,
+          "sha1": "8717de552e97",
+          "bank_code_inherited": false,
+          "xref": 820,
+          "bbox": [
+            224.5,
+            292.0,
+            387.2,
+            648.5
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

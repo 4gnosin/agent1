@@ -1,0 +1,364 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch05.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 5,
+  "stem": "c_systimata-aftokinitou_ch05",
+  "total_pages": 16,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33520_fig01.png",
+      "bank_code": "33520",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 270,
+      "height": 223,
+      "sha1": "47f0b82fa05f",
+      "bank_code_inherited": false,
+      "xref": 97,
+      "bbox": [
+        187.7,
+        180.7,
+        407.5,
+        362.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33522_fig01.png",
+      "bank_code": "33522",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 438,
+      "height": 165,
+      "sha1": "c3117bf0a438",
+      "bank_code_inherited": false,
+      "xref": 257,
+      "bbox": [
+        122.2,
+        400.5,
+        472.8,
+        532.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "τα γράμματα α, β, γ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33523_fig01.png",
+      "bank_code": "33523",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 197,
+      "height": 207,
+      "sha1": "7f31e4a8852f",
+      "bank_code_inherited": false,
+      "xref": 335,
+      "bbox": [
+        104.9,
+        270.8,
+        261.6,
+        387.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "με ζώνη (Cinturato, Belted – ζωσμένα) ή και",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33523_fig02.png",
+      "bank_code": "33523",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 215,
+      "height": 209,
+      "sha1": "e59ef41b5b2d",
+      "bank_code_inherited": false,
+      "xref": 336,
+      "bbox": [
+        110.3,
+        420.4,
+        271.5,
+        557.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "με ενισχυτική (σταθεροποιητική) ζώνη.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33523_fig03.png",
+      "bank_code": "33523",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 175,
+      "height": 194,
+      "sha1": "dd5734013b25",
+      "bank_code_inherited": false,
+      "xref": 337,
+      "bbox": [
+        109.1,
+        590.4,
+        257.6,
+        711.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Ελαστικά με λοξά (διαγώνια πλέγματα).",
+      "text_after": "δ. Ολόσωμα (συμπαγή) ελαστικά.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33524_fig01.png",
+      "bank_code": "33524",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 253,
+      "height": 309,
+      "sha1": "84359d2af5a7",
+      "bank_code_inherited": false,
+      "xref": 420,
+      "bbox": [
+        105.0,
+        236.0,
+        291.0,
+        443.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τροχού.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch05_#33524_fig02.png",
+      "bank_code": "33524",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 206,
+      "height": 350,
+      "sha1": "67f315710119",
+      "bank_code_inherited": false,
+      "xref": 421,
+      "bbox": [
+        118.9,
+        472.9,
+        277.2,
+        699.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Στατική ζυγοστάθμιση τροχού.",
+      "text_after": "γ. Δυναμική ζυγοστάθμιση τροχού.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "33520": {
+      "fig": [
+        "c_systimata-aftokinitou_ch05_#33520_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33520_fig01.png",
+          "bank_code": "33520",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 270,
+          "height": 223,
+          "sha1": "47f0b82fa05f",
+          "bank_code_inherited": false,
+          "xref": 97,
+          "bbox": [
+            187.7,
+            180.7,
+            407.5,
+            362.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33522": {
+      "fig": [
+        "c_systimata-aftokinitou_ch05_#33522_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33522_fig01.png",
+          "bank_code": "33522",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 438,
+          "height": 165,
+          "sha1": "c3117bf0a438",
+          "bank_code_inherited": false,
+          "xref": 257,
+          "bbox": [
+            122.2,
+            400.5,
+            472.8,
+            532.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "τα γράμματα α, β, γ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33523": {
+      "fig": [
+        "c_systimata-aftokinitou_ch05_#33523_fig01.png",
+        "c_systimata-aftokinitou_ch05_#33523_fig02.png",
+        "c_systimata-aftokinitou_ch05_#33523_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33523_fig01.png",
+          "bank_code": "33523",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 197,
+          "height": 207,
+          "sha1": "7f31e4a8852f",
+          "bank_code_inherited": false,
+          "xref": 335,
+          "bbox": [
+            104.9,
+            270.8,
+            261.6,
+            387.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "με ζώνη (Cinturato, Belted – ζωσμένα) ή και",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33523_fig02.png",
+          "bank_code": "33523",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 215,
+          "height": 209,
+          "sha1": "e59ef41b5b2d",
+          "bank_code_inherited": false,
+          "xref": 336,
+          "bbox": [
+            110.3,
+            420.4,
+            271.5,
+            557.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "με ενισχυτική (σταθεροποιητική) ζώνη.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33523_fig03.png",
+          "bank_code": "33523",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 175,
+          "height": 194,
+          "sha1": "dd5734013b25",
+          "bank_code_inherited": false,
+          "xref": 337,
+          "bbox": [
+            109.1,
+            590.4,
+            257.6,
+            711.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Ελαστικά με λοξά (διαγώνια πλέγματα).",
+          "text_after": "δ. Ολόσωμα (συμπαγή) ελαστικά.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33524": {
+      "fig": [
+        "c_systimata-aftokinitou_ch05_#33524_fig01.png",
+        "c_systimata-aftokinitou_ch05_#33524_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33524_fig01.png",
+          "bank_code": "33524",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 253,
+          "height": 309,
+          "sha1": "84359d2af5a7",
+          "bank_code_inherited": false,
+          "xref": 420,
+          "bbox": [
+            105.0,
+            236.0,
+            291.0,
+            443.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τροχού.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch05_#33524_fig02.png",
+          "bank_code": "33524",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 206,
+          "height": 350,
+          "sha1": "67f315710119",
+          "bank_code_inherited": false,
+          "xref": 421,
+          "bbox": [
+            118.9,
+            472.9,
+            277.2,
+            699.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Στατική ζυγοστάθμιση τροχού.",
+          "text_after": "γ. Δυναμική ζυγοστάθμιση τροχού.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

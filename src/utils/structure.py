@@ -122,6 +122,8 @@ SUBJECT_CATALOG_IDS: dict[str, str] = {
     "michanes-esoterikis-kafsis-2": "michanes-esoterikis-kafsis-2",
     "systimata-aftokinitou": "systimata-aftokinitou",
     "texnologia-elegxou-diagnoseon": "texnologia-elegxou-diagnoseon",
+    "texnologia-michanologikon-kataskevon": "texnologia-michanologikon-kataskevon",
+    "naftiki-michanologia": "naftiki-michanologia",
 }
 
 # Συνώνυμα / συντομογραφίες → κανονικό όνομα φακέλου subject
@@ -153,6 +155,11 @@ SUBJECT_ALIASES: dict[str, str] = {
     "aftokinito": "systimata-aftokinitou",
     "texnologia-elegxou-diagnoseon": "texnologia-elegxou-diagnoseon",
     "diagnoseis": "texnologia-elegxou-diagnoseon",
+    "texnologia-michanologikon-kataskevon": "texnologia-michanologikon-kataskevon",
+    "texnologia-kataskevon": "texnologia-michanologikon-kataskevon",
+    "kataskeves": "texnologia-michanologikon-kataskevon",
+    "tmk": "texnologia-michanologikon-kataskevon",
+    "naftiki-michanologia": "naftiki-michanologia",
 }
 
 # grade_subject_chNN  ή  grade-subject-chapter-NN  (+ προαιρετικό υπόλοιπο τίτλου)

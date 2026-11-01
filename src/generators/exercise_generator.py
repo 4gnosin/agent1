@@ -176,7 +176,7 @@ class ExerciseGenerator:
         """Καθαρίζει τυχόν markdown backticks."""
         text = raw_text.strip()
         if text.startswith("```"):
-            text = re.sub(r"^```(?:javascript|js)?\s*", "", text, flags=re.IGNORECASE)
+            text = re.sub(r"^```(?:javascript|js|json)?\s*", "", text, flags=re.IGNORECASE)
             text = re.sub(r"\s*```$", "", text)
         return text.strip()
 
@@ -332,17 +332,19 @@ class ExerciseGenerator:
                 "- Για την ενότητα '2.4 Η αποτύπωση...': 'ch02-04-psychrometry' (παράγει το αρχείο ch02-04-psychrometry.js).\n"
                 "- Για την ενότητα '2.10 Ειδικές διατάξεις...': 'ch02-10-eidikes-diataxeis' (παράγει το αρχείο ch02-10-eidikes-diataxeis.js).\n"
                 "- Για την ενότητα '8.2 Ο ρόλος...': 'ch08-02-rolos-klimatistikon-monadon' (παράγει το ch08-02-rolos-klimatistikon-monadon.js).\n"
-                "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match) ΜΕ ΣΧΗΜΑ:\n"
-                "Όταν η Στήλη Α αναφέρεται σε σχήμα/διάγραμμα με αριθμημένα βέλη/γραμμές (π.χ. 1, 2, 3, 4):\n"
-                "- Στο 'left', τα κείμενα 'text' πρέπει να είναι ΑΥΣΤΗΡΑ ΚΑΙ ΜΟΝΟ τα ονόματα/αριθμοί όπως ορίζονται στην εκφώνηση (π.χ. 'Γραμμή 1' ή απλώς '1', 'Γραμμή 2' κ.ο.κ.).\n"
-                "- ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
+                "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match):\n"
+                "- Όταν η Στήλη Α περιέχει κείμενο/φράσεις (π.χ. ονόματα εξαρτημάτων, τύπους μηχανών, ορισμούς), "
+                "ΠΡΕΠΕΙ ΥΠΟΧΡΕΩΤΙΚΑ να βάζεις ολόκληρο το κείμενο/φράση στο πεδίο 'text' (π.χ. 'text': 'Μηχανή τύπου Boxer'). "
+                "ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να βάζεις μόνο τον αριθμό 'text': '1' όταν υπάρχει κείμενο στη Στήλη Α!\n"
+                "- Όταν η Στήλη Α αναφέρεται αποκλειστικά σε αριθμημένα μέρη/βέλη ενός σχήματος χωρίς άλλη περιγραφή, "
+                "τότε μόνο βάλε 'text': '1' ή 'Γραμμή 1'. ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
                 "Στο code/title γράψε απλά «Θέμα 2ο · #18622» (ΧΩΡΙΣ <sup>).\n"
                 "sourceOrder = σειρά στην πηγή. answer/pairs από την ενδεικτική λύση — ποτέ εικασίες.\n"
                 "stem: ΜΟΝΟ ουσιαστική εκφώνηση/δεδομένα ΠΡΙΝ τα υποερωτήματα. "
                 "ΑΠΑΓΟΡΕΥΕΤΑΙ stem «Θέμα 2ο»/«Θέμα 4ο»/κενό — αυτά είναι ήδη σε code & title· "
                 "αν δεν υπάρχει άλλη εκφώνηση, ΜΗΝ βάλεις καθόλου το πεδίο stem.\n"
                 "item.prompt = ολόκληρο το υποερώτημα. Κάθε item έχει explain. calc: answer + unit.\n\n"
-                "Επέστρεψε αποκλειστικά ένα JSON object με σχήμα:\n"
+                "Επέστρεψε αποκλειστικά ένα JSON object (ξεκινά με { και κλείνει με }, ΟΧΙ JSON array []) με σχήμα:\n"
                 '{"groups":[{"id":"ch02-04-psychrometry","title":"2.4 Η αποτύπωση των θερμοδυναμικών χαρακτηριστικών",'
                 '"blurb":"..."}],'
                 '"exercises":[{"id":"ch02-23768","group":"ch02-04-psychrometry","kind":"tf",'
@@ -365,6 +367,37 @@ class ExerciseGenerator:
             result = json.loads(raw_result)
         except json.JSONDecodeError as exc:
             raise ValueError("Το Gemini δεν επέστρεψε έγκυρο JSON για τις ασκήσεις.") from exc
+        # Αν το Gemini επέστρεψε λίστα αντί για αντικείμενο, ανάκτησε τα δεδομένα με ασφάλεια
+        if isinstance(result, list):
+            if len(result) == 1 and isinstance(result[0], dict) and ("groups" in result[0] or "exercises" in result[0]):
+                result = result[0]
+            elif any(isinstance(x, dict) and ("groups" in x or "exercises" in x) for x in result):
+                merged = {"groups": [], "exercises": [], "omitted": []}
+                for item in result:
+                    if isinstance(item, dict):
+                        if "groups" in item and isinstance(item["groups"], list):
+                            merged["groups"].extend(item["groups"])
+                        if "exercises" in item and isinstance(item["exercises"], list):
+                            merged["exercises"].extend(item["exercises"])
+                        if "omitted" in item and isinstance(item["omitted"], list):
+                            merged["omitted"].extend(item["omitted"])
+                result = merged
+            elif all(isinstance(x, dict) and ("items" in x or "kind" in x) for x in result):
+                exercises = result
+                groups = []
+                seen_groups = set()
+                for ex in exercises:
+                    grp_id = ex.get("group") or f"ch{chapter:02d}-01-general"
+                    ex["group"] = grp_id
+                    if grp_id not in seen_groups:
+                        seen_groups.add(grp_id)
+                        groups.append({
+                            "id": grp_id,
+                            "title": ex.get("title") or f"Ενότητα {grp_id}",
+                            "blurb": f"Ασκήσεις ενότητας {grp_id}",
+                        })
+                result = {"groups": groups, "exercises": exercises, "omitted": []}
+
         if not isinstance(result, dict):
             raise ValueError("Η απάντηση του Gemini για τις ασκήσεις πρέπει να είναι αντικείμενο JSON.")
 
@@ -447,6 +480,20 @@ class ExerciseGenerator:
                             cleaned_txt = re.sub(r"\s*\([^)]*\)$", "", str(l["text"])).strip()
                             if cleaned_txt:
                                 l["text"] = cleaned_txt
+                # Καθαρισμός και κανονικοποίηση μονάδων μέτρησης (π.χ. ^\circ\text{C} -> °C, \text{kPa} -> kPa)
+                if item.get("kind") == "calc" and item.get("unit"):
+                    u = str(item["unit"]).strip()
+                    if re.search(r"circ.*[cC]|\^\\circ\\text\{[cC]\}", u):
+                        item["unit"] = "°C"
+                    elif re.search(r"circ.*[fF]|\^\\circ\\text\{[fF]\}", u):
+                        item["unit"] = "°F"
+                    else:
+                        u = re.sub(r"\\+text\{([^}]+)\}", r"\1", u)
+                        u = u.replace("$", "").replace("\\", "").strip()
+                        u = u.replace("^2", "²").replace("^3", "³")
+                        if u.lower() == "kcal":
+                            u = "kcal"
+                        item["unit"] = u
             first_interactive = next((it.get("kind") for it in items if it.get("kind") != "open"), items[0].get("kind"))
             exercise["kind"] = first_interactive if first_interactive in allowed_kinds else exercise.get("kind")
             exercise["layout"] = "unified"

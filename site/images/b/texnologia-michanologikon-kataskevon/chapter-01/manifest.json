@@ -1,0 +1,19 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch01.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 1,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch01",
+  "total_pages": 21,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [],
+  "by_bank_code": {}
+}

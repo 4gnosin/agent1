@@ -1,0 +1,579 @@
+{
+  "source_pdf": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08.pdf",
+  "grade": "c",
+  "subject": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+  "chapter": 8,
+  "stem": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08",
+  "total_pages": 25,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#25318_sol01.png",
+      "bank_code": "25318",
+      "role": "sol",
+      "page": 3,
+      "kind": "embedded",
+      "width": 557,
+      "height": 770,
+      "sha1": "2c8a3d93ac39",
+      "bank_code_inherited": false,
+      "xref": 58,
+      "bbox": [
+        170.9,
+        136.8,
+        424.1,
+        486.8
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1.",
+      "text_after": "4.2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33180_fig01.png",
+      "bank_code": "33180",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 553,
+      "height": 741,
+      "sha1": "704ff9510288",
+      "bank_code_inherited": false,
+      "xref": 90,
+      "bbox": [
+        155.8,
+        291.7,
+        456.2,
+        694.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β) Να αιτιολογήσετε την απάντησή σας στην πρόταση γ. του θέματος 2.1. α). (Μονάδες 4)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36568_fig01.png",
+      "bank_code": "36568",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 307,
+      "height": 350,
+      "sha1": "61a59d0053f8",
+      "bank_code_inherited": false,
+      "xref": 139,
+      "bbox": [
+        220.9,
+        180.8,
+        374.4,
+        355.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιςτοίχιςθ. Σθμειϊνεται ότι ζνα (1) γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+      "text_after": "2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36025_fig01.png",
+      "bank_code": "36025",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 771,
+      "height": 520,
+      "sha1": "80a0cc7a1850",
+      "bank_code_inherited": false,
+      "xref": 223,
+      "bbox": [
+        70.9,
+        180.8,
+        524.4,
+        486.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig01.png",
+      "bank_code": "36567",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 177,
+      "height": 157,
+      "sha1": "ad7e3d467459",
+      "bank_code_inherited": false,
+      "xref": 298,
+      "bbox": [
+        107.2,
+        185.5,
+        281.9,
+        339.8
+      ],
+      "question_anchor": null,
+      "text_before": "α. Πρεςοςτάτθσ χαμθλισ και υψθλισ",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig02.png",
+      "bank_code": "36567",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 353,
+      "height": 197,
+      "sha1": "cddcd71b80d1",
+      "bank_code_inherited": false,
+      "xref": 300,
+      "bbox": [
+        107.2,
+        351.1,
+        283.1,
+        448.9
+      ],
+      "question_anchor": null,
+      "text_before": "β. Τετράοδθ βάνα αντιςτροφισ",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig03.png",
+      "bank_code": "36567",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 275,
+      "height": 173,
+      "sha1": "c8c207c9d323",
+      "bank_code_inherited": false,
+      "xref": 302,
+      "bbox": [
+        107.2,
+        459.9,
+        313.8,
+        589.9
+      ],
+      "question_anchor": null,
+      "text_before": "γ. Διανομζασ που μπορεί να λειτουργεί και",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.png",
+      "bank_code": "29600",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 716,
+      "height": 564,
+      "sha1": "c2bda6dc86a0",
+      "bank_code_inherited": false,
+      "xref": 405,
+      "bbox": [
+        77.1,
+        202.7,
+        498.4,
+        534.6
+      ],
+      "question_anchor": "4.1",
+      "text_before": "τον τρόπο με τον οποίο λειτουργοφν τα εξαρτιματα ςε αυτά τα ςθμεία.",
+      "text_after": "Μονάδες 20",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33181_fig01.png",
+      "bank_code": "33181",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 1048,
+      "height": 706,
+      "sha1": "d2c2ea1e8c02",
+      "bank_code_inherited": false,
+      "xref": 499,
+      "bbox": [
+        72.0,
+        161.8,
+        540.0,
+        477.0
+      ],
+      "question_anchor": null,
+      "text_before": "όταν:",
+      "text_after": "α) Ο συμπιεστής σταματάει να λειτουργεί. (Μονάδες 5)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29602_fig01.png",
+      "bank_code": "29602",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 649,
+      "height": 547,
+      "sha1": "c137dfe76a30",
+      "bank_code_inherited": false,
+      "xref": 546,
+      "bbox": [
+        123.4,
+        202.7,
+        474.3,
+        498.5
+      ],
+      "question_anchor": "4.1",
+      "text_before": "γίνει αυτό.",
+      "text_after": "Μονάδες 20",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36024_fig01.png",
+      "bank_code": "36024",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 695,
+      "height": 500,
+      "sha1": "80a5ed6d1cb1",
+      "bank_code_inherited": false,
+      "xref": 737,
+      "bbox": [
+        89.2,
+        180.8,
+        506.1,
+        480.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25318": {
+      "fig": [],
+      "sol": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#25318_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#25318_sol01.png",
+          "bank_code": "25318",
+          "role": "sol",
+          "page": 3,
+          "kind": "embedded",
+          "width": 557,
+          "height": 770,
+          "sha1": "2c8a3d93ac39",
+          "bank_code_inherited": false,
+          "xref": 58,
+          "bbox": [
+            170.9,
+            136.8,
+            424.1,
+            486.8
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1.",
+          "text_after": "4.2.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29600": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.png",
+          "bank_code": "29600",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 716,
+          "height": 564,
+          "sha1": "c2bda6dc86a0",
+          "bank_code_inherited": false,
+          "xref": 405,
+          "bbox": [
+            77.1,
+            202.7,
+            498.4,
+            534.6
+          ],
+          "question_anchor": "4.1",
+          "text_before": "τον τρόπο με τον οποίο λειτουργοφν τα εξαρτιματα ςε αυτά τα ςθμεία.",
+          "text_after": "Μονάδες 20",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29602": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29602_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29602_fig01.png",
+          "bank_code": "29602",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 649,
+          "height": 547,
+          "sha1": "c137dfe76a30",
+          "bank_code_inherited": false,
+          "xref": 546,
+          "bbox": [
+            123.4,
+            202.7,
+            474.3,
+            498.5
+          ],
+          "question_anchor": "4.1",
+          "text_before": "γίνει αυτό.",
+          "text_after": "Μονάδες 20",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33180": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33180_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33180_fig01.png",
+          "bank_code": "33180",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 553,
+          "height": 741,
+          "sha1": "704ff9510288",
+          "bank_code_inherited": false,
+          "xref": 90,
+          "bbox": [
+            155.8,
+            291.7,
+            456.2,
+            694.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β) Να αιτιολογήσετε την απάντησή σας στην πρόταση γ. του θέματος 2.1. α). (Μονάδες 4)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33181": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33181_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33181_fig01.png",
+          "bank_code": "33181",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 1048,
+          "height": 706,
+          "sha1": "d2c2ea1e8c02",
+          "bank_code_inherited": false,
+          "xref": 499,
+          "bbox": [
+            72.0,
+            161.8,
+            540.0,
+            477.0
+          ],
+          "question_anchor": null,
+          "text_before": "όταν:",
+          "text_after": "α) Ο συμπιεστής σταματάει να λειτουργεί. (Μονάδες 5)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36024": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36024_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36024_fig01.png",
+          "bank_code": "36024",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 695,
+          "height": 500,
+          "sha1": "80a5ed6d1cb1",
+          "bank_code_inherited": false,
+          "xref": 737,
+          "bbox": [
+            89.2,
+            180.8,
+            506.1,
+            480.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36025": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36025_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36025_fig01.png",
+          "bank_code": "36025",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 771,
+          "height": 520,
+          "sha1": "80a0cc7a1850",
+          "bank_code_inherited": false,
+          "xref": 223,
+          "bbox": [
+            70.9,
+            180.8,
+            524.4,
+            486.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36567": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig02.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig01.png",
+          "bank_code": "36567",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 177,
+          "height": 157,
+          "sha1": "ad7e3d467459",
+          "bank_code_inherited": false,
+          "xref": 298,
+          "bbox": [
+            107.2,
+            185.5,
+            281.9,
+            339.8
+          ],
+          "question_anchor": null,
+          "text_before": "α. Πρεςοςτάτθσ χαμθλισ και υψθλισ",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig02.png",
+          "bank_code": "36567",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 353,
+          "height": 197,
+          "sha1": "cddcd71b80d1",
+          "bank_code_inherited": false,
+          "xref": 300,
+          "bbox": [
+            107.2,
+            351.1,
+            283.1,
+            448.9
+          ],
+          "question_anchor": null,
+          "text_before": "β. Τετράοδθ βάνα αντιςτροφισ",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36567_fig03.png",
+          "bank_code": "36567",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 275,
+          "height": 173,
+          "sha1": "c8c207c9d323",
+          "bank_code_inherited": false,
+          "xref": 302,
+          "bbox": [
+            107.2,
+            459.9,
+            313.8,
+            589.9
+          ],
+          "question_anchor": null,
+          "text_before": "γ. Διανομζασ που μπορεί να λειτουργεί και",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36568": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36568_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36568_fig01.png",
+          "bank_code": "36568",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 307,
+          "height": 350,
+          "sha1": "61a59d0053f8",
+          "bank_code_inherited": false,
+          "xref": 139,
+          "bbox": [
+            220.9,
+            180.8,
+            374.4,
+            355.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιςτοίχιςθ. Σθμειϊνεται ότι ζνα (1) γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+          "text_after": "2",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

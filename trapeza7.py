@@ -14,6 +14,7 @@
 import asyncio
 import re
 import tempfile
+import unicodedata
 from pathlib import Path
 from io import BytesIO
 from collections import defaultdict
@@ -51,6 +52,7 @@ SUBJECTS = {
         "Στοιχεία Ψύξης – Κλιματισμού (Μηχανολογικών Εγκ/σεων)": "/grades/3/classes/3/subjects/210",
         "Συστήματα Αυτοκινήτου": "/grades/3/classes/3/subjects/179",
         "Εγκαταστάσεις Κλιματισμού": "/grades/3/classes/3/subjects/172",
+        "Συστήματα Ελέγχου, Ρύθμισης και Αυτοματισμού Εγκαταστάσεων Ψύξης και Κλιματισμού": "/grades/3/classes/3/subjects/180",
         "Συντήρηση και Επισκευή Εγκαταστάσεων Καύσης": "/grades/3/classes/3/subjects/211",
 
         # Άλλες (Αεροσκάφη / Ναυτιλία)
@@ -72,6 +74,11 @@ PDF_SLUGS = {
         "Θερμοδυναμική Εργαστήριο": "thermo-lab",
         "Μηχανικη Αντοχή Υλικών": "antoxi",
         "Αντοχή Υλικών": "antoxi",
+        "Τεχνολογια Μηχανολογικών κατασκευών – Εφαρμογές": "texnologia-michanologikon-kataskevon",
+        "Τεχνολογία Μηχανολογικών Κατασκευών": "texnologia-michanologikon-kataskevon",
+        "Τεχνολογία Μηχανολογικών Κατασκευών Θεωρία": "texnologia-michanologikon-kataskevon",
+        "Τεχνολογία Μηχανολογικών Κατασκευών – Εφαρμογές": "texnologia-michanologikon-kataskevon",
+        "Ναυτική μηχανολογία Εφαρμογές": "naftiki-michanologia",
     },
     "Γ": {
         "Στοιχεία Μηχανών": "stoixeia-michanon",
@@ -79,20 +86,52 @@ PDF_SLUGS = {
         "Στοιχεία Ψύξης – Κλιματισμού (Μηχανολογικών Εγκ/σεων)": "stoixeia-psyxis-klimatismou",
         "Εγκαταστάσεις Κλιματισμού": "egkatastaseis-klimatismou",
         "Συστήματα Ελέγχου / Αυτοματισμού Ψύξης–Κλιματισμού": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+        "Συστήματα Ελέγχου, Ρύθμισης και Αυτοματισμού Εγκαταστάσεων Ψύξης και Κλιματισμού": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+        "Συστήματα Ελέγχου, Ρύθμισης και Αυτοματισμού Εγκαταστάσεων Ψύξης και Κλιματισμού Θεωρία": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+        "Συστήματα Ελέγχου, Ρύθμισης και Αυτοματισμού Εγκαταστάσεων Ψύξης – Κλιματισμού": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
         "Μηχανές Εσωτερικής Καύσης ΙΙ": "michanes-esoterikis-kafsis-2",
         "Συστήματα Αυτοκινήτου": "systimata-aftokinitou",
         "Τεχνολογία Ελέγχου & Διαγνώσεων": "texnologia-elegxou-diagnoseon",
+        "Μηχανουργική Τεχνολογία – Εργαλειομηχανές": "michanourgiki-texnologia",
+        "Στοιχεία Σχεδιασμού Κεντρικών Θερμάνσεων": "stoixeia-kentrikon-thermanseon",
+        "Συντήρηση και Επισκευή Εγκαταστάσεων Καύσης": "syntirisi-egkatastaseon-kafsis",
+        "Κινητήρες αεροσκαφών": "kinitires-aeroskafon",
+        "Διαδικασίες Συντήρησης Αεροσκαφών": "diadikasies-syntirisis-aeroskafon",
+        "Δομή και Συστήματα Αεροσκαφών": "domi-systimata-aeroskafon",
+        "Ναυτικές μηχανές": "naftikes-michanes",
     },
 }
 
+GREEK_TO_LATIN = {
+    "α": "a", "ά": "a", "β": "v", "γ": "g", "δ": "d", "ε": "e", "έ": "e",
+    "ζ": "z", "η": "i", "ή": "i", "θ": "th", "ι": "i", "ί": "i", "ϊ": "i", "ΐ": "i",
+    "κ": "k", "λ": "l", "μ": "m", "ν": "n", "ξ": "x", "ο": "o", "ό": "o",
+    "π": "p", "ρ": "r", "σ": "s", "ς": "s", "τ": "t", "υ": "y", "ύ": "y", "ϋ": "y", "ΰ": "y",
+    "φ": "f", "χ": "ch", "ψ": "ps", "ω": "o", "ώ": "o",
+}
+
+def transliterate_greek_slug(text: str) -> str:
+    res = []
+    for c in text.lower():
+        if c in GREEK_TO_LATIN:
+            res.append(GREEK_TO_LATIN[c])
+        elif c.isalnum():
+            res.append(c)
+        elif c in (" ", "-", "–", "—", "_"):
+            res.append("-")
+    slug = re.sub(r"-+", "-", "".join(res)).strip("-")
+    return slug
+
 
 def get_pdf_slug(taxi: str, subject_name: str) -> str:
-    """Επιστρέφει το καθορισμένο slug ή ασφαλές fallback."""
+    """Επιστρέφει το καθορισμένο slug ή αυτόματο transliterated slug (ποτέ 'mathima')."""
     if subject_name in PDF_SLUGS.get(taxi, {}):
         return PDF_SLUGS[taxi][subject_name]
-    # Fallback για μαθήματα που δεν έχουν οριστεί ρητά παραπάνω.
-    slug = subject_name.lower().replace("–", "-").replace("—", "-")
-    slug = re.sub(r"[^a-z0-9]+", "-", slug).strip("-")
+    clean_name = subject_name.replace("–", "-").replace("—", "-").strip()
+    for name, slug in PDF_SLUGS.get(taxi, {}).items():
+        if clean_name.lower() == name.replace("–", "-").replace("—", "-").strip().lower():
+            return slug
+    slug = transliterate_greek_slug(subject_name)
     return slug or "mathima"
 
 
@@ -192,12 +231,25 @@ def add_header_to_pdf(input_path: Path, header_text: str) -> Path:
     return out_path
 
 
+def normalize_greek_text(text: str) -> str:
+    """Αφαιρεί τόνους και μετατρέπει σε κεφαλαία για αξιόπιστο regex matching."""
+    nfd = unicodedata.normalize("NFD", text)
+    return "".join(c for c in nfd if unicodedata.category(c) != "Mn").upper()
+
+
 def extract_sections(text: str):
     sections = []
-    for m in re.finditer(r"(\d+)\.(\d+)", text):
+    for m in re.finditer(r"(?<!\d)(\d+)\.(\d+)(?!\d)", text):
         sections.append((int(m.group(1)), int(m.group(2))))
-    for m in re.finditer(r"ΚΕΦΑΛΑΙΟ\s*(\d+)", text, re.I):
+
+    norm = normalize_greek_text(text)
+    for m in re.finditer(r"(?:ΚΕΦΑΛΑΙΟ|ΚΕΦ\.?)\s*(\d+)", norm):
         sections.append((int(m.group(1)), 0))
+
+    if not sections:
+        for m in re.finditer(r"(?<!\d)(\d{1,2})\s*[:\-–—.]?\s*(?!\d)[Α-ΩA-Z]", norm):
+            sections.append((int(m.group(1)), 0))
+
     return sections
 
 
@@ -205,10 +257,28 @@ def get_max_chapter(sections):
     return max((s[0] for s in sections), default=0)
 
 
+def get_chapter_title_from_text(yli_text: str, target_chapter: int) -> str:
+    """Εξάγει τον γενικό τίτλο του κεφαλαίου από το κείμενο της ύλης όταν δεν υπάρχουν υποενότητες.
+    π.χ. 'Κεφάλαιο 4 ΑΤΜΟΙ' -> 'ΑΤΜΟΙ', '4 - ΑΤΜΟΙ' -> 'ΑΤΜΟΙ'."""
+    patterns = [
+        rf"(?:[Κκ][Εε][Φφ](?:[ΆάΑα][Λλ][Αα][Ιι][Οο]|\.)?)\s*{target_chapter}\s*[:\-–—.]?\s*([^\n\r\t+]+)",
+        rf"(?<!\d){target_chapter}\s*[:\-–—.]\s*(?!\d)([^\n\r\t+]+)",
+        rf"(?<!\d){target_chapter}\s+([Α-ΩΆ-ΏA-Za-z][^\n\r\t+]+)"
+    ]
+    for pat in patterns:
+        m = re.search(pat, yli_text)
+        if m:
+            raw_title = m.group(1)
+            title = re.split(r"[\n\r\t+$]|(?<!\d)\d+\.\d+", raw_title)[0]
+            title = re.sub(r"\s+", " ", title).strip(" -–—:\t.")[:200]
+            if title and not title.isdigit():
+                return title
+    return ""
+
+
 def get_subsection_info(yli_text: str, target_chapter: int):
     """Βρίσκει τη μεγαλύτερη υποενότητα (π.χ. 3.4) του κεφαλαίου και την περιγραφή της.
-    Δουλεύει και όταν οι τίτλοι είναι κολλημένοι (ΦΟΡΤΙΑ3.3 ...φορτία3.4 ...)
-    και όταν χωρίζονται με αλλαγή γραμμής ή tab."""
+    Αν το θέμα αφορά γενικά το κεφάλαιο (χωρίς επιμέρους υποενότητες), επιστρέφει (0, γενικός_τίτλος)."""
     if target_chapter == 999:
         return 0, ""
 
@@ -218,9 +288,13 @@ def get_subsection_info(yli_text: str, target_chapter: int):
         rest = yli_text[m.end():]
         stop = re.search(r"\d+\.\d+|ΚΕΦΑΛΑΙΟ|[\n\r\t+$]", rest, re.I)
         desc = rest[:stop.start()] if stop else rest
-        desc = re.sub(r"\s+", " ", desc).strip(" -–—\t")[:80]
+        desc = re.sub(r"\s+", " ", desc).strip(" -–—\t")[:200]
         if num >= best_num:
             best_num, best_desc = num, desc
+
+    if best_num == 0:
+        best_desc = get_chapter_title_from_text(yli_text, target_chapter)
+
     return best_num, best_desc
 
 
@@ -328,12 +402,22 @@ async def main():
             # Η ύλη είναι συχνά διπλωμένη (+): το inner_text δεν περιέχει τις υποενότητες,
             # ενώ το text_content περιέχει και το κρυμμένο κείμενο.
             full_text = (await row.text_content()) or ""
-            sections = extract_sections(full_text)
+            cells = await row.query_selector_all("td")
+            if len(cells) >= 7:
+                yli_text = (await cells[6].text_content()) or ""
+            else:
+                yli_text = full_text
+
+            sections = extract_sections(yli_text)
             max_chap = get_max_chapter(sections)
+
+            if max_chap == 0 and full_text != yli_text:
+                sections = extract_sections(full_text)
+                max_chap = get_max_chapter(sections)
 
             # Εφεδρικά: αν δεν υπάρχει υποενότητα, πάρε τον αριθμό από τον τίτλο ("3 ΘΕΡΜΙΚΑ ...")
             if max_chap == 0:
-                title_nums = re.findall(r"(?m)^\s*(\d{1,2})\s+[Α-ΩΆ-Ώ]", text)
+                title_nums = re.findall(r"(?m)^\s*(\d{1,2})\s+[Α-ΩΆ-ΏA-Za-z]", text)
                 if title_nums:
                     max_chap = max(int(x) for x in title_nums)
 
@@ -360,7 +444,9 @@ async def main():
             if not ek_url:
                 continue
 
-            sub_num, sub_desc = get_subsection_info(full_text, max_chap)
+            sub_num, sub_desc = get_subsection_info(yli_text, max_chap)
+            if not sub_desc and full_text != yli_text:
+                _, sub_desc = get_subsection_info(full_text, max_chap)
 
             topics.append({
                 "id": topic_id,
@@ -387,7 +473,7 @@ async def main():
             elif t["sub_num"]:
                 chap_str = f"{t['max_chapter']}.{t['sub_num']}"
             else:
-                chap_str = f"{t['max_chapter']}"
+                chap_str = f"{t['max_chapter']}.0"
             print(f"[{i}/{len(topics)}] #{tid} (Κεφ. {chap_str}) ...", end=" ")
 
             try:
@@ -425,6 +511,10 @@ async def main():
             header += "   |   (χωρίς αντιστοιχία κεφαλαίου)"
         elif t["sub_num"]:
             header += f"   |   {t['max_chapter']}.{t['sub_num']}"
+            if t["sub_desc"]:
+                header += f"  {t['sub_desc']}"
+        else:
+            header += f"   |   {t['max_chapter']}.0"
             if t["sub_desc"]:
                 header += f"  {t['sub_desc']}"
         return header

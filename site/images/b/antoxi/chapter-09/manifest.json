@@ -1,0 +1,73 @@
+{
+  "source_pdf": "b_antoxi_ch09.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 9,
+  "stem": "b_antoxi_ch09",
+  "total_pages": 17,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch09_#20265_fig01.png",
+      "bank_code": "20265",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 389,
+      "height": 120,
+      "sha1": "869428b586b1",
+      "bank_code_inherited": false,
+      "xref": 225,
+      "bbox": [
+        133.4,
+        181.9,
+        425.2,
+        271.9
+      ],
+      "question_anchor": null,
+      "text_before": "είναι ίση με τεπ = 3.000 daN/cm2.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "20265": {
+      "fig": [
+        "b_antoxi_ch09_#20265_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch09_#20265_fig01.png",
+          "bank_code": "20265",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 389,
+          "height": 120,
+          "sha1": "869428b586b1",
+          "bank_code_inherited": false,
+          "xref": 225,
+          "bbox": [
+            133.4,
+            181.9,
+            425.2,
+            271.9
+          ],
+          "question_anchor": null,
+          "text_before": "είναι ίση με τεπ = 3.000 daN/cm2.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

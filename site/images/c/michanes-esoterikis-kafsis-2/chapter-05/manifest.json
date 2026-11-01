@@ -1,0 +1,177 @@
+{
+  "source_pdf": "c_michanes-esoterikis-kafsis-2_ch05.pdf",
+  "grade": "c",
+  "subject": "michanes-esoterikis-kafsis-2",
+  "chapter": 5,
+  "stem": "c_michanes-esoterikis-kafsis-2_ch05",
+  "total_pages": 10,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png",
+      "bank_code": "31678",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 529,
+      "height": 745,
+      "sha1": "b04b8b454f8e",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        164.9,
+        180.7,
+        428.9,
+        552.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png",
+      "bank_code": "23725",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 319,
+      "height": 413,
+      "sha1": "d72010ed7024",
+      "bank_code_inherited": false,
+      "xref": 96,
+      "bbox": [
+        182.1,
+        181.9,
+        412.5,
+        480.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png",
+      "bank_code": "33200",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 590,
+      "height": 502,
+      "sha1": "b411356f404f",
+      "bank_code_inherited": false,
+      "xref": 172,
+      "bbox": [
+        120.7,
+        181.9,
+        474.6,
+        483.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23725": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png",
+          "bank_code": "23725",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 319,
+          "height": 413,
+          "sha1": "d72010ed7024",
+          "bank_code_inherited": false,
+          "xref": 96,
+          "bbox": [
+            182.1,
+            181.9,
+            412.5,
+            480.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "31678": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png",
+          "bank_code": "31678",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 529,
+          "height": 745,
+          "sha1": "b04b8b454f8e",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            164.9,
+            180.7,
+            428.9,
+            552.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33200": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png",
+          "bank_code": "33200",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 590,
+          "height": 502,
+          "sha1": "b411356f404f",
+          "bank_code_inherited": false,
+          "xref": 172,
+          "bbox": [
+            120.7,
+            181.9,
+            474.6,
+            483.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "source_pdf": "b_antoxi_ch01.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 1,
+  "stem": "b_antoxi_ch01",
+  "total_pages": 15,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch01_#16324_fig01.png",
+      "bank_code": "16324",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 220,
+      "height": 171,
+      "sha1": "4cf68ddea391",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        133.1,
+        467.5,
+        251.7,
+        559.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "απάντηση.",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#16324_fig02.png",
+      "bank_code": "16324",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 205,
+      "height": 156,
+      "sha1": "1855d9fd915f",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        322.2,
+        478.6,
+        428.9,
+        559.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "απάντηση.",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#16324_fig03.png",
+      "bank_code": "16324",
+      "role": "fig",
+      "page": 3,
+      "kind": "embedded",
+      "width": 199,
+      "height": 165,
+      "sha1": "54673d889581",
+      "bank_code_inherited": true,
+      "xref": 62,
+      "bbox": [
+        314.1,
+        75.3,
+        421.4,
+        164.2
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#16324_fig04.png",
+      "bank_code": "16324",
+      "role": "fig",
+      "page": 3,
+      "kind": "embedded",
+      "width": 276,
+      "height": 131,
+      "sha1": "305bbd5ecb6c",
+      "bank_code_inherited": true,
+      "xref": 63,
+      "bbox": [
+        292.4,
+        306.0,
+        441.7,
+        376.8
+      ],
+      "question_anchor": null,
+      "text_before": "γ. Οι δυνάμεις F διαφέρουν κατά την διεύθυνση τους.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#18826_fig01.png",
+      "bank_code": "18826",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 667,
+      "height": 417,
+      "sha1": "5abb99d5bfe1",
+      "bank_code_inherited": false,
+      "xref": 98,
+      "bbox": [
+        138.2,
+        165.0,
+        456.0,
+        363.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#16261_fig01.png",
+      "bank_code": "16261",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 286,
+      "height": 229,
+      "sha1": "45af8818f48d",
+      "bank_code_inherited": false,
+      "xref": 162,
+      "bbox": [
+        179.8,
+        189.9,
+        415.5,
+        378.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1. Να υπολογίσετε το μέτρο της συνισταμένης δύναμης Σ.",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch01_#18898_fig01.png",
+      "bank_code": "18898",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 317,
+      "height": 158,
+      "sha1": "13cf9575a589",
+      "bank_code_inherited": false,
+      "xref": 328,
+      "bbox": [
+        202.4,
+        204.8,
+        392.6,
+        299.6
+      ],
+      "question_anchor": "4.1",
+      "text_before": "μέθοδο.",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16261": {
+      "fig": [
+        "b_antoxi_ch01_#16261_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch01_#16261_fig01.png",
+          "bank_code": "16261",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 286,
+          "height": 229,
+          "sha1": "45af8818f48d",
+          "bank_code_inherited": false,
+          "xref": 162,
+          "bbox": [
+            179.8,
+            189.9,
+            415.5,
+            378.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1. Να υπολογίσετε το μέτρο της συνισταμένης δύναμης Σ.",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16324": {
+      "fig": [
+        "b_antoxi_ch01_#16324_fig01.png",
+        "b_antoxi_ch01_#16324_fig02.png",
+        "b_antoxi_ch01_#16324_fig03.png",
+        "b_antoxi_ch01_#16324_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch01_#16324_fig01.png",
+          "bank_code": "16324",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 220,
+          "height": 171,
+          "sha1": "4cf68ddea391",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            133.1,
+            467.5,
+            251.7,
+            559.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "απάντηση.",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch01_#16324_fig02.png",
+          "bank_code": "16324",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 205,
+          "height": 156,
+          "sha1": "1855d9fd915f",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            322.2,
+            478.6,
+            428.9,
+            559.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "απάντηση.",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch01_#16324_fig03.png",
+          "bank_code": "16324",
+          "role": "fig",
+          "page": 3,
+          "kind": "embedded",
+          "width": 199,
+          "height": 165,
+          "sha1": "54673d889581",
+          "bank_code_inherited": true,
+          "xref": 62,
+          "bbox": [
+            314.1,
+            75.3,
+            421.4,
+            164.2
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch01_#16324_fig04.png",
+          "bank_code": "16324",
+          "role": "fig",
+          "page": 3,
+          "kind": "embedded",
+          "width": 276,
+          "height": 131,
+          "sha1": "305bbd5ecb6c",
+          "bank_code_inherited": true,
+          "xref": 63,
+          "bbox": [
+            292.4,
+            306.0,
+            441.7,
+            376.8
+          ],
+          "question_anchor": null,
+          "text_before": "γ. Οι δυνάμεις F διαφέρουν κατά την διεύθυνση τους.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18826": {
+      "fig": [
+        "b_antoxi_ch01_#18826_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch01_#18826_fig01.png",
+          "bank_code": "18826",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 667,
+          "height": 417,
+          "sha1": "5abb99d5bfe1",
+          "bank_code_inherited": false,
+          "xref": 98,
+          "bbox": [
+            138.2,
+            165.0,
+            456.0,
+            363.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18898": {
+      "fig": [
+        "b_antoxi_ch01_#18898_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch01_#18898_fig01.png",
+          "bank_code": "18898",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 317,
+          "height": 158,
+          "sha1": "13cf9575a589",
+          "bank_code_inherited": false,
+          "xref": 328,
+          "bbox": [
+            202.4,
+            204.8,
+            392.6,
+            299.6
+          ],
+          "question_anchor": "4.1",
+          "text_before": "μέθοδο.",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

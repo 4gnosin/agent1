@@ -1,0 +1,1784 @@
+{
+  "source_pdf": "c_michanes-esoterikis-kafsis-2_ch04.pdf",
+  "grade": "c",
+  "subject": "michanes-esoterikis-kafsis-2",
+  "chapter": 4,
+  "stem": "c_michanes-esoterikis-kafsis-2_ch04",
+  "total_pages": 101,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30596_fig01.png",
+      "bank_code": "30596",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 914,
+      "height": 1241,
+      "sha1": "7c1f851df7bc",
+      "bank_code_inherited": false,
+      "xref": 15,
+      "bbox": [
+        202.68,
+        190.44,
+        408.84,
+        470.52
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.png",
+      "bank_code": "24364",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 740,
+      "height": 462,
+      "sha1": "df020aaa6096",
+      "bank_code_inherited": false,
+      "xref": 72,
+      "bbox": [
+        70.9,
+        180.8,
+        524.5,
+        463.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24351_fig01.png",
+      "bank_code": "24351",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 290,
+      "height": 348,
+      "sha1": "48bf8b87e7fa",
+      "bank_code_inherited": false,
+      "xref": 202,
+      "bbox": [
+        177.4,
+        159.9,
+        417.9,
+        448.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24365_fig01.png",
+      "bank_code": "24365",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 504,
+      "height": 524,
+      "sha1": "d1c83fdfd138",
+      "bank_code_inherited": false,
+      "xref": 278,
+      "bbox": [
+        171.7,
+        180.8,
+        423.7,
+        442.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24368_fig01.png",
+      "bank_code": "24368",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 280,
+      "height": 450,
+      "sha1": "b7081961a690",
+      "bank_code_inherited": false,
+      "xref": 354,
+      "bbox": [
+        192.7,
+        180.8,
+        402.7,
+        518.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30559_fig01.png",
+      "bank_code": "30559",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 960,
+      "height": 720,
+      "sha1": "7118657b1bd7",
+      "bank_code_inherited": false,
+      "xref": 428,
+      "bbox": [
+        90.0,
+        161.1,
+        505.3,
+        472.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειϊνεται ότι ζνα γράμμα από τη ςτήλη Β θα περιςςζψει",
+      "text_after": "ΣΤΗΛΗ Α  (βλζπε ςχήμα)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30597_fig01.png",
+      "bank_code": "30597",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 1514,
+      "height": 1224,
+      "sha1": "f97c8c5e112f",
+      "bank_code_inherited": false,
+      "xref": 504,
+      "bbox": [
+        135.0,
+        169.68,
+        476.52,
+        445.92
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30599_fig01.png",
+      "bank_code": "30599",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 1218,
+      "height": 1158,
+      "sha1": "8cf359105f2d",
+      "bank_code_inherited": false,
+      "xref": 560,
+      "bbox": [
+        168.1,
+        169.7,
+        442.9,
+        431.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig01.png",
+      "bank_code": "30611",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 179,
+      "height": 118,
+      "sha1": "d22c992b82e2",
+      "bank_code_inherited": false,
+      "xref": 615,
+      "bbox": [
+        117.4,
+        232.9,
+        233.0,
+        309.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig02.png",
+      "bank_code": "30611",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 173,
+      "height": 109,
+      "sha1": "05f82ebbd554",
+      "bank_code_inherited": false,
+      "xref": 616,
+      "bbox": [
+        114.4,
+        336.2,
+        236.3,
+        412.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig03.png",
+      "bank_code": "30611",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 181,
+      "height": 118,
+      "sha1": "7501a3d9eb89",
+      "bank_code_inherited": false,
+      "xref": 617,
+      "bbox": [
+        116.2,
+        440.5,
+        234.4,
+        517.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig04.png",
+      "bank_code": "30611",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 182,
+      "height": 102,
+      "sha1": "bbddc39a7268",
+      "bank_code_inherited": false,
+      "xref": 618,
+      "bbox": [
+        113.6,
+        544.4,
+        236.9,
+        613.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4.",
+      "text_after": "ε. Τριγωνικό ελατήριο",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#23724_fig01.png",
+      "bank_code": "23724",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 293,
+      "height": 351,
+      "sha1": "3dc42bde4e74",
+      "bank_code_inherited": false,
+      "xref": 674,
+      "bbox": [
+        179.1,
+        181.9,
+        415.5,
+        465.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24399_fig01.png",
+      "bank_code": "24399",
+      "role": "fig",
+      "page": 30,
+      "kind": "embedded",
+      "width": 584,
+      "height": 627,
+      "sha1": "22956f93d453",
+      "bank_code_inherited": false,
+      "xref": 750,
+      "bbox": [
+        168.4,
+        203.8,
+        428.8,
+        483.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#27552_fig01.png",
+      "bank_code": "27552",
+      "role": "fig",
+      "page": 33,
+      "kind": "embedded",
+      "width": 307,
+      "height": 321,
+      "sha1": "8b848e71f678",
+      "bank_code_inherited": false,
+      "xref": 826,
+      "bbox": [
+        182.2,
+        158.8,
+        412.7,
+        399.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#27554_fig01.png",
+      "bank_code": "27554",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 504,
+      "height": 780,
+      "sha1": "be8230a24db3",
+      "bank_code_inherited": false,
+      "xref": 905,
+      "bbox": [
+        171.7,
+        158.8,
+        423.7,
+        548.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30560_fig01.png",
+      "bank_code": "30560",
+      "role": "fig",
+      "page": 39,
+      "kind": "embedded",
+      "width": 770,
+      "height": 654,
+      "sha1": "4cfd66f9760c",
+      "bank_code_inherited": false,
+      "xref": 986,
+      "bbox": [
+        90.0,
+        184.3,
+        505.3,
+        537.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30600_fig01.png",
+      "bank_code": "30600",
+      "role": "fig",
+      "page": 42,
+      "kind": "embedded",
+      "width": 1892,
+      "height": 1356,
+      "sha1": "19fa95a97dd3",
+      "bank_code_inherited": false,
+      "xref": 1035,
+      "bbox": [
+        92.28,
+        169.68,
+        519.12,
+        475.68
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#31430_fig01.png",
+      "bank_code": "31430",
+      "role": "fig",
+      "page": 45,
+      "kind": "embedded",
+      "width": 770,
+      "height": 654,
+      "sha1": "e661bd9fd751",
+      "bank_code_inherited": false,
+      "xref": 1094,
+      "bbox": [
+        70.8,
+        196.6,
+        486.0,
+        549.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ζνα  γράμμα από τθ ςτιλθ Β κα περιςςζψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig01.png",
+      "bank_code": "31431",
+      "role": "fig",
+      "page": 48,
+      "kind": "embedded",
+      "width": 328,
+      "height": 199,
+      "sha1": "6cf0c9af83fb",
+      "bank_code_inherited": false,
+      "xref": 1166,
+      "bbox": [
+        345.6,
+        467.4,
+        456.9,
+        534.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig02.png",
+      "bank_code": "31431",
+      "role": "fig",
+      "page": 48,
+      "kind": "embedded",
+      "width": 350,
+      "height": 286,
+      "sha1": "f5ed39493ea0",
+      "bank_code_inherited": false,
+      "xref": 1167,
+      "bbox": [
+        343.9,
+        564.6,
+        458.5,
+        658.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig03.png",
+      "bank_code": "31431",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 324,
+      "height": 337,
+      "sha1": "d7db510190b6",
+      "bank_code_inherited": true,
+      "xref": 1212,
+      "bbox": [
+        343.5,
+        93.3,
+        458.9,
+        213.3
+      ],
+      "question_anchor": null,
+      "text_before": "3. Μετάδοςθ τθσ κίνθςθσ με αλυςίδα",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig04.png",
+      "bank_code": "31431",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 302,
+      "height": 420,
+      "sha1": "597763f6d257",
+      "bank_code_inherited": true,
+      "xref": 1213,
+      "bbox": [
+        351.7,
+        265.1,
+        450.7,
+        402.7
+      ],
+      "question_anchor": null,
+      "text_before": "δ.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol01.png",
+      "bank_code": "34628",
+      "role": "sol",
+      "page": 75,
+      "kind": "embedded",
+      "width": 392,
+      "height": 41,
+      "sha1": "11345d835814",
+      "bank_code_inherited": false,
+      "xref": 2270,
+      "bbox": [
+        90.0,
+        137.9,
+        384.0,
+        168.6
+      ],
+      "question_anchor": null,
+      "text_before": "α. H εςωτερική διάμετροσ του κυλίνδρου d θα υπολογιςτεί από τον τφπο:",
+      "text_after": "β. O όγκοσ του θαλάμου καφςησ Vςυμπ θα υπολογιςτεί από τον τφπο τησ ςχζςησ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol02.png",
+      "bank_code": "34628",
+      "role": "sol",
+      "page": 75,
+      "kind": "embedded",
+      "width": 473,
+      "height": 43,
+      "sha1": "867d07f3a885",
+      "bank_code_inherited": false,
+      "xref": 2272,
+      "bbox": [
+        90.0,
+        175.9,
+        444.7,
+        208.2
+      ],
+      "question_anchor": null,
+      "text_before": "α. H εςωτερική διάμετροσ του κυλίνδρου d θα υπολογιςτεί από τον τφπο:",
+      "text_after": "β. O όγκοσ του θαλάμου καφςησ Vςυμπ θα υπολογιςτεί από τον τφπο τησ ςχζςησ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol03.png",
+      "bank_code": "34628",
+      "role": "sol",
+      "page": 75,
+      "kind": "embedded",
+      "width": 543,
+      "height": 44,
+      "sha1": "ff8a193be8ec",
+      "bank_code_inherited": false,
+      "xref": 2274,
+      "bbox": [
+        90.0,
+        289.7,
+        497.1,
+        322.7
+      ],
+      "question_anchor": null,
+      "text_before": "ςυμπίεςησ λ του κυλίνδρου:",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol04.png",
+      "bank_code": "34628",
+      "role": "sol",
+      "page": 75,
+      "kind": "embedded",
+      "width": 404,
+      "height": 41,
+      "sha1": "79d37eae6295",
+      "bank_code_inherited": false,
+      "xref": 2276,
+      "bbox": [
+        90.0,
+        330.0,
+        393.0,
+        360.7
+      ],
+      "question_anchor": null,
+      "text_before": "ςυμπίεςησ λ του κυλίνδρου:",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.png",
+      "bank_code": "24352",
+      "role": "fig",
+      "page": 78,
+      "kind": "embedded",
+      "width": 744,
+      "height": 425,
+      "sha1": "b8ce10b41644",
+      "bank_code_inherited": false,
+      "xref": 2415,
+      "bbox": [
+        90.0,
+        202.0,
+        505.3,
+        439.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τα γράμματα α, β, γ, δ, ε, στ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#30601_fig01.png",
+      "bank_code": "30601",
+      "role": "fig",
+      "page": 81,
+      "kind": "embedded",
+      "width": 1708,
+      "height": 816,
+      "sha1": "264753494e5f",
+      "bank_code_inherited": false,
+      "xref": 2490,
+      "bbox": [
+        113.04,
+        169.68,
+        498.36,
+        353.88
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#25438_fig01.png",
+      "bank_code": "25438",
+      "role": "fig",
+      "page": 86,
+      "kind": "embedded",
+      "width": 701,
+      "height": 466,
+      "sha1": "6fc85934e054",
+      "bank_code_inherited": false,
+      "xref": 2642,
+      "bbox": [
+        87.4,
+        180.8,
+        508.0,
+        460.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#29366_fig01.png",
+      "bank_code": "29366",
+      "role": "fig",
+      "page": 89,
+      "kind": "embedded",
+      "width": 394,
+      "height": 553,
+      "sha1": "cf56805877d2",
+      "bank_code_inherited": false,
+      "xref": 2718,
+      "bbox": [
+        199.2,
+        180.8,
+        396.1,
+        457.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34762_fig01.png",
+      "bank_code": "34762",
+      "role": "fig",
+      "page": 94,
+      "kind": "embedded",
+      "width": 630,
+      "height": 483,
+      "sha1": "1068e43c9ef2",
+      "bank_code_inherited": false,
+      "xref": 2881,
+      "bbox": [
+        70.9,
+        180.8,
+        524.5,
+        528.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.png",
+      "bank_code": "34763",
+      "role": "fig",
+      "page": 99,
+      "kind": "embedded",
+      "width": 379,
+      "height": 332,
+      "sha1": "66d0141cec52",
+      "bank_code_inherited": false,
+      "xref": 3047,
+      "bbox": [
+        155.2,
+        180.8,
+        439.5,
+        429.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23724": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#23724_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#23724_fig01.png",
+          "bank_code": "23724",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 293,
+          "height": 351,
+          "sha1": "3dc42bde4e74",
+          "bank_code_inherited": false,
+          "xref": 674,
+          "bbox": [
+            179.1,
+            181.9,
+            415.5,
+            465.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24351": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24351_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24351_fig01.png",
+          "bank_code": "24351",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 290,
+          "height": 348,
+          "sha1": "48bf8b87e7fa",
+          "bank_code_inherited": false,
+          "xref": 202,
+          "bbox": [
+            177.4,
+            159.9,
+            417.9,
+            448.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24352": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.png",
+          "bank_code": "24352",
+          "role": "fig",
+          "page": 78,
+          "kind": "embedded",
+          "width": 744,
+          "height": 425,
+          "sha1": "b8ce10b41644",
+          "bank_code_inherited": false,
+          "xref": 2415,
+          "bbox": [
+            90.0,
+            202.0,
+            505.3,
+            439.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τα γράμματα α, β, γ, δ, ε, στ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24364": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.png",
+          "bank_code": "24364",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 740,
+          "height": 462,
+          "sha1": "df020aaa6096",
+          "bank_code_inherited": false,
+          "xref": 72,
+          "bbox": [
+            70.9,
+            180.8,
+            524.5,
+            463.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24365": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24365_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24365_fig01.png",
+          "bank_code": "24365",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 504,
+          "height": 524,
+          "sha1": "d1c83fdfd138",
+          "bank_code_inherited": false,
+          "xref": 278,
+          "bbox": [
+            171.7,
+            180.8,
+            423.7,
+            442.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24368": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24368_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24368_fig01.png",
+          "bank_code": "24368",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 280,
+          "height": 450,
+          "sha1": "b7081961a690",
+          "bank_code_inherited": false,
+          "xref": 354,
+          "bbox": [
+            192.7,
+            180.8,
+            402.7,
+            518.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24399": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#24399_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#24399_fig01.png",
+          "bank_code": "24399",
+          "role": "fig",
+          "page": 30,
+          "kind": "embedded",
+          "width": 584,
+          "height": 627,
+          "sha1": "22956f93d453",
+          "bank_code_inherited": false,
+          "xref": 750,
+          "bbox": [
+            168.4,
+            203.8,
+            428.8,
+            483.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25438": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#25438_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#25438_fig01.png",
+          "bank_code": "25438",
+          "role": "fig",
+          "page": 86,
+          "kind": "embedded",
+          "width": 701,
+          "height": 466,
+          "sha1": "6fc85934e054",
+          "bank_code_inherited": false,
+          "xref": 2642,
+          "bbox": [
+            87.4,
+            180.8,
+            508.0,
+            460.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27552": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#27552_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#27552_fig01.png",
+          "bank_code": "27552",
+          "role": "fig",
+          "page": 33,
+          "kind": "embedded",
+          "width": 307,
+          "height": 321,
+          "sha1": "8b848e71f678",
+          "bank_code_inherited": false,
+          "xref": 826,
+          "bbox": [
+            182.2,
+            158.8,
+            412.7,
+            399.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27554": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#27554_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#27554_fig01.png",
+          "bank_code": "27554",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 504,
+          "height": 780,
+          "sha1": "be8230a24db3",
+          "bank_code_inherited": false,
+          "xref": 905,
+          "bbox": [
+            171.7,
+            158.8,
+            423.7,
+            548.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29366": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#29366_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#29366_fig01.png",
+          "bank_code": "29366",
+          "role": "fig",
+          "page": 89,
+          "kind": "embedded",
+          "width": 394,
+          "height": 553,
+          "sha1": "cf56805877d2",
+          "bank_code_inherited": false,
+          "xref": 2718,
+          "bbox": [
+            199.2,
+            180.8,
+            396.1,
+            457.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30559": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30559_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30559_fig01.png",
+          "bank_code": "30559",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 960,
+          "height": 720,
+          "sha1": "7118657b1bd7",
+          "bank_code_inherited": false,
+          "xref": 428,
+          "bbox": [
+            90.0,
+            161.1,
+            505.3,
+            472.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειϊνεται ότι ζνα γράμμα από τη ςτήλη Β θα περιςςζψει",
+          "text_after": "ΣΤΗΛΗ Α  (βλζπε ςχήμα)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30560": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30560_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30560_fig01.png",
+          "bank_code": "30560",
+          "role": "fig",
+          "page": 39,
+          "kind": "embedded",
+          "width": 770,
+          "height": 654,
+          "sha1": "4cfd66f9760c",
+          "bank_code_inherited": false,
+          "xref": 986,
+          "bbox": [
+            90.0,
+            184.3,
+            505.3,
+            537.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30596": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30596_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30596_fig01.png",
+          "bank_code": "30596",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 914,
+          "height": 621,
+          "sha1": "7c1f851df7bc",
+          "bank_code_inherited": false,
+          "xref": 15,
+          "bbox": [
+            202.7,
+            190.4,
+            408.8,
+            330.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30596_fig02.png",
+          "bank_code": "30596",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 914,
+          "height": 620,
+          "sha1": "3677a6146902",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            202.7,
+            330.5,
+            408.8,
+            470.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30597": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30597_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30597_fig01.png",
+          "bank_code": "30597",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 1514,
+          "height": 612,
+          "sha1": "f97c8c5e112f",
+          "bank_code_inherited": false,
+          "xref": 504,
+          "bbox": [
+            135.0,
+            169.7,
+            476.5,
+            307.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30597_fig02.png",
+          "bank_code": "30597",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 1514,
+          "height": 612,
+          "sha1": "029039ba4b99",
+          "bank_code_inherited": false,
+          "xref": 505,
+          "bbox": [
+            135.0,
+            307.8,
+            476.5,
+            445.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30599": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30599_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30599_fig01.png",
+          "bank_code": "30599",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 1218,
+          "height": 1158,
+          "sha1": "8cf359105f2d",
+          "bank_code_inherited": false,
+          "xref": 560,
+          "bbox": [
+            168.1,
+            169.7,
+            442.9,
+            431.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30600": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30600_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30600_fig01.png",
+          "bank_code": "30600",
+          "role": "fig",
+          "page": 42,
+          "kind": "embedded",
+          "width": 1892,
+          "height": 452,
+          "sha1": "19fa95a97dd3",
+          "bank_code_inherited": false,
+          "xref": 1035,
+          "bbox": [
+            92.3,
+            169.7,
+            519.1,
+            271.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30600_fig02.png",
+          "bank_code": "30600",
+          "role": "fig",
+          "page": 42,
+          "kind": "embedded",
+          "width": 1892,
+          "height": 452,
+          "sha1": "475e55536c74",
+          "bank_code_inherited": false,
+          "xref": 1036,
+          "bbox": [
+            92.3,
+            271.7,
+            519.1,
+            373.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30600_fig03.png",
+          "bank_code": "30600",
+          "role": "fig",
+          "page": 42,
+          "kind": "embedded",
+          "width": 1892,
+          "height": 452,
+          "sha1": "6d69c8acb5d8",
+          "bank_code_inherited": false,
+          "xref": 1037,
+          "bbox": [
+            92.3,
+            373.7,
+            519.1,
+            475.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30601": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30601_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30601_fig01.png",
+          "bank_code": "30601",
+          "role": "fig",
+          "page": 81,
+          "kind": "embedded",
+          "width": 1708,
+          "height": 408,
+          "sha1": "264753494e5f",
+          "bank_code_inherited": false,
+          "xref": 2490,
+          "bbox": [
+            113.0,
+            169.7,
+            498.4,
+            261.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30601_fig02.png",
+          "bank_code": "30601",
+          "role": "fig",
+          "page": 81,
+          "kind": "embedded",
+          "width": 1708,
+          "height": 408,
+          "sha1": "a71ea1b80536",
+          "bank_code_inherited": false,
+          "xref": 2491,
+          "bbox": [
+            113.0,
+            261.8,
+            498.4,
+            353.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30611": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig01.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig02.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig03.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig01.png",
+          "bank_code": "30611",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 179,
+          "height": 118,
+          "sha1": "d22c992b82e2",
+          "bank_code_inherited": false,
+          "xref": 615,
+          "bbox": [
+            117.4,
+            232.9,
+            233.0,
+            309.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig02.png",
+          "bank_code": "30611",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 173,
+          "height": 109,
+          "sha1": "05f82ebbd554",
+          "bank_code_inherited": false,
+          "xref": 616,
+          "bbox": [
+            114.4,
+            336.2,
+            236.3,
+            412.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig03.png",
+          "bank_code": "30611",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 181,
+          "height": 118,
+          "sha1": "7501a3d9eb89",
+          "bank_code_inherited": false,
+          "xref": 617,
+          "bbox": [
+            116.2,
+            440.5,
+            234.4,
+            517.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#30611_fig04.png",
+          "bank_code": "30611",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 182,
+          "height": 102,
+          "sha1": "bbddc39a7268",
+          "bank_code_inherited": false,
+          "xref": 618,
+          "bbox": [
+            113.6,
+            544.4,
+            236.9,
+            613.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "4.",
+          "text_after": "ε. Τριγωνικό ελατήριο",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "31430": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#31430_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#31430_fig01.png",
+          "bank_code": "31430",
+          "role": "fig",
+          "page": 45,
+          "kind": "embedded",
+          "width": 770,
+          "height": 654,
+          "sha1": "e661bd9fd751",
+          "bank_code_inherited": false,
+          "xref": 1094,
+          "bbox": [
+            70.8,
+            196.6,
+            486.0,
+            549.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ζνα  γράμμα από τθ ςτιλθ Β κα περιςςζψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "31431": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig01.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig02.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig03.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig01.png",
+          "bank_code": "31431",
+          "role": "fig",
+          "page": 48,
+          "kind": "embedded",
+          "width": 328,
+          "height": 199,
+          "sha1": "6cf0c9af83fb",
+          "bank_code_inherited": false,
+          "xref": 1166,
+          "bbox": [
+            345.6,
+            467.4,
+            456.9,
+            534.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig02.png",
+          "bank_code": "31431",
+          "role": "fig",
+          "page": 48,
+          "kind": "embedded",
+          "width": 350,
+          "height": 286,
+          "sha1": "f5ed39493ea0",
+          "bank_code_inherited": false,
+          "xref": 1167,
+          "bbox": [
+            343.9,
+            564.6,
+            458.5,
+            658.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig03.png",
+          "bank_code": "31431",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 324,
+          "height": 337,
+          "sha1": "d7db510190b6",
+          "bank_code_inherited": true,
+          "xref": 1212,
+          "bbox": [
+            343.5,
+            93.3,
+            458.9,
+            213.3
+          ],
+          "question_anchor": null,
+          "text_before": "3. Μετάδοςθ τθσ κίνθςθσ με αλυςίδα",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#31431_fig04.png",
+          "bank_code": "31431",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 302,
+          "height": 420,
+          "sha1": "597763f6d257",
+          "bank_code_inherited": true,
+          "xref": 1213,
+          "bbox": [
+            351.7,
+            265.1,
+            450.7,
+            402.7
+          ],
+          "question_anchor": null,
+          "text_before": "δ.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34628": {
+      "fig": [],
+      "sol": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol01.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol02.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol03.png",
+        "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol04.png"
+      ],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol01.png",
+          "bank_code": "34628",
+          "role": "sol",
+          "page": 75,
+          "kind": "embedded",
+          "width": 392,
+          "height": 41,
+          "sha1": "11345d835814",
+          "bank_code_inherited": false,
+          "xref": 2270,
+          "bbox": [
+            90.0,
+            137.9,
+            384.0,
+            168.6
+          ],
+          "question_anchor": null,
+          "text_before": "α. H εςωτερική διάμετροσ του κυλίνδρου d θα υπολογιςτεί από τον τφπο:",
+          "text_after": "β. O όγκοσ του θαλάμου καφςησ Vςυμπ θα υπολογιςτεί από τον τφπο τησ ςχζςησ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol02.png",
+          "bank_code": "34628",
+          "role": "sol",
+          "page": 75,
+          "kind": "embedded",
+          "width": 473,
+          "height": 43,
+          "sha1": "867d07f3a885",
+          "bank_code_inherited": false,
+          "xref": 2272,
+          "bbox": [
+            90.0,
+            175.9,
+            444.7,
+            208.2
+          ],
+          "question_anchor": null,
+          "text_before": "α. H εςωτερική διάμετροσ του κυλίνδρου d θα υπολογιςτεί από τον τφπο:",
+          "text_after": "β. O όγκοσ του θαλάμου καφςησ Vςυμπ θα υπολογιςτεί από τον τφπο τησ ςχζςησ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol03.png",
+          "bank_code": "34628",
+          "role": "sol",
+          "page": 75,
+          "kind": "embedded",
+          "width": 543,
+          "height": 44,
+          "sha1": "ff8a193be8ec",
+          "bank_code_inherited": false,
+          "xref": 2274,
+          "bbox": [
+            90.0,
+            289.7,
+            497.1,
+            322.7
+          ],
+          "question_anchor": null,
+          "text_before": "ςυμπίεςησ λ του κυλίνδρου:",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34628_sol04.png",
+          "bank_code": "34628",
+          "role": "sol",
+          "page": 75,
+          "kind": "embedded",
+          "width": 404,
+          "height": 41,
+          "sha1": "79d37eae6295",
+          "bank_code_inherited": false,
+          "xref": 2276,
+          "bbox": [
+            90.0,
+            330.0,
+            393.0,
+            360.7
+          ],
+          "question_anchor": null,
+          "text_before": "ςυμπίεςησ λ του κυλίνδρου:",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34762": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#34762_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34762_fig01.png",
+          "bank_code": "34762",
+          "role": "fig",
+          "page": 94,
+          "kind": "embedded",
+          "width": 630,
+          "height": 483,
+          "sha1": "1068e43c9ef2",
+          "bank_code_inherited": false,
+          "xref": 2881,
+          "bbox": [
+            70.9,
+            180.8,
+            524.5,
+            528.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34763": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.png",
+          "bank_code": "34763",
+          "role": "fig",
+          "page": 99,
+          "kind": "embedded",
+          "width": 379,
+          "height": 332,
+          "sha1": "66d0141cec52",
+          "bank_code_inherited": false,
+          "xref": 3047,
+          "bbox": [
+            155.2,
+            180.8,
+            439.5,
+            429.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

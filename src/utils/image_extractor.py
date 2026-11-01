@@ -22,7 +22,13 @@ import re
 import sys
 import unicodedata
 from collections import defaultdict
+import io
 from pathlib import Path
+
+try:
+    from PIL import Image
+except ImportError:
+    Image = None
 
 try:
     import pymupdf as fitz
@@ -179,6 +185,100 @@ def load_pixmap(doc, xref: int, smask: int):
     return pix
 
 
+def stitch_contiguous_slices(candidates: list[dict]) -> list[dict]:
+    """
+    Εντοπίζει και συνενώνει κατακόρυφα συνεχόμενα τμήματα (slices) της ίδιας εικόνας
+    που έχουν διασπαστεί κατά την εξαγωγή από το Word/IEP PDF.
+    """
+    if len(candidates) <= 1 or Image is None:
+        return candidates
+
+    with_bbox = [c for c in candidates if c.get("bbox")]
+    without_bbox = [c for c in candidates if not c.get("bbox")]
+
+    if len(with_bbox) <= 1:
+        return candidates
+
+    # Ταξινόμηση κατά y0 (κορυφή)
+    with_bbox.sort(key=lambda c: (c["bbox"][1], c["bbox"][0]))
+
+    merged_items: list[dict] = []
+    used = set()
+
+    for i in range(len(with_bbox)):
+        if i in used:
+            continue
+        chain = [with_bbox[i]]
+        used.add(i)
+
+        while True:
+            last = chain[-1]
+            last_bb = last["bbox"]
+            last_w = last["pix"].width
+
+            found_next = None
+            for j in range(len(with_bbox)):
+                if j in used:
+                    continue
+                cand = with_bbox[j]
+                cand_bb = cand["bbox"]
+                cand_w = cand["pix"].width
+
+                # Έλεγχος αν το cand είναι ακριβώς κάτω από το last
+                if (
+                    abs(last_bb[0] - cand_bb[0]) <= 3.0
+                    and abs(last_bb[2] - cand_bb[2]) <= 3.0
+                    and abs(last_bb[3] - cand_bb[1]) <= 3.0
+                    and abs(last_w - cand_w) <= 2
+                ):
+                    found_next = j
+                    break
+
+            if found_next is not None:
+                chain.append(with_bbox[found_next])
+                used.add(found_next)
+            else:
+                break
+
+        if len(chain) == 1:
+            merged_items.append(chain[0])
+        else:
+            try:
+                pil_slices = [Image.open(io.BytesIO(c["pix"].tobytes("png"))) for c in chain]
+                total_w = pil_slices[0].width
+                total_h = sum(im.height for im in pil_slices)
+                mode = pil_slices[0].mode
+                stitched_im = Image.new(mode, (total_w, total_h))
+                y_offset = 0
+                for im in pil_slices:
+                    stitched_im.paste(im, (0, y_offset))
+                    y_offset += im.height
+
+                buf = io.BytesIO()
+                stitched_im.save(buf, format="PNG")
+                stitched_pix = fitz.Pixmap(buf.getvalue())
+
+                combined_bbox = [
+                    min(c["bbox"][0] for c in chain),
+                    min(c["bbox"][1] for c in chain),
+                    max(c["bbox"][2] for c in chain),
+                    max(c["bbox"][3] for c in chain),
+                ]
+
+                merged_items.append({
+                    "xref": chain[0]["xref"],
+                    "smask": chain[0]["smask"],
+                    "pix": stitched_pix,
+                    "bbox": combined_bbox,
+                    "stitched_xrefs": [c["xref"] for c in chain],
+                })
+            except Exception:
+                # Αν αποτύχει η συνένωση, διατήρηση των αρχικών
+                merged_items.extend(chain)
+
+    return merged_items + without_bbox
+
+
 def get_image_spatial_context(page, img_bbox: tuple[float, float, float, float] | list[float] | None) -> dict:
     """
     Αναλύει τη χωρική θέση μιας εικόνας σε σχέση με τα text blocks της σελίδας.
@@ -308,6 +408,7 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 page_xref_bboxes[_xr] = _bb
 
         # --- embedded ---
+        raw_candidates = []
         for img in page_images[pno]:
             xref, smask = img[0], img[1]
             if xref in repeated:
@@ -321,8 +422,28 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             if min(w, h) < args.min_size or w * h < args.min_area:
                 stats["skipped_small"] += 1
                 continue
+            img_bbox = page_xref_bboxes.get(xref)
+            raw_candidates.append({
+                "xref": xref,
+                "smask": smask,
+                "pix": pix,
+                "bbox": list(img_bbox) if img_bbox else None,
+            })
+
+        candidates = stitch_contiguous_slices(raw_candidates)
+
+        for cand in candidates:
+            xref = cand["xref"]
+            pix = cand["pix"]
+            img_bbox = cand["bbox"]
+            if cand.get("stitched_xrefs"):
+                stats["stitched_slices"] += len(cand["stitched_xrefs"]) - 1
+            w, h = pix.width, pix.height
             digest = hashlib.sha1(pix.samples).hexdigest()
-            key = f"{code or 'unknown'}:{role}:{w}x{h}:{digest}"
+            # Αν η ίδια εικόνα εμφανίζεται σε διαφορετική σελίδα ή σε διαφορετικό row/ύψος,
+            # διατηρείται για να μη σπάει η αντιστοίχιση γραμμών πίνακα (π.χ. match ερωτήματα).
+            pos_bucket = round(img_bbox[1] / 40.0) if img_bbox else 0
+            key = f"{code or 'unknown'}:{role}:{pno}:{pos_bucket}:{w}x{h}:{digest}"
             if key in seen_hashes:
                 stats["skipped_duplicate"] += 1
                 continue
@@ -338,8 +459,6 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 n = counters[(code, role)]
                 name = f"{stem}_#{code}_{role}{n:02d}.png"
                 bank = code
-
-            img_bbox = page_xref_bboxes.get(xref)
             has_overlays = False
             if img_bbox:
                 r_img = fitz.Rect(img_bbox)
@@ -509,8 +628,8 @@ def extract_chapter_images(
     ns = argparse.Namespace(
         out=str(out_dir),
         pages=None,
-        min_size=80,
-        min_area=15000,
+        min_size=40,
+        min_area=4000,
         repeat_threshold=4,
         render_empty_pages=render_empty_pages,
         dpi=160,
@@ -818,8 +937,8 @@ def build_parser() -> argparse.ArgumentParser:
         help="Φάκελος εξόδου (προεπιλογή: data/extracted_images/{grade}/{subject}/chapter-NN)",
     )
     p.add_argument("--pages", default=None, help="Π.χ. 1-10,15")
-    p.add_argument("--min-size", type=int, default=80, help="Ελάχ. πλευρά px")
-    p.add_argument("--min-area", type=int, default=15000, help="Ελάχ. εμβαδόν px²")
+    p.add_argument("--min-size", type=int, default=40, help="Ελάχ. πλευρά px")
+    p.add_argument("--min-area", type=int, default=4000, help="Ελάχ. εμβαδόν px²")
     p.add_argument(
         "--repeat-threshold",
         type=int,

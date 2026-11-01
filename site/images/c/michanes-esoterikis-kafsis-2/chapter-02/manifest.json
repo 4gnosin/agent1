@@ -1,0 +1,669 @@
+{
+  "source_pdf": "c_michanes-esoterikis-kafsis-2_ch02.pdf",
+  "grade": "c",
+  "subject": "michanes-esoterikis-kafsis-2",
+  "chapter": 2,
+  "stem": "c_michanes-esoterikis-kafsis-2_ch02",
+  "total_pages": 40,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#29066_fig01.png",
+      "bank_code": "29066",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 311,
+      "height": 276,
+      "sha1": "46b4412cea8b",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        169.4,
+        180.8,
+        425.4,
+        407.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#33197_fig01.png",
+      "bank_code": "33197",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 260,
+      "height": 283,
+      "sha1": "952a824da2fb",
+      "bank_code_inherited": false,
+      "xref": 95,
+      "bbox": [
+        219.7,
+        158.8,
+        375.7,
+        320.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ένα από τα γράμματα α, β, γ, δ, ε, στ, ζ, η της Στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#23741_fig01.png",
+      "bank_code": "23741",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 523,
+      "height": 1026,
+      "sha1": "83473bf2ab88",
+      "bank_code_inherited": false,
+      "xref": 168,
+      "bbox": [
+        246.8,
+        252.5,
+        364.8,
+        484.0
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται: Για την γωνία φ, sinφ=0,35",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#23742_fig01.png",
+      "bank_code": "23742",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 523,
+      "height": 1026,
+      "sha1": "83473bf2ab88",
+      "bank_code_inherited": false,
+      "xref": 247,
+      "bbox": [
+        246.8,
+        252.5,
+        364.8,
+        484.0
+      ],
+      "question_anchor": null,
+      "text_before": "β) Η δύναμη F σε KN που ασκείται στον διωστήρα. (Μονάδες 10)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#24400_fig01.png",
+      "bank_code": "24400",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 222,
+      "height": 399,
+      "sha1": "bfdf9a6601ca",
+      "bank_code_inherited": false,
+      "xref": 335,
+      "bbox": [
+        230.9,
+        291.7,
+        364.1,
+        521.5
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνονται: γωνία φ=11ο, sin 11ο =0,191",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#34913_fig01.png",
+      "bank_code": "34913",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 217,
+      "height": 427,
+      "sha1": "ead45744dd03",
+      "bank_code_inherited": false,
+      "xref": 421,
+      "bbox": [
+        215.9,
+        246.7,
+        378.7,
+        567.0
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνονται: Συνημίτονο της γωνία φ=75ο είναι συνφ=cosφ=0,25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#34916_fig01.png",
+      "bank_code": "34916",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 217,
+      "height": 427,
+      "sha1": "20f1d220fd9a",
+      "bank_code_inherited": false,
+      "xref": 514,
+      "bbox": [
+        237.7,
+        382.0,
+        357.7,
+        618.1
+      ],
+      "question_anchor": null,
+      "text_before": "14  0,241",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#25289_fig01.png",
+      "bank_code": "25289",
+      "role": "fig",
+      "page": 33,
+      "kind": "embedded",
+      "width": 397,
+      "height": 328,
+      "sha1": "8049cc202fbe",
+      "bank_code_inherited": false,
+      "xref": 1348,
+      "bbox": [
+        148.4,
+        158.8,
+        446.2,
+        404.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig01.png",
+      "bank_code": "26270",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 1066,
+      "height": 552,
+      "sha1": "2d3972943b8c",
+      "bank_code_inherited": false,
+      "xref": 1426,
+      "bbox": [
+        261.4,
+        229.0,
+        517.2,
+        361.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "προς τη διάταξη των εμβόλων)",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig02.png",
+      "bank_code": "26270",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 656,
+      "height": 837,
+      "sha1": "64159c9a167c",
+      "bank_code_inherited": false,
+      "xref": 1427,
+      "bbox": [
+        310.1,
+        382.6,
+        467.5,
+        583.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig03.png",
+      "bank_code": "26270",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 873,
+      "height": 634,
+      "sha1": "c0be1f11fecd",
+      "bank_code_inherited": false,
+      "xref": 1428,
+      "bbox": [
+        257.8,
+        601.9,
+        467.3,
+        754.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig04.png",
+      "bank_code": "26270",
+      "role": "fig",
+      "page": 37,
+      "kind": "embedded",
+      "width": 827,
+      "height": 814,
+      "sha1": "da5ea9dd1b9a",
+      "bank_code_inherited": true,
+      "xref": 1461,
+      "bbox": [
+        258.5,
+        74.6,
+        457.0,
+        270.0
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig05.png",
+      "bank_code": "26270",
+      "role": "fig",
+      "page": 37,
+      "kind": "embedded",
+      "width": 1028,
+      "height": 575,
+      "sha1": "bb90405bbf3f",
+      "bank_code_inherited": true,
+      "xref": 1462,
+      "bbox": [
+        257.5,
+        287.5,
+        504.2,
+        425.5
+      ],
+      "question_anchor": null,
+      "text_before": "δ.",
+      "text_after": "ε.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23741": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#23741_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#23741_fig01.png",
+          "bank_code": "23741",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 523,
+          "height": 1026,
+          "sha1": "83473bf2ab88",
+          "bank_code_inherited": false,
+          "xref": 168,
+          "bbox": [
+            246.8,
+            252.5,
+            364.8,
+            484.0
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται: Για την γωνία φ, sinφ=0,35",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23742": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#23742_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#23742_fig01.png",
+          "bank_code": "23742",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 523,
+          "height": 1026,
+          "sha1": "83473bf2ab88",
+          "bank_code_inherited": false,
+          "xref": 247,
+          "bbox": [
+            246.8,
+            252.5,
+            364.8,
+            484.0
+          ],
+          "question_anchor": null,
+          "text_before": "β) Η δύναμη F σε KN που ασκείται στον διωστήρα. (Μονάδες 10)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24400": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#24400_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#24400_fig01.png",
+          "bank_code": "24400",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 222,
+          "height": 399,
+          "sha1": "bfdf9a6601ca",
+          "bank_code_inherited": false,
+          "xref": 335,
+          "bbox": [
+            230.9,
+            291.7,
+            364.1,
+            521.5
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνονται: γωνία φ=11ο, sin 11ο =0,191",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25289": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#25289_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#25289_fig01.png",
+          "bank_code": "25289",
+          "role": "fig",
+          "page": 33,
+          "kind": "embedded",
+          "width": 397,
+          "height": 328,
+          "sha1": "8049cc202fbe",
+          "bank_code_inherited": false,
+          "xref": 1348,
+          "bbox": [
+            148.4,
+            158.8,
+            446.2,
+            404.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26270": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig01.png",
+        "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig02.png",
+        "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig03.png",
+        "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig04.png",
+        "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig05.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig01.png",
+          "bank_code": "26270",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 1066,
+          "height": 552,
+          "sha1": "2d3972943b8c",
+          "bank_code_inherited": false,
+          "xref": 1426,
+          "bbox": [
+            261.4,
+            229.0,
+            517.2,
+            361.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "προς τη διάταξη των εμβόλων)",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig02.png",
+          "bank_code": "26270",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 656,
+          "height": 837,
+          "sha1": "64159c9a167c",
+          "bank_code_inherited": false,
+          "xref": 1427,
+          "bbox": [
+            310.1,
+            382.6,
+            467.5,
+            583.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig03.png",
+          "bank_code": "26270",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 873,
+          "height": 634,
+          "sha1": "c0be1f11fecd",
+          "bank_code_inherited": false,
+          "xref": 1428,
+          "bbox": [
+            257.8,
+            601.9,
+            467.3,
+            754.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig04.png",
+          "bank_code": "26270",
+          "role": "fig",
+          "page": 37,
+          "kind": "embedded",
+          "width": 827,
+          "height": 814,
+          "sha1": "da5ea9dd1b9a",
+          "bank_code_inherited": true,
+          "xref": 1461,
+          "bbox": [
+            258.5,
+            74.6,
+            457.0,
+            270.0
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#26270_fig05.png",
+          "bank_code": "26270",
+          "role": "fig",
+          "page": 37,
+          "kind": "embedded",
+          "width": 1028,
+          "height": 575,
+          "sha1": "bb90405bbf3f",
+          "bank_code_inherited": true,
+          "xref": 1462,
+          "bbox": [
+            257.5,
+            287.5,
+            504.2,
+            425.5
+          ],
+          "question_anchor": null,
+          "text_before": "δ.",
+          "text_after": "ε.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29066": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#29066_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#29066_fig01.png",
+          "bank_code": "29066",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 311,
+          "height": 276,
+          "sha1": "46b4412cea8b",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            169.4,
+            180.8,
+            425.4,
+            407.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33197": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#33197_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#33197_fig01.png",
+          "bank_code": "33197",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 260,
+          "height": 283,
+          "sha1": "952a824da2fb",
+          "bank_code_inherited": false,
+          "xref": 95,
+          "bbox": [
+            219.7,
+            158.8,
+            375.7,
+            320.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ένα από τα γράμματα α, β, γ, δ, ε, στ, ζ, η της Στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34913": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#34913_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#34913_fig01.png",
+          "bank_code": "34913",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 217,
+          "height": 427,
+          "sha1": "ead45744dd03",
+          "bank_code_inherited": false,
+          "xref": 421,
+          "bbox": [
+            215.9,
+            246.7,
+            378.7,
+            567.0
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνονται: Συνημίτονο της γωνία φ=75ο είναι συνφ=cosφ=0,25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34916": {
+      "fig": [
+        "c_michanes-esoterikis-kafsis-2_ch02_#34916_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanes-esoterikis-kafsis-2_ch02_#34916_fig01.png",
+          "bank_code": "34916",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 217,
+          "height": 427,
+          "sha1": "20f1d220fd9a",
+          "bank_code_inherited": false,
+          "xref": 514,
+          "bbox": [
+            237.7,
+            382.0,
+            357.7,
+            618.1
+          ],
+          "question_anchor": null,
+          "text_before": "14  0,241",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

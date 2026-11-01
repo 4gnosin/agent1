@@ -1,0 +1,513 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch06.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 6,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch06",
+  "total_pages": 19,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#16829_fig01.png",
+      "bank_code": "16829",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 374,
+      "height": 376,
+      "sha1": "5ad7e8f97f2f",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        156.4,
+        378.5,
+        440.3,
+        629.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α, β, γ, δ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#29025_fig01.png",
+      "bank_code": "29025",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 434,
+      "height": 376,
+      "sha1": "31c069e4eeac",
+      "bank_code_inherited": false,
+      "xref": 97,
+      "bbox": [
+        203.1,
+        202.7,
+        420.1,
+        390.7
+      ],
+      "question_anchor": null,
+      "text_before": "β) Τι θα πρέπει να προσέξει ο τεχνίτης στην εργασία αυτή. (Μονάδες 15)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.png",
+      "bank_code": "18911",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 256,
+      "height": 227,
+      "sha1": "d70e81bac2c8",
+      "bank_code_inherited": false,
+      "xref": 180,
+      "bbox": [
+        201.6,
+        159.8,
+        393.9,
+        330.2
+      ],
+      "question_anchor": null,
+      "text_before": "1mm.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig02.png",
+      "bank_code": "18911",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 381,
+      "height": 260,
+      "sha1": "7ef3aa3249f2",
+      "bank_code_inherited": false,
+      "xref": 181,
+      "bbox": [
+        154.6,
+        403.5,
+        440.7,
+        598.5
+      ],
+      "question_anchor": null,
+      "text_before": "χειροκίνητος κυλινδροπιεστής (Σχήμα2).",
+      "text_after": "Σχήμα 2 Χειροκίνητος κυλινδροπιεστής",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.png",
+      "bank_code": "18374",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 447,
+      "height": 351,
+      "sha1": "87d77386fd9c",
+      "bank_code_inherited": false,
+      "xref": 353,
+      "bbox": [
+        162.7,
+        378.5,
+        434.0,
+        573.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.png",
+      "bank_code": "18714",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 354,
+      "height": 344,
+      "sha1": "6d32ee29e233",
+      "bank_code_inherited": false,
+      "xref": 432,
+      "bbox": [
+        131.3,
+        204.7,
+        250.8,
+        320.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ΣΤΗΛΗ Β  (Ονομασία Μηχανής)  1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig02.png",
+      "bank_code": "18714",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 325,
+      "height": 184,
+      "sha1": "4a45d69eb850",
+      "bank_code_inherited": false,
+      "xref": 433,
+      "bbox": [
+        124.2,
+        336.1,
+        258.0,
+        411.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig03.png",
+      "bank_code": "18714",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 351,
+      "height": 305,
+      "sha1": "4bd546e1acf1",
+      "bank_code_inherited": false,
+      "xref": 434,
+      "bbox": [
+        132.4,
+        426.6,
+        249.7,
+        529.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig04.png",
+      "bank_code": "18714",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 388,
+      "height": 267,
+      "sha1": "b7deeb26d058",
+      "bank_code_inherited": false,
+      "xref": 435,
+      "bbox": [
+        121.1,
+        544.2,
+        261.0,
+        640.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4.",
+      "text_after": "ε. Καμπτική μηχανή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.png",
+      "bank_code": "19846",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 419,
+      "height": 426,
+      "sha1": "f008ca9b6d8a",
+      "bank_code_inherited": false,
+      "xref": 590,
+      "bbox": [
+        176.2,
+        356.6,
+        419.9,
+        577.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16829": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#16829_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#16829_fig01.png",
+          "bank_code": "16829",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 374,
+          "height": 376,
+          "sha1": "5ad7e8f97f2f",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            156.4,
+            378.5,
+            440.3,
+            629.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α, β, γ, δ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18374": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.png",
+          "bank_code": "18374",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 447,
+          "height": 351,
+          "sha1": "87d77386fd9c",
+          "bank_code_inherited": false,
+          "xref": 353,
+          "bbox": [
+            162.7,
+            378.5,
+            434.0,
+            573.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18714": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig02.png",
+        "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig03.png",
+        "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.png",
+          "bank_code": "18714",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 354,
+          "height": 344,
+          "sha1": "6d32ee29e233",
+          "bank_code_inherited": false,
+          "xref": 432,
+          "bbox": [
+            131.3,
+            204.7,
+            250.8,
+            320.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ΣΤΗΛΗ Β  (Ονομασία Μηχανής)  1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig02.png",
+          "bank_code": "18714",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 325,
+          "height": 184,
+          "sha1": "4a45d69eb850",
+          "bank_code_inherited": false,
+          "xref": 433,
+          "bbox": [
+            124.2,
+            336.1,
+            258.0,
+            411.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig03.png",
+          "bank_code": "18714",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 351,
+          "height": 305,
+          "sha1": "4bd546e1acf1",
+          "bank_code_inherited": false,
+          "xref": 434,
+          "bbox": [
+            132.4,
+            426.6,
+            249.7,
+            529.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18714_fig04.png",
+          "bank_code": "18714",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 388,
+          "height": 267,
+          "sha1": "b7deeb26d058",
+          "bank_code_inherited": false,
+          "xref": 435,
+          "bbox": [
+            121.1,
+            544.2,
+            261.0,
+            640.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "4.",
+          "text_after": "ε. Καμπτική μηχανή",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18911": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.png",
+          "bank_code": "18911",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 256,
+          "height": 227,
+          "sha1": "d70e81bac2c8",
+          "bank_code_inherited": false,
+          "xref": 180,
+          "bbox": [
+            201.6,
+            159.8,
+            393.9,
+            330.2
+          ],
+          "question_anchor": null,
+          "text_before": "1mm.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#18911_fig02.png",
+          "bank_code": "18911",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 381,
+          "height": 260,
+          "sha1": "7ef3aa3249f2",
+          "bank_code_inherited": false,
+          "xref": 181,
+          "bbox": [
+            154.6,
+            403.5,
+            440.7,
+            598.5
+          ],
+          "question_anchor": null,
+          "text_before": "χειροκίνητος κυλινδροπιεστής (Σχήμα2).",
+          "text_after": "Σχήμα 2 Χειροκίνητος κυλινδροπιεστής",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19846": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.png",
+          "bank_code": "19846",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 419,
+          "height": 426,
+          "sha1": "f008ca9b6d8a",
+          "bank_code_inherited": false,
+          "xref": 590,
+          "bbox": [
+            176.2,
+            356.6,
+            419.9,
+            577.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29025": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch06_#29025_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch06_#29025_fig01.png",
+          "bank_code": "29025",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 434,
+          "height": 376,
+          "sha1": "31c069e4eeac",
+          "bank_code_inherited": false,
+          "xref": 97,
+          "bbox": [
+            203.1,
+            202.7,
+            420.1,
+            390.7
+          ],
+          "question_anchor": null,
+          "text_before": "β) Τι θα πρέπει να προσέξει ο τεχνίτης στην εργασία αυτή. (Μονάδες 15)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

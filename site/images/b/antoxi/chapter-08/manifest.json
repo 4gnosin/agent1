@@ -1,0 +1,402 @@
+{
+  "source_pdf": "b_antoxi_ch08.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 8,
+  "stem": "b_antoxi_ch08",
+  "total_pages": 12,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch08_#17858_fig01.png",
+      "bank_code": "17858",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 365,
+      "height": 131,
+      "sha1": "fe6303268f92",
+      "bank_code_inherited": false,
+      "xref": 89,
+      "bbox": [
+        368.8,
+        476.5,
+        500.5,
+        523.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1. Στην πάκτωση εμφανίζονται:",
+      "text_after": "γ) Η ροπή πάκτωσης ΜΠ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#17858_fig02.png",
+      "bank_code": "17858",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 349,
+      "height": 129,
+      "sha1": "60a68c560f43",
+      "bank_code_inherited": false,
+      "xref": 90,
+      "bbox": [
+        365.8,
+        606.2,
+        500.9,
+        662.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α) Η οριζόντια αντίδραση Αx",
+      "text_after": "γ) Η ροπή πάκτωσης ΜΠ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#17858_fig03.png",
+      "bank_code": "17858",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 282,
+      "height": 101,
+      "sha1": "7c6b2b243024",
+      "bank_code_inherited": false,
+      "xref": 91,
+      "bbox": [
+        370.2,
+        750.3,
+        507.1,
+        799.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β) Η οριζόντια αντίδραση Αx  και η κατα-",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#18232_fig01.png",
+      "bank_code": "18232",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 314,
+      "height": 152,
+      "sha1": "852fc0fab913",
+      "bank_code_inherited": false,
+      "xref": 168,
+      "bbox": [
+        90.0,
+        226.8,
+        325.5,
+        340.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#18232_fig02.png",
+      "bank_code": "18232",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 208,
+      "height": 112,
+      "sha1": "27612bd3e9bc",
+      "bank_code_inherited": false,
+      "xref": 169,
+      "bbox": [
+        129.7,
+        370.5,
+        285.7,
+        454.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#18232_fig03.png",
+      "bank_code": "18232",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 222,
+      "height": 151,
+      "sha1": "9998f58e24f4",
+      "bank_code_inherited": false,
+      "xref": 170,
+      "bbox": [
+        124.4,
+        484.3,
+        291.0,
+        597.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ) Κύλιση",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#19460_fig01.png",
+      "bank_code": "19460",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 271,
+      "height": 112,
+      "sha1": "7812d3439070",
+      "bank_code_inherited": false,
+      "xref": 250,
+      "bbox": [
+        136.9,
+        359.9,
+        264.2,
+        412.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Η εγκάρσια δύναμη Q είναι μηδέν,",
+      "text_after": "4. Εγκάρσια δύναμη με αριστερόστροφη ροπή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch08_#19460_fig02.png",
+      "bank_code": "19460",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 257,
+      "height": 112,
+      "sha1": "c86f7774f6b7",
+      "bank_code_inherited": false,
+      "xref": 251,
+      "bbox": [
+        140.2,
+        440.5,
+        261.0,
+        493.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δ. Η αξονική δύναμη Ν είναι θετική,",
+      "text_after": "ε. Η αξονική δύναμη Ν είναι αρνητική,",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17858": {
+      "fig": [
+        "b_antoxi_ch08_#17858_fig01.png",
+        "b_antoxi_ch08_#17858_fig02.png",
+        "b_antoxi_ch08_#17858_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch08_#17858_fig01.png",
+          "bank_code": "17858",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 365,
+          "height": 131,
+          "sha1": "fe6303268f92",
+          "bank_code_inherited": false,
+          "xref": 89,
+          "bbox": [
+            368.8,
+            476.5,
+            500.5,
+            523.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1. Στην πάκτωση εμφανίζονται:",
+          "text_after": "γ) Η ροπή πάκτωσης ΜΠ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch08_#17858_fig02.png",
+          "bank_code": "17858",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 349,
+          "height": 129,
+          "sha1": "60a68c560f43",
+          "bank_code_inherited": false,
+          "xref": 90,
+          "bbox": [
+            365.8,
+            606.2,
+            500.9,
+            662.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α) Η οριζόντια αντίδραση Αx",
+          "text_after": "γ) Η ροπή πάκτωσης ΜΠ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch08_#17858_fig03.png",
+          "bank_code": "17858",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 282,
+          "height": 101,
+          "sha1": "7c6b2b243024",
+          "bank_code_inherited": false,
+          "xref": 91,
+          "bbox": [
+            370.2,
+            750.3,
+            507.1,
+            799.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β) Η οριζόντια αντίδραση Αx  και η κατα-",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18232": {
+      "fig": [
+        "b_antoxi_ch08_#18232_fig01.png",
+        "b_antoxi_ch08_#18232_fig02.png",
+        "b_antoxi_ch08_#18232_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch08_#18232_fig01.png",
+          "bank_code": "18232",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 314,
+          "height": 152,
+          "sha1": "852fc0fab913",
+          "bank_code_inherited": false,
+          "xref": 168,
+          "bbox": [
+            90.0,
+            226.8,
+            325.5,
+            340.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch08_#18232_fig02.png",
+          "bank_code": "18232",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 208,
+          "height": 112,
+          "sha1": "27612bd3e9bc",
+          "bank_code_inherited": false,
+          "xref": 169,
+          "bbox": [
+            129.7,
+            370.5,
+            285.7,
+            454.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch08_#18232_fig03.png",
+          "bank_code": "18232",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 222,
+          "height": 151,
+          "sha1": "9998f58e24f4",
+          "bank_code_inherited": false,
+          "xref": 170,
+          "bbox": [
+            124.4,
+            484.3,
+            291.0,
+            597.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ) Κύλιση",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19460": {
+      "fig": [
+        "b_antoxi_ch08_#19460_fig01.png",
+        "b_antoxi_ch08_#19460_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch08_#19460_fig01.png",
+          "bank_code": "19460",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 271,
+          "height": 112,
+          "sha1": "7812d3439070",
+          "bank_code_inherited": false,
+          "xref": 250,
+          "bbox": [
+            136.9,
+            359.9,
+            264.2,
+            412.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Η εγκάρσια δύναμη Q είναι μηδέν,",
+          "text_after": "4. Εγκάρσια δύναμη με αριστερόστροφη ροπή",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch08_#19460_fig02.png",
+          "bank_code": "19460",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 257,
+          "height": 112,
+          "sha1": "c86f7774f6b7",
+          "bank_code_inherited": false,
+          "xref": 251,
+          "bbox": [
+            140.2,
+            440.5,
+            261.0,
+            493.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δ. Η αξονική δύναμη Ν είναι θετική,",
+          "text_after": "ε. Η αξονική δύναμη Ν είναι αρνητική,",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

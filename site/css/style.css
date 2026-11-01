@@ -428,3 +428,70 @@ color: var(--copper);
   margin: 0.4rem 0 0;
   line-height: 1.25;
 }
+
+
+/* ========================================================== */
+/* Figures & Image Grids for Exercises                        */
+/* ========================================================== */
+.item-figures, .ex-figures {
+  margin: 0.75rem 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.item-figures.item-figures-grid,
+.ex-figures.ex-figures-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 520px) {
+  .item-figures.item-figures-grid,
+  .ex-figures.ex-figures-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ex-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0.75rem 0.6rem;
+  border: 1px solid var(--line, rgba(0, 0, 0, 0.08));
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.ex-figure-img-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ex-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.item-figures-grid .ex-figure img,
+.ex-figures-grid .ex-figure img {
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.ex-figure-caption {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #1a1714;
+  text-align: center;
+}

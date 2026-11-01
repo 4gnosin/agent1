@@ -1,0 +1,313 @@
+{
+  "source_pdf": "b_antoxi_ch04.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 4,
+  "stem": "b_antoxi_ch04",
+  "total_pages": 18,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch04_#19803_fig01.png",
+      "bank_code": "19803",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 2066,
+      "height": 761,
+      "sha1": "a33e0fd30819",
+      "bank_code_inherited": false,
+      "xref": 132,
+      "bbox": [
+        92.3,
+        169.7,
+        558.5,
+        341.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch04_#16432_fig01.png",
+      "bank_code": "16432",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 259,
+      "height": 154,
+      "sha1": "76231c132105",
+      "bank_code_inherited": false,
+      "xref": 278,
+      "bbox": [
+        200.1,
+        158.8,
+        394.4,
+        274.3
+      ],
+      "question_anchor": "4.1",
+      "text_before": "1.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch04_#16432_fig02.png",
+      "bank_code": "16432",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 599,
+      "height": 490,
+      "sha1": "8bc4f2763df9",
+      "bank_code_inherited": false,
+      "xref": 279,
+      "bbox": [
+        189.6,
+        368.9,
+        405.6,
+        545.6
+      ],
+      "question_anchor": "4.2",
+      "text_before": "το ύψος του τριγώνου h= 13cm.",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch04_#16432_sol01.png",
+      "bank_code": "16432",
+      "role": "sol",
+      "page": 12,
+      "kind": "embedded",
+      "width": 529,
+      "height": 239,
+      "sha1": "a209ccefdbfc",
+      "bank_code_inherited": false,
+      "xref": 322,
+      "bbox": [
+        204.6,
+        180.8,
+        390.6,
+        264.8
+      ],
+      "question_anchor": "4.1",
+      "text_before": "κεντροειδές του ορθογωνίου.",
+      "text_after": "β. Αναλυτικά: Εάν με xO ορίσουμε το ύψος του κεντροειδούς G από την κάτω πλευρά του",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch04_#16432_sol02.png",
+      "bank_code": "16432",
+      "role": "sol",
+      "page": 12,
+      "kind": "embedded",
+      "width": 603,
+      "height": 433,
+      "sha1": "6f4c6e3e7f1a",
+      "bank_code_inherited": false,
+      "xref": 323,
+      "bbox": [
+        207.6,
+        469.8,
+        387.6,
+        599.0
+      ],
+      "question_anchor": "4.2",
+      "text_before": "κεντροειδές του τριγώνου.",
+      "text_after": "β. Αναλυτικά: Εάν με xO ορίσουμε το ύψος του κεντροειδούς G από την κάτω πλευρά του",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch04_#16422_fig01.png",
+      "bank_code": "16422",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 147,
+      "height": 125,
+      "sha1": "1c5d4ed1a4aa",
+      "bank_code_inherited": false,
+      "xref": 364,
+      "bbox": [
+        150.2,
+        645.1,
+        264.1,
+        742.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16422": {
+      "fig": [
+        "b_antoxi_ch04_#16422_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch04_#16422_fig01.png",
+          "bank_code": "16422",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 147,
+          "height": 125,
+          "sha1": "1c5d4ed1a4aa",
+          "bank_code_inherited": false,
+          "xref": 364,
+          "bbox": [
+            150.2,
+            645.1,
+            264.1,
+            742.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16432": {
+      "fig": [
+        "b_antoxi_ch04_#16432_fig01.png",
+        "b_antoxi_ch04_#16432_fig02.png"
+      ],
+      "sol": [
+        "b_antoxi_ch04_#16432_sol01.png",
+        "b_antoxi_ch04_#16432_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_antoxi_ch04_#16432_fig01.png",
+          "bank_code": "16432",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 259,
+          "height": 154,
+          "sha1": "76231c132105",
+          "bank_code_inherited": false,
+          "xref": 278,
+          "bbox": [
+            200.1,
+            158.8,
+            394.4,
+            274.3
+          ],
+          "question_anchor": "4.1",
+          "text_before": "1.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch04_#16432_fig02.png",
+          "bank_code": "16432",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 599,
+          "height": 490,
+          "sha1": "8bc4f2763df9",
+          "bank_code_inherited": false,
+          "xref": 279,
+          "bbox": [
+            189.6,
+            368.9,
+            405.6,
+            545.6
+          ],
+          "question_anchor": "4.2",
+          "text_before": "το ύψος του τριγώνου h= 13cm.",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch04_#16432_sol01.png",
+          "bank_code": "16432",
+          "role": "sol",
+          "page": 12,
+          "kind": "embedded",
+          "width": 529,
+          "height": 239,
+          "sha1": "a209ccefdbfc",
+          "bank_code_inherited": false,
+          "xref": 322,
+          "bbox": [
+            204.6,
+            180.8,
+            390.6,
+            264.8
+          ],
+          "question_anchor": "4.1",
+          "text_before": "κεντροειδές του ορθογωνίου.",
+          "text_after": "β. Αναλυτικά: Εάν με xO ορίσουμε το ύψος του κεντροειδούς G από την κάτω πλευρά του",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch04_#16432_sol02.png",
+          "bank_code": "16432",
+          "role": "sol",
+          "page": 12,
+          "kind": "embedded",
+          "width": 603,
+          "height": 433,
+          "sha1": "6f4c6e3e7f1a",
+          "bank_code_inherited": false,
+          "xref": 323,
+          "bbox": [
+            207.6,
+            469.8,
+            387.6,
+            599.0
+          ],
+          "question_anchor": "4.2",
+          "text_before": "κεντροειδές του τριγώνου.",
+          "text_after": "β. Αναλυτικά: Εάν με xO ορίσουμε το ύψος του κεντροειδούς G από την κάτω πλευρά του",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19803": {
+      "fig": [
+        "b_antoxi_ch04_#19803_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch04_#19803_fig01.png",
+          "bank_code": "19803",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 2066,
+          "height": 761,
+          "sha1": "a33e0fd30819",
+          "bank_code_inherited": false,
+          "xref": 132,
+          "bbox": [
+            92.3,
+            169.7,
+            558.5,
+            341.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

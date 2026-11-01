@@ -1,0 +1,360 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou_ch09.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou",
+  "chapter": 9,
+  "stem": "c_stoixeia-psyxis-klimatismou_ch09",
+  "total_pages": 14,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig01.png",
+      "bank_code": "32786",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 707,
+      "height": 423,
+      "sha1": "c8671b73a01e",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        99.9,
+        292.1,
+        524.1,
+        545.9
+      ],
+      "question_anchor": "4.1",
+      "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
+      "text_after": "Διάγραμμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig02.png",
+      "bank_code": "32786",
+      "role": "fig",
+      "page": 3,
+      "kind": "embedded",
+      "width": 636,
+      "height": 588,
+      "sha1": "824859e72e43",
+      "bank_code_inherited": true,
+      "xref": 69,
+      "bbox": [
+        107.1,
+        70.9,
+        488.2,
+        423.1
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Διάγραμμα 2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_sol01.png",
+      "bank_code": "32786",
+      "role": "sol",
+      "page": 4,
+      "kind": "embedded",
+      "width": 636,
+      "height": 588,
+      "sha1": "922479c7c295",
+      "bank_code_inherited": false,
+      "xref": 74,
+      "bbox": [
+        70.9,
+        356.5,
+        452.5,
+        709.3
+      ],
+      "question_anchor": "4.2",
+      "text_before": "μεγαλύτερη από 0,1 m/s.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#32836_fig01.png",
+      "bank_code": "32836",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 684,
+      "height": 475,
+      "sha1": "c451a56747f6",
+      "bank_code_inherited": false,
+      "xref": 271,
+      "bbox": [
+        72.4,
+        417.0,
+        525.9,
+        732.0
+      ],
+      "question_anchor": "4.2",
+      "text_before": "ρουχισμό.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#32836_sol01.png",
+      "bank_code": "32836",
+      "role": "sol",
+      "page": 10,
+      "kind": "embedded",
+      "width": 684,
+      "height": 475,
+      "sha1": "c451a56747f6",
+      "bank_code_inherited": false,
+      "xref": 322,
+      "bbox": [
+        72.4,
+        270.7,
+        525.9,
+        585.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "𝐬.",
+      "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#33901_fig01.png",
+      "bank_code": "33901",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 479,
+      "height": 476,
+      "sha1": "62cae465334f",
+      "bank_code_inherited": false,
+      "xref": 364,
+      "bbox": [
+        118.4,
+        373.8,
+        477.8,
+        730.9
+      ],
+      "question_anchor": "4.2",
+      "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch09_#33901_sol01.png",
+      "bank_code": "33901",
+      "role": "sol",
+      "page": 13,
+      "kind": "embedded",
+      "width": 479,
+      "height": 476,
+      "sha1": "62cae465334f",
+      "bank_code_inherited": false,
+      "xref": 415,
+      "bbox": [
+        118.4,
+        277.3,
+        477.8,
+        634.4
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ίση με 27,2 οC.",
+      "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "32786": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig02.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#32786_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig01.png",
+          "bank_code": "32786",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 707,
+          "height": 423,
+          "sha1": "c8671b73a01e",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            99.9,
+            292.1,
+            524.1,
+            545.9
+          ],
+          "question_anchor": "4.1",
+          "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
+          "text_after": "Διάγραμμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_fig02.png",
+          "bank_code": "32786",
+          "role": "fig",
+          "page": 3,
+          "kind": "embedded",
+          "width": 636,
+          "height": 588,
+          "sha1": "824859e72e43",
+          "bank_code_inherited": true,
+          "xref": 69,
+          "bbox": [
+            107.1,
+            70.9,
+            488.2,
+            423.1
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Διάγραμμα 2",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#32786_sol01.png",
+          "bank_code": "32786",
+          "role": "sol",
+          "page": 4,
+          "kind": "embedded",
+          "width": 636,
+          "height": 588,
+          "sha1": "922479c7c295",
+          "bank_code_inherited": false,
+          "xref": 74,
+          "bbox": [
+            70.9,
+            356.5,
+            452.5,
+            709.3
+          ],
+          "question_anchor": "4.2",
+          "text_before": "μεγαλύτερη από 0,1 m/s.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32836": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#32836_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#32836_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#32836_fig01.png",
+          "bank_code": "32836",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 684,
+          "height": 475,
+          "sha1": "c451a56747f6",
+          "bank_code_inherited": false,
+          "xref": 271,
+          "bbox": [
+            72.4,
+            417.0,
+            525.9,
+            732.0
+          ],
+          "question_anchor": "4.2",
+          "text_before": "ρουχισμό.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#32836_sol01.png",
+          "bank_code": "32836",
+          "role": "sol",
+          "page": 10,
+          "kind": "embedded",
+          "width": 684,
+          "height": 475,
+          "sha1": "c451a56747f6",
+          "bank_code_inherited": false,
+          "xref": 322,
+          "bbox": [
+            72.4,
+            270.7,
+            525.9,
+            585.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "𝐬.",
+          "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33901": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#33901_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch09_#33901_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#33901_fig01.png",
+          "bank_code": "33901",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 479,
+          "height": 476,
+          "sha1": "62cae465334f",
+          "bank_code_inherited": false,
+          "xref": 364,
+          "bbox": [
+            118.4,
+            373.8,
+            477.8,
+            730.9
+          ],
+          "question_anchor": "4.2",
+          "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch09_#33901_sol01.png",
+          "bank_code": "33901",
+          "role": "sol",
+          "page": 13,
+          "kind": "embedded",
+          "width": 479,
+          "height": 476,
+          "sha1": "62cae465334f",
+          "bank_code_inherited": false,
+          "xref": 415,
+          "bbox": [
+            118.4,
+            277.3,
+            477.8,
+            634.4
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ίση με 27,2 οC.",
+          "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

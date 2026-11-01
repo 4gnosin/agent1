@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch09.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 9,
+  "stem": "c_systimata-aftokinitou_ch09",
+  "total_pages": 4,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch09_#27701_fig01.png",
+      "bank_code": "27701",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 292,
+      "height": 394,
+      "sha1": "9bd06346fc59",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        169.7,
+        186.0,
+        425.3,
+        484.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται μία αυτόματη ζώνη ασφαλείας υψηλής ταχύτητας  σύσφιγ",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27701": {
+      "fig": [
+        "c_systimata-aftokinitou_ch09_#27701_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch09_#27701_fig01.png",
+          "bank_code": "27701",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 292,
+          "height": 394,
+          "sha1": "9bd06346fc59",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            169.7,
+            186.0,
+            425.3,
+            484.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται μία αυτόματη ζώνη ασφαλείας υψηλής ταχύτητας  σύσφιγ",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

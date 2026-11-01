@@ -1,0 +1,357 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch01.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 1,
+  "stem": "c_systimata-aftokinitou_ch01",
+  "total_pages": 15,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch01_#24143_fig01.png",
+      "bank_code": "24143",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 237,
+      "height": 180,
+      "sha1": "84722ec19852",
+      "bank_code_inherited": false,
+      "xref": 89,
+      "bbox": [
+        104.3,
+        220.2,
+        282.0,
+        355.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Αυτοφερόμενο αμάξωμα",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#24143_fig02.png",
+      "bank_code": "24143",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 280,
+      "height": 135,
+      "sha1": "c965919bbecf",
+      "bank_code_inherited": false,
+      "xref": 90,
+      "bbox": [
+        91.8,
+        382.5,
+        301.7,
+        483.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Μη αυτοφερόμενο αμάξωμα",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#24143_fig03.png",
+      "bank_code": "24143",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 263,
+      "height": 175,
+      "sha1": "60d898d87542",
+      "bank_code_inherited": false,
+      "xref": 92,
+      "bbox": [
+        91.8,
+        529.3,
+        289.0,
+        660.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Ημιαυτοφερόμενο αμάξωμα",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#28997_fig01.png",
+      "bank_code": "28997",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 229,
+      "height": 144,
+      "sha1": "33cc580e2363",
+      "bank_code_inherited": false,
+      "xref": 173,
+      "bbox": [
+        211.4,
+        180.8,
+        383.1,
+        288.8
+      ],
+      "question_anchor": null,
+      "text_before": "ΖΒ=70.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#32671_fig01.png",
+      "bank_code": "32671",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 241,
+      "height": 287,
+      "sha1": "f4868799180e",
+      "bank_code_inherited": false,
+      "xref": 345,
+      "bbox": [
+        317.6,
+        577.4,
+        451.4,
+        723.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "στροφές των τροχών διαφοροποιούνται.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#32671_fig02.png",
+      "bank_code": "32671",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 241,
+      "height": 310,
+      "sha1": "11d9b4e9ee19",
+      "bank_code_inherited": true,
+      "xref": 391,
+      "bbox": [
+        315.3,
+        93.4,
+        453.7,
+        271.6
+      ],
+      "question_anchor": null,
+      "text_before": "ένας τροχός παίρνει όλες τις στροφές.",
+      "text_after": "3. Κίνηση του αυτοκίνητου σε ευθεία,",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch01_#32671_fig03.png",
+      "bank_code": "32671",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 239,
+      "height": 284,
+      "sha1": "bbd63575a9cb",
+      "bank_code_inherited": true,
+      "xref": 393,
+      "bbox": [
+        297.0,
+        300.9,
+        473.2,
+        460.7
+      ],
+      "question_anchor": null,
+      "text_before": "και οι δυο τροχοί παίρνουν τις ίδιες",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24143": {
+      "fig": [
+        "c_systimata-aftokinitou_ch01_#24143_fig01.png",
+        "c_systimata-aftokinitou_ch01_#24143_fig02.png",
+        "c_systimata-aftokinitou_ch01_#24143_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch01_#24143_fig01.png",
+          "bank_code": "24143",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 237,
+          "height": 180,
+          "sha1": "84722ec19852",
+          "bank_code_inherited": false,
+          "xref": 89,
+          "bbox": [
+            104.3,
+            220.2,
+            282.0,
+            355.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Αυτοφερόμενο αμάξωμα",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch01_#24143_fig02.png",
+          "bank_code": "24143",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 280,
+          "height": 135,
+          "sha1": "c965919bbecf",
+          "bank_code_inherited": false,
+          "xref": 90,
+          "bbox": [
+            91.8,
+            382.5,
+            301.7,
+            483.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Μη αυτοφερόμενο αμάξωμα",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch01_#24143_fig03.png",
+          "bank_code": "24143",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 263,
+          "height": 175,
+          "sha1": "60d898d87542",
+          "bank_code_inherited": false,
+          "xref": 92,
+          "bbox": [
+            91.8,
+            529.3,
+            289.0,
+            660.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Ημιαυτοφερόμενο αμάξωμα",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28997": {
+      "fig": [
+        "c_systimata-aftokinitou_ch01_#28997_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch01_#28997_fig01.png",
+          "bank_code": "28997",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 229,
+          "height": 144,
+          "sha1": "33cc580e2363",
+          "bank_code_inherited": false,
+          "xref": 173,
+          "bbox": [
+            211.4,
+            180.8,
+            383.1,
+            288.8
+          ],
+          "question_anchor": null,
+          "text_before": "ΖΒ=70.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32671": {
+      "fig": [
+        "c_systimata-aftokinitou_ch01_#32671_fig01.png",
+        "c_systimata-aftokinitou_ch01_#32671_fig02.png",
+        "c_systimata-aftokinitou_ch01_#32671_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch01_#32671_fig01.png",
+          "bank_code": "32671",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 241,
+          "height": 287,
+          "sha1": "f4868799180e",
+          "bank_code_inherited": false,
+          "xref": 345,
+          "bbox": [
+            317.6,
+            577.4,
+            451.4,
+            723.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "στροφές των τροχών διαφοροποιούνται.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch01_#32671_fig02.png",
+          "bank_code": "32671",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 241,
+          "height": 310,
+          "sha1": "11d9b4e9ee19",
+          "bank_code_inherited": true,
+          "xref": 391,
+          "bbox": [
+            315.3,
+            93.4,
+            453.7,
+            271.6
+          ],
+          "question_anchor": null,
+          "text_before": "ένας τροχός παίρνει όλες τις στροφές.",
+          "text_after": "3. Κίνηση του αυτοκίνητου σε ευθεία,",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch01_#32671_fig03.png",
+          "bank_code": "32671",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 239,
+          "height": 284,
+          "sha1": "bbd63575a9cb",
+          "bank_code_inherited": true,
+          "xref": 393,
+          "bbox": [
+            297.0,
+            300.9,
+            473.2,
+            460.7
+          ],
+          "question_anchor": null,
+          "text_before": "και οι δυο τροχοί παίρνουν τις ίδιες",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

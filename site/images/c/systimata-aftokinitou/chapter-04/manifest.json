@@ -1,0 +1,565 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch04.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 4,
+  "stem": "c_systimata-aftokinitou_ch04",
+  "total_pages": 21,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34039_fig01.png",
+      "bank_code": "34039",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 360,
+      "height": 385,
+      "sha1": "dbc179f67f3f",
+      "bank_code_inherited": false,
+      "xref": 89,
+      "bbox": [
+        189.6,
+        158.9,
+        405.6,
+        390.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμματα α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34040_fig01.png",
+      "bank_code": "34040",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 730,
+      "height": 343,
+      "sha1": "447cc45280d2",
+      "bank_code_inherited": false,
+      "xref": 170,
+      "bbox": [
+        70.8,
+        158.9,
+        524.2,
+        372.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34043_fig01.png",
+      "bank_code": "34043",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 157,
+      "height": 190,
+      "sha1": "a20ccbc73df5",
+      "bank_code_inherited": false,
+      "xref": 253,
+      "bbox": [
+        328.7,
+        289.9,
+        446.4,
+        432.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2. Ελικοειδή ελατήριο.  β)",
+      "text_after": "3. Στρεπτική ράβδος.  γ)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34043_fig02.png",
+      "bank_code": "34043",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 383,
+      "height": 213,
+      "sha1": "51998ac177e3",
+      "bank_code_inherited": false,
+      "xref": 254,
+      "bbox": [
+        285.2,
+        462.2,
+        489.9,
+        621.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3. Στρεπτική ράβδος.  γ)",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34043_fig03.png",
+      "bank_code": "34043",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 352,
+      "height": 95,
+      "sha1": "063516c7dea3",
+      "bank_code_inherited": false,
+      "xref": 252,
+      "bbox": [
+        282.3,
+        181.9,
+        493.5,
+        238.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ανάρτησης.",
+      "text_after": "2. Ελικοειδή ελατήριο.  β)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34041_fig01.png",
+      "bank_code": "34041",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 477,
+      "height": 531,
+      "sha1": "542c80ef23ce",
+      "bank_code_inherited": false,
+      "xref": 334,
+      "bbox": [
+        118.8,
+        158.9,
+        476.2,
+        464.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34044_fig01.png",
+      "bank_code": "34044",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 758,
+      "height": 181,
+      "sha1": "8fd07d1fab5d",
+      "bank_code_inherited": false,
+      "xref": 415,
+      "bbox": [
+        216.0,
+        181.9,
+        522.0,
+        290.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ψαλίδια.",
+      "text_after": "2. Παράλληλα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34044_fig02.png",
+      "bank_code": "34044",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 723,
+      "height": 184,
+      "sha1": "1c02d153bedf",
+      "bank_code_inherited": false,
+      "xref": 417,
+      "bbox": [
+        215.8,
+        319.6,
+        522.6,
+        430.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ψαλίδια.",
+      "text_after": "3. Συγκλίνοντα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34044_fig03.png",
+      "bank_code": "34044",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 682,
+      "height": 164,
+      "sha1": "56f9738801fe",
+      "bank_code_inherited": false,
+      "xref": 419,
+      "bbox": [
+        217.8,
+        459.2,
+        520.2,
+        557.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ψαλίδια.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#27391_fig01.png",
+      "bank_code": "27391",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 317,
+      "height": 361,
+      "sha1": "0568b61e97ac",
+      "bank_code_inherited": false,
+      "xref": 502,
+      "bbox": [
+        178.6,
+        186.0,
+        416.4,
+        456.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται μία ανεξάρτητη ανάρτηση Μακ Φέρσον, οπίσθιου  τροχού",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch04_#34042_fig01.png",
+      "bank_code": "34042",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 276,
+      "height": 378,
+      "sha1": "a5eae7dee2e3",
+      "bank_code_inherited": false,
+      "xref": 578,
+      "bbox": [
+        193.9,
+        158.9,
+        401.0,
+        407.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27391": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#27391_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#27391_fig01.png",
+          "bank_code": "27391",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 317,
+          "height": 361,
+          "sha1": "0568b61e97ac",
+          "bank_code_inherited": false,
+          "xref": 502,
+          "bbox": [
+            178.6,
+            186.0,
+            416.4,
+            456.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται μία ανεξάρτητη ανάρτηση Μακ Φέρσον, οπίσθιου  τροχού",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34039": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34039_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34039_fig01.png",
+          "bank_code": "34039",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 360,
+          "height": 385,
+          "sha1": "dbc179f67f3f",
+          "bank_code_inherited": false,
+          "xref": 89,
+          "bbox": [
+            189.6,
+            158.9,
+            405.6,
+            390.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμματα α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34040": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34040_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34040_fig01.png",
+          "bank_code": "34040",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 730,
+          "height": 343,
+          "sha1": "447cc45280d2",
+          "bank_code_inherited": false,
+          "xref": 170,
+          "bbox": [
+            70.8,
+            158.9,
+            524.2,
+            372.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34041": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34041_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34041_fig01.png",
+          "bank_code": "34041",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 477,
+          "height": 531,
+          "sha1": "542c80ef23ce",
+          "bank_code_inherited": false,
+          "xref": 334,
+          "bbox": [
+            118.8,
+            158.9,
+            476.2,
+            464.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34042": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34042_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34042_fig01.png",
+          "bank_code": "34042",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 276,
+          "height": 378,
+          "sha1": "a5eae7dee2e3",
+          "bank_code_inherited": false,
+          "xref": 578,
+          "bbox": [
+            193.9,
+            158.9,
+            401.0,
+            407.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34043": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34043_fig01.png",
+        "c_systimata-aftokinitou_ch04_#34043_fig02.png",
+        "c_systimata-aftokinitou_ch04_#34043_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34043_fig01.png",
+          "bank_code": "34043",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 157,
+          "height": 190,
+          "sha1": "a20ccbc73df5",
+          "bank_code_inherited": false,
+          "xref": 253,
+          "bbox": [
+            328.7,
+            289.9,
+            446.4,
+            432.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2. Ελικοειδή ελατήριο.  β)",
+          "text_after": "3. Στρεπτική ράβδος.  γ)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34043_fig02.png",
+          "bank_code": "34043",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 383,
+          "height": 213,
+          "sha1": "51998ac177e3",
+          "bank_code_inherited": false,
+          "xref": 254,
+          "bbox": [
+            285.2,
+            462.2,
+            489.9,
+            621.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3. Στρεπτική ράβδος.  γ)",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34043_fig03.png",
+          "bank_code": "34043",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 352,
+          "height": 95,
+          "sha1": "063516c7dea3",
+          "bank_code_inherited": false,
+          "xref": 252,
+          "bbox": [
+            282.3,
+            181.9,
+            493.5,
+            238.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ανάρτησης.",
+          "text_after": "2. Ελικοειδή ελατήριο.  β)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34044": {
+      "fig": [
+        "c_systimata-aftokinitou_ch04_#34044_fig01.png",
+        "c_systimata-aftokinitou_ch04_#34044_fig02.png",
+        "c_systimata-aftokinitou_ch04_#34044_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34044_fig01.png",
+          "bank_code": "34044",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 758,
+          "height": 181,
+          "sha1": "8fd07d1fab5d",
+          "bank_code_inherited": false,
+          "xref": 415,
+          "bbox": [
+            216.0,
+            181.9,
+            522.0,
+            290.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ψαλίδια.",
+          "text_after": "2. Παράλληλα",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34044_fig02.png",
+          "bank_code": "34044",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 723,
+          "height": 184,
+          "sha1": "1c02d153bedf",
+          "bank_code_inherited": false,
+          "xref": 417,
+          "bbox": [
+            215.8,
+            319.6,
+            522.6,
+            430.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ψαλίδια.",
+          "text_after": "3. Συγκλίνοντα",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch04_#34044_fig03.png",
+          "bank_code": "34044",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 682,
+          "height": 164,
+          "sha1": "56f9738801fe",
+          "bank_code_inherited": false,
+          "xref": 419,
+          "bbox": [
+            217.8,
+            459.2,
+            520.2,
+            557.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ψαλίδια.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

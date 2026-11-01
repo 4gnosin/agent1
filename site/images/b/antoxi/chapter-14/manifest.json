@@ -1,0 +1,229 @@
+{
+  "source_pdf": "b_antoxi_ch14.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 14,
+  "stem": "b_antoxi_ch14",
+  "total_pages": 19,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch14_#23687_fig01.png",
+      "bank_code": "23687",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 1002,
+      "height": 725,
+      "sha1": "9138c1af2ac1",
+      "bank_code_inherited": false,
+      "xref": 263,
+      "bbox": [
+        192.7,
+        169.7,
+        418.8,
+        333.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch14_#23788_fig01.png",
+      "bank_code": "23788",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 319,
+      "height": 195,
+      "sha1": "86e9cda84cd0",
+      "bank_code_inherited": false,
+      "xref": 327,
+      "bbox": [
+        202.4,
+        254.2,
+        393.8,
+        371.2
+      ],
+      "question_anchor": null,
+      "text_before": "Ο συντελεστής τριβής είναι n= 0,1.",
+      "text_after": "Σχήμα 1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch14_#23317_fig01.png",
+      "bank_code": "23317",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 420,
+      "height": 261,
+      "sha1": "8ccee4d926c7",
+      "bank_code_inherited": false,
+      "xref": 519,
+      "bbox": [
+        192.6,
+        203.8,
+        402.6,
+        334.3
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται π = 3,14.",
+      "text_after": "4.1. Να υπολογιστεί η τριβή (Τ) που αναπτύσσεται.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch14_#23688_fig01.png",
+      "bank_code": "23688",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 384,
+      "height": 243,
+      "sha1": "9cfc040b8bdf",
+      "bank_code_inherited": false,
+      "xref": 701,
+      "bbox": [
+        179.5,
+        273.2,
+        432.1,
+        433.1
+      ],
+      "question_anchor": null,
+      "text_before": "β) Η διάμετρος του τροχού d. (Μονάδες 15)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23317": {
+      "fig": [
+        "b_antoxi_ch14_#23317_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch14_#23317_fig01.png",
+          "bank_code": "23317",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 420,
+          "height": 261,
+          "sha1": "8ccee4d926c7",
+          "bank_code_inherited": false,
+          "xref": 519,
+          "bbox": [
+            192.6,
+            203.8,
+            402.6,
+            334.3
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται π = 3,14.",
+          "text_after": "4.1. Να υπολογιστεί η τριβή (Τ) που αναπτύσσεται.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23687": {
+      "fig": [
+        "b_antoxi_ch14_#23687_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch14_#23687_fig01.png",
+          "bank_code": "23687",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 1002,
+          "height": 725,
+          "sha1": "9138c1af2ac1",
+          "bank_code_inherited": false,
+          "xref": 263,
+          "bbox": [
+            192.7,
+            169.7,
+            418.8,
+            333.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23688": {
+      "fig": [
+        "b_antoxi_ch14_#23688_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch14_#23688_fig01.png",
+          "bank_code": "23688",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 384,
+          "height": 243,
+          "sha1": "9cfc040b8bdf",
+          "bank_code_inherited": false,
+          "xref": 701,
+          "bbox": [
+            179.5,
+            273.2,
+            432.1,
+            433.1
+          ],
+          "question_anchor": null,
+          "text_before": "β) Η διάμετρος του τροχού d. (Μονάδες 15)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23788": {
+      "fig": [
+        "b_antoxi_ch14_#23788_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch14_#23788_fig01.png",
+          "bank_code": "23788",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 319,
+          "height": 195,
+          "sha1": "86e9cda84cd0",
+          "bank_code_inherited": false,
+          "xref": 327,
+          "bbox": [
+            202.4,
+            254.2,
+            393.8,
+            371.2
+          ],
+          "question_anchor": null,
+          "text_before": "Ο συντελεστής τριβής είναι n= 0,1.",
+          "text_after": "Σχήμα 1.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

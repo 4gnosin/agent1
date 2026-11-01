@@ -1,0 +1,19 @@
+{
+  "source_pdf": "c_michanes-esoterikis-kafsis-2_ch06.pdf",
+  "grade": "c",
+  "subject": "michanes-esoterikis-kafsis-2",
+  "chapter": 6,
+  "stem": "c_michanes-esoterikis-kafsis-2_ch06",
+  "total_pages": 5,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [],
+  "by_bank_code": {}
+}

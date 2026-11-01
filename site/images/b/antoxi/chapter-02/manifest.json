@@ -1,0 +1,177 @@
+{
+  "source_pdf": "b_antoxi_ch02.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 2,
+  "stem": "b_antoxi_ch02",
+  "total_pages": 15,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch02_#21875_fig01.png",
+      "bank_code": "21875",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 207,
+      "height": 267,
+      "sha1": "f5e001ba1451",
+      "bank_code_inherited": false,
+      "xref": 107,
+      "bbox": [
+        224.0,
+        335.3,
+        387.6,
+        546.2
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται: Η ακτίνα του κύκλου κύλισης του στροφαλοφόρου άξονα R=60 mm.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch02_#24974_fig01.png",
+      "bank_code": "24974",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 675,
+      "height": 376,
+      "sha1": "7fecac0a9c40",
+      "bank_code_inherited": false,
+      "xref": 171,
+      "bbox": [
+        170.9,
+        158.8,
+        423.8,
+        299.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch02_#16262_fig01.png",
+      "bank_code": "16262",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 751,
+      "height": 527,
+      "sha1": "f1287f115c3a",
+      "bank_code_inherited": false,
+      "xref": 248,
+      "bbox": [
+        190.9,
+        290.6,
+        404.4,
+        440.5
+      ],
+      "question_anchor": "4.2",
+      "text_before": "Μονάδες 18",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16262": {
+      "fig": [
+        "b_antoxi_ch02_#16262_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch02_#16262_fig01.png",
+          "bank_code": "16262",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 751,
+          "height": 527,
+          "sha1": "f1287f115c3a",
+          "bank_code_inherited": false,
+          "xref": 248,
+          "bbox": [
+            190.9,
+            290.6,
+            404.4,
+            440.5
+          ],
+          "question_anchor": "4.2",
+          "text_before": "Μονάδες 18",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "21875": {
+      "fig": [
+        "b_antoxi_ch02_#21875_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch02_#21875_fig01.png",
+          "bank_code": "21875",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 207,
+          "height": 267,
+          "sha1": "f5e001ba1451",
+          "bank_code_inherited": false,
+          "xref": 107,
+          "bbox": [
+            224.0,
+            335.3,
+            387.6,
+            546.2
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται: Η ακτίνα του κύκλου κύλισης του στροφαλοφόρου άξονα R=60 mm.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24974": {
+      "fig": [
+        "b_antoxi_ch02_#24974_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch02_#24974_fig01.png",
+          "bank_code": "24974",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 675,
+          "height": 376,
+          "sha1": "7fecac0a9c40",
+          "bank_code_inherited": false,
+          "xref": 171,
+          "bbox": [
+            170.9,
+            158.8,
+            423.8,
+            299.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

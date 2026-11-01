@@ -1,0 +1,387 @@
+window.SUBJECT_DATA = window.SUBJECT_DATA || {};
+window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"] = window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"] || { sections: [], groups: [], exercises: [] };
+window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
+[
+  {
+    "id": "ch04-16400",
+    "group": "ch04-08-zoumpades-kopidia",
+    "kind": "tf",
+    "layout": "unified",
+    "code": "Θέμα 2<sup>ο</sup> · #16400",
+    "bankCode": "16400",
+    "title": "#16400 — Θέμα 2<sup>ο</sup>",
+    "units": 25,
+    "theory": "zoumpades-kopidia",
+    "sourceOrder": 6,
+    "items": [
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "subqPrompt": "2.1 Να χαρακτηρίσετε τις προτάσεις που ακολουθούν ως Σωστό ή Λάθος:",
+        "prompt": "α. Ελαστικότητα ενός υλικού ονομάζουμε την ικανότητά του να επανέρχεται στις αρχικές του διαστάσεις, όταν οι δυνάμεις που προκάλεσαν την αλλαγή των διαστάσεών του παύσουν να επενεργούν.",
+        "answer": true,
+        "explain": "Σωστό. Αυτός είναι ο ορισμός της ελαστικότητας."
+      },
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "prompt": "β. Πλαστικότητα είναι η ικανότητα των υλικών να μην παραμορφώνονται μόνιμα κάτω απ’ την επίδραση εξωτερικών δυνάμεων, χωρίς όμως να θραύονται.",
+        "answer": false,
+        "explain": "Λάθος. Πλαστικότητα είναι η ικανότητα των υλικών να παραμορφώνονται μόνιμα κάτω από την επίδραση εξωτερικών δυνάμεων χωρίς να θραύονται."
+      },
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "prompt": "γ. Σκληρότητα ονομάζουμε το μέτρο της ικανότητας ενός υλικού, μεταλλικού ή όχι, να αντέχει στη φθορά και στη διείσδυση άλλων υλικών.",
+        "answer": true,
+        "explain": "Σωστό. Αυτός είναι ο ορισμός της σκληρότητας."
+      },
+      {
+        "kind": "match",
+        "subq": "2.2",
+        "subqPrompt": "2.2 Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ της Στήλης Β:",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.png",
+        "left": [
+          {
+            "id": "1",
+            "text": "1"
+          },
+          {
+            "id": "2",
+            "text": "2"
+          },
+          {
+            "id": "3",
+            "text": "3"
+          },
+          {
+            "id": "4",
+            "text": "4"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "α. Κοπίδι νύχι"
+          },
+          {
+            "id": "b",
+            "text": "β. Μισοστρόγγυλο κοπίδι"
+          },
+          {
+            "id": "c",
+            "text": "γ. Σταυρωτό κοπίδι"
+          },
+          {
+            "id": "d",
+            "text": "δ. Πλατύ κοπίδι"
+          }
+        ],
+        "pairs": {
+          "1": "d",
+          "2": "c",
+          "3": "b",
+          "4": "a"
+        },
+        "explain": "1 - δ (Πλατύ κοπίδι), 2 - γ (Σταυρωτό κοπίδι), 3 - β (Μισοστρόγγυλο κοπίδι), 4 - α (Κοπίδι νύχι).",
+        "images": [
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch04-16412",
+    "group": "ch04-08-zoumpades-kopidia",
+    "kind": "match",
+    "layout": "unified",
+    "code": "Θέμα 2<sup>ο</sup> · #16412",
+    "bankCode": "16412",
+    "title": "#16412 — Θέμα 2<sup>ο</sup>",
+    "units": 25,
+    "theory": "zoumpades-kopidia",
+    "sourceOrder": 7,
+    "items": [
+      {
+        "kind": "match",
+        "subq": "2.1",
+        "subqPrompt": "2.1 Με βάση το παρακάτω σχήμα όπου απεικονίζονται τα είδη ζουμπάδων, να αντιστοιχίσετε τους αριθμούς 1, 2, 3 της Στήλης Α με τα γράμματα α, β, γ της Στήλης Β.",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig03.png",
+        "left": [
+          {
+            "id": "1",
+            "text": "1"
+          },
+          {
+            "id": "2",
+            "text": "2"
+          },
+          {
+            "id": "3",
+            "text": "3"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "α. Κοίλος ζουμπάς"
+          },
+          {
+            "id": "b",
+            "text": "β. Κωνικός ολόσωμος ζουμπάς"
+          },
+          {
+            "id": "c",
+            "text": "γ. Παράλληλος ολόσωμος ζουμπάς"
+          }
+        ],
+        "pairs": {
+          "1": "a",
+          "2": "c",
+          "3": "b"
+        },
+        "explain": "1 - α (Κοίλος ζουμπάς), 2 - γ (Παράλληλος ολόσωμος ζουμπάς), 3 - β (Κωνικός ολόσωμος ζουμπάς).",
+        "images": [
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig03.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png"
+        ]
+      },
+      {
+        "kind": "match",
+        "subq": "2.2",
+        "subqPrompt": "2.2 Με βάση τα είδη κλειδιών, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
+        "images": [
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png"
+        ],
+        "left": [
+          {
+            "id": "1",
+            "text": "1. Γερμανικό κλειδί"
+          },
+          {
+            "id": "2",
+            "text": "2. Σωληνοκάβουρας"
+          },
+          {
+            "id": "3",
+            "text": "3. Πολυγωνικό κλειδί"
+          },
+          {
+            "id": "4",
+            "text": "4. Γαλλικό κλειδί"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "α"
+          },
+          {
+            "id": "b",
+            "text": "β"
+          },
+          {
+            "id": "c",
+            "text": "γ"
+          },
+          {
+            "id": "d",
+            "text": "δ"
+          }
+        ],
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "explain": "1 - β (Γερμανικό κλειδί), 2 - δ (Σωληνοκάβουρας), 3 - α (Πολυγωνικό κλειδί), 4 - γ (Γαλλικό κλειδί)."
+      }
+    ]
+  },
+  {
+    "id": "ch04-18373",
+    "group": "ch04-08-zoumpades-kopidia",
+    "kind": "tf",
+    "layout": "unified",
+    "code": "Θέμα 2<sup>ο</sup> · #18373",
+    "bankCode": "18373",
+    "title": "#18373 — Θέμα 2<sup>ο</sup>",
+    "units": 25,
+    "theory": "zoumpades-kopidia",
+    "sourceOrder": 8,
+    "items": [
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "subqPrompt": "2.1 Να χαρακτηρίσετε τις προτάσεις που ακολουθούν ως Σωστό ή Λάθος:",
+        "prompt": "α. Τα σταυροκόπιδα χρησιμοποιούνται για κοπή ή καθάρισμα σε στενούς χώρους (π.χ. κοπή σφηνόδρομων).",
+        "answer": true,
+        "explain": "Σωστό. Αυτή είναι η κύρια χρήση του σταυροκοπιδιού."
+      },
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "prompt": "β. Όσο πιο σκληρό είναι το υλικό του κομματιού, τόσο μικρότερη πρέπει να είναι η γωνία σφήνας του κοπιδιού.",
+        "answer": false,
+        "explain": "Λάθος. Όσο πιο σκληρό είναι το υλικό, τόσο μεγαλύτερη πρέπει να είναι η γωνία σφήνας ώστε να αντέχει η κόψη."
+      },
+      {
+        "kind": "tf",
+        "subq": "2.1",
+        "prompt": "γ. Οι κοίλοι ζουμπάδες χρησιμοποιούνται, για να ανοίγονται κυκλικές τρύπες, διαμέτρου άνω των 100 mm.",
+        "answer": false,
+        "explain": "Λάθος. Οι κοίλοι ζουμπάδες χρησιμοποιούνται για τρύπες μικρότερων διαστάσεων (συνήθως έως 30 mm)."
+      },
+      {
+        "kind": "match",
+        "subq": "2.2",
+        "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται η αφαίρεση υλικού από εργαλείο κοπής. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.png",
+        "left": [
+          {
+            "id": "1",
+            "text": "1"
+          },
+          {
+            "id": "2",
+            "text": "2"
+          },
+          {
+            "id": "3",
+            "text": "3"
+          },
+          {
+            "id": "4",
+            "text": "4"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "α. Άκρο εργαλείου"
+          },
+          {
+            "id": "b",
+            "text": "β. Ελεύθερη επιφάνεια"
+          },
+          {
+            "id": "c",
+            "text": "γ. Επιφάνεια αποβλήτου"
+          },
+          {
+            "id": "d",
+            "text": "δ. Βάθος κοπής"
+          }
+        ],
+        "pairs": {
+          "1": "d",
+          "2": "c",
+          "3": "a",
+          "4": "b"
+        },
+        "explain": "1 - δ (Βάθος κοπής), 2 - γ (Επιφάνεια αποβλήτου), 3 - α (Άκρο εργαλείου), 4 - β (Ελεύθερη επιφάνεια).",
+        "images": [
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.png"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch04-19371",
+    "group": "ch04-08-zoumpades-kopidia",
+    "kind": "mc",
+    "layout": "unified",
+    "code": "Θέμα 4<sup>ο</sup> · #19371",
+    "bankCode": "19371",
+    "title": "#19371 — Θέμα 4<sup>ο</sup>",
+    "units": 25,
+    "theory": "zoumpades-kopidia",
+    "stem": "Έχετε να ανοίξετε ένα εσωτερικό αυλάκι σε ένα έδρανο ολίσθησης (κουζινέτο).",
+    "sourceOrder": 9,
+    "items": [
+      {
+        "kind": "mc",
+        "openEnded": true,
+        "subq": "4.1",
+        "prompt": "Να αναφέρετε το είδος του κοπιδιού που θα επιλέξετε καθώς και τις απαραίτητες ενέργειες που πρέπει να κάνετε.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Γίνεται κατάλληλη επιλογή κυρτού κοπιδιού ή κοπιδιού με νύχι και σφυριού. Στη συνέχεια το κομμάτι στερεώνεται με ασφάλεια και γίνεται χάραγμα του αυλακιού. Κατά το κοπίδιασμα θα πρέπει η ελεύθερη γωνία να είναι περίπου 10°. Το κοπίδι κρατιέται σταθερά στο κορμό του και με κατάλληλη κλίση χτυπιέται με το σφυρί. Γίνεται σταδιακή περιφερειακή αφαίρεση υλικού με μικρό βάθος κοπής. Μπορεί να γίνει διευκόλυνση της κοπής με ελαφρό λάδωμα.",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Χρησιμοποιείται πλατύ κοπίδι με ελεύθερη γωνία 90° και χτυπιέται δυνατά χωρίς λάδωμα μέχρι να σπάσει το κουζινέτο.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Επιλέγεται κοίλος ζουμπάς και δράπανο για άνοιγμα σπειρώματος.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Χρησιμοποιείται μεταλλοψάλιδο χεριού για την κοπή του εσωτερικού αυλακιού.",
+            "correct": false
+          }
+        ],
+        "answer": "a",
+        "explain": "Επιλέγεται κυρτό κοπίδι ή κοπίδι με νύχι, σταθερή συγκράτηση, ελεύθερη γωνία ~10°, σταδιακή περιφερειακή αφαίρεση με μικρό βάθος κοπής και ελαφρό λάδωμα."
+      }
+    ]
+  },
+  {
+    "id": "ch04-19580",
+    "group": "ch04-08-zoumpades-kopidia",
+    "kind": "mc",
+    "layout": "unified",
+    "code": "Θέμα 4<sup>ο</sup> · #19580",
+    "bankCode": "19580",
+    "title": "#19580 — Θέμα 4<sup>ο</sup>",
+    "units": 25,
+    "theory": "zoumpades-kopidia",
+    "stem": "Έχετε να ανοίξετε μια τρύπα με διάμετρο $20\\text{ mm}$ σε ένα λεπτό έλασμα πάχους $1\\text{ mm}$.",
+    "sourceOrder": 10,
+    "items": [
+      {
+        "kind": "mc",
+        "openEnded": true,
+        "subq": "4.1",
+        "prompt": "Να αναφέρετε το είδος του ζουμπά που θα επιλέξετε καθώς και τις απαραίτητες ενέργειες που πρέπει να κάνετε.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Γίνεται κατάλληλη επιλογή κοίλου ζουμπά και σφυριού. Ελέγχεται αν ο ζουμπάς έχει φθαρμένη όψη. Στη συνέχεια το κομμάτι στερεώνεται με ασφάλεια. Για να τρυπηθεί το κομμάτι τοποθετείται πάνω σε μια επιφάνεια από μαλακό μέταλλο ή ξύλο. Ο ζουμπάς κρατιέται σταθερά στο κορμό του και κάθετα προς το έλασμα ακριβώς πάνω από εκεί που θα τρυπηθεί. Χτυπιέται με το σφυρί στην κεφαλή του με ελαφρά και σταθερά χτυπήματα μέχρι να ανοίξει η τρύπα. Κατά τη διάρκεια της εργασίας φοριούνται προστατευτικά γυαλιά και απομακρύνονται τα άχρηστα υλικά.",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Επιλέγεται κωνικός ολόσωμος ζουμπάς, τοποθετείται σε σκληρό ατσάλινο αμόνι και χτυπιέται με βαριά βαριοπούλα χωρίς γυαλιά.",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Χρησιμοποιείται σταυροκόπιδο με γωνία 90° και γαλλικό κλειδί.",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Ανοίγεται η τρύπα με αμφοδοντωμένο μεταλλοπρίονο.",
+            "correct": false
+          }
+        ],
+        "answer": "a",
+        "explain": "Για άνοιγμα τρύπας σε λεπτό έλασμα επιλέγεται κοίλος ζουμπάς, στήριξη σε μαλακό υπόστρωμα (ξύλο/μαλακό μέταλλο), κάθετη συγκράτηση, σταθερά χτυπήματα και γυαλιά προστασίας."
+      }
+    ]
+  }
+]
+);

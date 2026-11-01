@@ -127,7 +127,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "α) Τον ειδικό όγκος $v_1$ ($m^3$/kg) στο σημείο 1.",
         "formula": "$v_1 = 0,872\\text{ }m^3/\\text{kg}$",
         "answer": 0.872,
-        "unit": "$m^3$/kg",
+        "unit": "m³/kg",
         "tolerance": 0.005,
         "hint": "Διαβάστε τον ειδικό όγκο $v_1$ από τις κεκλιμένες γραμμές του χάρτη.",
         "explain": "Από τον χάρτη, $v_1 = 0,872\\text{ }m^3/\\text{kg}$."

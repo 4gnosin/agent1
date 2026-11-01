@@ -1,0 +1,1962 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou_ch06.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou",
+  "chapter": 6,
+  "stem": "c_stoixeia-psyxis-klimatismou_ch06",
+  "total_pages": 69,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.png",
+      "bank_code": "25304",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 387,
+      "height": 252,
+      "sha1": "f303f1fed5c1",
+      "bank_code_inherited": false,
+      "xref": 213,
+      "bbox": [
+        94.8,
+        212.9,
+        283.7,
+        335.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Τύποι συμπιεστών)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig02.png",
+      "bank_code": "25304",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 429,
+      "height": 211,
+      "sha1": "07ddc3d6c7fe",
+      "bank_code_inherited": false,
+      "xref": 214,
+      "bbox": [
+        94.8,
+        355.2,
+        292.2,
+        452.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig03.png",
+      "bank_code": "25304",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 568,
+      "height": 327,
+      "sha1": "88c42e688c92",
+      "bank_code_inherited": false,
+      "xref": 215,
+      "bbox": [
+        92.3,
+        472.0,
+        291.5,
+        586.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig04.png",
+      "bank_code": "25304",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 542,
+      "height": 238,
+      "sha1": "673a197e8bcd",
+      "bank_code_inherited": false,
+      "xref": 216,
+      "bbox": [
+        94.8,
+        606.0,
+        317.5,
+        703.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig01.png",
+      "bank_code": "26759",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 355,
+      "height": 280,
+      "sha1": "fe0e98d05aae",
+      "bank_code_inherited": false,
+      "xref": 296,
+      "bbox": [
+        191.1,
+        158.8,
+        404.1,
+        326.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ε, ζ, η, θ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig02.png",
+      "bank_code": "26759",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 291,
+      "height": 337,
+      "sha1": "843e3833a9c6",
+      "bank_code_inherited": true,
+      "xref": 337,
+      "bbox": [
+        302.8,
+        71.4,
+        458.1,
+        208.9
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig03.png",
+      "bank_code": "26759",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 563,
+      "height": 359,
+      "sha1": "f2b5a5ecdec6",
+      "bank_code_inherited": true,
+      "xref": 338,
+      "bbox": [
+        302.8,
+        238.7,
+        458.1,
+        337.8
+      ],
+      "question_anchor": null,
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig04.png",
+      "bank_code": "26759",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 462,
+      "height": 337,
+      "sha1": "f70bd2bb63cb",
+      "bank_code_inherited": true,
+      "xref": 339,
+      "bbox": [
+        302.8,
+        367.5,
+        458.3,
+        480.9
+      ],
+      "question_anchor": null,
+      "text_before": "γ.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.png",
+      "bank_code": "26843",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 346,
+      "height": 452,
+      "sha1": "d9fc78285382",
+      "bank_code_inherited": false,
+      "xref": 383,
+      "bbox": [
+        76.3,
+        203.8,
+        284.8,
+        476.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Λειτουργίες)",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig01.png",
+      "bank_code": "33877",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 341,
+      "height": 242,
+      "sha1": "92389070d518",
+      "bank_code_inherited": false,
+      "xref": 614,
+      "bbox": [
+        119.3,
+        241.5,
+        229.7,
+        319.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig02.png",
+      "bank_code": "33877",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 260,
+      "height": 274,
+      "sha1": "f06849f01264",
+      "bank_code_inherited": false,
+      "xref": 615,
+      "bbox": [
+        116.6,
+        334.8,
+        200.0,
+        422.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig03.png",
+      "bank_code": "33877",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 266,
+      "height": 227,
+      "sha1": "723e94be32f3",
+      "bank_code_inherited": false,
+      "xref": 616,
+      "bbox": [
+        119.3,
+        438.4,
+        205.1,
+        511.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Ανοιχτού τύπου",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25306_fig01.png",
+      "bank_code": "25306",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 776,
+      "height": 556,
+      "sha1": "2efd54e842cc",
+      "bank_code_inherited": true,
+      "xref": 743,
+      "bbox": [
+        90.5,
+        72.0,
+        502.4,
+        646.9
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#25306_sol01.png",
+      "bank_code": "25306",
+      "role": "sol",
+      "page": 24,
+      "kind": "embedded",
+      "width": 883,
+      "height": 637,
+      "sha1": "315d4a89be2d",
+      "bank_code_inherited": false,
+      "xref": 748,
+      "bbox": [
+        90.0,
+        315.5,
+        520.3,
+        626.3
+      ],
+      "question_anchor": "4.3",
+      "text_before": "4.3.",
+      "text_after": "Πίεση  (psia)  Ειδική Ενθαλπία (Btu/lb)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26758_fig01.png",
+      "bank_code": "26758",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 505,
+      "height": 571,
+      "sha1": "b9b7c4fbd7ca",
+      "bank_code_inherited": false,
+      "xref": 780,
+      "bbox": [
+        146.1,
+        158.7,
+        449.1,
+        501.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ, δ, ε, στ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.png",
+      "bank_code": "26869",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 296,
+      "height": 334,
+      "sha1": "f5725439e5cb",
+      "bank_code_inherited": false,
+      "xref": 868,
+      "bbox": [
+        219.6,
+        466.4,
+        377.1,
+        625.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig01.png",
+      "bank_code": "29115",
+      "role": "fig",
+      "page": 30,
+      "kind": "embedded",
+      "width": 946,
+      "height": 260,
+      "sha1": "f04c35a573d6",
+      "bank_code_inherited": false,
+      "xref": 959,
+      "bbox": [
+        70.6,
+        158.6,
+        524.6,
+        283.1
+      ],
+      "question_anchor": null,
+      "text_before": "βαθμού ξηρότητας.",
+      "text_after": "Ζ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig02.png",
+      "bank_code": "29115",
+      "role": "fig",
+      "page": 30,
+      "kind": "embedded",
+      "width": 946,
+      "height": 259,
+      "sha1": "8191027eeeba",
+      "bank_code_inherited": false,
+      "xref": 960,
+      "bbox": [
+        70.6,
+        283.1,
+        524.6,
+        407.5
+      ],
+      "question_anchor": null,
+      "text_before": "Ε",
+      "text_after": "α) Αναφέρετε την κατάσταση στην οποία βρίσκεται το ψυκτικό μέσο σε καθένα από τα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig01.png",
+      "bank_code": "29116",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 401,
+      "height": 257,
+      "sha1": "797fc71151a2",
+      "bank_code_inherited": false,
+      "xref": 1015,
+      "bbox": [
+        280.6,
+        184.8,
+        473.0,
+        307.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Στήλη Α  Στήλη Β",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig02.png",
+      "bank_code": "29116",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 430,
+      "height": 263,
+      "sha1": "9d18715ae30e",
+      "bank_code_inherited": false,
+      "xref": 1016,
+      "bbox": [
+        279.8,
+        319.0,
+        486.2,
+        445.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig03.png",
+      "bank_code": "29116",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 403,
+      "height": 247,
+      "sha1": "baebee8b1353",
+      "bank_code_inherited": false,
+      "xref": 1017,
+      "bbox": [
+        278.9,
+        456.0,
+        472.3,
+        574.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig04.png",
+      "bank_code": "29116",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 425,
+      "height": 267,
+      "sha1": "ce0e3c560aa5",
+      "bank_code_inherited": false,
+      "xref": 1018,
+      "bbox": [
+        279.8,
+        585.4,
+        483.8,
+        713.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig05.png",
+      "bank_code": "29116",
+      "role": "fig",
+      "page": 33,
+      "kind": "embedded",
+      "width": 415,
+      "height": 254,
+      "sha1": "6fdd828380d4",
+      "bank_code_inherited": true,
+      "xref": 1045,
+      "bbox": [
+        278.9,
+        71.3,
+        478.1,
+        193.2
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "ε.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29221_fig01.png",
+      "bank_code": "29221",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 1280,
+      "height": 670,
+      "sha1": "2d39c79f21cf",
+      "bank_code_inherited": true,
+      "xref": 1136,
+      "bbox": [
+        159.8,
+        70.9,
+        1119.8,
+        573.7
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29221_sol01.png",
+      "bank_code": "29221",
+      "role": "sol",
+      "page": 39,
+      "kind": "embedded",
+      "width": 1280,
+      "height": 670,
+      "sha1": "16eb57388f05",
+      "bank_code_inherited": true,
+      "xref": 1188,
+      "bbox": [
+        99.2,
+        70.9,
+        552.2,
+        307.9
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29259_fig01.png",
+      "bank_code": "29259",
+      "role": "fig",
+      "page": 41,
+      "kind": "embedded",
+      "width": 1536,
+      "height": 716,
+      "sha1": "ca9f923cbe44",
+      "bank_code_inherited": true,
+      "xref": 1233,
+      "bbox": [
+        90.0,
+        72.0,
+        505.3,
+        438.6
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "4.4. Λαμβάνοντας υπόψη ότι η μεταβολή 4-1 στο παραπάνω διάγραμμα παριστάνει  την ατμοποίησ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29259_sol01.png",
+      "bank_code": "29259",
+      "role": "sol",
+      "page": 42,
+      "kind": "embedded",
+      "width": 1352,
+      "height": 630,
+      "sha1": "4f3ac2ddfc9a",
+      "bank_code_inherited": false,
+      "xref": 1267,
+      "bbox": [
+        90.0,
+        264.9,
+        505.9,
+        458.7
+      ],
+      "question_anchor": "4.3",
+      "text_before": "4.3.",
+      "text_after": "Πίεση (bar)  Ειδική Ενθαλπία (kJ/kg)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29331_fig01.png",
+      "bank_code": "29331",
+      "role": "fig",
+      "page": 44,
+      "kind": "embedded",
+      "width": 1299,
+      "height": 938,
+      "sha1": "1be83c2adc9c",
+      "bank_code_inherited": true,
+      "xref": 1332,
+      "bbox": [
+        72.0,
+        72.0,
+        547.9,
+        731.0
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29331_sol01.png",
+      "bank_code": "29331",
+      "role": "sol",
+      "page": 46,
+      "kind": "embedded",
+      "width": 1299,
+      "height": 938,
+      "sha1": "2badc1872b05",
+      "bank_code_inherited": true,
+      "xref": 1382,
+      "bbox": [
+        72.0,
+        72.0,
+        540.0,
+        410.0
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29501_fig01.png",
+      "bank_code": "29501",
+      "role": "fig",
+      "page": 47,
+      "kind": "embedded",
+      "width": 689,
+      "height": 411,
+      "sha1": "571693a1b6f4",
+      "bank_code_inherited": false,
+      "xref": 1387,
+      "bbox": [
+        174.4,
+        180.8,
+        422.4,
+        329.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29503_fig01.png",
+      "bank_code": "29503",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 981,
+      "height": 733,
+      "sha1": "2b99ed4fe75a",
+      "bank_code_inherited": false,
+      "xref": 1473,
+      "bbox": [
+        150.4,
+        334.6,
+        446.5,
+        555.8
+      ],
+      "question_anchor": "4.3",
+      "text_before": "Μονάδες 9",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29540_fig01.png",
+      "bank_code": "29540",
+      "role": "fig",
+      "page": 53,
+      "kind": "embedded",
+      "width": 1430,
+      "height": 833,
+      "sha1": "62b5b67b0947",
+      "bank_code_inherited": false,
+      "xref": 1644,
+      "bbox": [
+        71.4,
+        296.9,
+        524.4,
+        645.9
+      ],
+      "question_anchor": null,
+      "text_before": "γ. Να υπολογιστεί ο λόγος συμπίεσης του συμπιεστή. (Μονάδες 10)",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#29540_sol01.png",
+      "bank_code": "29540",
+      "role": "sol",
+      "page": 54,
+      "kind": "embedded",
+      "width": 1017,
+      "height": 697,
+      "sha1": "12d405de8703",
+      "bank_code_inherited": false,
+      "xref": 1698,
+      "bbox": [
+        70.9,
+        514.5,
+        524.4,
+        825.5
+      ],
+      "question_anchor": null,
+      "text_before": "Ειδική Ενθαλπία (Kj/Kgr)  395  440",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#30503_fig01.png",
+      "bank_code": "30503",
+      "role": "fig",
+      "page": 57,
+      "kind": "embedded",
+      "width": 929,
+      "height": 673,
+      "sha1": "80d7c01c72a5",
+      "bank_code_inherited": true,
+      "xref": 1780,
+      "bbox": [
+        90.5,
+        72.0,
+        550.6,
+        707.1
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#30503_sol01.png",
+      "bank_code": "30503",
+      "role": "sol",
+      "page": 58,
+      "kind": "embedded",
+      "width": 1029,
+      "height": 729,
+      "sha1": "a1ae26a5d1dc",
+      "bank_code_inherited": false,
+      "xref": 1785,
+      "bbox": [
+        90.0,
+        159.9,
+        522.9,
+        466.6
+      ],
+      "question_anchor": "4.1",
+      "text_before": "της εκάστοτε μεταβολής παραμένει σταθερή).",
+      "text_after": "4.2. Η ψυκτική ισχύς προκύπτει από τη μεταβολή ΑΒ, κατά την οποία έχουμε",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.png",
+      "bank_code": "33866",
+      "role": "fig",
+      "page": 60,
+      "kind": "embedded",
+      "width": 447,
+      "height": 550,
+      "sha1": "58e0916fd27c",
+      "bank_code_inherited": false,
+      "xref": 1831,
+      "bbox": [
+        76.4,
+        241.2,
+        298.9,
+        515.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Είσοδος αέρα",
+      "text_after": "ε. Έξοδος αέρα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33873_fig01.png",
+      "bank_code": "33873",
+      "role": "fig",
+      "page": 64,
+      "kind": "embedded",
+      "width": 788,
+      "height": 563,
+      "sha1": "f7a0c91e0dcd",
+      "bank_code_inherited": true,
+      "xref": 1951,
+      "bbox": [
+        90.4,
+        72.0,
+        505.1,
+        652.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33873_sol01.png",
+      "bank_code": "33873",
+      "role": "sol",
+      "page": 65,
+      "kind": "embedded",
+      "width": 898,
+      "height": 637,
+      "sha1": "7891d054a35b",
+      "bank_code_inherited": false,
+      "xref": 1956,
+      "bbox": [
+        90.0,
+        249.6,
+        540.0,
+        568.8
+      ],
+      "question_anchor": "4.3",
+      "text_before": "4.3.",
+      "text_after": "Πίεση  (ΜPa)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33878_fig01.png",
+      "bank_code": "33878",
+      "role": "fig",
+      "page": 68,
+      "kind": "embedded",
+      "width": 1299,
+      "height": 938,
+      "sha1": "1be83c2adc9c",
+      "bank_code_inherited": true,
+      "xref": 2053,
+      "bbox": [
+        72.0,
+        72.7,
+        567.3,
+        758.6
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch06_#33878_sol01.png",
+      "bank_code": "33878",
+      "role": "sol",
+      "page": 69,
+      "kind": "embedded",
+      "width": 1299,
+      "height": 938,
+      "sha1": "e7e08d7424e0",
+      "bank_code_inherited": false,
+      "xref": 2058,
+      "bbox": [
+        72.0,
+        306.7,
+        540.0,
+        644.6
+      ],
+      "question_anchor": null,
+      "text_before": "kg) = 340kJ",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25304": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig02.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig03.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.png",
+          "bank_code": "25304",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 387,
+          "height": 252,
+          "sha1": "f303f1fed5c1",
+          "bank_code_inherited": false,
+          "xref": 213,
+          "bbox": [
+            94.8,
+            212.9,
+            283.7,
+            335.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Τύποι συμπιεστών)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig02.png",
+          "bank_code": "25304",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 429,
+          "height": 211,
+          "sha1": "07ddc3d6c7fe",
+          "bank_code_inherited": false,
+          "xref": 214,
+          "bbox": [
+            94.8,
+            355.2,
+            292.2,
+            452.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig03.png",
+          "bank_code": "25304",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 568,
+          "height": 327,
+          "sha1": "88c42e688c92",
+          "bank_code_inherited": false,
+          "xref": 215,
+          "bbox": [
+            92.3,
+            472.0,
+            291.5,
+            586.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25304_fig04.png",
+          "bank_code": "25304",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 542,
+          "height": 238,
+          "sha1": "673a197e8bcd",
+          "bank_code_inherited": false,
+          "xref": 216,
+          "bbox": [
+            94.8,
+            606.0,
+            317.5,
+            703.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25306": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#25306_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#25306_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25306_fig01.png",
+          "bank_code": "25306",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 776,
+          "height": 556,
+          "sha1": "2efd54e842cc",
+          "bank_code_inherited": true,
+          "xref": 743,
+          "bbox": [
+            90.5,
+            72.0,
+            502.4,
+            646.9
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#25306_sol01.png",
+          "bank_code": "25306",
+          "role": "sol",
+          "page": 24,
+          "kind": "embedded",
+          "width": 883,
+          "height": 637,
+          "sha1": "315d4a89be2d",
+          "bank_code_inherited": false,
+          "xref": 748,
+          "bbox": [
+            90.0,
+            315.5,
+            520.3,
+            626.3
+          ],
+          "question_anchor": "4.3",
+          "text_before": "4.3.",
+          "text_after": "Πίεση  (psia)  Ειδική Ενθαλπία (Btu/lb)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26758": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#26758_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26758_fig01.png",
+          "bank_code": "26758",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 505,
+          "height": 571,
+          "sha1": "b9b7c4fbd7ca",
+          "bank_code_inherited": false,
+          "xref": 780,
+          "bbox": [
+            146.1,
+            158.7,
+            449.1,
+            501.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ, δ, ε, στ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26759": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig02.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig03.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig01.png",
+          "bank_code": "26759",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 355,
+          "height": 280,
+          "sha1": "fe0e98d05aae",
+          "bank_code_inherited": false,
+          "xref": 296,
+          "bbox": [
+            191.1,
+            158.8,
+            404.1,
+            326.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ε, ζ, η, θ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig02.png",
+          "bank_code": "26759",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 291,
+          "height": 337,
+          "sha1": "843e3833a9c6",
+          "bank_code_inherited": true,
+          "xref": 337,
+          "bbox": [
+            302.8,
+            71.4,
+            458.1,
+            208.9
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig03.png",
+          "bank_code": "26759",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 563,
+          "height": 359,
+          "sha1": "f2b5a5ecdec6",
+          "bank_code_inherited": true,
+          "xref": 338,
+          "bbox": [
+            302.8,
+            238.7,
+            458.1,
+            337.8
+          ],
+          "question_anchor": null,
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26759_fig04.png",
+          "bank_code": "26759",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 462,
+          "height": 337,
+          "sha1": "f70bd2bb63cb",
+          "bank_code_inherited": true,
+          "xref": 339,
+          "bbox": [
+            302.8,
+            367.5,
+            458.3,
+            480.9
+          ],
+          "question_anchor": null,
+          "text_before": "γ.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26843": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.png",
+          "bank_code": "26843",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 346,
+          "height": 452,
+          "sha1": "d9fc78285382",
+          "bank_code_inherited": false,
+          "xref": 383,
+          "bbox": [
+            76.3,
+            203.8,
+            284.8,
+            476.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Λειτουργίες)",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26869": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.png",
+          "bank_code": "26869",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 296,
+          "height": 334,
+          "sha1": "f5725439e5cb",
+          "bank_code_inherited": false,
+          "xref": 868,
+          "bbox": [
+            219.6,
+            466.4,
+            377.1,
+            625.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29115": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig01.png",
+          "bank_code": "29115",
+          "role": "fig",
+          "page": 30,
+          "kind": "embedded",
+          "width": 946,
+          "height": 260,
+          "sha1": "f04c35a573d6",
+          "bank_code_inherited": false,
+          "xref": 959,
+          "bbox": [
+            70.6,
+            158.6,
+            524.6,
+            283.1
+          ],
+          "question_anchor": null,
+          "text_before": "βαθμού ξηρότητας.",
+          "text_after": "Ζ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29115_fig02.png",
+          "bank_code": "29115",
+          "role": "fig",
+          "page": 30,
+          "kind": "embedded",
+          "width": 946,
+          "height": 259,
+          "sha1": "8191027eeeba",
+          "bank_code_inherited": false,
+          "xref": 960,
+          "bbox": [
+            70.6,
+            283.1,
+            524.6,
+            407.5
+          ],
+          "question_anchor": null,
+          "text_before": "Ε",
+          "text_after": "α) Αναφέρετε την κατάσταση στην οποία βρίσκεται το ψυκτικό μέσο σε καθένα από τα",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29116": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig02.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig03.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig04.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig05.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig01.png",
+          "bank_code": "29116",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 401,
+          "height": 257,
+          "sha1": "797fc71151a2",
+          "bank_code_inherited": false,
+          "xref": 1015,
+          "bbox": [
+            280.6,
+            184.8,
+            473.0,
+            307.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Στήλη Α  Στήλη Β",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig02.png",
+          "bank_code": "29116",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 430,
+          "height": 263,
+          "sha1": "9d18715ae30e",
+          "bank_code_inherited": false,
+          "xref": 1016,
+          "bbox": [
+            279.8,
+            319.0,
+            486.2,
+            445.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig03.png",
+          "bank_code": "29116",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 403,
+          "height": 247,
+          "sha1": "baebee8b1353",
+          "bank_code_inherited": false,
+          "xref": 1017,
+          "bbox": [
+            278.9,
+            456.0,
+            472.3,
+            574.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig04.png",
+          "bank_code": "29116",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 425,
+          "height": 267,
+          "sha1": "ce0e3c560aa5",
+          "bank_code_inherited": false,
+          "xref": 1018,
+          "bbox": [
+            279.8,
+            585.4,
+            483.8,
+            713.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29116_fig05.png",
+          "bank_code": "29116",
+          "role": "fig",
+          "page": 33,
+          "kind": "embedded",
+          "width": 415,
+          "height": 254,
+          "sha1": "6fdd828380d4",
+          "bank_code_inherited": true,
+          "xref": 1045,
+          "bbox": [
+            278.9,
+            71.3,
+            478.1,
+            193.2
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "ε.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29221": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29221_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29221_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29221_fig01.png",
+          "bank_code": "29221",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 1280,
+          "height": 670,
+          "sha1": "2d39c79f21cf",
+          "bank_code_inherited": true,
+          "xref": 1136,
+          "bbox": [
+            159.8,
+            70.9,
+            1119.8,
+            573.7
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29221_sol01.png",
+          "bank_code": "29221",
+          "role": "sol",
+          "page": 39,
+          "kind": "embedded",
+          "width": 1280,
+          "height": 670,
+          "sha1": "16eb57388f05",
+          "bank_code_inherited": true,
+          "xref": 1188,
+          "bbox": [
+            99.2,
+            70.9,
+            552.2,
+            307.9
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29259": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29259_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29259_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29259_fig01.png",
+          "bank_code": "29259",
+          "role": "fig",
+          "page": 41,
+          "kind": "embedded",
+          "width": 1536,
+          "height": 716,
+          "sha1": "ca9f923cbe44",
+          "bank_code_inherited": true,
+          "xref": 1233,
+          "bbox": [
+            90.0,
+            72.0,
+            505.3,
+            438.6
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "4.4. Λαμβάνοντας υπόψη ότι η μεταβολή 4-1 στο παραπάνω διάγραμμα παριστάνει  την ατμοποίησ",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29259_sol01.png",
+          "bank_code": "29259",
+          "role": "sol",
+          "page": 42,
+          "kind": "embedded",
+          "width": 1352,
+          "height": 630,
+          "sha1": "4f3ac2ddfc9a",
+          "bank_code_inherited": false,
+          "xref": 1267,
+          "bbox": [
+            90.0,
+            264.9,
+            505.9,
+            458.7
+          ],
+          "question_anchor": "4.3",
+          "text_before": "4.3.",
+          "text_after": "Πίεση (bar)  Ειδική Ενθαλπία (kJ/kg)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29331": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29331_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29331_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29331_fig01.png",
+          "bank_code": "29331",
+          "role": "fig",
+          "page": 44,
+          "kind": "embedded",
+          "width": 1299,
+          "height": 938,
+          "sha1": "1be83c2adc9c",
+          "bank_code_inherited": true,
+          "xref": 1332,
+          "bbox": [
+            72.0,
+            72.0,
+            547.9,
+            731.0
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29331_sol01.png",
+          "bank_code": "29331",
+          "role": "sol",
+          "page": 46,
+          "kind": "embedded",
+          "width": 1299,
+          "height": 938,
+          "sha1": "2badc1872b05",
+          "bank_code_inherited": true,
+          "xref": 1382,
+          "bbox": [
+            72.0,
+            72.0,
+            540.0,
+            410.0
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29501": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29501_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29501_fig01.png",
+          "bank_code": "29501",
+          "role": "fig",
+          "page": 47,
+          "kind": "embedded",
+          "width": 689,
+          "height": 411,
+          "sha1": "571693a1b6f4",
+          "bank_code_inherited": false,
+          "xref": 1387,
+          "bbox": [
+            174.4,
+            180.8,
+            422.4,
+            329.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29503": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29503_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29503_fig01.png",
+          "bank_code": "29503",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 981,
+          "height": 733,
+          "sha1": "2b99ed4fe75a",
+          "bank_code_inherited": false,
+          "xref": 1473,
+          "bbox": [
+            150.4,
+            334.6,
+            446.5,
+            555.8
+          ],
+          "question_anchor": "4.3",
+          "text_before": "Μονάδες 9",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29540": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29540_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#29540_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29540_fig01.png",
+          "bank_code": "29540",
+          "role": "fig",
+          "page": 53,
+          "kind": "embedded",
+          "width": 1430,
+          "height": 833,
+          "sha1": "62b5b67b0947",
+          "bank_code_inherited": false,
+          "xref": 1644,
+          "bbox": [
+            71.4,
+            296.9,
+            524.4,
+            645.9
+          ],
+          "question_anchor": null,
+          "text_before": "γ. Να υπολογιστεί ο λόγος συμπίεσης του συμπιεστή. (Μονάδες 10)",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#29540_sol01.png",
+          "bank_code": "29540",
+          "role": "sol",
+          "page": 54,
+          "kind": "embedded",
+          "width": 1017,
+          "height": 697,
+          "sha1": "12d405de8703",
+          "bank_code_inherited": false,
+          "xref": 1698,
+          "bbox": [
+            70.9,
+            514.5,
+            524.4,
+            825.5
+          ],
+          "question_anchor": null,
+          "text_before": "Ειδική Ενθαλπία (Kj/Kgr)  395  440",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30503": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#30503_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#30503_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#30503_fig01.png",
+          "bank_code": "30503",
+          "role": "fig",
+          "page": 57,
+          "kind": "embedded",
+          "width": 929,
+          "height": 673,
+          "sha1": "80d7c01c72a5",
+          "bank_code_inherited": true,
+          "xref": 1780,
+          "bbox": [
+            90.5,
+            72.0,
+            550.6,
+            707.1
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#30503_sol01.png",
+          "bank_code": "30503",
+          "role": "sol",
+          "page": 58,
+          "kind": "embedded",
+          "width": 1029,
+          "height": 729,
+          "sha1": "a1ae26a5d1dc",
+          "bank_code_inherited": false,
+          "xref": 1785,
+          "bbox": [
+            90.0,
+            159.9,
+            522.9,
+            466.6
+          ],
+          "question_anchor": "4.1",
+          "text_before": "της εκάστοτε μεταβολής παραμένει σταθερή).",
+          "text_after": "4.2. Η ψυκτική ισχύς προκύπτει από τη μεταβολή ΑΒ, κατά την οποία έχουμε",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33866": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.png",
+          "bank_code": "33866",
+          "role": "fig",
+          "page": 60,
+          "kind": "embedded",
+          "width": 447,
+          "height": 550,
+          "sha1": "58e0916fd27c",
+          "bank_code_inherited": false,
+          "xref": 1831,
+          "bbox": [
+            76.4,
+            241.2,
+            298.9,
+            515.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Είσοδος αέρα",
+          "text_after": "ε. Έξοδος αέρα",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33873": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33873_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33873_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33873_fig01.png",
+          "bank_code": "33873",
+          "role": "fig",
+          "page": 64,
+          "kind": "embedded",
+          "width": 788,
+          "height": 563,
+          "sha1": "f7a0c91e0dcd",
+          "bank_code_inherited": true,
+          "xref": 1951,
+          "bbox": [
+            90.4,
+            72.0,
+            505.1,
+            652.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33873_sol01.png",
+          "bank_code": "33873",
+          "role": "sol",
+          "page": 65,
+          "kind": "embedded",
+          "width": 898,
+          "height": 637,
+          "sha1": "7891d054a35b",
+          "bank_code_inherited": false,
+          "xref": 1956,
+          "bbox": [
+            90.0,
+            249.6,
+            540.0,
+            568.8
+          ],
+          "question_anchor": "4.3",
+          "text_before": "4.3.",
+          "text_after": "Πίεση  (ΜPa)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33877": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig02.png",
+        "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig01.png",
+          "bank_code": "33877",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 341,
+          "height": 242,
+          "sha1": "92389070d518",
+          "bank_code_inherited": false,
+          "xref": 614,
+          "bbox": [
+            119.3,
+            241.5,
+            229.7,
+            319.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig02.png",
+          "bank_code": "33877",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 260,
+          "height": 274,
+          "sha1": "f06849f01264",
+          "bank_code_inherited": false,
+          "xref": 615,
+          "bbox": [
+            116.6,
+            334.8,
+            200.0,
+            422.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33877_fig03.png",
+          "bank_code": "33877",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 266,
+          "height": 227,
+          "sha1": "723e94be32f3",
+          "bank_code_inherited": false,
+          "xref": 616,
+          "bbox": [
+            119.3,
+            438.4,
+            205.1,
+            511.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Ανοιχτού τύπου",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33878": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33878_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou_ch06_#33878_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33878_fig01.png",
+          "bank_code": "33878",
+          "role": "fig",
+          "page": 68,
+          "kind": "embedded",
+          "width": 1299,
+          "height": 938,
+          "sha1": "1be83c2adc9c",
+          "bank_code_inherited": true,
+          "xref": 2053,
+          "bbox": [
+            72.0,
+            72.7,
+            567.3,
+            758.6
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch06_#33878_sol01.png",
+          "bank_code": "33878",
+          "role": "sol",
+          "page": 69,
+          "kind": "embedded",
+          "width": 1299,
+          "height": 938,
+          "sha1": "e7e08d7424e0",
+          "bank_code_inherited": false,
+          "xref": 2058,
+          "bbox": [
+            72.0,
+            306.7,
+            540.0,
+            644.6
+          ],
+          "question_anchor": null,
+          "text_before": "kg) = 340kJ",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

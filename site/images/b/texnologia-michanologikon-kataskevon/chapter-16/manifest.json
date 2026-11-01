@@ -1,0 +1,73 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch16.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 16,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch16",
+  "total_pages": 12,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png",
+      "bank_code": "19897",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 296,
+      "height": 355,
+      "sha1": "f60efe8392f0",
+      "bank_code_inherited": false,
+      "xref": 96,
+      "bbox": [
+        186.5,
+        180.8,
+        408.8,
+        447.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1: Παλινδρομική αντλία",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "19897": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png",
+          "bank_code": "19897",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 296,
+          "height": 355,
+          "sha1": "f60efe8392f0",
+          "bank_code_inherited": false,
+          "xref": 96,
+          "bbox": [
+            186.5,
+            180.8,
+            408.8,
+            447.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1: Παλινδρομική αντλία",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

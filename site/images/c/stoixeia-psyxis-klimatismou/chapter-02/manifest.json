@@ -1,0 +1,437 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou_ch02.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou",
+  "chapter": 2,
+  "stem": "c_stoixeia-psyxis-klimatismou_ch02",
+  "total_pages": 29,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.png",
+      "bank_code": "33869",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 628,
+      "height": 452,
+      "sha1": "c7ffb539247e",
+      "bank_code_inherited": false,
+      "xref": 317,
+      "bbox": [
+        185.2,
+        422.5,
+        410.2,
+        584.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.png",
+      "bank_code": "23813",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 534,
+      "height": 462,
+      "sha1": "0d9398db9e01",
+      "bank_code_inherited": false,
+      "xref": 399,
+      "bbox": [
+        210.4,
+        180.8,
+        384.9,
+        332.1
+      ],
+      "question_anchor": null,
+      "text_before": "διαφορά h ισούται με 150 mm. (Υπόδειξη: 1 kPa = 7,5 mmHg)",
+      "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#23869_fig01.png",
+      "bank_code": "23869",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 806,
+      "height": 487,
+      "sha1": "b583b32ec8fe",
+      "bank_code_inherited": false,
+      "xref": 584,
+      "bbox": [
+        70.9,
+        488.4,
+        331.8,
+        646.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Με βάση το παρακάτω σχήμα, τι μας δείχνει το μανόμετρο; (Μονάδες 8)",
+      "text_after": "Μονάδες 12",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.png",
+      "bank_code": "33883",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 654,
+      "height": 372,
+      "sha1": "a81e439d5a90",
+      "bank_code_inherited": false,
+      "xref": 656,
+      "bbox": [
+        92.2,
+        202.7,
+        502.4,
+        436.1
+      ],
+      "question_anchor": null,
+      "text_before": "1 kPa = 7,5 mmHg)",
+      "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.png",
+      "bank_code": "34891",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 527,
+      "height": 533,
+      "sha1": "33fb2eb9f159",
+      "bank_code_inherited": false,
+      "xref": 804,
+      "bbox": [
+        186.6,
+        234.4,
+        424.3,
+        474.8
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.png",
+      "bank_code": "23637",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 542,
+      "height": 405,
+      "sha1": "6025af59b61e",
+      "bank_code_inherited": false,
+      "xref": 952,
+      "bbox": [
+        209.1,
+        466.4,
+        387.7,
+        596.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.png",
+      "bank_code": "25263",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 668,
+      "height": 317,
+      "sha1": "0cd39f04b673",
+      "bank_code_inherited": false,
+      "xref": 1034,
+      "bbox": [
+        139.1,
+        268.7,
+        456.2,
+        439.2
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch02_#23812_fig01.png",
+      "bank_code": "23812",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 774,
+      "height": 430,
+      "sha1": "af95d30784a0",
+      "bank_code_inherited": false,
+      "xref": 1133,
+      "bbox": [
+        78.6,
+        560.4,
+        368.2,
+        721.2
+      ],
+      "question_anchor": "2.3",
+      "text_before": "α. Q2 (αποβαλλόμενη",
+      "text_after": "θερμότητα)",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23637": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.png",
+          "bank_code": "23637",
+          "role": "fig",
+          "page": 24,
+          "kind": "embedded",
+          "width": 542,
+          "height": 405,
+          "sha1": "6025af59b61e",
+          "bank_code_inherited": false,
+          "xref": 952,
+          "bbox": [
+            209.1,
+            466.4,
+            387.7,
+            596.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23812": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#23812_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#23812_fig01.png",
+          "bank_code": "23812",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 774,
+          "height": 430,
+          "sha1": "af95d30784a0",
+          "bank_code_inherited": false,
+          "xref": 1133,
+          "bbox": [
+            78.6,
+            560.4,
+            368.2,
+            721.2
+          ],
+          "question_anchor": "2.3",
+          "text_before": "α. Q2 (αποβαλλόμενη",
+          "text_after": "θερμότητα)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23813": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.png",
+          "bank_code": "23813",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 534,
+          "height": 462,
+          "sha1": "0d9398db9e01",
+          "bank_code_inherited": false,
+          "xref": 399,
+          "bbox": [
+            210.4,
+            180.8,
+            384.9,
+            332.1
+          ],
+          "question_anchor": null,
+          "text_before": "διαφορά h ισούται με 150 mm. (Υπόδειξη: 1 kPa = 7,5 mmHg)",
+          "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23869": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#23869_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#23869_fig01.png",
+          "bank_code": "23869",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 806,
+          "height": 487,
+          "sha1": "b583b32ec8fe",
+          "bank_code_inherited": false,
+          "xref": 584,
+          "bbox": [
+            70.9,
+            488.4,
+            331.8,
+            646.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Με βάση το παρακάτω σχήμα, τι μας δείχνει το μανόμετρο; (Μονάδες 8)",
+          "text_after": "Μονάδες 12",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25263": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.png",
+          "bank_code": "25263",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 668,
+          "height": 317,
+          "sha1": "0cd39f04b673",
+          "bank_code_inherited": false,
+          "xref": 1034,
+          "bbox": [
+            139.1,
+            268.7,
+            456.2,
+            439.2
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33869": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.png",
+          "bank_code": "33869",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 628,
+          "height": 452,
+          "sha1": "c7ffb539247e",
+          "bank_code_inherited": false,
+          "xref": 317,
+          "bbox": [
+            185.2,
+            422.5,
+            410.2,
+            584.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33883": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.png",
+          "bank_code": "33883",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 654,
+          "height": 372,
+          "sha1": "a81e439d5a90",
+          "bank_code_inherited": false,
+          "xref": 656,
+          "bbox": [
+            92.2,
+            202.7,
+            502.4,
+            436.1
+          ],
+          "question_anchor": null,
+          "text_before": "1 kPa = 7,5 mmHg)",
+          "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34891": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.png",
+          "bank_code": "34891",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 527,
+          "height": 533,
+          "sha1": "33fb2eb9f159",
+          "bank_code_inherited": false,
+          "xref": 804,
+          "bbox": [
+            186.6,
+            234.4,
+            424.3,
+            474.8
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

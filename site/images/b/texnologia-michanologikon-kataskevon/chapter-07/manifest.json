@@ -1,0 +1,274 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch07.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 7,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch07",
+  "total_pages": 12,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png",
+      "bank_code": "17710",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 127,
+      "height": 178,
+      "sha1": "e273311e5505",
+      "bank_code_inherited": false,
+      "xref": 103,
+      "bbox": [
+        294.6,
+        137.9,
+        389.9,
+        271.4
+      ],
+      "question_anchor": null,
+      "text_before": "ήλωση με επικάλυψη. (Σχήμα 1).",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
+      "bank_code": "18711",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 131,
+      "height": 179,
+      "sha1": "ebf982b529fa",
+      "bank_code_inherited": false,
+      "xref": 190,
+      "bbox": [
+        143.8,
+        228.0,
+        242.3,
+        362.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ΣΤΗΛΗ Β  (ονομασία σύνδεσης)  1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
+      "bank_code": "18711",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 181,
+      "height": 136,
+      "sha1": "6125549194e2",
+      "bank_code_inherited": false,
+      "xref": 192,
+      "bbox": [
+        125.1,
+        496.5,
+        260.9,
+        598.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Ήλωση",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png",
+      "bank_code": "18886",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 520,
+      "height": 317,
+      "sha1": "d8e5ff3d6404",
+      "bank_code_inherited": false,
+      "xref": 270,
+      "bbox": [
+        137.0,
+        128.6,
+        474.6,
+        334.4
+      ],
+      "question_anchor": null,
+      "text_before": "τυποποιημένες. Η διάμετρος της οπής των ελασμάτων είναι d1=12 mm.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png",
+      "bank_code": "25410",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 453,
+      "height": 192,
+      "sha1": "2f769be75d26",
+      "bank_code_inherited": false,
+      "xref": 340,
+      "bbox": [
+        162.6,
+        159.9,
+        434.2,
+        275.0
+      ],
+      "question_anchor": null,
+      "text_before": "(πριτσιναδόρου).(Σχήμα 1)",
+      "text_after": "Σχήμα 1. Μηχανικός τραβηχτήρας (πριτσιναδόρος)",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17710": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png",
+          "bank_code": "17710",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 127,
+          "height": 178,
+          "sha1": "e273311e5505",
+          "bank_code_inherited": false,
+          "xref": 103,
+          "bbox": [
+            294.6,
+            137.9,
+            389.9,
+            271.4
+          ],
+          "question_anchor": null,
+          "text_before": "ήλωση με επικάλυψη. (Σχήμα 1).",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18711": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
+          "bank_code": "18711",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 131,
+          "height": 179,
+          "sha1": "ebf982b529fa",
+          "bank_code_inherited": false,
+          "xref": 190,
+          "bbox": [
+            143.8,
+            228.0,
+            242.3,
+            362.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ΣΤΗΛΗ Β  (ονομασία σύνδεσης)  1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
+          "bank_code": "18711",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 181,
+          "height": 136,
+          "sha1": "6125549194e2",
+          "bank_code_inherited": false,
+          "xref": 192,
+          "bbox": [
+            125.1,
+            496.5,
+            260.9,
+            598.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Ήλωση",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18886": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png",
+          "bank_code": "18886",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 520,
+          "height": 317,
+          "sha1": "d8e5ff3d6404",
+          "bank_code_inherited": false,
+          "xref": 270,
+          "bbox": [
+            137.0,
+            128.6,
+            474.6,
+            334.4
+          ],
+          "question_anchor": null,
+          "text_before": "τυποποιημένες. Η διάμετρος της οπής των ελασμάτων είναι d1=12 mm.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25410": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png",
+          "bank_code": "25410",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 453,
+          "height": 192,
+          "sha1": "2f769be75d26",
+          "bank_code_inherited": false,
+          "xref": 340,
+          "bbox": [
+            162.6,
+            159.9,
+            434.2,
+            275.0
+          ],
+          "question_anchor": null,
+          "text_before": "(πριτσιναδόρου).(Σχήμα 1)",
+          "text_after": "Σχήμα 1. Μηχανικός τραβηχτήρας (πριτσιναδόρος)",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

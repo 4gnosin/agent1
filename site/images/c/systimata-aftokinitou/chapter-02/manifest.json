@@ -1,0 +1,825 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch02.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 2,
+  "stem": "c_systimata-aftokinitou_ch02",
+  "total_pages": 42,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch02_#27704_fig01.png",
+      "bank_code": "27704",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 557,
+      "height": 295,
+      "sha1": "43cbfead1388",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        74.4,
+        187.7,
+        520.5,
+        424.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα διεύθυνσης με διάταξη υδραυλικής  υποβοή",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32635_fig01.png",
+      "bank_code": "32635",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 126,
+      "height": 140,
+      "sha1": "5890527425c7",
+      "bank_code_inherited": false,
+      "xref": 92,
+      "bbox": [
+        147.9,
+        225.7,
+        274.0,
+        357.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Γωνία Κάστερ μηδενική.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32635_fig02.png",
+      "bank_code": "32635",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 114,
+      "height": 139,
+      "sha1": "5f3ac9067920",
+      "bank_code_inherited": false,
+      "xref": 93,
+      "bbox": [
+        148.3,
+        387.5,
+        273.6,
+        523.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Γωνία Κάστερ αρνητική.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#28996_fig01.png",
+      "bank_code": "28996",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 416,
+      "height": 414,
+      "sha1": "f1af8b3ec282",
+      "bank_code_inherited": false,
+      "xref": 327,
+      "bbox": [
+        131.1,
+        114.8,
+        464.2,
+        446.3
+      ],
+      "question_anchor": null,
+      "text_before": "Στο σχήμα 1 απεικονίζεται η τομή ενός συμπλέκτη με διάφραγμα (χτένι).",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#30562_fig01.png",
+      "bank_code": "30562",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 848,
+      "height": 618,
+      "sha1": "7eb52daf6da4",
+      "bank_code_inherited": false,
+      "xref": 421,
+      "bbox": [
+        108.3,
+        159.9,
+        487.0,
+        435.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32672_fig01.png",
+      "bank_code": "32672",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 773,
+      "height": 599,
+      "sha1": "18b9dd17433f",
+      "bank_code_inherited": false,
+      "xref": 496,
+      "bbox": [
+        70.9,
+        158.7,
+        524.4,
+        475.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31772_fig01.png",
+      "bank_code": "31772",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 523,
+      "height": 325,
+      "sha1": "9ea76dfb015d",
+      "bank_code_inherited": false,
+      "xref": 684,
+      "bbox": [
+        106.8,
+        180.7,
+        488.4,
+        417.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31773_fig01.png",
+      "bank_code": "31773",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 229,
+      "height": 244,
+      "sha1": "c2fbfdffa871",
+      "bank_code_inherited": false,
+      "xref": 764,
+      "bbox": [
+        119.7,
+        252.8,
+        338.8,
+        405.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "β. Εμπλοκή 2ης ταχύτητας",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31773_fig02.png",
+      "bank_code": "31773",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 231,
+      "height": 219,
+      "sha1": "dbfca424a62c",
+      "bank_code_inherited": false,
+      "xref": 765,
+      "bbox": [
+        124.2,
+        435.0,
+        334.2,
+        582.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "γ. Εμπλοκή 1ης ταχύτητας",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31773_fig03.png",
+      "bank_code": "31773",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 229,
+      "height": 227,
+      "sha1": "4925d8299044",
+      "bank_code_inherited": false,
+      "xref": 766,
+      "bbox": [
+        138.6,
+        611.8,
+        344.2,
+        761.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31773_fig04.png",
+      "bank_code": "31773",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 232,
+      "height": 251,
+      "sha1": "5d313af60327",
+      "bank_code_inherited": true,
+      "xref": 766,
+      "bbox": [
+        126.85,
+        93.35,
+        331.55,
+        244.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4.",
+      "text_after": "ε. Η 4η ταχύτητα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32640_fig01.png",
+      "bank_code": "32640",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 739,
+      "height": 420,
+      "sha1": "9231b43a5348",
+      "bank_code_inherited": false,
+      "xref": 850,
+      "bbox": [
+        70.9,
+        180.7,
+        524.9,
+        419.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32673_fig01.png",
+      "bank_code": "32673",
+      "role": "fig",
+      "page": 30,
+      "kind": "embedded",
+      "width": 683,
+      "height": 395,
+      "sha1": "fe7559820361",
+      "bank_code_inherited": false,
+      "xref": 933,
+      "bbox": [
+        96.0,
+        158.8,
+        499.3,
+        332.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τα γράμματα α, β, γ, δ, ε, ζ, η, θ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#33519_fig01.png",
+      "bank_code": "33519",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 693,
+      "height": 359,
+      "sha1": "e86c7a27365a",
+      "bank_code_inherited": false,
+      "xref": 1014,
+      "bbox": [
+        73.4,
+        180.7,
+        521.9,
+        455.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#24141_fig01.png",
+      "bank_code": "24141",
+      "role": "fig",
+      "page": 35,
+      "kind": "embedded",
+      "width": 444,
+      "height": 353,
+      "sha1": "cb3fc1c979a0",
+      "bank_code_inherited": false,
+      "xref": 1094,
+      "bbox": [
+        131.1,
+        488.4,
+        464.1,
+        729.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#24142_fig01.png",
+      "bank_code": "24142",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 209,
+      "height": 237,
+      "sha1": "198cb03d2ec0",
+      "bank_code_inherited": false,
+      "xref": 1178,
+      "bbox": [
+        117.0,
+        412.1,
+        242.2,
+        539.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.Κεντρική εμπλοκή",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#24142_fig02.png",
+      "bank_code": "24142",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 237,
+      "height": 191,
+      "sha1": "da4fbc9adf78",
+      "bank_code_inherited": false,
+      "xref": 1180,
+      "bbox": [
+        111.6,
+        252.8,
+        261.8,
+        374.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.Παράκεντρος εμπλοκή",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#24142_fig03.png",
+      "bank_code": "24142",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 239,
+      "height": 165,
+      "sha1": "b1da4bb9ce96",
+      "bank_code_inherited": false,
+      "xref": 1182,
+      "bbox": [
+        95.3,
+        582.2,
+        262.6,
+        694.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.Εμπλοκή ατέρμονα κοχλία - τροχού",
+      "text_after": "δ.Ομόκεντρη εμπλοκή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#32635_fig03.png",
+      "bank_code": "32635",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 96,
+      "height": 141,
+      "sha1": "d991b5c98d63",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        148.3,
+        553.1,
+        273.6,
+        709.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "γ. Γωνία Κάστερ αρνητική.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch02_#31773_fig05.png",
+      "bank_code": "31773",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 232,
+      "height": 251,
+      "sha1": "6f8a7a6a40c6",
+      "bank_code_inherited": false,
+      "xref": 811,
+      "bbox": [
+        120.5,
+        274.7,
+        338.05,
+        428.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "στ. Η όπισθεν ταχύτητα",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24141": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#24141_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#24141_fig01.png",
+          "bank_code": "24141",
+          "role": "fig",
+          "page": 35,
+          "kind": "embedded",
+          "width": 444,
+          "height": 353,
+          "sha1": "cb3fc1c979a0",
+          "bank_code_inherited": false,
+          "xref": 1094,
+          "bbox": [
+            131.1,
+            488.4,
+            464.1,
+            729.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24142": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#24142_fig01.png",
+        "c_systimata-aftokinitou_ch02_#24142_fig02.png",
+        "c_systimata-aftokinitou_ch02_#24142_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#24142_fig01.png",
+          "bank_code": "24142",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 209,
+          "height": 237,
+          "sha1": "198cb03d2ec0",
+          "bank_code_inherited": false,
+          "xref": 1178,
+          "bbox": [
+            117.0,
+            412.1,
+            242.2,
+            539.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.Κεντρική εμπλοκή",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch02_#24142_fig02.png",
+          "bank_code": "24142",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 237,
+          "height": 191,
+          "sha1": "da4fbc9adf78",
+          "bank_code_inherited": false,
+          "xref": 1180,
+          "bbox": [
+            111.6,
+            252.8,
+            261.8,
+            374.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.Παράκεντρος εμπλοκή",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch02_#24142_fig03.png",
+          "bank_code": "24142",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 239,
+          "height": 165,
+          "sha1": "b1da4bb9ce96",
+          "bank_code_inherited": false,
+          "xref": 1182,
+          "bbox": [
+            95.3,
+            582.2,
+            262.6,
+            694.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.Εμπλοκή ατέρμονα κοχλία - τροχού",
+          "text_after": "δ.Ομόκεντρη εμπλοκή",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27704": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#27704_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#27704_fig01.png",
+          "bank_code": "27704",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 557,
+          "height": 295,
+          "sha1": "43cbfead1388",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            74.4,
+            187.7,
+            520.5,
+            424.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.1. Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα διεύθυνσης με διάταξη υδραυλικής  υποβοή",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28996": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#28996_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#28996_fig01.png",
+          "bank_code": "28996",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 416,
+          "height": 414,
+          "sha1": "f1af8b3ec282",
+          "bank_code_inherited": false,
+          "xref": 327,
+          "bbox": [
+            131.1,
+            114.8,
+            464.2,
+            446.3
+          ],
+          "question_anchor": null,
+          "text_before": "Στο σχήμα 1 απεικονίζεται η τομή ενός συμπλέκτη με διάφραγμα (χτένι).",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30562": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#30562_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#30562_fig01.png",
+          "bank_code": "30562",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 848,
+          "height": 618,
+          "sha1": "7eb52daf6da4",
+          "bank_code_inherited": false,
+          "xref": 421,
+          "bbox": [
+            108.3,
+            159.9,
+            487.0,
+            435.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "31772": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#31772_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#31772_fig01.png",
+          "bank_code": "31772",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 523,
+          "height": 325,
+          "sha1": "9ea76dfb015d",
+          "bank_code_inherited": false,
+          "xref": 684,
+          "bbox": [
+            106.8,
+            180.7,
+            488.4,
+            417.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "31773": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#31773_fig01.png",
+        "c_systimata-aftokinitou_ch02_#31773_fig02.png",
+        "c_systimata-aftokinitou_ch02_#31773_fig03.png",
+        "c_systimata-aftokinitou_ch02_#31773_fig04.png",
+        "c_systimata-aftokinitou_ch02_#31773_fig05.png"
+      ],
+      "sol": []
+    },
+    "32635": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#32635_fig01.png",
+        "c_systimata-aftokinitou_ch02_#32635_fig02.png",
+        "c_systimata-aftokinitou_ch02_#32635_fig03.png"
+      ],
+      "sol": []
+    },
+    "32640": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#32640_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#32640_fig01.png",
+          "bank_code": "32640",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 739,
+          "height": 420,
+          "sha1": "9231b43a5348",
+          "bank_code_inherited": false,
+          "xref": 850,
+          "bbox": [
+            70.9,
+            180.7,
+            524.9,
+            419.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32672": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#32672_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#32672_fig01.png",
+          "bank_code": "32672",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 773,
+          "height": 599,
+          "sha1": "18b9dd17433f",
+          "bank_code_inherited": false,
+          "xref": 496,
+          "bbox": [
+            70.9,
+            158.7,
+            524.4,
+            475.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32673": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#32673_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#32673_fig01.png",
+          "bank_code": "32673",
+          "role": "fig",
+          "page": 30,
+          "kind": "embedded",
+          "width": 683,
+          "height": 395,
+          "sha1": "fe7559820361",
+          "bank_code_inherited": false,
+          "xref": 933,
+          "bbox": [
+            96.0,
+            158.8,
+            499.3,
+            332.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τα γράμματα α, β, γ, δ, ε, ζ, η, θ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33519": {
+      "fig": [
+        "c_systimata-aftokinitou_ch02_#33519_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch02_#33519_fig01.png",
+          "bank_code": "33519",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 693,
+          "height": 359,
+          "sha1": "e86c7a27365a",
+          "bank_code_inherited": false,
+          "xref": 1014,
+          "bbox": [
+            73.4,
+            180.7,
+            521.9,
+            455.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "source_pdf": "b_antoxi_ch03.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 3,
+  "stem": "b_antoxi_ch03",
+  "total_pages": 14,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch03_#20475_fig01.png",
+      "bank_code": "20475",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 588,
+      "height": 463,
+      "sha1": "b5a39c508907",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        185.9,
+        137.9,
+        409.0,
+        313.6
+      ],
+      "question_anchor": null,
+      "text_before": "σχήμα 1.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#20475_sol01.png",
+      "bank_code": "20475",
+      "role": "sol",
+      "page": 3,
+      "kind": "embedded",
+      "width": 643,
+      "height": 456,
+      "sha1": "45c2911ade84",
+      "bank_code_inherited": false,
+      "xref": 67,
+      "bbox": [
+        182.1,
+        159.9,
+        413.0,
+        323.6
+      ],
+      "question_anchor": null,
+      "text_before": "συνιστώσες στους άξονες Οx και Οy, όπως φαίνεται στο σχήμα 2.",
+      "text_after": "Σχήμα 2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#21107_fig01.png",
+      "bank_code": "21107",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 477,
+      "height": 322,
+      "sha1": "579dd69af0cb",
+      "bank_code_inherited": false,
+      "xref": 191,
+      "bbox": [
+        246.2,
+        342.5,
+        476.6,
+        498.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "συνιστωσών.",
+      "text_after": "𝐹2 𝐹1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#18829_fig01.png",
+      "bank_code": "18829",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 427,
+      "height": 388,
+      "sha1": "9c1ddce8b5d8",
+      "bank_code_inherited": false,
+      "xref": 275,
+      "bbox": [
+        205.4,
+        232.0,
+        406.1,
+        414.4
+      ],
+      "question_anchor": null,
+      "text_before": "β) οι δυνάμεις έχουν μέτρο: F1=10 N, F2=7 N, F3=5 N και F4=9 N. (Μονάδες 15)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#18581_fig01.png",
+      "bank_code": "18581",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 315,
+      "height": 206,
+      "sha1": "35c2e6f2414f",
+      "bank_code_inherited": false,
+      "xref": 449,
+      "bbox": [
+        211.4,
+        137.9,
+        383.6,
+        250.5
+      ],
+      "question_anchor": null,
+      "text_before": "μέτρο F1=30 N και F2 =20 N. Η απόσταση μεταξύ των δύο δυνάμεων είναι l =100 mm.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#18581_fig02.png",
+      "bank_code": "18581",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 586,
+      "height": 325,
+      "sha1": "b9150f1294ee",
+      "bank_code_inherited": false,
+      "xref": 450,
+      "bbox": [
+        186.4,
+        475.1,
+        408.9,
+        598.6
+      ],
+      "question_anchor": null,
+      "text_before": "l1 και l2 της συνισταμένης Σ από τις συνιστώσες F1 και F2 αντίστοιχα.",
+      "text_after": "Σχήμα 2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch03_#18581_sol01.png",
+      "bank_code": "18581",
+      "role": "sol",
+      "page": 14,
+      "kind": "embedded",
+      "width": 304,
+      "height": 165,
+      "sha1": "b9e1122cb3e1",
+      "bank_code_inherited": false,
+      "xref": 493,
+      "bbox": [
+        183.6,
+        356.8,
+        411.6,
+        480.5
+      ],
+      "question_anchor": null,
+      "text_before": "μέρος της μεγαλύτερης δύναμης F1.",
+      "text_after": "Σύμφωνα με το σχήμα",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "18581": {
+      "fig": [
+        "b_antoxi_ch03_#18581_fig01.png",
+        "b_antoxi_ch03_#18581_fig02.png"
+      ],
+      "sol": [
+        "b_antoxi_ch03_#18581_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_antoxi_ch03_#18581_fig01.png",
+          "bank_code": "18581",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 315,
+          "height": 206,
+          "sha1": "35c2e6f2414f",
+          "bank_code_inherited": false,
+          "xref": 449,
+          "bbox": [
+            211.4,
+            137.9,
+            383.6,
+            250.5
+          ],
+          "question_anchor": null,
+          "text_before": "μέτρο F1=30 N και F2 =20 N. Η απόσταση μεταξύ των δύο δυνάμεων είναι l =100 mm.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch03_#18581_fig02.png",
+          "bank_code": "18581",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 586,
+          "height": 325,
+          "sha1": "b9150f1294ee",
+          "bank_code_inherited": false,
+          "xref": 450,
+          "bbox": [
+            186.4,
+            475.1,
+            408.9,
+            598.6
+          ],
+          "question_anchor": null,
+          "text_before": "l1 και l2 της συνισταμένης Σ από τις συνιστώσες F1 και F2 αντίστοιχα.",
+          "text_after": "Σχήμα 2",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch03_#18581_sol01.png",
+          "bank_code": "18581",
+          "role": "sol",
+          "page": 14,
+          "kind": "embedded",
+          "width": 304,
+          "height": 165,
+          "sha1": "b9e1122cb3e1",
+          "bank_code_inherited": false,
+          "xref": 493,
+          "bbox": [
+            183.6,
+            356.8,
+            411.6,
+            480.5
+          ],
+          "question_anchor": null,
+          "text_before": "μέρος της μεγαλύτερης δύναμης F1.",
+          "text_after": "Σύμφωνα με το σχήμα",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18829": {
+      "fig": [
+        "b_antoxi_ch03_#18829_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch03_#18829_fig01.png",
+          "bank_code": "18829",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 427,
+          "height": 388,
+          "sha1": "9c1ddce8b5d8",
+          "bank_code_inherited": false,
+          "xref": 275,
+          "bbox": [
+            205.4,
+            232.0,
+            406.1,
+            414.4
+          ],
+          "question_anchor": null,
+          "text_before": "β) οι δυνάμεις έχουν μέτρο: F1=10 N, F2=7 N, F3=5 N και F4=9 N. (Μονάδες 15)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20475": {
+      "fig": [
+        "b_antoxi_ch03_#20475_fig01.png"
+      ],
+      "sol": [
+        "b_antoxi_ch03_#20475_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_antoxi_ch03_#20475_fig01.png",
+          "bank_code": "20475",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 588,
+          "height": 463,
+          "sha1": "b5a39c508907",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            185.9,
+            137.9,
+            409.0,
+            313.6
+          ],
+          "question_anchor": null,
+          "text_before": "σχήμα 1.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_antoxi_ch03_#20475_sol01.png",
+          "bank_code": "20475",
+          "role": "sol",
+          "page": 3,
+          "kind": "embedded",
+          "width": 643,
+          "height": 456,
+          "sha1": "45c2911ade84",
+          "bank_code_inherited": false,
+          "xref": 67,
+          "bbox": [
+            182.1,
+            159.9,
+            413.0,
+            323.6
+          ],
+          "question_anchor": null,
+          "text_before": "συνιστώσες στους άξονες Οx και Οy, όπως φαίνεται στο σχήμα 2.",
+          "text_after": "Σχήμα 2",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "21107": {
+      "fig": [
+        "b_antoxi_ch03_#21107_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch03_#21107_fig01.png",
+          "bank_code": "21107",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 477,
+          "height": 322,
+          "sha1": "579dd69af0cb",
+          "bank_code_inherited": false,
+          "xref": 191,
+          "bbox": [
+            246.2,
+            342.5,
+            476.6,
+            498.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "συνιστωσών.",
+          "text_after": "𝐹2 𝐹1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

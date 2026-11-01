@@ -1,0 +1,430 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou_ch04.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou",
+  "chapter": 4,
+  "stem": "c_stoixeia-psyxis-klimatismou_ch04",
+  "total_pages": 27,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#33868_fig01.png",
+      "bank_code": "33868",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 502,
+      "height": 286,
+      "sha1": "068f19ddd465",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        141.5,
+        180.7,
+        456.5,
+        360.0
+      ],
+      "question_anchor": null,
+      "text_before": "H2O.",
+      "text_after": "Α  Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.png",
+      "bank_code": "23744",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 1280,
+      "height": 670,
+      "sha1": "17612b7abb6d",
+      "bank_code_inherited": false,
+      "xref": 102,
+      "bbox": [
+        90.0,
+        159.9,
+        523.1,
+        537.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#23774_fig01.png",
+      "bank_code": "23774",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 754,
+      "height": 542,
+      "sha1": "1b139259f98f",
+      "bank_code_inherited": false,
+      "xref": 333,
+      "bbox": [
+        70.9,
+        334.6,
+        524.4,
+        660.6
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#26774_fig01.png",
+      "bank_code": "26774",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 694,
+      "height": 679,
+      "sha1": "61b13b8aaf2d",
+      "bank_code_inherited": false,
+      "xref": 412,
+      "bbox": [
+        61.8,
+        293.4,
+        533.5,
+        723.1
+      ],
+      "question_anchor": null,
+      "text_before": "Δίδεται ότι 1 kg/cm2 ≈ 0,97 atm και ο ακόλουθος πίνακας:",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.png",
+      "bank_code": "33867",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 279,
+      "height": 301,
+      "sha1": "f9afe484f61b",
+      "bank_code_inherited": false,
+      "xref": 668,
+      "bbox": [
+        231.0,
+        422.5,
+        367.7,
+        570.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
+      "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig01.png",
+      "bank_code": "23872",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 812,
+      "height": 274,
+      "sha1": "8f309239266f",
+      "bank_code_inherited": false,
+      "xref": 750,
+      "bbox": [
+        70.9,
+        202.7,
+        524.4,
+        355.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig02.png",
+      "bank_code": "23872",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 1238,
+      "height": 256,
+      "sha1": "e30c74772262",
+      "bank_code_inherited": false,
+      "xref": 751,
+      "bbox": [
+        70.9,
+        516.3,
+        524.4,
+        610.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "ατμός μέσα στον σωλήνα.",
+      "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.png",
+      "bank_code": "25269",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 718,
+      "height": 682,
+      "sha1": "bee26685b66a",
+      "bank_code_inherited": false,
+      "xref": 836,
+      "bbox": [
+        191.8,
+        490.2,
+        403.5,
+        691.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "που δίνει τη σωστή αντιστοίχιση της κατάστασης του ψυκτικού μέσου.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23744": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.png",
+          "bank_code": "23744",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 1280,
+          "height": 670,
+          "sha1": "17612b7abb6d",
+          "bank_code_inherited": false,
+          "xref": 102,
+          "bbox": [
+            90.0,
+            159.9,
+            523.1,
+            537.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23774": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#23774_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#23774_fig01.png",
+          "bank_code": "23774",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 754,
+          "height": 542,
+          "sha1": "1b139259f98f",
+          "bank_code_inherited": false,
+          "xref": 333,
+          "bbox": [
+            70.9,
+            334.6,
+            524.4,
+            660.6
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23872": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig01.png",
+        "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig01.png",
+          "bank_code": "23872",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 812,
+          "height": 274,
+          "sha1": "8f309239266f",
+          "bank_code_inherited": false,
+          "xref": 750,
+          "bbox": [
+            70.9,
+            202.7,
+            524.4,
+            355.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#23872_fig02.png",
+          "bank_code": "23872",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 1238,
+          "height": 256,
+          "sha1": "e30c74772262",
+          "bank_code_inherited": false,
+          "xref": 751,
+          "bbox": [
+            70.9,
+            516.3,
+            524.4,
+            610.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "ατμός μέσα στον σωλήνα.",
+          "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25269": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.png",
+          "bank_code": "25269",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 718,
+          "height": 682,
+          "sha1": "bee26685b66a",
+          "bank_code_inherited": false,
+          "xref": 836,
+          "bbox": [
+            191.8,
+            490.2,
+            403.5,
+            691.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "που δίνει τη σωστή αντιστοίχιση της κατάστασης του ψυκτικού μέσου.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26774": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#26774_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#26774_fig01.png",
+          "bank_code": "26774",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 694,
+          "height": 679,
+          "sha1": "61b13b8aaf2d",
+          "bank_code_inherited": false,
+          "xref": 412,
+          "bbox": [
+            61.8,
+            293.4,
+            533.5,
+            723.1
+          ],
+          "question_anchor": null,
+          "text_before": "Δίδεται ότι 1 kg/cm2 ≈ 0,97 atm και ο ακόλουθος πίνακας:",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33867": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.png",
+          "bank_code": "33867",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 279,
+          "height": 301,
+          "sha1": "f9afe484f61b",
+          "bank_code_inherited": false,
+          "xref": 668,
+          "bbox": [
+            231.0,
+            422.5,
+            367.7,
+            570.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
+          "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33868": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou_ch04_#33868_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou_ch04_#33868_fig01.png",
+          "bank_code": "33868",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 502,
+          "height": 286,
+          "sha1": "068f19ddd465",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            141.5,
+            180.7,
+            456.5,
+            360.0
+          ],
+          "question_anchor": null,
+          "text_before": "H2O.",
+          "text_after": "Α  Β",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

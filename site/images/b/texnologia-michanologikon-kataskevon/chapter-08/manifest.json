@@ -1,0 +1,617 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch08.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 8,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch08",
+  "total_pages": 41,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png",
+      "bank_code": "18408",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 178,
+      "height": 155,
+      "sha1": "fa5e6088ffab",
+      "bank_code_inherited": false,
+      "xref": 93,
+      "bbox": [
+        128.7,
+        229.5,
+        247.2,
+        330.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "text_after": "β.Καμινέτο με καυστήρα  προπανίου",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png",
+      "bank_code": "18408",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 115,
+      "height": 187,
+      "sha1": "5346a6500076",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        128.7,
+        377.1,
+        237.4,
+        498.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1",
+      "text_after": "γ.Πάστα καθαρισμού",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#25409_fig01.png",
+      "bank_code": "25409",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 250,
+      "height": 297,
+      "sha1": "3bed94715b78",
+      "bank_code_inherited": false,
+      "xref": 242,
+      "bbox": [
+        202.4,
+        181.9,
+        393.7,
+        409.3
+      ],
+      "question_anchor": null,
+      "text_before": "πραγματοποιηθεί με κασσιτεροσυγκόλληση. (Σχήμα 1)",
+      "text_after": "Σχήμα 1. Κασσιτεροσυγκόλληση χαλκοσωλήνων",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.png",
+      "bank_code": "19123",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 636,
+      "height": 220,
+      "sha1": "b98856f83cde",
+      "bank_code_inherited": false,
+      "xref": 643,
+      "bbox": [
+        105.6,
+        444.4,
+        491.1,
+        577.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#17706_fig01.png",
+      "bank_code": "17706",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 151,
+      "height": 101,
+      "sha1": "74719389fe26",
+      "bank_code_inherited": false,
+      "xref": 720,
+      "bbox": [
+        398.0,
+        185.1,
+        524.1,
+        269.6
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.2 Τα σφάλματα κατά τις ηλεκτροσυγκολλήσεις τόξου",
+      "text_after": "πιθανές αιτίες που το προκαλούν.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18062_fig01.png",
+      "bank_code": "18062",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 223,
+      "height": 184,
+      "sha1": "ab0bd7ee0a31",
+      "bank_code_inherited": false,
+      "xref": 879,
+      "bbox": [
+        213.9,
+        146.0,
+        381.2,
+        284.0
+      ],
+      "question_anchor": null,
+      "text_before": "τόξου.(Σχήμα 1)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18376_fig01.png",
+      "bank_code": "18376",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 286,
+      "height": 164,
+      "sha1": "02430635791d",
+      "bank_code_inherited": false,
+      "xref": 1052,
+      "bbox": [
+        205.2,
+        290.6,
+        419.9,
+        413.7
+      ],
+      "question_anchor": "4.2",
+      "text_before": "β) Να αναφέρετε τέσσερεις (4) αιτίες που το προκαλούν. (μονάδες 12)",
+      "text_after": "Μονάδες 17",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig01.png",
+      "bank_code": "18410",
+      "role": "fig",
+      "page": 31,
+      "kind": "embedded",
+      "width": 216,
+      "height": 89,
+      "sha1": "3a4326a97a15",
+      "bank_code_inherited": false,
+      "xref": 1141,
+      "bbox": [
+        111.1,
+        244.8,
+        273.0,
+        311.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ηλεκτροσυγκόλληση",
+      "text_after": "2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig02.png",
+      "bank_code": "18410",
+      "role": "fig",
+      "page": 31,
+      "kind": "embedded",
+      "width": 190,
+      "height": 96,
+      "sha1": "410063fcf744",
+      "bank_code_inherited": false,
+      "xref": 1142,
+      "bbox": [
+        111.1,
+        362.1,
+        252.1,
+        434.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "μηχανής ηλεκτροσυγκόλλησης",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig01.png",
+      "bank_code": "25401",
+      "role": "fig",
+      "page": 37,
+      "kind": "embedded",
+      "width": 215,
+      "height": 247,
+      "sha1": "75e15f625365",
+      "bank_code_inherited": false,
+      "xref": 1378,
+      "bbox": [
+        137.8,
+        187.6,
+        266.2,
+        335.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig02.png",
+      "bank_code": "25401",
+      "role": "fig",
+      "page": 37,
+      "kind": "embedded",
+      "width": 223,
+      "height": 231,
+      "sha1": "eaf17966a331",
+      "bank_code_inherited": false,
+      "xref": 1379,
+      "bbox": [
+        134.8,
+        368.6,
+        269.2,
+        507.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig03.png",
+      "bank_code": "25401",
+      "role": "fig",
+      "page": 37,
+      "kind": "embedded",
+      "width": 233,
+      "height": 185,
+      "sha1": "3cc25ffe0224",
+      "bank_code_inherited": false,
+      "xref": 1380,
+      "bbox": [
+        132.0,
+        539.8,
+        271.8,
+        651.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17706": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#17706_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#17706_fig01.png",
+          "bank_code": "17706",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 151,
+          "height": 101,
+          "sha1": "74719389fe26",
+          "bank_code_inherited": false,
+          "xref": 720,
+          "bbox": [
+            398.0,
+            185.1,
+            524.1,
+            269.6
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.2 Τα σφάλματα κατά τις ηλεκτροσυγκολλήσεις τόξου",
+          "text_after": "πιθανές αιτίες που το προκαλούν.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18062": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#18062_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18062_fig01.png",
+          "bank_code": "18062",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 223,
+          "height": 184,
+          "sha1": "ab0bd7ee0a31",
+          "bank_code_inherited": false,
+          "xref": 879,
+          "bbox": [
+            213.9,
+            146.0,
+            381.2,
+            284.0
+          ],
+          "question_anchor": null,
+          "text_before": "τόξου.(Σχήμα 1)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18376": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#18376_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18376_fig01.png",
+          "bank_code": "18376",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 286,
+          "height": 164,
+          "sha1": "02430635791d",
+          "bank_code_inherited": false,
+          "xref": 1052,
+          "bbox": [
+            205.2,
+            290.6,
+            419.9,
+            413.7
+          ],
+          "question_anchor": "4.2",
+          "text_before": "β) Να αναφέρετε τέσσερεις (4) αιτίες που το προκαλούν. (μονάδες 12)",
+          "text_after": "Μονάδες 17",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18408": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png",
+          "bank_code": "18408",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 178,
+          "height": 155,
+          "sha1": "fa5e6088ffab",
+          "bank_code_inherited": false,
+          "xref": 93,
+          "bbox": [
+            128.7,
+            229.5,
+            247.2,
+            330.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "text_after": "β.Καμινέτο με καυστήρα  προπανίου",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png",
+          "bank_code": "18408",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 115,
+          "height": 187,
+          "sha1": "5346a6500076",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            128.7,
+            377.1,
+            237.4,
+            498.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1",
+          "text_after": "γ.Πάστα καθαρισμού",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18410": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig01.png",
+          "bank_code": "18410",
+          "role": "fig",
+          "page": 31,
+          "kind": "embedded",
+          "width": 216,
+          "height": 89,
+          "sha1": "3a4326a97a15",
+          "bank_code_inherited": false,
+          "xref": 1141,
+          "bbox": [
+            111.1,
+            244.8,
+            273.0,
+            311.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ηλεκτροσυγκόλληση",
+          "text_after": "2",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18410_fig02.png",
+          "bank_code": "18410",
+          "role": "fig",
+          "page": 31,
+          "kind": "embedded",
+          "width": 190,
+          "height": 96,
+          "sha1": "410063fcf744",
+          "bank_code_inherited": false,
+          "xref": 1142,
+          "bbox": [
+            111.1,
+            362.1,
+            252.1,
+            434.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "μηχανής ηλεκτροσυγκόλλησης",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19123": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.png",
+          "bank_code": "19123",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 636,
+          "height": 220,
+          "sha1": "b98856f83cde",
+          "bank_code_inherited": false,
+          "xref": 643,
+          "bbox": [
+            105.6,
+            444.4,
+            491.1,
+            577.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25401": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig02.png",
+        "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig01.png",
+          "bank_code": "25401",
+          "role": "fig",
+          "page": 37,
+          "kind": "embedded",
+          "width": 215,
+          "height": 247,
+          "sha1": "75e15f625365",
+          "bank_code_inherited": false,
+          "xref": 1378,
+          "bbox": [
+            137.8,
+            187.6,
+            266.2,
+            335.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig02.png",
+          "bank_code": "25401",
+          "role": "fig",
+          "page": 37,
+          "kind": "embedded",
+          "width": 223,
+          "height": 231,
+          "sha1": "eaf17966a331",
+          "bank_code_inherited": false,
+          "xref": 1379,
+          "bbox": [
+            134.8,
+            368.6,
+            269.2,
+            507.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#25401_fig03.png",
+          "bank_code": "25401",
+          "role": "fig",
+          "page": 37,
+          "kind": "embedded",
+          "width": 233,
+          "height": 185,
+          "sha1": "3cc25ffe0224",
+          "bank_code_inherited": false,
+          "xref": 1380,
+          "bbox": [
+            132.0,
+            539.8,
+            271.8,
+            651.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25409": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch08_#25409_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#25409_fig01.png",
+          "bank_code": "25409",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 250,
+          "height": 297,
+          "sha1": "3bed94715b78",
+          "bank_code_inherited": false,
+          "xref": 242,
+          "bbox": [
+            202.4,
+            181.9,
+            393.7,
+            409.3
+          ],
+          "question_anchor": null,
+          "text_before": "πραγματοποιηθεί με κασσιτεροσυγκόλληση. (Σχήμα 1)",
+          "text_after": "Σχήμα 1. Κασσιτεροσυγκόλληση χαλκοσωλήνων",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

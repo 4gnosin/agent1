@@ -3,16 +3,22 @@ window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [],
 window.SUBJECT_DATA["antoxi"].groups.push(...
 [
   {
-    "id": "ch02-torque",
+    "id": "ch02-01-ropi-dynamis",
     "chapter": "2",
-    "title": "2.1 Ροπή Δύναμης",
-    "blurb": "Έννοια ροπής δύναμης, ζεύγος δυνάμεων και υπολογισμοί ροπών."
+    "title": "2.1 Ροπή δύναμης",
+    "blurb": "Έννοια ροπής δύναμης, υπολογισμός ροπής και ιδιότητες."
   },
   {
-    "id": "ch02-varignon",
+    "id": "ch02-02-theorima-ton-ropon",
     "chapter": "2",
-    "title": "2.2 Θεώρημα των Ροπών ή του Varignon",
-    "blurb": "Συστήματα παράλληλων δυνάμεων και εφαρμογή του θεωρήματος των ροπών."
+    "title": "2.2 Θεώρημα των ροπών ή του Varignon",
+    "blurb": "Συνισταμένη συστήματος παράλληλων δυνάμεων και Θεώρημα Varignon."
+  },
+  {
+    "id": "ch02-03-zevgos-dynameon",
+    "chapter": "2",
+    "title": "2.3 Ζεύγος δυνάμεων – Ροπή ζεύγους",
+    "blurb": "Ζεύγος παράλληλων και αντίφορων δυνάμεων και ροπή ζεύγους."
   }
 ]
 );

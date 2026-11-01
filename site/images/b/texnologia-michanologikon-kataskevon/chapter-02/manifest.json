@@ -1,0 +1,125 @@
+{
+  "source_pdf": "b_texnologia-michanologikon-kataskevon_ch02.pdf",
+  "grade": "b",
+  "subject": "texnologia-michanologikon-kataskevon",
+  "chapter": 2,
+  "stem": "b_texnologia-michanologikon-kataskevon_ch02",
+  "total_pages": 24,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png",
+      "bank_code": "25374",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 1073,
+      "height": 1031,
+      "sha1": "dc9156e29bcf",
+      "bank_code_inherited": false,
+      "xref": 91,
+      "bbox": [
+        122.7,
+        158.8,
+        472.6,
+        495.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμματα α, β, γ, δ της Στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png",
+      "bank_code": "25373",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 1169,
+      "height": 612,
+      "sha1": "0599e295453d",
+      "bank_code_inherited": false,
+      "xref": 450,
+      "bbox": [
+        70.9,
+        180.8,
+        524.5,
+        418.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25373": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png",
+          "bank_code": "25373",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 1169,
+          "height": 612,
+          "sha1": "0599e295453d",
+          "bank_code_inherited": false,
+          "xref": 450,
+          "bbox": [
+            70.9,
+            180.8,
+            524.5,
+            418.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25374": {
+      "fig": [
+        "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png",
+          "bank_code": "25374",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 1073,
+          "height": 1031,
+          "sha1": "dc9156e29bcf",
+          "bank_code_inherited": false,
+          "xref": 91,
+          "bbox": [
+            122.7,
+            158.8,
+            472.6,
+            495.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμματα α, β, γ, δ της Στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "source_pdf": "b_antoxi_ch05.pdf",
+  "grade": "b",
+  "subject": "antoxi",
+  "chapter": 5,
+  "stem": "b_antoxi_ch05",
+  "total_pages": 53,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_antoxi_ch05_#19804_fig01.png",
+      "bank_code": "19804",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 874,
+      "height": 578,
+      "sha1": "902f593b1c5d",
+      "bank_code_inherited": false,
+      "xref": 964,
+      "bbox": [
+        100.3,
+        156.8,
+        511.2,
+        428.4
+      ],
+      "question_anchor": null,
+      "text_before": "l=80 mm. Το υλικό κατασκευής της ράβδου έχει μέτρο ελαστικότητας Ε=200.000   .",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch05_#18135_fig01.png",
+      "bank_code": "18135",
+      "role": "fig",
+      "page": 34,
+      "kind": "embedded",
+      "width": 395,
+      "height": 308,
+      "sha1": "07e314d5b349",
+      "bank_code_inherited": false,
+      "xref": 1338,
+      "bbox": [
+        174.6,
+        180.8,
+        421.8,
+        373.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1: Διάγραμμα επιμηκύνσεων - φορτίων",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch05_#18353_fig01.png",
+      "bank_code": "18353",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 420,
+      "height": 92,
+      "sha1": "f51994376ae3",
+      "bank_code_inherited": false,
+      "xref": 1418,
+      "bbox": [
+        158.8,
+        159.9,
+        474.6,
+        228.9
+      ],
+      "question_anchor": null,
+      "text_before": "l=70 cm το οποίο υπεβλήθη σε εφελκυσμό.",
+      "text_after": "Αν το φορτίο αναλογίας είναι Fα=4710 daN, η επιμήκυνση Δl=0,05 cm και το φορτίο θραύσης",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch05_#18354_fig01.png",
+      "bank_code": "18354",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 401,
+      "height": 326,
+      "sha1": "da70c6b77c32",
+      "bank_code_inherited": false,
+      "xref": 1508,
+      "bbox": [
+        137.2,
+        531.5,
+        458.0,
+        743.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1: Διάγραμμα φορτίων - επιμηκύνσεων",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch05_#19458_fig01.png",
+      "bank_code": "19458",
+      "role": "fig",
+      "page": 43,
+      "kind": "embedded",
+      "width": 1402,
+      "height": 1183,
+      "sha1": "f47179efe031",
+      "bank_code_inherited": false,
+      "xref": 1656,
+      "bbox": [
+        147.6,
+        169.7,
+        463.9,
+        436.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_antoxi_ch05_#18832_fig01.png",
+      "bank_code": "18832",
+      "role": "fig",
+      "page": 48,
+      "kind": "embedded",
+      "width": 531,
+      "height": 92,
+      "sha1": "323d82a59722",
+      "bank_code_inherited": false,
+      "xref": 1809,
+      "bbox": [
+        103.7,
+        281.0,
+        508.0,
+        351.0
+      ],
+      "question_anchor": null,
+      "text_before": "(Μονάδες 15)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "18135": {
+      "fig": [
+        "b_antoxi_ch05_#18135_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#18135_fig01.png",
+          "bank_code": "18135",
+          "role": "fig",
+          "page": 34,
+          "kind": "embedded",
+          "width": 395,
+          "height": 308,
+          "sha1": "07e314d5b349",
+          "bank_code_inherited": false,
+          "xref": 1338,
+          "bbox": [
+            174.6,
+            180.8,
+            421.8,
+            373.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1: Διάγραμμα επιμηκύνσεων - φορτίων",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18353": {
+      "fig": [
+        "b_antoxi_ch05_#18353_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#18353_fig01.png",
+          "bank_code": "18353",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 420,
+          "height": 92,
+          "sha1": "f51994376ae3",
+          "bank_code_inherited": false,
+          "xref": 1418,
+          "bbox": [
+            158.8,
+            159.9,
+            474.6,
+            228.9
+          ],
+          "question_anchor": null,
+          "text_before": "l=70 cm το οποίο υπεβλήθη σε εφελκυσμό.",
+          "text_after": "Αν το φορτίο αναλογίας είναι Fα=4710 daN, η επιμήκυνση Δl=0,05 cm και το φορτίο θραύσης",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18354": {
+      "fig": [
+        "b_antoxi_ch05_#18354_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#18354_fig01.png",
+          "bank_code": "18354",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 401,
+          "height": 326,
+          "sha1": "da70c6b77c32",
+          "bank_code_inherited": false,
+          "xref": 1508,
+          "bbox": [
+            137.2,
+            531.5,
+            458.0,
+            743.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1: Διάγραμμα φορτίων - επιμηκύνσεων",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18832": {
+      "fig": [
+        "b_antoxi_ch05_#18832_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#18832_fig01.png",
+          "bank_code": "18832",
+          "role": "fig",
+          "page": 48,
+          "kind": "embedded",
+          "width": 531,
+          "height": 92,
+          "sha1": "323d82a59722",
+          "bank_code_inherited": false,
+          "xref": 1809,
+          "bbox": [
+            103.7,
+            281.0,
+            508.0,
+            351.0
+          ],
+          "question_anchor": null,
+          "text_before": "(Μονάδες 15)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19458": {
+      "fig": [
+        "b_antoxi_ch05_#19458_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#19458_fig01.png",
+          "bank_code": "19458",
+          "role": "fig",
+          "page": 43,
+          "kind": "embedded",
+          "width": 1402,
+          "height": 1183,
+          "sha1": "f47179efe031",
+          "bank_code_inherited": false,
+          "xref": 1656,
+          "bbox": [
+            147.6,
+            169.7,
+            463.9,
+            436.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "19804": {
+      "fig": [
+        "b_antoxi_ch05_#19804_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_antoxi_ch05_#19804_fig01.png",
+          "bank_code": "19804",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 874,
+          "height": 578,
+          "sha1": "902f593b1c5d",
+          "bank_code_inherited": false,
+          "xref": 964,
+          "bbox": [
+            100.3,
+            156.8,
+            511.2,
+            428.4
+          ],
+          "question_anchor": null,
+          "text_before": "l=80 mm. Το υλικό κατασκευής της ράβδου έχει μέτρο ελαστικότητας Ε=200.000   .",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

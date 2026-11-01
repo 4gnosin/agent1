@@ -3,16 +3,16 @@ window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [],
 window.SUBJECT_DATA["antoxi"].groups.push(...
 [
   {
-    "id": "ch11-torsion-relations",
-    "chapter": "11",
-    "title": "11.3 Η στρεπτική ροπή και οι σχέσεις της με τις τάσεις και τις παραμορφώσεις",
-    "blurb": "Υπολογισμός διατομής και στρεπτικής ροπής σε ατράκτους."
-  },
-  {
-    "id": "ch11-shaft-calc",
+    "id": "ch11-06-ypologismos-atraktoy-se-strepsi",
     "chapter": "11",
     "title": "11.6 Υπολογισμός ατράκτου σε στρέψη",
-    "blurb": "Βασικές έννοιες, χαρακτηριστικά και καταπόνηση ατράκτων."
+    "blurb": "Υπολογισμός και καταπόνηση ατράκτου σε στρέψη"
+  },
+  {
+    "id": "ch11-07-efarmoges",
+    "chapter": "11",
+    "title": "11.7 Εφαρμογές",
+    "blurb": "Εφαρμογές υπολογισμών αντοχής σε στρέψη"
   }
 ]
 );

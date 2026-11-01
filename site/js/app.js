@@ -33,6 +33,13 @@ window.KIND_LABEL = {
       progressKey: "antoxi-html-progress-v1",
       mark: "forces",
     },
+    "texnologia-michanologikon-kataskevon": {
+      title: "Τεχνολογία Μηχανολογικών Κατασκευών",
+      kicker: "Β΄ ΕΠΑ.Λ. Μηχανολογία",
+      lead: "Σημειώσεις και διαδραστικός πίνακας ασκήσεων από την τράπεζα θεμάτων.",
+      progressKey: "tmk-html-progress-v1",
+      mark: "forces",
+    },
     "stoixeia-michanon": {
       title: "Στοιχεία Μηχανών",
       kicker: "Γ΄ ΕΠΑ.Λ. Μηχανολογία",
@@ -1030,8 +1037,19 @@ function esc(s) {
     if (!str) return "";
     if (typeof katex === "undefined") return esc(str);
 
+    var s = String(str);
+    // Αν δεν υπάρχουν $ delimiters αλλά το κείμενο περιέχει LaTeX εντολές/συμβολισμούς
+    if (!/[$]/.test(s) && (/\\(?:text|circ|frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega)\b|^\^|(?:\^|_)\{/).test(s)) {
+      try {
+        var cleanTex = s.startsWith("^") ? "{}" + s : s;
+        return katex.renderToString(cleanTex, { throwOnError: false, displayMode: false });
+      } catch (e) {
+        // Fallback στον διαχωρισμό
+      }
+    }
+
     var mathRegex = /(\$\$[\s\S]*?\$\$|\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\)|\$(?:\\\$|[^$\n])+\$)/g;
-    var parts = String(str).split(mathRegex);
+    var parts = s.split(mathRegex);
 
     return parts.map(function (part) {
       if (!part) return "";
@@ -1694,7 +1712,7 @@ function esc(s) {
           ? '<p style="margin-top:.5rem;opacity:.8;font-size:.9rem">Σωστό: <b>' +
             item.answer.toLocaleString("el-GR") +
             " " +
-            esc(item.unit) +
+            renderMathText(item.unit) +
             "</b></p>"
           : "")
       );
@@ -1750,12 +1768,15 @@ function esc(s) {
         });
       }
       if (figs.length) {
-        inner += '<div class="ex-figures" style="margin-top:1rem;display:flex;flex-direction:column;gap:.75rem">';
-        figs.forEach(function (src) {
+        const isGrid = ex.imageLayout === "grid" || (figs.length === 4 && ex.imageLayout !== "column");
+        const gridClass = isGrid ? " ex-figures-grid" : "";
+        inner += '<div class="ex-figures' + gridClass + '">';
+        figs.forEach(function (src, idx) {
+          const label = (ex.imageLabels && ex.imageLabels[idx]) || "";
           inner +=
-            '<figure class="ex-figure" style="margin:0"><img src="' +
-            imgUrl(src) +
-            '" alt="Σχήμα θέματος" style="max-width:100%;height:auto;border-radius:8px;background:#fff" loading="lazy"/></figure>';
+            '<figure class="ex-figure">' +
+            (label ? '<div class="ex-figure-img-wrap"><img src="' + imgUrl(src) + '" alt="' + esc(label) + '" loading="lazy"/></div><figcaption class="ex-figure-caption">' + esc(label) + '</figcaption>' : '<img src="' + imgUrl(src) + '" alt="Σχήμα θέματος" loading="lazy"/>') +
+            '</figure>';
         });
         inner += "</div>";
       }
@@ -1806,12 +1827,15 @@ function esc(s) {
           });
         }
         if (itemFigs.length) {
-          inner += '<div class="item-figures" style="margin:0.5rem 0 1rem;display:flex;flex-direction:column;gap:.75rem">';
-          itemFigs.forEach(function (src) {
+          const isGrid = item.imageLayout === "grid" || (itemFigs.length === 4 && item.imageLayout !== "column");
+          const gridClass = isGrid ? " item-figures-grid" : "";
+          inner += '<div class="item-figures' + gridClass + '">';
+          itemFigs.forEach(function (src, idx) {
+            const label = (item.imageLabels && item.imageLabels[idx]) || "";
             inner +=
-              '<figure class="ex-figure" style="margin:0"><img src="' +
-              imgUrl(src) +
-              '" alt="Σχήμα ερωτήματος" style="max-width:100%;height:auto;border-radius:8px;background:#fff" loading="lazy"/></figure>';
+              '<figure class="ex-figure">' +
+              (label ? '<div class="ex-figure-img-wrap"><img src="' + imgUrl(src) + '" alt="' + esc(label) + '" loading="lazy"/></div><figcaption class="ex-figure-caption">' + esc(label) + '</figcaption>' : '<img src="' + imgUrl(src) + '" alt="Σχήμα ερωτήματος" loading="lazy"/>') +
+              '</figure>';
           });
           inner += '</div>';
         }

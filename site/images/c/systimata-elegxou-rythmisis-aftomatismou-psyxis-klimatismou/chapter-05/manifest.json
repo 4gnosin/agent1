@@ -1,0 +1,565 @@
+{
+  "source_pdf": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05.pdf",
+  "grade": "c",
+  "subject": "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou",
+  "chapter": 5,
+  "stem": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05",
+  "total_pages": 29,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
+      "bank_code": "26941",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 359,
+      "height": 115,
+      "sha1": "88446a643c6c",
+      "bank_code_inherited": false,
+      "xref": 171,
+      "bbox": [
+        101.8,
+        179.2,
+        371.6,
+        265.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Σφςτθμα Ανοιχτοφ Βρόχου",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png",
+      "bank_code": "26941",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 309,
+      "height": 122,
+      "sha1": "183ff2de2e22",
+      "bank_code_inherited": false,
+      "xref": 172,
+      "bbox": [
+        109.9,
+        277.2,
+        342.0,
+        369.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Σφςτθμα Κλειςτοφ Βρόχου",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png",
+      "bank_code": "24132",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 173,
+      "height": 108,
+      "sha1": "93b7cd7f4db9",
+      "bank_code_inherited": false,
+      "xref": 349,
+      "bbox": [
+        101.8,
+        223.1,
+        232.3,
+        304.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Γραμμικόσ θλεκτρονόμοσ",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png",
+      "bank_code": "23780",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 1039,
+      "height": 109,
+      "sha1": "5e1bfb90f9ee",
+      "bank_code_inherited": false,
+      "xref": 533,
+      "bbox": [
+        93.9,
+        334.6,
+        501.0,
+        377.3
+      ],
+      "question_anchor": null,
+      "text_before": "παρακάτω πίνακα σε πόση ώρα θα έχει φτάσει στην πίεση αυτή;",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
+      "bank_code": "33034",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 130,
+      "height": 142,
+      "sha1": "01b0f4a94e16",
+      "bank_code_inherited": false,
+      "xref": 645,
+      "bbox": [
+        109.7,
+        205.7,
+        207.7,
+        312.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Πρεςςοςτάτησ χαμηλήσ και υψηλήσ πίεςησ",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+      "bank_code": "33034",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 223,
+      "height": 191,
+      "sha1": "e87e2a21f8c4",
+      "bank_code_inherited": false,
+      "xref": 646,
+      "bbox": [
+        107.2,
+        323.6,
+        218.8,
+        419.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Πρεςςοςτάτησ μόνο χαμηλήσ πίεςησ ή μόνο",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
+      "bank_code": "33034",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 201,
+      "height": 206,
+      "sha1": "521dbe00b173",
+      "bank_code_inherited": false,
+      "xref": 647,
+      "bbox": [
+        107.5,
+        430.7,
+        208.0,
+        533.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Πρεςςοςτάτησ με δφο επαφζσ",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png",
+      "bank_code": "26892",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 757,
+      "height": 220,
+      "sha1": "b832d1d846fe",
+      "bank_code_inherited": false,
+      "xref": 772,
+      "bbox": [
+        70.9,
+        444.4,
+        524.4,
+        576.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "φαίνεται στο παρακάτω σχήμα.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png",
+      "bank_code": "26906",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 503,
+      "height": 304,
+      "sha1": "ec8202719cda",
+      "bank_code_inherited": false,
+      "xref": 854,
+      "bbox": [
+        157.4,
+        136.8,
+        437.5,
+        306.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντίστασης σε 0°C, όπως φαίνονται στην παρακάτω γραφική παράσταση.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
+      "bank_code": "29604",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 419,
+      "height": 280,
+      "sha1": "8ecd20ae0958",
+      "bank_code_inherited": false,
+      "xref": 1033,
+      "bbox": [
+        103.0,
+        160.7,
+        312.5,
+        300.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "παρακάτω ςχιματα (Σχιμα 1 και Σχιμα 2) και να εξθγιςετε για ποιον ςκοπό προορίηονται.",
+      "text_after": "α.  Σχιμα 1 (Μονάδες 8)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png",
+      "bank_code": "29604",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 201,
+      "height": 206,
+      "sha1": "521dbe00b173",
+      "bank_code_inherited": false,
+      "xref": 1034,
+      "bbox": [
+        102.5,
+        311.3,
+        203.0,
+        414.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.  Σχιμα 1 (Μονάδες 8)",
+      "text_after": "β.  Σχιμα 2 (Μονάδες 8)",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23780": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png",
+          "bank_code": "23780",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 1039,
+          "height": 109,
+          "sha1": "5e1bfb90f9ee",
+          "bank_code_inherited": false,
+          "xref": 533,
+          "bbox": [
+            93.9,
+            334.6,
+            501.0,
+            377.3
+          ],
+          "question_anchor": null,
+          "text_before": "παρακάτω πίνακα σε πόση ώρα θα έχει φτάσει στην πίεση αυτή;",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24132": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png",
+          "bank_code": "24132",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 173,
+          "height": 108,
+          "sha1": "93b7cd7f4db9",
+          "bank_code_inherited": false,
+          "xref": 349,
+          "bbox": [
+            101.8,
+            223.1,
+            232.3,
+            304.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Γραμμικόσ θλεκτρονόμοσ",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26892": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png",
+          "bank_code": "26892",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 757,
+          "height": 220,
+          "sha1": "b832d1d846fe",
+          "bank_code_inherited": false,
+          "xref": 772,
+          "bbox": [
+            70.9,
+            444.4,
+            524.4,
+            576.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "φαίνεται στο παρακάτω σχήμα.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26906": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png",
+          "bank_code": "26906",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 503,
+          "height": 304,
+          "sha1": "ec8202719cda",
+          "bank_code_inherited": false,
+          "xref": 854,
+          "bbox": [
+            157.4,
+            136.8,
+            437.5,
+            306.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντίστασης σε 0°C, όπως φαίνονται στην παρακάτω γραφική παράσταση.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26941": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
+          "bank_code": "26941",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 359,
+          "height": 115,
+          "sha1": "88446a643c6c",
+          "bank_code_inherited": false,
+          "xref": 171,
+          "bbox": [
+            101.8,
+            179.2,
+            371.6,
+            265.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Σφςτθμα Ανοιχτοφ Βρόχου",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png",
+          "bank_code": "26941",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 309,
+          "height": 122,
+          "sha1": "183ff2de2e22",
+          "bank_code_inherited": false,
+          "xref": 172,
+          "bbox": [
+            109.9,
+            277.2,
+            342.0,
+            369.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Σφςτθμα Κλειςτοφ Βρόχου",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29604": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
+          "bank_code": "29604",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 419,
+          "height": 280,
+          "sha1": "8ecd20ae0958",
+          "bank_code_inherited": false,
+          "xref": 1033,
+          "bbox": [
+            103.0,
+            160.7,
+            312.5,
+            300.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "παρακάτω ςχιματα (Σχιμα 1 και Σχιμα 2) και να εξθγιςετε για ποιον ςκοπό προορίηονται.",
+          "text_after": "α.  Σχιμα 1 (Μονάδες 8)",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png",
+          "bank_code": "29604",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 201,
+          "height": 206,
+          "sha1": "521dbe00b173",
+          "bank_code_inherited": false,
+          "xref": 1034,
+          "bbox": [
+            102.5,
+            311.3,
+            203.0,
+            414.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.  Σχιμα 1 (Μονάδες 8)",
+          "text_after": "β.  Σχιμα 2 (Μονάδες 8)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33034": {
+      "fig": [
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
+          "bank_code": "33034",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 130,
+          "height": 142,
+          "sha1": "01b0f4a94e16",
+          "bank_code_inherited": false,
+          "xref": 645,
+          "bbox": [
+            109.7,
+            205.7,
+            207.7,
+            312.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Πρεςςοςτάτησ χαμηλήσ και υψηλήσ πίεςησ",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+          "bank_code": "33034",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 223,
+          "height": 191,
+          "sha1": "e87e2a21f8c4",
+          "bank_code_inherited": false,
+          "xref": 646,
+          "bbox": [
+            107.2,
+            323.6,
+            218.8,
+            419.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Πρεςςοςτάτησ μόνο χαμηλήσ πίεςησ ή μόνο",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
+          "bank_code": "33034",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 201,
+          "height": 206,
+          "sha1": "521dbe00b173",
+          "bank_code_inherited": false,
+          "xref": 647,
+          "bbox": [
+            107.5,
+            430.7,
+            208.0,
+            533.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Πρεςςοςτάτησ με δφο επαφζσ",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

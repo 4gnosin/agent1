@@ -146,7 +146,7 @@ window.EXERCISES.push({
   "prompt": "Υπολογίστε την επιτρεπόμενη δύναμη εφελκυσμού $F$ του κοχλία.",
   "formula": "$F = \\sigma_{\\text{επ}} \\cdot A_1$",
   "answer": 6400,
-  "unit": "N",
+  "unit": "N", // Καθαρή μονάδα μέτρησης (π.χ. "°C", "bar", "m/s", "kJ/kg", "N") — ΠΟΤΕ ακατέργαστο LaTeX code όπως "^\circ\text{C}"
   "tolerance": 0.02,
   "hint": "Χρησιμοποιήστε τον τύπο $F = \\sigma_{\\text{επ}} \\cdot A_1$.",
   "explain": "Η δύναμη υπολογίζεται από: \\( F = 80\\text{ N/mm}^2 \\cdot 80\\text{ mm}^2 = 6400\\text{ N} \\)."

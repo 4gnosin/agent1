@@ -1,0 +1,454 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch03.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 3,
+  "stem": "c_systimata-aftokinitou_ch03",
+  "total_pages": 21,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32634_fig01.png",
+      "bank_code": "32634",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 670,
+      "height": 593,
+      "sha1": "45956fb9a0c3",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        80.5,
+        180.7,
+        514.7,
+        564.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32636_fig01.png",
+      "bank_code": "32636",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 266,
+      "height": 294,
+      "sha1": "3c5270e034be",
+      "bank_code_inherited": false,
+      "xref": 99,
+      "bbox": [
+        120.9,
+        489.4,
+        272.5,
+        641.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "κοχλία κίνησης και περικόχλιο.",
+      "text_after": "2.  β. Πυξίδα διεύθυνσης με ατέρμονα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32636_fig02.png",
+      "bank_code": "32636",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 200,
+      "height": 225,
+      "sha1": "8637f1a90f84",
+      "bank_code_inherited": true,
+      "xref": 144,
+      "bbox": [
+        127.2,
+        71.4,
+        266.1,
+        213.0
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32636_fig03.png",
+      "bank_code": "32636",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 244,
+      "height": 269,
+      "sha1": "4703e793003c",
+      "bank_code_inherited": true,
+      "xref": 145,
+      "bbox": [
+        117.6,
+        242.7,
+        275.9,
+        416.7
+      ],
+      "question_anchor": null,
+      "text_before": "κοχλία και πείρο.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32636_fig04.png",
+      "bank_code": "32636",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 363,
+      "height": 361,
+      "sha1": "95b65c7091df",
+      "bank_code_inherited": true,
+      "xref": 146,
+      "bbox": [
+        116.5,
+        446.5,
+        277.0,
+        625.9
+      ],
+      "question_anchor": null,
+      "text_before": "κοχλία και ράουλο.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32639_fig01.png",
+      "bank_code": "32639",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 279,
+      "height": 347,
+      "sha1": "536e42fa5939",
+      "bank_code_inherited": false,
+      "xref": 274,
+      "bbox": [
+        167.9,
+        180.7,
+        427.4,
+        446.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32633_fig01.png",
+      "bank_code": "32633",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 209,
+      "height": 367,
+      "sha1": "3505898ae8d9",
+      "bank_code_inherited": false,
+      "xref": 354,
+      "bbox": [
+        139.3,
+        225.7,
+        282.5,
+        382.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Γωνία Κάμπερ θετική.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32633_fig02.png",
+      "bank_code": "32633",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 207,
+      "height": 359,
+      "sha1": "b040886ef3b7",
+      "bank_code_inherited": false,
+      "xref": 355,
+      "bbox": [
+        140.9,
+        412.4,
+        280.9,
+        568.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Γωνία Κάμπερ αρνητική.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_systimata-aftokinitou_ch03_#32633_fig03.png",
+      "bank_code": "32633",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 257,
+      "height": 368,
+      "sha1": "350cb7d9648c",
+      "bank_code_inherited": false,
+      "xref": 356,
+      "bbox": [
+        138.9,
+        598.2,
+        283.1,
+        748.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Γωνία Κάμπερ μηδενική.",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "32633": {
+      "fig": [
+        "c_systimata-aftokinitou_ch03_#32633_fig01.png",
+        "c_systimata-aftokinitou_ch03_#32633_fig02.png",
+        "c_systimata-aftokinitou_ch03_#32633_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32633_fig01.png",
+          "bank_code": "32633",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 209,
+          "height": 367,
+          "sha1": "3505898ae8d9",
+          "bank_code_inherited": false,
+          "xref": 354,
+          "bbox": [
+            139.3,
+            225.7,
+            282.5,
+            382.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Γωνία Κάμπερ θετική.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32633_fig02.png",
+          "bank_code": "32633",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 207,
+          "height": 359,
+          "sha1": "b040886ef3b7",
+          "bank_code_inherited": false,
+          "xref": 355,
+          "bbox": [
+            140.9,
+            412.4,
+            280.9,
+            568.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Γωνία Κάμπερ αρνητική.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32633_fig03.png",
+          "bank_code": "32633",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 257,
+          "height": 368,
+          "sha1": "350cb7d9648c",
+          "bank_code_inherited": false,
+          "xref": 356,
+          "bbox": [
+            138.9,
+            598.2,
+            283.1,
+            748.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Γωνία Κάμπερ μηδενική.",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32634": {
+      "fig": [
+        "c_systimata-aftokinitou_ch03_#32634_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32634_fig01.png",
+          "bank_code": "32634",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 670,
+          "height": 593,
+          "sha1": "45956fb9a0c3",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            80.5,
+            180.7,
+            514.7,
+            564.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32636": {
+      "fig": [
+        "c_systimata-aftokinitou_ch03_#32636_fig01.png",
+        "c_systimata-aftokinitou_ch03_#32636_fig02.png",
+        "c_systimata-aftokinitou_ch03_#32636_fig03.png",
+        "c_systimata-aftokinitou_ch03_#32636_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32636_fig01.png",
+          "bank_code": "32636",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 266,
+          "height": 294,
+          "sha1": "3c5270e034be",
+          "bank_code_inherited": false,
+          "xref": 99,
+          "bbox": [
+            120.9,
+            489.4,
+            272.5,
+            641.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "κοχλία κίνησης και περικόχλιο.",
+          "text_after": "2.  β. Πυξίδα διεύθυνσης με ατέρμονα",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32636_fig02.png",
+          "bank_code": "32636",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 200,
+          "height": 225,
+          "sha1": "8637f1a90f84",
+          "bank_code_inherited": true,
+          "xref": 144,
+          "bbox": [
+            127.2,
+            71.4,
+            266.1,
+            213.0
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32636_fig03.png",
+          "bank_code": "32636",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 244,
+          "height": 269,
+          "sha1": "4703e793003c",
+          "bank_code_inherited": true,
+          "xref": 145,
+          "bbox": [
+            117.6,
+            242.7,
+            275.9,
+            416.7
+          ],
+          "question_anchor": null,
+          "text_before": "κοχλία και πείρο.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32636_fig04.png",
+          "bank_code": "32636",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 363,
+          "height": 361,
+          "sha1": "95b65c7091df",
+          "bank_code_inherited": true,
+          "xref": 146,
+          "bbox": [
+            116.5,
+            446.5,
+            277.0,
+            625.9
+          ],
+          "question_anchor": null,
+          "text_before": "κοχλία και ράουλο.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32639": {
+      "fig": [
+        "c_systimata-aftokinitou_ch03_#32639_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch03_#32639_fig01.png",
+          "bank_code": "32639",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 279,
+          "height": 347,
+          "sha1": "536e42fa5939",
+          "bank_code_inherited": false,
+          "xref": 274,
+          "bbox": [
+            167.9,
+            180.7,
+            427.4,
+            446.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

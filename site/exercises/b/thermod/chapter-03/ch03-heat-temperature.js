@@ -153,7 +153,7 @@ window.EXERCISES.push(...
         "prompt": "4.2 Να μετατρέψετε τα 10.000 BTU σε Kcal (δίνεται 1 BTU = 0,252 Kcal).",
         "formula": "E = BTU · 0.252",
         "answer": 2520,
-        "unit": "Kcal",
+        "unit": "kcal",
         "tolerance": 0.01,
         "hint": "Πολλαπλασιάστε τα BTU με το αντίστοιχό τους σε Kcal.",
         "explain": "\\( 10000 \\cdot 0.252 = 2520\\text{ Kcal} \\)."

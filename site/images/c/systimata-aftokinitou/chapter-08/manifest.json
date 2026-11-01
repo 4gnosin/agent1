@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_systimata-aftokinitou_ch08.pdf",
+  "grade": "c",
+  "subject": "systimata-aftokinitou",
+  "chapter": 8,
+  "stem": "c_systimata-aftokinitou_ch08",
+  "total_pages": 3,
+  "params": {
+    "min_size": 80,
+    "min_area": 15000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_systimata-aftokinitou_ch08_#34983_fig01.png",
+      "bank_code": "34983",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 720,
+      "height": 488,
+      "sha1": "1c845f5f14ad",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        71.1,
+        158.9,
+        524.2,
+        466.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34983": {
+      "fig": [
+        "c_systimata-aftokinitou_ch08_#34983_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_systimata-aftokinitou_ch08_#34983_fig01.png",
+          "bank_code": "34983",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 720,
+          "height": 488,
+          "sha1": "1c845f5f14ad",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            71.1,
+            158.9,
+            524.2,
+            466.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

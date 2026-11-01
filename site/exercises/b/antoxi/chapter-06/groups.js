@@ -3,16 +3,16 @@ window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [],
 window.SUBJECT_DATA["antoxi"].groups.push(...
 [
   {
-    "id": "ch06-axial",
+    "id": "ch06-01-axionikos-efelkysmos-kai-thlipsi",
     "chapter": "6",
     "title": "6.1 Αξονικός εφελκυσμός και θλίψη",
-    "blurb": "Ασκήσεις σε αξονικό εφελκυσμό, θλίψη, τάσεις, διατομές και έλεγχο αντοχής."
+    "blurb": "Αξονικός εφελκυσμός, θλίψη, τάσεις και επιτρεπόμενα φορτία σε ράβδους και δοκούς."
   },
   {
-    "id": "ch06-pressure",
+    "id": "ch06-02-epifaniaki-piesi",
     "chapter": "6",
     "title": "6.2 Επιφανειακή πίεση",
-    "blurb": "Ασκήσεις σε επιφανειακή πίεση, πέδιλα υποστυλωμάτων και κατανομές φορτίων."
+    "blurb": "Επιφανειακή πίεση, έλεγχος αντοχής και τάσεις σε φορτισμένα σώματα."
   }
 ]
 );
