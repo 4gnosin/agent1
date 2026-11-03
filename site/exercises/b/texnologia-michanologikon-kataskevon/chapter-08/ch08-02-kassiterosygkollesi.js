@@ -20,38 +20,45 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "prompt": "Να αντιστοιχίσετε τις εικόνες 1, 2, 3 της Στήλης Α με την κατάλληλη ονομασία της Στήλης Β:",
         "images": [
           "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig03.png"
         ],
+        "imageLabels": [
+          "1. Εικόνα 1",
+          "2. Εικόνα 2",
+          "3. Εικόνα 3"
+        ],
+        "imageLayout": "grid",
         "left": [
           {
             "id": "1",
-            "text": "1"
+            "text": "1 (Εικόνα 1)"
           },
           {
             "id": "2",
-            "text": "2"
+            "text": "2 (Εικόνα 2)"
           },
           {
             "id": "3",
-            "text": "3"
+            "text": "3 (Εικόνα 3)"
           }
         ],
         "right": [
           {
             "id": "a",
-            "text": "Κασσιτεροκόλληση σε μορφή σύρματος"
+            "text": "α. Κασσιτεροκόλληση σε μορφή σύρματος"
           },
           {
             "id": "b",
-            "text": "Καμινέτο με καυστήρα προπανίου"
+            "text": "β. Καμινέτο με καυστήρα προπανίου"
           },
           {
             "id": "c",
-            "text": "Πάστα καθαρισμού"
+            "text": "γ. Πάστα καθαρισμού"
           },
           {
             "id": "d",
-            "text": "Ράβδος κασσιτεροκόλλησης"
+            "text": "δ. Ράβδος κασσιτεροκόλλησης"
           }
         ],
         "pairs": {
@@ -59,8 +66,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "2": "c",
           "3": "a"
         },
-        "explain": "1: Καμινέτο με καυστήρα προπανίου (β), 2: Πάστα καθαρισμού (γ), 3: Κασσιτεροκόλληση σε μορφή σύρματος (α).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png"
+        "explain": "1 (Εικόνα 1): β. Καμινέτο με καυστήρα προπανίου\n2 (Εικόνα 2): γ. Πάστα καθαρισμού\n3 (Εικόνα 3): α. Κασσιτεροκόλληση σε μορφή σύρματος\n(Η επιλογή «δ. Ράβδος κασσιτεροκόλλησης» περισσεύει)."
       },
       {
         "kind": "tf",

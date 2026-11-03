@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch16.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 16,
+  "stem": "c_michanourgiki-texnologia_ch16",
+  "total_pages": 5,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch16_#27536_fig01.png",
+      "bank_code": "27536",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 799,
+      "height": 230,
+      "sha1": "1e80c64c4df6",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        107.8,
+        187.2,
+        487.6,
+        317.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27536": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch16_#27536_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch16_#27536_fig01.png",
+          "bank_code": "27536",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 799,
+          "height": 230,
+          "sha1": "1e80c64c4df6",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            107.8,
+            187.2,
+            487.6,
+            317.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

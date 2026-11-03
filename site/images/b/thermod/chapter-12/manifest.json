@@ -1,0 +1,215 @@
+{
+  "source_pdf": "b_thermod_ch12.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 12,
+  "stem": "b_thermod_ch12",
+  "total_pages": 24,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch12_#17722_fig01.png",
+      "bank_code": "17722",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 226,
+      "height": 171,
+      "sha1": "b4d968a69d7a",
+      "bank_code_inherited": false,
+      "xref": 14,
+      "bbox": [
+        288.2,
+        533.3,
+        446.5,
+        653.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch12_#17722_fig02.png",
+      "bank_code": "17722",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 201,
+      "height": 93,
+      "sha1": "91e1abe1bf7b",
+      "bank_code_inherited": false,
+      "xref": 15,
+      "bbox": [
+        292.4,
+        683.1,
+        443.1,
+        752.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch12_#17722_fig03.png",
+      "bank_code": "17722",
+      "role": "fig",
+      "page": 3,
+      "kind": "embedded",
+      "width": 193,
+      "height": 127,
+      "sha1": "ddbc2aa2f206",
+      "bank_code_inherited": true,
+      "xref": 60,
+      "bbox": [
+        295.4,
+        93.4,
+        440.0,
+        188.6
+      ],
+      "question_anchor": null,
+      "text_before": "γ.",
+      "text_after": "β) Σε ορισμένα από τα σχήματα της στήλης Β, μπορούμε να παρατηρήσουμε και",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch12_#20049_fig01.png",
+      "bank_code": "20049",
+      "role": "fig",
+      "page": 13,
+      "kind": "rendered_composite",
+      "width": 790,
+      "height": 362,
+      "sha1": "4d74a3eb4d61",
+      "bank_code_inherited": false,
+      "xref": 475,
+      "bbox": [
+        331.6,
+        221.2,
+        390.8,
+        240.4
+      ],
+      "question_anchor": null,
+      "text_before": "Q",
+      "text_after": "13 0𝐶",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17722": {
+      "fig": [
+        "b_thermod_ch12_#17722_fig01.png",
+        "b_thermod_ch12_#17722_fig02.png",
+        "b_thermod_ch12_#17722_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch12_#17722_fig01.png",
+          "bank_code": "17722",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 226,
+          "height": 171,
+          "sha1": "b4d968a69d7a",
+          "bank_code_inherited": false,
+          "xref": 14,
+          "bbox": [
+            288.2,
+            533.3,
+            446.5,
+            653.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch12_#17722_fig02.png",
+          "bank_code": "17722",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 201,
+          "height": 93,
+          "sha1": "91e1abe1bf7b",
+          "bank_code_inherited": false,
+          "xref": 15,
+          "bbox": [
+            292.4,
+            683.1,
+            443.1,
+            752.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch12_#17722_fig03.png",
+          "bank_code": "17722",
+          "role": "fig",
+          "page": 3,
+          "kind": "embedded",
+          "width": 193,
+          "height": 127,
+          "sha1": "ddbc2aa2f206",
+          "bank_code_inherited": true,
+          "xref": 60,
+          "bbox": [
+            295.4,
+            93.4,
+            440.0,
+            188.6
+          ],
+          "question_anchor": null,
+          "text_before": "γ.",
+          "text_after": "β) Σε ορισμένα από τα σχήματα της στήλης Β, μπορούμε να παρατηρήσουμε και",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20049": {
+      "fig": [
+        "b_thermod_ch12_#20049_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch12_#20049_fig01.png",
+          "bank_code": "20049",
+          "role": "fig",
+          "page": 13,
+          "kind": "rendered_composite",
+          "width": 790,
+          "height": 362,
+          "sha1": "roof20049",
+          "bank_code_inherited": false,
+          "xref": 469,
+          "bbox": [
+            128.0,
+            185.0,
+            412.0,
+            315.0
+          ],
+          "question_anchor": null,
+          "text_before": "5 C.",
+          "text_after": "4.1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,442 @@
+window.SUBJECT_DATA = window.SUBJECT_DATA || {};
+window.SUBJECT_DATA["stoixeia-michanon"] = window.SUBJECT_DATA["stoixeia-michanon"] || { sections: [], groups: [], exercises: [] };
+window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
+[
+  {
+    "id": "ch14-23861",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "23861",
+    "code": "Θέμα 4<sup>ο</sup> · #23861",
+    "title": "#23861 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 1,
+    "stem": "Σε ήλωση με επικάλυψη, στην οποία οι ήλοι καταπονούνται σε διάτμηση, δίνονται τα παρακάτω στοιχεία:\n· Αριθμός σειρών ήλων $n = 1$\n· Αριθμός ήλων $z = 4$\n· Υλικό ήλων με $\\tau_{\\text{επ}} = 2000\\text{ daN/cm}^2$\n· Διάμετρος της οπής στα ελάσματα $d_1 = 21\\text{ mm}$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογιστεί η διάμετρος των ήλων $d$.",
+        "formula": "$d = d_1 - 1\\text{ mm}$",
+        "answer": 2,
+        "unit": "cm",
+        "tolerance": 0.01,
+        "hint": "Αφαιρέστε 1 mm από τη διάμετρο της οπής $d_1$.",
+        "explain": "Έχουμε: $d_1 = d + 1\\text{ mm} \\implies 21\\text{ mm} = d + 1\\text{ mm} \\implies d = 20\\text{ mm} = 2\\text{ cm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογιστεί η διατομή του ήλου $A$ που καταπονείται σε διάτμηση.",
+        "formula": "$A = \\frac{\\pi \\cdot d^2}{4}$",
+        "answer": 3.14,
+        "unit": "cm²",
+        "tolerance": 0.01,
+        "hint": "Χρησιμοποιήστε τον τύπο της κυκλικής διατομής με $d = 2\\text{ cm}$.",
+        "explain": "Η διατομή είναι: $A = \\frac{3{,}14 \\cdot (2\\text{ cm})^2}{4} = 3{,}14\\text{ cm}^2$."
+      },
+      {
+        "kind": "calc",
+        "subq": "γ",
+        "prompt": "Να υπολογιστεί το συνολικό φορτίο $Q$ που μπορούν να παραλάβουν οι ήλοι.",
+        "formula": "$Q = \\tau_{\\text{επ}} \\cdot A \\cdot z \\cdot n$",
+        "answer": 25120,
+        "unit": "daN",
+        "tolerance": 0.01,
+        "hint": "Πολλαπλασιάστε την επιτρεπόμενη διατμητική τάση με τη διατομή, τον αριθμό ήλων και τον αριθμό σειρών.",
+        "explain": "Το φορτίο υπολογίζεται από τη σχέση: $Q = 2000\\text{ daN/cm}^2 \\cdot 3{,}14\\text{ cm}^2 \\cdot 4 \\cdot 1 = 25120\\text{ daN}$."
+      }
+    ]
+  },
+  {
+    "id": "ch14-23864",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "23864",
+    "code": "Θέμα 4<sup>ο</sup> · #23864",
+    "title": "#23864 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 2,
+    "stem": "Σε ήλωση με επικάλυψη, στην οποία οι ήλοι καταπονούνται σε διάτμηση, δίνονται τα παρακάτω στοιχεία:\n· Φορτίο $Q = 6280\\text{ Kp}$\n· Αριθμός σειρών ήλων $n = 1$\n· Αριθμός ήλων $z = 4$\n· Διάμετρος ήλου $d = 10\\text{ mm}$\n· Επιτρεπόμενη διατμητική τάση του υλικού του ήλου $\\tau_{\\text{επ}} = 1200\\text{ kP/cm}^2$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογίσετε τη διατομή $A$ του ήλου.",
+        "formula": "$A = \\frac{\\pi \\cdot d^2}{4}$",
+        "answer": 0.785,
+        "unit": "cm²",
+        "tolerance": 0.01,
+        "hint": "Μετατρέψτε τα 10 mm σε cm και εφαρμόστε τον τύπο διατομής κύκλου.",
+        "explain": "Με $d = 10\\text{ mm} = 1\\text{ cm}$, έχουμε $A = \\frac{3{,}14 \\cdot (1\\text{ cm})^2}{4} = 0{,}785\\text{ cm}^2$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογίσετε την αναπτυσσόμενη διατμητική τάση $\\tau$ του ήλου.",
+        "formula": "$\\tau = \\frac{Q}{A \\cdot z \\cdot n}$",
+        "answer": 2000,
+        "unit": "kP/cm²",
+        "tolerance": 1,
+        "hint": "Διαιρέστε το συνολικό φορτίο με το γινόμενο της διατομής, του πλήθους των ήλων και των σειρών.",
+        "explain": "Η διατμητική τάση είναι: $\\tau = \\frac{6280\\text{ Kp}}{0{,}785\\text{ cm}^2 \\cdot 4 \\cdot 1} = \\frac{6280}{3{,}14} = 2000\\text{ kP/cm}^2$."
+      },
+      {
+        "kind": "mc",
+        "subq": "γ",
+        "prompt": "Να γίνει έλεγχος αντοχής των ήλων σε διάτμηση.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Το υλικό του ήλου αντέχει στη διάτμηση διότι $\\tau \\le \\tau_{\\text{επ}}$."
+          },
+          {
+            "id": "b",
+            "text": "Το υλικό του ήλου δεν αντέχει στη διάτμηση διότι $\\tau > \\tau_{\\text{επ}}$."
+          },
+          {
+            "id": "c",
+            "text": "Ο ήλος βρίσκεται ακριβώς στο όριο αντοχής διότι $\\tau = \\tau_{\\text{επ}}$."
+          }
+        ],
+        "answer": "b",
+        "explain": "Συγκρίνοντας την αναπτυσσόμενη τάση $\\tau = 2000\\text{ kP/cm}^2$ με την επιτρεπόμενη $\\tau_{\\text{επ}} = 1200\\text{ kP/cm}^2$, βλέπουμε ότι $\\tau > \\tau_{\\text{επ}}$, επομένως ο ήλος δεν αντέχει."
+      }
+    ]
+  },
+  {
+    "id": "ch14-24076",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "24076",
+    "code": "Θέμα 4<sup>ο</sup> · #24076",
+    "title": "#24076 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 3,
+    "stem": "Στην ήλωση με διπλή αρμοκαλύπτρα, όπου οι ήλοι καταπονούνται σε διάτμηση, δίνονται τα παρακάτω στοιχεία:\n• Φορτίο $Q = 12560\\text{ Kp}$\n• Αριθμός σειρών ήλων $n = 1$\n• Συντελεστής ασφάλειας ήλων $\\nu_{\\text{ασφ}} = 2$\n• Διάμετρος οπής ελάσματος $d_1 = 11\\text{ mm}$\n• Τάση θραύσης του υλικού των ήλων $\\tau_{\\text{θρ}} = 1000\\text{ Kp/cm}^2$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογίσετε τη διάμετρο $d$ του ήλου.",
+        "formula": "$d = d_1 - 1\\text{ mm}$",
+        "answer": 1,
+        "unit": "cm",
+        "tolerance": 0.01,
+        "hint": "Αφαιρέστε 1 mm από τη διάμετρο οπής $d_1$ και μετατρέψτε σε cm.",
+        "explain": "Έχουμε $d_1 = d + 1\\text{ mm} \\implies 11\\text{ mm} = d + 1\\text{ mm} \\implies d = 10\\text{ mm} = 1\\text{ cm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογίσετε την επιφάνεια $A$ που αντιστοιχεί σε κάθε μία από τις δύο διατομές στις οποίες καταπονείται ο ήλος σε διάτμηση.",
+        "formula": "$A = \\frac{\\pi \\cdot d^2}{4}$",
+        "answer": 0.785,
+        "unit": "cm²",
+        "tolerance": 0.01,
+        "hint": "Εφαρμόστε τον τύπο διατομής κύκλου για $d = 1\\text{ cm}$.",
+        "explain": "Η επιφάνεια είναι $A = \\frac{3{,}14 \\cdot (1\\text{ cm})^2}{4} = 0{,}785\\text{ cm}^2$."
+      },
+      {
+        "kind": "calc",
+        "subq": "γ",
+        "prompt": "Να υπολογίσετε την επιτρεπόμενη τάση $\\tau_{\\text{επ}}$ του υλικού του ήλου.",
+        "formula": "$\\tau_{\\text{επ}} = \\frac{\\tau_{\\text{θρ}}}{\\nu_{\\text{ασφ}}}$",
+        "answer": 500,
+        "unit": "Kp/cm²",
+        "tolerance": 1,
+        "hint": "Διαιρέστε την τάση θραύσης με τον συντελεστή ασφάλειας.",
+        "explain": "Η επιτρεπόμενη τάση είναι $\\tau_{\\text{επ}} = \\frac{1000\\text{ Kp/cm}^2}{2} = 500\\text{ Kp/cm}^2$."
+      },
+      {
+        "kind": "calc",
+        "subq": "δ",
+        "prompt": "Να υπολογίσετε τον αριθμό $z$ των ήλων.",
+        "formula": "$z = \\frac{Q}{A \\cdot n \\cdot 2 \\cdot \\tau_{\\text{επ}}}$",
+        "answer": 16,
+        "unit": "ήλοι",
+        "tolerance": 0.1,
+        "hint": "Λύστε τον τύπο της αναπτυσσόμενης διατμητικής τάσης για διπλή αρμοκαλύπτρα ως προς $z$.",
+        "explain": "Από τον τύπο $\\tau = \\frac{Q}{A \\cdot z \\cdot n \\cdot 2}$, θέτοντας $\\tau = \\tau_{\\text{επ}}$, παίρνουμε $z = \\frac{12560}{0{,}785 \\cdot 1 \\cdot 2 \\cdot 500} = 16$ ήλοι."
+      }
+    ],
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#24076_fig01.png"
+  },
+  {
+    "id": "ch14-25714",
+    "group": "ch14-03-iloseis",
+    "kind": "mc",
+    "layout": "unified",
+    "bankCode": "25714",
+    "code": "Θέμα 4<sup>ο</sup> · #25714",
+    "title": "#25714 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 4,
+    "stem": "Δύο ελάσματα συνδέονται με έναν ήλο και φορτίζονται με δύναμη $Q = 3140\\text{ daN}$.",
+    "items": [
+      {
+        "kind": "mc",
+        "subq": "α",
+        "prompt": "Να αναφέρετε το είδος της καταπόνησης που δέχεται ο ήλος καθώς και πόσο είναι το φορτίο που παραλαμβάνει.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Καταπονείται σε διάτμηση σε μία διατομή και παραλαμβάνει φορτίο $Q = 3140\\text{ daN}$."
+          },
+          {
+            "id": "b",
+            "text": "Καταπονείται σε εφελκυσμό και παραλαμβάνει φορτίο $Q = 3140\\text{ daN}$."
+          },
+          {
+            "id": "c",
+            "text": "Καταπονείται σε διπλή διάτμηση και παραλαμβάνει φορτίο $Q = 1570\\text{ daN}$."
+          }
+        ],
+        "answer": "a",
+        "explain": "Ο ήλος σε σύνδεση επικάλυψης ενός ήλου καταπονείται σε απλή διάτμηση σε μία διατομή και παραλαμβάνει ολόκληρο το φορτίο, δηλαδή $Q = 3140\\text{ daN}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογιστεί η διάμετρος του ήλου, όταν η επιτρεπόμενη τάση σε διάτμηση είναι $\\tau_{\\text{επ}} = 1000\\text{ daN/cm}^2$.",
+        "formula": "$d = \\sqrt{\\frac{4 \\cdot Q}{\\pi \\cdot \\tau_{\\text{επ}}}}$",
+        "answer": 2,
+        "unit": "cm",
+        "tolerance": 0.01,
+        "hint": "Υπολογίστε πρώτα την απαιτούμενη διατομή $A = \\frac{Q}{\\tau_{\\text{επ}}}$ και έπειτα τη διάμετρο.",
+        "explain": "Είναι $A = \\frac{3140}{1000} = 3{,}14\\text{ cm}^2$. Από τον τύπο $A = \\frac{\\pi \\cdot d^2}{4}$, προκύπτει $d = \\sqrt{\\frac{4 \\cdot 3{,}14}{3{,}14}} = \\sqrt{4} = 2\\text{ cm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "γ",
+        "prompt": "Να υπολογιστεί η πίεση σύνθλιψης, με δεδομένο ότι το πάχος του ελάσματος είναι $s = 5\\text{ mm}$.",
+        "formula": "$\\sigma_L = \\frac{Q}{z \\cdot d \\cdot s}$",
+        "answer": 3140,
+        "unit": "daN/cm²",
+        "tolerance": 1,
+        "hint": "Μετατρέψτε το πάχος $s$ σε cm ($s = 0{,}5\\text{ cm}$) και τη διάμετρο σε cm, και εφαρμόστε τον τύπο σύνθλιψης.",
+        "explain": "Με $d = 2\\text{ cm}$, $s = 0{,}5\\text{ cm}$ και $z = 1$, έχουμε $\\sigma_L = \\frac{3140}{1 \\cdot 2 \\cdot 0{,}5} = 3140\\text{ daN/cm}^2$."
+      }
+    ],
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.png",
+    "images": [
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.png",
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig02.png"
+    ]
+  },
+  {
+    "id": "ch14-25742",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "25742",
+    "code": "Θέμα 4<sup>ο</sup> · #25742",
+    "title": "#25742 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 5,
+    "stem": "Σε μια στεγανή ήλωση επικάλυψης, δίνονται τα εξής στοιχεία:\n• ο αριθμός σειρών $n = 2$\n• ο αριθμός των ήλων $z = 4$\n• το πάχος του ελάσματος $s = 5\\text{ cm}$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογίσετε τη διάμετρο της οπής σε mm.",
+        "formula": "$d_1 = \\sqrt{5 \\cdot s} - 0{,}4$",
+        "answer": 46,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Χρησιμοποιήστε τον εμπειρικό τύπο στεγανής ήλωσης $d_1 = \\sqrt{5 \\cdot s} - 0{,}4$ (σε cm).",
+        "explain": "Έχουμε $d_1 = \\sqrt{5 \\cdot 5} - 0{,}4 = \\sqrt{25} - 0{,}4 = 5 - 0{,}4 = 4{,}6\\text{ cm} = 46\\text{ mm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογίσετε το βήμα $t$ της ήλωσης, για διάμετρο ήλου $d = 45\\text{ mm}$.",
+        "formula": "$t = 3 \\cdot d + 0{,}5\\text{ cm}$",
+        "answer": 140,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Μετατρέψτε τη διάμετρο σε cm ($4{,}5\\text{ cm}$) και εφαρμόστε τον τύπο βήματος στεγανής ήλωσης.",
+        "explain": "Με $d = 4{,}5\\text{ cm}$, προκύπτει $t = 3 \\cdot 4{,}5\\text{ cm} + 0{,}5\\text{ cm} = 13{,}5 + 0{,}5 = 14\\text{ cm} = 140\\text{ mm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "γ",
+        "prompt": "Να υπολογίσετε την απόσταση $e$ μεταξύ των δύο παράλληλων σειρών των ήλων, για την ίδια διάμετρο ήλου $d = 45\\text{ mm}$.",
+        "formula": "$e = 1{,}5 \\cdot d$",
+        "answer": 67.5,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Πολλαπλασιάστε την τιμή της διαμέτρου σε cm με το 1,5 και μετατρέψτε σε mm.",
+        "explain": "Έχουμε $e = 1{,}5 \\cdot 4{,}5\\text{ cm} = 6{,}75\\text{ cm} = 67{,}5\\text{ mm}$."
+      }
+    ]
+  },
+  {
+    "id": "ch14-25806",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "25806",
+    "code": "Θέμα 4<sup>ο</sup> · #25806",
+    "title": "#25806 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 6,
+    "stem": "Σε μια ήλωση με διπλή αρμοκαλύπτρα δίνονται:\n• Φορτίο $Q = 6280\\text{ daN}$\n• Αριθμός ήλων $z = 4$\n• Αριθμός σειρών $n = 1$\n• Υλικό ήλων με $\\tau_{\\text{επ}} = 250\\text{ daN/cm}^2$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογιστεί η διάμετρος $d$ του ήλου σε mm.",
+        "formula": "$d = \\sqrt{\\frac{4 \\cdot Q}{\\tau_{\\text{επ}} \\cdot \\pi \\cdot n \\cdot z \\cdot 2}}$",
+        "answer": 20,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Λύστε τον τύπο της διατμητικής τάσης για διπλή αρμοκαλύπτρα ως προς $d^2$.",
+        "explain": "Είναι $\\tau = \\frac{Q}{A \\cdot n \\cdot z \\cdot 2} = \\frac{Q}{\\frac{\\pi d^2}{4} \\cdot n \\cdot z \\cdot 2}$. Με αντικατάσταση: $d^2 = \\frac{4 \\cdot 6280}{250 \\cdot 3{,}14 \\cdot 1 \\cdot 4 \\cdot 2} = \\frac{25120}{6280} = 4\\text{ cm}^2 \\implies d = 2\\text{ cm} = 20\\text{ mm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογιστεί η διάμετρος $d_1$ της οπής του ελάσματος.",
+        "formula": "$d_1 = d + 1\\text{ mm}$",
+        "answer": 21,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Προσθέστε 1 mm στη διάμετρο του ήλου.",
+        "explain": "Έχουμε $d_1 = 20\\text{ mm} + 1\\text{ mm} = 21\\text{ mm}$."
+      }
+    ]
+  },
+  {
+    "id": "ch14-25987",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "25987",
+    "code": "Θέμα 4<sup>ο</sup> · #25987",
+    "title": "#25987 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 7,
+    "stem": "Στην ήλωση με διπλή αρμοκαλύπτρα, όπου οι ήλοι καταπονούνται σε διάτμηση, δίνονται τα παρακάτω στοιχεία:\n• Φορτίο $Q = 9420\\text{ daN}$\n• Αριθμός σειρών ήλων $n = 2$\n• Υλικό ήλων με $\\tau_{\\text{επ}} = 1000\\text{ daN/cm}^2$\n• Διάμετρος οπής ελάσματος $d_1 = 11\\text{ mm}$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "μονό",
+        "prompt": "Nα υπολογίσετε τον αριθμό των ήλων $z$.",
+        "formula": "$z = \\frac{Q}{A \\cdot n \\cdot 2 \\cdot \\tau_{\\text{επ}}}$",
+        "answer": 3,
+        "unit": "ήλοι",
+        "tolerance": 0.1,
+        "hint": "Βρείτε πρώτα τη διάμετρο ήλου $d = 10\\text{ mm} = 1\\text{ cm}$ και τη διατομή του, και έπειτα λύστε ως προς $z$.",
+        "explain": "Έχουμε $d = d_1 - 1\\text{ mm} = 10\\text{ mm} = 1\\text{ cm}$, άρα $A = \\frac{3{,}14 \\cdot 1^2}{4} = 0{,}785\\text{ cm}^2$. Ο αριθμός ήλων είναι $z = \\frac{9420}{0{,}785 \\cdot 2 \\cdot 2 \\cdot 1000} = \\frac{9420}{3140} = 3$."
+      }
+    ],
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25987_fig01.png"
+  },
+  {
+    "id": "ch14-25990",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "25990",
+    "code": "Θέμα 4<sup>ο</sup> · #25990",
+    "title": "#25990 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 8,
+    "stem": "Σε μία απλή ήλωση με επικάλυψη, δίνονται τα παρακάτω στοιχεία:\n• Φορτίο $Q = 10000\\text{ kp}$\n• Αριθμός σειρών $n = 1$\n• Αριθμός ήλων $z = 2$\n• Πλάτος ελάσματος $b = 120\\text{ mm}$\n• Διάμετρος ήλου $d = 9\\text{ mm}$\n• Επιτρεπόμενη τάση εφελκυσμού των ελασμάτων $\\sigma_{\\text{επ}} = 2000\\text{ kp/cm}^2$",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Η επιφάνεια $A$ του ελάσματος που μένει μετά το τρύπημα σε $\\text{mm}^2$.",
+        "formula": "$A = \\frac{Q}{\\sigma_{\\text{επ}}}$",
+        "answer": 500,
+        "unit": "mm²",
+        "tolerance": 1,
+        "hint": "Διαιρέστε το φορτίο με την επιτρεπόμενη τάση και μετατρέψτε τα cm² σε mm².",
+        "explain": "Είναι $A = \\frac{10000}{2000} = 5\\text{ cm}^2 = 500\\text{ mm}^2$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογιστεί το πάχος $s$ του ελάσματος σε mm.",
+        "formula": "$s = \\frac{A}{b - z \\cdot d_1}$",
+        "answer": 5,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Υπολογίστε τη διάμετρο οπής $d_1 = d + 1\\text{ mm}$ και λύστε τον τύπο της καθαρής διατομής εφελκυσμού ως προς $s$.",
+        "explain": "Έχουμε $d_1 = 9 + 1 = 10\\text{ mm}$. Η καθαρή επιφάνεια είναι $A = (b - 2 \\cdot d_1) \\cdot s \\implies 500 = (120 - 2 \\cdot 10) \\cdot s \\implies 500 = 100 \\cdot s \\implies s = 5\\text{ mm}$."
+      }
+    ]
+  },
+  {
+    "id": "ch14-25991",
+    "group": "ch14-03-iloseis",
+    "kind": "calc",
+    "layout": "unified",
+    "bankCode": "25991",
+    "code": "Θέμα 4<sup>ο</sup> · #25991",
+    "title": "#25991 — Θέμα 4<sup>ο</sup> (14.3)",
+    "units": 25,
+    "theory": "ch14-iloseis",
+    "sourceOrder": 9,
+    "stem": "Σε μία απλή ήλωση με επικάλυψη, δίνονται τα παρακάτω στοιχεία:\n• $Q = 12000\\text{ kp}$\n• Αριθμός σειρών $n = 1$\n• Αριθμός ήλων $z = 4$\n• Πλάτος ελάσματος $b = 100\\text{ mm}$\n• Πάχος ελάσματος $s = 10\\text{ mm}$\n• Διάμετρος ήλου $d = 9\\text{ mm}$\n• Η επιτρεπόμενη τάση εφελκυσμού των ελασμάτων $\\sigma_{\\text{επ}} = 1800\\text{ kp/cm}^2$.",
+    "items": [
+      {
+        "kind": "calc",
+        "subq": "α",
+        "prompt": "Να υπολογιστεί η διάμετρος της καρφότρυπας $d_1$.",
+        "formula": "$d_1 = d + 1\\text{ mm}$",
+        "answer": 10,
+        "unit": "mm",
+        "tolerance": 0.1,
+        "hint": "Προσθέστε 1 mm στη διάμετρο του ήλου.",
+        "explain": "Έχουμε $d_1 = 9\\text{ mm} + 1\\text{ mm} = 10\\text{ mm}$."
+      },
+      {
+        "kind": "calc",
+        "subq": "β",
+        "prompt": "Να υπολογιστεί η επιφάνεια $A$ του ελάσματος που μένει μετά το τρύπημα σε $\\text{cm}^2$.",
+        "formula": "$A = (b - z \\cdot d_1) \\cdot s$",
+        "answer": 6,
+        "unit": "cm²",
+        "tolerance": 0.01,
+        "hint": "Αφαιρέστε από το πλάτος $b$ το γινόμενο του αριθμού ήλων επί τη διάμετρο οπής, πολλαπλασιάστε επί το πάχος $s$ και μετατρέψτε σε $\\text{cm}^2$.",
+        "explain": "Είναι $A = (100 - 4 \\cdot 10) \\cdot 10 = 600\\text{ mm}^2 = 6\\text{ cm}^2$."
+      },
+      {
+        "kind": "mc",
+        "subq": "γ",
+        "prompt": "Να γίνει έλεγχος του ελάσματος σε εφελκυσμό.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Το έλασμα αντέχει διότι η αναπτυσσόμενη τάση είναι μικρότερη από την επιτρεπόμενη."
+          },
+          {
+            "id": "b",
+            "text": "Το έλασμα δεν αντέχει διότι η αναπτυσσόμενη τάση είναι μεγαλύτερη από την επιτρεπόμενη."
+          },
+          {
+            "id": "c",
+            "text": "Το έλασμα βρίσκεται ακριβώς στο όριο αντοχής."
+          }
+        ],
+        "answer": "b",
+        "explain": "Η τάση είναι $\\sigma = \\frac{12000\\text{ kp}}{6\\text{ cm}^2} = 2000\\text{ kp/cm}^2$. Επειδή $\\sigma > \\sigma_{\\text{επ}}$ ($2000 > 1800$), η ήλωση δεν αντέχει."
+      }
+    ]
+  }
+]
+);

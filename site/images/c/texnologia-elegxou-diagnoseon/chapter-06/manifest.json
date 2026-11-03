@@ -1,0 +1,216 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch06.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 6,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch06",
+  "total_pages": 11,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.png",
+      "bank_code": "34239",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 676,
+      "height": 572,
+      "sha1": "a424e37cb5b0",
+      "bank_code_inherited": false,
+      "xref": 171,
+      "bbox": [
+        138.4,
+        159.9,
+        456.9,
+        429.4
+      ],
+      "question_anchor": null,
+      "text_before": "ευαισθησία χρόνου είναι Et = 5ms / DIV.",
+      "text_after": "α) Πρόκειται για ψηφιακό ή αναλογικό σήμα; Να αιτιολογήσετε την απάντησή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch06_#34239_sol01.png",
+      "bank_code": "34239",
+      "role": "sol",
+      "page": 7,
+      "kind": "embedded",
+      "width": 676,
+      "height": 572,
+      "sha1": "f1920e94a966",
+      "bank_code_inherited": false,
+      "xref": 225,
+      "bbox": [
+        112.1,
+        281.5,
+        483.2,
+        595.5
+      ],
+      "question_anchor": null,
+      "text_before": "τέτοιο σήμα, είναι ο αισθητήρας μαγνητικής αντίστασης.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.png",
+      "bank_code": "26750",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 566,
+      "height": 302,
+      "sha1": "dd8d04866b86",
+      "bank_code_inherited": false,
+      "xref": 273,
+      "bbox": [
+        127.8,
+        158.8,
+        467.5,
+        340.0
+      ],
+      "question_anchor": "4.1",
+      "text_before": "αντιστάσεις.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.png",
+      "bank_code": "26750",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 266,
+      "height": 259,
+      "sha1": "f078468a785f",
+      "bank_code_inherited": false,
+      "xref": 274,
+      "bbox": [
+        217.9,
+        434.9,
+        377.5,
+        590.3
+      ],
+      "question_anchor": "4.2",
+      "text_before": "ενός αισθητήρα λ.",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "26750": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.png",
+        "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.png",
+          "bank_code": "26750",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 566,
+          "height": 302,
+          "sha1": "dd8d04866b86",
+          "bank_code_inherited": false,
+          "xref": 273,
+          "bbox": [
+            127.8,
+            158.8,
+            467.5,
+            340.0
+          ],
+          "question_anchor": "4.1",
+          "text_before": "αντιστάσεις.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.png",
+          "bank_code": "26750",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 266,
+          "height": 259,
+          "sha1": "f078468a785f",
+          "bank_code_inherited": false,
+          "xref": 274,
+          "bbox": [
+            217.9,
+            434.9,
+            377.5,
+            590.3
+          ],
+          "question_anchor": "4.2",
+          "text_before": "ενός αισθητήρα λ.",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34239": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.png"
+      ],
+      "sol": [
+        "c_texnologia-elegxou-diagnoseon_ch06_#34239_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.png",
+          "bank_code": "34239",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 676,
+          "height": 572,
+          "sha1": "a424e37cb5b0",
+          "bank_code_inherited": false,
+          "xref": 171,
+          "bbox": [
+            138.4,
+            159.9,
+            456.9,
+            429.4
+          ],
+          "question_anchor": null,
+          "text_before": "ευαισθησία χρόνου είναι Et = 5ms / DIV.",
+          "text_after": "α) Πρόκειται για ψηφιακό ή αναλογικό σήμα; Να αιτιολογήσετε την απάντησή",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch06_#34239_sol01.png",
+          "bank_code": "34239",
+          "role": "sol",
+          "page": 7,
+          "kind": "embedded",
+          "width": 676,
+          "height": 572,
+          "sha1": "f1920e94a966",
+          "bank_code_inherited": false,
+          "xref": 225,
+          "bbox": [
+            112.1,
+            281.5,
+            483.2,
+            595.5
+          ],
+          "question_anchor": null,
+          "text_before": "τέτοιο σήμα, είναι ο αισθητήρας μαγνητικής αντίστασης.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

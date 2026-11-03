@@ -1,0 +1,1337 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch04.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 4,
+  "stem": "c_michanourgiki-texnologia_ch04",
+  "total_pages": 60,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25644_fig01.png",
+      "bank_code": "25644",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 181,
+      "height": 137,
+      "sha1": "eca582a4ea16",
+      "bank_code_inherited": false,
+      "xref": 165,
+      "bbox": [
+        136.8,
+        210.4,
+        245.4,
+        292.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25644_fig02.png",
+      "bank_code": "25644",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 181,
+      "height": 111,
+      "sha1": "770f46653614",
+      "bank_code_inherited": false,
+      "xref": 166,
+      "bbox": [
+        136.8,
+        325.6,
+        245.4,
+        392.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25644_fig03.png",
+      "bank_code": "25644",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 153,
+      "height": 115,
+      "sha1": "71e78221e02e",
+      "bank_code_inherited": false,
+      "xref": 167,
+      "bbox": [
+        145.2,
+        425.2,
+        236.8,
+        494.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25644_fig04.png",
+      "bank_code": "25644",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 160,
+      "height": 119,
+      "sha1": "c6441b49be95",
+      "bank_code_inherited": false,
+      "xref": 168,
+      "bbox": [
+        142.8,
+        527.2,
+        239.4,
+        598.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4.",
+      "text_after": "ε. Τόρνευση μορφής",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27617_fig01.png",
+      "bank_code": "27617",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 279,
+      "height": 203,
+      "sha1": "a14401ed691b",
+      "bank_code_inherited": false,
+      "xref": 405,
+      "bbox": [
+        70.9,
+        181.7,
+        210.5,
+        283.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "πολύ κακή επιφάνεια στο κατεργαζόμενο τεμάχιο.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27617_fig02.png",
+      "bank_code": "27617",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 308,
+      "height": 200,
+      "sha1": "c6b8d5078991",
+      "bank_code_inherited": false,
+      "xref": 406,
+      "bbox": [
+        70.9,
+        313.1,
+        224.9,
+        413.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "μικραίνει η τριβή ανάμεσα στην ελεύθερη επιφάνεια του",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27617_fig03.png",
+      "bank_code": "27617",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 288,
+      "height": 225,
+      "sha1": "81f7c62282be",
+      "bank_code_inherited": false,
+      "xref": 407,
+      "bbox": [
+        70.9,
+        442.7,
+        214.9,
+        555.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "μεγαλώνει η τριβή ανάμεσα στην ελεύθερη επιφάνεια του",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25194_fig01.png",
+      "bank_code": "25194",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 655,
+      "height": 456,
+      "sha1": "ce093d16e63e",
+      "bank_code_inherited": false,
+      "xref": 483,
+      "bbox": [
+        110.4,
+        356.8,
+        484.8,
+        617.6
+      ],
+      "question_anchor": null,
+      "text_before": "πίνακα:",
+      "text_after": "Μονάδες  25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27616_fig01.png",
+      "bank_code": "27616",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 412,
+      "height": 420,
+      "sha1": "35eb65ce5f4d",
+      "bank_code_inherited": false,
+      "xref": 760,
+      "bbox": [
+        70.9,
+        489.3,
+        263.1,
+        685.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α. Γωνία κοπής",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_fig01.png",
+      "bank_code": "29153",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 586,
+      "height": 386,
+      "sha1": "d177d2214219",
+      "bank_code_inherited": false,
+      "xref": 915,
+      "bbox": [
+        139.4,
+        208.3,
+        456.8,
+        417.5
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνονται :",
+      "text_after": "Πίνακας 1 .",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_fig02.png",
+      "bank_code": "29153",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 540,
+      "height": 441,
+      "sha1": "d7fd51bb1b5d",
+      "bank_code_inherited": false,
+      "xref": 916,
+      "bbox": [
+        175.4,
+        495.1,
+        420.8,
+        695.5
+      ],
+      "question_anchor": null,
+      "text_before": "για κατεργασίες στον τόρνο.",
+      "text_after": "Σχήμα 1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_sol01.png",
+      "bank_code": "29153",
+      "role": "sol",
+      "page": 28,
+      "kind": "embedded",
+      "width": 685,
+      "height": 448,
+      "sha1": "b52df7bdfdde",
+      "bank_code_inherited": false,
+      "xref": 954,
+      "bbox": [
+        108.4,
+        186.5,
+        519.4,
+        455.5
+      ],
+      "question_anchor": null,
+      "text_before": " η ταχύτητα κοπής για το φινίρισμα είναι u = 24 m/min",
+      "text_after": "Πίνακας 1 .Τιμές γωνιών κοπής, ταχυτήτων κοπής, προώσεων, βαθών κοπής και υγρών",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_sol02.png",
+      "bank_code": "29153",
+      "role": "sol",
+      "page": 29,
+      "kind": "embedded",
+      "width": 457,
+      "height": 393,
+      "sha1": "556afdd14ad5",
+      "bank_code_inherited": true,
+      "xref": 997,
+      "bbox": [
+        161.1,
+        70.9,
+        435.4,
+        306.7
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_sol03.png",
+      "bank_code": "29153",
+      "role": "sol",
+      "page": 29,
+      "kind": "embedded",
+      "width": 490,
+      "height": 390,
+      "sha1": "08d7e7f6e22a",
+      "bank_code_inherited": true,
+      "xref": 998,
+      "bbox": [
+        169.4,
+        453.1,
+        463.4,
+        687.1
+      ],
+      "question_anchor": null,
+      "text_before": " και στροφές n =74 στρ/min",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_sol04.png",
+      "bank_code": "29153",
+      "role": "sol",
+      "page": 30,
+      "kind": "embedded",
+      "width": 507,
+      "height": 396,
+      "sha1": "02da01441686",
+      "bank_code_inherited": true,
+      "xref": 1001,
+      "bbox": [
+        164.1,
+        139.6,
+        468.4,
+        377.2
+      ],
+      "question_anchor": null,
+      "text_before": " και ταχύτητα κοπής στο φινίρισμα u = 24 m/min,",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29153_sol05.png",
+      "bank_code": "29153",
+      "role": "sol",
+      "page": 30,
+      "kind": "embedded",
+      "width": 516,
+      "height": 399,
+      "sha1": "8fd057e3cf1c",
+      "bank_code_inherited": true,
+      "xref": 1002,
+      "bbox": [
+        181.4,
+        523.6,
+        451.3,
+        732.5
+      ],
+      "question_anchor": null,
+      "text_before": " και στροφές n =74 στρ/min",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#25468_fig01.png",
+      "bank_code": "25468",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 308,
+      "height": 199,
+      "sha1": "e0c9ccae2c4d",
+      "bank_code_inherited": false,
+      "xref": 1007,
+      "bbox": [
+        208.8,
+        136.8,
+        386.5,
+        251.4
+      ],
+      "question_anchor": "4.1",
+      "text_before": "κωνικό εξάρτθμα, με βάςθ το παρακάτω ςχιμα:",
+      "text_after": "Όπου:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27329_fig01.png",
+      "bank_code": "27329",
+      "role": "fig",
+      "page": 34,
+      "kind": "embedded",
+      "width": 481,
+      "height": 308,
+      "sha1": "af4697ce9fa5",
+      "bank_code_inherited": false,
+      "xref": 1119,
+      "bbox": [
+        196.4,
+        334.3,
+        398.6,
+        463.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "2.2 Στο παρακάτω σχήμα, παρουσιάζονται τα βασικά γεωμετρικά στοιχεία ενός κώνου που  έχει ",
+      "text_after": "Τί ονομάζουμε κωνικότητα σε έναν κώνο (Μονάδες 4), πώς αυτή συμβολίζεται (Μονάδες 2)  και ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27559_fig01.png",
+      "bank_code": "27559",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 388,
+      "height": 203,
+      "sha1": "c1f7909c9d1f",
+      "bank_code_inherited": false,
+      "xref": 1212,
+      "bbox": [
+        90.0,
+        193.0,
+        284.0,
+        294.5
+      ],
+      "question_anchor": null,
+      "text_before": "D= 20 mm, d=10mm, l= 20 mm.",
+      "text_after": "Δίνεται:  εφ(φ)=0,25 όταν η γωνία φ= 14,036ο.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27559_sol01.png",
+      "bank_code": "27559",
+      "role": "sol",
+      "page": 37,
+      "kind": "embedded",
+      "width": 394,
+      "height": 258,
+      "sha1": "4cdd08302965",
+      "bank_code_inherited": false,
+      "xref": 1270,
+      "bbox": [
+        126.0,
+        221.2,
+        296.5,
+        324.6
+      ],
+      "question_anchor": null,
+      "text_before": "β.  Ο άξονας του κομματιού έχει μια κλίση ίση με την ημιγωνία του κώνου α/2.",
+      "text_after": "Οπότε η ρύθμιση που θα πρέπει να γίνει είναι: στροφή του φορείου του εργαλειοδέτη  κατά γω",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27560_fig01.png",
+      "bank_code": "27560",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 620,
+      "height": 236,
+      "sha1": "7cbc62e9f277",
+      "bank_code_inherited": false,
+      "xref": 1314,
+      "bbox": [
+        156.6,
+        181.9,
+        478.6,
+        306.4
+      ],
+      "question_anchor": null,
+      "text_before": "D= 40 mm, d=30 mm, L= 180 mm, l= 120 mm.",
+      "text_after": "α. Εάν επιλέξετε να κάνετε την κατεργασία με εγκάρσια μετατόπιση του κεντροφορέα, να",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27560_sol01.png",
+      "bank_code": "27560",
+      "role": "sol",
+      "page": 39,
+      "kind": "embedded",
+      "width": 950,
+      "height": 392,
+      "sha1": "32825ce9aa0c",
+      "bank_code_inherited": false,
+      "xref": 1368,
+      "bbox": [
+        182.9,
+        181.9,
+        452.9,
+        303.2
+      ],
+      "question_anchor": null,
+      "text_before": "κομματιού έχει μια κλίση ίση με την ημιγωνία του τόρνου α/2.",
+      "text_after": "𝑉= 𝐷−𝑑",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29136_fig01.png",
+      "bank_code": "29136",
+      "role": "fig",
+      "page": 40,
+      "kind": "embedded",
+      "width": 530,
+      "height": 265,
+      "sha1": "228901f93049",
+      "bank_code_inherited": false,
+      "xref": 1412,
+      "bbox": [
+        139.4,
+        185.3,
+        457.4,
+        344.3
+      ],
+      "question_anchor": null,
+      "text_before": "θα ακολουθήσετε προκειμένου να πραγματοποιήσετε την αντιγραφή.",
+      "text_after": "Σχήμα1 Μηχανισμός αντιγραφής κώνου.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27558_fig01.png",
+      "bank_code": "27558",
+      "role": "fig",
+      "page": 46,
+      "kind": "embedded",
+      "width": 824,
+      "height": 533,
+      "sha1": "1d852e729338",
+      "bank_code_inherited": false,
+      "xref": 1647,
+      "bbox": [
+        90.0,
+        159.8,
+        530.2,
+        410.8
+      ],
+      "question_anchor": null,
+      "text_before": "σετε:",
+      "text_after": "α. Τη μέγιστη ταχύτητα κατεργασίας εκχόνδρισης σπειρώματος Us, που είναι η ενδεδειγμένη",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#27599_fig01.png",
+      "bank_code": "27599",
+      "role": "fig",
+      "page": 50,
+      "kind": "embedded",
+      "width": 652,
+      "height": 594,
+      "sha1": "bab0e8a7668f",
+      "bank_code_inherited": false,
+      "xref": 1811,
+      "bbox": [
+        151.4,
+        454.9,
+        445.1,
+        722.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29152_fig01.png",
+      "bank_code": "29152",
+      "role": "fig",
+      "page": 55,
+      "kind": "embedded",
+      "width": 444,
+      "height": 303,
+      "sha1": "c2c107700dbc",
+      "bank_code_inherited": false,
+      "xref": 1963,
+      "bbox": [
+        164.9,
+        162.8,
+        431.4,
+        344.9
+      ],
+      "question_anchor": null,
+      "text_before": "1).",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch04_#29154_fig01.png",
+      "bank_code": "29154",
+      "role": "fig",
+      "page": 57,
+      "kind": "embedded",
+      "width": 341,
+      "height": 202,
+      "sha1": "8f3e5d634c39",
+      "bank_code_inherited": false,
+      "xref": 2037,
+      "bbox": [
+        196.2,
+        140.9,
+        400.7,
+        262.0
+      ],
+      "question_anchor": null,
+      "text_before": "σε ένα τεμάχιο. (Σχήμα 1).",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25194": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#25194_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25194_fig01.png",
+          "bank_code": "25194",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 655,
+          "height": 456,
+          "sha1": "ce093d16e63e",
+          "bank_code_inherited": false,
+          "xref": 483,
+          "bbox": [
+            110.4,
+            356.8,
+            484.8,
+            617.6
+          ],
+          "question_anchor": null,
+          "text_before": "πίνακα:",
+          "text_after": "Μονάδες  25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25468": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#25468_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25468_fig01.png",
+          "bank_code": "25468",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 308,
+          "height": 199,
+          "sha1": "e0c9ccae2c4d",
+          "bank_code_inherited": false,
+          "xref": 1007,
+          "bbox": [
+            208.8,
+            136.8,
+            386.5,
+            251.4
+          ],
+          "question_anchor": "4.1",
+          "text_before": "κωνικό εξάρτθμα, με βάςθ το παρακάτω ςχιμα:",
+          "text_after": "Όπου:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25644": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#25644_fig01.png",
+        "c_michanourgiki-texnologia_ch04_#25644_fig02.png",
+        "c_michanourgiki-texnologia_ch04_#25644_fig03.png",
+        "c_michanourgiki-texnologia_ch04_#25644_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25644_fig01.png",
+          "bank_code": "25644",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 181,
+          "height": 137,
+          "sha1": "eca582a4ea16",
+          "bank_code_inherited": false,
+          "xref": 165,
+          "bbox": [
+            136.8,
+            210.4,
+            245.4,
+            292.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25644_fig02.png",
+          "bank_code": "25644",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 181,
+          "height": 111,
+          "sha1": "770f46653614",
+          "bank_code_inherited": false,
+          "xref": 166,
+          "bbox": [
+            136.8,
+            325.6,
+            245.4,
+            392.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25644_fig03.png",
+          "bank_code": "25644",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 153,
+          "height": 115,
+          "sha1": "71e78221e02e",
+          "bank_code_inherited": false,
+          "xref": 167,
+          "bbox": [
+            145.2,
+            425.2,
+            236.8,
+            494.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#25644_fig04.png",
+          "bank_code": "25644",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 160,
+          "height": 119,
+          "sha1": "c6441b49be95",
+          "bank_code_inherited": false,
+          "xref": 168,
+          "bbox": [
+            142.8,
+            527.2,
+            239.4,
+            598.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "4.",
+          "text_after": "ε. Τόρνευση μορφής",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27329": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27329_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27329_fig01.png",
+          "bank_code": "27329",
+          "role": "fig",
+          "page": 34,
+          "kind": "embedded",
+          "width": 481,
+          "height": 308,
+          "sha1": "af4697ce9fa5",
+          "bank_code_inherited": false,
+          "xref": 1119,
+          "bbox": [
+            196.4,
+            334.3,
+            398.6,
+            463.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "2.2 Στο παρακάτω σχήμα, παρουσιάζονται τα βασικά γεωμετρικά στοιχεία ενός κώνου που  έχει ",
+          "text_after": "Τί ονομάζουμε κωνικότητα σε έναν κώνο (Μονάδες 4), πώς αυτή συμβολίζεται (Μονάδες 2)  και ",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27558": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27558_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27558_fig01.png",
+          "bank_code": "27558",
+          "role": "fig",
+          "page": 46,
+          "kind": "embedded",
+          "width": 824,
+          "height": 533,
+          "sha1": "1d852e729338",
+          "bank_code_inherited": false,
+          "xref": 1647,
+          "bbox": [
+            90.0,
+            159.8,
+            530.2,
+            410.8
+          ],
+          "question_anchor": null,
+          "text_before": "σετε:",
+          "text_after": "α. Τη μέγιστη ταχύτητα κατεργασίας εκχόνδρισης σπειρώματος Us, που είναι η ενδεδειγμένη",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27559": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27559_fig01.png"
+      ],
+      "sol": [
+        "c_michanourgiki-texnologia_ch04_#27559_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27559_fig01.png",
+          "bank_code": "27559",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 388,
+          "height": 203,
+          "sha1": "c1f7909c9d1f",
+          "bank_code_inherited": false,
+          "xref": 1212,
+          "bbox": [
+            90.0,
+            193.0,
+            284.0,
+            294.5
+          ],
+          "question_anchor": null,
+          "text_before": "D= 20 mm, d=10mm, l= 20 mm.",
+          "text_after": "Δίνεται:  εφ(φ)=0,25 όταν η γωνία φ= 14,036ο.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27559_sol01.png",
+          "bank_code": "27559",
+          "role": "sol",
+          "page": 37,
+          "kind": "embedded",
+          "width": 394,
+          "height": 258,
+          "sha1": "4cdd08302965",
+          "bank_code_inherited": false,
+          "xref": 1270,
+          "bbox": [
+            126.0,
+            221.2,
+            296.5,
+            324.6
+          ],
+          "question_anchor": null,
+          "text_before": "β.  Ο άξονας του κομματιού έχει μια κλίση ίση με την ημιγωνία του κώνου α/2.",
+          "text_after": "Οπότε η ρύθμιση που θα πρέπει να γίνει είναι: στροφή του φορείου του εργαλειοδέτη  κατά γω",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27560": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27560_fig01.png"
+      ],
+      "sol": [
+        "c_michanourgiki-texnologia_ch04_#27560_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27560_fig01.png",
+          "bank_code": "27560",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 620,
+          "height": 236,
+          "sha1": "7cbc62e9f277",
+          "bank_code_inherited": false,
+          "xref": 1314,
+          "bbox": [
+            156.6,
+            181.9,
+            478.6,
+            306.4
+          ],
+          "question_anchor": null,
+          "text_before": "D= 40 mm, d=30 mm, L= 180 mm, l= 120 mm.",
+          "text_after": "α. Εάν επιλέξετε να κάνετε την κατεργασία με εγκάρσια μετατόπιση του κεντροφορέα, να",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27560_sol01.png",
+          "bank_code": "27560",
+          "role": "sol",
+          "page": 39,
+          "kind": "embedded",
+          "width": 950,
+          "height": 392,
+          "sha1": "32825ce9aa0c",
+          "bank_code_inherited": false,
+          "xref": 1368,
+          "bbox": [
+            182.9,
+            181.9,
+            452.9,
+            303.2
+          ],
+          "question_anchor": null,
+          "text_before": "κομματιού έχει μια κλίση ίση με την ημιγωνία του τόρνου α/2.",
+          "text_after": "𝑉= 𝐷−𝑑",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27599": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27599_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27599_fig01.png",
+          "bank_code": "27599",
+          "role": "fig",
+          "page": 50,
+          "kind": "embedded",
+          "width": 652,
+          "height": 594,
+          "sha1": "bab0e8a7668f",
+          "bank_code_inherited": false,
+          "xref": 1811,
+          "bbox": [
+            151.4,
+            454.9,
+            445.1,
+            722.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27616": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27616_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27616_fig01.png",
+          "bank_code": "27616",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 412,
+          "height": 420,
+          "sha1": "35eb65ce5f4d",
+          "bank_code_inherited": false,
+          "xref": 760,
+          "bbox": [
+            70.9,
+            489.3,
+            263.1,
+            685.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α. Γωνία κοπής",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27617": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#27617_fig01.png",
+        "c_michanourgiki-texnologia_ch04_#27617_fig02.png",
+        "c_michanourgiki-texnologia_ch04_#27617_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27617_fig01.png",
+          "bank_code": "27617",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 279,
+          "height": 203,
+          "sha1": "a14401ed691b",
+          "bank_code_inherited": false,
+          "xref": 405,
+          "bbox": [
+            70.9,
+            181.7,
+            210.5,
+            283.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "πολύ κακή επιφάνεια στο κατεργαζόμενο τεμάχιο.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27617_fig02.png",
+          "bank_code": "27617",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 308,
+          "height": 200,
+          "sha1": "c6b8d5078991",
+          "bank_code_inherited": false,
+          "xref": 406,
+          "bbox": [
+            70.9,
+            313.1,
+            224.9,
+            413.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "μικραίνει η τριβή ανάμεσα στην ελεύθερη επιφάνεια του",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#27617_fig03.png",
+          "bank_code": "27617",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 288,
+          "height": 225,
+          "sha1": "81f7c62282be",
+          "bank_code_inherited": false,
+          "xref": 407,
+          "bbox": [
+            70.9,
+            442.7,
+            214.9,
+            555.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "μεγαλώνει η τριβή ανάμεσα στην ελεύθερη επιφάνεια του",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29136": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#29136_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29136_fig01.png",
+          "bank_code": "29136",
+          "role": "fig",
+          "page": 40,
+          "kind": "embedded",
+          "width": 530,
+          "height": 265,
+          "sha1": "228901f93049",
+          "bank_code_inherited": false,
+          "xref": 1412,
+          "bbox": [
+            139.4,
+            185.3,
+            457.4,
+            344.3
+          ],
+          "question_anchor": null,
+          "text_before": "θα ακολουθήσετε προκειμένου να πραγματοποιήσετε την αντιγραφή.",
+          "text_after": "Σχήμα1 Μηχανισμός αντιγραφής κώνου.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29152": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#29152_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29152_fig01.png",
+          "bank_code": "29152",
+          "role": "fig",
+          "page": 55,
+          "kind": "embedded",
+          "width": 444,
+          "height": 303,
+          "sha1": "c2c107700dbc",
+          "bank_code_inherited": false,
+          "xref": 1963,
+          "bbox": [
+            164.9,
+            162.8,
+            431.4,
+            344.9
+          ],
+          "question_anchor": null,
+          "text_before": "1).",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29153": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#29153_fig01.png",
+        "c_michanourgiki-texnologia_ch04_#29153_fig02.png"
+      ],
+      "sol": [
+        "c_michanourgiki-texnologia_ch04_#29153_sol01.png",
+        "c_michanourgiki-texnologia_ch04_#29153_sol02.png",
+        "c_michanourgiki-texnologia_ch04_#29153_sol03.png",
+        "c_michanourgiki-texnologia_ch04_#29153_sol04.png",
+        "c_michanourgiki-texnologia_ch04_#29153_sol05.png"
+      ],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_fig01.png",
+          "bank_code": "29153",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 586,
+          "height": 386,
+          "sha1": "d177d2214219",
+          "bank_code_inherited": false,
+          "xref": 915,
+          "bbox": [
+            139.4,
+            208.3,
+            456.8,
+            417.5
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνονται :",
+          "text_after": "Πίνακας 1 .",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_fig02.png",
+          "bank_code": "29153",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 540,
+          "height": 441,
+          "sha1": "d7fd51bb1b5d",
+          "bank_code_inherited": false,
+          "xref": 916,
+          "bbox": [
+            175.4,
+            495.1,
+            420.8,
+            695.5
+          ],
+          "question_anchor": null,
+          "text_before": "για κατεργασίες στον τόρνο.",
+          "text_after": "Σχήμα 1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_sol01.png",
+          "bank_code": "29153",
+          "role": "sol",
+          "page": 28,
+          "kind": "embedded",
+          "width": 685,
+          "height": 448,
+          "sha1": "b52df7bdfdde",
+          "bank_code_inherited": false,
+          "xref": 954,
+          "bbox": [
+            108.4,
+            186.5,
+            519.4,
+            455.5
+          ],
+          "question_anchor": null,
+          "text_before": " η ταχύτητα κοπής για το φινίρισμα είναι u = 24 m/min",
+          "text_after": "Πίνακας 1 .Τιμές γωνιών κοπής, ταχυτήτων κοπής, προώσεων, βαθών κοπής και υγρών",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_sol02.png",
+          "bank_code": "29153",
+          "role": "sol",
+          "page": 29,
+          "kind": "embedded",
+          "width": 457,
+          "height": 393,
+          "sha1": "556afdd14ad5",
+          "bank_code_inherited": true,
+          "xref": 997,
+          "bbox": [
+            161.1,
+            70.9,
+            435.4,
+            306.7
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_sol03.png",
+          "bank_code": "29153",
+          "role": "sol",
+          "page": 29,
+          "kind": "embedded",
+          "width": 490,
+          "height": 390,
+          "sha1": "08d7e7f6e22a",
+          "bank_code_inherited": true,
+          "xref": 998,
+          "bbox": [
+            169.4,
+            453.1,
+            463.4,
+            687.1
+          ],
+          "question_anchor": null,
+          "text_before": " και στροφές n =74 στρ/min",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_sol04.png",
+          "bank_code": "29153",
+          "role": "sol",
+          "page": 30,
+          "kind": "embedded",
+          "width": 507,
+          "height": 396,
+          "sha1": "02da01441686",
+          "bank_code_inherited": true,
+          "xref": 1001,
+          "bbox": [
+            164.1,
+            139.6,
+            468.4,
+            377.2
+          ],
+          "question_anchor": null,
+          "text_before": " και ταχύτητα κοπής στο φινίρισμα u = 24 m/min,",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29153_sol05.png",
+          "bank_code": "29153",
+          "role": "sol",
+          "page": 30,
+          "kind": "embedded",
+          "width": 516,
+          "height": 399,
+          "sha1": "8fd057e3cf1c",
+          "bank_code_inherited": true,
+          "xref": 1002,
+          "bbox": [
+            181.4,
+            523.6,
+            451.3,
+            732.5
+          ],
+          "question_anchor": null,
+          "text_before": " και στροφές n =74 στρ/min",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29154": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch04_#29154_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch04_#29154_fig01.png",
+          "bank_code": "29154",
+          "role": "fig",
+          "page": 57,
+          "kind": "embedded",
+          "width": 341,
+          "height": 202,
+          "sha1": "8f3e5d634c39",
+          "bank_code_inherited": false,
+          "xref": 2037,
+          "bbox": [
+            196.2,
+            140.9,
+            400.7,
+            262.0
+          ],
+          "question_anchor": null,
+          "text_before": "σε ένα τεμάχιο. (Σχήμα 1).",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

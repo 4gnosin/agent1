@@ -20,8 +20,8 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "α) Με βάση τα παρακάτω σχήματα, να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
         "images": [
           "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
           "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
           "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png"
         ],

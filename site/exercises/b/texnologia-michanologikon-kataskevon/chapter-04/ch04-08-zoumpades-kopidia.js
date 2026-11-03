@@ -140,25 +140,25 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "2": "c",
           "3": "b"
         },
-        "explain": "1 - α (Κοίλος ζουμπάς), 2 - γ (Παράλληλος ολόσωμος ζουμπάς), 3 - β (Κωνικός ολόσωμος ζουμπάς).",
-        "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig03.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png"
-        ]
+        "explain": "1 - α (Κοίλος ζουμπάς), 2 - γ (Παράλληλος ολόσωμος ζουμπάς), 3 - β (Κωνικός ολόσωμος ζουμπάς)."
       },
       {
         "kind": "match",
         "subq": "2.2",
-        "subqPrompt": "2.2 Με βάση τα είδη κλειδιών, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
+        "subqPrompt": "2.2 Με βάση τα παρακάτω σχήματα όπου απεικονίζονται τα είδη κλειδιών, να αντιστοιχίσετε τα κλειδιά 1, 2, 3, 4 της Στήλης Α με τα αντίστοιχα σχήματα (α, β, γ, δ) της Στήλης Β.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png",
           "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png"
         ],
+        "imageLabels": [
+          "α. Εικόνα α",
+          "β. Εικόνα β",
+          "γ. Εικόνα γ",
+          "δ. Εικόνα δ"
+        ],
+        "imageLayout": "grid",
         "left": [
           {
             "id": "1",
@@ -180,19 +180,19 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "right": [
           {
             "id": "a",
-            "text": "α"
+            "text": "Εικόνα α"
           },
           {
             "id": "b",
-            "text": "β"
+            "text": "Εικόνα β"
           },
           {
             "id": "c",
-            "text": "γ"
+            "text": "Εικόνα γ"
           },
           {
             "id": "d",
-            "text": "δ"
+            "text": "Εικόνα δ"
           }
         ],
         "pairs": {
@@ -201,7 +201,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "3": "a",
           "4": "c"
         },
-        "explain": "1 - β (Γερμανικό κλειδί), 2 - δ (Σωληνοκάβουρας), 3 - α (Πολυγωνικό κλειδί), 4 - γ (Γαλλικό κλειδί)."
+        "explain": "1 - β (Γερμανικό κλειδί: εικόνα β), 2 - δ (Σωληνοκάβουρας: εικόνα δ), 3 - α (Πολυγωνικό κλειδί: εικόνα α), 4 - γ (Γαλλικό κλειδί: εικόνα γ)."
       }
     ]
   },

@@ -1,0 +1,125 @@
+{
+  "source_pdf": "c_stoixeia-michanon_ch11.pdf",
+  "grade": "c",
+  "subject": "stoixeia-michanon",
+  "chapter": 11,
+  "stem": "c_stoixeia-michanon_ch11",
+  "total_pages": 11,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-michanon_ch11_#30677_fig01.png",
+      "bank_code": "30677",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 333,
+      "height": 549,
+      "sha1": "e2a29c5cd950",
+      "bank_code_inherited": false,
+      "xref": 14,
+      "bbox": [
+        205.4,
+        180.6,
+        389.8,
+        483.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σθμειϊνεται ότι ζνα (1) γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+      "text_after": "Στήλη Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch11_#23889_fig01.png",
+      "bank_code": "23889",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 495,
+      "height": 794,
+      "sha1": "ab0a49b0ef28",
+      "bank_code_inherited": false,
+      "xref": 93,
+      "bbox": [
+        112.1,
+        168.8,
+        483.4,
+        667.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23889": {
+      "fig": [
+        "c_stoixeia-michanon_ch11_#23889_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch11_#23889_fig01.png",
+          "bank_code": "23889",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 495,
+          "height": 794,
+          "sha1": "ab0a49b0ef28",
+          "bank_code_inherited": false,
+          "xref": 93,
+          "bbox": [
+            112.1,
+            168.8,
+            483.4,
+            667.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30677": {
+      "fig": [
+        "c_stoixeia-michanon_ch11_#30677_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch11_#30677_fig01.png",
+          "bank_code": "30677",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 333,
+          "height": 549,
+          "sha1": "e2a29c5cd950",
+          "bank_code_inherited": false,
+          "xref": 14,
+          "bbox": [
+            205.4,
+            180.6,
+            389.8,
+            483.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σθμειϊνεται ότι ζνα (1) γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+          "text_after": "Στήλη Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

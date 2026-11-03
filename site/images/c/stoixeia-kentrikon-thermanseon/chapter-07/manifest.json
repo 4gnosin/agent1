@@ -1,0 +1,893 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch07.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 7,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch07",
+  "total_pages": 42,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#25175_fig01.png",
+      "bank_code": "25175",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 862,
+      "height": 379,
+      "sha1": "44068c5acdec",
+      "bank_code_inherited": false,
+      "xref": 14,
+      "bbox": [
+        72.4,
+        202.7,
+        525.9,
+        413.7
+      ],
+      "question_anchor": null,
+      "text_before": "από τθ Στιλθ Β κα περιςςζψει.  (Μονάδες 12)",
+      "text_after": "Στήλη Α  Στήλη Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.png",
+      "bank_code": "24314",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 356,
+      "height": 287,
+      "sha1": "09b6915950f3",
+      "bank_code_inherited": false,
+      "xref": 353,
+      "bbox": [
+        164.1,
+        170.3,
+        431.1,
+        385.5
+      ],
+      "question_anchor": null,
+      "text_before": "η θερμοκρασιακή πτώση του κυκλώματος είναι Δt = 15 οC.",
+      "text_after": "α) Να υπολογίσετε την απαιτούμενη παροχή V του νερού που κυκλοφορεί στους",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.png",
+      "bank_code": "24314",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 646,
+      "height": 796,
+      "sha1": "8484a7fe5d70",
+      "bank_code_inherited": true,
+      "xref": 398,
+      "bbox": [
+        70.9,
+        70.9,
+        526.2,
+        678.4
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_sol01.png",
+      "bank_code": "24314",
+      "role": "sol",
+      "page": 13,
+      "kind": "embedded",
+      "width": 696,
+      "height": 796,
+      "sha1": "a0b5301324a2",
+      "bank_code_inherited": true,
+      "xref": 451,
+      "bbox": [
+        82.0,
+        70.9,
+        513.3,
+        456.4
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.png",
+      "bank_code": "24317",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 696,
+      "height": 564,
+      "sha1": "39673b95c23c",
+      "bank_code_inherited": false,
+      "xref": 456,
+      "bbox": [
+        77.9,
+        466.2,
+        517.2,
+        754.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png",
+      "bank_code": "24389",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 646,
+      "height": 796,
+      "sha1": "8484a7fe5d70",
+      "bank_code_inherited": true,
+      "xref": 597,
+      "bbox": [
+        70.9,
+        70.9,
+        529.1,
+        683.5
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol01.png",
+      "bank_code": "24389",
+      "role": "sol",
+      "page": 19,
+      "kind": "embedded",
+      "width": 696,
+      "height": 796,
+      "sha1": "a0b5301324a2",
+      "bank_code_inherited": false,
+      "xref": 602,
+      "bbox": [
+        80.2,
+        226.0,
+        515.2,
+        736.7
+      ],
+      "question_anchor": null,
+      "text_before": "• ταχύτητα ροής v = 0,7 m/s",
+      "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol02.png",
+      "bank_code": "24389",
+      "role": "sol",
+      "page": 20,
+      "kind": "embedded",
+      "width": 517,
+      "height": 672,
+      "sha1": "81e1fd874f13",
+      "bank_code_inherited": true,
+      "xref": 643,
+      "bbox": [
+        75.7,
+        136.8,
+        519.7,
+        706.1
+      ],
+      "question_anchor": null,
+      "text_before": "επιλέγουμε χαλυβδοσωλήνα διαστάσεων 16 x 1,2.",
+      "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.png",
+      "bank_code": "28611",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 701,
+      "height": 918,
+      "sha1": "eb9e1a8672e7",
+      "bank_code_inherited": true,
+      "xref": 951,
+      "bbox": [
+        70.9,
+        70.9,
+        522.4,
+        662.4
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28611_sol01.png",
+      "bank_code": "28611",
+      "role": "sol",
+      "page": 30,
+      "kind": "embedded",
+      "width": 886,
+      "height": 1143,
+      "sha1": "b7c3761e4767",
+      "bank_code_inherited": true,
+      "xref": 989,
+      "bbox": [
+        70.9,
+        70.9,
+        523.4,
+        654.7
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.png",
+      "bank_code": "28612",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 631,
+      "height": 905,
+      "sha1": "c078b75a9f90",
+      "bank_code_inherited": true,
+      "xref": 1035,
+      "bbox": [
+        70.9,
+        70.9,
+        523.7,
+        720.6
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Διάγραμμα χαρακτηριστικών για χαλκοσωλήνες.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28612_sol01.png",
+      "bank_code": "28612",
+      "role": "sol",
+      "page": 34,
+      "kind": "embedded",
+      "width": 631,
+      "height": 905,
+      "sha1": "c078b75a9f90",
+      "bank_code_inherited": true,
+      "xref": 1073,
+      "bbox": [
+        70.9,
+        70.9,
+        523.7,
+        720.6
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.png",
+      "bank_code": "28613",
+      "role": "fig",
+      "page": 35,
+      "kind": "embedded",
+      "width": 434,
+      "height": 403,
+      "sha1": "5f37e5a23c4d",
+      "bank_code_inherited": false,
+      "xref": 1078,
+      "bbox": [
+        172.0,
+        334.6,
+        423.3,
+        567.9
+      ],
+      "question_anchor": null,
+      "text_before": "εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.png",
+      "bank_code": "28613",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 757,
+      "height": 928,
+      "sha1": "5662cb84cfdb",
+      "bank_code_inherited": true,
+      "xref": 1128,
+      "bbox": [
+        70.9,
+        70.9,
+        522.6,
+        624.8
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_sol01.png",
+      "bank_code": "28613",
+      "role": "sol",
+      "page": 38,
+      "kind": "embedded",
+      "width": 782,
+      "height": 977,
+      "sha1": "32ebf2e74b9b",
+      "bank_code_inherited": true,
+      "xref": 1178,
+      "bbox": [
+        70.9,
+        70.9,
+        523.3,
+        636.2
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.png",
+      "bank_code": "28614",
+      "role": "fig",
+      "page": 39,
+      "kind": "embedded",
+      "width": 897,
+      "height": 360,
+      "sha1": "0ce7fae6eb63",
+      "bank_code_inherited": false,
+      "xref": 1183,
+      "bbox": [
+        70.9,
+        268.6,
+        524.4,
+        450.6
+      ],
+      "question_anchor": null,
+      "text_before": "δ) Να υπολογιστεί η πτώση πίεσης Δp για το βρόχο. (Μονάδες 10)",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.png",
+      "bank_code": "28614",
+      "role": "fig",
+      "page": 40,
+      "kind": "embedded",
+      "width": 631,
+      "height": 905,
+      "sha1": "c078b75a9f90",
+      "bank_code_inherited": true,
+      "xref": 1233,
+      "bbox": [
+        70.9,
+        70.9,
+        523.7,
+        720.3
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "Διάγραμμα χαρακτηριστικών για χαλκοσωλήνα.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_sol01.png",
+      "bank_code": "28614",
+      "role": "sol",
+      "page": 42,
+      "kind": "embedded",
+      "width": 631,
+      "height": 905,
+      "sha1": "c078b75a9f90",
+      "bank_code_inherited": true,
+      "xref": 1283,
+      "bbox": [
+        70.9,
+        70.9,
+        523.7,
+        720.2
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "",
+      "is_full_page_scan": true
+    }
+  ],
+  "by_bank_code": {
+    "24314": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24314_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.png",
+          "bank_code": "24314",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 356,
+          "height": 287,
+          "sha1": "09b6915950f3",
+          "bank_code_inherited": false,
+          "xref": 353,
+          "bbox": [
+            164.1,
+            170.3,
+            431.1,
+            385.5
+          ],
+          "question_anchor": null,
+          "text_before": "η θερμοκρασιακή πτώση του κυκλώματος είναι Δt = 15 οC.",
+          "text_after": "α) Να υπολογίσετε την απαιτούμενη παροχή V του νερού που κυκλοφορεί στους",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.png",
+          "bank_code": "24314",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 646,
+          "height": 796,
+          "sha1": "8484a7fe5d70",
+          "bank_code_inherited": true,
+          "xref": 398,
+          "bbox": [
+            70.9,
+            70.9,
+            526.2,
+            678.4
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24314_sol01.png",
+          "bank_code": "24314",
+          "role": "sol",
+          "page": 13,
+          "kind": "embedded",
+          "width": 696,
+          "height": 796,
+          "sha1": "a0b5301324a2",
+          "bank_code_inherited": true,
+          "xref": 451,
+          "bbox": [
+            82.0,
+            70.9,
+            513.3,
+            456.4
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24317": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.png",
+          "bank_code": "24317",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 696,
+          "height": 564,
+          "sha1": "39673b95c23c",
+          "bank_code_inherited": false,
+          "xref": 456,
+          "bbox": [
+            77.9,
+            466.2,
+            517.2,
+            754.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24389": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png",
+          "bank_code": "24389",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 646,
+          "height": 796,
+          "sha1": "8484a7fe5d70",
+          "bank_code_inherited": true,
+          "xref": 597,
+          "bbox": [
+            70.9,
+            70.9,
+            529.1,
+            683.5
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol01.png",
+          "bank_code": "24389",
+          "role": "sol",
+          "page": 19,
+          "kind": "embedded",
+          "width": 696,
+          "height": 796,
+          "sha1": "a0b5301324a2",
+          "bank_code_inherited": false,
+          "xref": 602,
+          "bbox": [
+            80.2,
+            226.0,
+            515.2,
+            736.7
+          ],
+          "question_anchor": null,
+          "text_before": "• ταχύτητα ροής v = 0,7 m/s",
+          "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol02.png",
+          "bank_code": "24389",
+          "role": "sol",
+          "page": 20,
+          "kind": "embedded",
+          "width": 517,
+          "height": 672,
+          "sha1": "81e1fd874f13",
+          "bank_code_inherited": true,
+          "xref": 643,
+          "bbox": [
+            75.7,
+            136.8,
+            519.7,
+            706.1
+          ],
+          "question_anchor": null,
+          "text_before": "επιλέγουμε χαλυβδοσωλήνα διαστάσεων 16 x 1,2.",
+          "text_after": "Διάγραμμα 1: Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25175": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#25175_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#25175_fig01.png",
+          "bank_code": "25175",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 862,
+          "height": 379,
+          "sha1": "44068c5acdec",
+          "bank_code_inherited": false,
+          "xref": 14,
+          "bbox": [
+            72.4,
+            202.7,
+            525.9,
+            413.7
+          ],
+          "question_anchor": null,
+          "text_before": "από τθ Στιλθ Β κα περιςςζψει.  (Μονάδες 12)",
+          "text_after": "Στήλη Α  Στήλη Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28611": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28611_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.png",
+          "bank_code": "28611",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 701,
+          "height": 918,
+          "sha1": "eb9e1a8672e7",
+          "bank_code_inherited": true,
+          "xref": 951,
+          "bbox": [
+            70.9,
+            70.9,
+            522.4,
+            662.4
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28611_sol01.png",
+          "bank_code": "28611",
+          "role": "sol",
+          "page": 30,
+          "kind": "embedded",
+          "width": 886,
+          "height": 1143,
+          "sha1": "b7c3761e4767",
+          "bank_code_inherited": true,
+          "xref": 989,
+          "bbox": [
+            70.9,
+            70.9,
+            523.4,
+            654.7
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        }
+      ]
+    },
+    "28612": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28612_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.png",
+          "bank_code": "28612",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 631,
+          "height": 905,
+          "sha1": "c078b75a9f90",
+          "bank_code_inherited": true,
+          "xref": 1035,
+          "bbox": [
+            70.9,
+            70.9,
+            523.7,
+            720.6
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Διάγραμμα χαρακτηριστικών για χαλκοσωλήνες.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28612_sol01.png",
+          "bank_code": "28612",
+          "role": "sol",
+          "page": 34,
+          "kind": "embedded",
+          "width": 631,
+          "height": 905,
+          "sha1": "c078b75a9f90",
+          "bank_code_inherited": true,
+          "xref": 1073,
+          "bbox": [
+            70.9,
+            70.9,
+            523.7,
+            720.6
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        }
+      ]
+    },
+    "28613": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28613_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.png",
+          "bank_code": "28613",
+          "role": "fig",
+          "page": 35,
+          "kind": "embedded",
+          "width": 434,
+          "height": 403,
+          "sha1": "5f37e5a23c4d",
+          "bank_code_inherited": false,
+          "xref": 1078,
+          "bbox": [
+            172.0,
+            334.6,
+            423.3,
+            567.9
+          ],
+          "question_anchor": null,
+          "text_before": "εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.png",
+          "bank_code": "28613",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 757,
+          "height": 928,
+          "sha1": "5662cb84cfdb",
+          "bank_code_inherited": true,
+          "xref": 1128,
+          "bbox": [
+            70.9,
+            70.9,
+            522.6,
+            624.8
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Χαρακτηριστικά εύκαμπτων χαλυβδοσωλήνων ενός κατασκευαστή.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28613_sol01.png",
+          "bank_code": "28613",
+          "role": "sol",
+          "page": 38,
+          "kind": "embedded",
+          "width": 782,
+          "height": 977,
+          "sha1": "32ebf2e74b9b",
+          "bank_code_inherited": true,
+          "xref": 1178,
+          "bbox": [
+            70.9,
+            70.9,
+            523.3,
+            636.2
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        }
+      ]
+    },
+    "28614": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch07_#28614_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.png",
+          "bank_code": "28614",
+          "role": "fig",
+          "page": 39,
+          "kind": "embedded",
+          "width": 897,
+          "height": 360,
+          "sha1": "0ce7fae6eb63",
+          "bank_code_inherited": false,
+          "xref": 1183,
+          "bbox": [
+            70.9,
+            268.6,
+            524.4,
+            450.6
+          ],
+          "question_anchor": null,
+          "text_before": "δ) Να υπολογιστεί η πτώση πίεσης Δp για το βρόχο. (Μονάδες 10)",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.png",
+          "bank_code": "28614",
+          "role": "fig",
+          "page": 40,
+          "kind": "embedded",
+          "width": 631,
+          "height": 905,
+          "sha1": "c078b75a9f90",
+          "bank_code_inherited": true,
+          "xref": 1233,
+          "bbox": [
+            70.9,
+            70.9,
+            523.7,
+            720.3
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "Διάγραμμα χαρακτηριστικών για χαλκοσωλήνα.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch07_#28614_sol01.png",
+          "bank_code": "28614",
+          "role": "sol",
+          "page": 42,
+          "kind": "embedded",
+          "width": 631,
+          "height": 905,
+          "sha1": "c078b75a9f90",
+          "bank_code_inherited": true,
+          "xref": 1283,
+          "bbox": [
+            70.9,
+            70.9,
+            523.7,
+            720.2
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "",
+          "is_full_page_scan": true
+        }
+      ]
+    }
+  }
+}

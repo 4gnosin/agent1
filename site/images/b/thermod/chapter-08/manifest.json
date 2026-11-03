@@ -1,0 +1,170 @@
+{
+  "source_pdf": "b_thermod_ch08.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 8,
+  "stem": "b_thermod_ch08",
+  "total_pages": 13,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch08_#17111_fig01.png",
+      "bank_code": "17111",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 176,
+      "height": 180,
+      "sha1": "81c5192cebe2",
+      "bank_code_inherited": false,
+      "xref": 206,
+      "bbox": [
+        127.8,
+        488.4,
+        259.8,
+        623.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β) Ποια περίπτωση δεν μπορεί να εφαρμοστεί σε μια θερμική μηχανή.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch08_#17111_fig02.png",
+      "bank_code": "17111",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 179,
+      "height": 171,
+      "sha1": "a4167f6cd733",
+      "bank_code_inherited": false,
+      "xref": 207,
+      "bbox": [
+        342.4,
+        499.6,
+        460.0,
+        611.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β) Ποια περίπτωση δεν μπορεί να εφαρμοστεί σε μια θερμική μηχανή.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch08_#29268_fig01.png",
+      "bank_code": "29268",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 419,
+      "height": 374,
+      "sha1": "02c4cf58a7e3",
+      "bank_code_inherited": false,
+      "xref": 369,
+      "bbox": [
+        182.1,
+        488.4,
+        413.9,
+        695.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β. Να δικαιολογήσετε την απάντησή σας. (μονάδες 10)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17111": {
+      "fig": [
+        "b_thermod_ch08_#17111_fig01.png",
+        "b_thermod_ch08_#17111_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch08_#17111_fig01.png",
+          "bank_code": "17111",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 176,
+          "height": 180,
+          "sha1": "81c5192cebe2",
+          "bank_code_inherited": false,
+          "xref": 206,
+          "bbox": [
+            127.8,
+            488.4,
+            259.8,
+            623.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β) Ποια περίπτωση δεν μπορεί να εφαρμοστεί σε μια θερμική μηχανή.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch08_#17111_fig02.png",
+          "bank_code": "17111",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 179,
+          "height": 171,
+          "sha1": "a4167f6cd733",
+          "bank_code_inherited": false,
+          "xref": 207,
+          "bbox": [
+            342.4,
+            499.6,
+            460.0,
+            611.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β) Ποια περίπτωση δεν μπορεί να εφαρμοστεί σε μια θερμική μηχανή.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29268": {
+      "fig": [
+        "b_thermod_ch08_#29268_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch08_#29268_fig01.png",
+          "bank_code": "29268",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 419,
+          "height": 374,
+          "sha1": "02c4cf58a7e3",
+          "bank_code_inherited": false,
+          "xref": 369,
+          "bbox": [
+            182.1,
+            488.4,
+            413.9,
+            695.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β. Να δικαιολογήσετε την απάντησή σας. (μονάδες 10)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -124,6 +124,16 @@ SUBJECT_CATALOG_IDS: dict[str, str] = {
     "texnologia-elegxou-diagnoseon": "texnologia-elegxou-diagnoseon",
     "texnologia-michanologikon-kataskevon": "texnologia-michanologikon-kataskevon",
     "naftiki-michanologia": "naftiki-michanologia",
+    "stoixeia-kentrikon-thermanseon": "stoixeia-kentrikon-thermanseon",
+    "michanourgiki-texnologia": "michanourgiki-texnologia",
+    "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon": (
+        "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
+    ),
+    "syntirisi-egkatastaseon-kafsis": "syntirisi-egkatastaseon-kafsis",
+    "kinitires-aeroskafon": "kinitires-aeroskafon",
+    "diadikasies-syntirisis-aeroskafon": "diadikasies-syntirisis-aeroskafon",
+    "domi-systimata-aeroskafon": "domi-systimata-aeroskafon",
+    "naftikes-michanes": "naftikes-michanes",
 }
 
 # Συνώνυμα / συντομογραφίες → κανονικό όνομα φακέλου subject
@@ -160,6 +170,28 @@ SUBJECT_ALIASES: dict[str, str] = {
     "kataskeves": "texnologia-michanologikon-kataskevon",
     "tmk": "texnologia-michanologikon-kataskevon",
     "naftiki-michanologia": "naftiki-michanologia",
+    "stoixeia-kentrikon-thermanseon": "stoixeia-kentrikon-thermanseon",
+    "kentrikes-thermanseis": "stoixeia-kentrikon-thermanseon",
+    "kentriki-thermansi": "stoixeia-kentrikon-thermanseon",
+    "thermanseis": "stoixeia-kentrikon-thermanseon",
+    "skth": "stoixeia-kentrikon-thermanseon",
+    "michanourgiki-texnologia": "michanourgiki-texnologia",
+    "michanourgiki": "michanourgiki-texnologia",
+    "ergaleiomichanes": "michanourgiki-texnologia",
+    "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon": (
+        "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
+    ),
+    "stoixeia-psyxis-michanologikon": (
+        "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
+    ),
+    "psyxi-michanologikon": (
+        "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
+    ),
+    "syntirisi-egkatastaseon-kafsis": "syntirisi-egkatastaseon-kafsis",
+    "kinitires-aeroskafon": "kinitires-aeroskafon",
+    "diadikasies-syntirisis-aeroskafon": "diadikasies-syntirisis-aeroskafon",
+    "domi-systimata-aeroskafon": "domi-systimata-aeroskafon",
+    "naftikes-michanes": "naftikes-michanes",
 }
 
 # grade_subject_chNN  ή  grade-subject-chapter-NN  (+ προαιρετικό υπόλοιπο τίτλου)

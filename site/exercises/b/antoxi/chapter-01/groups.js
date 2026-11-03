@@ -3,16 +3,16 @@ window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [],
 window.SUBJECT_DATA["antoxi"].groups.push(...
 [
   {
-    "id": "ch01-01-dynami-kai-charaktiristika",
+    "id": "ch01-01-i-dynami-kai-ta-charaktiristika-tis",
+    "chapter": "1",
     "title": "1.1 Η δύναμη και τα χαρακτηριστικά της - Είδη δυνάμεων",
-    "blurb": "Έννοια της δύναμης, χαρακτηριστικά, είδη δυνάμεων και συστήματα δυνάμεων.",
-    "chapter": "1"
+    "blurb": "Βασικές έννοιες της δύναμης, χαρακτηριστικά, σύστημα δυνάμεων και συνισταμένη."
   },
   {
-    "id": "ch01-02-arches-tis-statikis",
+    "id": "ch01-02-oi-arches-tis-statikis",
+    "chapter": "1",
     "title": "1.2 Οι αρχές της στατικής",
-    "blurb": "Αρχές της στατικής, συνισταμένη δυνάμεων, ισορροπία και επίλυση συστημάτων δυνάμεων.",
-    "chapter": "1"
+    "blurb": "Συνισταμένη δυνάμεων, γωνίες και αρχές της Στατικής."
   }
 ]
 );

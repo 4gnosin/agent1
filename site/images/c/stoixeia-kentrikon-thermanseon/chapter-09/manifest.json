@@ -1,0 +1,261 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch09.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 9,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch09",
+  "total_pages": 21,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.png",
+      "bank_code": "28548",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 286,
+      "height": 349,
+      "sha1": "f9ef88bb72e7",
+      "bank_code_inherited": false,
+      "xref": 14,
+      "bbox": [
+        143.0,
+        211.0,
+        220.0,
+        305.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig02.png",
+      "bank_code": "28548",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 531,
+      "height": 357,
+      "sha1": "22390a5f3847",
+      "bank_code_inherited": false,
+      "xref": 15,
+      "bbox": [
+        101.6,
+        338.0,
+        261.2,
+        445.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig03.png",
+      "bank_code": "28548",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 342,
+      "height": 272,
+      "sha1": "67cfc0739f8e",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        90.0,
+        501.4,
+        273.0,
+        647.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28564_fig01.png",
+      "bank_code": "28564",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 354,
+      "height": 378,
+      "sha1": "f64a958faa40",
+      "bank_code_inherited": false,
+      "xref": 242,
+      "bbox": [
+        179.8,
+        277.7,
+        445.3,
+        561.2
+      ],
+      "question_anchor": null,
+      "text_before": "γ) Την πραγματική απόδοση του σώματος (μονάδες 10)",
+      "text_after": "Διάγραμμα διόρθωσης απόδοσης σώματος",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28564_sol01.png",
+      "bank_code": "28564",
+      "role": "sol",
+      "page": 10,
+      "kind": "embedded",
+      "width": 354,
+      "height": 378,
+      "sha1": "f64a958faa40",
+      "bank_code_inherited": false,
+      "xref": 304,
+      "bbox": [
+        165.6,
+        335.0,
+        431.1,
+        618.5
+      ],
+      "question_anchor": null,
+      "text_before": "για tεν =60℃ ο συντελεστής διόρθωσης σδ = 1",
+      "text_after": "Διάγραμμα διόρθωσης απόδοσης σώματος",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "28548": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig02.png",
+        "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.png",
+          "bank_code": "28548",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 286,
+          "height": 349,
+          "sha1": "f9ef88bb72e7",
+          "bank_code_inherited": false,
+          "xref": 14,
+          "bbox": [
+            143.0,
+            211.0,
+            220.0,
+            305.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig02.png",
+          "bank_code": "28548",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 531,
+          "height": 357,
+          "sha1": "22390a5f3847",
+          "bank_code_inherited": false,
+          "xref": 15,
+          "bbox": [
+            101.6,
+            338.0,
+            261.2,
+            445.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig03.png",
+          "bank_code": "28548",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 342,
+          "height": 272,
+          "sha1": "67cfc0739f8e",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            90.0,
+            501.4,
+            273.0,
+            647.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28564": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch09_#28564_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch09_#28564_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28564_fig01.png",
+          "bank_code": "28564",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 354,
+          "height": 378,
+          "sha1": "f64a958faa40",
+          "bank_code_inherited": false,
+          "xref": 242,
+          "bbox": [
+            179.8,
+            277.7,
+            445.3,
+            561.2
+          ],
+          "question_anchor": null,
+          "text_before": "γ) Την πραγματική απόδοση του σώματος (μονάδες 10)",
+          "text_after": "Διάγραμμα διόρθωσης απόδοσης σώματος",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch09_#28564_sol01.png",
+          "bank_code": "28564",
+          "role": "sol",
+          "page": 10,
+          "kind": "embedded",
+          "width": 354,
+          "height": 378,
+          "sha1": "f64a958faa40",
+          "bank_code_inherited": false,
+          "xref": 304,
+          "bbox": [
+            165.6,
+            335.0,
+            431.1,
+            618.5
+          ],
+          "question_anchor": null,
+          "text_before": "για tεν =60℃ ο συντελεστής διόρθωσης σδ = 1",
+          "text_after": "Διάγραμμα διόρθωσης απόδοσης σώματος",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

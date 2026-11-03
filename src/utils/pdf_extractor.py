@@ -39,6 +39,20 @@ _SYMBOL_REPLACEMENTS = (
     ("\u200b", ""),   # zero-width space
 )
 
+_CYRILLIC_HOMOGLYPHS = str.maketrans({
+    "К": "Κ", "к": "κ",
+    "А": "Α", "а": "α",
+    "В": "Β",
+    "Е": "Ε", "е": "ε",
+    "Н": "Η",
+    "М": "Μ",
+    "О": "Ο", "о": "ο",
+    "Р": "Ρ", "р": "ρ",
+    "С": "Σ", "с": "σ",
+    "Т": "Τ",
+    "Х": "Χ", "х": "χ",
+})
+
 
 def normalize_pdf_symbols(text: str) -> str:
     """
@@ -48,6 +62,7 @@ def normalize_pdf_symbols(text: str) -> str:
     for old, new in _SYMBOL_REPLACEMENTS:
         text = text.replace(old, new)
 
+    text = text.translate(_CYRILLIC_HOMOGLYPHS)
     text = text.translate(_MATH_ITALIC_MAP)
 
     # Κάθετα κλάσματα μονάδων:  15 \n KJ \n Kg  →  15 KJ/Kg
@@ -94,7 +109,11 @@ def sort_page_blocks_and_images(items: list[dict], page_width: float = 595.0) ->
 
     for it in items:
         r = it["rect"]
-        is_wide = (r.x1 - r.x0 > page_width * 0.55) or (r.x0 < 120 and r.x1 > page_width * 0.65)
+        is_wide = (
+            bool(it.get("force_wide"))
+            or (r.x1 - r.x0 > page_width * 0.55)
+            or (r.x0 < 120 and r.x1 > page_width * 0.65)
+        )
         it["is_wide"] = is_wide
         it["col"] = -1 if is_wide else (0 if r.x1 <= mid_x + 35 else 1)
 
@@ -320,31 +339,76 @@ def extract_chapter_from_pdf(
 
             blocks = page.get_text("blocks")
             img_rects = [fitz.Rect(img["bbox"]) for img in p_imgs if img.get("bbox")]
+
+            # Ομαδοποίηση εικόνων της ίδιας οριζόντιας γραμμής (ζεύγη δίπλα-δίπλα)
+            img_rows: list[tuple[fitz.Rect, list[dict]]] = []
+            for img in p_imgs:
+                bbox = img.get("bbox") or [0, 0, 0, 0]
+                ir = fitz.Rect(bbox)
+                placed_in_row = False
+                for idx_r, (rr, r_list) in enumerate(img_rows):
+                    # Έλεγχος αν έχουν κοινό row_id ή κατακόρυφη επικάλυψη > 35%
+                    same_row_id = bool(img.get("row_id") and r_list[0].get("row_id") == img.get("row_id"))
+                    overlap_h = min(rr.y1, ir.y1) - max(rr.y0, ir.y0)
+                    min_h = max(1.0, min(rr.height, ir.height))
+                    if same_row_id or overlap_h > 0.35 * min_h:
+                        r_list.append(img)
+                        img_rows[idx_r] = (rr | ir, r_list)
+                        placed_in_row = True
+                        break
+                if not placed_in_row:
+                    img_rows.append((ir, [img]))
+
             raw_items = []
             for b in blocks:
                 t = b[4].strip()
                 if not t:
                     continue
                 r = fitz.Rect(b[:4])
-                # Καταστολή κειμένων (π.χ. 1, 2, 3, 4) που είναι ήδη overlays μέσα στην εικόνα
-                if any(ir.contains(r) or (ir.intersects(r) and (ir & r).get_area() > 0.5 * r.get_area()) for ir in img_rects):
-                    continue
                 cleaned = clean_greek_pdf_text(t)
+                is_item_num = bool(re.fullmatch(r"\d+[\.\)]", cleaned))
+                # Καταστολή κειμένων που είναι ήδη overlays μέσα στην εικόνα (εκτός αν είναι εξωτερικός αριθμός ερωτήματος 1., 2., 3.)
+                if not is_item_num and any(
+                    ir.contains(r) or (ir.intersects(r) and (ir & r).get_area() > 0.5 * r.get_area())
+                    for ir in img_rects
+                ):
+                    continue
                 if b[1] < 65 and "#" in cleaned:
                     prefix = "### " if cleaned.lower().startswith("λύση") or cleaned.lower().startswith("λυση") else "## "
                     content = f"{prefix}{cleaned}"
                 else:
                     content = cleaned
-                raw_items.append({"rect": r, "type": "text", "content": content})
 
-            for img in p_imgs:
-                bbox = img.get("bbox") or [0, 0, 0, 0]
-                r = fitz.Rect(bbox)
-                f_name = img["file"]
-                src_url = f"{web_prefix}/{f_name}" if web_prefix else f_name
-                anchor = f" ({img.get('question_anchor')})" if img.get("question_anchor") else ""
-                tag = f"![{f_name}{anchor}]({src_url})"
-                raw_items.append({"rect": r, "type": "image", "content": tag})
+                force_wide = False
+                # Αν είναι αριθμός υποερωτήματος (π.χ. '1.', '2.', '3.') ευθυγραμμισμένος στη βάση μιας γραμμής εικόνων,
+                # τοποθέτησέ τον ακριβώς ΠΡΙΝ από το ζεύγος εικόνων ώστε να μη διασπά τη διάταξη
+                if is_item_num:
+                    for rr, _ in img_rows:
+                        if rr.y0 - 15 <= r.y0 <= rr.y1 + 12:
+                            r = fitz.Rect(r.x0, rr.y0 - 2.0, page.rect.width, rr.y0 - 0.5)
+                            force_wide = True
+                            break
+
+                raw_items.append({"rect": r, "type": "text", "content": content, "force_wide": force_wide})
+
+            for rr, r_list in img_rows:
+                r_list.sort(key=lambda im: (im.get("bbox") or [0, 0, 0, 0])[0])
+                tags = []
+                for img in r_list:
+                    f_name = img["file"]
+                    src_url = f"{web_prefix}/{f_name}" if web_prefix else f_name
+                    anchor = f" ({img.get('question_anchor')})" if img.get("question_anchor") else ""
+                    tags.append(f"![{f_name}{anchor}]({src_url})")
+                if len(tags) > 1:
+                    content = f"<!-- Ζεύγος εικόνων δίπλα-δίπλα ({len(tags)} εικόνες) -->\n" + " ".join(tags)
+                else:
+                    content = tags[0]
+                raw_items.append({
+                    "rect": rr,
+                    "type": "image_row" if len(tags) > 1 else "image",
+                    "content": content,
+                    "force_wide": len(tags) > 1,
+                })
 
             ordered = sort_page_blocks_and_images(raw_items, page_width=page.rect.width)
             page_content = "\n\n".join(it["content"] for it in ordered if it["content"]).strip()

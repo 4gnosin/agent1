@@ -1,0 +1,461 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch05.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 5,
+  "stem": "c_michanourgiki-texnologia_ch05",
+  "total_pages": 28,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#27199_fig01.png",
+      "bank_code": "27199",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 306,
+      "height": 415,
+      "sha1": "3d698fe8f317",
+      "bank_code_inherited": false,
+      "xref": 97,
+      "bbox": [
+        212.2,
+        180.7,
+        383.0,
+        412.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#25470_fig01.png",
+      "bank_code": "25470",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 670,
+      "height": 451,
+      "sha1": "e5d023423bea",
+      "bank_code_inherited": false,
+      "xref": 303,
+      "bbox": [
+        136.1,
+        202.7,
+        486.5,
+        439.6
+      ],
+      "question_anchor": null,
+      "text_before": "χφτθτα κοπισ u ςε m/min (Μονάδες 5).",
+      "text_after": "2. Με χριςθ του παρακάτω πίνακα, να επιλζξετε τισ ςτροφζσ του κοπτικοφ εργαλεί-",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#25470_fig02.png",
+      "bank_code": "25470",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 442,
+      "height": 279,
+      "sha1": "0a3d7ddad670",
+      "bank_code_inherited": false,
+      "xref": 304,
+      "bbox": [
+        182.9,
+        490.9,
+        440.8,
+        653.5
+      ],
+      "question_anchor": null,
+      "text_before": "ου n ςε rpm (Μονάδες 5).",
+      "text_after": "3. Με χριςθ του παρακάτω πίνακα, να επιλζξετε τθν πρόωςθ ανά δόντι sz ςε mm/",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#25470_fig03.png",
+      "bank_code": "25470",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 739,
+      "height": 588,
+      "sha1": "859861a3d6a2",
+      "bank_code_inherited": true,
+      "xref": 354,
+      "bbox": [
+        139.3,
+        70.9,
+        483.9,
+        345.1
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "4. Αν το ςυνολικό μικοσ κίνθςθσ του τραπεηιοφ τθσ φρζηασ είναι L=1200 mm, να υ-",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#25881_fig01.png",
+      "bank_code": "25881",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 557,
+      "height": 305,
+      "sha1": "cc2da90de6d6",
+      "bank_code_inherited": false,
+      "xref": 477,
+      "bbox": [
+        130.4,
+        184.8,
+        464.8,
+        348.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα από τα γράμμα της στήλης Β περισσεύει.",
+      "text_after": "ΣΤΗΛΗ Α  (Σχήμα 1)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#27200_fig01.png",
+      "bank_code": "27200",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 213,
+      "height": 148,
+      "sha1": "fdbcbb3eacf5",
+      "bank_code_inherited": false,
+      "xref": 889,
+      "bbox": [
+        390.4,
+        447.8,
+        512.5,
+        532.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.   γ.",
+      "text_after": "Μονάδες 12",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#27200_fig02.png",
+      "bank_code": "27200",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 111,
+      "height": 140,
+      "sha1": "372dcca11fac",
+      "bank_code_inherited": false,
+      "xref": 888,
+      "bbox": [
+        143.1,
+        448.0,
+        215.9,
+        540.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.   γ.",
+      "text_after": "Μονάδες 12",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#27200_fig03.png",
+      "bank_code": "27200",
+      "role": "fig",
+      "page": 23,
+      "kind": "embedded",
+      "width": 123,
+      "height": 111,
+      "sha1": "e251228227b2",
+      "bank_code_inherited": false,
+      "xref": 887,
+      "bbox": [
+        268.6,
+        451.9,
+        360.6,
+        535.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.   γ.",
+      "text_after": "Μονάδες 12",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch05_#25464_fig01.png",
+      "bank_code": "25464",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 242,
+      "height": 244,
+      "sha1": "2c2525d9e285",
+      "bank_code_inherited": false,
+      "xref": 1045,
+      "bbox": [
+        173.8,
+        180.8,
+        421.5,
+        430.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25464": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch05_#25464_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#25464_fig01.png",
+          "bank_code": "25464",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 242,
+          "height": 244,
+          "sha1": "2c2525d9e285",
+          "bank_code_inherited": false,
+          "xref": 1045,
+          "bbox": [
+            173.8,
+            180.8,
+            421.5,
+            430.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25470": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch05_#25470_fig01.png",
+        "c_michanourgiki-texnologia_ch05_#25470_fig02.png",
+        "c_michanourgiki-texnologia_ch05_#25470_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#25470_fig01.png",
+          "bank_code": "25470",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 670,
+          "height": 451,
+          "sha1": "e5d023423bea",
+          "bank_code_inherited": false,
+          "xref": 303,
+          "bbox": [
+            136.1,
+            202.7,
+            486.5,
+            439.6
+          ],
+          "question_anchor": null,
+          "text_before": "χφτθτα κοπισ u ςε m/min (Μονάδες 5).",
+          "text_after": "2. Με χριςθ του παρακάτω πίνακα, να επιλζξετε τισ ςτροφζσ του κοπτικοφ εργαλεί-",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#25470_fig02.png",
+          "bank_code": "25470",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 442,
+          "height": 279,
+          "sha1": "0a3d7ddad670",
+          "bank_code_inherited": false,
+          "xref": 304,
+          "bbox": [
+            182.9,
+            490.9,
+            440.8,
+            653.5
+          ],
+          "question_anchor": null,
+          "text_before": "ου n ςε rpm (Μονάδες 5).",
+          "text_after": "3. Με χριςθ του παρακάτω πίνακα, να επιλζξετε τθν πρόωςθ ανά δόντι sz ςε mm/",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#25470_fig03.png",
+          "bank_code": "25470",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 739,
+          "height": 588,
+          "sha1": "859861a3d6a2",
+          "bank_code_inherited": true,
+          "xref": 354,
+          "bbox": [
+            139.3,
+            70.9,
+            483.9,
+            345.1
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "4. Αν το ςυνολικό μικοσ κίνθςθσ του τραπεηιοφ τθσ φρζηασ είναι L=1200 mm, να υ-",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25881": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch05_#25881_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#25881_fig01.png",
+          "bank_code": "25881",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 557,
+          "height": 305,
+          "sha1": "cc2da90de6d6",
+          "bank_code_inherited": false,
+          "xref": 477,
+          "bbox": [
+            130.4,
+            184.8,
+            464.8,
+            348.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα από τα γράμμα της στήλης Β περισσεύει.",
+          "text_after": "ΣΤΗΛΗ Α  (Σχήμα 1)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27199": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch05_#27199_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#27199_fig01.png",
+          "bank_code": "27199",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 306,
+          "height": 415,
+          "sha1": "3d698fe8f317",
+          "bank_code_inherited": false,
+          "xref": 97,
+          "bbox": [
+            212.2,
+            180.7,
+            383.0,
+            412.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27200": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch05_#27200_fig01.png",
+        "c_michanourgiki-texnologia_ch05_#27200_fig02.png",
+        "c_michanourgiki-texnologia_ch05_#27200_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#27200_fig01.png",
+          "bank_code": "27200",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 213,
+          "height": 148,
+          "sha1": "fdbcbb3eacf5",
+          "bank_code_inherited": false,
+          "xref": 889,
+          "bbox": [
+            390.4,
+            447.8,
+            512.5,
+            532.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.   γ.",
+          "text_after": "Μονάδες 12",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#27200_fig02.png",
+          "bank_code": "27200",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 111,
+          "height": 140,
+          "sha1": "372dcca11fac",
+          "bank_code_inherited": false,
+          "xref": 888,
+          "bbox": [
+            143.1,
+            448.0,
+            215.9,
+            540.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.   γ.",
+          "text_after": "Μονάδες 12",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch05_#27200_fig03.png",
+          "bank_code": "27200",
+          "role": "fig",
+          "page": 23,
+          "kind": "embedded",
+          "width": 123,
+          "height": 111,
+          "sha1": "e251228227b2",
+          "bank_code_inherited": false,
+          "xref": 887,
+          "bbox": [
+            268.6,
+            451.9,
+            360.6,
+            535.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.   γ.",
+          "text_after": "Μονάδες 12",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

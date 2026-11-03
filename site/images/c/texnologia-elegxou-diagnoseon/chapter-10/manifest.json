@@ -1,0 +1,19 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch10.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 10,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch10",
+  "total_pages": 3,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [],
+  "by_bank_code": {}
+}

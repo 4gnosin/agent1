@@ -291,4 +291,37 @@ class SiteValidator:
                     if "answer" not in item or "unit" not in item:
                         errors.append(f"Exercise #{idx}, Item #{i_idx} (calc): Απαιτούνται answer και unit.")
 
+            # Έλεγχος ύπαρξης εικόνων στον δίσκο
+            site_dir = Path("site")
+            def check_img(src: str, context: str):
+                if not isinstance(src, str):
+                    return
+                clean = src.lstrip("/")
+                if not clean.startswith("images/"):
+                    errors.append(f"{context}: Η διαδρομή εικόνας '{src}' πρέπει να ξεκινά με 'images/'.")
+                    return
+                if site_dir.exists():
+                    rel_img = clean[len("images/"):].lstrip("/")
+                    full_p = site_dir / "images" / rel_img
+                    if not full_p.exists():
+                        errors.append(f"{context}: Η εικόνα δεν βρέθηκε στον δίσκο: '{src}' ({full_p})")
+
+            if "image" in ex and ex["image"]:
+                check_img(ex["image"], f"Exercise #{idx} (id: {ex.get('id', 'άγνωστο')})")
+            if "images" in ex and isinstance(ex["images"], list):
+                for img_src in ex["images"]:
+                    check_img(img_src, f"Exercise #{idx}")
+            if "solutionImages" in ex and isinstance(ex["solutionImages"], list):
+                for img_src in ex["solutionImages"]:
+                    check_img(img_src, f"Exercise #{idx} solutionImages")
+
+            for i_idx, item in enumerate(items, 1):
+                if "image" in item and item["image"]:
+                    check_img(item["image"], f"Exercise #{idx}, Item #{i_idx}")
+                if "images" in item and isinstance(item["images"], list):
+                    for img_src in item["images"]:
+                        check_img(img_src, f"Exercise #{idx}, Item #{i_idx}")
+                if "hintImage" in item and item["hintImage"]:
+                    check_img(item["hintImage"], f"Exercise #{idx}, Item #{i_idx} hintImage")
+
         return errors

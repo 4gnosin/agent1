@@ -1,0 +1,544 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch03.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 3,
+  "stem": "c_michanourgiki-texnologia_ch03",
+  "total_pages": 30,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
+      "bank_code": "27537",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 104,
+      "height": 113,
+      "sha1": "320cf9a1193a",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        153.6,
+        217.8,
+        223.8,
+        294.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ΣΤΗΛΗ Α  (Είδη ολισθητήρων)",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
+      "bank_code": "27537",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 103,
+      "height": 110,
+      "sha1": "fde6b2afe80a",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        155.5,
+        307.2,
+        223.3,
+        379.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Ολισθητήρας επίπεδης μορφής",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
+      "bank_code": "27537",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 134,
+      "height": 105,
+      "sha1": "96ea410f3a7d",
+      "bank_code_inherited": false,
+      "xref": 18,
+      "bbox": [
+        151.9,
+        393.0,
+        232.3,
+        456.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.  Ολισθητήρας μορφής V",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27537_fig04.png",
+      "bank_code": "27537",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 92,
+      "height": 102,
+      "sha1": "e173d20a3bcd",
+      "bank_code_inherited": false,
+      "xref": 19,
+      "bbox": [
+        163.9,
+        463.7,
+        226.9,
+        533.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Ολισθητήρας κυλινδρικής μορφής",
+      "text_after": "ε. Συνδυασμός ολισθητήρων μορφής  Vκαι επίπεδης μορφής.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+      "bank_code": "26787",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 374,
+      "height": 143,
+      "sha1": "33b5fd3eb1a9",
+      "bank_code_inherited": false,
+      "xref": 177,
+      "bbox": [
+        183.5,
+        158.8,
+        440.2,
+        256.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1. Στο παρακάτω σχήμα, απεικονίζεται:",
+      "text_after": "α. ζεύγος ατέρμονα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#26787_fig02.png",
+      "bank_code": "26787",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 86,
+      "height": 82,
+      "sha1": "e0cbfa93dd80",
+      "bank_code_inherited": false,
+      "xref": 178,
+      "bbox": [
+        279.6,
+        619.0,
+        344.0,
+        680.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5. Στο παρακάτω σχήμα, απεικονίζεται ένας ολισθητήρας μορφής:",
+      "text_after": "α. «V»  β. «χελιδονοουράς»  γ. «κυλινδρικής»",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+      "bank_code": "27193",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 418,
+      "height": 381,
+      "sha1": "f920b1615437",
+      "bank_code_inherited": false,
+      "xref": 268,
+      "bbox": [
+        247.9,
+        202.7,
+        375.7,
+        319.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ναι αυτός;",
+      "text_after": "α. οδοντωτή  β. πτερυγιοφόρος  γ. περιστροφική εμβολο-",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
+      "bank_code": "27193",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 172,
+      "height": 182,
+      "sha1": "4afdc041b1d0",
+      "bank_code_inherited": false,
+      "xref": 269,
+      "bbox": [
+        125.2,
+        460.4,
+        239.0,
+        580.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
+      "bank_code": "27193",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 96,
+      "height": 198,
+      "sha1": "0fb2586c1ddf",
+      "bank_code_inherited": false,
+      "xref": 270,
+      "bbox": [
+        449.0,
+        473.4,
+        498.2,
+        574.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#27193_fig04.png",
+      "bank_code": "27193",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 233,
+      "height": 88,
+      "sha1": "39733b915d27",
+      "bank_code_inherited": false,
+      "xref": 271,
+      "bbox": [
+        252.1,
+        482.2,
+        426.8,
+        547.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch03_#25642_fig01.png",
+      "bank_code": "25642",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 628,
+      "height": 726,
+      "sha1": "4d30e2022cb2",
+      "bank_code_inherited": false,
+      "xref": 433,
+      "bbox": [
+        156.6,
+        162.9,
+        440.2,
+        490.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τα γράμματα α, β, γ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25642": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch03_#25642_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#25642_fig01.png",
+          "bank_code": "25642",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 628,
+          "height": 726,
+          "sha1": "4d30e2022cb2",
+          "bank_code_inherited": false,
+          "xref": 433,
+          "bbox": [
+            156.6,
+            162.9,
+            440.2,
+            490.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τα γράμματα α, β, γ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26787": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+        "c_michanourgiki-texnologia_ch03_#26787_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+          "bank_code": "26787",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 374,
+          "height": 143,
+          "sha1": "33b5fd3eb1a9",
+          "bank_code_inherited": false,
+          "xref": 177,
+          "bbox": [
+            183.5,
+            158.8,
+            440.2,
+            256.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1. Στο παρακάτω σχήμα, απεικονίζεται:",
+          "text_after": "α. ζεύγος ατέρμονα",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#26787_fig02.png",
+          "bank_code": "26787",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 86,
+          "height": 82,
+          "sha1": "e0cbfa93dd80",
+          "bank_code_inherited": false,
+          "xref": 178,
+          "bbox": [
+            279.6,
+            619.0,
+            344.0,
+            680.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5. Στο παρακάτω σχήμα, απεικονίζεται ένας ολισθητήρας μορφής:",
+          "text_after": "α. «V»  β. «χελιδονοουράς»  γ. «κυλινδρικής»",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27193": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+        "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
+        "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
+        "c_michanourgiki-texnologia_ch03_#27193_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+          "bank_code": "27193",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 418,
+          "height": 381,
+          "sha1": "f920b1615437",
+          "bank_code_inherited": false,
+          "xref": 268,
+          "bbox": [
+            247.9,
+            202.7,
+            375.7,
+            319.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ναι αυτός;",
+          "text_after": "α. οδοντωτή  β. πτερυγιοφόρος  γ. περιστροφική εμβολο-",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
+          "bank_code": "27193",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 172,
+          "height": 182,
+          "sha1": "4afdc041b1d0",
+          "bank_code_inherited": false,
+          "xref": 269,
+          "bbox": [
+            125.2,
+            460.4,
+            239.0,
+            580.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
+          "bank_code": "27193",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 96,
+          "height": 198,
+          "sha1": "0fb2586c1ddf",
+          "bank_code_inherited": false,
+          "xref": 270,
+          "bbox": [
+            449.0,
+            473.4,
+            498.2,
+            574.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27193_fig04.png",
+          "bank_code": "27193",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 233,
+          "height": 88,
+          "sha1": "39733b915d27",
+          "bank_code_inherited": false,
+          "xref": 271,
+          "bbox": [
+            252.1,
+            482.2,
+            426.8,
+            547.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "3. Τα καβαλέτα χρησιμοποιούνται στον τόρνο για συγκράτηση αξόνων:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27537": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
+        "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
+        "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
+        "c_michanourgiki-texnologia_ch03_#27537_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
+          "bank_code": "27537",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 104,
+          "height": 113,
+          "sha1": "320cf9a1193a",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            153.6,
+            217.8,
+            223.8,
+            294.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ΣΤΗΛΗ Α  (Είδη ολισθητήρων)",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
+          "bank_code": "27537",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 103,
+          "height": 110,
+          "sha1": "fde6b2afe80a",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            155.5,
+            307.2,
+            223.3,
+            379.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Ολισθητήρας επίπεδης μορφής",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
+          "bank_code": "27537",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 134,
+          "height": 105,
+          "sha1": "96ea410f3a7d",
+          "bank_code_inherited": false,
+          "xref": 18,
+          "bbox": [
+            151.9,
+            393.0,
+            232.3,
+            456.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.  Ολισθητήρας μορφής V",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch03_#27537_fig04.png",
+          "bank_code": "27537",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 92,
+          "height": 102,
+          "sha1": "e173d20a3bcd",
+          "bank_code_inherited": false,
+          "xref": 19,
+          "bbox": [
+            163.9,
+            463.7,
+            226.9,
+            533.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Ολισθητήρας κυλινδρικής μορφής",
+          "text_after": "ε. Συνδυασμός ολισθητήρων μορφής  Vκαι επίπεδης μορφής.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

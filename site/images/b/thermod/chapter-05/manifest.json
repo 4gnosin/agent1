@@ -1,0 +1,215 @@
+{
+  "source_pdf": "b_thermod_ch05.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 5,
+  "stem": "b_thermod_ch05",
+  "total_pages": 21,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch05_#20954_sol01.png",
+      "bank_code": "20954",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 470,
+      "height": 410,
+      "sha1": "90c4bd0b976d",
+      "bank_code_inherited": false,
+      "xref": 370,
+      "bbox": [
+        203.8,
+        137.9,
+        391.5,
+        301.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1.",
+      "text_after": "4.2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch05_#20954_sol02.png",
+      "bank_code": "20954",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 555,
+      "height": 490,
+      "sha1": "efb81d31e5e1",
+      "bank_code_inherited": false,
+      "xref": 371,
+      "bbox": [
+        203.9,
+        378.5,
+        391.0,
+        543.7
+      ],
+      "question_anchor": "4.2",
+      "text_before": "Το έργο που προσφέρθηκε περιορίζεται στο 1, 2, 2΄,1΄.",
+      "text_after": "4.3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch05_#20955_sol01.png",
+      "bank_code": "20955",
+      "role": "sol",
+      "page": 20,
+      "kind": "embedded",
+      "width": 471,
+      "height": 410,
+      "sha1": "0b9eff43b2c1",
+      "bank_code_inherited": false,
+      "xref": 731,
+      "bbox": [
+        156.4,
+        159.9,
+        439.0,
+        405.9
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1.",
+      "text_after": "4.2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch05_#20955_sol02.png",
+      "bank_code": "20955",
+      "role": "sol",
+      "page": 20,
+      "kind": "embedded",
+      "width": 461,
+      "height": 401,
+      "sha1": "5a298138d84b",
+      "bank_code_inherited": false,
+      "xref": 732,
+      "bbox": [
+        159.4,
+        521.2,
+        436.0,
+        761.8
+      ],
+      "question_anchor": "4.2",
+      "text_before": "Το έργο που αποδόθηκε ορίζεται από το τετράπλευρο  1, 2, 2΄,1΄.",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "20954": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch05_#20954_sol01.png",
+        "b_thermod_ch05_#20954_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch05_#20954_sol01.png",
+          "bank_code": "20954",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 470,
+          "height": 410,
+          "sha1": "90c4bd0b976d",
+          "bank_code_inherited": false,
+          "xref": 370,
+          "bbox": [
+            203.8,
+            137.9,
+            391.5,
+            301.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1.",
+          "text_after": "4.2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch05_#20954_sol02.png",
+          "bank_code": "20954",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 555,
+          "height": 490,
+          "sha1": "efb81d31e5e1",
+          "bank_code_inherited": false,
+          "xref": 371,
+          "bbox": [
+            203.9,
+            378.5,
+            391.0,
+            543.7
+          ],
+          "question_anchor": "4.2",
+          "text_before": "Το έργο που προσφέρθηκε περιορίζεται στο 1, 2, 2΄,1΄.",
+          "text_after": "4.3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20955": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch05_#20955_sol01.png",
+        "b_thermod_ch05_#20955_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch05_#20955_sol01.png",
+          "bank_code": "20955",
+          "role": "sol",
+          "page": 20,
+          "kind": "embedded",
+          "width": 471,
+          "height": 410,
+          "sha1": "0b9eff43b2c1",
+          "bank_code_inherited": false,
+          "xref": 731,
+          "bbox": [
+            156.4,
+            159.9,
+            439.0,
+            405.9
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1.",
+          "text_after": "4.2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch05_#20955_sol02.png",
+          "bank_code": "20955",
+          "role": "sol",
+          "page": 20,
+          "kind": "embedded",
+          "width": 461,
+          "height": 401,
+          "sha1": "5a298138d84b",
+          "bank_code_inherited": false,
+          "xref": 732,
+          "bbox": [
+            159.4,
+            521.2,
+            436.0,
+            761.8
+          ],
+          "question_anchor": "4.2",
+          "text_before": "Το έργο που αποδόθηκε ορίζεται από το τετράπλευρο  1, 2, 2΄,1΄.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

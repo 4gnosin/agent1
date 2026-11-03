@@ -1,0 +1,268 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch08.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 8,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch08",
+  "total_pages": 13,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.png",
+      "bank_code": "28609",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 463,
+      "height": 360,
+      "sha1": "34030479d13c",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        169.8,
+        224.8,
+        425.5,
+        423.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Μονάδες 5)",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.png",
+      "bank_code": "24649",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 410,
+      "height": 103,
+      "sha1": "2ebdf22815dd",
+      "bank_code_inherited": false,
+      "xref": 101,
+      "bbox": [
+        121.0,
+        211.7,
+        264.0,
+        247.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "συστοιχίας είναι διπλάσια από την",
+      "text_after": "αντίστοιχη του κάθε κυκλοφορητή.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig02.png",
+      "bank_code": "24649",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 310,
+      "height": 246,
+      "sha1": "b6f566447b5a",
+      "bank_code_inherited": false,
+      "xref": 99,
+      "bbox": [
+        132.0,
+        270.4,
+        250.5,
+        364.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. το μανομετρικό και η παροχή της",
+      "text_after": "γ. παράλληλη σύνδεση κυκλοφορητών.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png",
+      "bank_code": "28452",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 639,
+      "height": 506,
+      "sha1": "cf50b4c4441b",
+      "bank_code_inherited": false,
+      "xref": 253,
+      "bbox": [
+        70.9,
+        224.7,
+        524.4,
+        583.8
+      ],
+      "question_anchor": null,
+      "text_before": "διαγράμματος λειτουργίας κυκλοφορητών. (Μονάδες 15)",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28452_sol01.png",
+      "bank_code": "28452",
+      "role": "sol",
+      "page": 9,
+      "kind": "embedded",
+      "width": 639,
+      "height": 506,
+      "sha1": "cf50b4c4441b",
+      "bank_code_inherited": false,
+      "xref": 304,
+      "bbox": [
+        70.9,
+        237.1,
+        524.4,
+        596.2
+      ],
+      "question_anchor": null,
+      "text_before": "απεικονίζεται και στο παρακάτω σχήμα.",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24649": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.png",
+          "bank_code": "24649",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 410,
+          "height": 103,
+          "sha1": "2ebdf22815dd",
+          "bank_code_inherited": false,
+          "xref": 101,
+          "bbox": [
+            121.0,
+            211.7,
+            264.0,
+            247.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "συστοιχίας είναι διπλάσια από την",
+          "text_after": "αντίστοιχη του κάθε κυκλοφορητή.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig02.png",
+          "bank_code": "24649",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 310,
+          "height": 246,
+          "sha1": "b6f566447b5a",
+          "bank_code_inherited": false,
+          "xref": 99,
+          "bbox": [
+            132.0,
+            270.4,
+            250.5,
+            364.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. το μανομετρικό και η παροχή της",
+          "text_after": "γ. παράλληλη σύνδεση κυκλοφορητών.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28452": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch08_#28452_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png",
+          "bank_code": "28452",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 639,
+          "height": 506,
+          "sha1": "cf50b4c4441b",
+          "bank_code_inherited": false,
+          "xref": 253,
+          "bbox": [
+            70.9,
+            224.7,
+            524.4,
+            583.8
+          ],
+          "question_anchor": null,
+          "text_before": "διαγράμματος λειτουργίας κυκλοφορητών. (Μονάδες 15)",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28452_sol01.png",
+          "bank_code": "28452",
+          "role": "sol",
+          "page": 9,
+          "kind": "embedded",
+          "width": 639,
+          "height": 506,
+          "sha1": "cf50b4c4441b",
+          "bank_code_inherited": false,
+          "xref": 304,
+          "bbox": [
+            70.9,
+            237.1,
+            524.4,
+            596.2
+          ],
+          "question_anchor": null,
+          "text_before": "απεικονίζεται και στο παρακάτω σχήμα.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28609": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.png",
+          "bank_code": "28609",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 463,
+          "height": 360,
+          "sha1": "34030479d13c",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            169.8,
+            224.8,
+            425.5,
+            423.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Μονάδες 5)",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

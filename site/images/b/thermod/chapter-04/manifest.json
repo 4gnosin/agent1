@@ -1,0 +1,499 @@
+{
+  "source_pdf": "b_thermod_ch04.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 4,
+  "stem": "b_thermod_ch04",
+  "total_pages": 23,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch04_#16252_fig01.png",
+      "bank_code": "16252",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 350,
+      "height": 345,
+      "sha1": "68f14f1d6d46",
+      "bank_code_inherited": false,
+      "xref": 187,
+      "bbox": [
+        126.6,
+        413.6,
+        248.3,
+        533.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Στήλη Α  Στήλη Β",
+      "text_after": "β. Έργο Επιτάχυνσης",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#16252_fig02.png",
+      "bank_code": "16252",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 281,
+      "height": 228,
+      "sha1": "4a7548798421",
+      "bank_code_inherited": false,
+      "xref": 188,
+      "bbox": [
+        124.2,
+        541.4,
+        249.9,
+        643.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#16252_fig03.png",
+      "bank_code": "16252",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 277,
+      "height": 264,
+      "sha1": "74d6021a90fc",
+      "bank_code_inherited": true,
+      "xref": 229,
+      "bbox": [
+        107.5,
+        71.4,
+        243.0,
+        200.6
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#16252_fig04.png",
+      "bank_code": "16252",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 567,
+      "height": 155,
+      "sha1": "560d7162e554",
+      "bank_code_inherited": true,
+      "xref": 230,
+      "bbox": [
+        107.2,
+        211.6,
+        345.4,
+        276.8
+      ],
+      "question_anchor": null,
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#16257_fig01.png",
+      "bank_code": "16257",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 666,
+      "height": 310,
+      "sha1": "794b17fe481f",
+      "bank_code_inherited": false,
+      "xref": 266,
+      "bbox": [
+        123.7,
+        202.3,
+        471.1,
+        364.0
+      ],
+      "question_anchor": "4.1",
+      "text_before": "2.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#18643_fig01.png",
+      "bank_code": "18643",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 237,
+      "height": 181,
+      "sha1": "499a655d134f",
+      "bank_code_inherited": false,
+      "xref": 443,
+      "bbox": [
+        303.7,
+        402.2,
+        412.7,
+        485.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#18643_fig02.png",
+      "bank_code": "18643",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 239,
+      "height": 254,
+      "sha1": "60023d356b4b",
+      "bank_code_inherited": false,
+      "xref": 444,
+      "bbox": [
+        303.7,
+        516.8,
+        391.1,
+        609.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#18643_fig03.png",
+      "bank_code": "18643",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 256,
+      "height": 227,
+      "sha1": "0791e88942d9",
+      "bank_code_inherited": false,
+      "xref": 445,
+      "bbox": [
+        303.7,
+        639.6,
+        394.2,
+        719.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γ.",
+      "text_after": "δύναμης",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#18643_fig04.png",
+      "bank_code": "18643",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 274,
+      "height": 187,
+      "sha1": "26de82ff9276",
+      "bank_code_inherited": true,
+      "xref": 490,
+      "bbox": [
+        303.7,
+        115.3,
+        465.7,
+        225.9
+      ],
+      "question_anchor": null,
+      "text_before": "δ.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch04_#18614_sol01.png",
+      "bank_code": "18614",
+      "role": "sol",
+      "page": 21,
+      "kind": "embedded",
+      "width": 473,
+      "height": 332,
+      "sha1": "a3563e4af45e",
+      "bank_code_inherited": false,
+      "xref": 767,
+      "bbox": [
+        191.5,
+        219.1,
+        420.5,
+        379.9
+      ],
+      "question_anchor": null,
+      "text_before": "β)",
+      "text_after": "Το έργο είναι ίσο με το εμβαδόν του γραμμοσκιασμένου παραλληλογράμμου (P·ΔV).",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16252": {
+      "fig": [
+        "b_thermod_ch04_#16252_fig01.png",
+        "b_thermod_ch04_#16252_fig02.png",
+        "b_thermod_ch04_#16252_fig03.png",
+        "b_thermod_ch04_#16252_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch04_#16252_fig01.png",
+          "bank_code": "16252",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 350,
+          "height": 345,
+          "sha1": "68f14f1d6d46",
+          "bank_code_inherited": false,
+          "xref": 187,
+          "bbox": [
+            126.6,
+            413.6,
+            248.3,
+            533.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Στήλη Α  Στήλη Β",
+          "text_after": "β. Έργο Επιτάχυνσης",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#16252_fig02.png",
+          "bank_code": "16252",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 281,
+          "height": 228,
+          "sha1": "4a7548798421",
+          "bank_code_inherited": false,
+          "xref": 188,
+          "bbox": [
+            124.2,
+            541.4,
+            249.9,
+            643.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#16252_fig03.png",
+          "bank_code": "16252",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 277,
+          "height": 264,
+          "sha1": "74d6021a90fc",
+          "bank_code_inherited": true,
+          "xref": 229,
+          "bbox": [
+            107.5,
+            71.4,
+            243.0,
+            200.6
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#16252_fig04.png",
+          "bank_code": "16252",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 567,
+          "height": 155,
+          "sha1": "560d7162e554",
+          "bank_code_inherited": true,
+          "xref": 230,
+          "bbox": [
+            107.2,
+            211.6,
+            345.4,
+            276.8
+          ],
+          "question_anchor": null,
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16257": {
+      "fig": [
+        "b_thermod_ch04_#16257_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch04_#16257_fig01.png",
+          "bank_code": "16257",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 666,
+          "height": 310,
+          "sha1": "794b17fe481f",
+          "bank_code_inherited": false,
+          "xref": 266,
+          "bbox": [
+            123.7,
+            202.3,
+            471.1,
+            364.0
+          ],
+          "question_anchor": "4.1",
+          "text_before": "2.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18614": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch04_#18614_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch04_#18614_sol01.png",
+          "bank_code": "18614",
+          "role": "sol",
+          "page": 21,
+          "kind": "embedded",
+          "width": 473,
+          "height": 332,
+          "sha1": "a3563e4af45e",
+          "bank_code_inherited": false,
+          "xref": 767,
+          "bbox": [
+            191.5,
+            219.1,
+            420.5,
+            379.9
+          ],
+          "question_anchor": null,
+          "text_before": "β)",
+          "text_after": "Το έργο είναι ίσο με το εμβαδόν του γραμμοσκιασμένου παραλληλογράμμου (P·ΔV).",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18643": {
+      "fig": [
+        "b_thermod_ch04_#18643_fig01.png",
+        "b_thermod_ch04_#18643_fig02.png",
+        "b_thermod_ch04_#18643_fig03.png",
+        "b_thermod_ch04_#18643_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch04_#18643_fig01.png",
+          "bank_code": "18643",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 237,
+          "height": 181,
+          "sha1": "499a655d134f",
+          "bank_code_inherited": false,
+          "xref": 443,
+          "bbox": [
+            303.7,
+            402.2,
+            412.7,
+            485.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#18643_fig02.png",
+          "bank_code": "18643",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 239,
+          "height": 254,
+          "sha1": "60023d356b4b",
+          "bank_code_inherited": false,
+          "xref": 444,
+          "bbox": [
+            303.7,
+            516.8,
+            391.1,
+            609.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#18643_fig03.png",
+          "bank_code": "18643",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 256,
+          "height": 227,
+          "sha1": "0791e88942d9",
+          "bank_code_inherited": false,
+          "xref": 445,
+          "bbox": [
+            303.7,
+            639.6,
+            394.2,
+            719.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γ.",
+          "text_after": "δύναμης",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch04_#18643_fig04.png",
+          "bank_code": "18643",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 274,
+          "height": 187,
+          "sha1": "26de82ff9276",
+          "bank_code_inherited": true,
+          "xref": 490,
+          "bbox": [
+            303.7,
+            115.3,
+            465.7,
+            225.9
+          ],
+          "question_anchor": null,
+          "text_before": "δ.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

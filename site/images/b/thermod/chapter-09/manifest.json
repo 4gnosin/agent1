@@ -1,0 +1,366 @@
+{
+  "source_pdf": "b_thermod_ch09.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 9,
+  "stem": "b_thermod_ch09",
+  "total_pages": 15,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch09_#17640_fig01.png",
+      "bank_code": "17640",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 462,
+      "height": 475,
+      "sha1": "64899c905a1c",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        86.3,
+        487.5,
+        291.5,
+        698.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α. Εξαγωγή υπό σταθερό όγκο",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#17645_fig01.png",
+      "bank_code": "17645",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 295,
+      "height": 300,
+      "sha1": "55776c00c55f",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        196.2,
+        158.8,
+        399.0,
+        365.0
+      ],
+      "question_anchor": null,
+      "text_before": "ισούται l=100 mm. Εάν ο ολικός όγκος του κυλίνδρου V1=3250 cm3, να υπολογίσετε:",
+      "text_after": "α) Τον κυβισμό του κυλίνδρου V.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#20953_fig01.png",
+      "bank_code": "20953",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 530,
+      "height": 361,
+      "sha1": "9f9f6c34037d",
+      "bank_code_inherited": false,
+      "xref": 357,
+      "bbox": [
+        138.6,
+        114.8,
+        456.6,
+        331.4
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται το παρακάτω διάγραμμα βαθμού θερμικής απόδοσης % και βαθμού συμπίεσης.",
+      "text_after": "Να βρείτε τα ακόλουθα:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#20953_sol01.png",
+      "bank_code": "20953",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 505,
+      "height": 359,
+      "sha1": "695a8bb91826",
+      "bank_code_inherited": false,
+      "xref": 401,
+      "bbox": [
+        164.6,
+        136.8,
+        430.7,
+        326.0
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1.",
+      "text_after": "Σύμφωνα με το παραπάνω διάγραμμα στο βαθμό συμπίεσης  𝜀≅11 αντιστοιχεί 𝑛 ≅62 %",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#20953_sol02.png",
+      "bank_code": "20953",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 496,
+      "height": 357,
+      "sha1": "482772fef21d",
+      "bank_code_inherited": false,
+      "xref": 402,
+      "bbox": [
+        165.6,
+        398.6,
+        429.5,
+        588.6
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.2.",
+      "text_after": "Σύμφωνα με το παραπάνω διάγραμμα o βαθμός συμπίεσης κύκλου Diesel  𝜀≅20",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#20974_fig01.png",
+      "bank_code": "20974",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 310,
+      "height": 357,
+      "sha1": "bf8fd3013d46",
+      "bank_code_inherited": false,
+      "xref": 446,
+      "bbox": [
+        76.4,
+        201.9,
+        308.9,
+        469.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Φάσεις-μεταβολές)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch09_#20974_sol01.png",
+      "bank_code": "20974",
+      "role": "sol",
+      "page": 13,
+      "kind": "embedded",
+      "width": 504,
+      "height": 285,
+      "sha1": "24b01477fd85",
+      "bank_code_inherited": false,
+      "xref": 492,
+      "bbox": [
+        70.9,
+        422.5,
+        448.9,
+        636.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "χρήση του ακόλουθου διαγράμματος του βιβλίου.",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "17640": {
+      "fig": [
+        "b_thermod_ch09_#17640_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch09_#17640_fig01.png",
+          "bank_code": "17640",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 462,
+          "height": 475,
+          "sha1": "64899c905a1c",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            86.3,
+            487.5,
+            291.5,
+            698.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α. Εξαγωγή υπό σταθερό όγκο",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "17645": {
+      "fig": [
+        "b_thermod_ch09_#17645_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch09_#17645_fig01.png",
+          "bank_code": "17645",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 295,
+          "height": 300,
+          "sha1": "55776c00c55f",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            196.2,
+            158.8,
+            399.0,
+            365.0
+          ],
+          "question_anchor": null,
+          "text_before": "ισούται l=100 mm. Εάν ο ολικός όγκος του κυλίνδρου V1=3250 cm3, να υπολογίσετε:",
+          "text_after": "α) Τον κυβισμό του κυλίνδρου V.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20953": {
+      "fig": [
+        "b_thermod_ch09_#20953_fig01.png"
+      ],
+      "sol": [
+        "b_thermod_ch09_#20953_sol01.png",
+        "b_thermod_ch09_#20953_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch09_#20953_fig01.png",
+          "bank_code": "20953",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 530,
+          "height": 361,
+          "sha1": "9f9f6c34037d",
+          "bank_code_inherited": false,
+          "xref": 357,
+          "bbox": [
+            138.6,
+            114.8,
+            456.6,
+            331.4
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται το παρακάτω διάγραμμα βαθμού θερμικής απόδοσης % και βαθμού συμπίεσης.",
+          "text_after": "Να βρείτε τα ακόλουθα:",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch09_#20953_sol01.png",
+          "bank_code": "20953",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 505,
+          "height": 359,
+          "sha1": "695a8bb91826",
+          "bank_code_inherited": false,
+          "xref": 401,
+          "bbox": [
+            164.6,
+            136.8,
+            430.7,
+            326.0
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1.",
+          "text_after": "Σύμφωνα με το παραπάνω διάγραμμα στο βαθμό συμπίεσης  𝜀≅11 αντιστοιχεί 𝑛 ≅62 %",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch09_#20953_sol02.png",
+          "bank_code": "20953",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 496,
+          "height": 357,
+          "sha1": "482772fef21d",
+          "bank_code_inherited": false,
+          "xref": 402,
+          "bbox": [
+            165.6,
+            398.6,
+            429.5,
+            588.6
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.2.",
+          "text_after": "Σύμφωνα με το παραπάνω διάγραμμα o βαθμός συμπίεσης κύκλου Diesel  𝜀≅20",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20974": {
+      "fig": [
+        "b_thermod_ch09_#20974_fig01.png"
+      ],
+      "sol": [
+        "b_thermod_ch09_#20974_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch09_#20974_fig01.png",
+          "bank_code": "20974",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 310,
+          "height": 357,
+          "sha1": "bf8fd3013d46",
+          "bank_code_inherited": false,
+          "xref": 446,
+          "bbox": [
+            76.4,
+            201.9,
+            308.9,
+            469.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Φάσεις-μεταβολές)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch09_#20974_sol01.png",
+          "bank_code": "20974",
+          "role": "sol",
+          "page": 13,
+          "kind": "embedded",
+          "width": 504,
+          "height": 285,
+          "sha1": "24b01477fd85",
+          "bank_code_inherited": false,
+          "xref": 492,
+          "bbox": [
+            70.9,
+            422.5,
+            448.9,
+            636.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "χρήση του ακόλουθου διαγράμματος του βιβλίου.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch06.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 6,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch06",
+  "total_pages": 18,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24318_fig01.png",
+      "bank_code": "24318",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 506,
+      "height": 506,
+      "sha1": "3b44b840a5a9",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        143.9,
+        192.3,
+        451.4,
+        503.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Στήλη Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.png",
+      "bank_code": "24112",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 544,
+      "height": 423,
+      "sha1": "cbd7383d0a5b",
+      "bank_code_inherited": false,
+      "xref": 491,
+      "bbox": [
+        213.6,
+        371.3,
+        411.1,
+        532.8
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνονται οι παρακάτω πινάκες:",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.png",
+      "bank_code": "24112",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 448,
+      "height": 284,
+      "sha1": "47d0f91609f2",
+      "bank_code_inherited": false,
+      "xref": 492,
+      "bbox": [
+        208.3,
+        588.6,
+        416.3,
+        720.4
+      ],
+      "question_anchor": null,
+      "text_before": "Πίνακας υπολογισμού συντελεστή μορφής της καπνοδόχου (n).",
+      "text_after": "Πίνακας 2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.png",
+      "bank_code": "24112",
+      "role": "sol",
+      "page": 16,
+      "kind": "embedded",
+      "width": 314,
+      "height": 194,
+      "sha1": "ad08713140aa",
+      "bank_code_inherited": false,
+      "xref": 552,
+      "bbox": [
+        91.5,
+        379.5,
+        280.0,
+        496.0
+      ],
+      "question_anchor": null,
+      "text_before": "γ.",
+      "text_after": "Μήκος = 27 cm",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24122_fig01.png",
+      "bank_code": "24122",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 500,
+      "height": 386,
+      "sha1": "44965f6465fd",
+      "bank_code_inherited": false,
+      "xref": 594,
+      "bbox": [
+        119.9,
+        197.2,
+        475.4,
+        472.0
+      ],
+      "question_anchor": null,
+      "text_before": "Δίνεται ο πίνακας υπολογισμού του συντελεστή μορφής της καπνοδόχου.",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24112": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.png",
+          "bank_code": "24112",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 544,
+          "height": 423,
+          "sha1": "cbd7383d0a5b",
+          "bank_code_inherited": false,
+          "xref": 491,
+          "bbox": [
+            213.6,
+            371.3,
+            411.1,
+            532.8
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνονται οι παρακάτω πινάκες:",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.png",
+          "bank_code": "24112",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 448,
+          "height": 284,
+          "sha1": "47d0f91609f2",
+          "bank_code_inherited": false,
+          "xref": 492,
+          "bbox": [
+            208.3,
+            588.6,
+            416.3,
+            720.4
+          ],
+          "question_anchor": null,
+          "text_before": "Πίνακας υπολογισμού συντελεστή μορφής της καπνοδόχου (n).",
+          "text_after": "Πίνακας 2",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.png",
+          "bank_code": "24112",
+          "role": "sol",
+          "page": 16,
+          "kind": "embedded",
+          "width": 314,
+          "height": 194,
+          "sha1": "ad08713140aa",
+          "bank_code_inherited": false,
+          "xref": 552,
+          "bbox": [
+            91.5,
+            379.5,
+            280.0,
+            496.0
+          ],
+          "question_anchor": null,
+          "text_before": "γ.",
+          "text_after": "Μήκος = 27 cm",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24122": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch06_#24122_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24122_fig01.png",
+          "bank_code": "24122",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 500,
+          "height": 386,
+          "sha1": "44965f6465fd",
+          "bank_code_inherited": false,
+          "xref": 594,
+          "bbox": [
+            119.9,
+            197.2,
+            475.4,
+            472.0
+          ],
+          "question_anchor": null,
+          "text_before": "Δίνεται ο πίνακας υπολογισμού του συντελεστή μορφής της καπνοδόχου.",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24318": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch06_#24318_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch06_#24318_fig01.png",
+          "bank_code": "24318",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 506,
+          "height": 506,
+          "sha1": "3b44b840a5a9",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            143.9,
+            192.3,
+            451.4,
+            503.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Στήλη Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

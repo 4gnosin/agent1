@@ -1,0 +1,119 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch04.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 4,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch04",
+  "total_pages": 3,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.png",
+      "bank_code": "34106",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 627,
+      "height": 178,
+      "sha1": "75baa9ae3c02",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        109.4,
+        136.8,
+        485.6,
+        243.6
+      ],
+      "question_anchor": "4.1",
+      "text_before": "«ανοικτού βρόγχου» ή «κλειστού βρόγχου» και να αιτιολογήσετε την απάντησή σας.",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.png",
+      "bank_code": "34106",
+      "role": "sol",
+      "page": 3,
+      "kind": "embedded",
+      "width": 627,
+      "height": 257,
+      "sha1": "7314241dfb2a",
+      "bank_code_inherited": false,
+      "xref": 70,
+      "bbox": [
+        126.3,
+        268.6,
+        468.9,
+        409.0
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.2.",
+      "text_after": "Αν όμως μετά το αποτέλεσμα (έξοδος), υπάρχει έλεγχος - μέτρηση και δυνατότητα",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34106": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.png"
+      ],
+      "sol": [
+        "c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.png",
+          "bank_code": "34106",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 627,
+          "height": 178,
+          "sha1": "75baa9ae3c02",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            109.4,
+            136.8,
+            485.6,
+            243.6
+          ],
+          "question_anchor": "4.1",
+          "text_before": "«ανοικτού βρόγχου» ή «κλειστού βρόγχου» και να αιτιολογήσετε την απάντησή σας.",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.png",
+          "bank_code": "34106",
+          "role": "sol",
+          "page": 3,
+          "kind": "embedded",
+          "width": 627,
+          "height": 257,
+          "sha1": "7314241dfb2a",
+          "bank_code_inherited": false,
+          "xref": 70,
+          "bbox": [
+            126.3,
+            268.6,
+            468.9,
+            409.0
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.2.",
+          "text_after": "Αν όμως μετά το αποτέλεσμα (έξοδος), υπάρχει έλεγχος - μέτρηση και δυνατότητα",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

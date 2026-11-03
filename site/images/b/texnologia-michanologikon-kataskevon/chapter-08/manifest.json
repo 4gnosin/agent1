@@ -278,6 +278,28 @@
       "text_before": "3.",
       "text_after": "Μονάδες 9",
       "is_full_page_scan": false
+    },
+    {
+      "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig03.png",
+      "bank_code": "18408",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 115,
+      "height": 100,
+      "sha1": "extracted30",
+      "bank_code_inherited": false,
+      "xref": 95,
+      "bbox": [
+        128.7,
+        548.4,
+        234.4,
+        629.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2",
+      "text_after": "3",
+      "is_full_page_scan": false
     }
   ],
   "by_bank_code": {
@@ -374,7 +396,8 @@
     "18408": {
       "fig": [
         "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.png",
-        "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png"
+        "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.png",
+        "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig03.png"
       ],
       "sol": [],
       "images": [
@@ -420,6 +443,28 @@
           "question_anchor": "2.1",
           "text_before": "1",
           "text_after": "γ.Πάστα καθαρισμού",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_texnologia-michanologikon-kataskevon_ch08_#18408_fig03.png",
+          "bank_code": "18408",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 115,
+          "height": 100,
+          "sha1": "extracted30",
+          "bank_code_inherited": false,
+          "xref": 95,
+          "bbox": [
+            128.7,
+            548.4,
+            234.4,
+            629.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2",
+          "text_after": "3",
           "is_full_page_scan": false
         }
       ]

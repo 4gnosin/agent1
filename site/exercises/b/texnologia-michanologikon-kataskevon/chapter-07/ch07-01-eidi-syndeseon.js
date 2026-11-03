@@ -151,42 +151,49 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
       {
         "kind": "match",
         "subq": "2.1",
-        "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς της Στήλης Α (εικόνα σύνδεσης) με τα γράμματα της Στήλης Β (ονομασία σύνδεσης). Ένα γράμμα περισσεύει.",
-        "prompt": "Αντιστοιχίστε την κάθε εικόνα σύνδεσης με την ονομασία της:",
+        "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς της Στήλης Α (εικόνα σύνδεσης) με τα γράμματα της Στήλης Β (ονομασία σύνδεσης). Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+        "prompt": "Αντιστοιχίστε την κάθε εικόνα σύνδεσης (1, 2, 3) με την ονομασία της:",
         "images": [
           "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig03.png"
         ],
+        "imageLabels": [
+          "1. Εικόνα 1",
+          "2. Εικόνα 2",
+          "3. Εικόνα 3"
+        ],
+        "imageLayout": "grid",
         "left": [
           {
             "id": "1",
-            "text": "1"
+            "text": "1 (Εικόνα 1)"
           },
           {
             "id": "2",
-            "text": "2"
+            "text": "2 (Εικόνα 2)"
           },
           {
             "id": "3",
-            "text": "3"
+            "text": "3 (Εικόνα 3)"
           }
         ],
         "right": [
           {
             "id": "a",
-            "text": "Σφηνοσύνδεση"
+            "text": "α. Σφηνοσύνδεση"
           },
           {
             "id": "b",
-            "text": "Κοχλιοσύνδεση"
+            "text": "β. Κοχλιοσύνδεση"
           },
           {
             "id": "c",
-            "text": "Συγκόλληση"
+            "text": "γ. Συγκόλληση"
           },
           {
             "id": "d",
-            "text": "Ήλωση"
+            "text": "δ. Ήλωση"
           }
         ],
         "pairs": {
@@ -194,8 +201,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "2": "d",
           "3": "a"
         },
-        "explain": "Η εικόνα 1 αντιστοιχεί σε κοχλιοσύνδεση (β), η εικόνα 2 σε ήλωση (δ), και η εικόνα 3 σε σφηνοσύνδεση (α). Περισσεύει η συγκόλληση (γ).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png"
+        "explain": "Η εικόνα 1 δείχνει κοχλιοσύνδεση (β). Η εικόνα 2 δείχνει ήλωση (δ). Η εικόνα 3 δείχνει σφηνοσύνδεση (α). Περισσεύει η συγκόλληση (γ)."
       },
       {
         "kind": "tf",

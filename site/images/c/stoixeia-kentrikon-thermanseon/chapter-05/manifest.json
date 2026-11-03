@@ -1,0 +1,373 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch05.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 5,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch05",
+  "total_pages": 21,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png",
+      "bank_code": "28669",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 649,
+      "height": 535,
+      "sha1": "e0e5bdaf8714",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        155.1,
+        194.4,
+        438.9,
+        428.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png",
+      "bank_code": "28449",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 525,
+      "height": 467,
+      "sha1": "c77d545aed5a",
+      "bank_code_inherited": false,
+      "xref": 247,
+      "bbox": [
+        225.1,
+        379.6,
+        410.5,
+        544.6
+      ],
+      "question_anchor": "2.2",
+      "text_before": "4",
+      "text_after": "ΣΤΗΛΗ Α   ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
+      "bank_code": "24088",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 1168,
+      "height": 574,
+      "sha1": "30a79944baed",
+      "bank_code_inherited": false,
+      "xref": 395,
+      "bbox": [
+        70.9,
+        261.0,
+        486.2,
+        464.7
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Διάγραμμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png",
+      "bank_code": "24088",
+      "role": "sol",
+      "page": 13,
+      "kind": "embedded",
+      "width": 546,
+      "height": 272,
+      "sha1": "ff655bfd9a7c",
+      "bank_code_inherited": false,
+      "xref": 457,
+      "bbox": [
+        70.9,
+        267.3,
+        492.6,
+        477.3
+      ],
+      "question_anchor": null,
+      "text_before": "επιλέγουμε καυστήρα πετρελαίου τύπου 0Ε-5.2Ζ",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png",
+      "bank_code": "25897",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 1271,
+      "height": 643,
+      "sha1": "cf87732ffbd6",
+      "bank_code_inherited": false,
+      "xref": 571,
+      "bbox": [
+        71.5,
+        181.3,
+        524.5,
+        410.6
+      ],
+      "question_anchor": null,
+      "text_before": "πετρελαίου Η = 10.000 Kcal/kg.",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png",
+      "bank_code": "25897",
+      "role": "sol",
+      "page": 17,
+      "kind": "embedded",
+      "width": 1271,
+      "height": 643,
+      "sha1": "cf87732ffbd6",
+      "bank_code_inherited": false,
+      "xref": 614,
+      "bbox": [
+        93.6,
+        322.1,
+        546.6,
+        551.4
+      ],
+      "question_anchor": null,
+      "text_before": "h",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png",
+      "bank_code": "28670",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 537,
+      "height": 303,
+      "sha1": "92b9f4d086f4",
+      "bank_code_inherited": false,
+      "xref": 756,
+      "bbox": [
+        124.2,
+        178.8,
+        471.0,
+        374.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24088": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
+          "bank_code": "24088",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 1168,
+          "height": 574,
+          "sha1": "30a79944baed",
+          "bank_code_inherited": false,
+          "xref": 395,
+          "bbox": [
+            70.9,
+            261.0,
+            486.2,
+            464.7
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Διάγραμμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png",
+          "bank_code": "24088",
+          "role": "sol",
+          "page": 13,
+          "kind": "embedded",
+          "width": 546,
+          "height": 272,
+          "sha1": "ff655bfd9a7c",
+          "bank_code_inherited": false,
+          "xref": 457,
+          "bbox": [
+            70.9,
+            267.3,
+            492.6,
+            477.3
+          ],
+          "question_anchor": null,
+          "text_before": "επιλέγουμε καυστήρα πετρελαίου τύπου 0Ε-5.2Ζ",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25897": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png",
+          "bank_code": "25897",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 1271,
+          "height": 643,
+          "sha1": "cf87732ffbd6",
+          "bank_code_inherited": false,
+          "xref": 571,
+          "bbox": [
+            71.5,
+            181.3,
+            524.5,
+            410.6
+          ],
+          "question_anchor": null,
+          "text_before": "πετρελαίου Η = 10.000 Kcal/kg.",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png",
+          "bank_code": "25897",
+          "role": "sol",
+          "page": 17,
+          "kind": "embedded",
+          "width": 1271,
+          "height": 643,
+          "sha1": "cf87732ffbd6",
+          "bank_code_inherited": false,
+          "xref": 614,
+          "bbox": [
+            93.6,
+            322.1,
+            546.6,
+            551.4
+          ],
+          "question_anchor": null,
+          "text_before": "h",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28449": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png",
+          "bank_code": "28449",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 525,
+          "height": 467,
+          "sha1": "c77d545aed5a",
+          "bank_code_inherited": false,
+          "xref": 247,
+          "bbox": [
+            225.1,
+            379.6,
+            410.5,
+            544.6
+          ],
+          "question_anchor": "2.2",
+          "text_before": "4",
+          "text_after": "ΣΤΗΛΗ Α   ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28669": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png",
+          "bank_code": "28669",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 649,
+          "height": 535,
+          "sha1": "e0e5bdaf8714",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            155.1,
+            194.4,
+            438.9,
+            428.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28670": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png",
+          "bank_code": "28670",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 537,
+          "height": 303,
+          "sha1": "92b9f4d086f4",
+          "bank_code_inherited": false,
+          "xref": 756,
+          "bbox": [
+            124.2,
+            178.8,
+            471.0,
+            374.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

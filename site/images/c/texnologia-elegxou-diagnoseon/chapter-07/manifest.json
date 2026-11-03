@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch07.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 7,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch07",
+  "total_pages": 7,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.png",
+      "bank_code": "34300",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 365,
+      "height": 201,
+      "sha1": "c2e88548a40d",
+      "bank_code_inherited": false,
+      "xref": 164,
+      "bbox": [
+        180.6,
+        401.6,
+        454.4,
+        552.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+      "text_after": "Σχιμα 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34300": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.png",
+          "bank_code": "34300",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 365,
+          "height": 201,
+          "sha1": "c2e88548a40d",
+          "bank_code_inherited": false,
+          "xref": 164,
+          "bbox": [
+            180.6,
+            401.6,
+            454.4,
+            552.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γράμμα από τθ Στιλθ Β κα περιςςζψει.",
+          "text_after": "Σχιμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

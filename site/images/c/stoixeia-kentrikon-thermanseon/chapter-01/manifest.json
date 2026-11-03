@@ -1,0 +1,364 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch01.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 1,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch01",
+  "total_pages": 21,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24087_fig01.png",
+      "bank_code": "24087",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 1198,
+      "height": 780,
+      "sha1": "6ac86e4cd7a4",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        70.8,
+        190.8,
+        524.2,
+        486.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28320_fig01.png",
+      "bank_code": "28320",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 463,
+      "height": 394,
+      "sha1": "f9e7b1ba8513",
+      "bank_code_inherited": false,
+      "xref": 246,
+      "bbox": [
+        152.1,
+        202.7,
+        443.1,
+        397.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig01.png",
+      "bank_code": "28321",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 317,
+      "height": 199,
+      "sha1": "99e2d17342a1",
+      "bank_code_inherited": false,
+      "xref": 331,
+      "bbox": [
+        101.7,
+        226.8,
+        303.5,
+        353.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Διανομή από πάνω",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig02.png",
+      "bank_code": "28321",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 277,
+      "height": 224,
+      "sha1": "5b427461c04f",
+      "bank_code_inherited": false,
+      "xref": 332,
+      "bbox": [
+        105.1,
+        383.4,
+        300.7,
+        525.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Διανομή από κάτω",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig03.png",
+      "bank_code": "28321",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 378,
+      "height": 217,
+      "sha1": "ea83e5cc6f22",
+      "bank_code_inherited": false,
+      "xref": 333,
+      "bbox": [
+        95.7,
+        555.6,
+        310.1,
+        693.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Ανεστραμμένη διανομή από κάτω",
+      "text_after": "δ. Ανεστραμμένη διανομή",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.png",
+      "bank_code": "24119",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 157,
+      "height": 202,
+      "sha1": "15d348898bb0",
+      "bank_code_inherited": false,
+      "xref": 426,
+      "bbox": [
+        184.2,
+        189.6,
+        420.0,
+        416.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig02.png",
+      "bank_code": "24119",
+      "role": "fig",
+      "page": 15,
+      "kind": "embedded",
+      "width": 148,
+      "height": 42,
+      "sha1": "63b2ed998e8d",
+      "bank_code_inherited": false,
+      "xref": 427,
+      "bbox": [
+        275.2,
+        413.8,
+        328.4,
+        429.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σχήμα 1",
+      "text_after": "ΣΤΗΛΗ Α  (Σχήμα 1)",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24087": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch01_#24087_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24087_fig01.png",
+          "bank_code": "24087",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 1198,
+          "height": 780,
+          "sha1": "6ac86e4cd7a4",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            70.8,
+            190.8,
+            524.2,
+            486.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24119": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.png",
+          "bank_code": "24119",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 157,
+          "height": 202,
+          "sha1": "15d348898bb0",
+          "bank_code_inherited": false,
+          "xref": 426,
+          "bbox": [
+            184.2,
+            189.6,
+            420.0,
+            416.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig02.png",
+          "bank_code": "24119",
+          "role": "fig",
+          "page": 15,
+          "kind": "embedded",
+          "width": 148,
+          "height": 42,
+          "sha1": "63b2ed998e8d",
+          "bank_code_inherited": false,
+          "xref": 427,
+          "bbox": [
+            275.2,
+            413.8,
+            328.4,
+            429.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σχήμα 1",
+          "text_after": "ΣΤΗΛΗ Α  (Σχήμα 1)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28320": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch01_#28320_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28320_fig01.png",
+          "bank_code": "28320",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 463,
+          "height": 394,
+          "sha1": "f9e7b1ba8513",
+          "bank_code_inherited": false,
+          "xref": 246,
+          "bbox": [
+            152.1,
+            202.7,
+            443.1,
+            397.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ένα γράμμα από τη στήλη Β θα περισσέψει.",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "28321": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig01.png",
+        "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig02.png",
+        "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig01.png",
+          "bank_code": "28321",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 317,
+          "height": 199,
+          "sha1": "99e2d17342a1",
+          "bank_code_inherited": false,
+          "xref": 331,
+          "bbox": [
+            101.7,
+            226.8,
+            303.5,
+            353.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Διανομή από πάνω",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig02.png",
+          "bank_code": "28321",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 277,
+          "height": 224,
+          "sha1": "5b427461c04f",
+          "bank_code_inherited": false,
+          "xref": 332,
+          "bbox": [
+            105.1,
+            383.4,
+            300.7,
+            525.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Διανομή από κάτω",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch01_#28321_fig03.png",
+          "bank_code": "28321",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 378,
+          "height": 217,
+          "sha1": "ea83e5cc6f22",
+          "bank_code_inherited": false,
+          "xref": 333,
+          "bbox": [
+            95.7,
+            555.6,
+            310.1,
+            693.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Ανεστραμμένη διανομή από κάτω",
+          "text_after": "δ. Ανεστραμμένη διανομή",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

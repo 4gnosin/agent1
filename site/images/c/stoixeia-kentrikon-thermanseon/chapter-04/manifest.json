@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_stoixeia-kentrikon-thermanseon_ch04.pdf",
+  "grade": "c",
+  "subject": "stoixeia-kentrikon-thermanseon",
+  "chapter": 4,
+  "stem": "c_stoixeia-kentrikon-thermanseon_ch04",
+  "total_pages": 15,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-kentrikon-thermanseon_ch04_#31268_fig01.png",
+      "bank_code": "31268",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 814,
+      "height": 383,
+      "sha1": "59d7f7b1ef4a",
+      "bank_code_inherited": false,
+      "xref": 505,
+      "bbox": [
+        150.6,
+        224.8,
+        444.0,
+        362.8
+      ],
+      "question_anchor": null,
+      "text_before": "(Μονάδες 18)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "31268": {
+      "fig": [
+        "c_stoixeia-kentrikon-thermanseon_ch04_#31268_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-kentrikon-thermanseon_ch04_#31268_fig01.png",
+          "bank_code": "31268",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 814,
+          "height": 383,
+          "sha1": "59d7f7b1ef4a",
+          "bank_code_inherited": false,
+          "xref": 505,
+          "bbox": [
+            150.6,
+            224.8,
+            444.0,
+            362.8
+          ],
+          "question_anchor": null,
+          "text_before": "(Μονάδες 18)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2539 @@
+{
+  "source_pdf": "c_stoixeia-michanon_ch07.pdf",
+  "grade": "c",
+  "subject": "stoixeia-michanon",
+  "chapter": 7,
+  "stem": "c_stoixeia-michanon_ch07",
+  "total_pages": 74,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig01.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 97,
+      "height": 232,
+      "sha1": "e11a124719cf",
+      "bank_code_inherited": false,
+      "xref": 93,
+      "bbox": [
+        382.5,
+        203.6,
+        455.0,
+        338.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1. Ημιβυθισμένος",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig02.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 103,
+      "height": 226,
+      "sha1": "7c6f89561b6e",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        379.8,
+        349.8,
+        457.3,
+        465.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2. Βυθισμένος",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig03.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 106,
+      "height": 235,
+      "sha1": "a11f02a770c4",
+      "bank_code_inherited": false,
+      "xref": 95,
+      "bbox": [
+        378.4,
+        476.5,
+        457.8,
+        602.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3. Ημιστρόγγυλος",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig04.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 114,
+      "height": 227,
+      "sha1": "c9d1e9a221a9",
+      "bank_code_inherited": false,
+      "xref": 96,
+      "bbox": [
+        377.3,
+        613.8,
+        462.2,
+        732.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4. Σωληνωτός",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig05.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 294,
+      "height": 246,
+      "sha1": "f821d8bdd326",
+      "bank_code_inherited": true,
+      "xref": 145,
+      "bbox": [
+        318.4,
+        225.6,
+        455.8,
+        328.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Σχεδίαση των ηλώσεων",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig06.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 213,
+      "height": 255,
+      "sha1": "9c2fdedd867d",
+      "bank_code_inherited": true,
+      "xref": 146,
+      "bbox": [
+        317.0,
+        339.1,
+        456.5,
+        456.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23884_fig07.png",
+      "bank_code": "23884",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 413,
+      "height": 248,
+      "sha1": "bfb7a02d8527",
+      "bank_code_inherited": true,
+      "xref": 147,
+      "bbox": [
+        319.0,
+        467.0,
+        453.7,
+        560.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23885_fig01.png",
+      "bank_code": "23885",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 170,
+      "height": 109,
+      "sha1": "f920ea42fe8e",
+      "bank_code_inherited": false,
+      "xref": 183,
+      "bbox": [
+        323.3,
+        247.7,
+        450.8,
+        329.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σχεδίαση των ηλώσεων",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23885_fig02.png",
+      "bank_code": "23885",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 213,
+      "height": 109,
+      "sha1": "954dbc2d2386",
+      "bank_code_inherited": false,
+      "xref": 184,
+      "bbox": [
+        319.1,
+        340.5,
+        454.5,
+        419.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23885_fig03.png",
+      "bank_code": "23885",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 195,
+      "height": 120,
+      "sha1": "b8157eccbac8",
+      "bank_code_inherited": false,
+      "xref": 185,
+      "bbox": [
+        312.0,
+        430.8,
+        457.9,
+        520.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23885_fig04.png",
+      "bank_code": "23885",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 248,
+      "height": 121,
+      "sha1": "9671f58fc062",
+      "bank_code_inherited": false,
+      "xref": 186,
+      "bbox": [
+        315.7,
+        531.7,
+        457.7,
+        607.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24203_fig01.png",
+      "bank_code": "24203",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 480,
+      "height": 347,
+      "sha1": "683bb153e281",
+      "bank_code_inherited": false,
+      "xref": 348,
+      "bbox": [
+        121.9,
+        158.8,
+        473.4,
+        412.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24205_fig01.png",
+      "bank_code": "24205",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 506,
+      "height": 367,
+      "sha1": "2385f11ba4e5",
+      "bank_code_inherited": false,
+      "xref": 500,
+      "bbox": [
+        121.4,
+        168.8,
+        473.7,
+        424.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23848_fig01.png",
+      "bank_code": "23848",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 103,
+      "height": 95,
+      "sha1": "69d5af404e72",
+      "bank_code_inherited": false,
+      "xref": 666,
+      "bbox": [
+        173.1,
+        194.6,
+        257.3,
+        272.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Στήλη Β  (ονομασία)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23848_fig02.png",
+      "bank_code": "23848",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 102,
+      "height": 115,
+      "sha1": "eb8674a96cdc",
+      "bank_code_inherited": false,
+      "xref": 667,
+      "bbox": [
+        176.9,
+        289.1,
+        253.4,
+        375.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23848_fig03.png",
+      "bank_code": "23848",
+      "role": "fig",
+      "page": 21,
+      "kind": "embedded",
+      "width": 110,
+      "height": 126,
+      "sha1": "a6c942920760",
+      "bank_code_inherited": false,
+      "xref": 668,
+      "bbox": [
+        173.9,
+        395.1,
+        256.4,
+        489.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23854_fig01.png",
+      "bank_code": "23854",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 311,
+      "height": 236,
+      "sha1": "a90824ce449c",
+      "bank_code_inherited": false,
+      "xref": 751,
+      "bbox": [
+        180.9,
+        180.7,
+        414.2,
+        357.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Σημειώνεται ότι (1) ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23980_fig01.png",
+      "bank_code": "23980",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 124,
+      "height": 260,
+      "sha1": "415cff62dbd6",
+      "bank_code_inherited": false,
+      "xref": 840,
+      "bbox": [
+        163.4,
+        247.7,
+        222.4,
+        372.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23980_fig02.png",
+      "bank_code": "23980",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 202,
+      "height": 225,
+      "sha1": "727ed87c5b8e",
+      "bank_code_inherited": false,
+      "xref": 842,
+      "bbox": [
+        145.7,
+        421.2,
+        239.2,
+        525.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23980_fig03.png",
+      "bank_code": "23980",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 113,
+      "height": 225,
+      "sha1": "7a4e822ddede",
+      "bank_code_inherited": false,
+      "xref": 844,
+      "bbox": [
+        161.4,
+        555.2,
+        222.4,
+        676.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Κοχλίας κεφαλής.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23981_fig01.png",
+      "bank_code": "23981",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 124,
+      "height": 137,
+      "sha1": "58b49fac8176",
+      "bank_code_inherited": false,
+      "xref": 942,
+      "bbox": [
+        366.9,
+        145.3,
+        441.4,
+        227.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23981_fig02.png",
+      "bank_code": "23981",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 165,
+      "height": 210,
+      "sha1": "711146d6e951",
+      "bank_code_inherited": false,
+      "xref": 938,
+      "bbox": [
+        172.9,
+        145.3,
+        273.3,
+        276.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23981_fig03.png",
+      "bank_code": "23981",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 97,
+      "height": 175,
+      "sha1": "ce7d55bb3feb",
+      "bank_code_inherited": false,
+      "xref": 940,
+      "bbox": [
+        274.8,
+        145.3,
+        347.2,
+        276.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23981_fig04.png",
+      "bank_code": "23981",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 108,
+      "height": 120,
+      "sha1": "a548254827d5",
+      "bank_code_inherited": false,
+      "xref": 944,
+      "bbox": [
+        459.1,
+        145.3,
+        534.1,
+        228.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23981_fig05.png",
+      "bank_code": "23981",
+      "role": "fig",
+      "page": 29,
+      "kind": "embedded",
+      "width": 125,
+      "height": 164,
+      "sha1": "6a2c1102193d",
+      "bank_code_inherited": false,
+      "xref": 936,
+      "bbox": [
+        83.4,
+        159.3,
+        158.7,
+        258.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "5.",
+      "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25678_fig01.png",
+      "bank_code": "25678",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 384,
+      "height": 341,
+      "sha1": "d90e7077ca4f",
+      "bank_code_inherited": false,
+      "xref": 1192,
+      "bbox": [
+        137.0,
+        203.6,
+        247.2,
+        301.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25678_fig02.png",
+      "bank_code": "25678",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 136,
+      "height": 277,
+      "sha1": "f70124aafcc4",
+      "bank_code_inherited": false,
+      "xref": 1193,
+      "bbox": [
+        172.0,
+        331.2,
+        212.2,
+        414.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25678_fig03.png",
+      "bank_code": "25678",
+      "role": "fig",
+      "page": 36,
+      "kind": "embedded",
+      "width": 230,
+      "height": 286,
+      "sha1": "0d904b1cdc7a",
+      "bank_code_inherited": false,
+      "xref": 1194,
+      "bbox": [
+        147.4,
+        463.0,
+        236.6,
+        573.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. πρέσσα",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25679_fig01.png",
+      "bank_code": "25679",
+      "role": "fig",
+      "page": 39,
+      "kind": "embedded",
+      "width": 450,
+      "height": 203,
+      "sha1": "f01e70867911",
+      "bank_code_inherited": false,
+      "xref": 1275,
+      "bbox": [
+        163.4,
+        180.8,
+        433.4,
+        302.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25681_fig01.png",
+      "bank_code": "25681",
+      "role": "fig",
+      "page": 41,
+      "kind": "embedded",
+      "width": 91,
+      "height": 85,
+      "sha1": "2e5bc018672e",
+      "bank_code_inherited": false,
+      "xref": 1353,
+      "bbox": [
+        171.8,
+        225.6,
+        240.6,
+        289.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25681_fig02.png",
+      "bank_code": "25681",
+      "role": "fig",
+      "page": 41,
+      "kind": "embedded",
+      "width": 57,
+      "height": 84,
+      "sha1": "486d9b3711ea",
+      "bank_code_inherited": false,
+      "xref": 1354,
+      "bbox": [
+        173.8,
+        319.4,
+        238.6,
+        415.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25681_fig03.png",
+      "bank_code": "25681",
+      "role": "fig",
+      "page": 41,
+      "kind": "embedded",
+      "width": 161,
+      "height": 109,
+      "sha1": "448992b3642c",
+      "bank_code_inherited": false,
+      "xref": 1356,
+      "bbox": [
+        155.4,
+        530.2,
+        251.6,
+        595.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "4.",
+      "text_after": "ε. δακτυλίδι",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25890_fig01.png",
+      "bank_code": "25890",
+      "role": "fig",
+      "page": 44,
+      "kind": "embedded",
+      "width": 101,
+      "height": 118,
+      "sha1": "fd5155419ef5",
+      "bank_code_inherited": false,
+      "xref": 1435,
+      "bbox": [
+        174.6,
+        247.7,
+        250.5,
+        336.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25890_fig02.png",
+      "bank_code": "25890",
+      "role": "fig",
+      "page": 44,
+      "kind": "embedded",
+      "width": 93,
+      "height": 100,
+      "sha1": "02e203a11784",
+      "bank_code_inherited": false,
+      "xref": 1436,
+      "bbox": [
+        177.5,
+        366.0,
+        247.5,
+        441.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#25890_fig03.png",
+      "bank_code": "25890",
+      "role": "fig",
+      "page": 44,
+      "kind": "embedded",
+      "width": 250,
+      "height": 65,
+      "sha1": "08c3e3b7d763",
+      "bank_code_inherited": false,
+      "xref": 1437,
+      "bbox": [
+        134.2,
+        471.1,
+        290.8,
+        511.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Τετραγωνικό.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23970_fig01.png",
+      "bank_code": "23970",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 242,
+      "height": 250,
+      "sha1": "f2db7ada8cf3",
+      "bank_code_inherited": false,
+      "xref": 1580,
+      "bbox": [
+        345.6,
+        207.5,
+        460.4,
+        326.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(εικόνα)",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23970_fig02.png",
+      "bank_code": "23970",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 278,
+      "height": 178,
+      "sha1": "16a56b6b3ba0",
+      "bank_code_inherited": false,
+      "xref": 1581,
+      "bbox": [
+        310.1,
+        339.5,
+        495.7,
+        458.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23970_fig03.png",
+      "bank_code": "23970",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 548,
+      "height": 390,
+      "sha1": "63caf4e6e23a",
+      "bank_code_inherited": false,
+      "xref": 1582,
+      "bbox": [
+        314.0,
+        474.1,
+        490.7,
+        599.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#23970_fig04.png",
+      "bank_code": "23970",
+      "role": "fig",
+      "page": 49,
+      "kind": "embedded",
+      "width": 250,
+      "height": 263,
+      "sha1": "969843a86ecc",
+      "bank_code_inherited": false,
+      "xref": 1583,
+      "bbox": [
+        343.6,
+        616.6,
+        461.4,
+        740.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24102_fig01.png",
+      "bank_code": "24102",
+      "role": "fig",
+      "page": 58,
+      "kind": "embedded",
+      "width": 115,
+      "height": 93,
+      "sha1": "70a9734028e1",
+      "bank_code_inherited": false,
+      "xref": 1842,
+      "bbox": [
+        154.8,
+        181.8,
+        241.3,
+        241.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Επίπεδη γωνιακή ραφή",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24102_fig02.png",
+      "bank_code": "24102",
+      "role": "fig",
+      "page": 58,
+      "kind": "embedded",
+      "width": 109,
+      "height": 89,
+      "sha1": "20cd40e5910c",
+      "bank_code_inherited": false,
+      "xref": 1843,
+      "bbox": [
+        152.1,
+        252.9,
+        234.0,
+        311.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Κυρτή μετωπική ραφή",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24102_fig03.png",
+      "bank_code": "24102",
+      "role": "fig",
+      "page": 58,
+      "kind": "embedded",
+      "width": 109,
+      "height": 95,
+      "sha1": "378be1a64565",
+      "bank_code_inherited": false,
+      "xref": 1844,
+      "bbox": [
+        152.1,
+        322.8,
+        234.0,
+        388.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Κοίλη γωνιακή ραφή",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24031_fig01.png",
+      "bank_code": "24031",
+      "role": "fig",
+      "page": 62,
+      "kind": "embedded",
+      "width": 103,
+      "height": 195,
+      "sha1": "0df31050b2d7",
+      "bank_code_inherited": false,
+      "xref": 2011,
+      "bbox": [
+        158.4,
+        245.2,
+        220.2,
+        362.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24031_fig02.png",
+      "bank_code": "24031",
+      "role": "fig",
+      "page": 62,
+      "kind": "embedded",
+      "width": 103,
+      "height": 187,
+      "sha1": "cec8b28edc68",
+      "bank_code_inherited": false,
+      "xref": 2012,
+      "bbox": [
+        161.2,
+        392.0,
+        223.0,
+        504.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24031_fig03.png",
+      "bank_code": "24031",
+      "role": "fig",
+      "page": 62,
+      "kind": "embedded",
+      "width": 100,
+      "height": 177,
+      "sha1": "84460207811a",
+      "bank_code_inherited": false,
+      "xref": 2013,
+      "bbox": [
+        162.0,
+        534.0,
+        222.0,
+        640.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Οδηγός",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24032_fig01.png",
+      "bank_code": "24032",
+      "role": "fig",
+      "page": 65,
+      "kind": "embedded",
+      "width": 224,
+      "height": 189,
+      "sha1": "684d94c0d220",
+      "bank_code_inherited": false,
+      "xref": 2090,
+      "bbox": [
+        142.8,
+        223.2,
+        235.8,
+        301.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24032_fig02.png",
+      "bank_code": "24032",
+      "role": "fig",
+      "page": 65,
+      "kind": "embedded",
+      "width": 211,
+      "height": 223,
+      "sha1": "c0840b3c8e8b",
+      "bank_code_inherited": false,
+      "xref": 2091,
+      "bbox": [
+        148.0,
+        353.6,
+        236.2,
+        446.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24032_fig03.png",
+      "bank_code": "24032",
+      "role": "fig",
+      "page": 65,
+      "kind": "embedded",
+      "width": 121,
+      "height": 219,
+      "sha1": "5cf92be9546d",
+      "bank_code_inherited": false,
+      "xref": 2092,
+      "bbox": [
+        161.2,
+        498.2,
+        223.0,
+        609.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "δ. Με εγκοπές",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24213_fig01.png",
+      "bank_code": "24213",
+      "role": "fig",
+      "page": 68,
+      "kind": "embedded",
+      "width": 458,
+      "height": 334,
+      "sha1": "c799324fa375",
+      "bank_code_inherited": false,
+      "xref": 2171,
+      "bbox": [
+        182.9,
+        158.8,
+        411.9,
+        325.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24215_fig01.png",
+      "bank_code": "24215",
+      "role": "fig",
+      "page": 70,
+      "kind": "embedded",
+      "width": 344,
+      "height": 298,
+      "sha1": "8567f2de96e5",
+      "bank_code_inherited": false,
+      "xref": 2248,
+      "bbox": [
+        131.1,
+        206.8,
+        290.0,
+        344.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24215_fig02.png",
+      "bank_code": "24215",
+      "role": "fig",
+      "page": 70,
+      "kind": "embedded",
+      "width": 435,
+      "height": 201,
+      "sha1": "7fdbabea9174",
+      "bank_code_inherited": false,
+      "xref": 2249,
+      "bbox": [
+        94.6,
+        367.2,
+        288.4,
+        456.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Σφήνα οδηγός",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24215_fig03.png",
+      "bank_code": "24215",
+      "role": "fig",
+      "page": 70,
+      "kind": "embedded",
+      "width": 273,
+      "height": 245,
+      "sha1": "11c25a272bd2",
+      "bank_code_inherited": false,
+      "xref": 2250,
+      "bbox": [
+        123.2,
+        508.6,
+        259.8,
+        631.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Εγκάρσια σφήνα",
+      "text_after": "δ. Πολύσφηνο",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch07_#24217_fig01.png",
+      "bank_code": "24217",
+      "role": "fig",
+      "page": 73,
+      "kind": "embedded",
+      "width": 1368,
+      "height": 287,
+      "sha1": "24650a007db0",
+      "bank_code_inherited": false,
+      "xref": 2327,
+      "bbox": [
+        70.9,
+        180.8,
+        528.5,
+        276.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23848": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23848_fig01.png",
+        "c_stoixeia-michanon_ch07_#23848_fig02.png",
+        "c_stoixeia-michanon_ch07_#23848_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23848_fig01.png",
+          "bank_code": "23848",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 103,
+          "height": 95,
+          "sha1": "69d5af404e72",
+          "bank_code_inherited": false,
+          "xref": 666,
+          "bbox": [
+            173.1,
+            194.6,
+            257.3,
+            272.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Στήλη Β  (ονομασία)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23848_fig02.png",
+          "bank_code": "23848",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 102,
+          "height": 115,
+          "sha1": "eb8674a96cdc",
+          "bank_code_inherited": false,
+          "xref": 667,
+          "bbox": [
+            176.9,
+            289.1,
+            253.4,
+            375.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23848_fig03.png",
+          "bank_code": "23848",
+          "role": "fig",
+          "page": 21,
+          "kind": "embedded",
+          "width": 110,
+          "height": 126,
+          "sha1": "a6c942920760",
+          "bank_code_inherited": false,
+          "xref": 668,
+          "bbox": [
+            173.9,
+            395.1,
+            256.4,
+            489.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23854": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23854_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23854_fig01.png",
+          "bank_code": "23854",
+          "role": "fig",
+          "page": 24,
+          "kind": "embedded",
+          "width": 311,
+          "height": 236,
+          "sha1": "a90824ce449c",
+          "bank_code_inherited": false,
+          "xref": 751,
+          "bbox": [
+            180.9,
+            180.7,
+            414.2,
+            357.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι (1) ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23884": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23884_fig01.png",
+        "c_stoixeia-michanon_ch07_#23884_fig02.png",
+        "c_stoixeia-michanon_ch07_#23884_fig03.png",
+        "c_stoixeia-michanon_ch07_#23884_fig04.png",
+        "c_stoixeia-michanon_ch07_#23884_fig05.png",
+        "c_stoixeia-michanon_ch07_#23884_fig06.png",
+        "c_stoixeia-michanon_ch07_#23884_fig07.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig01.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 97,
+          "height": 232,
+          "sha1": "e11a124719cf",
+          "bank_code_inherited": false,
+          "xref": 93,
+          "bbox": [
+            382.5,
+            203.6,
+            455.0,
+            338.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1. Ημιβυθισμένος",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig02.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 103,
+          "height": 226,
+          "sha1": "7c6f89561b6e",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            379.8,
+            349.8,
+            457.3,
+            465.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2. Βυθισμένος",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig03.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 106,
+          "height": 235,
+          "sha1": "a11f02a770c4",
+          "bank_code_inherited": false,
+          "xref": 95,
+          "bbox": [
+            378.4,
+            476.5,
+            457.8,
+            602.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3. Ημιστρόγγυλος",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig04.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 114,
+          "height": 227,
+          "sha1": "c9d1e9a221a9",
+          "bank_code_inherited": false,
+          "xref": 96,
+          "bbox": [
+            377.3,
+            613.8,
+            462.2,
+            732.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "4. Σωληνωτός",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig05.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 294,
+          "height": 246,
+          "sha1": "f821d8bdd326",
+          "bank_code_inherited": true,
+          "xref": 145,
+          "bbox": [
+            318.4,
+            225.6,
+            455.8,
+            328.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Σχεδίαση των ηλώσεων",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig06.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 213,
+          "height": 255,
+          "sha1": "9c2fdedd867d",
+          "bank_code_inherited": true,
+          "xref": 146,
+          "bbox": [
+            317.0,
+            339.1,
+            456.5,
+            456.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23884_fig07.png",
+          "bank_code": "23884",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 413,
+          "height": 248,
+          "sha1": "bfb7a02d8527",
+          "bank_code_inherited": true,
+          "xref": 147,
+          "bbox": [
+            319.0,
+            467.0,
+            453.7,
+            560.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23885": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23885_fig01.png",
+        "c_stoixeia-michanon_ch07_#23885_fig02.png",
+        "c_stoixeia-michanon_ch07_#23885_fig03.png",
+        "c_stoixeia-michanon_ch07_#23885_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23885_fig01.png",
+          "bank_code": "23885",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 170,
+          "height": 109,
+          "sha1": "f920ea42fe8e",
+          "bank_code_inherited": false,
+          "xref": 183,
+          "bbox": [
+            323.3,
+            247.7,
+            450.8,
+            329.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σχεδίαση των ηλώσεων",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23885_fig02.png",
+          "bank_code": "23885",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 213,
+          "height": 109,
+          "sha1": "954dbc2d2386",
+          "bank_code_inherited": false,
+          "xref": 184,
+          "bbox": [
+            319.1,
+            340.5,
+            454.5,
+            419.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23885_fig03.png",
+          "bank_code": "23885",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 195,
+          "height": 120,
+          "sha1": "b8157eccbac8",
+          "bank_code_inherited": false,
+          "xref": 185,
+          "bbox": [
+            312.0,
+            430.8,
+            457.9,
+            520.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23885_fig04.png",
+          "bank_code": "23885",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 248,
+          "height": 121,
+          "sha1": "9671f58fc062",
+          "bank_code_inherited": false,
+          "xref": 186,
+          "bbox": [
+            315.7,
+            531.7,
+            457.7,
+            607.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23970": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23970_fig01.png",
+        "c_stoixeia-michanon_ch07_#23970_fig02.png",
+        "c_stoixeia-michanon_ch07_#23970_fig03.png",
+        "c_stoixeia-michanon_ch07_#23970_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23970_fig01.png",
+          "bank_code": "23970",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 242,
+          "height": 250,
+          "sha1": "f2db7ada8cf3",
+          "bank_code_inherited": false,
+          "xref": 1580,
+          "bbox": [
+            345.6,
+            207.5,
+            460.4,
+            326.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(εικόνα)",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23970_fig02.png",
+          "bank_code": "23970",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 278,
+          "height": 178,
+          "sha1": "16a56b6b3ba0",
+          "bank_code_inherited": false,
+          "xref": 1581,
+          "bbox": [
+            310.1,
+            339.5,
+            495.7,
+            458.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23970_fig03.png",
+          "bank_code": "23970",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 548,
+          "height": 390,
+          "sha1": "63caf4e6e23a",
+          "bank_code_inherited": false,
+          "xref": 1582,
+          "bbox": [
+            314.0,
+            474.1,
+            490.7,
+            599.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23970_fig04.png",
+          "bank_code": "23970",
+          "role": "fig",
+          "page": 49,
+          "kind": "embedded",
+          "width": 250,
+          "height": 263,
+          "sha1": "969843a86ecc",
+          "bank_code_inherited": false,
+          "xref": 1583,
+          "bbox": [
+            343.6,
+            616.6,
+            461.4,
+            740.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23980": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23980_fig01.png",
+        "c_stoixeia-michanon_ch07_#23980_fig02.png",
+        "c_stoixeia-michanon_ch07_#23980_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23980_fig01.png",
+          "bank_code": "23980",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 124,
+          "height": 260,
+          "sha1": "415cff62dbd6",
+          "bank_code_inherited": false,
+          "xref": 840,
+          "bbox": [
+            163.4,
+            247.7,
+            222.4,
+            372.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23980_fig02.png",
+          "bank_code": "23980",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 202,
+          "height": 225,
+          "sha1": "727ed87c5b8e",
+          "bank_code_inherited": false,
+          "xref": 842,
+          "bbox": [
+            145.7,
+            421.2,
+            239.2,
+            525.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23980_fig03.png",
+          "bank_code": "23980",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 113,
+          "height": 225,
+          "sha1": "7a4e822ddede",
+          "bank_code_inherited": false,
+          "xref": 844,
+          "bbox": [
+            161.4,
+            555.2,
+            222.4,
+            676.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Κοχλίας κεφαλής.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23981": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#23981_fig01.png",
+        "c_stoixeia-michanon_ch07_#23981_fig02.png",
+        "c_stoixeia-michanon_ch07_#23981_fig03.png",
+        "c_stoixeia-michanon_ch07_#23981_fig04.png",
+        "c_stoixeia-michanon_ch07_#23981_fig05.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#23981_fig01.png",
+          "bank_code": "23981",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 124,
+          "height": 137,
+          "sha1": "58b49fac8176",
+          "bank_code_inherited": false,
+          "xref": 942,
+          "bbox": [
+            366.9,
+            145.3,
+            441.4,
+            227.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5.",
+          "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23981_fig02.png",
+          "bank_code": "23981",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 165,
+          "height": 210,
+          "sha1": "711146d6e951",
+          "bank_code_inherited": false,
+          "xref": 938,
+          "bbox": [
+            172.9,
+            145.3,
+            273.3,
+            276.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5.",
+          "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23981_fig03.png",
+          "bank_code": "23981",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 97,
+          "height": 175,
+          "sha1": "ce7d55bb3feb",
+          "bank_code_inherited": false,
+          "xref": 940,
+          "bbox": [
+            274.8,
+            145.3,
+            347.2,
+            276.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5.",
+          "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23981_fig04.png",
+          "bank_code": "23981",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 108,
+          "height": 120,
+          "sha1": "a548254827d5",
+          "bank_code_inherited": false,
+          "xref": 944,
+          "bbox": [
+            459.1,
+            145.3,
+            534.1,
+            228.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5.",
+          "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#23981_fig05.png",
+          "bank_code": "23981",
+          "role": "fig",
+          "page": 29,
+          "kind": "embedded",
+          "width": 125,
+          "height": 164,
+          "sha1": "6a2c1102193d",
+          "bank_code_inherited": false,
+          "xref": 936,
+          "bbox": [
+            83.4,
+            159.3,
+            158.7,
+            258.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "5.",
+          "text_after": "Αντιπερικόχλιο  Ασφαλιστική",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24031": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24031_fig01.png",
+        "c_stoixeia-michanon_ch07_#24031_fig02.png",
+        "c_stoixeia-michanon_ch07_#24031_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24031_fig01.png",
+          "bank_code": "24031",
+          "role": "fig",
+          "page": 62,
+          "kind": "embedded",
+          "width": 103,
+          "height": 195,
+          "sha1": "0df31050b2d7",
+          "bank_code_inherited": false,
+          "xref": 2011,
+          "bbox": [
+            158.4,
+            245.2,
+            220.2,
+            362.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24031_fig02.png",
+          "bank_code": "24031",
+          "role": "fig",
+          "page": 62,
+          "kind": "embedded",
+          "width": 103,
+          "height": 187,
+          "sha1": "cec8b28edc68",
+          "bank_code_inherited": false,
+          "xref": 2012,
+          "bbox": [
+            161.2,
+            392.0,
+            223.0,
+            504.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24031_fig03.png",
+          "bank_code": "24031",
+          "role": "fig",
+          "page": 62,
+          "kind": "embedded",
+          "width": 100,
+          "height": 177,
+          "sha1": "84460207811a",
+          "bank_code_inherited": false,
+          "xref": 2013,
+          "bbox": [
+            162.0,
+            534.0,
+            222.0,
+            640.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Οδηγός",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24032": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24032_fig01.png",
+        "c_stoixeia-michanon_ch07_#24032_fig02.png",
+        "c_stoixeia-michanon_ch07_#24032_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24032_fig01.png",
+          "bank_code": "24032",
+          "role": "fig",
+          "page": 65,
+          "kind": "embedded",
+          "width": 224,
+          "height": 189,
+          "sha1": "684d94c0d220",
+          "bank_code_inherited": false,
+          "xref": 2090,
+          "bbox": [
+            142.8,
+            223.2,
+            235.8,
+            301.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24032_fig02.png",
+          "bank_code": "24032",
+          "role": "fig",
+          "page": 65,
+          "kind": "embedded",
+          "width": 211,
+          "height": 223,
+          "sha1": "c0840b3c8e8b",
+          "bank_code_inherited": false,
+          "xref": 2091,
+          "bbox": [
+            148.0,
+            353.6,
+            236.2,
+            446.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24032_fig03.png",
+          "bank_code": "24032",
+          "role": "fig",
+          "page": 65,
+          "kind": "embedded",
+          "width": 121,
+          "height": 219,
+          "sha1": "5cf92be9546d",
+          "bank_code_inherited": false,
+          "xref": 2092,
+          "bbox": [
+            161.2,
+            498.2,
+            223.0,
+            609.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Με εγκοπές",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24102": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24102_fig01.png",
+        "c_stoixeia-michanon_ch07_#24102_fig02.png",
+        "c_stoixeia-michanon_ch07_#24102_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24102_fig01.png",
+          "bank_code": "24102",
+          "role": "fig",
+          "page": 58,
+          "kind": "embedded",
+          "width": 115,
+          "height": 93,
+          "sha1": "70a9734028e1",
+          "bank_code_inherited": false,
+          "xref": 1842,
+          "bbox": [
+            154.8,
+            181.8,
+            241.3,
+            241.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Επίπεδη γωνιακή ραφή",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24102_fig02.png",
+          "bank_code": "24102",
+          "role": "fig",
+          "page": 58,
+          "kind": "embedded",
+          "width": 109,
+          "height": 89,
+          "sha1": "20cd40e5910c",
+          "bank_code_inherited": false,
+          "xref": 1843,
+          "bbox": [
+            152.1,
+            252.9,
+            234.0,
+            311.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Κυρτή μετωπική ραφή",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24102_fig03.png",
+          "bank_code": "24102",
+          "role": "fig",
+          "page": 58,
+          "kind": "embedded",
+          "width": 109,
+          "height": 95,
+          "sha1": "378be1a64565",
+          "bank_code_inherited": false,
+          "xref": 1844,
+          "bbox": [
+            152.1,
+            322.8,
+            234.0,
+            388.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Κοίλη γωνιακή ραφή",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24203": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24203_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24203_fig01.png",
+          "bank_code": "24203",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 480,
+          "height": 347,
+          "sha1": "683bb153e281",
+          "bank_code_inherited": false,
+          "xref": 348,
+          "bbox": [
+            121.9,
+            158.8,
+            473.4,
+            412.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24205": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24205_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24205_fig01.png",
+          "bank_code": "24205",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 506,
+          "height": 367,
+          "sha1": "2385f11ba4e5",
+          "bank_code_inherited": false,
+          "xref": 500,
+          "bbox": [
+            121.4,
+            168.8,
+            473.7,
+            424.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24213": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24213_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24213_fig01.png",
+          "bank_code": "24213",
+          "role": "fig",
+          "page": 68,
+          "kind": "embedded",
+          "width": 458,
+          "height": 334,
+          "sha1": "c799324fa375",
+          "bank_code_inherited": false,
+          "xref": 2171,
+          "bbox": [
+            182.9,
+            158.8,
+            411.9,
+            325.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24215": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24215_fig01.png",
+        "c_stoixeia-michanon_ch07_#24215_fig02.png",
+        "c_stoixeia-michanon_ch07_#24215_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24215_fig01.png",
+          "bank_code": "24215",
+          "role": "fig",
+          "page": 70,
+          "kind": "embedded",
+          "width": 344,
+          "height": 298,
+          "sha1": "8567f2de96e5",
+          "bank_code_inherited": false,
+          "xref": 2248,
+          "bbox": [
+            131.1,
+            206.8,
+            290.0,
+            344.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24215_fig02.png",
+          "bank_code": "24215",
+          "role": "fig",
+          "page": 70,
+          "kind": "embedded",
+          "width": 435,
+          "height": 201,
+          "sha1": "7fdbabea9174",
+          "bank_code_inherited": false,
+          "xref": 2249,
+          "bbox": [
+            94.6,
+            367.2,
+            288.4,
+            456.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Σφήνα οδηγός",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#24215_fig03.png",
+          "bank_code": "24215",
+          "role": "fig",
+          "page": 70,
+          "kind": "embedded",
+          "width": 273,
+          "height": 245,
+          "sha1": "11c25a272bd2",
+          "bank_code_inherited": false,
+          "xref": 2250,
+          "bbox": [
+            123.2,
+            508.6,
+            259.8,
+            631.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Εγκάρσια σφήνα",
+          "text_after": "δ. Πολύσφηνο",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24217": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#24217_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#24217_fig01.png",
+          "bank_code": "24217",
+          "role": "fig",
+          "page": 73,
+          "kind": "embedded",
+          "width": 1368,
+          "height": 287,
+          "sha1": "24650a007db0",
+          "bank_code_inherited": false,
+          "xref": 2327,
+          "bbox": [
+            70.9,
+            180.8,
+            528.5,
+            276.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25678": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#25678_fig01.png",
+        "c_stoixeia-michanon_ch07_#25678_fig02.png",
+        "c_stoixeia-michanon_ch07_#25678_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#25678_fig01.png",
+          "bank_code": "25678",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 384,
+          "height": 341,
+          "sha1": "d90e7077ca4f",
+          "bank_code_inherited": false,
+          "xref": 1192,
+          "bbox": [
+            137.0,
+            203.6,
+            247.2,
+            301.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25678_fig02.png",
+          "bank_code": "25678",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 136,
+          "height": 277,
+          "sha1": "f70124aafcc4",
+          "bank_code_inherited": false,
+          "xref": 1193,
+          "bbox": [
+            172.0,
+            331.2,
+            212.2,
+            414.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25678_fig03.png",
+          "bank_code": "25678",
+          "role": "fig",
+          "page": 36,
+          "kind": "embedded",
+          "width": 230,
+          "height": 286,
+          "sha1": "0d904b1cdc7a",
+          "bank_code_inherited": false,
+          "xref": 1194,
+          "bbox": [
+            147.4,
+            463.0,
+            236.6,
+            573.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. πρέσσα",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25679": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#25679_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#25679_fig01.png",
+          "bank_code": "25679",
+          "role": "fig",
+          "page": 39,
+          "kind": "embedded",
+          "width": 450,
+          "height": 203,
+          "sha1": "f01e70867911",
+          "bank_code_inherited": false,
+          "xref": 1275,
+          "bbox": [
+            163.4,
+            180.8,
+            433.4,
+            302.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25681": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#25681_fig01.png",
+        "c_stoixeia-michanon_ch07_#25681_fig02.png",
+        "c_stoixeia-michanon_ch07_#25681_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#25681_fig01.png",
+          "bank_code": "25681",
+          "role": "fig",
+          "page": 41,
+          "kind": "embedded",
+          "width": 91,
+          "height": 85,
+          "sha1": "2e5bc018672e",
+          "bank_code_inherited": false,
+          "xref": 1353,
+          "bbox": [
+            171.8,
+            225.6,
+            240.6,
+            289.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25681_fig02.png",
+          "bank_code": "25681",
+          "role": "fig",
+          "page": 41,
+          "kind": "embedded",
+          "width": 57,
+          "height": 84,
+          "sha1": "486d9b3711ea",
+          "bank_code_inherited": false,
+          "xref": 1354,
+          "bbox": [
+            173.8,
+            319.4,
+            238.6,
+            415.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25681_fig03.png",
+          "bank_code": "25681",
+          "role": "fig",
+          "page": 41,
+          "kind": "embedded",
+          "width": 161,
+          "height": 109,
+          "sha1": "448992b3642c",
+          "bank_code_inherited": false,
+          "xref": 1356,
+          "bbox": [
+            155.4,
+            530.2,
+            251.6,
+            595.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "4.",
+          "text_after": "ε. δακτυλίδι",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25890": {
+      "fig": [
+        "c_stoixeia-michanon_ch07_#25890_fig01.png",
+        "c_stoixeia-michanon_ch07_#25890_fig02.png",
+        "c_stoixeia-michanon_ch07_#25890_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch07_#25890_fig01.png",
+          "bank_code": "25890",
+          "role": "fig",
+          "page": 44,
+          "kind": "embedded",
+          "width": 101,
+          "height": 118,
+          "sha1": "fd5155419ef5",
+          "bank_code_inherited": false,
+          "xref": 1435,
+          "bbox": [
+            174.6,
+            247.7,
+            250.5,
+            336.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25890_fig02.png",
+          "bank_code": "25890",
+          "role": "fig",
+          "page": 44,
+          "kind": "embedded",
+          "width": 93,
+          "height": 100,
+          "sha1": "02e203a11784",
+          "bank_code_inherited": false,
+          "xref": 1436,
+          "bbox": [
+            177.5,
+            366.0,
+            247.5,
+            441.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch07_#25890_fig03.png",
+          "bank_code": "25890",
+          "role": "fig",
+          "page": 44,
+          "kind": "embedded",
+          "width": 250,
+          "height": 65,
+          "sha1": "08c3e3b7d763",
+          "bank_code_inherited": false,
+          "xref": 1437,
+          "bbox": [
+            134.2,
+            471.1,
+            290.8,
+            511.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "δ. Τετραγωνικό.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch12.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 12,
+  "stem": "c_michanourgiki-texnologia_ch12",
+  "total_pages": 9,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch12_#27692_fig01.png",
+      "bank_code": "27692",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 413,
+      "height": 599,
+      "sha1": "3eceac440b24",
+      "bank_code_inherited": false,
+      "xref": 191,
+      "bbox": [
+        132.4,
+        202.7,
+        462.8,
+        681.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "Μηχανική πρέσα",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27692": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch12_#27692_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch12_#27692_fig01.png",
+          "bank_code": "27692",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 413,
+          "height": 599,
+          "sha1": "3eceac440b24",
+          "bank_code_inherited": false,
+          "xref": 191,
+          "bbox": [
+            132.4,
+            202.7,
+            462.8,
+            681.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "Μηχανική πρέσα",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

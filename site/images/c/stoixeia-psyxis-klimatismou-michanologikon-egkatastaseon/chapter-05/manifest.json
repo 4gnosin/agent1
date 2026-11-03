@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+  "chapter": 5,
+  "stem": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05",
+  "total_pages": 16,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png",
+      "bank_code": "25271",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 739,
+      "height": 436,
+      "sha1": "6498bea11223",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        79.6,
+        247.7,
+        320.1,
+        389.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Εκτονωτικό μέσο",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25271": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png",
+          "bank_code": "25271",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 739,
+          "height": 436,
+          "sha1": "6498bea11223",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            79.6,
+            247.7,
+            320.1,
+            389.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Εκτονωτικό μέσο",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

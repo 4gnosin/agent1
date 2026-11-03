@@ -1,0 +1,1189 @@
+{
+  "source_pdf": "c_stoixeia-michanon_ch14.pdf",
+  "grade": "c",
+  "subject": "stoixeia-michanon",
+  "chapter": 14,
+  "stem": "c_stoixeia-michanon_ch14",
+  "total_pages": 109,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-michanon_ch14_#24076_fig01.png",
+      "bank_code": "24076",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 373,
+      "height": 184,
+      "sha1": "6a3e3671413d",
+      "bank_code_inherited": false,
+      "xref": 251,
+      "bbox": [
+        153.6,
+        267.9,
+        410.6,
+        394.3
+      ],
+      "question_anchor": null,
+      "text_before": "• Διάμετρος οπής ελάσματος d1 = 11 mm",
+      "text_after": "Να υπολογίσετε :",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25714_fig01.png",
+      "bank_code": "25714",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 125,
+      "height": 85,
+      "sha1": "48f3f4355b7f",
+      "bank_code_inherited": false,
+      "xref": 375,
+      "bbox": [
+        214.9,
+        115.2,
+        375.4,
+        224.4
+      ],
+      "question_anchor": null,
+      "text_before": "Δύο ελάσματα συνδέονται με έναν ήλο και φορτίζονται με δύναμη Q = 3140 daN.",
+      "text_after": "Ζητούνται:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25714_fig02.png",
+      "bank_code": "25714",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 86,
+      "height": 51,
+      "sha1": "d4df77b91fe5",
+      "bank_code_inherited": false,
+      "xref": 376,
+      "bbox": [
+        382.0,
+        152.2,
+        413.2,
+        170.6
+      ],
+      "question_anchor": null,
+      "text_before": "Q",
+      "text_after": "Ζητούνται:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25987_fig01.png",
+      "bank_code": "25987",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 775,
+      "height": 294,
+      "sha1": "089401dea5b2",
+      "bank_code_inherited": false,
+      "xref": 684,
+      "bbox": [
+        89.6,
+        249.2,
+        505.6,
+        407.0
+      ],
+      "question_anchor": null,
+      "text_before": "Nα υπολογίσετε τον αριθμό των ήλων z.",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25680_fig01.png",
+      "bank_code": "25680",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 313,
+      "height": 362,
+      "sha1": "81570b83e034",
+      "bank_code_inherited": false,
+      "xref": 1061,
+      "bbox": [
+        202.4,
+        252.9,
+        392.9,
+        473.2
+      ],
+      "question_anchor": null,
+      "text_before": "β) H διάμετρος του πυρήνα d1 του κοχλία. (Μονάδες 20)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25682_fig01.png",
+      "bank_code": "25682",
+      "role": "fig",
+      "page": 24,
+      "kind": "embedded",
+      "width": 384,
+      "height": 423,
+      "sha1": "b2c5e5719097",
+      "bank_code_inherited": false,
+      "xref": 1166,
+      "bbox": [
+        201.7,
+        237.1,
+        393.7,
+        448.6
+      ],
+      "question_anchor": null,
+      "text_before": "mm2. (Μονάδες 10)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25683_fig01.png",
+      "bank_code": "25683",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 267,
+      "height": 461,
+      "sha1": "1674400c0218",
+      "bank_code_inherited": false,
+      "xref": 1267,
+      "bbox": [
+        223.9,
+        253.0,
+        371.4,
+        507.6
+      ],
+      "question_anchor": null,
+      "text_before": "β) Η ορθή τάση θραύσης σθρ του υλικού του κοχλία. (Μονάδες 5)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#25684_fig01.png",
+      "bank_code": "25684",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 384,
+      "height": 423,
+      "sha1": "b2c5e5719097",
+      "bank_code_inherited": false,
+      "xref": 1368,
+      "bbox": [
+        201.7,
+        253.0,
+        393.7,
+        464.5
+      ],
+      "question_anchor": null,
+      "text_before": "β) Το μέγιστο επιτρεπόμενο φορτίο F. (Μονάδες 15)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#24078_fig01.png",
+      "bank_code": "24078",
+      "role": "fig",
+      "page": 46,
+      "kind": "embedded",
+      "width": 795,
+      "height": 321,
+      "sha1": "d8e53011f6d8",
+      "bank_code_inherited": false,
+      "xref": 2180,
+      "bbox": [
+        98.9,
+        180.7,
+        497.6,
+        341.7
+      ],
+      "question_anchor": null,
+      "text_before": "στρέψη και η μεταφορά της κίνησης γίνεται χωρίς απώλειες.",
+      "text_after": "Να υπολογίσετε:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#23984_fig01.png",
+      "bank_code": "23984",
+      "role": "fig",
+      "page": 56,
+      "kind": "embedded",
+      "width": 348,
+      "height": 391,
+      "sha1": "470b9fff8c3e",
+      "bank_code_inherited": false,
+      "xref": 2683,
+      "bbox": [
+        188.9,
+        180.8,
+        407.7,
+        426.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι (1) ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32150_fig01.png",
+      "bank_code": "32150",
+      "role": "fig",
+      "page": 62,
+      "kind": "embedded",
+      "width": 658,
+      "height": 237,
+      "sha1": "21de2b406fb9",
+      "bank_code_inherited": false,
+      "xref": 2845,
+      "bbox": [
+        121.6,
+        317.1,
+        473.8,
+        432.1
+      ],
+      "question_anchor": null,
+      "text_before": "F3",
+      "text_after": "F1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32150_fig02.png",
+      "bank_code": "32150",
+      "role": "fig",
+      "page": 62,
+      "kind": "embedded",
+      "width": 378,
+      "height": 163,
+      "sha1": "8e078ef6f1c1",
+      "bank_code_inherited": false,
+      "xref": 2858,
+      "bbox": [
+        184.0,
+        454.4,
+        410.9,
+        552.0
+      ],
+      "question_anchor": null,
+      "text_before": "F2",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32169_fig01.png",
+      "bank_code": "32169",
+      "role": "fig",
+      "page": 64,
+      "kind": "embedded",
+      "width": 799,
+      "height": 339,
+      "sha1": "638c1e412417",
+      "bank_code_inherited": false,
+      "xref": 2955,
+      "bbox": [
+        80.0,
+        204.6,
+        515.2,
+        389.5
+      ],
+      "question_anchor": null,
+      "text_before": "• Αποστάσεις: l1 = 100 mm και l2 = 200 mm.",
+      "text_after": "Ζητούνται:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32172_fig01.png",
+      "bank_code": "32172",
+      "role": "fig",
+      "page": 67,
+      "kind": "embedded",
+      "width": 822,
+      "height": 408,
+      "sha1": "a1bd6c2ca3da",
+      "bank_code_inherited": false,
+      "xref": 3076,
+      "bbox": [
+        70.9,
+        136.8,
+        524.4,
+        361.8
+      ],
+      "question_anchor": null,
+      "text_before": "σημεία Α, Β, όπως φαίνεται στο παρακάτω σχήμα.",
+      "text_after": "Από τον υπολογισμό της ατράκτου και τα γεωμετρικά χαρακτηριστικά φόρτισης έχουμε:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32789_fig01.png",
+      "bank_code": "32789",
+      "role": "fig",
+      "page": 70,
+      "kind": "embedded",
+      "width": 1128,
+      "height": 466,
+      "sha1": "6201853974e3",
+      "bank_code_inherited": false,
+      "xref": 3179,
+      "bbox": [
+        104.9,
+        312.9,
+        490.0,
+        471.9
+      ],
+      "question_anchor": null,
+      "text_before": "σημεία στήριξης Α και Β, με τη βοήθεια του Πίνακα 1. (Μονάδες 15)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#32789_fig02.png",
+      "bank_code": "32789",
+      "role": "fig",
+      "page": 70,
+      "kind": "embedded",
+      "width": 422,
+      "height": 346,
+      "sha1": "9d1d10e96a5a",
+      "bank_code_inherited": false,
+      "xref": 3180,
+      "bbox": [
+        185.8,
+        467.1,
+        409.5,
+        650.6
+      ],
+      "question_anchor": null,
+      "text_before": "σημεία στήριξης Α και Β, με τη βοήθεια του Πίνακα 1. (Μονάδες 15)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#33492_fig01.png",
+      "bank_code": "33492",
+      "role": "fig",
+      "page": 72,
+      "kind": "embedded",
+      "width": 504,
+      "height": 209,
+      "sha1": "5c160f6c69d7",
+      "bank_code_inherited": false,
+      "xref": 3278,
+      "bbox": [
+        139.6,
+        349.2,
+        442.0,
+        474.6
+      ],
+      "question_anchor": null,
+      "text_before": "(Μονάδες 10)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#33492_fig02.png",
+      "bank_code": "33492",
+      "role": "fig",
+      "page": 72,
+      "kind": "embedded",
+      "width": 427,
+      "height": 151,
+      "sha1": "320a2067af64",
+      "bank_code_inherited": false,
+      "xref": 3277,
+      "bbox": [
+        169.5,
+        503.9,
+        425.8,
+        594.6
+      ],
+      "question_anchor": null,
+      "text_before": "(Μονάδες 10)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#30436_fig01.png",
+      "bank_code": "30436",
+      "role": "fig",
+      "page": 90,
+      "kind": "embedded",
+      "width": 594,
+      "height": 318,
+      "sha1": "525f31967fc4",
+      "bank_code_inherited": false,
+      "xref": 4213,
+      "bbox": [
+        149.2,
+        224.7,
+        446.2,
+        383.7
+      ],
+      "question_anchor": null,
+      "text_before": "γ) Το ύψος του δοντιού h. (Μονάδες 7)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#30441_fig01.png",
+      "bank_code": "30441",
+      "role": "fig",
+      "page": 92,
+      "kind": "embedded",
+      "width": 594,
+      "height": 318,
+      "sha1": "525f31967fc4",
+      "bank_code_inherited": false,
+      "xref": 4306,
+      "bbox": [
+        149.2,
+        224.7,
+        446.2,
+        383.7
+      ],
+      "question_anchor": null,
+      "text_before": "γ) Το πάχος του δοντιού s. (Μονάδες 7)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#30450_fig01.png",
+      "bank_code": "30450",
+      "role": "fig",
+      "page": 94,
+      "kind": "embedded",
+      "width": 535,
+      "height": 407,
+      "sha1": "947da7fb57d5",
+      "bank_code_inherited": false,
+      "xref": 4399,
+      "bbox": [
+        163.9,
+        246.7,
+        431.4,
+        450.2
+      ],
+      "question_anchor": null,
+      "text_before": "δ) Το διάκενο μεταξύ των δοντιών w. (Μονάδες 5)",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#30935_fig01.png",
+      "bank_code": "30935",
+      "role": "fig",
+      "page": 96,
+      "kind": "embedded",
+      "width": 327,
+      "height": 350,
+      "sha1": "1f6cc576b939",
+      "bank_code_inherited": false,
+      "xref": 4492,
+      "bbox": [
+        212.5,
+        227.3,
+        396.7,
+        424.4
+      ],
+      "question_anchor": null,
+      "text_before": "• για τον τροχό 4, στροφές n4 = 180 rpm και μεταφερόμενη ισχύς Ρ4 = 4,5 PS.",
+      "text_after": "Σχήμα 1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch14_#30937_fig01.png",
+      "bank_code": "30937",
+      "role": "fig",
+      "page": 98,
+      "kind": "embedded",
+      "width": 524,
+      "height": 121,
+      "sha1": "e85db24b34c7",
+      "bank_code_inherited": false,
+      "xref": 4603,
+      "bbox": [
+        99.2,
+        268.6,
+        492.2,
+        359.4
+      ],
+      "question_anchor": null,
+      "text_before": "(Μονάδες 10)",
+      "text_after": "Πίνακας 1",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23984": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#23984_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#23984_fig01.png",
+          "bank_code": "23984",
+          "role": "fig",
+          "page": 56,
+          "kind": "embedded",
+          "width": 348,
+          "height": 391,
+          "sha1": "470b9fff8c3e",
+          "bank_code_inherited": false,
+          "xref": 2683,
+          "bbox": [
+            188.9,
+            180.8,
+            407.7,
+            426.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι (1) ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24076": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#24076_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#24076_fig01.png",
+          "bank_code": "24076",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 373,
+          "height": 184,
+          "sha1": "6a3e3671413d",
+          "bank_code_inherited": false,
+          "xref": 251,
+          "bbox": [
+            153.6,
+            267.9,
+            410.6,
+            394.3
+          ],
+          "question_anchor": null,
+          "text_before": "• Διάμετρος οπής ελάσματος d1 = 11 mm",
+          "text_after": "Να υπολογίσετε :",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "24078": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#24078_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#24078_fig01.png",
+          "bank_code": "24078",
+          "role": "fig",
+          "page": 46,
+          "kind": "embedded",
+          "width": 795,
+          "height": 321,
+          "sha1": "d8e53011f6d8",
+          "bank_code_inherited": false,
+          "xref": 2180,
+          "bbox": [
+            98.9,
+            180.7,
+            497.6,
+            341.7
+          ],
+          "question_anchor": null,
+          "text_before": "στρέψη και η μεταφορά της κίνησης γίνεται χωρίς απώλειες.",
+          "text_after": "Να υπολογίσετε:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25680": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25680_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25680_fig01.png",
+          "bank_code": "25680",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 313,
+          "height": 362,
+          "sha1": "81570b83e034",
+          "bank_code_inherited": false,
+          "xref": 1061,
+          "bbox": [
+            202.4,
+            252.9,
+            392.9,
+            473.2
+          ],
+          "question_anchor": null,
+          "text_before": "β) H διάμετρος του πυρήνα d1 του κοχλία. (Μονάδες 20)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25682": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25682_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25682_fig01.png",
+          "bank_code": "25682",
+          "role": "fig",
+          "page": 24,
+          "kind": "embedded",
+          "width": 384,
+          "height": 423,
+          "sha1": "b2c5e5719097",
+          "bank_code_inherited": false,
+          "xref": 1166,
+          "bbox": [
+            201.7,
+            237.1,
+            393.7,
+            448.6
+          ],
+          "question_anchor": null,
+          "text_before": "mm2. (Μονάδες 10)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25683": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25683_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25683_fig01.png",
+          "bank_code": "25683",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 267,
+          "height": 461,
+          "sha1": "1674400c0218",
+          "bank_code_inherited": false,
+          "xref": 1267,
+          "bbox": [
+            223.9,
+            253.0,
+            371.4,
+            507.6
+          ],
+          "question_anchor": null,
+          "text_before": "β) Η ορθή τάση θραύσης σθρ του υλικού του κοχλία. (Μονάδες 5)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25684": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25684_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25684_fig01.png",
+          "bank_code": "25684",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 384,
+          "height": 423,
+          "sha1": "b2c5e5719097",
+          "bank_code_inherited": false,
+          "xref": 1368,
+          "bbox": [
+            201.7,
+            253.0,
+            393.7,
+            464.5
+          ],
+          "question_anchor": null,
+          "text_before": "β) Το μέγιστο επιτρεπόμενο φορτίο F. (Μονάδες 15)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25714": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25714_fig01.png",
+        "c_stoixeia-michanon_ch14_#25714_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25714_fig01.png",
+          "bank_code": "25714",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 125,
+          "height": 85,
+          "sha1": "48f3f4355b7f",
+          "bank_code_inherited": false,
+          "xref": 375,
+          "bbox": [
+            214.9,
+            115.2,
+            375.4,
+            224.4
+          ],
+          "question_anchor": null,
+          "text_before": "Δύο ελάσματα συνδέονται με έναν ήλο και φορτίζονται με δύναμη Q = 3140 daN.",
+          "text_after": "Ζητούνται:",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch14_#25714_fig02.png",
+          "bank_code": "25714",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 86,
+          "height": 51,
+          "sha1": "d4df77b91fe5",
+          "bank_code_inherited": false,
+          "xref": 376,
+          "bbox": [
+            382.0,
+            152.2,
+            413.2,
+            170.6
+          ],
+          "question_anchor": null,
+          "text_before": "Q",
+          "text_after": "Ζητούνται:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25987": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#25987_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#25987_fig01.png",
+          "bank_code": "25987",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 775,
+          "height": 294,
+          "sha1": "089401dea5b2",
+          "bank_code_inherited": false,
+          "xref": 684,
+          "bbox": [
+            89.6,
+            249.2,
+            505.6,
+            407.0
+          ],
+          "question_anchor": null,
+          "text_before": "Nα υπολογίσετε τον αριθμό των ήλων z.",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30436": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#30436_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#30436_fig01.png",
+          "bank_code": "30436",
+          "role": "fig",
+          "page": 90,
+          "kind": "embedded",
+          "width": 594,
+          "height": 318,
+          "sha1": "525f31967fc4",
+          "bank_code_inherited": false,
+          "xref": 4213,
+          "bbox": [
+            149.2,
+            224.7,
+            446.2,
+            383.7
+          ],
+          "question_anchor": null,
+          "text_before": "γ) Το ύψος του δοντιού h. (Μονάδες 7)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30441": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#30441_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#30441_fig01.png",
+          "bank_code": "30441",
+          "role": "fig",
+          "page": 92,
+          "kind": "embedded",
+          "width": 594,
+          "height": 318,
+          "sha1": "525f31967fc4",
+          "bank_code_inherited": false,
+          "xref": 4306,
+          "bbox": [
+            149.2,
+            224.7,
+            446.2,
+            383.7
+          ],
+          "question_anchor": null,
+          "text_before": "γ) Το πάχος του δοντιού s. (Μονάδες 7)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30450": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#30450_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#30450_fig01.png",
+          "bank_code": "30450",
+          "role": "fig",
+          "page": 94,
+          "kind": "embedded",
+          "width": 535,
+          "height": 407,
+          "sha1": "947da7fb57d5",
+          "bank_code_inherited": false,
+          "xref": 4399,
+          "bbox": [
+            163.9,
+            246.7,
+            431.4,
+            450.2
+          ],
+          "question_anchor": null,
+          "text_before": "δ) Το διάκενο μεταξύ των δοντιών w. (Μονάδες 5)",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30935": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#30935_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#30935_fig01.png",
+          "bank_code": "30935",
+          "role": "fig",
+          "page": 96,
+          "kind": "embedded",
+          "width": 327,
+          "height": 350,
+          "sha1": "1f6cc576b939",
+          "bank_code_inherited": false,
+          "xref": 4492,
+          "bbox": [
+            212.5,
+            227.3,
+            396.7,
+            424.4
+          ],
+          "question_anchor": null,
+          "text_before": "• για τον τροχό 4, στροφές n4 = 180 rpm και μεταφερόμενη ισχύς Ρ4 = 4,5 PS.",
+          "text_after": "Σχήμα 1.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30937": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#30937_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#30937_fig01.png",
+          "bank_code": "30937",
+          "role": "fig",
+          "page": 98,
+          "kind": "embedded",
+          "width": 524,
+          "height": 121,
+          "sha1": "e85db24b34c7",
+          "bank_code_inherited": false,
+          "xref": 4603,
+          "bbox": [
+            99.2,
+            268.6,
+            492.2,
+            359.4
+          ],
+          "question_anchor": null,
+          "text_before": "(Μονάδες 10)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32150": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#32150_fig01.png",
+        "c_stoixeia-michanon_ch14_#32150_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#32150_fig01.png",
+          "bank_code": "32150",
+          "role": "fig",
+          "page": 62,
+          "kind": "embedded",
+          "width": 658,
+          "height": 237,
+          "sha1": "21de2b406fb9",
+          "bank_code_inherited": false,
+          "xref": 2845,
+          "bbox": [
+            121.6,
+            317.1,
+            473.8,
+            432.1
+          ],
+          "question_anchor": null,
+          "text_before": "F3",
+          "text_after": "F1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch14_#32150_fig02.png",
+          "bank_code": "32150",
+          "role": "fig",
+          "page": 62,
+          "kind": "embedded",
+          "width": 378,
+          "height": 163,
+          "sha1": "8e078ef6f1c1",
+          "bank_code_inherited": false,
+          "xref": 2858,
+          "bbox": [
+            184.0,
+            454.4,
+            410.9,
+            552.0
+          ],
+          "question_anchor": null,
+          "text_before": "F2",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32169": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#32169_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#32169_fig01.png",
+          "bank_code": "32169",
+          "role": "fig",
+          "page": 64,
+          "kind": "embedded",
+          "width": 799,
+          "height": 339,
+          "sha1": "638c1e412417",
+          "bank_code_inherited": false,
+          "xref": 2955,
+          "bbox": [
+            80.0,
+            204.6,
+            515.2,
+            389.5
+          ],
+          "question_anchor": null,
+          "text_before": "• Αποστάσεις: l1 = 100 mm και l2 = 200 mm.",
+          "text_after": "Ζητούνται:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32172": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#32172_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#32172_fig01.png",
+          "bank_code": "32172",
+          "role": "fig",
+          "page": 67,
+          "kind": "embedded",
+          "width": 822,
+          "height": 408,
+          "sha1": "a1bd6c2ca3da",
+          "bank_code_inherited": false,
+          "xref": 3076,
+          "bbox": [
+            70.9,
+            136.8,
+            524.4,
+            361.8
+          ],
+          "question_anchor": null,
+          "text_before": "σημεία Α, Β, όπως φαίνεται στο παρακάτω σχήμα.",
+          "text_after": "Από τον υπολογισμό της ατράκτου και τα γεωμετρικά χαρακτηριστικά φόρτισης έχουμε:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32789": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#32789_fig01.png",
+        "c_stoixeia-michanon_ch14_#32789_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#32789_fig01.png",
+          "bank_code": "32789",
+          "role": "fig",
+          "page": 70,
+          "kind": "embedded",
+          "width": 1128,
+          "height": 466,
+          "sha1": "6201853974e3",
+          "bank_code_inherited": false,
+          "xref": 3179,
+          "bbox": [
+            104.9,
+            312.9,
+            490.0,
+            471.9
+          ],
+          "question_anchor": null,
+          "text_before": "σημεία στήριξης Α και Β, με τη βοήθεια του Πίνακα 1. (Μονάδες 15)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch14_#32789_fig02.png",
+          "bank_code": "32789",
+          "role": "fig",
+          "page": 70,
+          "kind": "embedded",
+          "width": 422,
+          "height": 346,
+          "sha1": "9d1d10e96a5a",
+          "bank_code_inherited": false,
+          "xref": 3180,
+          "bbox": [
+            185.8,
+            467.1,
+            409.5,
+            650.6
+          ],
+          "question_anchor": null,
+          "text_before": "σημεία στήριξης Α και Β, με τη βοήθεια του Πίνακα 1. (Μονάδες 15)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33492": {
+      "fig": [
+        "c_stoixeia-michanon_ch14_#33492_fig01.png",
+        "c_stoixeia-michanon_ch14_#33492_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch14_#33492_fig01.png",
+          "bank_code": "33492",
+          "role": "fig",
+          "page": 72,
+          "kind": "embedded",
+          "width": 504,
+          "height": 209,
+          "sha1": "5c160f6c69d7",
+          "bank_code_inherited": false,
+          "xref": 3278,
+          "bbox": [
+            139.6,
+            349.2,
+            442.0,
+            474.6
+          ],
+          "question_anchor": null,
+          "text_before": "(Μονάδες 10)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch14_#33492_fig02.png",
+          "bank_code": "33492",
+          "role": "fig",
+          "page": 72,
+          "kind": "embedded",
+          "width": 427,
+          "height": 151,
+          "sha1": "320a2067af64",
+          "bank_code_inherited": false,
+          "xref": 3277,
+          "bbox": [
+            169.5,
+            503.9,
+            425.8,
+            594.6
+          ],
+          "question_anchor": null,
+          "text_before": "(Μονάδες 10)",
+          "text_after": "Πίνακας 1",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

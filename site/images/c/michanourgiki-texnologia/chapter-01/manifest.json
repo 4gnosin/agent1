@@ -1,0 +1,125 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch01.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 1,
+  "stem": "c_michanourgiki-texnologia_ch01",
+  "total_pages": 11,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch01_#26779_fig01.png",
+      "bank_code": "26779",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 273,
+      "height": 206,
+      "sha1": "45982906a390",
+      "bank_code_inherited": false,
+      "xref": 174,
+      "bbox": [
+        194.9,
+        180.7,
+        399.6,
+        335.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "νεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch01_#26781_fig01.png",
+      "bank_code": "26781",
+      "role": "fig",
+      "page": 10,
+      "kind": "embedded",
+      "width": 274,
+      "height": 253,
+      "sha1": "6f6e17634d05",
+      "bank_code_inherited": false,
+      "xref": 346,
+      "bbox": [
+        194.9,
+        180.7,
+        400.2,
+        370.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "26779": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch01_#26779_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch01_#26779_fig01.png",
+          "bank_code": "26779",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 273,
+          "height": 206,
+          "sha1": "45982906a390",
+          "bank_code_inherited": false,
+          "xref": 174,
+          "bbox": [
+            194.9,
+            180.7,
+            399.6,
+            335.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "νεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26781": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch01_#26781_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch01_#26781_fig01.png",
+          "bank_code": "26781",
+          "role": "fig",
+          "page": 10,
+          "kind": "embedded",
+          "width": 274,
+          "height": 253,
+          "sha1": "6f6e17634d05",
+          "bank_code_inherited": false,
+          "xref": 346,
+          "bbox": [
+            194.9,
+            180.7,
+            400.2,
+            370.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

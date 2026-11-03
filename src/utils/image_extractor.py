@@ -279,11 +279,78 @@ def stitch_contiguous_slices(candidates: list[dict]) -> list[dict]:
     return merged_items + without_bbox
 
 
-def get_image_spatial_context(page, img_bbox: tuple[float, float, float, float] | list[float] | None) -> dict:
+def group_candidates_into_rows(candidates: list[dict], page_num: int) -> list[dict]:
+    """
+    Ομαδοποιεί εικόνες της ίδιας σελίδας που βρίσκονται στην ίδια οριζόντια γραμμή
+    (δίπλα-δίπλα, με κατακόρυφη επικάλυψη > 35% ή κοντινό μέσο ύψος y) και τις
+    ταξινομεί αυστηρά από πάνω προς τα κάτω και από αριστερά προς τα δεξιά (x0).
+    """
+    if not candidates:
+        return []
+
+    with_bbox = [c for c in candidates if c.get("bbox")]
+    without_bbox = [c for c in candidates if not c.get("bbox")]
+    if not with_bbox:
+        return candidates
+
+    # Αρχική ταξινόμηση κατά κατακόρυφο κέντρο yc και μετά x0
+    with_bbox.sort(key=lambda c: ((c["bbox"][1] + c["bbox"][3]) / 2.0, c["bbox"][0]))
+
+    rows: list[list[dict]] = []
+    for cand in with_bbox:
+        cb = cand["bbox"]
+        c_y0, c_y1 = cb[1], cb[3]
+        c_h = max(1.0, c_y1 - c_y0)
+        c_yc = (c_y0 + c_y1) / 2.0
+
+        placed = False
+        for row in rows:
+            r_y0 = min(x["bbox"][1] for x in row)
+            r_y1 = max(x["bbox"][3] for x in row)
+            r_h = max(1.0, r_y1 - r_y0)
+            r_yc = (r_y0 + r_y1) / 2.0
+            overlap_h = min(r_y1, c_y1) - max(r_y0, c_y0)
+            min_h = min(r_h, c_h)
+
+            if overlap_h > 0.35 * min_h or abs(r_yc - c_yc) <= 30.0:
+                row.append(cand)
+                placed = True
+                break
+
+        if not placed:
+            rows.append([cand])
+
+    ordered: list[dict] = []
+    for r_idx, row in enumerate(rows, 1):
+        # Ταξινόμηση από αριστερά προς τα δεξιά (x0) εντός της ίδιας οριζόντιας γραμμής
+        row.sort(key=lambda c: c["bbox"][0])
+        row_bbox = [
+            round(min(c["bbox"][0] for c in row), 1),
+            round(min(c["bbox"][1] for c in row), 1),
+            round(max(c["bbox"][2] for c in row), 1),
+            round(max(c["bbox"][3] for c in row), 1),
+        ]
+        row_id = f"p{page_num}_r{r_idx}"
+        for idx_in_row, c in enumerate(row):
+            c["row_id"] = row_id
+            c["row_index"] = idx_in_row
+            c["row_size"] = len(row)
+            c["row_bbox"] = row_bbox
+            ordered.append(c)
+
+    return ordered + without_bbox
+
+
+def get_image_spatial_context(
+    page,
+    img_bbox: tuple[float, float, float, float] | list[float] | None,
+    fallback_anchor: str | None = None,
+) -> dict:
     """
     Αναλύει τη χωρική θέση μιας εικόνας σε σχέση με τα text blocks της σελίδας.
     Επιστρέφει:
-      - question_anchor: τον αριθμό ερωτήματος (π.χ. '2.1', '2.2', '4.1') πάνω από την εικόνα
+      - question_anchor: τον αριθμό ερωτήματος (π.χ. '2.1', '2.2', '4.1') πάνω από την εικόνα (ή κληρονομούμενο)
+      - sub_index: τον αριθμό επιμέρους ερωτήματος (π.χ. 1, 2, 3) αν υπάρχει στην ίδια γραμμή ή ακριβώς από πάνω
       - text_before: το τελευταίο κείμενο πριν την εικόνα
       - text_after: το πρώτο κείμενο μετά την εικόνα
       - is_full_page_scan: αν η σελίδα είναι σχεδόν κενή από κείμενο και καταλαμβάνεται από την εικόνα
@@ -291,7 +358,8 @@ def get_image_spatial_context(page, img_bbox: tuple[float, float, float, float] 
     if not img_bbox:
         return {
             "bbox": None,
-            "question_anchor": None,
+            "question_anchor": fallback_anchor,
+            "sub_index": None,
             "text_before": "",
             "text_after": "",
             "is_full_page_scan": False,
@@ -306,22 +374,35 @@ def get_image_spatial_context(page, img_bbox: tuple[float, float, float, float] 
     h = img_bbox[3] - img_bbox[1]
     is_full_scan = len(page_text) < 40 and ((w * h) / page_area > 0.45)
 
-    sorted_blocks = sorted(blocks, key=lambda b: b[1])
+    sorted_blocks = sorted(blocks, key=lambda b: (b[1], b[0]))
     above_text = []
     below_text = []
     question_anchor = None
+    sub_index: int | None = None
 
     for b in sorted_blocks:
         t = b[4].strip()
         if not t or (b[1] < 35 and "#" in t):
             continue
-        if b[3] <= img_bbox[1] + 15:
+        # Έλεγχος αν το block είναι ετικέτα αρίθμησης (π.χ. '1.', '2.', '3.') στην ίδια γραμμή βάσης (baseline) με την εικόνα
+        m_sub_only = re.match(r"^\s*([1-9])\s*[\.\)]\s*$", t)
+        is_baseline_number = bool(m_sub_only and b[1] <= img_bbox[3] + 12 and b[3] >= img_bbox[1] - 20)
+
+        if b[3] <= img_bbox[1] + 15 or is_baseline_number:
             above_text.append(t)
-            m = re.findall(r"\b([1-4]\.[1-4][a-z\u03b1-\u03c9]?)\b", t)
-            if m:
-                question_anchor = m[-1]
+            if b[1] >= 55:
+                m = re.findall(r"(?:^|\s)([24]\.[1-9][a-z\u03b1-\u03c9]?)\b", t)
+                if m:
+                    question_anchor = m[-1]
+            # Εντοπισμός επιμέρους αρίθμησης 1., 2., 3. (όχι δεκαδικού 2.1)
+            m_sub = re.match(r"^\s*([1-9])\s*[\.\)](?!\d)", t)
+            if m_sub:
+                sub_index = int(m_sub.group(1))
         elif b[1] >= img_bbox[3] - 15:
             below_text.append(t)
+
+    if not question_anchor and fallback_anchor:
+        question_anchor = fallback_anchor
 
     text_before = above_text[-1].replace("\n", " ") if above_text else ""
     text_after = below_text[0].replace("\n", " ") if below_text else ""
@@ -329,6 +410,7 @@ def get_image_spatial_context(page, img_bbox: tuple[float, float, float, float] 
     return {
         "bbox": [round(x, 1) for x in img_bbox],
         "question_anchor": question_anchor,
+        "sub_index": sub_index,
         "text_before": text_before[:90],
         "text_after": text_after[:90],
         "is_full_page_scan": is_full_scan,
@@ -384,6 +466,7 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
 
     last_code: str | None = None
     last_role: str = "fig"
+    last_anchor: str | None = None
 
     for pno in page_indexes:
         page = doc[pno]
@@ -391,6 +474,8 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
         code, role, _ = page_role_and_code(page)
         inherited = False
         if code:
+            if code != last_code or role != last_role:
+                last_anchor = None
             last_code = code
             last_role = role
         else:
@@ -400,17 +485,23 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
 
         text = page.get_text("text") or ""
         entries_this_page: list[dict] = []
-        page_xref_bboxes = {}
+        smask_by_xref = {img[0]: img[1] for img in page_images[pno]}
+        placements: list[tuple[int, int, list[float] | None]] = []
+        seen_xrefs_in_info: set[int] = set()
         for info in page.get_image_info(xrefs=True):
             _xr = info.get("xref")
             _bb = info.get("bbox")
             if _xr and _bb:
-                page_xref_bboxes[_xr] = _bb
+                placements.append((_xr, smask_by_xref.get(_xr, 0), list(_bb)))
+                seen_xrefs_in_info.add(_xr)
+        for img in page_images[pno]:
+            xref, smask = img[0], img[1]
+            if xref not in seen_xrefs_in_info:
+                placements.append((xref, smask, None))
 
         # --- embedded ---
         raw_candidates = []
-        for img in page_images[pno]:
-            xref, smask = img[0], img[1]
+        for xref, smask, img_bbox in placements:
             if xref in repeated:
                 stats["skipped_repeated"] += 1
                 continue
@@ -422,7 +513,6 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             if min(w, h) < args.min_size or w * h < args.min_area:
                 stats["skipped_small"] += 1
                 continue
-            img_bbox = page_xref_bboxes.get(xref)
             raw_candidates.append({
                 "xref": xref,
                 "smask": smask,
@@ -431,6 +521,7 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             })
 
         candidates = stitch_contiguous_slices(raw_candidates)
+        candidates = group_candidates_into_rows(candidates, page_num)
 
         for cand in candidates:
             xref = cand["xref"]
@@ -440,10 +531,10 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 stats["stitched_slices"] += len(cand["stitched_xrefs"]) - 1
             w, h = pix.width, pix.height
             digest = hashlib.sha1(pix.samples).hexdigest()
-            # Αν η ίδια εικόνα εμφανίζεται σε διαφορετική σελίδα ή σε διαφορετικό row/ύψος,
-            # διατηρείται για να μη σπάει η αντιστοίχιση γραμμών πίνακα (π.χ. match ερωτήματα).
-            pos_bucket = round(img_bbox[1] / 40.0) if img_bbox else 0
-            key = f"{code or 'unknown'}:{role}:{pno}:{pos_bucket}:{w}x{h}:{digest}"
+            # Διατήρηση κάθε εμφάνισης σε διαφορετικό ύψος (pos_bucket) ή διαφορετική στήλη (x_bucket)
+            pos_bucket = round(img_bbox[1] / 35.0) if img_bbox else 0
+            x_bucket = round(img_bbox[0] / 35.0) if img_bbox else 0
+            key = f"{code or 'unknown'}:{role}:{pno}:{pos_bucket}:{x_bucket}:{w}x{h}:{digest}"
             if key in seen_hashes:
                 stats["skipped_duplicate"] += 1
                 continue
@@ -463,7 +554,13 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             if img_bbox:
                 r_img = fitz.Rect(img_bbox)
                 for b in page.get_text("blocks"):
-                    if r_img.intersects(fitz.Rect(b[:4])) and b[4].strip():
+                    bt = b[4].strip()
+                    if not bt:
+                        continue
+                    # Αγνόησε ετικέτες αρίθμησης (π.χ. '1.', '2.') που ξεκινούν αριστερά από την εικόνα
+                    if b[0] < r_img.x0 - 2 and re.fullmatch(r"\d+[\.\)]?", bt):
+                        continue
+                    if r_img.intersects(fitz.Rect(b[:4])):
                         has_overlays = True
                         break
                 if not has_overlays:
@@ -479,7 +576,9 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             pix.save(str(out_dir / name))
             seen_hashes[key] = name
             stats["embedded"] += 1
-            spatial_ctx = get_image_spatial_context(page, img_bbox)
+            spatial_ctx = get_image_spatial_context(page, img_bbox, fallback_anchor=last_anchor if role == "fig" else None)
+            if spatial_ctx.get("question_anchor") and role == "fig":
+                last_anchor = spatial_ctx["question_anchor"]
             entry = {
                 "file": name,
                 "bank_code": bank,
@@ -492,7 +591,12 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 "bank_code_inherited": inherited,
                 "xref": xref,
                 "bbox": spatial_ctx["bbox"],
+                "row_id": cand.get("row_id"),
+                "row_index": cand.get("row_index"),
+                "row_size": cand.get("row_size", 1),
+                "row_bbox": cand.get("row_bbox"),
                 "question_anchor": spatial_ctx["question_anchor"],
+                "sub_index": spatial_ctx.get("sub_index"),
                 "text_before": spatial_ctx["text_before"],
                 "text_after": spatial_ctx["text_after"],
                 "is_full_page_scan": spatial_ctx["is_full_page_scan"],
@@ -500,14 +604,29 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             entries_this_page.append(entry)
             flat_images.append(entry)
 
-                # --- page render αν λείπουν embedded αλλά υπάρχει σχήμα ΧΩΡΙΣ ψηφιακό κείμενο ---
+        # Ενημέρωση last_anchor αν εμφανίστηκε νέο υποερώτημα (π.χ. 2.2) στη σελίδα (με σειρά ύψους y)
+        if role == "fig":
+            for b in sorted(page.get_text("blocks"), key=lambda x: (x[1], x[0])):
+                if b[1] < 55:
+                    continue
+                bt = b[4].strip()
+                m_anc = re.findall(r"(?:^|\s)([24]\.[1-9][a-z\u03b1-\u03c9]?)\b", bt)
+                if m_anc:
+                    last_anchor = m_anc[-1]
+
+        # --- page / vector render αν λείπουν μεγάλα embedded αλλά υπάρχει σχήμα/διανυσματικό σχέδιο ---
         render_reason = None
-        if not entries_this_page and args.render_empty_pages:
-            if len(page_text) < 80:
+        has_large_embedded = any(e.get("width", 0) >= 160 and e.get("height", 0) >= 160 for e in entries_this_page)
+        drawings = page.get_drawings() if hasattr(page, "get_drawings") else []
+
+        if args.vector_threshold > 0 and len(drawings) >= args.vector_threshold and not has_large_embedded:
+            render_reason = "vector-drawings"
+        elif not entries_this_page and args.render_empty_pages:
+            if len(text.strip()) < 80:
                 if FIGURE_RE.search(normalize_text(text)):
                     render_reason = "keyword"
-                elif args.vector_threshold > 0 and len(page.get_drawings()) >= args.vector_threshold:
-                    render_reason = "vector-drawings" 
+                elif args.vector_threshold > 0 and len(drawings) >= args.vector_threshold:
+                    render_reason = "vector-drawings"
 
         if render_reason:
             if not code:
@@ -522,7 +641,18 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 bank = code
             clip = None
             kind = "render"
-            if args.crop:
+            if render_reason == "vector-drawings" and drawings:
+                diag_rects = [d["rect"] for d in drawings if d["rect"].width > 10 and d["rect"].height > 10]
+                if diag_rects:
+                    r = page.rect
+                    min_x = max(0.0, min(dr.x0 for dr in diag_rects) - 25.0)
+                    min_y = max(r.height * 0.08, min(dr.y0 for dr in diag_rects) - 20.0)
+                    max_x = min(r.width, max(dr.x1 for dr in diag_rects) + 25.0)
+                    max_y = min(r.height * 0.95, max(dr.y1 for dr in diag_rects) + 20.0)
+                    if (max_x - min_x) >= 60 and (max_y - min_y) >= 40:
+                        clip = fitz.Rect(min_x, min_y, max_x, max_y)
+                        kind = "vector-crop-render"
+            if not clip and args.crop:
                 # Κόψε πάνω κεφαλίδα ~8% και κάτω υποσέλιδο ~5%
                 r = page.rect
                 clip = fitz.Rect(r.x0, r.y0 + r.height * 0.08, r.x1, r.y1 - r.height * 0.05)
@@ -720,6 +850,14 @@ def match_image_to_item(img_meta: dict, items: list[dict]) -> int | None:
         if len(direct_matches) == 1:
             return direct_matches[0]
         elif len(direct_matches) > 1:
+            sub_idx = img_meta.get("sub_index")
+            if isinstance(sub_idx, int):
+                for idx in direct_matches:
+                    p_str = str(items[idx].get("prompt") or "").strip()
+                    if re.match(rf"^{sub_idx}\s*[\.\)]", p_str):
+                        return idx
+                if 1 <= sub_idx <= len(direct_matches):
+                    return direct_matches[sub_idx - 1]
             match_candidates = [idx for idx in direct_matches if items[idx].get("kind") == "match"]
             if match_candidates:
                 return match_candidates[0]
@@ -727,7 +865,7 @@ def match_image_to_item(img_meta: dict, items: list[dict]) -> int | None:
                 idx for idx in direct_matches
                 if any(w in normalize_gr(str(items[idx].get("prompt") or "")) for w in ["σχημα", "διαγραμμα", "εικονα", "παρακατω", "κατωθι"])
             ]
-            if fig_word_candidates:
+            if len(fig_word_candidates) == 1:
                 return fig_word_candidates[0]
             best_sub = direct_matches[0]
             best_sub_overlap = -1
@@ -861,28 +999,73 @@ def attach_images_to_js_files(
             fig_imgs = [im for im in ex_imgs if im.get("role") == "fig"]
             root_figs = []
 
+            # Προ-ομαδοποίηση εικόνων ανά subq & οριζόντια γραμμή (row_id) όταν υπάρχουν πολλαπλά items στο ίδιο subq
+            handled_files: set[str] = set()
+            subq_groups: dict[str, list[int]] = defaultdict(list)
+            for idx, it in enumerate(items):
+                sq = str(it.get("subq") or "").strip()
+                if sq:
+                    subq_groups[sq].append(idx)
+
+            for sq, sq_item_idxs in subq_groups.items():
+                if len(sq_item_idxs) <= 1:
+                    continue
+                sq_figs = [im for im in fig_imgs if str(im.get("question_anchor") or "").strip() == sq]
+                if not sq_figs:
+                    continue
+                # Ομαδοποίηση κατά row_id (διατηρώντας τη σειρά εμφάνισης)
+                rows_ordered: list[list[dict]] = []
+                row_map: dict[str, list[dict]] = {}
+                for im in sq_figs:
+                    rid = im.get("row_id") or im["file"]
+                    if rid not in row_map:
+                        row_map[rid] = []
+                        rows_ordered.append(row_map[rid])
+                    row_map[rid].append(im)
+
+                if len(rows_ordered) == len(sq_item_idxs):
+                    for item_idx, row_imgs in zip(sq_item_idxs, rows_ordered, strict=False):
+                        row_urls = [f"{web_prefix}/{im['file']}" for im in row_imgs]
+                        target_it = items[item_idx]
+                        if len(row_urls) > 1:
+                            target_it["images"] = row_urls
+                            target_it["imageLayout"] = "grid"
+                            target_it.pop("image", None)
+                        else:
+                            target_it["image"] = row_urls[0]
+                            target_it.pop("images", None)
+                        for im in row_imgs:
+                            handled_files.add(im["file"])
+                    touched = True
+
             for fig_meta in fig_imgs:
                 fig_file = fig_meta["file"]
+                if fig_file in handled_files:
+                    continue
                 fig_url = f"{web_prefix}/{fig_file}"
                 matched_item_idx = match_image_to_item(fig_meta, items)
 
                 if matched_item_idx is not None and matched_item_idx < len(items):
                     target_item = items[matched_item_idx]
-                    if "image" not in target_item:
-                        target_item["image"] = fig_url
-                    else:
-                        target_item.setdefault("images", [target_item["image"]])
+                    if "images" in target_item:
+                        target_item["images"] = [
+                            f"{web_prefix}/{img.split('/')[-1]}" if not img.startswith(web_prefix) and "#" in img else img
+                            for img in target_item["images"]
+                        ]
                         if fig_url not in target_item["images"]:
                             target_item["images"].append(fig_url)
+                        target_item.pop("image", None)
+                    elif "image" not in target_item:
+                        target_item["image"] = fig_url
+                    elif target_item["image"] != fig_url:
+                        target_item["images"] = [target_item["image"], fig_url]
+                        del target_item["image"]
                     touched = True
                 else:
-                    # Αν υπάρχει item τύπου match που έχει ήδη εικόνα/εικόνες,
-                    # οι επόμενες εικόνες της ίδιας άσκησης συνήθως ανήκουν σε αυτό
-                    match_item = next((it for it in items if it.get("kind") == "match" and ("image" in it or "images" in it)), None)
-                    if match_item:
-                        match_item.setdefault("images", [match_item["image"]])
-                        if fig_url not in match_item["images"]:
-                            match_item["images"].append(fig_url)
+                    # Έλεγχος αν υπάρχει άλλο υποερώτημα (item) που αναφέρεται σε σχήμα/εικόνα και δεν έχει ακόμα εικόνα
+                    next_item = next((it for it in items if any(w in normalize_gr(str(it.get("prompt") or it.get("subqPrompt") or "")) for w in ["σχημα", "διαγραμμα", "εικονα", "αντιστοιχ"]) and "image" not in it and "images" not in it), None)
+                    if next_item:
+                        next_item["image"] = fig_url
                         touched = True
                     else:
                         root_figs.append(fig_url)
@@ -897,18 +1080,44 @@ def attach_images_to_js_files(
                 else:
                     target_it = next((it for it in items if any(w in normalize_gr(str(it.get("prompt") or "")) for w in ["σχημα", "διαγραμμα", "εικονα"])), None)
                     if target_it:
-                        if "image" not in target_it:
+                        if "image" not in target_it and "images" not in target_it:
                             target_it["image"] = root_figs[0]
+                        elif "images" in target_it:
+                            target_it["images"].extend([f for f in root_figs if f not in target_it["images"]])
+                            target_it.pop("image", None)
                         else:
-                            target_it.setdefault("images", [target_it["image"]]).extend(root_figs)
+                            target_it["images"] = [target_it["image"]] + [f for f in root_figs if f != target_it["image"]]
+                            del target_it["image"]
                         touched = True
-            elif "image" in ex and fig_imgs and any("image" in it for it in items):
-                del ex["image"]
-                ex.pop("images", None)
-                touched = True
+
+            # Αν οποιοδήποτε υποερώτημα έχει δικές του εικόνες, δεν αφήνουμε διπλές εικόνες στην κορυφή της άσκησης
+            if any("image" in it or "images" in it for it in items):
+                if "image" in ex or "images" in ex:
+                    ex.pop("image", None)
+                    ex.pop("images", None)
+                    touched = True
+
+            for it in items:
+                if "images" in it:
+                    seen = set()
+                    it["images"] = [x for x in it["images"] if not (x in seen or seen.add(x))]
+                    if len(it["images"]) > 1 and "image" in it:
+                        del it["image"]
+                        touched = True
+                    elif len(it["images"]) == 1 and "image" not in it:
+                        it["image"] = it["images"][0]
+                        del it["images"]
+                        touched = True
 
             if sols:
-                ex["solutionImages"] = [f"{web_prefix}/{f}" for f in sols]
+                sol_urls = [f"{web_prefix}/{f}" for f in sols]
+                ex["solutionImages"] = sol_urls
+                # Αν υπάρχει item με υπόδειξη (hint) ή υπολογισμό από διάγραμμα, σύνδεσε το σχήμα λύσης ως hintImage
+                target_hint_it = next((it for it in items if "hint" in it and "hintImage" not in it), None)
+                if not target_hint_it and items:
+                    target_hint_it = next((it for it in items if any(w in normalize_gr(str(it.get("prompt") or "")) for w in ["διαγραμμα", "σχημα", "παροχη", "υπολογισ"]) and "hintImage" not in it), None)
+                if target_hint_it and "hintImage" not in target_hint_it:
+                    target_hint_it["hintImage"] = sol_urls[0]
                 touched = True
 
             if touched:

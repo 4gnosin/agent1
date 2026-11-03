@@ -1,0 +1,790 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+  "chapter": 4,
+  "stem": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04",
+  "total_pages": 23,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23962_fig01.png",
+      "bank_code": "23962",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 502,
+      "height": 286,
+      "sha1": "068f19ddd465",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        141.5,
+        180.7,
+        456.5,
+        360.0
+      ],
+      "question_anchor": null,
+      "text_before": "H2O.",
+      "text_after": "Α  Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig01.png",
+      "bank_code": "23655",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 220,
+      "height": 282,
+      "sha1": "47754b0ed2b1",
+      "bank_code_inherited": false,
+      "xref": 102,
+      "bbox": [
+        171.3,
+        219.1,
+        268.7,
+        343.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Kαταστάσεις υγρού-ατμού)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig02.png",
+      "bank_code": "23655",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 159,
+      "height": 298,
+      "sha1": "19a27dba7199",
+      "bank_code_inherited": false,
+      "xref": 103,
+      "bbox": [
+        188.0,
+        361.3,
+        254.6,
+        486.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig03.png",
+      "bank_code": "23655",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 172,
+      "height": 287,
+      "sha1": "79cf4007d18d",
+      "bank_code_inherited": false,
+      "xref": 104,
+      "bbox": [
+        181.9,
+        503.6,
+        255.7,
+        626.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig04.png",
+      "bank_code": "23655",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 171,
+      "height": 280,
+      "sha1": "610f6f110b6b",
+      "bank_code_inherited": false,
+      "xref": 105,
+      "bbox": [
+        185.6,
+        641.8,
+        252.1,
+        750.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig01.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 1263,
+      "height": 670,
+      "sha1": "af8b2e62680e",
+      "bank_code_inherited": false,
+      "xref": 184,
+      "bbox": [
+        100.9,
+        181.9,
+        494.3,
+        390.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig02.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 7,
+      "kind": "embedded",
+      "width": 309,
+      "height": 289,
+      "sha1": "9bd728078896",
+      "bank_code_inherited": false,
+      "xref": 185,
+      "bbox": [
+        310.9,
+        645.1,
+        444.6,
+        746.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1. Υπόψυκτο υγρό.  α) Nερό t =10 0C",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig03.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 153,
+      "height": 242,
+      "sha1": "8410fef97839",
+      "bank_code_inherited": true,
+      "xref": 226,
+      "bbox": [
+        335.3,
+        87.1,
+        420.2,
+        209.6
+      ],
+      "question_anchor": null,
+      "text_before": "2. Κορεσμένο υγρό.  β) Νερό και Ατμός t = 100 0C",
+      "text_after": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig04.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 141,
+      "height": 247,
+      "sha1": "b63c1ba0ac3b",
+      "bank_code_inherited": true,
+      "xref": 227,
+      "bbox": [
+        335.9,
+        232.1,
+        419.6,
+        356.1
+      ],
+      "question_anchor": null,
+      "text_before": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
+      "text_after": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig05.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 150,
+      "height": 250,
+      "sha1": "bdca3b1d9d03",
+      "bank_code_inherited": true,
+      "xref": 228,
+      "bbox": [
+        331.5,
+        378.7,
+        423.9,
+        532.7
+      ],
+      "question_anchor": null,
+      "text_before": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
+      "text_after": "ε) Ατμός t = 100 0C",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig06.png",
+      "bank_code": "23747",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 172,
+      "height": 248,
+      "sha1": "85ade36052a2",
+      "bank_code_inherited": true,
+      "xref": 229,
+      "bbox": [
+        329.5,
+        555.1,
+        426.1,
+        694.2
+      ],
+      "question_anchor": null,
+      "text_before": "ε) Ατμός t = 100 0C",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23815_fig01.png",
+      "bank_code": "23815",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 630,
+      "height": 627,
+      "sha1": "462d737ba53e",
+      "bank_code_inherited": false,
+      "xref": 475,
+      "bbox": [
+        123.6,
+        158.8,
+        471.0,
+        504.5
+      ],
+      "question_anchor": null,
+      "text_before": "λανθάνουσα θερμότητα συμπύκνωσης του ψυκτικού ρευστού R12, να βρείτε:",
+      "text_after": "α) Την πίεση συμπύκνωσης του ψυκτικού ρευστού. (Μονάδες 5)",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.png",
+      "bank_code": "23960",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 279,
+      "height": 301,
+      "sha1": "f9afe484f61b",
+      "bank_code_inherited": false,
+      "xref": 562,
+      "bbox": [
+        231.0,
+        422.5,
+        367.7,
+        570.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
+      "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.png",
+      "bank_code": "25275",
+      "role": "fig",
+      "page": 18,
+      "kind": "embedded",
+      "width": 321,
+      "height": 359,
+      "sha1": "e9e987bb3555",
+      "bank_code_inherited": false,
+      "xref": 644,
+      "bbox": [
+        198.7,
+        400.5,
+        397.6,
+        586.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig01.png",
+      "bank_code": "33885",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 812,
+      "height": 274,
+      "sha1": "8f309239266f",
+      "bank_code_inherited": false,
+      "xref": 807,
+      "bbox": [
+        70.9,
+        202.7,
+        524.4,
+        355.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
+      "text_after": "Μονάδες 10",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig02.png",
+      "bank_code": "33885",
+      "role": "fig",
+      "page": 22,
+      "kind": "embedded",
+      "width": 1238,
+      "height": 256,
+      "sha1": "e30c74772262",
+      "bank_code_inherited": false,
+      "xref": 808,
+      "bbox": [
+        70.9,
+        516.3,
+        524.4,
+        610.1
+      ],
+      "question_anchor": "2.2",
+      "text_before": "ατμός μέσα στον σωλήνα.",
+      "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23655": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig02.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig03.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig01.png",
+          "bank_code": "23655",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 220,
+          "height": 282,
+          "sha1": "47754b0ed2b1",
+          "bank_code_inherited": false,
+          "xref": 102,
+          "bbox": [
+            171.3,
+            219.1,
+            268.7,
+            343.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Kαταστάσεις υγρού-ατμού)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig02.png",
+          "bank_code": "23655",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 159,
+          "height": 298,
+          "sha1": "19a27dba7199",
+          "bank_code_inherited": false,
+          "xref": 103,
+          "bbox": [
+            188.0,
+            361.3,
+            254.6,
+            486.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig03.png",
+          "bank_code": "23655",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 172,
+          "height": 287,
+          "sha1": "79cf4007d18d",
+          "bank_code_inherited": false,
+          "xref": 104,
+          "bbox": [
+            181.9,
+            503.6,
+            255.7,
+            626.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig04.png",
+          "bank_code": "23655",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 171,
+          "height": 280,
+          "sha1": "610f6f110b6b",
+          "bank_code_inherited": false,
+          "xref": 105,
+          "bbox": [
+            185.6,
+            641.8,
+            252.1,
+            750.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23747": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig02.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig03.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig04.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig05.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig06.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig01.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 1263,
+          "height": 670,
+          "sha1": "af8b2e62680e",
+          "bank_code_inherited": false,
+          "xref": 184,
+          "bbox": [
+            100.9,
+            181.9,
+            494.3,
+            390.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig02.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 7,
+          "kind": "embedded",
+          "width": 309,
+          "height": 289,
+          "sha1": "9bd728078896",
+          "bank_code_inherited": false,
+          "xref": 185,
+          "bbox": [
+            310.9,
+            645.1,
+            444.6,
+            746.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1. Υπόψυκτο υγρό.  α) Nερό t =10 0C",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig03.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 153,
+          "height": 242,
+          "sha1": "8410fef97839",
+          "bank_code_inherited": true,
+          "xref": 226,
+          "bbox": [
+            335.3,
+            87.1,
+            420.2,
+            209.6
+          ],
+          "question_anchor": null,
+          "text_before": "2. Κορεσμένο υγρό.  β) Νερό και Ατμός t = 100 0C",
+          "text_after": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig04.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 141,
+          "height": 247,
+          "sha1": "b63c1ba0ac3b",
+          "bank_code_inherited": true,
+          "xref": 227,
+          "bbox": [
+            335.9,
+            232.1,
+            419.6,
+            356.1
+          ],
+          "question_anchor": null,
+          "text_before": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
+          "text_after": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig05.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 150,
+          "height": 250,
+          "sha1": "bdca3b1d9d03",
+          "bank_code_inherited": true,
+          "xref": 228,
+          "bbox": [
+            331.5,
+            378.7,
+            423.9,
+            532.7
+          ],
+          "question_anchor": null,
+          "text_before": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
+          "text_after": "ε) Ατμός t = 100 0C",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig06.png",
+          "bank_code": "23747",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 172,
+          "height": 248,
+          "sha1": "85ade36052a2",
+          "bank_code_inherited": true,
+          "xref": 229,
+          "bbox": [
+            329.5,
+            555.1,
+            426.1,
+            694.2
+          ],
+          "question_anchor": null,
+          "text_before": "ε) Ατμός t = 100 0C",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23815": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23815_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23815_fig01.png",
+          "bank_code": "23815",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 630,
+          "height": 627,
+          "sha1": "462d737ba53e",
+          "bank_code_inherited": false,
+          "xref": 475,
+          "bbox": [
+            123.6,
+            158.8,
+            471.0,
+            504.5
+          ],
+          "question_anchor": null,
+          "text_before": "λανθάνουσα θερμότητα συμπύκνωσης του ψυκτικού ρευστού R12, να βρείτε:",
+          "text_after": "α) Την πίεση συμπύκνωσης του ψυκτικού ρευστού. (Μονάδες 5)",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23960": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.png",
+          "bank_code": "23960",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 279,
+          "height": 301,
+          "sha1": "f9afe484f61b",
+          "bank_code_inherited": false,
+          "xref": 562,
+          "bbox": [
+            231.0,
+            422.5,
+            367.7,
+            570.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
+          "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23962": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23962_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23962_fig01.png",
+          "bank_code": "23962",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 502,
+          "height": 286,
+          "sha1": "068f19ddd465",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            141.5,
+            180.7,
+            456.5,
+            360.0
+          ],
+          "question_anchor": null,
+          "text_before": "H2O.",
+          "text_after": "Α  Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25275": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.png",
+          "bank_code": "25275",
+          "role": "fig",
+          "page": 18,
+          "kind": "embedded",
+          "width": 321,
+          "height": 359,
+          "sha1": "e9e987bb3555",
+          "bank_code_inherited": false,
+          "xref": 644,
+          "bbox": [
+            198.7,
+            400.5,
+            397.6,
+            586.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33885": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig01.png",
+          "bank_code": "33885",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 812,
+          "height": 274,
+          "sha1": "8f309239266f",
+          "bank_code_inherited": false,
+          "xref": 807,
+          "bbox": [
+            70.9,
+            202.7,
+            524.4,
+            355.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
+          "text_after": "Μονάδες 10",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig02.png",
+          "bank_code": "33885",
+          "role": "fig",
+          "page": 22,
+          "kind": "embedded",
+          "width": 1238,
+          "height": 256,
+          "sha1": "e30c74772262",
+          "bank_code_inherited": false,
+          "xref": 808,
+          "bbox": [
+            70.9,
+            516.3,
+            524.4,
+            610.1
+          ],
+          "question_anchor": "2.2",
+          "text_before": "ατμός μέσα στον σωλήνα.",
+          "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

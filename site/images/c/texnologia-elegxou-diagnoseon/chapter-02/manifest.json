@@ -1,0 +1,447 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch02.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 2,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch02",
+  "total_pages": 27,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.png",
+      "bank_code": "24500",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 423,
+      "height": 125,
+      "sha1": "1b8c40d5d8bd",
+      "bank_code_inherited": false,
+      "xref": 14,
+      "bbox": [
+        158.9,
+        137.9,
+        476.3,
+        232.3
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ςτο ςυνεργείο ςασ.",
+      "text_after": "α. Να βρείτε τθν ευαιςκθςία του οργάνου αν θ είςοδοσ μεταβάλλεται κατά 1,8 bar και θ",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig01.png",
+      "bank_code": "34302",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 172,
+      "height": 111,
+      "sha1": "a6d9cfd8796c",
+      "bank_code_inherited": false,
+      "xref": 575,
+      "bbox": [
+        126.0,
+        194.6,
+        255.7,
+        278.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Μζτρθςθ αντίςταςθσ",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig02.png",
+      "bank_code": "34302",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 182,
+      "height": 113,
+      "sha1": "e788eea2a131",
+      "bank_code_inherited": false,
+      "xref": 576,
+      "bbox": [
+        126.0,
+        286.0,
+        262.7,
+        371.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Μζτρθςθ τάςθσ",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig03.png",
+      "bank_code": "34302",
+      "role": "fig",
+      "page": 16,
+      "kind": "embedded",
+      "width": 163,
+      "height": 144,
+      "sha1": "0870ab89d4a7",
+      "bank_code_inherited": false,
+      "xref": 577,
+      "bbox": [
+        126.0,
+        378.9,
+        248.8,
+        487.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Μζτρθςθ ζνταςθσ",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.png",
+      "bank_code": "30564",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 491,
+      "height": 285,
+      "sha1": "acf31914b637",
+      "bank_code_inherited": false,
+      "xref": 934,
+      "bbox": [
+        333.8,
+        468.8,
+        494.2,
+        561.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig02.png",
+      "bank_code": "30564",
+      "role": "fig",
+      "page": 25,
+      "kind": "embedded",
+      "width": 287,
+      "height": 230,
+      "sha1": "96adb99c16da",
+      "bank_code_inherited": false,
+      "xref": 935,
+      "bbox": [
+        346.5,
+        591.7,
+        481.3,
+        699.6
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig03.png",
+      "bank_code": "30564",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 285,
+      "height": 210,
+      "sha1": "1627e506440a",
+      "bank_code_inherited": true,
+      "xref": 982,
+      "bbox": [
+        318.0,
+        93.4,
+        509.4,
+        234.4
+      ],
+      "question_anchor": null,
+      "text_before": "3. Συςκευή εξόδου ςημάτων (breakout box)",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig04.png",
+      "bank_code": "30564",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 290,
+      "height": 186,
+      "sha1": "7a1a00a7bc01",
+      "bank_code_inherited": true,
+      "xref": 983,
+      "bbox": [
+        305.3,
+        308.1,
+        522.8,
+        447.6
+      ],
+      "question_anchor": null,
+      "text_before": "δ.",
+      "text_after": "ε.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig05.png",
+      "bank_code": "30564",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 272,
+      "height": 262,
+      "sha1": "0edfcf144c5e",
+      "bank_code_inherited": true,
+      "xref": 984,
+      "bbox": [
+        348.8,
+        499.4,
+        479.3,
+        625.1
+      ],
+      "question_anchor": null,
+      "text_before": "ε.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24500": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.png",
+          "bank_code": "24500",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 423,
+          "height": 125,
+          "sha1": "1b8c40d5d8bd",
+          "bank_code_inherited": false,
+          "xref": 14,
+          "bbox": [
+            158.9,
+            137.9,
+            476.3,
+            232.3
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ςτο ςυνεργείο ςασ.",
+          "text_after": "α. Να βρείτε τθν ευαιςκθςία του οργάνου αν θ είςοδοσ μεταβάλλεται κατά 1,8 bar και θ",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30564": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig02.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig03.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig04.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig05.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.png",
+          "bank_code": "30564",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 491,
+          "height": 285,
+          "sha1": "acf31914b637",
+          "bank_code_inherited": false,
+          "xref": 934,
+          "bbox": [
+            333.8,
+            468.8,
+            494.2,
+            561.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig02.png",
+          "bank_code": "30564",
+          "role": "fig",
+          "page": 25,
+          "kind": "embedded",
+          "width": 287,
+          "height": 230,
+          "sha1": "96adb99c16da",
+          "bank_code_inherited": false,
+          "xref": 935,
+          "bbox": [
+            346.5,
+            591.7,
+            481.3,
+            699.6
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig03.png",
+          "bank_code": "30564",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 285,
+          "height": 210,
+          "sha1": "1627e506440a",
+          "bank_code_inherited": true,
+          "xref": 982,
+          "bbox": [
+            318.0,
+            93.4,
+            509.4,
+            234.4
+          ],
+          "question_anchor": null,
+          "text_before": "3. Συςκευή εξόδου ςημάτων (breakout box)",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig04.png",
+          "bank_code": "30564",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 290,
+          "height": 186,
+          "sha1": "7a1a00a7bc01",
+          "bank_code_inherited": true,
+          "xref": 983,
+          "bbox": [
+            305.3,
+            308.1,
+            522.8,
+            447.6
+          ],
+          "question_anchor": null,
+          "text_before": "δ.",
+          "text_after": "ε.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#30564_fig05.png",
+          "bank_code": "30564",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 272,
+          "height": 262,
+          "sha1": "0edfcf144c5e",
+          "bank_code_inherited": true,
+          "xref": 984,
+          "bbox": [
+            348.8,
+            499.4,
+            479.3,
+            625.1
+          ],
+          "question_anchor": null,
+          "text_before": "ε.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34302": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig01.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig02.png",
+        "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig01.png",
+          "bank_code": "34302",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 172,
+          "height": 111,
+          "sha1": "a6d9cfd8796c",
+          "bank_code_inherited": false,
+          "xref": 575,
+          "bbox": [
+            126.0,
+            194.6,
+            255.7,
+            278.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Μζτρθςθ αντίςταςθσ",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig02.png",
+          "bank_code": "34302",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 182,
+          "height": 113,
+          "sha1": "e788eea2a131",
+          "bank_code_inherited": false,
+          "xref": 576,
+          "bbox": [
+            126.0,
+            286.0,
+            262.7,
+            371.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Μζτρθςθ τάςθσ",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch02_#34302_fig03.png",
+          "bank_code": "34302",
+          "role": "fig",
+          "page": 16,
+          "kind": "embedded",
+          "width": 163,
+          "height": 144,
+          "sha1": "0870ab89d4a7",
+          "bank_code_inherited": false,
+          "xref": 577,
+          "bbox": [
+            126.0,
+            378.9,
+            248.8,
+            487.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Μζτρθςθ ζνταςθσ",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

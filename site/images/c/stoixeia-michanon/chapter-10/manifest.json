@@ -1,0 +1,551 @@
+{
+  "source_pdf": "c_stoixeia-michanon_ch10.pdf",
+  "grade": "c",
+  "subject": "stoixeia-michanon",
+  "chapter": 10,
+  "stem": "c_stoixeia-michanon_ch10",
+  "total_pages": 39,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-michanon_ch10_#29885_fig01.png",
+      "bank_code": "29885",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 469,
+      "height": 337,
+      "sha1": "fcf155cda180",
+      "bank_code_inherited": false,
+      "xref": 127,
+      "bbox": [
+        108.3,
+        159.6,
+        487.0,
+        431.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τα γράμματα α, β, γ, δ, ε, στ, ζ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig01.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 283,
+      "height": 232,
+      "sha1": "62ad6b8381cc",
+      "bank_code_inherited": false,
+      "xref": 463,
+      "bbox": [
+        302.8,
+        269.6,
+        458.8,
+        397.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig02.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 269,
+      "height": 222,
+      "sha1": "3eb620ac6211",
+      "bank_code_inherited": false,
+      "xref": 464,
+      "bbox": [
+        302.9,
+        426.9,
+        458.3,
+        555.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig03.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 285,
+      "height": 234,
+      "sha1": "68d945e54fb8",
+      "bank_code_inherited": false,
+      "xref": 465,
+      "bbox": [
+        302.8,
+        585.0,
+        458.6,
+        712.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig04.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 204,
+      "height": 127,
+      "sha1": "0571e3213ee3",
+      "bank_code_inherited": true,
+      "xref": 510,
+      "bbox": [
+        303.9,
+        203.7,
+        457.2,
+        298.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α.",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig05.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 205,
+      "height": 129,
+      "sha1": "5f82b6d98111",
+      "bank_code_inherited": true,
+      "xref": 511,
+      "bbox": [
+        303.6,
+        328.5,
+        457.5,
+        425.0
+      ],
+      "question_anchor": "2.2",
+      "text_before": "β.",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig06.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 208,
+      "height": 137,
+      "sha1": "a9651e233f9f",
+      "bank_code_inherited": true,
+      "xref": 512,
+      "bbox": [
+        302.8,
+        454.8,
+        458.6,
+        557.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γ.",
+      "text_after": "δ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#23888_fig07.png",
+      "bank_code": "23888",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 202,
+      "height": 127,
+      "sha1": "12c4632f7d2d",
+      "bank_code_inherited": true,
+      "xref": 513,
+      "bbox": [
+        304.9,
+        587.6,
+        456.1,
+        682.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "δ.",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#29757_fig01.png",
+      "bank_code": "29757",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 482,
+      "height": 118,
+      "sha1": "8abded6d802e",
+      "bank_code_inherited": false,
+      "xref": 1076,
+      "bbox": [
+        136.2,
+        510.3,
+        498.1,
+        588.9
+      ],
+      "question_anchor": "2.2",
+      "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "Στήλη Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#29758_fig01.png",
+      "bank_code": "29758",
+      "role": "fig",
+      "page": 35,
+      "kind": "embedded",
+      "width": 447,
+      "height": 216,
+      "sha1": "3fa202e65efc",
+      "bank_code_inherited": false,
+      "xref": 1152,
+      "bbox": [
+        112.7,
+        180.7,
+        482.5,
+        359.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "θα περισσέψει.",
+      "text_after": "Στήλη Β",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-michanon_ch10_#30048_fig01.png",
+      "bank_code": "30048",
+      "role": "fig",
+      "page": 38,
+      "kind": "embedded",
+      "width": 663,
+      "height": 313,
+      "sha1": "aec40bd785a9",
+      "bank_code_inherited": false,
+      "xref": 1230,
+      "bbox": [
+        138.5,
+        180.5,
+        456.7,
+        330.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίνονται στην παρένθεση δίπλα στο κενό.",
+      "text_after": "1.  Στις  αλυσίδες,  η  περιφερειακή  δύναμη  αναπτύσσεται  με  την  απευθείας  επαφή",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23888": {
+      "fig": [
+        "c_stoixeia-michanon_ch10_#23888_fig01.png",
+        "c_stoixeia-michanon_ch10_#23888_fig02.png",
+        "c_stoixeia-michanon_ch10_#23888_fig03.png",
+        "c_stoixeia-michanon_ch10_#23888_fig04.png",
+        "c_stoixeia-michanon_ch10_#23888_fig05.png",
+        "c_stoixeia-michanon_ch10_#23888_fig06.png",
+        "c_stoixeia-michanon_ch10_#23888_fig07.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig01.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 283,
+          "height": 232,
+          "sha1": "62ad6b8381cc",
+          "bank_code_inherited": false,
+          "xref": 463,
+          "bbox": [
+            302.8,
+            269.6,
+            458.8,
+            397.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig02.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 269,
+          "height": 222,
+          "sha1": "3eb620ac6211",
+          "bank_code_inherited": false,
+          "xref": 464,
+          "bbox": [
+            302.9,
+            426.9,
+            458.3,
+            555.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig03.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 285,
+          "height": 234,
+          "sha1": "68d945e54fb8",
+          "bank_code_inherited": false,
+          "xref": 465,
+          "bbox": [
+            302.8,
+            585.0,
+            458.6,
+            712.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig04.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 204,
+          "height": 127,
+          "sha1": "0571e3213ee3",
+          "bank_code_inherited": true,
+          "xref": 510,
+          "bbox": [
+            303.9,
+            203.7,
+            457.2,
+            298.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α.",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig05.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 205,
+          "height": 129,
+          "sha1": "5f82b6d98111",
+          "bank_code_inherited": true,
+          "xref": 511,
+          "bbox": [
+            303.6,
+            328.5,
+            457.5,
+            425.0
+          ],
+          "question_anchor": "2.2",
+          "text_before": "β.",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig06.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 208,
+          "height": 137,
+          "sha1": "a9651e233f9f",
+          "bank_code_inherited": true,
+          "xref": 512,
+          "bbox": [
+            302.8,
+            454.8,
+            458.6,
+            557.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γ.",
+          "text_after": "δ.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-michanon_ch10_#23888_fig07.png",
+          "bank_code": "23888",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 202,
+          "height": 127,
+          "sha1": "12c4632f7d2d",
+          "bank_code_inherited": true,
+          "xref": 513,
+          "bbox": [
+            304.9,
+            587.6,
+            456.1,
+            682.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "δ.",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29757": {
+      "fig": [
+        "c_stoixeia-michanon_ch10_#29757_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch10_#29757_fig01.png",
+          "bank_code": "29757",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 482,
+          "height": 118,
+          "sha1": "8abded6d802e",
+          "bank_code_inherited": false,
+          "xref": 1076,
+          "bbox": [
+            136.2,
+            510.3,
+            498.1,
+            588.9
+          ],
+          "question_anchor": "2.2",
+          "text_before": "γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "Στήλη Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29758": {
+      "fig": [
+        "c_stoixeia-michanon_ch10_#29758_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch10_#29758_fig01.png",
+          "bank_code": "29758",
+          "role": "fig",
+          "page": 35,
+          "kind": "embedded",
+          "width": 447,
+          "height": 216,
+          "sha1": "3fa202e65efc",
+          "bank_code_inherited": false,
+          "xref": 1152,
+          "bbox": [
+            112.7,
+            180.7,
+            482.5,
+            359.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "θα περισσέψει.",
+          "text_after": "Στήλη Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29885": {
+      "fig": [
+        "c_stoixeia-michanon_ch10_#29885_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch10_#29885_fig01.png",
+          "bank_code": "29885",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 469,
+          "height": 337,
+          "sha1": "fcf155cda180",
+          "bank_code_inherited": false,
+          "xref": 127,
+          "bbox": [
+            108.3,
+            159.6,
+            487.0,
+            431.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τα γράμματα α, β, γ, δ, ε, στ, ζ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "30048": {
+      "fig": [
+        "c_stoixeia-michanon_ch10_#30048_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-michanon_ch10_#30048_fig01.png",
+          "bank_code": "30048",
+          "role": "fig",
+          "page": 38,
+          "kind": "embedded",
+          "width": 663,
+          "height": 313,
+          "sha1": "aec40bd785a9",
+          "bank_code_inherited": false,
+          "xref": 1230,
+          "bbox": [
+            138.5,
+            180.5,
+            456.7,
+            330.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίνονται στην παρένθεση δίπλα στο κενό.",
+          "text_after": "1.  Στις  αλυσίδες,  η  περιφερειακή  δύναμη  αναπτύσσεται  με  την  απευθείας  επαφή",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

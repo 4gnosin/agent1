@@ -1,0 +1,170 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch07.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 7,
+  "stem": "c_michanourgiki-texnologia_ch07",
+  "total_pages": 17,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch07_#27620_fig01.png",
+      "bank_code": "27620",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 433,
+      "height": 351,
+      "sha1": "137d399c79e5",
+      "bank_code_inherited": false,
+      "xref": 235,
+      "bbox": [
+        70.9,
+        467.3,
+        287.4,
+        642.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "α. Ενεργή κίνηση (κίνηση κοπής)",
+      "text_after": "Μονάδες 16",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+      "bank_code": "27543",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 999,
+      "height": 573,
+      "sha1": "27dcc7074367",
+      "bank_code_inherited": false,
+      "xref": 458,
+      "bbox": [
+        144.6,
+        271.0,
+        503.5,
+        477.0
+      ],
+      "question_anchor": null,
+      "text_before": "για την κατεργασία χρησιμοποιήσουμε εργαλείο από ταχυχάλυβα. (Μονάδες 10)",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch07_#27543_fig02.png",
+      "bank_code": "27543",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 165,
+      "height": 129,
+      "sha1": "8fefecb544e7",
+      "bank_code_inherited": false,
+      "xref": 459,
+      "bbox": [
+        92.3,
+        423.5,
+        151.8,
+        470.3
+      ],
+      "question_anchor": null,
+      "text_before": "για την κατεργασία χρησιμοποιήσουμε εργαλείο από ταχυχάλυβα. (Μονάδες 10)",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27543": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+        "c_michanourgiki-texnologia_ch07_#27543_fig02.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+          "bank_code": "27543",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 999,
+          "height": 573,
+          "sha1": "27dcc7074367",
+          "bank_code_inherited": false,
+          "xref": 458,
+          "bbox": [
+            144.6,
+            271.0,
+            503.5,
+            477.0
+          ],
+          "question_anchor": null,
+          "text_before": "για την κατεργασία χρησιμοποιήσουμε εργαλείο από ταχυχάλυβα. (Μονάδες 10)",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch07_#27543_fig02.png",
+          "bank_code": "27543",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 165,
+          "height": 129,
+          "sha1": "8fefecb544e7",
+          "bank_code_inherited": false,
+          "xref": 459,
+          "bbox": [
+            92.3,
+            423.5,
+            151.8,
+            470.3
+          ],
+          "question_anchor": null,
+          "text_before": "για την κατεργασία χρησιμοποιήσουμε εργαλείο από ταχυχάλυβα. (Μονάδες 10)",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27620": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch07_#27620_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch07_#27620_fig01.png",
+          "bank_code": "27620",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 433,
+          "height": 351,
+          "sha1": "137d399c79e5",
+          "bank_code_inherited": false,
+          "xref": 235,
+          "bbox": [
+            70.9,
+            467.3,
+            287.4,
+            642.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "α. Ενεργή κίνηση (κίνηση κοπής)",
+          "text_after": "Μονάδες 16",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

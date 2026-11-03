@@ -44,7 +44,8 @@ window.CATALOG = [
         "id": "stoixeia-michanon",
         "title": "Στοιχεία Μηχανών",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/stoixeia-michanon"
       },
       {
         "id": "stoixeia-psyxis-klimatismou",
@@ -85,7 +86,29 @@ window.CATALOG = [
         "id": "texnologia-elegxou-diagnoseon",
         "title": "Τεχνολογία Ελέγχου και Διαγνώσεων Θεωρία",
         "desc": "Θεωρία και ασκήσεις.",
-        "status": "soon"
+        "status": "ready",
+        "href": "#/texnologia-elegxou-diagnoseon"
+      },
+      {
+        "id": "stoixeia-kentrikon-thermanseon",
+        "title": "Στοιχεία Σχεδιασμού Κεντρικών Θερμάνσεων",
+        "desc": "Θεωρία και ασκήσεις.",
+        "status": "ready",
+        "href": "#/stoixeia-kentrikon-thermanseon"
+      },
+      {
+        "id": "michanourgiki-texnologia",
+        "title": "Μηχανουργική Τεχνολογία – Εργαλειομηχανές",
+        "desc": "Θεωρία και ασκήσεις.",
+        "status": "ready",
+        "href": "#/michanourgiki-texnologia"
+      },
+      {
+        "id": "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+        "title": "Στοιχεία Ψύξης – Κλιματισμού",
+        "desc": "Θεωρία και ασκήσεις.",
+        "status": "ready",
+        "href": "#/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
       }
     ],
     "specializations": [
@@ -107,6 +130,16 @@ window.CATALOG = [
           "michanes-esoterikis-kafsis-2",
           "systimata-aftokinitou",
           "texnologia-elegxou-diagnoseon"
+        ]
+      },
+      {
+        "id": "michanologikon-egkatastaseon-kataskevon",
+        "title": "Τεχνικός Μηχανολογικών Εγκαταστάσεων και Κατασκευών",
+        "subjectIds": [
+          "stoixeia-michanon",
+          "stoixeia-kentrikon-thermanseon",
+          "michanourgiki-texnologia",
+          "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"
         ]
       }
     ]

@@ -1,0 +1,558 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+  "chapter": 2,
+  "stem": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02",
+  "total_pages": 28,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.png",
+      "bank_code": "25312",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 628,
+      "height": 452,
+      "sha1": "c7ffb539247e",
+      "bank_code_inherited": false,
+      "xref": 199,
+      "bbox": [
+        185.2,
+        422.5,
+        410.2,
+        584.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
+      "text_after": "Μονάδες 9",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25313_fig01.png",
+      "bank_code": "25313",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 173,
+      "height": 274,
+      "sha1": "a7aaf9102350",
+      "bank_code_inherited": false,
+      "xref": 282,
+      "bbox": [
+        427.8,
+        136.5,
+        522.8,
+        287.3
+      ],
+      "question_anchor": null,
+      "text_before": "10 cm (σχήμα 1). Αν η μία πλευρά της επιφάνειας έχει θερμοκρασία θ1 = 27 0C  και η άλλη θ2",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23766_fig01.png",
+      "bank_code": "23766",
+      "role": "fig",
+      "page": 12,
+      "kind": "embedded",
+      "width": 527,
+      "height": 533,
+      "sha1": "33fb2eb9f159",
+      "bank_code_inherited": false,
+      "xref": 445,
+      "bbox": [
+        186.6,
+        234.4,
+        424.3,
+        474.8
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23782_fig01.png",
+      "bank_code": "23782",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 654,
+      "height": 372,
+      "sha1": "a81e439d5a90",
+      "bank_code_inherited": false,
+      "xref": 517,
+      "bbox": [
+        92.2,
+        202.7,
+        502.4,
+        436.1
+      ],
+      "question_anchor": null,
+      "text_before": "1 kPa = 7,5 mmHg)",
+      "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23767_fig01.png",
+      "bank_code": "23767",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 756,
+      "height": 449,
+      "sha1": "36912f5807da",
+      "bank_code_inherited": false,
+      "xref": 778,
+      "bbox": [
+        128.2,
+        252.6,
+        483.5,
+        463.7
+      ],
+      "question_anchor": null,
+      "text_before": "Μονάδες 25",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 290,
+      "height": 113,
+      "sha1": "e358fb471b7c",
+      "bank_code_inherited": false,
+      "xref": 1012,
+      "bbox": [
+        124.5,
+        180.8,
+        311.1,
+        253.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
+      "text_after": "α.    β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig02.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 244,
+      "height": 122,
+      "sha1": "286552cba2ac",
+      "bank_code_inherited": false,
+      "xref": 1013,
+      "bbox": [
+        336.6,
+        180.8,
+        486.0,
+        255.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
+      "text_after": "α.    β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig03.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 208,
+      "height": 260,
+      "sha1": "8bc29f2f74d7",
+      "bank_code_inherited": false,
+      "xref": 1014,
+      "bbox": [
+        129.9,
+        310.3,
+        254.7,
+        466.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
+      "text_after": "α.     β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig04.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 237,
+      "height": 225,
+      "sha1": "2d0dfd16fb07",
+      "bank_code_inherited": false,
+      "xref": 1015,
+      "bbox": [
+        339.3,
+        310.3,
+        503.1,
+        465.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
+      "text_after": "α.     β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig05.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 373,
+      "height": 205,
+      "sha1": "54d7ef6d33e0",
+      "bank_code_inherited": false,
+      "xref": 1016,
+      "bbox": [
+        135.4,
+        542.7,
+        313.7,
+        645.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
+      "text_after": "α.    β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig06.png",
+      "bank_code": "26848",
+      "role": "fig",
+      "page": 26,
+      "kind": "embedded",
+      "width": 338,
+      "height": 215,
+      "sha1": "f73749e2eab3",
+      "bank_code_inherited": false,
+      "xref": 1017,
+      "bbox": [
+        343.9,
+        542.7,
+        506.5,
+        646.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
+      "text_after": "α.    β.",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "23766": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23766_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23766_fig01.png",
+          "bank_code": "23766",
+          "role": "fig",
+          "page": 12,
+          "kind": "embedded",
+          "width": 527,
+          "height": 533,
+          "sha1": "33fb2eb9f159",
+          "bank_code_inherited": false,
+          "xref": 445,
+          "bbox": [
+            186.6,
+            234.4,
+            424.3,
+            474.8
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23767": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23767_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23767_fig01.png",
+          "bank_code": "23767",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 756,
+          "height": 449,
+          "sha1": "36912f5807da",
+          "bank_code_inherited": false,
+          "xref": 778,
+          "bbox": [
+            128.2,
+            252.6,
+            483.5,
+            463.7
+          ],
+          "question_anchor": null,
+          "text_before": "Μονάδες 25",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "23782": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23782_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23782_fig01.png",
+          "bank_code": "23782",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 654,
+          "height": 372,
+          "sha1": "a81e439d5a90",
+          "bank_code_inherited": false,
+          "xref": 517,
+          "bbox": [
+            92.2,
+            202.7,
+            502.4,
+            436.1
+          ],
+          "question_anchor": null,
+          "text_before": "1 kPa = 7,5 mmHg)",
+          "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25312": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.png",
+          "bank_code": "25312",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 628,
+          "height": 452,
+          "sha1": "c7ffb539247e",
+          "bank_code_inherited": false,
+          "xref": 199,
+          "bbox": [
+            185.2,
+            422.5,
+            410.2,
+            584.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
+          "text_after": "Μονάδες 9",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "25313": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25313_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25313_fig01.png",
+          "bank_code": "25313",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 173,
+          "height": 274,
+          "sha1": "a7aaf9102350",
+          "bank_code_inherited": false,
+          "xref": 282,
+          "bbox": [
+            427.8,
+            136.5,
+            522.8,
+            287.3
+          ],
+          "question_anchor": null,
+          "text_before": "10 cm (σχήμα 1). Αν η μία πλευρά της επιφάνειας έχει θερμοκρασία θ1 = 27 0C  και η άλλη θ2",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "26848": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig02.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig03.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig04.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig05.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig06.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 290,
+          "height": 113,
+          "sha1": "e358fb471b7c",
+          "bank_code_inherited": false,
+          "xref": 1012,
+          "bbox": [
+            124.5,
+            180.8,
+            311.1,
+            253.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
+          "text_after": "α.    β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig02.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 244,
+          "height": 122,
+          "sha1": "286552cba2ac",
+          "bank_code_inherited": false,
+          "xref": 1013,
+          "bbox": [
+            336.6,
+            180.8,
+            486.0,
+            255.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
+          "text_after": "α.    β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig03.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 208,
+          "height": 260,
+          "sha1": "8bc29f2f74d7",
+          "bank_code_inherited": false,
+          "xref": 1014,
+          "bbox": [
+            129.9,
+            310.3,
+            254.7,
+            466.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
+          "text_after": "α.     β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig04.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 237,
+          "height": 225,
+          "sha1": "2d0dfd16fb07",
+          "bank_code_inherited": false,
+          "xref": 1015,
+          "bbox": [
+            339.3,
+            310.3,
+            503.1,
+            465.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
+          "text_after": "α.     β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig05.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 373,
+          "height": 205,
+          "sha1": "54d7ef6d33e0",
+          "bank_code_inherited": false,
+          "xref": 1016,
+          "bbox": [
+            135.4,
+            542.7,
+            313.7,
+            645.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
+          "text_after": "α.    β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig06.png",
+          "bank_code": "26848",
+          "role": "fig",
+          "page": 26,
+          "kind": "embedded",
+          "width": 338,
+          "height": 215,
+          "sha1": "f73749e2eab3",
+          "bank_code_inherited": false,
+          "xref": 1017,
+          "bbox": [
+            343.9,
+            542.7,
+            506.5,
+            646.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
+          "text_after": "α.    β.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

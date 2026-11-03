@@ -1,0 +1,19 @@
+{
+  "source_pdf": "b_thermod_ch03.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 3,
+  "stem": "b_thermod_ch03",
+  "total_pages": 7,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [],
+  "by_bank_code": {}
+}

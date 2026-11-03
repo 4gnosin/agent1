@@ -1,0 +1,357 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch09.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 9,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch09",
+  "total_pages": 12,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png",
+      "bank_code": "34104",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 701,
+      "height": 466,
+      "sha1": "6fc85934e054",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        87.4,
+        180.8,
+        508.0,
+        460.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
+      "bank_code": "36260",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 248,
+      "height": 270,
+      "sha1": "b28810cbcadf",
+      "bank_code_inherited": false,
+      "xref": 90,
+      "bbox": [
+        120.0,
+        255.4,
+        248.9,
+        395.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ανάφλεξθσ)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
+      "bank_code": "36260",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 247,
+      "height": 198,
+      "sha1": "56df8714aad0",
+      "bank_code_inherited": false,
+      "xref": 91,
+      "bbox": [
+        290.8,
+        255.4,
+        476.8,
+        404.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ανάφλεξθσ)",
+      "text_after": "α.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
+      "bank_code": "36260",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 299,
+      "height": 230,
+      "sha1": "2eeaa910ea0e",
+      "bank_code_inherited": false,
+      "xref": 92,
+      "bbox": [
+        106.9,
+        428.5,
+        262.0,
+        548.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Γεννιτρια τφπου Hall",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
+      "bank_code": "36260",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 373,
+      "height": 161,
+      "sha1": "e6749c54f704",
+      "bank_code_inherited": false,
+      "xref": 94,
+      "bbox": [
+        290.3,
+        428.5,
+        476.3,
+        508.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Γεννιτρια τφπου Hall",
+      "text_after": "β.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png",
+      "bank_code": "36260",
+      "role": "fig",
+      "page": 5,
+      "kind": "embedded",
+      "width": 348,
+      "height": 221,
+      "sha1": "41635f76f969",
+      "bank_code_inherited": false,
+      "xref": 95,
+      "bbox": [
+        289.3,
+        581.5,
+        470.6,
+        696.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "Επαγωγικοφ τφπου γεννιτρια",
+      "text_after": "γ.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png",
+      "bank_code": "34105",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 614,
+      "height": 312,
+      "sha1": "82c85ade0a54",
+      "bank_code_inherited": false,
+      "xref": 181,
+      "bbox": [
+        125.2,
+        180.8,
+        469.5,
+        373.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "34104": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png",
+          "bank_code": "34104",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 701,
+          "height": 466,
+          "sha1": "6fc85934e054",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            87.4,
+            180.8,
+            508.0,
+            460.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "34105": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png",
+          "bank_code": "34105",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 614,
+          "height": 312,
+          "sha1": "82c85ade0a54",
+          "bank_code_inherited": false,
+          "xref": 181,
+          "bbox": [
+            125.2,
+            180.8,
+            469.5,
+            373.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "36260": {
+      "fig": [
+        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
+          "bank_code": "36260",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 248,
+          "height": 270,
+          "sha1": "b28810cbcadf",
+          "bank_code_inherited": false,
+          "xref": 90,
+          "bbox": [
+            120.0,
+            255.4,
+            248.9,
+            395.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ανάφλεξθσ)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
+          "bank_code": "36260",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 247,
+          "height": 198,
+          "sha1": "56df8714aad0",
+          "bank_code_inherited": false,
+          "xref": 91,
+          "bbox": [
+            290.8,
+            255.4,
+            476.8,
+            404.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ανάφλεξθσ)",
+          "text_after": "α.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
+          "bank_code": "36260",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 299,
+          "height": 230,
+          "sha1": "2eeaa910ea0e",
+          "bank_code_inherited": false,
+          "xref": 92,
+          "bbox": [
+            106.9,
+            428.5,
+            262.0,
+            548.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Γεννιτρια τφπου Hall",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
+          "bank_code": "36260",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 373,
+          "height": 161,
+          "sha1": "e6749c54f704",
+          "bank_code_inherited": false,
+          "xref": 94,
+          "bbox": [
+            290.3,
+            428.5,
+            476.3,
+            508.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Γεννιτρια τφπου Hall",
+          "text_after": "β.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png",
+          "bank_code": "36260",
+          "role": "fig",
+          "page": 5,
+          "kind": "embedded",
+          "width": 348,
+          "height": 221,
+          "sha1": "41635f76f969",
+          "bank_code_inherited": false,
+          "xref": 95,
+          "bbox": [
+            289.3,
+            581.5,
+            470.6,
+            696.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "Επαγωγικοφ τφπου γεννιτρια",
+          "text_after": "γ.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

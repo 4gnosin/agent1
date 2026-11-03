@@ -1,0 +1,125 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch02.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 2,
+  "stem": "c_michanourgiki-texnologia_ch02",
+  "total_pages": 13,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch02_#25191_fig01.png",
+      "bank_code": "25191",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 483,
+      "height": 314,
+      "sha1": "9706f7edbf83",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        116.0,
+        180.8,
+        478.4,
+        416.0
+      ],
+      "question_anchor": "2.1",
+      "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+      "text_after": "ΣΤΗΛΗ Α",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch02_#27615_fig01.png",
+      "bank_code": "27615",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 665,
+      "height": 460,
+      "sha1": "cd374a0d8b36",
+      "bank_code_inherited": false,
+      "xref": 107,
+      "bbox": [
+        200.4,
+        511.3,
+        499.3,
+        718.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1. Βάθος κοπής",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "25191": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch02_#25191_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch02_#25191_fig01.png",
+          "bank_code": "25191",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 483,
+          "height": 314,
+          "sha1": "9706f7edbf83",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            116.0,
+            180.8,
+            478.4,
+            416.0
+          ],
+          "question_anchor": "2.1",
+          "text_before": "δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
+          "text_after": "ΣΤΗΛΗ Α",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27615": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch02_#27615_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch02_#27615_fig01.png",
+          "bank_code": "27615",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 665,
+          "height": 460,
+          "sha1": "cd374a0d8b36",
+          "bank_code_inherited": false,
+          "xref": 107,
+          "bbox": [
+            200.4,
+            511.3,
+            499.3,
+            718.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1. Βάθος κοπής",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

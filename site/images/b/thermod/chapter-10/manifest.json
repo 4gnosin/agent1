@@ -1,0 +1,73 @@
+{
+  "source_pdf": "b_thermod_ch10.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 10,
+  "stem": "b_thermod_ch10",
+  "total_pages": 10,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch10_#20952_fig01.png",
+      "bank_code": "20952",
+      "role": "fig",
+      "page": 6,
+      "kind": "embedded",
+      "width": 832,
+      "height": 654,
+      "sha1": "d6e9cd9603d4",
+      "bank_code_inherited": false,
+      "xref": 174,
+      "bbox": [
+        150.5,
+        277.8,
+        444.8,
+        509.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(Μονάδες 12)",
+      "text_after": "Σχήμα 1 . Ύψη Αντλίας",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "20952": {
+      "fig": [
+        "b_thermod_ch10_#20952_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch10_#20952_fig01.png",
+          "bank_code": "20952",
+          "role": "fig",
+          "page": 6,
+          "kind": "embedded",
+          "width": 832,
+          "height": 654,
+          "sha1": "d6e9cd9603d4",
+          "bank_code_inherited": false,
+          "xref": 174,
+          "bbox": [
+            150.5,
+            277.8,
+            444.8,
+            509.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(Μονάδες 12)",
+          "text_after": "Σχήμα 1 . Ύψη Αντλίας",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

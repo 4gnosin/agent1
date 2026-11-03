@@ -1,0 +1,19 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch11.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 11,
+  "stem": "c_michanourgiki-texnologia_ch11",
+  "total_pages": 3,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [],
+  "by_bank_code": {}
+}

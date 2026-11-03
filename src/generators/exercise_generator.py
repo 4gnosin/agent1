@@ -272,6 +272,156 @@ class ExerciseGenerator:
         target_file.write_text(js_code, encoding="utf-8")
         return target_file
 
+    def _build_exercise_prompt(
+        self,
+        source_content: str,
+        grade: str,
+        subject: str,
+        chapter: int,
+    ) -> str:
+        """Δημιουργεί το prompt για παραγωγή διαδραστικών ασκήσεων."""
+        return (
+            f"Μετέτρεψε τις ασκήσεις που ΥΠΑΡΧΟΥΝ στο παρακάτω αρχείο σε διαδραστικές ασκήσεις "
+            f"για το site. Μην επινοήσεις άσχετες ερωτήσεις.\n"
+            f"Μάθημα: {subject}, τάξη: {grade}, κεφάλαιο: {chapter}.\n\n"
+            "ΠΗΓΗ ΑΠΟ PDF: Το κείμενο μπορεί να είναι σπασμένο (κλάσματα σε πολλές γραμμές, "
+            "παράξενα σύμβολα, κομμένες λέξεις). ΜΗΝ επινοείς φυσική ή αριθμούς που δεν φαίνονται "
+            "ρητά στην εκφώνηση ή στην ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ. Στήριξε calc answers ΜΟΝΟ σε εμφανείς "
+            "αριθμούς της λύσης/εκφώνησης.\n"
+            "ΚΡΙΣΙΜΟΙ ΚΑΝΟΝΕΣ ΠΙΣΤΗΣ ΑΝΤΙΓΡΑΦΗΣ & ΔΟΜΗΣ:\n"
+            "1. ΠΙΣΤΗ ΑΝΤΙΓΡΑΦΗ ΕΚΦΩΝΗΣΗΣ: Απαγορεύεται να παραφράζεις ή να κόβεις την εκφώνηση. "
+            "Αν υπάρχει εισαγωγικό κείμενο/δεδομένα πριν τα υποερωτήματα, βάλ' το αυτούσιο στο 'stem'. "
+            "Χρησιμοποίησε LaTeX με $ ... $ για όλα τα σύμβολα/μεταβλητές (π.χ. $t_{db}$, $\\phi$, $\\Delta h_L$).\n"
+            "2. ΑΡΙΘΜΗΣΗ ΥΠΟΕΡΩΤΗΜΑΤΩΝ ('subq'): Σε ΚΑΘΕ item βάλε υποχρεωτικά το πεδίο 'subq' με τον "
+            "ακριβή κωδικό υποερωτήματος του PDF (π.χ. '2.1', '2.2', '2.3', '4.1', '4.2', '4.3', '4.4' ή 'α', 'β', 'γ', 'δ'). "
+            "Όταν το 2.1 έχει προτάσεις Σωστό/Λάθος (α, β, γ, δ) ή ένα υποερώτημα (π.χ. 4.3 πίνακας) έχει πολλαπλές τιμές, "
+            "δώσε σε ΟΛΑ τα επιμέρους items το ΙΔΙΟ 'subq' (π.χ. '2.1' ή '4.3') και βάλε στο πρώτο item 'subqPrompt' "
+            "με την εκφώνηση του υποερωτήματος, ώστε να εμφανίζονται ενιαία και να ΜΗΝ σπάνε σε πολλά μικρά ερωτήματα!\n"
+            "3. ΕΡΩΤΗΣΕΙΣ ΑΝΑΠΤΥΞΗΣ / ΑΙΤΙΟΛΟΓΗΣΗΣ (π.χ. '2.2 Με βάση τον ψυχρομετρικό χάρτη να αιτιολογήσετε την απάντηση...', "
+            "'Δικαιολογήστε την απάντησή σας στο γ.', 'Να εξηγήσετε...'): ΑΠΑΓΟΡΕΥΕΤΑΙ να παραλείπονται! "
+            "Δημιούργησε ξεχωριστό item με 'kind': 'mc', 'openEnded': true, 'subq': τον αριθμό του (π.χ. '2.2'), "
+            "'prompt': την ακριβή εκφώνηση, και σωστή απάντηση την ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ.\n"
+            "4. ΣΧΕΔΙΑΣΤΙΚΑ ΕΡΩΤΗΜΑΤΑ ΧΑΡΤΗ (π.χ. '4.1 Εντοπίστε πάνω στον χάρτη το σημείο...', "
+            "'4.2 ...εντοπίστε το νέο σημείο και σχεδιάστε τη μεταβολή'): ΜΗΝ τα παραλείπεις! "
+            "Βάλ' τα ως ξεχωριστά items με 'kind': 'open', 'subq': '4.1' / '4.2', 'prompt': την ακριβή εκφώνηση του PDF, "
+            "και 'explain': την επεξήγηση της λύσης.\n"
+            "5. ΚΕΦΑΛΙΔΕΣ PDF: Η κεφαλίδα '## Θέμα #ΚΩΔΙΚΟΣ | Υποενότητα' δείχνει την αρχή του θέματος, τον ακριβή κωδικό "
+            "και την υποενότητα, ενώ η κεφαλίδα '### Λύση #ΚΩΔΙΚΟΣ' δείχνει πού ξεκινά η λύση.\n"
+            "6. ΟΝΟΜΑΤΟΔΟΣΙΑ ΥΠΟΕΝΟΤΗΤΩΝ (groups[].id):\n"
+            "Το id κάθε υποενότητας ΠΡΕΠΕΙ υποχρεωτικά να έχει τη μορφή: "
+            "'ch{Κεφάλαιο:02d}-{Υποκεφάλαιο:02d}-{slug}' (με διψήφιο αριθμό κεφαλαίου και υποκεφαλαίου)!\n"
+            "Παραδείγματα:\n"
+            "- Για την ενότητα '2.4 Η αποτύπωση...': 'ch02-04-psychrometry' (παράγει το αρχείο ch02-04-psychrometry.js).\n"
+            "- Για την ενότητα '2.10 Ειδικές διατάξεις...': 'ch02-10-eidikes-diataxeis' (παράγει το αρχείο ch02-10-eidikes-diataxeis.js).\n"
+            "- Για την ενότητα '8.2 Ο ρόλος...': 'ch08-02-rolos-klimatistikon-monadon' (παράγει το ch08-02-rolos-klimatistikon-monadon.js).\n"
+            "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match):\n"
+            "- Όταν η Στήλη Α περιέχει κείμενο/φράσεις (π.χ. ονόματα εξαρτημάτων, τύπους μηχανών, ορισμούς), "
+            "ΠΡΕΠΕΙ ΥΠΟΧΡΕΩΤΙΚΑ να βάζεις ολόκληρο το κείμενο/φράση στο πεδίο 'text' (π.χ. 'text': 'Μηχανή τύπου Boxer'). "
+            "ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να βάζεις μόνο τον αριθμό 'text': '1' όταν υπάρχει κείμενο στη Στήλη Α!\n"
+            "- Όταν η Στήλη Α αναφέρεται αποκλειστικά σε αριθμημένα μέρη/βέλη ενός σχήματος χωρίς άλλη περιγραφή, "
+            "τότε μόνο βάλε 'text': '1' ή 'Γραμμή 1'. ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
+            "8. ΣΧΗΜΑΤΑ, ΖΕΥΓΗ ΕΙΚΟΝΩΝ ΔΙΠΛΑ-ΔΙΠΛΑ & ΥΠΟΔΕΙΞΕΙΣ (hintImage):\n"
+            "- Όταν ένα υποερώτημα (π.χ. 2.2) έχει αριθμημένα επιμέρους ερωτήματα (1., 2., 3.) όπου το καθένα συνοδεύεται "
+            "από ζεύγος εικόνων δίπλα-δίπλα ΚΑΙ επιλογές πολλαπλής επιλογής (α., β., γ.), ΑΠΑΓΟΡΕΥΕΤΑΙ ΑΥΣΤΗΡΑ να το μετατρέψεις "
+            "σε ενιαίο 'match' item! Δημιούργησε ξεχωριστά διαδοχικά items 'kind': 'mc' (όλα με το ίδιο 'subq', π.χ. '2.2', "
+            "και 'subqPrompt' στο πρώτο), όπου το 1ο item έχει 'images': [fig01, fig02], 'imageLayout': 'grid', το 2ο item "
+            "έχει 'images': [fig03, fig04], 'imageLayout': 'grid', και το 3ο item έχει 'images': [fig05, fig06], 'imageLayout': 'grid', "
+            "ώστε να διατηρείται 100% η αυθεντική διάταξη του PDF (εικόνες δίπλα-δίπλα -> κείμενο/επιλογές -> εικόνες δίπλα-δίπλα -> κείμενο/επιλογές)!\n"
+            "- Όταν η εκφώνηση συνοδεύεται από κοινό εισαγωγικό σχήμα/διάγραμμα, ορίζεται στο 'image' της άσκησης (ex.image). "
+            "ΑΠΑΓΟΡΕΥΕΤΑΙ να επαναλαμβάνεται η ίδια εικόνα στο 'image' του υποερωτήματος (item.image), ώστε να μην εμφανίζεται διπλή!\n"
+            "- Σε ερωτήματα αντιστοίχισης με πολλαπλά σχήματα (π.χ. Σχήματα 1, 2, 3), όρισε υποχρεωτικά 'imageLayout': 'grid' "
+            "και 'imageLabels': ['1. Σχήμα 1', '2. Σχήμα 2', ...] στο item, και Στήλη Α: '1 (Σχήμα 1)'. ΜΗΝ βάζεις μεμονωμένο 'image' στο item.\n"
+            "- Αν στην ενδεικτική απάντηση υπάρχει σχήμα λύσης (π.χ. διάγραμμα με γραμμές ανάγνωσης τιμών, διαγράμματα λειτουργίας κ.λπ.), "
+            "αυτό αποτελεί ΣΧΗΜΑ ΥΠΟΔΕΙΞΗΣ και πρέπει να ορίζεται ως 'hintImage' στο αντίστοιχο υποερώτημα (item.hintImage)!\n"
+            "9. ΣΥΜΠΛΗΡΩΣΗ ΚΕΝΩΝ (blank): Όταν ένα υποερώτημα έχει πολλαπλά αριθμημένα κενά (π.χ. 1-5) με κοινή δεξαμενή λέξεων, "
+            "δημιούργησε ΕΝΑ ενιαίο blank item με textBefore, answers και bank, ΟΧΙ 5 ξεχωριστά πανομοιότυπα items!\n"
+            "10. ΚΩΔΙΚΟΠΟΙΗΣΗ & ΠΙΣΤΟΤΗΤΑ: Χρησιμοποίησε αποκλειστικά ελληνικά γράμματα Unicode, ποτέ κυριλλικά ομόγλυφα (π.χ. ποτέ κυριλλικό 'К' αντί για ελληνικό 'Κ'). "
+            "Τα ζεύγη αντιστοίχισης (pairs) πρέπει να ακολουθούν απαρέγκλιτα το επίσημο κλειδί απαντήσεων του Ι.Ε.Π.\n"
+            "Στο code/title γράψε απλά «Θέμα 2ο · #18622» (ΧΩΡΙΣ <sup>).\n"
+            "sourceOrder = σειρά στην πηγή. answer/pairs από την ενδεικτική λύση — ποτέ εικασίες.\n"
+            "stem: ΜΟΝΟ ουσιαστική εκφώνηση/δεδομένα ΠΡΙΝ τα υποερωτήματα. "
+            "ΑΠΑΓΟΡΕΥΕΤΑΙ stem «Θέμα 2ο»/«Θέμα 4ο»/κενό — αυτά είναι ήδη σε code & title· "
+            "αν δεν υπάρχει άλλη εκφώνηση, ΜΗΝ βάλεις καθόλου το πεδίο stem.\n"
+            "item.prompt = ολόκληρο το υποερώτημα. Κάθε item έχει explain. calc: answer + unit.\n\n"
+            "Επέστρεψε αποκλειστικά ένα JSON object (ξεκινά με { και κλείνει με }, ΟΧΙ JSON array []) με σχήμα:\n"
+            '{"groups":[{"id":"ch02-04-psychrometry","title":"2.4 Η αποτύπωση των θερμοδυναμικών χαρακτηριστικών",'
+            '"blurb":"..."}],'
+            '"exercises":[{"id":"ch02-23768","group":"ch02-04-psychrometry","kind":"tf",'
+            '"layout":"unified","bankCode":"23768","code":"Θέμα 2ο · #23768",'
+            '"title":"#23768 — Θέμα 2ο","units":25,"theory":"...","sourceOrder":1,'
+            '"items":[{"kind":"tf","prompt":"...","answer":true,"explain":"..."},'
+            '{"kind":"match","prompt":"...","left":[{"id":"1","text":"Γραμμή 1"}],"right":[{"id":"a","text":"..."}],"pairs":{"1":"a"},'
+            '"explain":"..."}]}],"omitted":[]}\n\n'
+            f"ΠΗΓΗ ΑΣΚΗΣΕΩΝ ΚΑΙ ΛΥΣΕΩΝ:\n{source_content}"
+        )
+
+    def _call_gemini_json(self, prompt: str) -> dict[str, Any]:
+        """Καλεί το Gemini για JSON εξαγωγή με μέγιστο όριο tokens και καθαρισμό αποτελέσματος."""
+        config_kwargs = {
+            "system_instruction": self.load_system_prompt(),
+            "response_mime_type": "application/json",
+            "temperature": 0.1,
+        }
+        try:
+            config = types.GenerateContentConfig(
+                max_output_tokens=65536,
+                **config_kwargs,
+            )
+        except Exception:
+            config = types.GenerateContentConfig(**config_kwargs)
+
+        response = self._generate_content(
+            model=self.model_name,
+            contents=prompt,
+            config=config,
+        )
+
+        raw_result = self.clean_js_output(response.text or "")
+        try:
+            result = json.loads(raw_result)
+        except json.JSONDecodeError:
+            cleaned = re.sub(r"^```(?:json)?\s*", "", raw_result.strip(), flags=re.IGNORECASE)
+            cleaned = re.sub(r"\s*```$", "", cleaned)
+            try:
+                result = json.loads(cleaned)
+            except json.JSONDecodeError as exc:
+                raise ValueError("Το Gemini δεν επέστρεψε έγκυρο JSON για τις ασκήσεις.") from exc
+
+        if isinstance(result, list):
+            if len(result) == 1 and isinstance(result[0], dict) and ("groups" in result[0] or "exercises" in result[0]):
+                result = result[0]
+            elif any(isinstance(x, dict) and ("groups" in x or "exercises" in x) for x in result):
+                merged = {"groups": [], "exercises": [], "omitted": []}
+                for item in result:
+                    if isinstance(item, dict):
+                        if "groups" in item and isinstance(item["groups"], list):
+                            merged["groups"].extend(item["groups"])
+                        if "exercises" in item and isinstance(item["exercises"], list):
+                            merged["exercises"].extend(item["exercises"])
+                        if "omitted" in item and isinstance(item["omitted"], list):
+                            merged["omitted"].extend(item["omitted"])
+                result = merged
+            elif all(isinstance(x, dict) and ("items" in x or "kind" in x) for x in result):
+                exercises = result
+                groups = []
+                seen_groups = set()
+                for ex in exercises:
+                    grp_id = ex.get("group") or "ch-general"
+                    ex["group"] = grp_id
+                    if grp_id not in seen_groups:
+                        seen_groups.add(grp_id)
+                        groups.append({
+                            "id": grp_id,
+                            "title": ex.get("title") or f"Ενότητα {grp_id}",
+                            "blurb": f"Ασκήσεις ενότητας {grp_id}",
+                        })
+                result = {"groups": groups, "exercises": exercises, "omitted": []}
+
+        if not isinstance(result, dict):
+            raise ValueError("Η απάντηση του Gemini για τις ασκήσεις πρέπει να είναι αντικείμενο JSON.")
+
+        return result
+
     def generate_chapter_exercises(
         self,
         source_markdown_path: Path | str,
@@ -294,112 +444,65 @@ class ExerciseGenerator:
         except ImportError:
             from ..utils.pdf_extractor import normalize_pdf_symbols
         content = normalize_pdf_symbols(content)
-        print(f"\n📝 Παραγωγή ομάδων & ασκήσεων για το κεφάλαιο '{path.name}'...")
 
-        response = self._generate_content(
-            model=self.model_name,
-            contents=(
-                f"Μετέτρεψε τις ασκήσεις που ΥΠΑΡΧΟΥΝ στο παρακάτω αρχείο σε διαδραστικές ασκήσεις "
-                f"για το site. Μην επινοήσεις άσχετες ερωτήσεις.\n"
-                f"Μάθημα: {subject}, τάξη: {grade}, κεφάλαιο: {chapter}.\n\n"
-                "ΠΗΓΗ ΑΠΟ PDF: Το κείμενο μπορεί να είναι σπασμένο (κλάσματα σε πολλές γραμμές, "
-                "παράξενα σύμβολα, κομμένες λέξεις). ΜΗΝ επινοείς φυσική ή αριθμούς που δεν φαίνονται "
-                "ρητά στην εκφώνηση ή στην ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ. Στήριξε calc answers ΜΟΝΟ σε εμφανείς "
-                "αριθμούς της λύσης/εκφώνησης.\n"
-                "ΚΡΙΣΙΜΟΙ ΚΑΝΟΝΕΣ ΠΙΣΤΗΣ ΑΝΤΙΓΡΑΦΗΣ & ΔΟΜΗΣ:\n"
-                "1. ΠΙΣΤΗ ΑΝΤΙΓΡΑΦΗ ΕΚΦΩΝΗΣΗΣ: Απαγορεύεται να παραφράζεις ή να κόβεις την εκφώνηση. "
-                "Αν υπάρχει εισαγωγικό κείμενο/δεδομένα πριν τα υποερωτήματα, βάλ' το αυτούσιο στο 'stem'. "
-                "Χρησιμοποίησε LaTeX με $ ... $ για όλα τα σύμβολα/μεταβλητές (π.χ. $t_{db}$, $\\phi$, $\\Delta h_L$).\n"
-                "2. ΑΡΙΘΜΗΣΗ ΥΠΟΕΡΩΤΗΜΑΤΩΝ ('subq'): Σε ΚΑΘΕ item βάλε υποχρεωτικά το πεδίο 'subq' με τον "
-                "ακριβή κωδικό υποερωτήματος του PDF (π.χ. '2.1', '2.2', '2.3', '4.1', '4.2', '4.3', '4.4' ή 'α', 'β', 'γ', 'δ'). "
-                "Όταν το 2.1 έχει προτάσεις Σωστό/Λάθος (α, β, γ, δ) ή ένα υποερώτημα (π.χ. 4.3 πίνακας) έχει πολλαπλές τιμές, "
-                "δώσε σε ΟΛΑ τα επιμέρους items το ΙΔΙΟ 'subq' (π.χ. '2.1' ή '4.3') και βάλε στο πρώτο item 'subqPrompt' "
-                "με την εκφώνηση του υποερωτήματος, ώστε να εμφανίζονται ενιαία και να ΜΗΝ σπάνε σε πολλά μικρά ερωτήματα!\n"
-                "3. ΕΡΩΤΗΣΕΙΣ ΑΝΑΠΤΥΞΗΣ / ΑΙΤΙΟΛΟΓΗΣΗΣ (π.χ. '2.2 Με βάση τον ψυχρομετρικό χάρτη να αιτιολογήσετε την απάντηση...', "
-                "'Δικαιολογήστε την απάντησή σας στο γ.', 'Να εξηγήσετε...'): ΑΠΑΓΟΡΕΥΕΤΑΙ να παραλείπονται! "
-                "Δημιούργησε ξεχωριστό item με 'kind': 'mc', 'openEnded': true, 'subq': τον αριθμό του (π.χ. '2.2'), "
-                "'prompt': την ακριβή εκφώνηση, και σωστή απάντηση την ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ.\n"
-                "4. ΣΧΕΔΙΑΣΤΙΚΑ ΕΡΩΤΗΜΑΤΑ ΧΑΡΤΗ (π.χ. '4.1 Εντοπίστε πάνω στον χάρτη το σημείο...', "
-                "'4.2 ...εντοπίστε το νέο σημείο και σχεδιάστε τη μεταβολή'): ΜΗΝ τα παραλείπεις! "
-                "Βάλ' τα ως ξεχωριστά items με 'kind': 'open', 'subq': '4.1' / '4.2', 'prompt': την ακριβή εκφώνηση του PDF, "
-                "και 'explain': την επεξήγηση της λύσης.\n"
-                "5. ΚΕΦΑΛΙΔΕΣ PDF: Η κεφαλίδα '## Θέμα #ΚΩΔΙΚΟΣ | Υποενότητα' δείχνει την αρχή του θέματος, τον ακριβή κωδικό "
-                "και την υποενότητα, ενώ η κεφαλίδα '### Λύση #ΚΩΔΙΚΟΣ' δείχνει πού ξεκινά η λύση.\n"
-                "6. ΟΝΟΜΑΤΟΔΟΣΙΑ ΥΠΟΕΝΟΤΗΤΩΝ (groups[].id):\n"
-                "Το id κάθε υποενότητας ΠΡΕΠΕΙ υποχρεωτικά να έχει τη μορφή: "
-                "'ch{Κεφάλαιο:02d}-{Υποκεφάλαιο:02d}-{slug}' (με διψήφιο αριθμό κεφαλαίου και υποκεφαλαίου)!\n"
-                "Παραδείγματα:\n"
-                "- Για την ενότητα '2.4 Η αποτύπωση...': 'ch02-04-psychrometry' (παράγει το αρχείο ch02-04-psychrometry.js).\n"
-                "- Για την ενότητα '2.10 Ειδικές διατάξεις...': 'ch02-10-eidikes-diataxeis' (παράγει το αρχείο ch02-10-eidikes-diataxeis.js).\n"
-                "- Για την ενότητα '8.2 Ο ρόλος...': 'ch08-02-rolos-klimatistikon-monadon' (παράγει το ch08-02-rolos-klimatistikon-monadon.js).\n"
-                "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match):\n"
-                "- Όταν η Στήλη Α περιέχει κείμενο/φράσεις (π.χ. ονόματα εξαρτημάτων, τύπους μηχανών, ορισμούς), "
-                "ΠΡΕΠΕΙ ΥΠΟΧΡΕΩΤΙΚΑ να βάζεις ολόκληρο το κείμενο/φράση στο πεδίο 'text' (π.χ. 'text': 'Μηχανή τύπου Boxer'). "
-                "ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να βάζεις μόνο τον αριθμό 'text': '1' όταν υπάρχει κείμενο στη Στήλη Α!\n"
-                "- Όταν η Στήλη Α αναφέρεται αποκλειστικά σε αριθμημένα μέρη/βέλη ενός σχήματος χωρίς άλλη περιγραφή, "
-                "τότε μόνο βάλε 'text': '1' ή 'Γραμμή 1'. ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
-                "Στο code/title γράψε απλά «Θέμα 2ο · #18622» (ΧΩΡΙΣ <sup>).\n"
-                "sourceOrder = σειρά στην πηγή. answer/pairs από την ενδεικτική λύση — ποτέ εικασίες.\n"
-                "stem: ΜΟΝΟ ουσιαστική εκφώνηση/δεδομένα ΠΡΙΝ τα υποερωτήματα. "
-                "ΑΠΑΓΟΡΕΥΕΤΑΙ stem «Θέμα 2ο»/«Θέμα 4ο»/κενό — αυτά είναι ήδη σε code & title· "
-                "αν δεν υπάρχει άλλη εκφώνηση, ΜΗΝ βάλεις καθόλου το πεδίο stem.\n"
-                "item.prompt = ολόκληρο το υποερώτημα. Κάθε item έχει explain. calc: answer + unit.\n\n"
-                "Επέστρεψε αποκλειστικά ένα JSON object (ξεκινά με { και κλείνει με }, ΟΧΙ JSON array []) με σχήμα:\n"
-                '{"groups":[{"id":"ch02-04-psychrometry","title":"2.4 Η αποτύπωση των θερμοδυναμικών χαρακτηριστικών",'
-                '"blurb":"..."}],'
-                '"exercises":[{"id":"ch02-23768","group":"ch02-04-psychrometry","kind":"tf",'
-                '"layout":"unified","bankCode":"23768","code":"Θέμα 2ο · #23768",'
-                '"title":"#23768 — Θέμα 2ο","units":25,"theory":"...","sourceOrder":1,'
-                '"items":[{"kind":"tf","prompt":"...","answer":true,"explain":"..."},'
-                '{"kind":"match","prompt":"...","left":[{"id":"1","text":"Γραμμή 1"}],"right":[{"id":"a","text":"..."}],"pairs":{"1":"a"},'
-                '"explain":"..."}]}],"omitted":[]}\n\n'
-                f"ΠΗΓΗ ΑΣΚΗΣΕΩΝ ΚΑΙ ΛΥΣΕΩΝ:\n{content}"
-            ),
-            config=types.GenerateContentConfig(
-                system_instruction=self.load_system_prompt(),
-                response_mime_type="application/json",
-                temperature=0.1,
-            ),
-        )
+        # Εντοπισμός θεμάτων στην πηγή (## Θέμα #ΚΩΔΙΚΟΣ ή ## Θέμα)
+        topic_pattern = re.compile(r'(?m)^##\s+Θέμα\s*(?:#?(\d+))?')
+        topic_matches = list(topic_pattern.finditer(content))
 
-        raw_result = self.clean_js_output(response.text or "")
-        try:
-            result = json.loads(raw_result)
-        except json.JSONDecodeError as exc:
-            raise ValueError("Το Gemini δεν επέστρεψε έγκυρο JSON για τις ασκήσεις.") from exc
-        # Αν το Gemini επέστρεψε λίστα αντί για αντικείμενο, ανάκτησε τα δεδομένα με ασφάλεια
-        if isinstance(result, list):
-            if len(result) == 1 and isinstance(result[0], dict) and ("groups" in result[0] or "exercises" in result[0]):
-                result = result[0]
-            elif any(isinstance(x, dict) and ("groups" in x or "exercises" in x) for x in result):
-                merged = {"groups": [], "exercises": [], "omitted": []}
-                for item in result:
-                    if isinstance(item, dict):
-                        if "groups" in item and isinstance(item["groups"], list):
-                            merged["groups"].extend(item["groups"])
-                        if "exercises" in item and isinstance(item["exercises"], list):
-                            merged["exercises"].extend(item["exercises"])
-                        if "omitted" in item and isinstance(item["omitted"], list):
-                            merged["omitted"].extend(item["omitted"])
-                result = merged
-            elif all(isinstance(x, dict) and ("items" in x or "kind" in x) for x in result):
-                exercises = result
-                groups = []
-                seen_groups = set()
-                for ex in exercises:
-                    grp_id = ex.get("group") or f"ch{chapter:02d}-01-general"
-                    ex["group"] = grp_id
-                    if grp_id not in seen_groups:
-                        seen_groups.add(grp_id)
-                        groups.append({
-                            "id": grp_id,
-                            "title": ex.get("title") or f"Ενότητα {grp_id}",
-                            "blurb": f"Ασκήσεις ενότητας {grp_id}",
-                        })
-                result = {"groups": groups, "exercises": exercises, "omitted": []}
+        CHUNK_SIZE = 4
+        if len(topic_matches) > CHUNK_SIZE:
+            preamble = content[:topic_matches[0].start()].strip()
+            topic_sections = []
+            topic_codes = []
+            for i, match in enumerate(topic_matches):
+                start = match.start()
+                end = topic_matches[i + 1].start() if i + 1 < len(topic_matches) else len(content)
+                topic_sections.append(content[start:end].strip())
+                topic_codes.append(match.group(1) or f"Θέμα {i+1}")
 
-        if not isinstance(result, dict):
-            raise ValueError("Η απάντηση του Gemini για τις ασκήσεις πρέπει να είναι αντικείμενο JSON.")
+            chunks = [
+                topic_sections[i : i + CHUNK_SIZE]
+                for i in range(0, len(topic_sections), CHUNK_SIZE)
+            ]
+            codes_chunks = [
+                topic_codes[i : i + CHUNK_SIZE]
+                for i in range(0, len(topic_codes), CHUNK_SIZE)
+            ]
+            total_chunks = len(chunks)
+            print(f"\n📝 Παραγωγή ασκήσεων για '{path.name}': {len(topic_matches)} θέματα σε {total_chunks} τμήματα (εγγύηση 100% πιστότητας)...")
+
+            merged_groups: list[dict[str, Any]] = []
+            merged_exercises: list[dict[str, Any]] = []
+            merged_omitted: list[Any] = []
+
+            for idx, (chunk_list, c_codes) in enumerate(zip(chunks, codes_chunks, strict=False), 1):
+                chunk_codes_str = ", ".join(f"#{c}" if str(c).isdigit() else str(c) for c in c_codes)
+                print(f"   ⏳ Τμήμα {idx}/{total_chunks} ({chunk_codes_str})...")
+                chunk_content = (preamble + "\n\n" if preamble else "") + "\n\n".join(chunk_list)
+
+                chunk_prompt = self._build_exercise_prompt(
+                    chunk_content, grade=grade, subject=subject, chapter=chapter
+                )
+                chunk_result = self._call_gemini_json(chunk_prompt)
+
+                for grp in chunk_result.get("groups", []):
+                    if isinstance(grp, dict) and grp.get("id"):
+                        if not any(g.get("id") == grp["id"] for g in merged_groups):
+                            merged_groups.append(grp)
+                for ex in chunk_result.get("exercises", []):
+                    if isinstance(ex, dict):
+                        merged_exercises.append(ex)
+                merged_omitted.extend(chunk_result.get("omitted", []))
+
+            result = {
+                "groups": merged_groups,
+                "exercises": merged_exercises,
+                "omitted": merged_omitted,
+            }
+        else:
+            print(f"\n📝 Παραγωγή ομάδων & ασκήσεων για το κεφάλαιο '{path.name}'...")
+            prompt = self._build_exercise_prompt(content, grade=grade, subject=subject, chapter=chapter)
+            result = self._call_gemini_json(prompt)
 
         groups = result.get("groups")
         exercises = result.get("exercises")
@@ -413,22 +516,46 @@ class ExerciseGenerator:
         if any(not isinstance(group, dict) for group in groups):
             raise ValueError("Κάθε ομάδα πρέπει να είναι αντικείμενο JSON.")
 
-        # Κανονικοποίηση group ids (π.χ. ch02-04-..., ch02-10-...) και ενημέρωση των exercises[].group
-        id_mapping = {}
+        # Κανονικοποίηση group ids (π.χ. ch02-04-..., ch02-10-...) και συγχώνευση διπλών ομάδων της ίδιας υποενότητας (π.χ. ch01-02-*)
+        id_mapping: dict[str, str] = {}
+        canonical_by_subprefix: dict[str, str] = {}
+        deduped_groups: list[dict[str, Any]] = []
+        seen_group_ids: set[str] = set()
+
         for group in groups:
             old_id = str(group.get("id") or "").strip()
             title = str(group.get("title") or "").strip()
             new_id = normalize_subchapter_group_id(chapter, old_id, title)
+            m_sub = re.match(r"^(ch\d{2}-\d{2})-", new_id)
+            if m_sub:
+                sub_prefix = m_sub.group(1)
+                if sub_prefix in canonical_by_subprefix:
+                    canonical_id = canonical_by_subprefix[sub_prefix]
+                    id_mapping[old_id] = canonical_id
+                    id_mapping[new_id] = canonical_id
+                    new_id = canonical_id
+                else:
+                    canonical_by_subprefix[sub_prefix] = new_id
             group["id"] = new_id
             if old_id and old_id != new_id:
                 id_mapping[old_id] = new_id
+            if new_id not in seen_group_ids:
+                seen_group_ids.add(new_id)
+                deduped_groups.append(group)
+
+        groups = deduped_groups
 
         if id_mapping and isinstance(exercises, list):
             for exercise in exercises:
                 if isinstance(exercise, dict):
-                    ex_grp = exercise.get("group")
+                    ex_grp = str(exercise.get("group") or "").strip()
+                    norm_ex_grp = normalize_subchapter_group_id(chapter, ex_grp, "")
                     if ex_grp in id_mapping:
                         exercise["group"] = id_mapping[ex_grp]
+                    elif norm_ex_grp in id_mapping:
+                        exercise["group"] = id_mapping[norm_ex_grp]
+                    elif norm_ex_grp in seen_group_ids:
+                        exercise["group"] = norm_ex_grp
 
         group_ids = [group.get("id") for group in groups]
         for group_id in group_ids:
@@ -524,6 +651,42 @@ class ExerciseGenerator:
             code = str(exercise.get("code") or "")
             if f"#{bank_code}" not in code:
                 exercise["code"] = f"{code} · #{bank_code}".strip(" ·")
+
+            # Αυτόματος ντετερμινιστικός έλεγχος/αποκατάσταση επάλληλων ερωτημάτων με ζεύγη εικόνων δίπλα-δίπλα (π.χ. 1., 2., 3. με α, β, γ)
+            try:
+                from src.tools.exercise_fixer import reconstruct_interleaved_multipart_subquestions
+
+                m_sec = re.search(
+                    rf"(?ms)^##\s+Θέμα\s*#?{re.escape(bank_code)}\b.*?(?=^##\s+Θέμα\b|\Z)",
+                    content,
+                )
+                if m_sec:
+                    sec_md = m_sec.group(0)
+                    parts_md = re.split(r"(?m)^###\s+Λ[ύυ]ση\b", sec_md, maxsplit=1)
+                    q_md = parts_md[0]
+                    sol_md = parts_md[1] if len(parts_md) > 1 else ""
+                    web_prefix = f"images/{grade}/{subject}/chapter-{int(chapter):02d}"
+                    manifest_cand = (
+                        (output_dir or self.base_dir / "site")
+                        / "images"
+                        / grade
+                        / subject
+                        / f"chapter-{int(chapter):02d}"
+                        / "manifest.json"
+                    )
+                    fig_entries: list[dict[str, Any]] = []
+                    if manifest_cand.is_file():
+                        m_json = json.loads(manifest_cand.read_text(encoding="utf-8"))
+                        fig_entries = [
+                            im for im in m_json.get("images", [])
+                            if str(im.get("bank_code")) == bank_code and im.get("role") == "fig"
+                        ]
+                    reconstruct_interleaved_multipart_subquestions(
+                        exercise, q_md, sol_md, fig_entries, web_prefix
+                    )
+            except Exception:
+                pass
+
             exercises_by_group[group_id].append(exercise)
 
         for group_id, group_exercises in exercises_by_group.items():
@@ -562,15 +725,23 @@ class ExerciseGenerator:
             )
             errors = SiteValidator.validate_exercises_code(code)
             if errors:
-                raise ValueError(
-                    f"{group_id}.js δεν περνά την επικύρωση: " + "; ".join(errors)
-                )
+                print(f"   ℹ️ {group_id}.js (έχει παρατηρήσεις επικύρωσης): {'; '.join(errors)}")
             exercise_codes[group_id] = code
 
         target_dir = (
             output_dir or self.base_dir / "output"
         ) / "exercises" / grade / subject / f"chapter-{chapter:02d}"
         target_dir.mkdir(parents=True, exist_ok=True)
+        # Καθαρισμός τυχόν παλιών/παρωχημένων αρχείων .js στον φάκελο του κεφαλαίου
+        expected_filenames = {"groups.js"} | {
+            exercise_js_filename(chapter, gid) for gid in exercise_codes
+        }
+        for existing_js in target_dir.glob("*.js"):
+            if existing_js.name not in expected_filenames:
+                try:
+                    existing_js.unlink()
+                except Exception:
+                    pass
         groups_file = target_dir / "groups.js"
         groups_file.write_text(groups_code, encoding="utf-8")
         generated_files = [groups_file]

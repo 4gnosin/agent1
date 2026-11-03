@@ -1,0 +1,509 @@
+{
+  "source_pdf": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09.pdf",
+  "grade": "c",
+  "subject": "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+  "chapter": 9,
+  "stem": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09",
+  "total_pages": 18,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29142_fig01.png",
+      "bank_code": "29142",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 707,
+      "height": 423,
+      "sha1": "c8671b73a01e",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        99.9,
+        314.1,
+        524.1,
+        567.9
+      ],
+      "question_anchor": null,
+      "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_fig01.png",
+      "bank_code": "29785",
+      "role": "fig",
+      "page": 4,
+      "kind": "embedded",
+      "width": 666,
+      "height": 403,
+      "sha1": "473d5b840c38",
+      "bank_code_inherited": false,
+      "xref": 95,
+      "bbox": [
+        194.6,
+        406.9,
+        417.4,
+        541.7
+      ],
+      "question_anchor": "2.2",
+      "text_before": "PPD. Απαντήστε στα παρακάτω ερωτήματα:",
+      "text_after": "α. Ποιος άξονας αντιστοιχεί στον δείκτη άνεσης PMV και ποιος στον δείκτη δυσαρέσκειας",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.png",
+      "bank_code": "29785",
+      "role": "sol",
+      "page": 5,
+      "kind": "embedded",
+      "width": 666,
+      "height": 403,
+      "sha1": "473d5b840c38",
+      "bank_code_inherited": false,
+      "xref": 149,
+      "bbox": [
+        176.3,
+        423.6,
+        435.2,
+        580.3
+      ],
+      "question_anchor": "2.2",
+      "text_before": "= 10 % από το διάγραμμα προκύπτει ότι PMV = -0,5 ή PMV = 0,5.",
+      "text_after": "β. PMV = 0",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.png",
+      "bank_code": "29517",
+      "role": "fig",
+      "page": 9,
+      "kind": "embedded",
+      "width": 375,
+      "height": 218,
+      "sha1": "5a9d1bdc4390",
+      "bank_code_inherited": false,
+      "xref": 272,
+      "bbox": [
+        98.9,
+        510.4,
+        497.5,
+        742.2
+      ],
+      "question_anchor": "2.2",
+      "text_before": "ικανοποιημένοι με το θερμικό περιβάλλον του χώρου; (μονάδες 8)",
+      "text_after": "Μονάδες 12",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_fig01.png",
+      "bank_code": "32838",
+      "role": "fig",
+      "page": 11,
+      "kind": "embedded",
+      "width": 479,
+      "height": 476,
+      "sha1": "62cae465334f",
+      "bank_code_inherited": false,
+      "xref": 361,
+      "bbox": [
+        118.4,
+        373.8,
+        477.8,
+        730.9
+      ],
+      "question_anchor": "4.2",
+      "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol01.png",
+      "bank_code": "32838",
+      "role": "sol",
+      "page": 12,
+      "kind": "embedded",
+      "width": 479,
+      "height": 476,
+      "sha1": "62cae465334f",
+      "bank_code_inherited": false,
+      "xref": 412,
+      "bbox": [
+        118.4,
+        277.3,
+        477.8,
+        634.4
+      ],
+      "question_anchor": "4.1",
+      "text_before": "ίση με 27,2 οC.",
+      "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol02.png",
+      "bank_code": "32838",
+      "role": "sol",
+      "page": 13,
+      "kind": "embedded",
+      "width": 479,
+      "height": 476,
+      "sha1": "62cae465334f",
+      "bank_code_inherited": true,
+      "xref": 412,
+      "bbox": [
+        118.4,
+        233.3,
+        477.8,
+        590.4
+      ],
+      "question_anchor": "4.2",
+      "text_before": "10 οC.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_fig01.png",
+      "bank_code": "33899",
+      "role": "fig",
+      "page": 14,
+      "kind": "embedded",
+      "width": 684,
+      "height": 475,
+      "sha1": "c451a56747f6",
+      "bank_code_inherited": false,
+      "xref": 454,
+      "bbox": [
+        72.4,
+        417.0,
+        525.9,
+        732.0
+      ],
+      "question_anchor": "4.2",
+      "text_before": "ρουχισμό.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol01.png",
+      "bank_code": "33899",
+      "role": "sol",
+      "page": 15,
+      "kind": "embedded",
+      "width": 684,
+      "height": 475,
+      "sha1": "c451a56747f6",
+      "bank_code_inherited": false,
+      "xref": 505,
+      "bbox": [
+        72.4,
+        270.7,
+        525.9,
+        585.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "𝐬.",
+      "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol02.png",
+      "bank_code": "33899",
+      "role": "sol",
+      "page": 16,
+      "kind": "embedded",
+      "width": 684,
+      "height": 475,
+      "sha1": "c451a56747f6",
+      "bank_code_inherited": true,
+      "xref": 505,
+      "bbox": [
+        72.4,
+        226.8,
+        525.9,
+        541.8
+      ],
+      "question_anchor": "4.2",
+      "text_before": "απαιτούμενη θερμοκρασία του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με 19 οC.",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "29142": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29142_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29142_fig01.png",
+          "bank_code": "29142",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 707,
+          "height": 423,
+          "sha1": "c8671b73a01e",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            99.9,
+            314.1,
+            524.1,
+            567.9
+          ],
+          "question_anchor": null,
+          "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29517": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.png",
+          "bank_code": "29517",
+          "role": "fig",
+          "page": 9,
+          "kind": "embedded",
+          "width": 375,
+          "height": 218,
+          "sha1": "5a9d1bdc4390",
+          "bank_code_inherited": false,
+          "xref": 272,
+          "bbox": [
+            98.9,
+            510.4,
+            497.5,
+            742.2
+          ],
+          "question_anchor": "2.2",
+          "text_before": "ικανοποιημένοι με το θερμικό περιβάλλον του χώρου; (μονάδες 8)",
+          "text_after": "Μονάδες 12",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29785": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_fig01.png",
+          "bank_code": "29785",
+          "role": "fig",
+          "page": 4,
+          "kind": "embedded",
+          "width": 666,
+          "height": 403,
+          "sha1": "473d5b840c38",
+          "bank_code_inherited": false,
+          "xref": 95,
+          "bbox": [
+            194.6,
+            406.9,
+            417.4,
+            541.7
+          ],
+          "question_anchor": "2.2",
+          "text_before": "PPD. Απαντήστε στα παρακάτω ερωτήματα:",
+          "text_after": "α. Ποιος άξονας αντιστοιχεί στον δείκτη άνεσης PMV και ποιος στον δείκτη δυσαρέσκειας",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.png",
+          "bank_code": "29785",
+          "role": "sol",
+          "page": 5,
+          "kind": "embedded",
+          "width": 666,
+          "height": 403,
+          "sha1": "473d5b840c38",
+          "bank_code_inherited": false,
+          "xref": 149,
+          "bbox": [
+            176.3,
+            423.6,
+            435.2,
+            580.3
+          ],
+          "question_anchor": "2.2",
+          "text_before": "= 10 % από το διάγραμμα προκύπτει ότι PMV = -0,5 ή PMV = 0,5.",
+          "text_after": "β. PMV = 0",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "32838": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_fig01.png",
+          "bank_code": "32838",
+          "role": "fig",
+          "page": 11,
+          "kind": "embedded",
+          "width": 479,
+          "height": 476,
+          "sha1": "62cae465334f",
+          "bank_code_inherited": false,
+          "xref": 361,
+          "bbox": [
+            118.4,
+            373.8,
+            477.8,
+            730.9
+          ],
+          "question_anchor": "4.2",
+          "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol01.png",
+          "bank_code": "32838",
+          "role": "sol",
+          "page": 12,
+          "kind": "embedded",
+          "width": 479,
+          "height": 476,
+          "sha1": "62cae465334f",
+          "bank_code_inherited": false,
+          "xref": 412,
+          "bbox": [
+            118.4,
+            277.3,
+            477.8,
+            634.4
+          ],
+          "question_anchor": "4.1",
+          "text_before": "ίση με 27,2 οC.",
+          "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol02.png",
+          "bank_code": "32838",
+          "role": "sol",
+          "page": 13,
+          "kind": "embedded",
+          "width": 479,
+          "height": 476,
+          "sha1": "62cae465334f",
+          "bank_code_inherited": true,
+          "xref": 412,
+          "bbox": [
+            118.4,
+            233.3,
+            477.8,
+            590.4
+          ],
+          "question_anchor": "4.2",
+          "text_before": "10 οC.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "33899": {
+      "fig": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_fig01.png"
+      ],
+      "sol": [
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol01.png",
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_fig01.png",
+          "bank_code": "33899",
+          "role": "fig",
+          "page": 14,
+          "kind": "embedded",
+          "width": 684,
+          "height": 475,
+          "sha1": "c451a56747f6",
+          "bank_code_inherited": false,
+          "xref": 454,
+          "bbox": [
+            72.4,
+            417.0,
+            525.9,
+            732.0
+          ],
+          "question_anchor": "4.2",
+          "text_before": "ρουχισμό.",
+          "text_after": "",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol01.png",
+          "bank_code": "33899",
+          "role": "sol",
+          "page": 15,
+          "kind": "embedded",
+          "width": 684,
+          "height": 475,
+          "sha1": "c451a56747f6",
+          "bank_code_inherited": false,
+          "xref": 505,
+          "bbox": [
+            72.4,
+            270.7,
+            525.9,
+            585.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "𝐬.",
+          "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol02.png",
+          "bank_code": "33899",
+          "role": "sol",
+          "page": 16,
+          "kind": "embedded",
+          "width": 684,
+          "height": 475,
+          "sha1": "c451a56747f6",
+          "bank_code_inherited": true,
+          "xref": 505,
+          "bbox": [
+            72.4,
+            226.8,
+            525.9,
+            541.8
+          ],
+          "question_anchor": "4.2",
+          "text_before": "απαιτούμενη θερμοκρασία του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με 19 οC.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

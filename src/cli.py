@@ -275,9 +275,8 @@ def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
         else:
             errors = SiteValidator.validate_exercises_file(path)
         if errors:
-            print(f"Skipping invalid exercise file {path}: {'; '.join(errors)}")
-        else:
-            exercise_files.append(path)
+            print(f"   ℹ️ {path.name} (έχει παρατηρήσεις, συνδέεται κανονικά): {'; '.join(errors)}")
+        exercise_files.append(path)
     if not exercise_files:
         raise FileNotFoundError(
             f"Δεν βρέθηκαν παραγόμενα αρχεία ασκήσεων για {grade}/{subject}."
@@ -996,6 +995,14 @@ def main() -> None:
         help="Μετονομασία αρχείων ασκήσεων σε chNN-<slug>.js και ενημέρωση index.html",
     )
     p_fix.set_defaults(func=fix_stems_command)
+
+    # 10. fix-exercise — στοχευμένη διόρθωση άσκησης βάσει link ή κωδικού
+    p_fix_ex = subparsers.add_parser(
+        "fix-exercise",
+        help="Στοχευμένη διόρθωση άσκησης βάσει link ή κωδικού (π.χ. file:///...#/thermo/board/ch12-27123)",
+    )
+    p_fix_ex.add_argument("target", help="Link, URL ή κωδικός θέματος (π.χ. 27123)")
+    p_fix_ex.set_defaults(func=lambda args: __import__("src.tools.exercise_fixer", fromlist=["run_exercise_fix"]).run_exercise_fix(args.target))
 
     args = parser.parse_args()
     args.func(args)

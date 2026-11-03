@@ -1,0 +1,357 @@
+{
+  "source_pdf": "b_thermod_ch16.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 16,
+  "stem": "b_thermod_ch16",
+  "total_pages": 25,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch16_#29453_fig01.png",
+      "bank_code": "29453",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 217,
+      "height": 157,
+      "sha1": "42443dd892fc",
+      "bank_code_inherited": false,
+      "xref": 16,
+      "bbox": [
+        104.3,
+        192.8,
+        267.1,
+        310.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(είδος ενέργειας ενός υγρού)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#29453_fig02.png",
+      "bank_code": "29453",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 189,
+      "height": 151,
+      "sha1": "8c8fc84a416b",
+      "bank_code_inherited": false,
+      "xref": 17,
+      "bbox": [
+        104.3,
+        333.3,
+        246.1,
+        446.5
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#29453_fig03.png",
+      "bank_code": "29453",
+      "role": "fig",
+      "page": 2,
+      "kind": "embedded",
+      "width": 186,
+      "height": 142,
+      "sha1": "ae13fdc4607e",
+      "bank_code_inherited": false,
+      "xref": 18,
+      "bbox": [
+        104.3,
+        469.3,
+        243.8,
+        575.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#27121_fig01.png",
+      "bank_code": "27121",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 308,
+      "height": 168,
+      "sha1": "474be2559f48",
+      "bank_code_inherited": false,
+      "xref": 656,
+      "bbox": [
+        105.8,
+        212.9,
+        288.2,
+        312.3
+      ],
+      "question_anchor": "2.1",
+      "text_before": "(ονομασία)",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#27121_fig02.png",
+      "bank_code": "27121",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 280,
+      "height": 165,
+      "sha1": "e38570bc9112",
+      "bank_code_inherited": false,
+      "xref": 657,
+      "bbox": [
+        102.8,
+        332.5,
+        291.8,
+        443.9
+      ],
+      "question_anchor": "2.1",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#27121_fig03.png",
+      "bank_code": "27121",
+      "role": "fig",
+      "page": 17,
+      "kind": "embedded",
+      "width": 373,
+      "height": 103,
+      "sha1": "b0875d8eeb8e",
+      "bank_code_inherited": false,
+      "xref": 658,
+      "bbox": [
+        101.8,
+        476.9,
+        293.0,
+        529.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch16_#29232_fig01.png",
+      "bank_code": "29232",
+      "role": "fig",
+      "page": 20,
+      "kind": "embedded",
+      "width": 428,
+      "height": 239,
+      "sha1": "b47e1b0e7c38",
+      "bank_code_inherited": false,
+      "xref": 734,
+      "bbox": [
+        166.5,
+        313.7,
+        445.4,
+        469.5
+      ],
+      "question_anchor": null,
+      "text_before": "διαφορά μεταξύ των θέσεων 1 και 2 είναι μηδέν.",
+      "text_after": "Μονάδες 25",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27121": {
+      "fig": [
+        "b_thermod_ch16_#27121_fig01.png",
+        "b_thermod_ch16_#27121_fig02.png",
+        "b_thermod_ch16_#27121_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch16_#27121_fig01.png",
+          "bank_code": "27121",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 308,
+          "height": 168,
+          "sha1": "474be2559f48",
+          "bank_code_inherited": false,
+          "xref": 656,
+          "bbox": [
+            105.8,
+            212.9,
+            288.2,
+            312.3
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(ονομασία)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch16_#27121_fig02.png",
+          "bank_code": "27121",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 280,
+          "height": 165,
+          "sha1": "e38570bc9112",
+          "bank_code_inherited": false,
+          "xref": 657,
+          "bbox": [
+            102.8,
+            332.5,
+            291.8,
+            443.9
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch16_#27121_fig03.png",
+          "bank_code": "27121",
+          "role": "fig",
+          "page": 17,
+          "kind": "embedded",
+          "width": 373,
+          "height": 103,
+          "sha1": "b0875d8eeb8e",
+          "bank_code_inherited": false,
+          "xref": 658,
+          "bbox": [
+            101.8,
+            476.9,
+            293.0,
+            529.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29232": {
+      "fig": [
+        "b_thermod_ch16_#29232_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch16_#29232_fig01.png",
+          "bank_code": "29232",
+          "role": "fig",
+          "page": 20,
+          "kind": "embedded",
+          "width": 428,
+          "height": 239,
+          "sha1": "b47e1b0e7c38",
+          "bank_code_inherited": false,
+          "xref": 734,
+          "bbox": [
+            166.5,
+            313.7,
+            445.4,
+            469.5
+          ],
+          "question_anchor": null,
+          "text_before": "διαφορά μεταξύ των θέσεων 1 και 2 είναι μηδέν.",
+          "text_after": "Μονάδες 25",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "29453": {
+      "fig": [
+        "b_thermod_ch16_#29453_fig01.png",
+        "b_thermod_ch16_#29453_fig02.png",
+        "b_thermod_ch16_#29453_fig03.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch16_#29453_fig01.png",
+          "bank_code": "29453",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 217,
+          "height": 157,
+          "sha1": "42443dd892fc",
+          "bank_code_inherited": false,
+          "xref": 16,
+          "bbox": [
+            104.3,
+            192.8,
+            267.1,
+            310.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "(είδος ενέργειας ενός υγρού)",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch16_#29453_fig02.png",
+          "bank_code": "29453",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 189,
+          "height": 151,
+          "sha1": "8c8fc84a416b",
+          "bank_code_inherited": false,
+          "xref": 17,
+          "bbox": [
+            104.3,
+            333.3,
+            246.1,
+            446.5
+          ],
+          "question_anchor": "2.1",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch16_#29453_fig03.png",
+          "bank_code": "29453",
+          "role": "fig",
+          "page": 2,
+          "kind": "embedded",
+          "width": 186,
+          "height": 142,
+          "sha1": "ae13fdc4607e",
+          "bank_code_inherited": false,
+          "xref": 18,
+          "bbox": [
+            104.3,
+            469.3,
+            243.8,
+            575.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

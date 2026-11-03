@@ -1,0 +1,260 @@
+{
+  "source_pdf": "c_michanourgiki-texnologia_ch06.pdf",
+  "grade": "c",
+  "subject": "michanourgiki-texnologia",
+  "chapter": 6,
+  "stem": "c_michanourgiki-texnologia_ch06",
+  "total_pages": 15,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_michanourgiki-texnologia_ch06_#27207_fig01.png",
+      "bank_code": "27207",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 381,
+      "height": 256,
+      "sha1": "8a99db0b0e66",
+      "bank_code_inherited": false,
+      "xref": 288,
+      "bbox": [
+        87.0,
+        185.9,
+        232.8,
+        283.7
+      ],
+      "question_anchor": "2.1",
+      "text_before": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch06_#27207_fig02.png",
+      "bank_code": "27207",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 345,
+      "height": 167,
+      "sha1": "83f30f6d9b9c",
+      "bank_code_inherited": false,
+      "xref": 289,
+      "bbox": [
+        87.0,
+        297.0,
+        242.9,
+        372.1
+      ],
+      "question_anchor": "2.1",
+      "text_before": "τεμαχίου",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch06_#27207_fig03.png",
+      "bank_code": "27207",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 217,
+      "height": 176,
+      "sha1": "d1a75c60b3a0",
+      "bank_code_inherited": false,
+      "xref": 290,
+      "bbox": [
+        93.2,
+        385.3,
+        249.1,
+        511.8
+      ],
+      "question_anchor": "2.1",
+      "text_before": "β. Περιφερειακή λείανση με κυκλική τράπεζα",
+      "text_after": "δ. Μετωπική λείανση με κάθετη άτρακτο και",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch06_#27207_fig04.png",
+      "bank_code": "27207",
+      "role": "fig",
+      "page": 8,
+      "kind": "embedded",
+      "width": 468,
+      "height": 323,
+      "sha1": "beb6c93b5b26",
+      "bank_code_inherited": false,
+      "xref": 291,
+      "bbox": [
+        87.0,
+        525.0,
+        242.9,
+        632.6
+      ],
+      "question_anchor": "2.1",
+      "text_before": "γ. Περιφερειακή λείανση με διαμήκη τράπεζα",
+      "text_after": "ε. Εσωτερική λείανση κυλινδρικού τεμαχίου",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "c_michanourgiki-texnologia_ch06_#27619_fig01.png",
+      "bank_code": "27619",
+      "role": "fig",
+      "page": 13,
+      "kind": "embedded",
+      "width": 475,
+      "height": 553,
+      "sha1": "2db42bb37149",
+      "bank_code_inherited": false,
+      "xref": 458,
+      "bbox": [
+        70.9,
+        225.7,
+        290.4,
+        481.4
+      ],
+      "question_anchor": "2.1",
+      "text_before": "α. Κεντροφορέας",
+      "text_after": "Μονάδες 15",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "27207": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch06_#27207_fig01.png",
+        "c_michanourgiki-texnologia_ch06_#27207_fig02.png",
+        "c_michanourgiki-texnologia_ch06_#27207_fig03.png",
+        "c_michanourgiki-texnologia_ch06_#27207_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch06_#27207_fig01.png",
+          "bank_code": "27207",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 381,
+          "height": 256,
+          "sha1": "8a99db0b0e66",
+          "bank_code_inherited": false,
+          "xref": 288,
+          "bbox": [
+            87.0,
+            185.9,
+            232.8,
+            283.7
+          ],
+          "question_anchor": "2.1",
+          "text_before": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch06_#27207_fig02.png",
+          "bank_code": "27207",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 345,
+          "height": 167,
+          "sha1": "83f30f6d9b9c",
+          "bank_code_inherited": false,
+          "xref": 289,
+          "bbox": [
+            87.0,
+            297.0,
+            242.9,
+            372.1
+          ],
+          "question_anchor": "2.1",
+          "text_before": "τεμαχίου",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch06_#27207_fig03.png",
+          "bank_code": "27207",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 217,
+          "height": 176,
+          "sha1": "d1a75c60b3a0",
+          "bank_code_inherited": false,
+          "xref": 290,
+          "bbox": [
+            93.2,
+            385.3,
+            249.1,
+            511.8
+          ],
+          "question_anchor": "2.1",
+          "text_before": "β. Περιφερειακή λείανση με κυκλική τράπεζα",
+          "text_after": "δ. Μετωπική λείανση με κάθετη άτρακτο και",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "c_michanourgiki-texnologia_ch06_#27207_fig04.png",
+          "bank_code": "27207",
+          "role": "fig",
+          "page": 8,
+          "kind": "embedded",
+          "width": 468,
+          "height": 323,
+          "sha1": "beb6c93b5b26",
+          "bank_code_inherited": false,
+          "xref": 291,
+          "bbox": [
+            87.0,
+            525.0,
+            242.9,
+            632.6
+          ],
+          "question_anchor": "2.1",
+          "text_before": "γ. Περιφερειακή λείανση με διαμήκη τράπεζα",
+          "text_after": "ε. Εσωτερική λείανση κυλινδρικού τεμαχίου",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "27619": {
+      "fig": [
+        "c_michanourgiki-texnologia_ch06_#27619_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "c_michanourgiki-texnologia_ch06_#27619_fig01.png",
+          "bank_code": "27619",
+          "role": "fig",
+          "page": 13,
+          "kind": "embedded",
+          "width": 475,
+          "height": 553,
+          "sha1": "2db42bb37149",
+          "bank_code_inherited": false,
+          "xref": 458,
+          "bbox": [
+            70.9,
+            225.7,
+            290.4,
+            481.4
+          ],
+          "question_anchor": "2.1",
+          "text_before": "α. Κεντροφορέας",
+          "text_after": "Μονάδες 15",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

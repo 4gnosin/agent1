@@ -1,0 +1,766 @@
+{
+  "source_pdf": "b_thermod_ch06.pdf",
+  "grade": "b",
+  "subject": "thermod",
+  "chapter": 6,
+  "stem": "b_thermod_ch06",
+  "total_pages": 35,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "b_thermod_ch06_#18710_sol01.png",
+      "bank_code": "18710",
+      "role": "sol",
+      "page": 9,
+      "kind": "embedded",
+      "width": 521,
+      "height": 380,
+      "sha1": "debc59bbfc51",
+      "bank_code_inherited": false,
+      "xref": 343,
+      "bbox": [
+        136.4,
+        254.8,
+        458.7,
+        489.9
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.2.",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#20976_sol01.png",
+      "bank_code": "20976",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 497,
+      "height": 421,
+      "sha1": "5845bf8fb024",
+      "bank_code_inherited": false,
+      "xref": 429,
+      "bbox": [
+        197.1,
+        137.9,
+        397.5,
+        307.7
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1. H ισόθερμη μεταβολή απεικονίζεται στο παρακάτω διάγραμμα P-V.",
+      "text_after": "4.2. Το έργο που προσφέρθηκε απεικονίζεται στο ακόλουθο διάγραμμα.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#20976_sol02.png",
+      "bank_code": "20976",
+      "role": "sol",
+      "page": 11,
+      "kind": "embedded",
+      "width": 495,
+      "height": 414,
+      "sha1": "07ea4374262b",
+      "bank_code_inherited": false,
+      "xref": 430,
+      "bbox": [
+        202.9,
+        358.3,
+        392.4,
+        516.9
+      ],
+      "question_anchor": "4.2",
+      "text_before": "4.2. Το έργο που προσφέρθηκε απεικονίζεται στο ακόλουθο διάγραμμα.",
+      "text_after": "4.3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#20986_sol01.png",
+      "bank_code": "20986",
+      "role": "sol",
+      "page": 14,
+      "kind": "embedded",
+      "width": 435,
+      "height": 386,
+      "sha1": "76a89a051f6c",
+      "bank_code_inherited": false,
+      "xref": 510,
+      "bbox": [
+        212.9,
+        180.8,
+        383.9,
+        345.2
+      ],
+      "question_anchor": "4.1",
+      "text_before": "(PA) προς κατάσταση με χαμηλότερη πίεση (PB).",
+      "text_after": "Σχήμα 1",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#20986_sol02.png",
+      "bank_code": "20986",
+      "role": "sol",
+      "page": 14,
+      "kind": "embedded",
+      "width": 468,
+      "height": 385,
+      "sha1": "f1a1629f9f79",
+      "bank_code_inherited": false,
+      "xref": 511,
+      "bbox": [
+        208.4,
+        440.0,
+        388.5,
+        604.4
+      ],
+      "question_anchor": "4.2",
+      "text_before": "περιοχή), είναι ίσο με το έργο WΑΒ που αποδόθηκε στο περιβάλλον.",
+      "text_after": "Σχήμα 2",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#20987_sol01.png",
+      "bank_code": "20987",
+      "role": "sol",
+      "page": 16,
+      "kind": "embedded",
+      "width": 578,
+      "height": 493,
+      "sha1": "177eb839ec89",
+      "bank_code_inherited": false,
+      "xref": 596,
+      "bbox": [
+        150.7,
+        214.9,
+        446.1,
+        466.8
+      ],
+      "question_anchor": null,
+      "text_before": "γίνεται από κατάσταση με χαμηλότερη πίεση προς κατάσταση με υψηλότερη πίεση.",
+      "text_after": "γ) Η αλλαγή είναι ισόθερμη και η εσωτερική ενέργεια παραμένει σταθερή. Συνεπώς η",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16235_sol01.png",
+      "bank_code": "16235",
+      "role": "sol",
+      "page": 18,
+      "kind": "embedded",
+      "width": 537,
+      "height": 313,
+      "sha1": "c89e73e8c5eb",
+      "bank_code_inherited": false,
+      "xref": 688,
+      "bbox": [
+        143.1,
+        342.6,
+        453.4,
+        535.5
+      ],
+      "question_anchor": null,
+      "text_before": "κατάσταση με χαμηλότερη πίεση προς κατάσταση με υψηλότερη πίεση.",
+      "text_after": "γ) Η αλλαγή είναι ισόχωρη, οπότε δεν υπάρχει έργο ογκομεταβολής. Το έργο είναι 0",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16256_fig01.png",
+      "bank_code": "16256",
+      "role": "fig",
+      "page": 19,
+      "kind": "embedded",
+      "width": 292,
+      "height": 229,
+      "sha1": "5dcd2dfc998f",
+      "bank_code_inherited": false,
+      "xref": 738,
+      "bbox": [
+        188.1,
+        99.4,
+        407.1,
+        271.2
+      ],
+      "question_anchor": "2.1",
+      "text_before": "2.1.  Στο παρακάτω διάγραμμα P-V (Πίεσης-Όγκου) απεικονίζεται η μεταβολή κατάστασης ενός α",
+      "text_after": "1) Τι είδους μεταβολή είναι η παραπάνω;",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16258_sol01.png",
+      "bank_code": "16258",
+      "role": "sol",
+      "page": 22,
+      "kind": "embedded",
+      "width": 347,
+      "height": 253,
+      "sha1": "7cecd2000060",
+      "bank_code_inherited": false,
+      "xref": 854,
+      "bbox": [
+        167.1,
+        387.2,
+        427.4,
+        576.9
+      ],
+      "question_anchor": "4.3",
+      "text_before": "4.3. Στο διάγραμμα P-V, η μεταβολή απεικονίζεται με ένα οριζόντιο ευθύγραμμο τμήμα  καθώς ",
+      "text_after": "",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#18627_sol01.png",
+      "bank_code": "18627",
+      "role": "sol",
+      "page": 26,
+      "kind": "embedded",
+      "width": 450,
+      "height": 359,
+      "sha1": "d45eeffbbb13",
+      "bank_code_inherited": false,
+      "xref": 1042,
+      "bbox": [
+        217.9,
+        136.8,
+        377.5,
+        264.0
+      ],
+      "question_anchor": "4.1",
+      "text_before": "4.1. H μεταβολή σε διάγραμμα P-V",
+      "text_after": "4.2. Το έργο ογκομεταβολής υπολογίζεται από την σχέση:",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16255_fig01.png",
+      "bank_code": "16255",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 379,
+      "height": 275,
+      "sha1": "18a945e7d114",
+      "bank_code_inherited": false,
+      "xref": 1083,
+      "bbox": [
+        109.0,
+        412.7,
+        312.8,
+        556.8
+      ],
+      "question_anchor": "2.2",
+      "text_before": "Στήλη Α  Στήλη Β",
+      "text_after": "1.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16255_fig02.png",
+      "bank_code": "16255",
+      "role": "fig",
+      "page": 27,
+      "kind": "embedded",
+      "width": 429,
+      "height": 387,
+      "sha1": "afa817d99c33",
+      "bank_code_inherited": false,
+      "xref": 1082,
+      "bbox": [
+        126.5,
+        590.0,
+        313.9,
+        757.4
+      ],
+      "question_anchor": "2.2",
+      "text_before": "1.",
+      "text_after": "2.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16255_fig03.png",
+      "bank_code": "16255",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 414,
+      "height": 415,
+      "sha1": "132e33b7db33",
+      "bank_code_inherited": true,
+      "xref": 1124,
+      "bbox": [
+        115.6,
+        93.4,
+        271.0,
+        263.4
+      ],
+      "question_anchor": null,
+      "text_before": "",
+      "text_after": "3.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#16255_fig04.png",
+      "bank_code": "16255",
+      "role": "fig",
+      "page": 28,
+      "kind": "embedded",
+      "width": 519,
+      "height": 320,
+      "sha1": "5bbe3dac5eeb",
+      "bank_code_inherited": true,
+      "xref": 1125,
+      "bbox": [
+        120.8,
+        296.4,
+        343.6,
+        433.7
+      ],
+      "question_anchor": null,
+      "text_before": "3.",
+      "text_after": "4.",
+      "is_full_page_scan": false
+    },
+    {
+      "file": "b_thermod_ch06_#17100_fig01.png",
+      "bank_code": "17100",
+      "role": "fig",
+      "page": 32,
+      "kind": "embedded",
+      "width": 950,
+      "height": 806,
+      "sha1": "32fe97078879",
+      "bank_code_inherited": false,
+      "xref": 1256,
+      "bbox": [
+        162.7,
+        378.5,
+        433.8,
+        608.5
+      ],
+      "question_anchor": "2.2",
+      "text_before": "της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+      "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "16235": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#16235_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#16235_sol01.png",
+          "bank_code": "16235",
+          "role": "sol",
+          "page": 18,
+          "kind": "embedded",
+          "width": 537,
+          "height": 313,
+          "sha1": "c89e73e8c5eb",
+          "bank_code_inherited": false,
+          "xref": 688,
+          "bbox": [
+            143.1,
+            342.6,
+            453.4,
+            535.5
+          ],
+          "question_anchor": null,
+          "text_before": "κατάσταση με χαμηλότερη πίεση προς κατάσταση με υψηλότερη πίεση.",
+          "text_after": "γ) Η αλλαγή είναι ισόχωρη, οπότε δεν υπάρχει έργο ογκομεταβολής. Το έργο είναι 0",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16255": {
+      "fig": [
+        "b_thermod_ch06_#16255_fig01.png",
+        "b_thermod_ch06_#16255_fig02.png",
+        "b_thermod_ch06_#16255_fig03.png",
+        "b_thermod_ch06_#16255_fig04.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#16255_fig01.png",
+          "bank_code": "16255",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 379,
+          "height": 275,
+          "sha1": "18a945e7d114",
+          "bank_code_inherited": false,
+          "xref": 1083,
+          "bbox": [
+            109.0,
+            412.7,
+            312.8,
+            556.8
+          ],
+          "question_anchor": "2.2",
+          "text_before": "Στήλη Α  Στήλη Β",
+          "text_after": "1.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch06_#16255_fig02.png",
+          "bank_code": "16255",
+          "role": "fig",
+          "page": 27,
+          "kind": "embedded",
+          "width": 429,
+          "height": 387,
+          "sha1": "afa817d99c33",
+          "bank_code_inherited": false,
+          "xref": 1082,
+          "bbox": [
+            126.5,
+            590.0,
+            313.9,
+            757.4
+          ],
+          "question_anchor": "2.2",
+          "text_before": "1.",
+          "text_after": "2.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch06_#16255_fig03.png",
+          "bank_code": "16255",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 414,
+          "height": 415,
+          "sha1": "132e33b7db33",
+          "bank_code_inherited": true,
+          "xref": 1124,
+          "bbox": [
+            115.6,
+            93.4,
+            271.0,
+            263.4
+          ],
+          "question_anchor": null,
+          "text_before": "",
+          "text_after": "3.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch06_#16255_fig04.png",
+          "bank_code": "16255",
+          "role": "fig",
+          "page": 28,
+          "kind": "embedded",
+          "width": 519,
+          "height": 320,
+          "sha1": "5bbe3dac5eeb",
+          "bank_code_inherited": true,
+          "xref": 1125,
+          "bbox": [
+            120.8,
+            296.4,
+            343.6,
+            433.7
+          ],
+          "question_anchor": null,
+          "text_before": "3.",
+          "text_after": "4.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16256": {
+      "fig": [
+        "b_thermod_ch06_#16256_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#16256_fig01.png",
+          "bank_code": "16256",
+          "role": "fig",
+          "page": 19,
+          "kind": "embedded",
+          "width": 292,
+          "height": 229,
+          "sha1": "5dcd2dfc998f",
+          "bank_code_inherited": false,
+          "xref": 738,
+          "bbox": [
+            188.1,
+            99.4,
+            407.1,
+            271.2
+          ],
+          "question_anchor": "2.1",
+          "text_before": "2.1.  Στο παρακάτω διάγραμμα P-V (Πίεσης-Όγκου) απεικονίζεται η μεταβολή κατάστασης ενός α",
+          "text_after": "1) Τι είδους μεταβολή είναι η παραπάνω;",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "16258": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#16258_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#16258_sol01.png",
+          "bank_code": "16258",
+          "role": "sol",
+          "page": 22,
+          "kind": "embedded",
+          "width": 347,
+          "height": 253,
+          "sha1": "7cecd2000060",
+          "bank_code_inherited": false,
+          "xref": 854,
+          "bbox": [
+            167.1,
+            387.2,
+            427.4,
+            576.9
+          ],
+          "question_anchor": "4.3",
+          "text_before": "4.3. Στο διάγραμμα P-V, η μεταβολή απεικονίζεται με ένα οριζόντιο ευθύγραμμο τμήμα  καθώς ",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "17100": {
+      "fig": [
+        "b_thermod_ch06_#17100_fig01.png"
+      ],
+      "sol": [],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#17100_fig01.png",
+          "bank_code": "17100",
+          "role": "fig",
+          "page": 32,
+          "kind": "embedded",
+          "width": 950,
+          "height": 806,
+          "sha1": "32fe97078879",
+          "bank_code_inherited": false,
+          "xref": 1256,
+          "bbox": [
+            162.7,
+            378.5,
+            433.8,
+            608.5
+          ],
+          "question_anchor": "2.2",
+          "text_before": "της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
+          "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18627": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#18627_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#18627_sol01.png",
+          "bank_code": "18627",
+          "role": "sol",
+          "page": 26,
+          "kind": "embedded",
+          "width": 450,
+          "height": 359,
+          "sha1": "d45eeffbbb13",
+          "bank_code_inherited": false,
+          "xref": 1042,
+          "bbox": [
+            217.9,
+            136.8,
+            377.5,
+            264.0
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1. H μεταβολή σε διάγραμμα P-V",
+          "text_after": "4.2. Το έργο ογκομεταβολής υπολογίζεται από την σχέση:",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "18710": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#18710_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#18710_sol01.png",
+          "bank_code": "18710",
+          "role": "sol",
+          "page": 9,
+          "kind": "embedded",
+          "width": 521,
+          "height": 380,
+          "sha1": "debc59bbfc51",
+          "bank_code_inherited": false,
+          "xref": 343,
+          "bbox": [
+            136.4,
+            254.8,
+            458.7,
+            489.9
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.2.",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20976": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#20976_sol01.png",
+        "b_thermod_ch06_#20976_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#20976_sol01.png",
+          "bank_code": "20976",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 497,
+          "height": 421,
+          "sha1": "5845bf8fb024",
+          "bank_code_inherited": false,
+          "xref": 429,
+          "bbox": [
+            197.1,
+            137.9,
+            397.5,
+            307.7
+          ],
+          "question_anchor": "4.1",
+          "text_before": "4.1. H ισόθερμη μεταβολή απεικονίζεται στο παρακάτω διάγραμμα P-V.",
+          "text_after": "4.2. Το έργο που προσφέρθηκε απεικονίζεται στο ακόλουθο διάγραμμα.",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch06_#20976_sol02.png",
+          "bank_code": "20976",
+          "role": "sol",
+          "page": 11,
+          "kind": "embedded",
+          "width": 495,
+          "height": 414,
+          "sha1": "07ea4374262b",
+          "bank_code_inherited": false,
+          "xref": 430,
+          "bbox": [
+            202.9,
+            358.3,
+            392.4,
+            516.9
+          ],
+          "question_anchor": "4.2",
+          "text_before": "4.2. Το έργο που προσφέρθηκε απεικονίζεται στο ακόλουθο διάγραμμα.",
+          "text_after": "4.3.",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20986": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#20986_sol01.png",
+        "b_thermod_ch06_#20986_sol02.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#20986_sol01.png",
+          "bank_code": "20986",
+          "role": "sol",
+          "page": 14,
+          "kind": "embedded",
+          "width": 435,
+          "height": 386,
+          "sha1": "76a89a051f6c",
+          "bank_code_inherited": false,
+          "xref": 510,
+          "bbox": [
+            212.9,
+            180.8,
+            383.9,
+            345.2
+          ],
+          "question_anchor": "4.1",
+          "text_before": "(PA) προς κατάσταση με χαμηλότερη πίεση (PB).",
+          "text_after": "Σχήμα 1",
+          "is_full_page_scan": false
+        },
+        {
+          "file": "b_thermod_ch06_#20986_sol02.png",
+          "bank_code": "20986",
+          "role": "sol",
+          "page": 14,
+          "kind": "embedded",
+          "width": 468,
+          "height": 385,
+          "sha1": "f1a1629f9f79",
+          "bank_code_inherited": false,
+          "xref": 511,
+          "bbox": [
+            208.4,
+            440.0,
+            388.5,
+            604.4
+          ],
+          "question_anchor": "4.2",
+          "text_before": "περιοχή), είναι ίσο με το έργο WΑΒ που αποδόθηκε στο περιβάλλον.",
+          "text_after": "Σχήμα 2",
+          "is_full_page_scan": false
+        }
+      ]
+    },
+    "20987": {
+      "fig": [],
+      "sol": [
+        "b_thermod_ch06_#20987_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "b_thermod_ch06_#20987_sol01.png",
+          "bank_code": "20987",
+          "role": "sol",
+          "page": 16,
+          "kind": "embedded",
+          "width": 578,
+          "height": 493,
+          "sha1": "177eb839ec89",
+          "bank_code_inherited": false,
+          "xref": 596,
+          "bbox": [
+            150.7,
+            214.9,
+            446.1,
+            466.8
+          ],
+          "question_anchor": null,
+          "text_before": "γίνεται από κατάσταση με χαμηλότερη πίεση προς κατάσταση με υψηλότερη πίεση.",
+          "text_after": "γ) Η αλλαγή είναι ισόθερμη και η εσωτερική ενέργεια παραμένει σταθερή. Συνεπώς η",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}

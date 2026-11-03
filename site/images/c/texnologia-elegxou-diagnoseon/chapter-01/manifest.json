@@ -1,0 +1,73 @@
+{
+  "source_pdf": "c_texnologia-elegxou-diagnoseon_ch01.pdf",
+  "grade": "c",
+  "subject": "texnologia-elegxou-diagnoseon",
+  "chapter": 1,
+  "stem": "c_texnologia-elegxou-diagnoseon_ch01",
+  "total_pages": 7,
+  "params": {
+    "min_size": 40,
+    "min_area": 4000,
+    "repeat_threshold": 4,
+    "render_empty_pages": false,
+    "dpi": 160,
+    "crop": true,
+    "vector_threshold": 12
+  },
+  "images": [
+    {
+      "file": "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png",
+      "bank_code": "24954",
+      "role": "sol",
+      "page": 7,
+      "kind": "embedded",
+      "width": 623,
+      "height": 633,
+      "sha1": "fc29a12c3771",
+      "bank_code_inherited": false,
+      "xref": 220,
+      "bbox": [
+        156.4,
+        224.7,
+        438.9,
+        511.8
+      ],
+      "question_anchor": null,
+      "text_before": "β)",
+      "text_after": "",
+      "is_full_page_scan": false
+    }
+  ],
+  "by_bank_code": {
+    "24954": {
+      "fig": [],
+      "sol": [
+        "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png"
+      ],
+      "images": [
+        {
+          "file": "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png",
+          "bank_code": "24954",
+          "role": "sol",
+          "page": 7,
+          "kind": "embedded",
+          "width": 623,
+          "height": 633,
+          "sha1": "fc29a12c3771",
+          "bank_code_inherited": false,
+          "xref": 220,
+          "bbox": [
+            156.4,
+            224.7,
+            438.9,
+            511.8
+          ],
+          "question_anchor": null,
+          "text_before": "β)",
+          "text_after": "",
+          "is_full_page_scan": false
+        }
+      ]
+    }
+  }
+}
