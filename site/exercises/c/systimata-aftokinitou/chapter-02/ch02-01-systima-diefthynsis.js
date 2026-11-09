@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα διεύθυνσης με διάταξη υδραυλικής υποβοήθησης και ηλεκτρικό κινητήρα. Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 της στήλης Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ από τη στήλη Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση στοιχείων συστήματος διεύθυνσης με υδραυλική υποβοήθηση",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#27704_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#27704_fig01.webp"
         ],
         "left": [
           {
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "c"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-στ, 3-δ, 4-ε, 5-γ. Περισσεύει το α.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#27704_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#27704_fig01.webp"
       },
       {
         "kind": "tf",
@@ -136,9 +136,9 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοίχιση γωνίας Κάστερ με τα σχήματα",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig03.png"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig03.webp"
         ],
         "left": [
           {
@@ -174,7 +174,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "b"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-γ, 2-α, 3-β.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32635_fig01.webp"
       },
       {
         "kind": "tf",

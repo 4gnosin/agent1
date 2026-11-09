@@ -50,7 +50,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "4.2",
         "subqPrompt": "β) Ο τύπος του καυστήρα με βάση το διάγραμμα 1.",
         "prompt": "Επιλέξτε τον τύπο του καυστήρα από το διάγραμμα 1 για κατανάλωση $w = 80\\text{ kg/h}$ και αντίθλιψη $5\\text{ mbar}$:",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -72,13 +72,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": "a",
         "explain": "Από το διάγραμμα 1, για κατανάλωση καυσίμου $w = 80\\text{ kg/h}$ και αντίθλιψη λέβητα $5\\text{ mbar}$, επιλέγουμε καυστήρα πετρελαίου τύπου **0E-5.2Ζ**.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.webp"
         ]
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.webp"
     ]
   },
   {
@@ -157,13 +157,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "unit": "kcal/h",
         "tolerance": 0.01,
         "hint": "Από το διάγραμμα, για αντίθλιψη 6 mbar και καυστήρα OE-5.1Z, η ελάχιστη παροχή είναι $w = 50\\text{ kg/h}$.",
-        "hintImage": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png",
+        "hintImage": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.webp",
         "explain": "Από το διάγραμμα, για αντίθλιψη $6\\text{ mbar}$ και καυστήρα OE–5.1Ζ, η ωριαία ποσότητα καυσίμου είναι στην περιοχή $50\\text{ kg/h} < w < 65\\text{ kg/h}$. Για τη χαμηλότερη παροχή $w = 50\\text{ kg/h}$: $Q_{\\Lambda} = w \\cdot H \\cdot \\eta = 50\\text{ kg/h} \\cdot 10.000\\text{ kcal/kg} \\cdot 0,8 = 400.000\\text{ kcal/h}$."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png",
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.webp"
     ]
   },
   {

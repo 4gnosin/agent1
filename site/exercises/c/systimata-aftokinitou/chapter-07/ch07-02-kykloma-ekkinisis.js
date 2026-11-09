@@ -18,7 +18,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "Στο παρακάτω σχήμα απεικονίζεται ένα σύστημα εκκίνησης αυτοκινήτου. Να αντιστοιχίσετε τους αριθμούς της Στήλης Α με τα γράμματα της Στήλης Β.",
-        "image": "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#27705_fig01.png",
+        "image": "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#27705_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -76,7 +76,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         },
         "explain": "Η αντιστοίχιση περιγράφει τα βασικά τμήματα του κυκλώματος εκκίνησης: 1-Συσσωρευτής, 2-Κινητήρας (μίζα), 3-Πινιόν, 4-Οδοντωτή στεφάνη βολάν, 5-Διακόπτης έναυσης (το 'ε' περισσεύει).",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#27705_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#27705_fig01.webp"
         ]
       },
       {

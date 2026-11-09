@@ -45,7 +45,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2. Με βάση τη σχηματική παράσταση που απεικονίζεται στο παρακάτω σχήμα, να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα αριθμημένα μέρη του σχήματος (Στήλη Α) με τις γωνίες του κοπτικού εργαλείου (Στήλη Β):",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27616_fig01.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27616_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -94,7 +94,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         },
         "explain": "Σύμφωνα με το σχήμα και τη γεωμετρία κοπτικών εργαλείων: 1 αντιστοιχεί στη γωνία ελευθερίας (β), 2 στη γωνία σφήνας (γ), 3 στη γωνία αποβλίττου (ε), και 4 στη γωνία κοπής (α).",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27616_fig01.png"
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27616_fig01.webp"
         ]
       }
     ]

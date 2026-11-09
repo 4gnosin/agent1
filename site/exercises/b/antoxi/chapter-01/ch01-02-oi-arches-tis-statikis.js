@@ -13,6 +13,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "units": 25,
     "theory": "ch01-02-oi-arxes-tis-statikis",
     "sourceOrder": 1,
+    "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#18898_fig01.webp",
     "stem": "Δύο δυνάμεις $F_1 = 20\\text{ N}$ και $F_2 = 30\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $\\varphi = 70^\\circ$, όπως φαίνεται στο παρακάτω σχήμα.\\n\\nΔίνεται: $\\eta\\mu 70^\\circ = 0,940$, $\\sigma\\upsilon\\nu 70^\\circ = 0,342$, $\\sqrt{1710,4} = 41,35$, $\\eta\\mu 27^\\circ = 0,454$.",
     "items": [
       {
@@ -24,8 +25,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "unit": "N",
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον νόμο των συνημιτόνων για τη σύνθεση δύο δυνάμεων με γωνία $\\varphi$.",
-        "explain": "Από τον τύπο της συνισταμένης: \\( \\Sigma = \\sqrt{20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot 0,342} = \\sqrt{400 + 900 + 410,4} = \\sqrt{1710,4} = 41,35\\text{ N} \\).",
-        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#18898_fig01.png"
+        "explain": "Από τον τύπο της συνισταμένης: \\( \\Sigma = \\sqrt{20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot 0,342} = \\sqrt{400 + 900 + 410,4} = \\sqrt{1710,4} = 41,35\\text{ N} \\)."
       },
       {
         "kind": "calc",
@@ -184,8 +184,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.02,
         "hint": "Χρησιμοποιήστε τον νόμο των συνητόνων για δύο τέμνες δυνάμεις.",
         "explain": "Από τον τύπο της συνισταμένης: $\\Sigma = \\sqrt{5^2 + 4^2 + 2 \\cdot 5 \\cdot 4 \\cdot \\frac{1}{2}} = \\sqrt{25 + 16 + 20} = \\sqrt{61} \\approx 7,81\\text{ N}$.",
-        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_fig01.png",
-        "hintImage": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.png"
+        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_fig01.webp",
+        "hintImage": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.webp"
       },
       {
         "kind": "calc",
@@ -200,7 +200,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.png"
+      "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.webp"
     ]
   }
 ]

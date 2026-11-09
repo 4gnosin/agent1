@@ -52,12 +52,12 @@ window.EXERCISES.push(...
           "3": "a"
         },
         "images": [
-          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig01.png",
-          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig02.png",
-          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig03.png"
+          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig01.webp",
+          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig02.webp",
+          "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig03.webp"
         ],
         "explain": "Σύμφωνα με τη θεωρία υδροδυναμικής, οι μορφές ενέργειας αντιστοιχούν σωστά.",
-        "image": "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig01.png"
+        "image": "images/b/thermod/chapter-16/b_thermod_ch16_#29453_fig01.webp"
       },
       {
         "kind": "blank",

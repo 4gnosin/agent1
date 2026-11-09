@@ -17,6 +17,12 @@ except ImportError:
     pass
 
 try:
+    import truststore
+    truststore.inject_into_ssl()
+except Exception:
+    pass
+
+try:
     from google import genai
     from google.genai import types
 except ImportError:
@@ -163,21 +169,31 @@ class ExerciseGenerator:
         )
 
     def load_system_prompt(self) -> str:
-        """Φορτώνει το εξειδικευμένο prompt παραγωγής ασκήσεων."""
+        """Φορτώνει το prompt παραγωγής ασκήσεων εμπλουτισμένο με τη μόνιμη μνήμη κανόνων."""
         if not self.prompt_file.exists():
             raise FileNotFoundError(f"Δεν βρέθηκε το αρχείο prompt: {self.prompt_file}")
-        return with_structure_rules(
+        base_prompt = with_structure_rules(
             self.prompt_file.read_text(encoding="utf-8"),
             self.prompts_dir,
         )
+        try:
+            from ..utils.agent_memory import get_agent_memory
+            memory_injection = get_agent_memory().get_prompt_injection("exercises")
+            return base_prompt + "\n\n" + memory_injection
+        except Exception:
+            return base_prompt
 
-    @staticmethod
     def clean_js_output(raw_text: str) -> str:
         """Καθαρίζει τυχόν markdown backticks."""
         text = raw_text.strip()
         if text.startswith("```"):
             text = re.sub(r"^```(?:javascript|js|json)?\s*", "", text, flags=re.IGNORECASE)
             text = re.sub(r"\s*```$", "", text)
+        try:
+            from ..generators.theory_generator import TheoryGenerator
+            text = TheoryGenerator.normalize_greek_trig(text)
+        except Exception:
+            pass
         return text.strip()
 
     def generate_groups(

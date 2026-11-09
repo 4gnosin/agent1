@@ -56,7 +56,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "d"
         },
         "explain": "Αντιστοίχιση μερών αξονικού εδράνου: 1 -> γ (Είσοδος λιπαντικού), 2 -> β (Στροφέας), 3 -> δ (Τριβέας).",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23982_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23982_fig01.webp"
       },
       {
         "kind": "tf",
@@ -174,12 +174,12 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "a"
         },
         "explain": "Σωστή αντιστοίχιση τύπων εδράνων κύλισης: 1 -> β, 2 -> γ, 3 -> δ, 4 -> α.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig01.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig02.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig03.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig04.png"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27793_fig04.webp"
         ]
       },
       {
@@ -333,7 +333,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "b"
         },
         "explain": "Αντιστοίχιση κωδικών ρουλεμάν: 1 -> γ, 2 -> α, 3 -> δ, 4 -> β.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28134_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28134_fig01.webp"
       },
       {
         "kind": "tf",
@@ -451,12 +451,12 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "c"
         },
         "explain": "Αντιστοίχιση τύπων εδράνων κύλισης: 1 -> β, 2 -> ε, 3 -> δ, 4 -> γ.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig01.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig02.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig03.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig04.png"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#28161_fig04.webp"
         ]
       },
       {

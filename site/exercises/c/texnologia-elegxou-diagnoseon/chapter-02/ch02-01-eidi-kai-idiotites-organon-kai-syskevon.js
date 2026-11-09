@@ -19,7 +19,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "4.1 Στο παρακάτω σχήμα φαίνεται ένα αναλογικό όργανο μέτρησης της πίεσης, που έχετε στο συνεργείο σας.",
         "prompt": "α. Να βρείτε την ευαισθησία του οργάνου αν η είσοδος μεταβάλλεται κατά $1{,}8\\text{ bar}$ και η απόκλιση της βελόνας είναι $18$ γραμμές.",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.webp",
         "formula": "$S = \\frac{\\Delta \\text{έξοδος}}{\\Delta \\text{είσοδος}}$",
         "answer": 10,
         "unit": "γραμμές/bar",
@@ -27,7 +27,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "hint": "Υπολογίστε το λόγο της μεταβολής της εξόδου (γραμμές) προς τη μεταβολή της εισόδου (bar).",
         "explain": "Ευαισθησία ($S$) του οργάνου λέγεται το πηλίκο της μεταβολής της εξόδου του οργάνου ως προς τη μεταβολή της εισόδου του: $S = \\frac{18\\text{ γραμμές}}{1{,}8\\text{ bar}} = 10\\text{ γραμμές/bar}$.",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#24500_fig01.webp"
         ]
       },
       {

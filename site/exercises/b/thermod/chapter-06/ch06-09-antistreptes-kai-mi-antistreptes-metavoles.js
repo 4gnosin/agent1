@@ -41,7 +41,7 @@ window.EXERCISES.push(...
         "subqPrompt": "Στο παρακάτω διάγραμμα (P – V) απεικονίζονται θερμοδυναμικές μεταβολές. Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τους αριθμούς των καμπυλών του διαγράμματος P-V με τα είδη των μεταβολών:",
         "images": [
-          "images/b/thermod/chapter-06/b_thermod_ch06_#17100_fig01.png"
+          "images/b/thermod/chapter-06/b_thermod_ch06_#17100_fig01.webp"
         ],
         "left": [
           {
@@ -86,7 +86,7 @@ window.EXERCISES.push(...
           "4": "c"
         },
         "explain": "Από το διάγραμμα P-V προκύπτει η αντιστοίχιση: 1-β (ισοβαρής), 2-δ (ισόθερμη), 3-α (αδιαβατική, με μεγαλύτερη κλίση), 4-c (ισόχωρη).",
-        "image": "images/b/thermod/chapter-06/b_thermod_ch06_#17100_fig01.png"
+        "image": "images/b/thermod/chapter-06/b_thermod_ch06_#17100_fig01.webp"
       }
     ]
   },

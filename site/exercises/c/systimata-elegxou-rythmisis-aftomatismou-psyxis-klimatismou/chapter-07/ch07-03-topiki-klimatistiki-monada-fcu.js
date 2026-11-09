@@ -19,7 +19,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "4.1",
         "subqPrompt": "4.1 Στο παρακάτω σχήμα φαίνεται ο απλούστερος δυνατός αυτοματισμός μιας τοπικής κλιματιστικής μονάδας νερού (FCU).",
         "prompt": "α. Με βάση τη σχηματική παράσταση που απεικονίζεται στο παραπάνω σχήμα, να αντιστοιχίσετε τα στοιχεία της Στήλης Α με τη λειτουργία τους στη Στήλη Β:",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.png",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -55,8 +55,8 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1 (3-SS) $\\rightarrow$ γ (Διακόπτης 3 ταχυτήτων ανεμιστήρα), 2 (A) $\\rightarrow$ α (Διακόπτης θέρους-χειμώνα), 3 (BT) $\\rightarrow$ β (Επαφή θερμοστάτη).",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.png",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.png"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.webp"
         ]
       },
       {
@@ -90,7 +90,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "openEnded": true,
         "subq": "4.2",
         "prompt": "4.2 Στο παρακάτω σχήμα διακρίνουμε επιπλέον όργανο σε σχέση με το παραπάνω. Ποια η λειτουργία του οργάνου και τι όφελος έχουμε;",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.png",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#23779_fig02.webp",
         "options": [
           {
             "id": "a",
@@ -131,7 +131,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση την εικόνα μιας τοπικής κλιματιστικής μονάδας νερού (FCU):",
         "prompt": "α) Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α με τα γράμματα α, β, γ, δ, ε, η της στήλης Β (ένα γράμμα περισσεύει):",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.png",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -189,7 +189,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         },
         "explain": "Σύμφωνα με το υπόμνημα της μονάδας FCU, η αντιστοίχιση είναι: 1 $\\rightarrow$ β, 2 $\\rightarrow$ δ, 3 $\\rightarrow$ η, 4 $\\rightarrow$ α, 5 $\\rightarrow$ γ.",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.png"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#36154_fig01.webp"
         ]
       },
       {

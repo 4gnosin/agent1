@@ -20,8 +20,8 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subqPrompt": "2.1 Να αντιστοιχίσετε τα σχήματα 1 και 2 της Στήλη Α με τις κατάλληλες προτάσεις της Στήλης Β:",
         "prompt": "Για το Σχήμα 1 (διαγράμματα συνδεσμολογίας), ποιες προτάσεις της Στήλης Β αντιστοιχούν;",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig02.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig02.webp"
         ],
         "options": [
           {
@@ -43,7 +43,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Το Σχήμα 1 απεικονίζει σύνδεση κυκλοφορητών σε σειρά (ε), όπου για κάθε παροχή το μανομετρικό ύψος της συστοιχίας είναι διπλάσιο από το αντίστοιχο του κάθε κυκλοφορητή (δ).",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.png"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#24649_fig01.webp"
       },
       {
         "kind": "mc",

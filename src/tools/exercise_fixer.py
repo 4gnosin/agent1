@@ -7,6 +7,7 @@ src/tools/exercise_fixer.py
 
 from __future__ import annotations
 
+import copy
 import json
 import os
 import re
@@ -23,6 +24,19 @@ if hasattr(sys.stderr, "reconfigure"):
 import fitz
 
 from src.validators.site_validator import SiteValidator
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    genai = None
+    types = None
 
 
 _CYRILLIC_HOMOGLYPHS = str.maketrans({
@@ -204,9 +218,12 @@ def locate_matching_pdf(grade: str, subject: str, chapter: int, bank_code: str, 
     iep_url = f"https://subjects.draw.iep.edu.gr/{bank_code}-1?unique_identifier={bank_code}&file_type=1"
     try:
         temp_pdf = done_dir / f"iep_{bank_code}.pdf"
-        urllib.request.urlretrieve(iep_url, temp_pdf)
-        if temp_pdf.exists() and temp_pdf.stat().st_size > 1000:
-            return temp_pdf
+        req = urllib.request.Request(iep_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            data = resp.read()
+            if len(data) > 1000:
+                temp_pdf.write_bytes(data)
+                return temp_pdf
     except Exception:
         pass
 
@@ -828,7 +845,158 @@ def verify_solution_pairs(ex: dict[str, Any], sol_pages: list[fitz.Page] | fitz.
     return fixes
 
 
-def run_exercise_fix(target_str: str, base_dir: Path | None = None) -> dict[str, Any]:
+def fix_exercise_with_gemini(
+    ex: dict[str, Any],
+    pdf_info: dict[str, Any] | None,
+    bank_code: str,
+    grade: str,
+    subject: str,
+    chapter: int,
+    user_hint: str = "",
+) -> tuple[dict[str, Any], list[str]]:
+    """
+    Πολυτροπική διόρθωση της άσκησης μέσω Gemini AI (Vision & Reasoning),
+    συγκρίνοντας το τρέχον JSON απευθείας με τις σελίδες του πρωτότυπου PDF του ΙΕΠ.
+    """
+    if genai is None or types is None:
+        return ex, ["⚠️ Η βιβλιοθήκη 'google-genai' δεν είναι εγκατεστημένη."]
+
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return ex, ["⚠️ Δεν βρέθηκε GEMINI_API_KEY στο .env. Παράλειψη AI ελέγχου."]
+
+    try:
+        client = genai.Client(
+            api_key=api_key,
+            http_options=types.HttpOptions(client_args={"verify": False}) if types else None,
+        )
+    except Exception as e:
+        return ex, [f"⚠️ Αποτυχία αρχικοποίησης Gemini Client: {e}"]
+
+    # 1. Συλλογή εικόνων σελίδων PDF (Εκφώνηση & Λύση)
+    multimodal_parts: list[Any] = []
+    if pdf_info:
+        q_pages = pdf_info.get("question_pages") or []
+        s_pages = pdf_info.get("solution_pages") or []
+        for idx, p in enumerate(q_pages):
+            try:
+                pix = p.get_pixmap(dpi=150)
+                multimodal_parts.append(types.Part.from_bytes(data=pix.tobytes("png"), mime_type="image/png"))
+            except Exception as e:
+                print(f"⚠️ Σφάλμα απόδοσης σελίδας εκφώνησης #{idx+1} σε εικόνα: {e}")
+        for idx, p in enumerate(s_pages):
+            try:
+                pix = p.get_pixmap(dpi=150)
+                multimodal_parts.append(types.Part.from_bytes(data=pix.tobytes("png"), mime_type="image/png"))
+            except Exception as e:
+                print(f"⚠️ Σφάλμα απόδοσης σελίδας λύσης #{idx+1} σε εικόνα: {e}")
+
+    # 2. Σύνταξη prompt
+    system_instruction = (
+        "Είσαι ο εξειδικευμένος Exercise Fixer & ΕΠΑ.Λ. Mechanical Pedagogue του 4gnosin.github.io. "
+        "Αποστολή σου είναι η άμεση, τέλεια και ποιοτική διόρθωση ασκήσεων Τράπεζας Θεμάτων "
+        "συγκρίνοντας το τρέχον JSON της άσκησης με τις σελίδες του πρωτότυπου εγγράφου του Ι.Ε.Π. (Ground Truth). "
+        "Εξαλείφεις γελοίους/άσχετους αντιπερισπασμούς, καθαρίζεις σκουπίδια OCR/HTML (π.χ. [br1], <br2>, br1), "
+        "διορθώνεις το LaTeX/Unicode, εξασφαλίζεις ότι τα IDs επιλογών είναι 'a', 'b', 'c', 'd' "
+        "και διατηρείς απόλυτη συνέπεια με τη δομή του 4gnosin."
+    )
+
+    user_prompt = (
+        f"ΕΞΕΤΑΣΗ ΚΑΙ ΔΙΟΡΘΩΣΗ ΑΣΚΗΣΗΣ #{bank_code} ({grade.upper()}' ΕΠΑ.Λ. - {subject}, Κεφάλαιο {chapter})\n\n"
+        f"Σου παρατίθενται οι σελίδες της επίσημης εκφώνησης και της ενδεικτικής λύσης του Ι.Ε.Π. (στις συνημμένες εικόνες).\n"
+    )
+    if user_hint:
+        user_prompt += f"\n👉 ΕΙΔΙΚΗ ΠΑΡΑΤΗΡΗΣΗ ΧΡΗΣΤΗ ΓΙΑ ΤΟ ΣΦΑΛΜΑ:\n\"{user_hint}\"\nΔώσε ΑΠΟΛΥΤΗ ΠΡΟΤΕΡΑΙΟΤΗΤΑ στην επίλυση αυτής της παρατήρησης!\n\n"
+
+    user_prompt += (
+        f"ΤΡΕΧΟΝ JSON ΑΣΚΗΣΗΣ ΣΤΟ SITE (ΠΡΟΣ ΕΛΕΓΧΟ ΚΑΙ ΔΙΟΡΘΩΣΗ):\n"
+        f"{json.dumps(ex, ensure_ascii=False, indent=2)}\n\n"
+        f"ΚΑΝΟΝΕΣ ΠΟΙΟΤΗΤΑΣ & ΠΡΟΔΙΑΓΡΑΦΕΣ:\n"
+        f"1. ΑΝΤΙΠΕΡΙΣΠΑΣΜΟΙ (DISTRACTORS):\n"
+        f"   - Σε ερωτήματα πολλαπλής επιλογής ('mc'), ΟΛΕΣ οι λανθασμένες επιλογές ΠΡΕΠΕΙ να είναι επιστημονικά αληθοφανείς έννοιες του μαθήματος (π.χ. άλλες σχετικές φυσικές/τεχνικές μεταβλητές ή συνηθισμένα μαθητικά λάθη).\n"
+        f"   - ΑΠΑΓΟΡΕΥΟΝΤΑΙ ΑΥΣΤΗΡΑ γελοίοι, εξωπραγματικοί ή προφανείς αντιπερισπασμοί (π.χ. 'χρώμα του σώματος', 'μάζα της γης', 'θερμοκρασία στον ήλιο').\n"
+        f"   - Τα IDs των επιλογών στα 'options' ΠΡΕΠΕΙ να είναι strictly 'a', 'b', 'c', 'd' (ΠΟΤΕ 'correct', 'wrong1', 'wrong2').\n"
+        f"   - Το πεδίο 'answer' ΠΡΕΠΕΙ να περιέχει το id της σωστής επιλογής (π.χ. 'a').\n"
+        f"2. ΚΑΘΑΡΙΣΜΟΣ ΚΕΙΜΕΝΟΥ & ΣΚΟΥΠΙΔΙΩΝ:\n"
+        f"   - Εξάλειψε τυχόν υπολείμματα OCR ή HTML: [br1], [br2], <br1>, <br2>, br1, br2, άσχετα tokens.\n"
+        f"   - Μην αφήνεις γυμνά LaTeX commands (\\text{{}}, \\circ) σε πεζό κείμενο. Χρησιμοποίησε καθαρό Unicode (π.χ. °C, W/(m²·K), m³/kg) ή περίκλεισε αυστηρά σε $ ... $.\n"
+        f"3. ΔΙΑΤΑΞΗ & ΣΧΗΜΑΤΑ:\n"
+        f"   - Επαλήθευσε ότι όλα τα σχήματα του θέματος περιλαμβάνονται και έχουν σωστά paths.\n"
+        f"   - Αν το θέμα έχει διαδοχικά υποερωτήματα με ζεύγη σχημάτων δίπλα-δίπλα, διατήρησε τα ως διαδοχικά items με imageLayout: 'grid'.\n"
+        f"4. ΠΙΣΤΟΤΗΤΑ ΣΤΗ ΛΥΣΗ ΤΟΥ Ι.Ε.Π.:\n"
+        f"   - Βεβαιώσου ότι η σωστή απάντηση ('answer') και η εξήγηση ('explain' / 'solution') συμφωνούν απόλυτα με την ενδεικτική λύση του Ι.Ε.Π.\n"
+        f"   - Διατήρησε αναλλοίωτα τα metadata: id, group, bankCode, code, title, units, theory, sourceOrder.\n\n"
+        f"ΕΠΕΣΤΡΕΨΕ ΑΠΟΚΛΕΙΣΤΙΚΑ ΕΓΚΥΡΟ JSON (χωρίς ```json backticks ή συνοδευτικά σχόλια) με τη μορφή:\n"
+        f"{{\n"
+        f"  \"fixes_summary\": [\n"
+        f"    \"Περιγραφή διόρθωσης 1...\",\n"
+        f"    \"Περιγραφή διόρθωσης 2...\"\n"
+        f"  ],\n"
+        f"  \"exercise\": {{ ... το πλήρες διορθωμένο αντικείμενο της άσκησης ... }}\n"
+        f"}}"
+    )
+
+    multimodal_parts.append(user_prompt)
+
+    # 3. Εκτέλεση με Candidate Fallback Models
+    candidate_models = ["gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.8-flash"]
+    raw_text = None
+    last_err = None
+
+    for model_name in candidate_models:
+        try:
+            print(f"   🤖 Κλήση AI μοντέλου {model_name}...")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=multimodal_parts,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instruction,
+                    response_mime_type="application/json",
+                    temperature=0.1,
+                ),
+            )
+            if response and response.text:
+                raw_text = response.text
+                break
+        except Exception as e:
+            print(f"   ⚠️ Προσωρινό σφάλμα με {model_name}: {e}. Δοκιμή εναλλακτικού...")
+            last_err = e
+
+    if not raw_text:
+        return None, [f"⚠️ Αποτυχία AI διόρθωσης με όλα τα διαθέσιμα μοντέλα: {last_err}"]
+
+    # 4. Parsing JSON
+    cleaned_json_str = raw_text.strip()
+    if cleaned_json_str.startswith("```"):
+        cleaned_json_str = re.sub(r"^```(?:json)?\s*", "", cleaned_json_str, flags=re.IGNORECASE)
+        cleaned_json_str = re.sub(r"\s*```$", "", cleaned_json_str)
+
+    try:
+        parsed = json.loads(cleaned_json_str)
+    except Exception as e:
+        match = re.search(r"(\{.*\})", cleaned_json_str, re.DOTALL)
+        if match:
+            try:
+                parsed = json.loads(match.group(1))
+            except Exception:
+                return None, [f"⚠️ Σφάλμα αποκωδικοποίησης JSON από την απάντηση του AI: {e}"]
+        else:
+            return None, [f"⚠️ Μη έγκυρο JSON από το AI: {e}"]
+
+    fixed_ex = parsed.get("exercise")
+    fixes = parsed.get("fixes_summary", [])
+
+    if not fixed_ex or not isinstance(fixed_ex, dict) or "items" not in fixed_ex:
+        return None, ["⚠️ Το AI δεν επέστρεψε έγκυρη δομή άσκησης ('exercise' key). Διατήρηση αρχικής."]
+
+    return fixed_ex, fixes
+
+
+def run_exercise_fix(
+    target_str: str,
+    base_dir: Path | None = None,
+    user_hint: str = "",
+) -> dict[str, Any]:
     """
     Κεντρική εκτέλεση της στοχευμένης διόρθωσης για ένα θέμα.
     """
@@ -902,6 +1070,25 @@ def run_exercise_fix(target_str: str, base_dir: Path | None = None) -> dict[str,
         # 5. Έλεγχος pairs βάσει λύσης PDF
         pair_fixes = verify_solution_pairs(ex, sol_pages)
         all_fixes.extend(pair_fixes)
+
+    # 5b. Πολυτροπικός Έλεγχος & Διόρθωση μέσω Gemini Multimodal AI
+    print("🤖 [AI Multimodal Fixer]: Σύγκριση τρέχουσας άσκησης με τις σελίδες του PDF...")
+    fixed_ai_ex, ai_fixes = fix_exercise_with_gemini(
+        ex=copy.deepcopy(ex),
+        pdf_info=pdf_pages if pdf_path else None,
+        bank_code=bank_code,
+        grade=grade,
+        subject=subject,
+        chapter=chapter,
+        user_hint=user_hint,
+    )
+    if fixed_ai_ex and isinstance(fixed_ai_ex, dict) and fixed_ai_ex is not ex:
+        ex.clear()
+        ex.update(fixed_ai_ex)
+    if ai_fixes:
+        all_fixes.extend(ai_fixes)
+
+    if pdf_path and pdf_pages and "doc" in pdf_pages:
         try:
             pdf_pages["doc"].close()
         except Exception:
@@ -1049,9 +1236,15 @@ def interactive_cli():
             break
 
         target = user_input.strip("'\"")
+
+        try:
+            user_hint = input("💬 Παρατήρηση/υπόδειξη [προαιρετικά - Enter για αυτόματη ανάλυση]: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            user_hint = ""
+
         print("\n⏳ Έναρξη στοχευμένης διόρθωσης...")
         try:
-            run_exercise_fix(target)
+            run_exercise_fix(target, user_hint=user_hint)
         except Exception as e:
             print(f"❌ Σφάλμα κατά τη διόρθωση: {e}")
 
@@ -1061,8 +1254,9 @@ def interactive_cli():
 
 def main():
     if len(sys.argv) > 1:
-        target = " ".join(sys.argv[1:]).strip().strip("'\"")
-        res = run_exercise_fix(target)
+        target = sys.argv[1].strip().strip("'\"")
+        user_hint = " ".join(sys.argv[2:]).strip() if len(sys.argv) > 2 else ""
+        res = run_exercise_fix(target, user_hint=user_hint)
         sys.exit(0 if res.get("success") else 1)
     else:
         interactive_cli()

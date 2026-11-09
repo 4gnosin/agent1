@@ -110,10 +110,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "c"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.webp"
         ],
         "explain": "1 - ε (Συμπυκνωτής), 2 - α (Συμπιεστής), 3 - δ (Εκτονωτικό μέσο), 4 - γ (Ψυκτικό στοιχείο).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.webp"
       }
     ]
   },

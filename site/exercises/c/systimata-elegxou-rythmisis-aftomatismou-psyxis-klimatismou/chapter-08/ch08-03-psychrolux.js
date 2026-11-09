@@ -56,7 +56,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "3": "b"
         },
         "explain": "Αντιστοίχιση: 1-α (Διαχωριστής σταγόνων ψυκτικού ρευστού), 2-δ (Ρυθμιστής πίεσης εξόδου εξατμιστή), 3-β (Ελεγκτής πολύ υψηλής θερμοκρασίας). Περισσεύει το γ.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36568_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36568_fig01.webp"
       },
       {
         "kind": "tf",

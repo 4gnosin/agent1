@@ -112,7 +112,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch02-07-piesi",
     "sourceOrder": 2,
     "stem": "Στο σχήμα 1, το δοχείο Α έχει αέριο με απόλυτη πίεση $P_{\text{Aαπ}} = 5\\text{ bar}$, ενώ στο δοχείο Β, το οποίο περιέχει το δοχείο Α, υπάρχει αέριο με μανομετρική πίεση $P_{\text{Bμαν}} = 2,5\\text{ bar}$. Ο ατμοσφαιρικός αέρας που περιβάλλει το δοχείο Β έχει πίεση $P_{\text{ατμ}} = 1\\text{ bar}$.",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23766_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23766_fig01.webp",
     "items": [
       {
         "kind": "calc",
@@ -161,7 +161,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε την αναλογία $1\\text{ kPa} = 7,5\\text{ mmHg}$.",
         "explain": "Σύμφωνα με την υπόδειξη $1\\text{ kPa} = 7,5\\text{ mmHg}$, άρα τα $150\\text{ mmHg}$ είναι: $\\frac{150}{7,5} = 20\\text{ kPa}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23782_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23782_fig01.webp"
       },
       {
         "kind": "calc",

@@ -144,9 +144,9 @@ window.EXERCISES.push(...
     "theory": "ch16-04",
     "sourceOrder": 4,
     "images": [
-      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.png",
-      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig02.png",
-      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig03.png"
+      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.webp",
+      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig02.webp",
+      "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig03.webp"
     ],
     "items": [
       {
@@ -187,11 +187,11 @@ window.EXERCISES.push(...
           "3": "b"
         },
         "explain": "Το σχήμα 1 αντιστοιχεί σε ομοιόμορφη μόνιμη ροή, το σχήμα 2 σε ανομοιόμορφη μόνιμη ροή και το σχήμα 3 σε μη μόνιμη ροή.",
-        "image": "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.png",
+        "image": "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.webp",
         "images": [
-          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.png",
-          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig02.png",
-          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig03.png"
+          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig01.webp",
+          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig02.webp",
+          "images/b/thermod/chapter-16/b_thermod_ch16_#27121_fig03.webp"
         ]
       },
       {

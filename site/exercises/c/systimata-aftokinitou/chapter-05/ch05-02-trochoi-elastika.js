@@ -152,10 +152,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33520_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33520_fig01.webp"
         ],
         "explain": "1-β (Ζάντα), 2-ε (Δίσκος), 3-γ (Οπή περικοχλίου), 4-α (Οπή πλήμνης). Το δ περισσεύει.",
-        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33520_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33520_fig01.webp"
       },
       {
         "kind": "mc",
@@ -355,10 +355,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "b"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33522_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33522_fig01.webp"
         ],
         "explain": "1-α (Σειρά 80 με ψηλότερο προφίλ), 2-c (Σειρά 70 με ενδιάμεσο προφίλ), 3-β (Σειρά 60 με χαμηλό προφίλ).",
-        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33522_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33522_fig01.webp"
       }
     ]
   },
@@ -416,12 +416,12 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig03.png"
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig03.webp"
         ],
         "explain": "1-γ (Λοξά/διαγώνια πλέγματα), 2-β (Λοξά πλέγματα με ζώνη), 3-α (Ακτινωτά πλέγματα Radial). Το δ περισσεύει.",
-        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33523_fig01.webp"
       },
       {
         "kind": "mc",
@@ -496,11 +496,11 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "2": "b"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig02.png"
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig02.webp"
         ],
         "explain": "1-γ (Δυναμική ζυγοστάθμιση), 2-β (Στατική ζυγοστάθμιση). Το α περισσεύει.",
-        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-05/c_systimata-aftokinitou_ch05_#33524_fig01.webp"
       },
       {
         "kind": "tf",

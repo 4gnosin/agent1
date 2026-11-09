@@ -66,13 +66,13 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "4": "c"
         },
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig02.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig03.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig04.png"
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig03.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig04.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση βάσει των σχημάτων είναι: 1 -> β, 2 -> α, 3 -> δ, 4 -> γ.",
-        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27537_fig01.webp"
       },
       {
         "kind": "mc",

@@ -65,10 +65,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "3": "ε",
           "4": "γ"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.png",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.webp",
         "explain": "Σύμφωνα με τη σχηματική παράσταση της κυλινδροκεφαλής: 1→δ, 2→β, 3→ε, 4→γ.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24364_fig01.webp"
         ]
       },
       {

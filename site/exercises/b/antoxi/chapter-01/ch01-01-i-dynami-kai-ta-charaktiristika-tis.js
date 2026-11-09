@@ -49,8 +49,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subqPrompt": "Στα παρακάτω ζευγάρια δοκών, οι δυνάμεις F που ασκούνται διαφέρουν κατά ένα τουλάχιστον χαρακτηριστικό. Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το γράμμα που αντιστοιχεί στη σωστή απάντηση.",
         "prompt": "1.",
         "images": [
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig01.png",
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig02.png"
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig01.webp",
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig02.webp"
         ],
         "imageLayout": "grid",
         "options": [
@@ -75,8 +75,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "2.2",
         "prompt": "2.",
         "images": [
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig03.png",
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig04.png"
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig03.webp",
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig04.webp"
         ],
         "imageLayout": "grid",
         "options": [
@@ -101,8 +101,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "2.2",
         "prompt": "3.",
         "images": [
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig05.png",
-          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig06.png"
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig05.webp",
+          "images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig06.webp"
         ],
         "imageLayout": "grid",
         "options": [
@@ -140,7 +140,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "Στο παρακάτω σχήμα απεικονίζεται η δύναμη με τα χαρακτηριστικά της. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α με τα γράμματα α, β, γ, δ, ε της στήλης Β.",
-        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#18826_fig01.png",
+        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#18826_fig01.webp",
         "left": [
           {
             "id": "1",

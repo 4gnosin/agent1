@@ -20,7 +20,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται η θέση της αντλίας τροφοδοσίας στο κύκλωμα έγχυσης του καυσίμου σε πετρελαιοκινητήρα. Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα μέρη του κυκλώματος έγχυσης καυσίμου:",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.webp"
         ],
         "left": [
           {
@@ -74,7 +74,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "b"
         },
         "explain": "Σύμφωνα με το διάγραμμα κυκλώματος τροφοδοσίας: 1 είναι η δεξαμενή καυσίμου (δ), 2 η αντλία τροφοδοσίας (α), 3 το βασικό φίλτρο (ε), 4 η αντλία έγχυσης (γ) και 5 ο εγχυτήρας (β).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.webp"
       },
       {
         "kind": "tf",

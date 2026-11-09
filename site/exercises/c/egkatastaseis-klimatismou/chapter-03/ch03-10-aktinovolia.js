@@ -56,7 +56,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "2": "a, γ, ε"
         },
         "explain": "Η ακτινοβολία και ο φωτισμός αποδίδουν μόνο αισθητό φορτίο, ενώ οι άνθρωποι, ο νωπός αέρας και οι συσκευές συνήθως αποδίδουν αισθητό και λανθάνον φορτίο.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#23893_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#23893_fig01.webp"
       },
       {
         "subq": "2.2",
@@ -244,7 +244,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Υπολογίστε τη διαφορά θερμοκρασίας $\\Delta t = 38 - 24 = 14\\text{ }^\\circ\\text{C}$ και βρείτε την τιμή από τον πίνακα.",
         "explain": "$\\Delta t = 38 - 24 = 14\\text{ }^\\circ\\text{C}$. Από τον πίνακα 1 για νότιο προσανατολισμό και $\\Delta t = 14\\text{ }^\\circ\\text{C}$, $q_g = 154\\text{ W}/\\text{m}^2$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_fig01.webp"
       },
       {
         "subq": "4.2",
@@ -267,12 +267,12 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Πολλαπλασιάστε το προηγούμενο φορτίο με τον συντελεστή μείωσης για απορροφητικούς υαλοπίνακες ($0,65$).",
         "explain": "Από τον πίνακα 2 ο συντελεστής μείωσης για απορροφητικούς υαλοπίνακες είναι $0,65$. Άρα $q_{s2} = 0,65 \\cdot 1540\\text{ W} = 1001\\text{ W}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_fig02.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_fig02.webp"
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_sol01.png",
-      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_sol02.png"
+      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_sol01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#29449_sol02.webp"
     ]
   }
 ]

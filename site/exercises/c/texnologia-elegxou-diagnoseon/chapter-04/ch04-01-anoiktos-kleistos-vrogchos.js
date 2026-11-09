@@ -19,7 +19,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "openEnded": true,
         "subq": "4.1",
         "prompt": "4.1. Να χαρακτηρίσετε το παρακάτω σχηματικό διάγραμμα συμβατικού αυτοκινήτου ως «ανοικτού βρόγχου» ή «κλειστού βρόγχου» και να αιτιολογήσετε την απάντησή σας.",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -41,7 +41,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "answer": "a",
         "explain": "Σ’ ένα συμβατικό αυτοκίνητο, από τη στιγμή που το καύσιμο αναμειγνύεται στον εξαερωτήρα (καρμπιρατέρ) με τον αέρα, ακολουθεί μια πορεία-διαδικασία προς την εξάτμιση χωρίς καμία δυνατότητα ρύθμισης ή διόρθωσης. Αυτό είναι ένα σύστημα ρύθμισης «ανοικτού βρόγχου».",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_fig01.webp"
         ]
       },
       {
@@ -49,7 +49,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "4.2",
         "subqPrompt": "4.2. Μετατροπή και λειτουργία σχηματικού διαγράμματος κλειστού βρόγχου:",
         "prompt": "α. Να μετατρέψετε το παραπάνω σχηματικό διάγραμμα σε σχηματικό διάγραμμα κλειστού βρόχου σύγχρονης τεχνολογίας αυτοκινήτου.",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.webp",
         "explain": "Στο σχηματικό διάγραμμα κλειστού βρόχου προστίθεται ο αισθητήρας οξυγόνου (λάμδα) στην πολλαπλή εξαγωγής, ο οποίος μετράει το οξυγόνο στα καυσαέρια και ενημερώνει την Ηλεκτρονική Μονάδα Επεξεργασίας (Η.Μ.Ε. / εγκέφαλο). Η Η.Μ.Ε. στη συνέχεια ελέγχει και διορθώνει το χρόνο ψεκασμού των μπεκ."
       },
       {
@@ -80,7 +80,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.png"
+      "images/c/texnologia-elegxou-diagnoseon/chapter-04/c_texnologia-elegxou-diagnoseon_ch04_#34106_sol01.webp"
     ]
   }
 ]

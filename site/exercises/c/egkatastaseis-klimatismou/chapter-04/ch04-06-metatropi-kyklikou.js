@@ -36,11 +36,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Αναζητήστε στη στήλη των $750\\text{ mm}$ του πίνακα την πλησιέστερη διάμετρο προς τα $1000\\text{ mm}$ ($988\\text{ mm}$) και βρείτε τη αντίστοιχη μεγάλη πλευρά.",
         "explain": "Η πλησιέστερη τιμή στη στήλη των $750\\text{ mm}$ είναι τα $988\\text{ mm}$ που αντιστοιχούν σε μεγάλη πλευρά $1100\\text{ mm}$. Άρα διαστάσεις $750 \\times 1100\\text{ mm}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26875_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26875_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26875_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26875_sol01.webp"
     ]
   }
 ]

@@ -18,7 +18,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "kind": "mc",
         "subq": "α",
         "openEnded": true,
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.webp",
         "prompt": "α) Πρόκειται για ψηφιακό ή αναλογικό σήμα; Να αιτιολογήσετε την απάντησή σας.",
         "options": [
           {
@@ -41,7 +41,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "answer": "a",
         "explain": "Το σήμα είναι αναλογικό επειδή μεταβάλλεται συνεχόμενα ως προς το χρόνο.",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_fig01.webp"
         ]
       },
       {
@@ -100,7 +100,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_sol01.png"
+      "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#34239_sol01.webp"
     ]
   }
 ]

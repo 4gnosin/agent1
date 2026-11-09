@@ -19,7 +19,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "Με βάση τον ψυκτικό κύκλο που απεικονίζεται στο παρακάτω σχήμα, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοίχιση σημείων ψυκτικού κύκλου:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "Η σωστή αντιστοίχιση προκύπτει από τα χαρακτηριστικά σημεία του ψυκτικού κύκλου: 1-α, 2-β, 3-ε, 4-γ, 5-δ.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23744_fig01.webp"
         ]
       },
       {
@@ -264,7 +264,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "atmopoiisi",
     "sourceOrder": 5,
     "stem": "Στο παρακάτω διάγραμμα παριστάνεται η θερμοκρασία του νερού μάζας $1\\text{ kg}$ ως συνάρτηση της προσδιδόμενης θερμότητας από τους $0\\text{ }^\\circ\\text{C}$ έως τους $300\\text{ }^\\circ\\text{C}$. Στο διάγραμμα διακρίνονται οι περιοχές Α-Β (νερό), Β-Γ (νερό και ατμός) και Γ-Δ (ατμός).",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23774_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23774_fig01.webp",
     "items": [
       {
         "kind": "match",
@@ -358,7 +358,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "atmopoiisi",
     "sourceOrder": 6,
     "stem": "Ψυκτική εγκατάσταση λειτουργεί με ψυκτικό μέσο R22. Δίδεται ότι $1\\text{ kg/cm}^2 \\approx 0,97\\text{ atm}$ και σχετικός πίνακας θερμοδυναμικών χαρακτηριστικών.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#26774_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#26774_fig01.webp",
     "items": [
       {
         "kind": "calc",

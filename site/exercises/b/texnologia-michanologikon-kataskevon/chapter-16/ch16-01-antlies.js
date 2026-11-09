@@ -88,7 +88,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το σχήμα 1 όπου απεικονίζονται τα μέρη μιας παλινδρομικής αντλίας, να αντιστοιχίσετε τα στοιχεία της Στήλης Α με τη Στήλη Β:",
         "prompt": "Αντιστοίχιση εξαρτημάτων παλινδρομικής αντλίας (Σχήμα 1):",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-16/b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-16/b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -146,7 +146,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 – δ (Κύλινδρος), 2 – β (Έμβολο), 3 – ζ (Σωλήνας κατάθλιψης), 4 – γ (Βαλβίδα κατάθλιψης), 5 – α (Βαλβίδα αναρρόφησης).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-16/b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-16/b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.webp"
         ]
       },
       {

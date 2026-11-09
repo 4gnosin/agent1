@@ -52,7 +52,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "3": "a"
         },
         "explain": "Στην επιφάνεια θραύσης λόγω κόπωσης: 1 αντιστοιχεί στην έναρξη της ρωγμής (β), 2 στην επιφάνεια διάδοσης της ρωγμής (γ) και 3 στην επιφάνεια τελικής θραύσης (α).",
-        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#25642_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#25642_fig01.webp"
       },
       {
         "kind": "blank",

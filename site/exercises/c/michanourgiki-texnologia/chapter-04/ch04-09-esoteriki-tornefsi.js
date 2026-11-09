@@ -13,7 +13,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "units": 25,
     "theory": "ch04-09-esoteriki-tornefsi",
     "sourceOrder": 1,
-    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29154_fig01.png",
+    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29154_fig01.webp",
     "stem": "Είστε χειριστής τόρνου στο μηχανουργείο και θέλετε να κάνετε εσωτερική τόρνευση σε ένα τεμάχιο. (Σχήμα 1).",
     "items": [
       {

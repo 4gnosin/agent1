@@ -58,7 +58,11 @@ class SiteValidator:
                         try:
                             parsed = json.loads(fixed.strip())
                         except json.JSONDecodeError:
-                            parsed = None
+                            fixed_safe = re.sub(r'(?<!\\)\\(?!["\\/bfnrt]|u[0-9a-fA-F]{4})', r'\\\\', fixed)
+                            try:
+                                parsed = json.loads(fixed_safe)
+                            except json.JSONDecodeError:
+                                parsed = None
                     if isinstance(parsed, list):
                         results.extend(item for item in parsed if isinstance(item, dict))
                     elif isinstance(parsed, dict):
@@ -176,11 +180,11 @@ class SiteValidator:
                 b_type = block.get("type")
                 if not b_type:
                     errors.append(f"Section #{idx}, Block #{b_idx}: Λείπει το πεδίο 'type'.")
-                elif b_type not in ("p", "callout", "formula", "h", "ul", "table", "diagram"):
+                elif b_type not in ("p", "callout", "formula", "h", "ul", "table", "diagram", "image"):
                     errors.append(
                         f"Section #{idx}, Block #{b_idx}: Μη έγκυρος τύπος block '{b_type}'."
                     )
-                elif b_type == "callout" and block.get("kind") not in ("def", "example", "remember", "tip"):
+                elif b_type == "callout" and block.get("kind") not in ("def", "example", "remember", "tip", "warning"):
                     errors.append(
                         f"Section #{idx}, Block #{b_idx}: Μη έγκυρο callout kind '{block.get('kind')}'."
                     )
@@ -325,3 +329,61 @@ class SiteValidator:
                     check_img(item["hintImage"], f"Exercise #{idx}, Item #{i_idx} hintImage")
 
         return errors
+
+
+def main():
+    import sys
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+    print("=" * 68)
+    print("  4gnosin.github.io - Πλήρης Έλεγχος Υγείας & Ορθότητας Αρχείων")
+    print("=" * 68)
+
+    val = SiteValidator()
+    exercises_dir = Path("site/exercises")
+    if not exercises_dir.exists():
+        print("❌ Δεν βρέθηκε ο κατάλογος site/exercises.")
+        sys.exit(1)
+
+    total_files = 0
+    total_errors = 0
+    failed_files = 0
+
+    content_dir = Path("site/content")
+    all_files = sorted(exercises_dir.rglob("*.js"))
+    if content_dir.exists():
+        all_files.extend(sorted(content_dir.rglob("*.js")))
+
+    for js_path in all_files:
+        if "content" in js_path.parts:
+            if not any(p.startswith("chapter-") for p in js_path.parts):
+                continue
+            total_files += 1
+            errs = val.validate_section_file(str(js_path))
+        elif js_path.name == "groups.js":
+            total_files += 1
+            errs = val.validate_groups_file(str(js_path))
+        else:
+            total_files += 1
+            errs = val.validate_exercises_file(str(js_path))
+
+        if errs:
+            failed_files += 1
+            total_errors += len(errs)
+            print(f"❌ {js_path.relative_to(Path('.'))}: {len(errs)} σφάλματα")
+            for e in errs[:3]:
+                print(f"   • {e}")
+            if len(errs) > 3:
+                print(f"   ... και άλλα {len(errs) - 3} σφάλματα")
+
+    print("-" * 68)
+    if total_errors == 0:
+        print(f"✅ Όλα τα {total_files} αρχεία JavaScript είναι 100% έγκυρα!")
+    else:
+        print(f"⚠️ Βρέθηκαν {total_errors} σφάλματα σε {failed_files} από {total_files} αρχεία.")
+    print("=" * 68)
+
+
+if __name__ == "__main__":
+    main()

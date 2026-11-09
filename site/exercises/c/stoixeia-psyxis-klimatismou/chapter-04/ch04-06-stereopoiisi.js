@@ -74,7 +74,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "Στο παρακάτω σχήμα βλέπετε έναν συμπυκνωτή οικιακού ψυγείου. Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β, που δίνει τη σωστή αντιστοίχιση της κατάστασης του ψυκτικού μέσου.",
         "prompt": "Αντιστοίχιση τμημάτων συμπυκνωτή:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -119,7 +119,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "Η αντιστοίχιση τμημάτων συμπυκνωτή είναι: 1-γ, 2-α, 3-δ, 4-β.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#25269_fig01.webp"
         ]
       }
     ]

@@ -20,10 +20,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "2.1 Να αντιστοιχίσετε τα σχήματα των συμπιεστών της Στήλης Α με τους τύπους συμπιεστών της Στήλης Β:",
         "prompt": "Αντιστοίχιση αρχής λειτουργίας συμπιεστών (Σχήματα 1-4) με τους τύπους τους:",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.png",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig02.png",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig03.png",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig04.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig04.webp"
         ],
         "left": [
           {
@@ -72,7 +72,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "a"
         },
         "explain": "1 -> δ (Τύπου τυμπάνου/rotary), 2 -> γ (Κοχλιόμορφος), 3 -> ε (Σπειροειδής/scroll), 4 -> α (Εμβολοφόρος/παλινδρομικός).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25304_fig01.webp"
       },
       {
         "kind": "blank",
@@ -145,7 +145,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το διάγραμμα του Εξατμιστικού Συμπυκνωτή, να αντιστοιχίσετε τους αριθμούς 1-5 της Στήλη Α με τις λειτουργίες της Στήλης Β:",
         "prompt": "Αντιστοίχιση τμημάτων Εξατμιστικού Συμπυκνωτή:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -203,7 +203,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1. γ (Είσοδος ψυκτικού μέσου), 2. δ (Έξοδος ψυκτικού μέσου), 3. β (Ανεμιστήρας), 4. ε (Έξοδος αέρα), 5. στ (Συμπυκνωτής).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26843_fig01.webp"
         ]
       },
       {

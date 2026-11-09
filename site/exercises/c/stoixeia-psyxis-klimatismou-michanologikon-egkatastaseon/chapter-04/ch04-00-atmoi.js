@@ -76,7 +76,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "d",
         "explain": "Ξηρό κορεσμένο ατμό έχουμε σε εκείνο το σημείο όπου το νερό μόλις έχει μετατραπεί εξολοκλήρου σε ατμό, δηλαδή στο σημείο Ε.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23962_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23962_fig01.webp"
       },
       {
         "kind": "calc",

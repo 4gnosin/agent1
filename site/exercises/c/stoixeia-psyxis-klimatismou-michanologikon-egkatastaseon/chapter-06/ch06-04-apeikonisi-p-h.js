@@ -54,11 +54,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subqPrompt": "Στη στήλη Α απεικονίζονται διαγράμματα πίεσης – ενθαλπίας ενός ψυκτικού μέσου στα οποία διακρίνονται η καμπάνα και διάφορες γραμμές. Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα διαγράμματα p-h (1-5) με τις αντίστοιχες χαρακτηριστικές γραμμές (α-ε):",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig01.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig02.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig03.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig04.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig05.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig04.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26899_fig05.webp"
         ],
         "imageLayout": "grid",
         "imageLabels": [
@@ -141,8 +141,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "α",
         "prompt": "α) Να σημειώσετε πάνω στο διάγραμμα την κατάσταση του ψυκτικού ρευστού με θερμοκρασία $-10\\text{ }^\\circ\\text{C}$ και βαθμό ξηρότητας $0,2$ (σημείο 1).",
         "explain": "Το σημείο 1 εντοπίζεται στην ισόθερμη $-10\\text{ }^\\circ\\text{C}$ εντός της καμπάνας, στο σημείο όπου ο βαθμός ξηρότητας είναι $x = 0,2$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.png",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_fig01.png"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_fig01.webp"
       },
       {
         "kind": "calc",
@@ -154,14 +154,14 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.02,
         "hint": "Διαβάστε την τιμή της ενθαλπίας στον άξονα x αντιστοιχώντας το σημείο 1.",
         "explain": "Από το διάγραμμα p-h για το σημείο 1 βρίσκουμε ειδική ενθαλπία $h_1 = 230\\text{ kJ/kg}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.png"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "γ",
         "prompt": "γ) Να σχεδιάσετε τη διαδικασία ατμοποίησης από το σημείο 1 ως την καμπύλη ξηρού κορεσμένου ατμού (σημείο 2).",
         "explain": "Η διαδικασία ατμοποίησης σε σταθερή πίεση (ισόθλιπτη μεταβολή) απεικονίζεται με οριζόντια γραμμή από το σημείο 1 έως την καμπύλη ξηρού κορεσμένου ατμού (σημείο 2).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.png"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.webp"
       },
       {
         "kind": "calc",
@@ -187,7 +187,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29333_sol01.webp"
     ]
   },
   {
@@ -202,7 +202,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch06-04-apeikonisi-p-h",
     "sourceOrder": 4,
     "stem": "Στο παρακάτω ψυκτικό διάγραμμα ψυκτικού μέσου R134a, έχει σχεδιαστεί ένας ψυκτικός κύκλος. Με την βοήθεια του ψυκτικού διαγράμματος που σας δίνεται:",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -315,7 +315,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.02,
         "hint": "Εκτιμήστε τη θέση του σημείου Β μεταξύ της καμπύλης $x=0$ και $x=1$ (ή $0\\%$ και $100\\%$).",
         "explain": "Ο βαθμός ξηρότητας στο σημείο Β είναι $0,2$, δηλαδή $20\\%$ ατμός και $80\\%$ υγρό.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.png"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.webp"
       },
       {
         "kind": "calc",
@@ -328,7 +328,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.02,
         "hint": "Διαβάστε την πίεση στον κατακόρυφο άξονα για το σημείο Α.",
         "explain": "Από το διάγραμμα, η πίεση στο σημείο Α είναι $70\\text{ psia}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.png"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.webp"
       },
       {
         "kind": "calc",
@@ -409,7 +409,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#33865_sol01.webp"
     ]
   }
 ]

@@ -41,10 +41,10 @@ window.EXERCISES.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα διαγράμματα της Στήλης Α με τους τύπους μεταβολών της Στήλης Β:",
         "images": [
-          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig01.png",
-          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig02.png",
-          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig03.png",
-          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig04.png"
+          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig01.webp",
+          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig02.webp",
+          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig03.webp",
+          "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig04.webp"
         ],
         "left": [
           {
@@ -93,7 +93,7 @@ window.EXERCISES.push(...
           "4": "a"
         },
         "explain": "Η ισοβαρής μεταβολή παριστάνεται με ευθεία παράλληλη στον άξονα του όγκου (1-β), η αδιαβατική με καμπύλη μεγαλύτερης κλίσης από την ισόθερμη (2-γ), η ισόχωρη με ευθεία παράλληλη στον άξονα της πίεσης (3-δ), και η ισόθερμη με ισοσκελή υπερβολή (4-α).",
-        "image": "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig01.png"
+        "image": "images/b/thermod/chapter-06/b_thermod_ch06_#16255_fig01.webp"
       }
     ]
   },

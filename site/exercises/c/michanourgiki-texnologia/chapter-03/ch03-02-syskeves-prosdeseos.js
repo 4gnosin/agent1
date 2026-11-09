@@ -110,11 +110,11 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           }
         ],
         "answer": "b",
-        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig01.webp",
         "explain": "Το σχήμα απεικονίζει ζεύγος κοχλία-περικοχλίου.",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig02.png"
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig02.webp"
         ]
       },
       {
@@ -199,7 +199,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           }
         ],
         "answer": "a",
-        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig02.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#26787_fig02.webp",
         "explain": "Το σχήμα απεικονίζει ολισθητήρα μορφής V."
       },
       {
@@ -262,13 +262,13 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           }
         ],
         "answer": "b",
-        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig01.webp",
         "explain": "Το σχήμα απεικονίζει πτερυγιοφόρο αντλία.",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig02.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig03.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig04.png"
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig03.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig04.webp"
         ]
       },
       {
@@ -291,9 +291,9 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         ],
         "answer": "c",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig02.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig03.png",
-          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig04.png"
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig03.webp",
+          "images/c/michanourgiki-texnologia/chapter-03/c_michanourgiki-texnologia_ch03_#27193_fig04.webp"
         ],
         "explain": "Το πλατώ συγκράτησης τεμαχίων στον τόρνο απεικονίζεται στο σχήμα γ."
       },

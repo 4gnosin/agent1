@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "Να γράψετε τα γράμματα α, β, γ, δ, ε, που βλέπετε στο παρακάτω σχήμα, για το σύστημα αυτόματου ελέγχου κλειστού βρόχου και δίπλα μια από τις λέξεις που κατάλληλα αντιστοιχούν σε αυτά.",
         "prompt": "Αντιστοιχίστε τα γράμματα α, β, γ, δ, ε του σχήματος με τα μέρη του συστήματος:",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23783_fig01.png"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23783_fig01.webp"
         ],
         "left": [
           {
@@ -74,7 +74,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "e": "5"
         },
         "explain": "α. Είσοδος, β. Σφάλμα, γ. Διαταραχή, δ. Έξοδος, ε. Ανάδραση.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23783_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23783_fig01.webp"
       },
       {
         "kind": "match",

@@ -26,8 +26,8 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.05,
         "hint": "Σύμφωνα με τον πίνακα και το διάγραμμα 1 για St70 και HSS, επιλέγεται η πλησιέστερη μεγαλύτερη τυποποιημένη τιμή στροφών.",
         "explain": "Από το διάγραμμα 1 για $D = 100\\text{ mm}$ και $u = 20\\text{ m/min}$, οι στροφές κυμαίνονται μεταξύ 53 και 74 rpm. Επιλέγεται η μεγαλύτερη $n = 74\\text{ rpm}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_fig01.png",
-        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_fig01.webp",
+        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol01.webp"
       },
       {
         "kind": "calc",
@@ -40,15 +40,15 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.05,
         "hint": "Για το φινίρισμα με $u = 24\\text{ m/min}$ και $D = 100\\text{ mm}$, ελέγχεται η αντίστοιχη καμπύλη στο διάγραμμα.",
         "explain": "Από το διάγραμμα ταχυτήτων κοπής, για $D = 100\\text{ mm}$ και $u = 24\\text{ m/min}$, προκύπτουν στροφές $n = 74\\text{ rpm}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_fig02.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_fig02.webp"
       }
     ],
     "solutionImages": [
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol01.png",
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol02.png",
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol03.png",
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol04.png",
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol05.png"
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol01.webp",
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol02.webp",
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol03.webp",
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol04.webp",
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29153_sol05.webp"
     ]
   }
 ]

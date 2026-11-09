@@ -177,12 +177,12 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "β",
         "kind": "open",
         "prompt": "β) Να δημιουργήσετε ένα διάγραμμα ροής εντοπισμού βλάβης.",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-01/c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-01/c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.webp",
         "explain": "Το διάγραμμα ροής αποτυπώνει τα διαδοχικά βήματα ελέγχου (έλεγχος σπινθήρα στα μπουζοκαλώδια, έλεγχος ψεκασμού μπεκ / παροχής βενζίνης) και τις αντίστοιχες ενέργειες αποκατάστασης της βλάβης."
       }
     ],
     "solutionImages": [
-      "images/c/texnologia-elegxou-diagnoseon/chapter-01/c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png"
+      "images/c/texnologia-elegxou-diagnoseon/chapter-01/c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.webp"
     ]
   }
 ]

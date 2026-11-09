@@ -19,9 +19,9 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "2.1",
         "prompt": "2.1 Να γράψετε τους αριθμούς 1, 2, 3 από τη Στήλη Α και, δίπλα, ένα από τα γράμματα α, β, γ της Στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig02.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig03.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig02.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig03.webp"
         ],
         "left": [
           {
@@ -57,7 +57,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
           "3": "a"
         },
         "explain": "1 -> β (Σώμα ακτινοβολίας), 2 -> γ (Fan Coil), 3 -> α (fan convector).",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.png"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28548_fig01.webp"
       },
       {
         "kind": "tf",

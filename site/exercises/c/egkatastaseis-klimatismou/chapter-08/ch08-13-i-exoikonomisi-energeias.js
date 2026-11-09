@@ -95,7 +95,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "5": "b"
         },
         "explain": "Αντιστοίχιση μερών εξοικονομητή: 1 -> c (Νωπός αέρας), 2 -> e (Εξοικονομητής), 3 -> a (Αέρας χώρου), 4 -> f (Περιβάλλον), 5 -> b (Μίξη αέρα).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34225_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34225_fig01.webp"
       }
     ]
   }

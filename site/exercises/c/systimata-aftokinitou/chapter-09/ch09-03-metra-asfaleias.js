@@ -65,10 +65,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a",
           "4": "c"
         },
-        "image": "images/c/systimata-aftokinitou/chapter-09/c_systimata-aftokinitou_ch09_#27701_fig01.png",
+        "image": "images/c/systimata-aftokinitou/chapter-09/c_systimata-aftokinitou_ch09_#27701_fig01.webp",
         "explain": "Σύμφωνα με τα στοιχεία του προσφιγμένου μηχανισμού της ζώνης: 1-β (Θήκη με κάψουλα πυρίτιδας), 2-δ (Σωλήνας), 3-α (Άξονας περιτυλίγματος), 4-γ (Πτερωτή στροβίλου). Περισσεύει το ε.",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-09/c_systimata-aftokinitou_ch09_#27701_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-09/c_systimata-aftokinitou_ch09_#27701_fig01.webp"
         ]
       },
       {

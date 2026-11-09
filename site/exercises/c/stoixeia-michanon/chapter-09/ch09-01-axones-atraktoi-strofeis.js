@@ -117,11 +117,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "b"
         },
         "explain": "Ο κωνικός κοχλιωτός στροφέας αντιστοιχεί στο α, ο σφαιρικός στο γ και ο ακραίος εγκάρσιος (μετωπικός) στο β.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig01.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig02.png",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig03.png"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#23887_fig03.webp"
         ]
       },
       {

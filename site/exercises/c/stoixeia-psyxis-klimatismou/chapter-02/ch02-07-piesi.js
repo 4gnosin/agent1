@@ -15,7 +15,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-07-piesi",
     "sourceOrder": 5,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.webp"
     ],
     "items": [
       {
@@ -28,7 +28,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Διανείμετε τα mmHg με την αναλογία $7,5\\text{ mmHg} / \\text{kPa}$.",
         "explain": "Σύμφωνα με την υπόδειξη $1\\text{ kPa} = 7,5\\text{ mmHg}$, άρα τα $150\\text{ mmHg}$ αντιστοιχούν σε $\\frac{150}{7,5} = 20\\text{ kPa}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23813_fig01.webp"
       },
       {
         "kind": "mc",
@@ -187,7 +187,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-07-piesi",
     "sourceOrder": 7,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.webp"
     ],
     "items": [
       {
@@ -255,7 +255,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Το βέλος με τη διακεκομμένη γραμμή παριστάνει την ατμοσφαιρική πίεση. Το βέλος με τη χοντρή γκρι γραμμή παριστάνει την απόλυτη πίεση.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23869_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23869_fig01.webp"
       }
     ]
   },
@@ -272,7 +272,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-07-piesi",
     "sourceOrder": 8,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.webp"
     ],
     "items": [
       {
@@ -285,7 +285,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Διαιρέστε τα $150\\text{ mmHg}$ με το $7,5$.",
         "explain": "Σύμφωνα με την υπόδειξη $1\\text{ kPa} = 7,5\\text{ mmHg}$, άρα τα $150\\text{ mmHg}$ αντιστοιχούν σε $\\frac{150}{7,5} = 20\\text{ kPa}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33883_fig01.webp"
       },
       {
         "kind": "calc",
@@ -433,7 +433,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-07-piesi",
     "sourceOrder": 10,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.webp"
     ],
     "items": [
       {
@@ -459,7 +459,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "$P_{A\\text{μαν}} = P_{A\\text{απ}} - P_{B\\text{απ}} = 5\\text{ bar} - 3,5\\text{ bar} = 1,5\\text{ bar}$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.png"
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#34891_fig01.webp"
   }
 ]
 );

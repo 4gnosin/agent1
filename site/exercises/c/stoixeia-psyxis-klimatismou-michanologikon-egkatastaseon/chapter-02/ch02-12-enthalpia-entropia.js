@@ -31,14 +31,14 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "b",
         "explain": "Το σχήμα β αντιπροσωπεύει μαθηματικά τον Α΄ Θερμοδυναμικό νόμο.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.webp",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig02.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig03.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig04.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig05.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig06.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig04.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig05.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#26848_fig06.webp"
         ]
       },
       {

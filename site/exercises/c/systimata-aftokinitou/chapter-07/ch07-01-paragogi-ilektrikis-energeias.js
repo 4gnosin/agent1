@@ -97,7 +97,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "Με βάση το Σχήμα 1 που απεικονίζει μια γεννήτρια συνεχούς ρεύματος (δυναμό), να αντιστοιχίσετε τους αριθμούς της Στήλης Α με τα γράμματα της Στήλης Β.",
-        "image": "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#34986_fig01.png",
+        "image": "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#34986_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -142,7 +142,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         },
         "explain": "Η αντιστοίχιση βασίζεται στα δομικά μέρη της γεννήτριας συνεχούς ρεύματος (δυναμό) σύμφωνα με το συνοδευτικό σχήμα.",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#34986_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-07/c_systimata-aftokinitou_ch07_#34986_fig01.webp"
         ]
       },
       {

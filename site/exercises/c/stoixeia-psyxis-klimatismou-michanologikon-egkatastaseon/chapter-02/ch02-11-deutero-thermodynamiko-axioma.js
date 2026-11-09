@@ -108,7 +108,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch02-11-deutero-thermodynamiko-axioma",
     "sourceOrder": 2,
     "stem": "Στο σχήμα, φαίνονται οι ενεργειακές συναλλαγές του εργαζόμενου μέσου σε μία ατμομηχανή. Από τον λέβητα χορηγείται θερμότητα $Q_1$ προς το εργαζόμενο μέσο. Tο εργαζόμενο μέσο μας δίνει ωφέλιμο έργο $W = 360\\text{ Joule}$ και αποβάλλει θερμότητα $Q_2$ προς τον συμπυκνωτή-ψυγείο. Η ατμομηχανή έχει βαθμό απόδοσης $\\eta = 40\\%$.",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23767_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#23767_fig01.webp",
     "items": [
       {
         "kind": "calc",

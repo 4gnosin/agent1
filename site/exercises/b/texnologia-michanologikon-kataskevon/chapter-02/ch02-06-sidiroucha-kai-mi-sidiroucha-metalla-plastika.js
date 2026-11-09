@@ -79,7 +79,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
       {
         "subq": "2.1",
         "kind": "match",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.webp",
         "prompt": "2.1 Στο παρακάτω σχήμα βλέπετε την εγκατάσταση υψικαμίνου αναγωγής. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β (ένα γράμμα περισσεύει).",
         "left": [
           {
@@ -129,7 +129,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1. ε (Καπνοδόχος), 2. γ (Προθερμαντήρες), 3. β (Συστήματα καθαρισμού αερίων), 4. α (Ακατέργαστος σίδηρος).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.webp"
         ]
       },
       {

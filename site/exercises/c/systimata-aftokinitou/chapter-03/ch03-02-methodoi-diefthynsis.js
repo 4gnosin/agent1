@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζεται ένα τυπικό σύστημα διεύθυνσης με ολόσωμο πρόσθιο άξονα, να γράψετε τους αριθμούς από τη στήλη Α και δίπλα ένα από τα γράμματα της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα μέρη του συστήματος διεύθυνσης:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32634_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32634_fig01.webp"
         ],
         "left": [
           {
@@ -105,7 +105,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "8": "θ"
         },
         "explain": "Η αντιστοίχιση προκύπτει από τα βασικά μέρη του συστήματος διεύθυνσης με ολόσωμο πρόσθιο άξονα. Το γράμμα ζ (Άρθρωση) περισσεύει.",
-        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32634_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32634_fig01.webp"
       },
       {
         "kind": "mc",

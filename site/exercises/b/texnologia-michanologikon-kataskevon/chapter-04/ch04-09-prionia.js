@@ -40,7 +40,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται ένα μεταλλοπρίονο. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16417_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16417_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -89,7 +89,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - α (Περικόχλιο), 2 - δ (Σκελετός), 3 - ε (Χειρολαβή), 4 - β (Πριονολεπίδα). Περισσεύει το γ.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16417_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16417_fig01.webp"
         ]
       }
     ]

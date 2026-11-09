@@ -19,9 +19,9 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Να αντιστοιχίσετε τα εργαλεία χειρός 1, 2, 3 της Στήλης Α με τα είδη α, β, γ, δ της Στήλης Β.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig02.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig03.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig03.webp"
         ],
         "left": [
           {
@@ -61,7 +61,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "3": "a"
         },
         "explain": "1 - δ (Κόφτης), 2 - γ (Τσιμπίδα), 3 - α (Πένσα). Περισσεύει το β (Ξύστρα).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig01.png"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20069_fig01.webp"
       },
       {
         "kind": "blank",

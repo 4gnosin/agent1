@@ -68,7 +68,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "tolerance": 0.01,
         "hint": "Μετατρέψτε τα bar σε kPa ($2{,}8\\text{ bar} = 280\\text{ kPa}$) και βρείτε τον χρόνο από τον πίνακα αναφοράς.",
         "explain": "Γνωρίζοντας ότι $1\\text{ bar} = 100\\text{ kPa}$, τα $2{,}8\\text{ bar}$ είναι $280\\text{ kPa}$. Συνεπώς, σύμφωνα με τον πίνακα, ο χρόνος είναι $40\\text{ s}$.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.webp"
       }
     ]
   }

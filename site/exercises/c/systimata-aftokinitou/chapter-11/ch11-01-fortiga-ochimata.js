@@ -62,13 +62,13 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "γ"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig03.png",
-          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig04.png"
+          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig03.webp",
+          "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig04.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση σύμφωνα με τα σχήματα και τους τύπους των φορτηγών είναι: 1 - β, 2 - α, 3 - δ, 4 - γ.",
-        "image": "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-11/c_systimata-aftokinitou_ch11_#34984_fig01.webp"
       },
       {
         "kind": "mc",

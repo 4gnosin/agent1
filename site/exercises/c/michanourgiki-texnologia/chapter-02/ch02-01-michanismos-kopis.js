@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "c"
         },
         "explain": "Σύμφωνα με τη γεωμετρία κοψης: 1 – β (Γωνία αποβλήτου), 2 – στ (Γωνία κόψης), 3 – α (Γωνία ελευθερίας), 4 – δ (Παραμορφωμένο πάχος αποβλήτου), 5 – γ (Απαραμόρφωτο πάχος αποβλήτου).",
-        "image": "images/c/michanourgiki-texnologia/chapter-02/c_michanourgiki-texnologia_ch02_#25191_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-02/c_michanourgiki-texnologia_ch02_#25191_fig01.webp"
       },
       {
         "kind": "mc",
@@ -210,7 +210,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "f"
         },
         "explain": "Σύμφωνα με το σχήμα κοπής: 1. Βάθος κοπής – γ, 2. Πλάτος αποβλήτου – ε, 3. Πάχος αποβλήτου – δ, 4. Γωνία τοποθέτησης – α, 5. Πρόωση – στ.",
-        "image": "images/c/michanourgiki-texnologia/chapter-02/c_michanourgiki-texnologia_ch02_#27615_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-02/c_michanourgiki-texnologia_ch02_#27615_fig01.webp"
       }
     ]
   }

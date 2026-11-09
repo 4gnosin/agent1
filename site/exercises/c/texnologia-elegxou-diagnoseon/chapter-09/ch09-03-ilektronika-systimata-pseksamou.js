@@ -20,7 +20,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται ψεκασμός πολλών σημείων. Να γράψετε στις απαντήσεις σας τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα στοιχεία της Στήλης Α με τη Στήλη Β:",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.webp"
         ],
         "left": [
           {
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
           "5": "δ"
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1 - γ, 2 - στ, 3 - α, 4 - β, 5 - δ. Περισσεύει το ε (Σύνδεση μπεκ ψυχρής εκκίνησης).",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png"
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.webp"
       },
       {
         "kind": "tf",

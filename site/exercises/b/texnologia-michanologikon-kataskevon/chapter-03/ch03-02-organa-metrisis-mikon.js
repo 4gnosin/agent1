@@ -18,7 +18,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "2.1 Στο παρακάτω σχήμα βλέπετε τα μέρη του μικρομέτρου. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19044_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19044_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -76,7 +76,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - δ (Πέλμα), 2 - γ (Κινητός επαφέας), 3 - στ (Περικόχλιο), 4 - β (Κινητός κοχλίας), 5 - α (Σκελετός).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19044_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19044_fig01.webp"
         ]
       },
       {
@@ -125,12 +125,12 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "4.1 Να αναφέρετε τις υποδιαιρέσεις $1\\text{ mm}$ που αποκαλύφθηκαν, τις υποδιαιρέσεις $1/2\\text{ mm}$ που αποκαλύφθηκαν, την υποδιαίρεση του κάλυκα που συμπίπτει και την τελική ένδειξη μέτρησης που διαβάζετε για τη μέτρηση ενός κομματιού χάλυβα.",
         "prompt": "Υποδιαιρέσεις $1\\text{ mm}$ που αποκαλύφθηκαν (σε $\\text{mm}$):",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19370_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19370_fig01.webp",
         "answer": 12,
         "unit": "mm",
         "explain": "Υποδιαιρέσεις $1\\text{ mm}$ που αποκαλύφθηκαν: $12 \\cdot 1 = 12\\text{ mm}$.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19370_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19370_fig01.webp"
         ]
       },
       {
@@ -201,7 +201,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "2.1 Στο παρακάτω σχήμα βλέπετε ένα παχύμετρο. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5, 6, 7, 8 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε, ζ, η, θ, ι της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig02.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig02.webp",
         "left": [
           {
             "id": "1",
@@ -286,15 +286,15 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - β (Ράμφη εξωτερικών διαστάσεων), 2 - γ (Ράμφη εσωτερικών διαστάσεων), 3 - α (Στέλεχος για μέτρηση βάθους), 4 - ζ (Κανόνας κύρια κλίμακα cm,mm), 5 - ε (Κανόνας κύρια κλίμακα inch), 6 - δ (Κλίμακα βερνιέρου mm), 7 - η (Κλίμακα βερνιέρου inch), 8 - θ (Μοχλός).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig02.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig01.webp"
         ]
       },
       {
         "kind": "calc",
         "subq": "2.2",
         "prompt": "2.2 Να δώσετε την ακριβή μέτρηση του παχυμέτρου σε $\\text{mm}$ που φαίνεται στην παρακάτω εικόνα.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19855_fig01.webp",
         "answer": 3.58,
         "unit": "mm",
         "explain": "Η μέτρηση που δείχνει το παχύμετρο είναι $3,58\\text{ mm}$."
@@ -319,7 +319,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "α",
         "openEnded": true,
         "prompt": "α) Ποια είναι η χρήση του μετρητικού ρολογιού στην περίπτωση του Σχήματος 1;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25377_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25377_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -394,7 +394,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "explain": "Για να χρησιμοποιήσει ο τεχνίτης το μετρητικό ρολόι, το στερεώνουμε αρχικά σε ειδική βάση. Τοποθετεί το πρότυπο κομμάτι ανάμεσα στον κινητό επαφέα και στη βάση (ο επαφέας κάθετος στην επιφάνεια), στρέφει την πλάκα ώστε ο δείκτης να δείχνει μηδέν, και ακολούθως τοποθετεί τα προς μέτρηση κομμάτια για να συγκρίνει τις αποκλίσεις."
       }
     ],
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25377_fig01.png"
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25377_fig01.webp"
   },
   {
     "id": "ch03-25378",
@@ -413,7 +413,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "calc",
         "subq": "α",
         "prompt": "α) Ποια είναι η ένδειξη μέτρησης του παχυμέτρου, όπως φαίνεται στο Σχήμα 1 (σε $\\text{mm}$);",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25378_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25378_fig01.webp",
         "answer": 25.4,
         "unit": "mm",
         "explain": "Η ένδειξη μέτρησης του παχυμέτρου στο Σχήμα 1 είναι $25,4\\text{ mm}$."
@@ -445,7 +445,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "explain": "Για να είναι σωστή η μέτρηση θα πρέπει:\n• Το αντικείμενο να έρχεται σε επαφή με τις επιφάνειες των ραμφών και όχι με τις ακμές τους.\n• Το προς μέτρηση αντικείμενο να μην τοποθετείται στην άκρη των ραμφών, αλλά στο εσωτερικό του μεταξύ τους διακένου.\n• Τα ράμφη να μην πιέζονται έντονα πάνω στο αντικείμενο.\n• Η ανάγνωση της ένδειξης να γίνεται με τα μάτια να κοιτάζουν το όργανο κάθετα και όχι πλάγια."
       }
     ],
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25378_fig01.png"
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#25378_fig01.webp"
   }
 ]
 );

@@ -70,7 +70,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται το τέλος του πρώτου χρόνου (φάση εισαγωγής) ενός παλινδρομικού συμπιεστή. Να αντιστοιχίσετε τους αριθμούς 1-5 της Στήλης Α με τα γράμματα α-στ της Στήλης Β:",
         "prompt": "Αντιστοίχιση μερών παλινδρομικού συμπιεστή (φάση εισαγωγής):",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -128,7 +128,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - ε (Είσοδος ατμού), 2 - στ (Βαλβίδα εξαγωγής), 3 - β (Κάτω νεκρό σημείο), 4 - α (Χώρος παλινδρόμησης), 5 - γ (Κύλινδρος).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26869_fig01.webp"
         ]
       }
     ]
@@ -150,7 +150,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς 1-4 της Στήλης Α (Πύργος Ψύξης) με τις λειτουργίες της Στήλης Β:",
         "prompt": "Αντιστοίχιση τμημάτων Πύργου Ψύξης:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -199,7 +199,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - γ (Είσοδος νερού), 2 - ε (Έξοδος αέρα), 3 - α (Είσοδος αέρα), 4 - β (Ανεμιστήρας).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33866_fig01.webp"
         ]
       },
       {

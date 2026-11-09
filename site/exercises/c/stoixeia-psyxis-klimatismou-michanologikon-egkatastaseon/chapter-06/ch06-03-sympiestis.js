@@ -141,12 +141,12 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "3": "d"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig01.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig02.png",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig03.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig03.webp"
         ],
         "explain": "Η αντιστοίχιση βασίζεται στην κατασκευή των συμπιεστών: 1–β (Ημιερμητικός), 2–γ (Ερμητικός), 3–δ (Ανοιχτού τύπου).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29332_fig01.webp"
       },
       {
         "kind": "mc",
@@ -324,10 +324,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "5": "b"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29370_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29370_fig01.webp"
         ],
         "explain": "Αντιστοίχιση μερών σπειροειδούς συμπιεστή: 1–γ (Θύρα εξαγωγής), 2–στ (Εξαγωγή), 3–ε (Εισαγωγή), 4–α (Σταθερή σπείρα), 5–β (Κινούμενη σπείρα). Περισσεύει το δ (Κέλυφος).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29370_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#29370_fig01.webp"
       },
       {
         "kind": "tf",

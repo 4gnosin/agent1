@@ -510,7 +510,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Πολλαπλασιάστε το modul $m$ επί 2,17.",
         "explain": "Είναι $h = 2{,}17 \\cdot 5 = 10{,}85\\text{ mm}$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30436_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30436_fig01.webp"
       }
     ]
   },
@@ -559,7 +559,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Πολλαπλασιάστε το βήμα $t$ επί 0,5.",
         "explain": "Είναι $s = 0{,}5 \\cdot 9{,}42 = 4{,}71\\text{ mm}$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30441_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30441_fig01.webp"
       }
     ]
   },
@@ -619,7 +619,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Αφαιρέστε από το βήμα $t$ το πάχος $s$.",
         "explain": "Είναι $w = 12{,}56 - 6{,}28 = 6{,}28\\text{ mm}$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30450_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30450_fig01.webp"
       }
     ]
   },
@@ -692,7 +692,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Είναι $\\eta_{\\text{ολ}} = 0{,}96 \\cdot 0{,}9 = 0{,}864$."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30935_fig01.png"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30935_fig01.webp"
   },
   {
     "id": "ch14-30937",
@@ -741,7 +741,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Είναι $t_1 = 8 \\cdot 3{,}14 = 25{,}12\\text{ mm}$."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30937_fig01.png"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#30937_fig01.webp"
   }
 ]
 );

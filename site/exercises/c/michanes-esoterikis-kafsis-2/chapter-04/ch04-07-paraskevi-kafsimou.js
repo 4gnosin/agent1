@@ -74,10 +74,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "ε",
           "5": "στ"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.png",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→δ, 2→γ, 3→β, 4→ε, 5→στ (Περισσεύει το α).",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24352_fig01.webp"
         ]
       },
       {
@@ -191,7 +191,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "ε"
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1→β, 2→γ, 3→στ, 4→δ, 5→ε (Περισσεύει το α).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30601_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30601_fig01.webp"
       },
       {
         "kind": "tf",

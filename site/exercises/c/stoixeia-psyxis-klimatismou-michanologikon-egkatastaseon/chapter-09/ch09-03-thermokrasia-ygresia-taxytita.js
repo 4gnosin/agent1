@@ -192,7 +192,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": 0,
         "unit": "",
         "tolerance": 0.01,
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.webp",
         "hint": "Στην κατάσταση βέλτιστης άνεσης, ο δείκτη PMV μηδενίζεται.",
         "explain": "Η τιμή του δείκτη PMV όταν υπάρχει κατάσταση αίσθησης άνεσης σε κάποιο υπό μελέτη χώρο είναι 0."
       },
@@ -206,7 +206,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Το ποσοστό των ικανοποιημένων ατόμων προκύπτει αφαιρώντας το ποσοστό δυσαρέσκειας PPD από το 100%.",
         "explain": "Όταν η τιμή του PPD είναι 20%, το ποσοστό των ατόμων που είναι απόλυτα ικανοποιημένοι με το θερμικό περιβάλλον του χώρου είναι: 100% - 20% = 80%.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29517_fig01.webp"
       }
     ]
   }

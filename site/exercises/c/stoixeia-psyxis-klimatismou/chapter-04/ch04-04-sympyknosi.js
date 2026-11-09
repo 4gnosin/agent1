@@ -142,7 +142,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "Στο παρακάτω σχήμα παριστάνεται ο συμπυκνωτής ενός οικιακού ψυγείου. Η είσοδος του ψυκτικού μέσου γίνεται στο σημείο Α, ενώ η έξοδός του στο σημείο Δ. Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το γράμμα που αντιστοιχεί στη σωστή απάντηση.",
         "prompt": "Αντιστοίχιση καταστάσεων συμπυκνωτή:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -178,7 +178,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "Στο σημείο Α έχουμε υπέρθερμο ατμό, στο σημείο Β ξηρό κορεσμένο ατμό, και προς το τέλος (ΓΔ) υπόψυκτο υγρό.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#33867_fig01.webp"
         ]
       }
     ]

@@ -49,7 +49,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Είναι $d^3 = \\frac{2560}{0{,}2 \\cdot 200} = \\frac{2560}{40} = 64\\text{ cm}^3 \\implies d = \\sqrt[3]{64} = 4\\text{ cm} = 40\\text{ mm}$."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#24078_fig01.png"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#24078_fig01.webp"
   },
   {
     "id": "ch14-26024",

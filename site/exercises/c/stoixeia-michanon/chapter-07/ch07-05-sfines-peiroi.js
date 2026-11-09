@@ -57,11 +57,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "α"
         },
         "explain": "Η ορθή αντιστοίχιση σφηνών είναι: 1-β (δισκοειδής), 2-δ (οδηγός), 3-α (κοίλη).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24031_fig03.webp"
         ]
       },
       {
@@ -150,11 +150,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "α"
         },
         "explain": "Η ορθή αντιστοίχιση πείρων είναι: 1-δ, 2-γ, 3-α.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24032_fig03.webp"
         ]
       },
       {
@@ -243,7 +243,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-γ (διαμήκης σφήνα), 2-δ (άξονας), 3-β (ομφαλός/πλήμνη).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24213_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24213_fig01.webp"
       },
       {
         "kind": "blank",
@@ -331,11 +331,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "δ"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-γ (εγκάρσια), 2-α (τυπική διαμήκης), 3-δ (πολύσφηνο).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24215_fig03.webp"
         ]
       },
       {
@@ -433,7 +433,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "ε"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-γ, 2-α, 3-δ, 4-ε.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24217_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24217_fig01.webp"
       },
       {
         "kind": "tf",

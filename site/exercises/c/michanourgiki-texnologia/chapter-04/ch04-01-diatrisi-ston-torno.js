@@ -14,7 +14,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "theory": "ch04-01-diatrisi-ston-torno",
     "sourceOrder": 4,
     "stem": "Είστε χειριστής τόρνου στο μηχανουργείο και θέλετε να κάνετε εσωτερική τόρνευση σε ένα τεμάχιο. Πριν την τόρνευση πρέπει να κάνετε διάτρηση του τεμαχίου (Σχήμα 1).",
-    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29152_fig01.png",
+    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29152_fig01.webp",
     "items": [
       {
         "kind": "mc",

@@ -18,7 +18,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "subqPrompt": "2.1 Στο παρακάτω σχήμα βλέπετε τα μέρη ενός απλού υψομετρικού χαράκτη. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29018_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29018_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -67,7 +67,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - β (Κοχλίας), 2 - ε (Χαράκτης), 3 - γ (Στυλίσκος), 4 - α (Βάση). Περισσεύει το δ (Φελλός).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29018_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29018_fig01.webp"
         ]
       },
       {

@@ -111,7 +111,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "mc",
         "subq": "β",
         "prompt": "β) Να επιλέξετε τον κατάλληλο τύπο κυκλοφορητή από το παρακάτω διάγραμμα λειτουργίας για παροχή $V = 16\\text{ m}^3/\\text{h}$ και μανομετρικό ύψος $H = 8\\text{ m Σ.Ν.}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -133,13 +133,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": "a",
         "explain": "Σύμφωνα με το διάγραμμα λειτουργίας κυκλοφορητών, το σημείο τομής της παροχής $V = 16\\text{ m}^3/\\text{h}$ και του μανομετρικού ύψους $H = 8\\text{ m Σ.Ν.}$ αντιστοιχεί στον κυκλοφορητή TOP S 50/10.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_fig01.webp"
         ]
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28452_sol01.webp"
     ]
   }
 ]

@@ -40,7 +40,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "prompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται ένας χειροκίνητος κυλινδροσυμπιεστής. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β (ένα γράμμα περισσεύει):",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -89,7 +89,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 – γ (Κύλινδροι), 2 – ε (Κιβώτιο μετάδοσης κίνησης), 3 – β (Χειροστρόφαλο), 4 – α (Βάση). Περισσεύει το δ (Σφιγκτήρες).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18374_fig01.webp"
         ]
       }
     ]
@@ -111,10 +111,10 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "prompt": "2.1 Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλη Α (εικόνες μηχανών) με τα γράμματα α, β, γ, δ, ε της Στήλης Β (ονομασίες μηχανών). Ένα γράμμα περισσεύει.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig02.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig03.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig04.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig03.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig04.webp"
         ],
         "left": [
           {
@@ -163,7 +163,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "4": "c"
         },
         "explain": "1 – δ (Ποδοκίνητο μηχανικό ψαλίδι), 2 – α (Φορητό ηλεκτρικό ψαλίδι), 3 – ε (Καμπτική μηχανή), 4 – γ (Χειροκίνητος κυλινδροπιεστής). Περισσεύει το β (Υδραυλική πρέσα).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.png"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18714_fig01.webp"
       },
       {
         "kind": "tf",

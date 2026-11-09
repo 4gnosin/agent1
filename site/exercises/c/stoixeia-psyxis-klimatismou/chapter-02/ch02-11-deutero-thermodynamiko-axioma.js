@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-11-deutero-thermodynamiko-axioma",
     "sourceOrder": 12,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.webp"
     ],
     "items": [
       {
@@ -95,7 +95,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "1-γ (Λέβητας), 2-ε (Στρόβιλος), 3-δ (Ψυγείο), 4-β (Αντλία).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23637_fig01.webp"
       }
     ]
   },
@@ -112,7 +112,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-11-deutero-thermodynamiko-axioma",
     "sourceOrder": 13,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.webp"
     ],
     "items": [
       {
@@ -138,7 +138,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "$250\\text{ Joule} = \\frac{250}{4,183} = 59,76\\text{ cal} = 0,0597\\text{ Kcal} \\approx 0,059\\text{ Kcal}$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.png"
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#25263_fig01.webp"
   }
 ]
 );

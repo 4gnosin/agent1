@@ -159,7 +159,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "Στην παρακάτω εικόνα απεικονίζεται μια κατσαρόλα με νερό που ζεσταίνεται από τη φωτιά, ενώ το χερούλι κρατιέται από ανθρώπινο χέρι. Να γράψετε τα γράμματα Α, Β, Γ και δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.webp",
         "left": [
           {
             "id": "A",
@@ -195,7 +195,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Το Α αφορά τη θέρμανση του νερού (μεταφορά), το Β τη μεταφορά θερμότητας στο χερούλι (αγωγή) και το Γ την ακτινοβολία από την πηγή θερμότητας.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25312_fig01.webp"
         ]
       }
     ]
@@ -212,7 +212,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "metadosi-thermotitas",
     "sourceOrder": 4,
     "stem": "Επιφάνεια $A = 15\\text{ m}^2$ από ξύλο, ειδικής θερμικής αγωγιμότητας $k = 0{,}17\\text{ W}/(\\text{m}\\cdot\\text{K})$, έχει πάχος $\\delta = 10\\text{ cm}$ (σχήμα 1). Αν η μία πλευρά της επιφάνειας έχει θερμοκρασία $\\theta_1 = 27\\text{ }^\\circ\\text{C}$ και η άλλη $\\theta_2 = 7\\text{ }^\\circ\\text{C}$, να υπολογίσετε:",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25313_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch02_#25313_fig01.webp",
     "items": [
       {
         "kind": "calc",

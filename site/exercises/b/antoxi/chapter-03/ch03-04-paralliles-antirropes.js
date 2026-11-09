@@ -48,10 +48,10 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Η διεύθυνση της συνισταμένης είναι παράλληλη με τις συνιστώσες και η φορά της είναι ίδια με αυτή της $F_1$ που έχει μεγαλύτερο μέτρο.",
-        "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig01.png",
+        "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig01.webp",
         "images": [
-          "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig01.png",
-          "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig02.png"
+          "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig01.webp",
+          "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_fig02.webp"
         ]
       },
       {
@@ -79,7 +79,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_sol01.png"
+      "images/b/antoxi/chapter-03/b_antoxi_ch03_#18581_sol01.webp"
     ]
   }
 ]

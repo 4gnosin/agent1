@@ -88,10 +88,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τις διατάξεις φρένων:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig03.png",
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig04.png"
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig03.webp",
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig04.webp"
         ],
         "left": [
           {
@@ -136,7 +136,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "c"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-α, 3-δ, 4-γ.",
-        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34539_fig01.webp"
       },
       {
         "kind": "mc",
@@ -184,7 +184,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το Σχήμα 1 που απεικονίζει μια σχηματική διάταξη ενός μηχανικού συστήματος φρένων, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα μέρη του μηχανικού συστήματος φρένων:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34540_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34540_fig01.webp"
         ],
         "left": [
           {
@@ -238,7 +238,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "b"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-α, 2-γ, 3-δ, 4-ε, 5-β.",
-        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34540_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34540_fig01.webp"
       },
       {
         "kind": "tf",

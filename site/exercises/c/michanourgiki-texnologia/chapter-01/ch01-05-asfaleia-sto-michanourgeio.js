@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "α"
         },
         "explain": "Με βάση τη γεωμετρία της διαμήκους τόρνευσης στο σχήμα: 1 αντιστοιχεί στην ακατέργαστη επιφάνεια, 2 στη μεταβατική επιφάνεια, 3 στην κατεργασμένη επιφάνεια, 4 στην ταχύτητα πρόωσης και 5 στη γωνία τοποθέτησης του κοπτικού εργαλείου.",
-        "image": "images/c/michanourgiki-texnologia/chapter-01/c_michanourgiki-texnologia_ch01_#26781_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-01/c_michanourgiki-texnologia_ch01_#26781_fig01.webp"
       },
       {
         "kind": "mc",

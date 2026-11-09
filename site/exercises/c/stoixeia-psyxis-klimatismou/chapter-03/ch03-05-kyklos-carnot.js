@@ -62,9 +62,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - δ (Ισοθερμοκρασιακή εκτόνωση), 2 - γ (Αδιαβατική εκτόνωση), 3 - β (Ισοθερμοκρασιακή συμπίεση), 4 - α (Αδιαβατική συμπίεση).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23880_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23880_fig01.webp"
         ],
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23880_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23880_fig01.webp"
       },
       {
         "kind": "tf",
@@ -237,9 +237,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1-2: Ισοθερμοκρασιακή εκτόνωση (ε), 2-3: Αδιαβατική εκτόνωση (γ), 3-4: Ισοθερμοκρασιακή συμπίεση (β), 4-5: Αδιαβατική συμπίεση (στ).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33903_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33903_fig01.webp"
         ],
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33903_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33903_fig01.webp"
       }
     ]
   }

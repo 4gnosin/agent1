@@ -41,7 +41,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω Σχήμα 1 απεικονίζεται μία ηλεκτρομαγνητική βαλβίδα με τα παρελκόμενά της. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα της Στήλης Β (ένα γράμμα περισσεύει):",
         "prompt": "Αντιστοιχίστε τους αριθμούς του Σχήματος 1 με τα εξαρτήματα της ηλεκτρομαγνητικής βαλβίδας:",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-07/c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-07/c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -90,7 +90,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         },
         "explain": "Σωστή αντιστοίχιση εξαρτημάτων Σχήματος 1:\n1 -> ε (Οπλισμός)\n2 -> γ (Πηνίο)\n3 -> α (Μαγνητική ροή)\n4 -> β (Πυρήνας)\nΠερισσεύει το δ (Ελατήριο επαναφοράς).",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-07/c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-07/c_texnologia-elegxou-diagnoseon_ch07_#34300_fig01.webp"
         ]
       }
     ]

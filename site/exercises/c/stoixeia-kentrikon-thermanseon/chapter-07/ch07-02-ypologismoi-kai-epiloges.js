@@ -19,21 +19,21 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "α",
         "prompt": "α) Να υπολογίσετε την απαιτούμενη παροχή $V$ του νερού που κυκλοφορεί στους σωλήνες σε $\\text{l/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.webp",
         "formula": "$V = \\frac{Q}{\\Delta t} = \\frac{Q_1 + Q_2}{\\Delta t}$",
         "answer": 300,
         "unit": "l/h",
         "tolerance": 0.01,
         "explain": "Το ολικό θερμικό φορτίο είναι $Q = Q_1 + Q_2 = 2000 + 2500 = 4500\\text{ kcal/h}$.\\\\nΗ απαιτούμενη παροχή υπολογίζεται: $V = \\frac{Q}{\\Delta t} = \\frac{4500\\text{ kcal/h}}{15\\text{ }^\\circ\\text{C}} = 300\\text{ l/h}$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig01.webp"
         ]
       },
       {
         "kind": "mc",
         "subq": "β",
         "prompt": "β) Χρησιμοποιώντας την τιμή της παροχής $V = 300\\text{ l/h}$ που βρήκατε, από το παρακάτω διάγραμμα χαρακτηριστικών των εύκαμπτων χαλυβδοσωλήνων, να επιλέξετε τον κατάλληλο χαλυβδοσωλήνα για ταχύτητα ροής $v = 0{,}7\\text{ m/s}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.webp",
         "options": [
           {
             "id": "a",
@@ -55,12 +55,12 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": "a",
         "explain": "Για $V = 300\\text{ kg/h}$ ($300\\text{ l/h}$) και $v = 0{,}7\\text{ m/s}$ από το διάγραμμα επιλέγουμε εύκαμπτο χαλυβδοσωλήνα διαστάσεων 15 x 1,2 με πτώση πίεσης $R = 49\\text{ mmΣΝ/m}$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_fig02.webp"
         ]
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24314_sol01.webp"
     ]
   },
   {
@@ -99,14 +99,14 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
           "καύσιμα"
         ],
         "explain": "1: αέρα, 2: καυσαέρια, 3: CO2.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.png"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.webp"
       },
       {
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω σχήμα απεικονίζεται το διάγραμμα περίσσειας αέρα και δείχνει τη σχέση ανάμεσα στο ποσοστό του CO₂ που υπάρχει μέσα στα καυσαέρια και την περίσσεια αέρα για διαφορετικούς τύπους καυσίμων. Να αντιστοιχίσετε τις γραμμές 1, 2, 3, 4 με τους τύπους καυσίμων της Στήλης Β.",
         "prompt": "Αντιστοίχιση καμπυλών διαγράμματος με τον τύπο καυσίμου:",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24317_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -174,7 +174,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "mc",
         "subq": "α",
         "prompt": "α) Να εκτιμήσετε την πτώση πίεσης $R$ και την ταχύτητα ροής $v$ εάν η παροχή είναι $V = 300\\text{ kg/h}$ και οι διαστάσεις των χαλυβδοσωλήνων 15 x 1,2.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -200,7 +200,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "mc",
         "subq": "β",
         "prompt": "β) Αν η παροχή είναι $V = 300\\text{ kg/h}$ και η ταχύτητα ροής $v = 0{,}6\\text{ m/s}$ ποιον χαλυβδοσωλήνα θα επιλέξετε;",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -223,10 +223,10 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "explain": "Από το διάγραμμα 1, για παροχή $V = 300\\text{ kg/h}$ και ταχύτητα ροής $v = 0{,}6\\text{ m/s}$ επιλέγουμε χαλυβδοσωλήνα διαστάσεων 16 x 1,2."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.png",
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol01.png",
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol02.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol01.webp",
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#24389_sol02.webp"
     ]
   },
   {
@@ -247,7 +247,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "1",
         "subqPrompt": "1. Για πτώση πίεσης R = 60 mmΣΝ/m και ταχύτητα ροής v = 0,9 m/sec:",
         "prompt": "Υπολογίστε την παροχή νερού $V$ σε $\\text{l/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.webp",
         "answer": 600,
         "unit": "l/h",
         "tolerance": 0.02,
@@ -371,9 +371,9 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "explain": "Από το διάγραμμα προκύπτει διάμετρος 12 x 1,2."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.png",
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28611_sol01.webp"
     ]
   },
   {
@@ -394,7 +394,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "1",
         "subqPrompt": "1. Για πτώση πίεσης R = 40 mmΣΝ/m και ταχύτητα ροής v = 0,5 m/sec:",
         "prompt": "Υπολογίστε την παροχή νερού $V$ σε $\\text{l/s}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.webp",
         "answer": 0.04,
         "unit": "l/s",
         "tolerance": 0.05,
@@ -534,9 +534,9 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "explain": "Από το διάγραμμα προκύπτει διάμετρος 15 x 1."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.png",
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28612_sol01.webp"
     ]
   },
   {
@@ -556,7 +556,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "α",
         "prompt": "α) Να υπολογιστεί η παροχή του νερού $V$ σε $\\text{l/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.webp",
         "formula": "$V = \\frac{Q}{\\Delta t}$",
         "answer": 300,
         "unit": "l/h",
@@ -567,14 +567,14 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Χρησιμοποιώντας το διάγραμμα χαρακτηριστικών των εύκαμπτων χαλυβδοσωλήνων, να βρεθεί η ταχύτητα ροής του νερού $v$ σε $\\text{m/s}$ για παροχή $V = 300\\text{ l/h}$ και διάμετρο 15 x 1,2.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.webp",
         "answer": 0.7,
         "unit": "m/s",
         "tolerance": 0.02,
         "explain": "Από το διάγραμμα για παροχή νερού $V = 300\\text{ l/h}$ και διάμετρο 15 x 1,2 προκύπτει ταχύτητα ροής $v = 0{,}7\\text{ m/s}$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig02.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_fig01.webp"
         ]
       },
       {
@@ -598,7 +598,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28613_sol01.webp"
     ]
   },
   {
@@ -619,7 +619,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "α",
         "subqPrompt": "α) Υπολογισμός παροχής νερού V:",
         "prompt": "Να υπολογιστεί η παροχή του νερού $V$ σε $\\text{l/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.webp",
         "formula": "$V = \\frac{Q_1 + Q_2}{\\Delta t}$",
         "answer": 216,
         "unit": "l/h",
@@ -640,13 +640,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Από το διάγραμμα χαρακτηριστικών χαλκοσωλήνα, να βρεθεί η ταχύτητα ροής του νερού $v$ σε $\\text{m/s}$ για παροχή $V = 0{,}06\\text{ l/s}$ και διάμετρο 18 x 1.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.webp",
         "answer": 0.3,
         "unit": "m/s",
         "tolerance": 0.02,
         "explain": "Από το διάγραμμα για $V = 0{,}06\\text{ l/s}$ και διάμετρο χαλκοσωλήνα 18 x 1 προκύπτει ταχύτητα ροής $v = 0{,}3\\text{ m/s}$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig02.webp"
         ]
       },
       {
@@ -667,11 +667,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "unit": "mmΣΝ",
         "tolerance": 0.01,
         "explain": "$\\Delta p = R \\cdot (L + L_{\\text{ισ}}) = 9\\text{ mmΣΝ/m} \\cdot (18\\text{ m} + 10\\text{ m}) = 9 \\cdot 28 = 252\\text{ mmΣΝ}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.png"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#28614_sol01.webp"
     ]
   }
 ]

@@ -20,7 +20,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "4.1",
         "prompt": "α) Να αναφέρετε το είδος γλύφανου που χρησιμοποιείται στην συγκεκριμένη εργασία.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19472_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19472_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -105,7 +105,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Η μη σύμπτωση των αξόνων (λοξή τοποθέτηση) προκαλεί οβάλ τρύπα και κίνδυνο σφηνώματος του εργαλείου.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19472_fig01.png"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19472_fig01.webp"
       },
       {
         "kind": "mc",
@@ -155,7 +155,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "subqPrompt": "2.1 Στο παρακάτω σχήμα βλέπετε ένα παράλληλο γλύφανο χεριού με ρυθμιζόμενη διάμετρο. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19476_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19476_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -204,7 +204,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - ε (Διαμήκεις εγκοπές με κλίση), 2 - γ (Κοπτικό μέρος), 3 - β (Κλίση), 4 - α (Περικόχλιο ρύθμισης). Περισσεύει το δ (Τρύπα).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19476_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19476_fig01.webp"
         ]
       },
       {

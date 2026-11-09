@@ -49,9 +49,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Σύμφωνα με το διάγραμμα, η απαιτούμενη διάμετρος του αεραγωγού ισούται με $500\\text{ mm}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25303_fig01.png",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25303_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25303_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25303_sol01.webp"
     ]
   },
   {
@@ -77,7 +77,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Προσθέστε τις παροχές και των τριών γραφείων.",
         "explain": " \\( Q_{A-B} = 160 + 120 + 140 = 420\\text{ L/s} \\).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26811_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26811_fig01.webp"
       },
       {
         "kind": "calc",
@@ -172,13 +172,13 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Η γραμμή απωλειών στατικής πίεσης δίνει απώλειες $2,65\\text{ Pa/m}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig01.png",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig01.png",
-      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig02.png"
+      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_fig02.webp"
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#29208_sol01.webp"
     ]
   }
 ]

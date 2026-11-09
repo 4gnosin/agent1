@@ -77,7 +77,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "bankCode": "17710",
     "title": "#17710 — Θέμα 4<sup>ο</sup> (α–β)",
     "units": 25,
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png",
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.webp",
     "stem": "Έχετε δύο ελάσματα πάχους $s = 4\\text{ mm}$ το καθένα τα οποία θα πρέπει να συνδεθούν με ήλωση με επικάλυψη (Σχήμα 1). Ο ήλος που θα χρησιμοποιηθεί έχει διάμετρο $d = 8\\text{ mm}$, με ημισφαιρική κεφαλή. Η ήλωση των ελασμάτων με κεφάλωμα των ήλων θα πραγματοποιηθεί εν ψυχρώ.",
     "theory": "ch07-01-eidi-syndeseon",
     "sourceOrder": 2,
@@ -154,9 +154,9 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς της Στήλης Α (εικόνα σύνδεσης) με τα γράμματα της Στήλης Β (ονομασία σύνδεσης). Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε την κάθε εικόνα σύνδεσης (1, 2, 3) με την ονομασία της:",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig03.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18711_fig03.webp"
         ],
         "imageLabels": [
           "1. Εικόνα 1",
@@ -303,7 +303,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "unit": "mm",
         "tolerance": 0.01,
         "explain": "$e_{1,\\min} = 2 \\cdot d_1 = 2 \\cdot 12\\text{ mm} = 24\\text{ mm}$.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.webp"
       },
       {
         "kind": "calc",
@@ -346,7 +346,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "bankCode": "25410",
     "title": "#25410 — Θέμα 4<sup>ο</sup>",
     "units": 25,
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png",
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-07/b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.webp",
     "stem": "Είσαστε στο μηχανουργείο. Θέλετε να πραγματοποιήσετε μια καρφοσύνδεση με τυφλοκαρφιά (πριτσίνια) και κάρφωμα με τη χρήση μηχανικού τραβηχτήρα (πριτσιναδόρου) (Σχήμα 1).",
     "theory": "ch07-01-eidi-syndeseon",
     "sourceOrder": 5,

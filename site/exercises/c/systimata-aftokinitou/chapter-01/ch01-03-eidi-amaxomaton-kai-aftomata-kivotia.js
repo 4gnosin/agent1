@@ -53,12 +53,12 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig03.png"
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig03.webp"
         ],
         "explain": "Αντιστοίχιση τύπων αμαξώματος βάσει των σχημάτων της Τράπεζας Θεμάτων: 1-β, 2-γ, 3-α.",
-        "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#24143_fig01.webp"
       },
       {
         "kind": "tf",
@@ -103,7 +103,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "theory": "ch01-03-eidi-amaxomaton-kai-aftomata-kivotia",
     "sourceOrder": 3,
     "stem": "Στο σχήμα 1 απεικονίζεται το πλανητικό σύστημα γραναζιών ενός αυτόματου κιβωτίου ταχυτήτων, το οποίο περιλαμβάνει τον ήλιο (Α), την οδοντωτή στεφάνη (Β) και τους πλανήτες (C). Για το σύστημα αυτό δίνονται ο αριθμός δοντιών του ήλιου $Z_A = 42$ και της στεφάνης $Z_B = 70$.",
-    "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#28997_fig01.png",
+    "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#28997_fig01.webp",
     "items": [
       {
         "kind": "calc",

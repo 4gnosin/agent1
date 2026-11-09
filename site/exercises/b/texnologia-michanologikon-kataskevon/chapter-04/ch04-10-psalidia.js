@@ -20,7 +20,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "4.1",
         "prompt": "α) Ποιο μεταλλοψάλιδο πρέπει να χρησιμοποιηθεί με βάση το σχέδιο κοπής (εσωτερικών καμπυλών) του σχήματος 1 και γιατί;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20071_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20071_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -75,7 +75,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Ψαλίδι 2: δύσκολες περιπτώσεις & ευθείες. Ψαλίδι 3: ευθείες γραμμές & εξωτερικές καμπύλες.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20071_fig01.png"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#20071_fig01.webp"
       },
       {
         "kind": "mc",

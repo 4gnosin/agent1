@@ -83,9 +83,9 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "2.1",
         "prompt": "4. Ποιο από τα παρακάτω σχήματα, απεικονίζει έναν κυλινδρικό κοπτήρα φρέζας;",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig02.png",
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig03.png"
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig03.webp"
         ],
         "options": [
           {
@@ -103,7 +103,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         ],
         "answer": "b",
         "explain": "Το Σχήμα 2 (`c_michanourgiki-texnologia_ch05_#27200_fig01.png`) απεικονίζει τον τυπικό κυλινδρικό κοπτήρα φρέζας.",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27200_fig01.webp"
       },
       {
         "kind": "mc",

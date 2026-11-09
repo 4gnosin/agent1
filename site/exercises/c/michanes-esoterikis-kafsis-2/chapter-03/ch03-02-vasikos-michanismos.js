@@ -74,10 +74,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "a"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.webp"
         ],
         "explain": "1-στ (Στρόφαλος), 2-ε (Βολάν), 3-γ (Μεταλλική φλάντζα), 4-β (Αξονικοί τριβείς/Θρος), 5-α (Κουζινέτα). Περισσεύει το δ.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.webp"
       },
       {
         "kind": "blank",
@@ -187,10 +187,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "b"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.webp"
         ],
         "explain": "1-γ (Κεφαλή εμβόλου), 2-α (Ζώνη ελατηρίων), 3-στ (Παρέκκλιση εμβόλου), 4-δ (Ομφαλός), 5-β (Ποδιά εμβόλου). Περισσεύει το ε.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.webp"
       },
       {
         "kind": "blank",
@@ -290,10 +290,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "e"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.webp"
         ],
         "explain": "1-β (Πόδι διωστήρα), 2-γ (Τριβέας πείρου), 3-α (Κορμός διωστήρα), 4-ε (Τριβέας στροφαλοφόρου). Περισσεύει το δ (κεφαλή).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-03/c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.webp"
       },
       {
         "kind": "blank",

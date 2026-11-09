@@ -57,11 +57,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "d"
         },
         "explain": "Η αντιστοίχιση βάσει της λύσης είναι: 1 - γ, 2 - α, 3 - δ.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig01.png",
-          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig02.png",
-          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig03.png"
+          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#34217_fig03.webp"
         ]
       },
       {

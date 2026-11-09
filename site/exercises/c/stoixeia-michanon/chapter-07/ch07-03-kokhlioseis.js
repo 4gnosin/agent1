@@ -57,11 +57,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση μορφών σπειρωμάτων είναι: 1-δ (τριγωνικό), 2-α (πριονωτό), 3-β (στρογγυλό).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23848_fig03.webp"
         ]
       },
       {
@@ -168,7 +168,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "5": "γ"
         },
         "explain": "Η ορθή αντιστοίχιση διαστάσεων σπειρώματος είναι: 1-ε, 2-δ, 3-β, 4-α, 5-γ.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23854_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23854_fig01.webp"
       },
       {
         "kind": "mc",
@@ -253,11 +253,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "δ"
         },
         "explain": "Η ορθή αντιστοίχιση τύπων κοχλιών είναι: 1-β (φυτευτός), 2-α (περαστός), 3-δ (κοχλίας κεφαλής).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23980_fig03.webp"
         ]
       },
       {
@@ -354,13 +354,13 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Οι ασφάλειες που ενεργούν λόγω μορφής είναι οι 2 (ασφαλιστική περόνη) και 5 (έλασμα), ενώ λόγω δυνάμεων (τριβής/προέντασης) είναι οι 1 (αντιπερικόχλιο), 3 (Dubo) και 4 (κωνική επαφή / ελατήριο).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig03.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig04.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig05.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig04.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23981_fig05.webp"
         ]
       },
       {
@@ -790,11 +790,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-δ, 2-α, 3-β.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25678_fig03.webp"
         ]
       },
       {
@@ -883,7 +883,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-γ (κεφαλή), 2-δ (αυχένας), 3-β (σπείρωμα).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25679_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25679_fig01.webp"
       },
       {
         "kind": "blank",
@@ -980,11 +980,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "ε"
         },
         "explain": "Η ορθή αντιστοίχιση περικοχλίων είναι: 1-β (εξαγωνικό), 2-δ (κορώνα/τυφλό), 3-α (πεταλούδα), 4-ε (δακτυλίδι).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25681_fig03.webp"
         ]
       },
       {
@@ -1120,11 +1120,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-δ (τετραγωνικό), 2-γ (πεταλούδα), 3-β (εξαγωνικό).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig01.png",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig01.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig02.png",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig03.png"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#25890_fig03.webp"
         ]
       },
       {

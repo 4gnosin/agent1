@@ -62,13 +62,13 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "4": "δ"
         },
         "images": [
-          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig01.png",
-          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig02.png",
-          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig03.png",
-          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig04.png"
+          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig01.webp",
+          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig02.webp",
+          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig03.webp",
+          "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig04.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση βάσει των σχημάτων της Τράπεζας Θεμάτων είναι: 1 - γ, 2 - β, 3 - α, 4 - δ.",
-        "image": "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig01.png"
+        "image": "images/b/antoxi/chapter-10/b_antoxi_ch10_#17984_fig01.webp"
       },
       {
         "kind": "tf",

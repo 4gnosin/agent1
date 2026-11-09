@@ -9,7 +9,7 @@
     "min_size": 80,
     "min_area": 15000,
     "repeat_threshold": 4,
-    "render_empty_pages": false,
+    "render_empty_pages": true,
     "dpi": 160,
     "crop": true,
     "vector_threshold": 12
@@ -25,17 +25,7 @@
       "height": 469,
       "sha1": "c71b217eb9dc",
       "bank_code_inherited": false,
-      "xref": 16,
-      "bbox": [
-        136.4,
-        158.8,
-        458.2,
-        336.4
-      ],
-      "question_anchor": null,
-      "text_before": "1.",
-      "text_after": "Σχήμα 1",
-      "is_full_page_scan": false
+      "xref": 16
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#32842_fig02.png",
@@ -47,17 +37,31 @@
       "height": 190,
       "sha1": "0fa495c5e293",
       "bank_code_inherited": false,
-      "xref": 17,
-      "bbox": [
-        95.5,
-        454.6,
-        499.6,
-        594.5
-      ],
-      "question_anchor": null,
-      "text_before": "Δίνεται ο Πίνακας 1, για την διαστασιολόγηση σωλήνων και διανομέων της διάταξης.",
-      "text_after": "Πίνακας 1",
-      "is_full_page_scan": false
+      "xref": 17
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch06_#32842_fig03.png",
+      "bank_code": "32842",
+      "role": "fig",
+      "page": 3,
+      "kind": "crop-render",
+      "reason": "vector-drawings",
+      "width": 1323,
+      "height": 1629,
+      "dpi": 160,
+      "bank_code_inherited": true
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch06_#32842_sol01.png",
+      "bank_code": "32842",
+      "role": "sol",
+      "page": 4,
+      "kind": "crop-render",
+      "reason": "vector-drawings",
+      "width": 1323,
+      "height": 1629,
+      "dpi": 160,
+      "bank_code_inherited": false
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#35118_fig01.png",
@@ -69,17 +73,7 @@
       "height": 205,
       "sha1": "4d4757202d6b",
       "bank_code_inherited": false,
-      "xref": 188,
-      "bbox": [
-        145.0,
-        136.8,
-        450.3,
-        290.6
-      ],
-      "question_anchor": null,
-      "text_before": "εγκατάστασης με δίκτυο σωλήνων ψυκτικού υγρού.",
-      "text_after": "Σχήμα 1: Συνδεσμολογία μηχανημάτων μιας κλιματιστικής εγκατάστασης.",
-      "is_full_page_scan": false
+      "xref": 188
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#35118_fig02.png",
@@ -91,17 +85,19 @@
       "height": 147,
       "sha1": "a2992e293d2a",
       "bank_code_inherited": false,
-      "xref": 189,
-      "bbox": [
-        114.6,
-        429.7,
-        480.7,
-        550.7
-      ],
-      "question_anchor": null,
-      "text_before": "διανομέων δίνει τον παρακάτω Πίνακα 1.",
-      "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων στο σύστημα της εξωτερικής",
-      "is_full_page_scan": false
+      "xref": 189
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch06_#35118_fig03.png",
+      "bank_code": "35118",
+      "role": "fig",
+      "page": 8,
+      "kind": "crop-render",
+      "reason": "vector-drawings",
+      "width": 1323,
+      "height": 1629,
+      "dpi": 160,
+      "bank_code_inherited": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol01.png",
@@ -113,12 +109,7 @@
       "height": 185,
       "sha1": "a15c303767c8",
       "bank_code_inherited": false,
-      "xref": 245,
-      "bbox": null,
-      "question_anchor": null,
-      "text_before": "",
-      "text_after": "",
-      "is_full_page_scan": false
+      "xref": 245
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol02.png",
@@ -130,17 +121,7 @@
       "height": 156,
       "sha1": "dea2ba0d961e",
       "bank_code_inherited": true,
-      "xref": 276,
-      "bbox": [
-        80.4,
-        70.9,
-        514.9,
-        211.2
-      ],
-      "question_anchor": null,
-      "text_before": "",
-      "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων του Σχήματος 1.",
-      "is_full_page_scan": false
+      "xref": 276
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol03.png",
@@ -152,17 +133,19 @@
       "height": 154,
       "sha1": "b74d1230ba0c",
       "bank_code_inherited": true,
-      "xref": 277,
-      "bbox": [
-        78.6,
-        419.5,
-        516.7,
-        558.1
-      ],
-      "question_anchor": null,
-      "text_before": "210 επιλέγω γραμμή αναρρόφησης 28,6 mm και για γραμμή υγρού 19,1 mm.",
-      "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων του Σχήματος 1.",
-      "is_full_page_scan": false
+      "xref": 277
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol04.png",
+      "bank_code": "35118",
+      "role": "sol",
+      "page": 11,
+      "kind": "crop-render",
+      "reason": "vector-drawings",
+      "width": 1323,
+      "height": 1629,
+      "dpi": 160,
+      "bank_code_inherited": true
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig01.png",
@@ -174,17 +157,7 @@
       "height": 185,
       "sha1": "c95bd9d90681",
       "bank_code_inherited": false,
-      "xref": 284,
-      "bbox": [
-        126.3,
-        424.2,
-        313.0,
-        535.2
-      ],
-      "question_anchor": "2.1",
-      "text_before": "2.",
-      "text_after": "3.",
-      "is_full_page_scan": false
+      "xref": 284
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig02.png",
@@ -196,17 +169,7 @@
       "height": 128,
       "sha1": "b6c178059302",
       "bank_code_inherited": false,
-      "xref": 285,
-      "bbox": [
-        129.1,
-        225.7,
-        278.2,
-        298.3
-      ],
-      "question_anchor": "2.1",
-      "text_before": "(ονομασία)",
-      "text_after": "1.",
-      "is_full_page_scan": false
+      "xref": 285
     },
     {
       "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig03.png",
@@ -218,71 +181,30 @@
       "height": 126,
       "sha1": "e7eb8dbb91a8",
       "bank_code_inherited": false,
-      "xref": 286,
-      "bbox": [
-        120.8,
-        318.5,
-        299.2,
-        404.0
-      ],
-      "question_anchor": "2.1",
-      "text_before": "1.",
-      "text_after": "2.",
-      "is_full_page_scan": false
+      "xref": 286
+    },
+    {
+      "file": "c_egkatastaseis-klimatismou_ch06_#34221_sol01.png",
+      "bank_code": "34221",
+      "role": "sol",
+      "page": 16,
+      "kind": "crop-render",
+      "reason": "vector-drawings",
+      "width": 1323,
+      "height": 1629,
+      "dpi": 160,
+      "bank_code_inherited": false
     }
   ],
   "by_bank_code": {
     "32842": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch06_#32842_fig01.png",
-        "c_egkatastaseis-klimatismou_ch06_#32842_fig02.png"
+        "c_egkatastaseis-klimatismou_ch06_#32842_fig02.png",
+        "c_egkatastaseis-klimatismou_ch06_#32842_fig03.png"
       ],
-      "sol": [],
-      "images": [
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#32842_fig01.png",
-          "bank_code": "32842",
-          "role": "fig",
-          "page": 2,
-          "kind": "embedded",
-          "width": 852,
-          "height": 469,
-          "sha1": "c71b217eb9dc",
-          "bank_code_inherited": false,
-          "xref": 16,
-          "bbox": [
-            136.4,
-            158.8,
-            458.2,
-            336.4
-          ],
-          "question_anchor": null,
-          "text_before": "1.",
-          "text_after": "Σχήμα 1",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#32842_fig02.png",
-          "bank_code": "32842",
-          "role": "fig",
-          "page": 2,
-          "kind": "embedded",
-          "width": 575,
-          "height": 190,
-          "sha1": "0fa495c5e293",
-          "bank_code_inherited": false,
-          "xref": 17,
-          "bbox": [
-            95.5,
-            454.6,
-            499.6,
-            594.5
-          ],
-          "question_anchor": null,
-          "text_before": "Δίνεται ο Πίνακας 1, για την διαστασιολόγηση σωλήνων και διανομέων της διάταξης.",
-          "text_after": "Πίνακας 1",
-          "is_full_page_scan": false
-        }
+      "sol": [
+        "c_egkatastaseis-klimatismou_ch06_#32842_sol01.png"
       ]
     },
     "34217": {
@@ -291,192 +213,25 @@
         "c_egkatastaseis-klimatismou_ch06_#34217_fig02.png",
         "c_egkatastaseis-klimatismou_ch06_#34217_fig03.png"
       ],
-      "sol": [],
-      "images": [
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig01.png",
-          "bank_code": "34217",
-          "role": "fig",
-          "page": 12,
-          "kind": "embedded",
-          "width": 311,
-          "height": 185,
-          "sha1": "c95bd9d90681",
-          "bank_code_inherited": false,
-          "xref": 284,
-          "bbox": [
-            126.3,
-            424.2,
-            313.0,
-            535.2
-          ],
-          "question_anchor": "2.1",
-          "text_before": "2.",
-          "text_after": "3.",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig02.png",
-          "bank_code": "34217",
-          "role": "fig",
-          "page": 12,
-          "kind": "embedded",
-          "width": 263,
-          "height": 128,
-          "sha1": "b6c178059302",
-          "bank_code_inherited": false,
-          "xref": 285,
-          "bbox": [
-            129.1,
-            225.7,
-            278.2,
-            298.3
-          ],
-          "question_anchor": "2.1",
-          "text_before": "(ονομασία)",
-          "text_after": "1.",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#34217_fig03.png",
-          "bank_code": "34217",
-          "role": "fig",
-          "page": 12,
-          "kind": "embedded",
-          "width": 263,
-          "height": 126,
-          "sha1": "e7eb8dbb91a8",
-          "bank_code_inherited": false,
-          "xref": 286,
-          "bbox": [
-            120.8,
-            318.5,
-            299.2,
-            404.0
-          ],
-          "question_anchor": "2.1",
-          "text_before": "1.",
-          "text_after": "2.",
-          "is_full_page_scan": false
-        }
+      "sol": []
+    },
+    "34221": {
+      "fig": [],
+      "sol": [
+        "c_egkatastaseis-klimatismou_ch06_#34221_sol01.png"
       ]
     },
     "35118": {
       "fig": [
         "c_egkatastaseis-klimatismou_ch06_#35118_fig01.png",
-        "c_egkatastaseis-klimatismou_ch06_#35118_fig02.png"
+        "c_egkatastaseis-klimatismou_ch06_#35118_fig02.png",
+        "c_egkatastaseis-klimatismou_ch06_#35118_fig03.png"
       ],
       "sol": [
         "c_egkatastaseis-klimatismou_ch06_#35118_sol01.png",
         "c_egkatastaseis-klimatismou_ch06_#35118_sol02.png",
-        "c_egkatastaseis-klimatismou_ch06_#35118_sol03.png"
-      ],
-      "images": [
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#35118_fig01.png",
-          "bank_code": "35118",
-          "role": "fig",
-          "page": 7,
-          "kind": "embedded",
-          "width": 407,
-          "height": 205,
-          "sha1": "4d4757202d6b",
-          "bank_code_inherited": false,
-          "xref": 188,
-          "bbox": [
-            145.0,
-            136.8,
-            450.3,
-            290.6
-          ],
-          "question_anchor": null,
-          "text_before": "εγκατάστασης με δίκτυο σωλήνων ψυκτικού υγρού.",
-          "text_after": "Σχήμα 1: Συνδεσμολογία μηχανημάτων μιας κλιματιστικής εγκατάστασης.",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#35118_fig02.png",
-          "bank_code": "35118",
-          "role": "fig",
-          "page": 7,
-          "kind": "embedded",
-          "width": 445,
-          "height": 147,
-          "sha1": "a2992e293d2a",
-          "bank_code_inherited": false,
-          "xref": 189,
-          "bbox": [
-            114.6,
-            429.7,
-            480.7,
-            550.7
-          ],
-          "question_anchor": null,
-          "text_before": "διανομέων δίνει τον παρακάτω Πίνακα 1.",
-          "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων στο σύστημα της εξωτερικής",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol01.png",
-          "bank_code": "35118",
-          "role": "sol",
-          "page": 9,
-          "kind": "embedded",
-          "width": 569,
-          "height": 185,
-          "sha1": "a15c303767c8",
-          "bank_code_inherited": false,
-          "xref": 245,
-          "bbox": null,
-          "question_anchor": null,
-          "text_before": "",
-          "text_after": "",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol02.png",
-          "bank_code": "35118",
-          "role": "sol",
-          "page": 10,
-          "kind": "embedded",
-          "width": 483,
-          "height": 156,
-          "sha1": "dea2ba0d961e",
-          "bank_code_inherited": true,
-          "xref": 276,
-          "bbox": [
-            80.4,
-            70.9,
-            514.9,
-            211.2
-          ],
-          "question_anchor": null,
-          "text_before": "",
-          "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων του Σχήματος 1.",
-          "is_full_page_scan": false
-        },
-        {
-          "file": "c_egkatastaseis-klimatismou_ch06_#35118_sol03.png",
-          "bank_code": "35118",
-          "role": "sol",
-          "page": 10,
-          "kind": "embedded",
-          "width": 487,
-          "height": 154,
-          "sha1": "b74d1230ba0c",
-          "bank_code_inherited": true,
-          "xref": 277,
-          "bbox": [
-            78.6,
-            419.5,
-            516.7,
-            558.1
-          ],
-          "question_anchor": null,
-          "text_before": "210 επιλέγω γραμμή αναρρόφησης 28,6 mm και για γραμμή υγρού 19,1 mm.",
-          "text_after": "Πίνακας 1: Διαστασιολόγηση σωλήνων και διανομέων του Σχήματος 1.",
-          "is_full_page_scan": false
-        }
+        "c_egkatastaseis-klimatismou_ch06_#35118_sol03.png",
+        "c_egkatastaseis-klimatismou_ch06_#35118_sol04.png"
       ]
     }
   }

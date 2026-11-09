@@ -33,7 +33,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "α",
         "subqPrompt": "α. Να υπολογίσετε τη διατομή $A$ της καπνοδόχου.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.webp",
         "prompt": "Υπολογίστε την απαιτούμενη διατομή $A$ της καπνοδόχου σε $\\text{cm}^2$ (χρησιμοποιώντας τον Πίνακα 1 για $n = 1200$).",
         "formula": "$m = 2{,}75 \\cdot Q_{\\lambda}$, $A = \\frac{m}{n \\cdot \\sqrt{H}}$",
         "answer": 540,
@@ -42,15 +42,15 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "hint": "$m = 2{,}75 \\cdot 104{,}6 = 287{,}65\\text{ kg/h}$. Από τον Πίνακα 1 επιλέγεται $n = 1200$. $A = \\frac{287{,}65}{1200 \\cdot 4{,}4}$.",
         "explain": "1) Ωριαία παραγωγή καυσαερίων: $m = 2{,}75 \\cdot 104{,}6 = 287{,}65\\text{ kg/h}$.\n2) Από τον Πίνακα 1, για $Q = 90.000\\text{ Kcal/h}$ και $H = 20\\text{ m}$, λαμβάνουμε συντελεστή μορφής $n = 1200$.\n3) Διατομή $A = \\frac{287{,}65}{1200 \\cdot 4{,}4} \\approx 0{,}054\\text{ m}^2 = 540\\text{ cm}^2$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.webp"
         ]
       },
       {
         "kind": "mc",
         "subq": "β",
         "subqPrompt": "β. Να προσδιορίσετε τις διαστάσεις της διατομής $A$ με βάση τον Πίνακα 2.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_fig02.webp",
         "prompt": "Με βάση τον Πίνακα 2, ποιες είναι οι κατάλληλες διαστάσεις διατομής της καπνοδόχου για ύψος $H = 20\\text{ m}$ και θερμική ισχύ $Q_{\\lambda} = 104{,}6\\text{ kW}$;",
         "options": [
           {
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "openEnded": true,
         "subq": "γ",
         "prompt": "γ. Ποιες είναι οι διαστάσεις (μήκος, πλάτος) στο σκαρίφημα της διατομής της καπνοδόχου;",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.webp",
         "options": [
           {
             "id": "a",
@@ -102,7 +102,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.png"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24112_sol01.webp"
     ]
   },
   {
@@ -131,7 +131,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.1",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24122_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24122_fig01.webp",
         "prompt": "Υπολογίστε τη διατομή της καπνοδόχου $A$ σε $\\text{m}^2$ (χρησιμοποιώντας τον διδόμενο πίνακα για τον υπολογισμό του συντελεστή μορφής $n$).",
         "formula": "$m = 2{,}75 \\cdot Q_{\\lambda}$, $A = \\frac{m}{n \\cdot \\sqrt{H}}$",
         "answer": 0.05,

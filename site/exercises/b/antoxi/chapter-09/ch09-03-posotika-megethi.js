@@ -151,7 +151,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "explain": "Επειδή $\\tau = 4000\\text{ daN/cm}^2 > \\tau_{\\text{επ}} = 3000\\text{ daN/cm}^2$, ο ήλος δεν αντέχει."
       }
     ],
-    "image": "images/b/antoxi/chapter-09/b_antoxi_ch09_#20265_fig01.png"
+    "image": "images/b/antoxi/chapter-09/b_antoxi_ch09_#20265_fig01.webp"
   },
   {
     "id": "ch09-20470",

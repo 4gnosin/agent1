@@ -126,7 +126,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "prompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται μία καμπτική μηχανή. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β (ένα γράμμα περισσεύει):",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -175,7 +175,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 – δ (Σώμα), 2 – α (Σφιγκτήρας), 3 – ε (Καμπτήρας), 4 – β (Χειρολαβή). Περισσεύει το γ (Αντίβαρο).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#19846_fig01.webp"
         ]
       }
     ]

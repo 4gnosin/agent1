@@ -19,7 +19,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το παρακάτω σχήμα όπου απεικονίζονται βιδωτά εξαρτήματα σωληνώσεων, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5 της Στήλης Α με τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β (ένα γράμμα περισσεύει):",
         "prompt": "Αντιστοίχιση εξαρτημάτων σωληνώσεων:",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -77,7 +77,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1: Μούφα (δ), 2: Ταυ (στ), 3: Σταυρός (ε), 4: Συστολή (α), 5: Μαστός (β).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#18918_fig01.webp"
         ]
       },
       {

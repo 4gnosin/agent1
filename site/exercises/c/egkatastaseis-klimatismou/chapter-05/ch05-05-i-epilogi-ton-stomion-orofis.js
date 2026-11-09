@@ -160,11 +160,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "1 – γ (Στόμιο οροφής), 2 – δ (Στόμιο τοίχου), 3 – α (Στόμιο οροφής με διάφραγμα).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig01.png",
-          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig02.png",
-          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig03.png"
+          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29448_fig03.webp"
         ]
       },
       {
@@ -243,10 +243,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 5,
         "hint": "Χρησιμοποιήστε ταχύτητα 5 m/s και παροχή 250 L/s στο διάγραμμα επιλογής.",
         "explain": "Για θέατρα η μέγιστη επιτρεπόμενη ταχύτητα είναι $5\\text{ m/s}$. Από το διάγραμμα 1, η τομή παροχής $250\\text{ L/s}$ και ταχύτητας $5\\text{ m/s}$ δίνει διάμετρο $350\\text{ mm}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig01.png",
-          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig02.png"
+          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_fig02.webp"
         ]
       },
       {
@@ -277,7 +277,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32802_sol01.webp"
     ]
   },
   {
@@ -314,11 +314,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 2,
         "hint": "Βρείτε την τομή ταχύτητας 2,5 m/s και διαμέτρου 400 mm στο διάγραμμα.",
         "explain": "Από το διάγραμμα για ταχύτητα $2,5\\text{ m/s}$ και διάμετρο $400\\text{ mm}$, η απαιτούμενη παροχή είναι $150\\text{ L/s}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32840_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32840_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32840_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32840_sol01.webp"
     ]
   },
   {
@@ -346,14 +346,14 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Από τον Πίνακα 1 η επιτρεπόμενη ταχύτητα σε γυμναστήρια είναι $v = 7,5\\text{ m/s}$. Από το διάγραμμα του Σχήματος 1, για παροχή $Q = 225\\text{ L/s}$ και ταχύτητα $7,5\\text{ m/s}$, η διάμετρος του κυκλικού στομίου είναι $250\\text{ mm}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig01.png",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig01.png",
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig02.png"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_fig02.webp"
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_sol01.png",
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_sol02.png"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_sol01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32860_sol02.webp"
     ]
   }
 ]

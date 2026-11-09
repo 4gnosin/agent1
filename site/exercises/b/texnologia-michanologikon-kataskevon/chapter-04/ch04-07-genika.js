@@ -21,7 +21,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "α) Να αναφέρετε τον μηχανισμό της κοπής που παρουσιάζεται στο σχήμα 1 και να δικαιολογήσετε την απάντησή σας.",
         "prompt": "Ποιος είναι ο μηχανισμός κοπής που φαίνεται στο σχήμα 1 και γιατί;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18884_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18884_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -47,7 +47,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "answer": "a",
         "explain": "Πρόκειται για ορθογωνική κοπή διότι η κόψη είναι κάθετη στη διεύθυνση κοπής και το πλάτος του εργαλείου μεγαλύτερο από το πλάτος του κομματιού.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18884_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18884_fig01.webp"
         ]
       },
       {

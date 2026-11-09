@@ -19,14 +19,14 @@ window.EXERCISES.push(...
         "subq": "4.1",
         "prompt": "Σχεδιάστε τη μεταβολή σε διάγραμμα πίεσης όγκου ($P-V$) και σημειώστε με ένα βέλος τη φορά της μεταβολής.",
         "explain": "Η ισόθερμη μεταβολή απεικονίζεται σε διάγραμμα $P-V$ από ισοσκελή υπερβολή.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "Απεικονίστε στο διάγραμμα το έργο που προσφέρθηκε.",
         "explain": "Το έργο αντιστοιχεί στο εμβαδόν κάτω από την καμπύλη της ισόθερμης μεταβολής στο διάγραμμα $P-V$.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol02.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol02.webp"
       },
       {
         "kind": "calc",
@@ -38,12 +38,12 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Σε ισόθερμη μεταβολή ισχύει $\\Delta U = 0$, οπότε $Q = W$. Το έργο που προσφέρεται στο αέριο θεωρείται αρνητικό ($W = -200\\text{ kJ}$).",
         "explain": "Σύμφωνα με τον πρώτο θερμοδυναμικό νόμο $Q = \\Delta U + W$. Επειδή η μεταβολή είναι ισόθερμη, $\\Delta U = 0$, οπότε $Q = W$. Επειδή το έργο προσφέρεται στο αέριο, $W = -200\\text{ kJ}$, άρα $Q = -200\\text{ kJ}$. Το αρνητικό πρόσημο δείχνει ότι η θερμότητα αποδόθηκε από το αέριο προς το περιβάλλον.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.png",
-      "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol02.png"
+      "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol01.webp",
+      "images/b/thermod/chapter-06/b_thermod_ch06_#20976_sol02.webp"
     ]
   },
   {
@@ -149,14 +149,14 @@ window.EXERCISES.push(...
         "subq": "4.1",
         "prompt": "Σχεδιάστε τη μεταβολή σε διάγραμμα πίεσης όγκου ($P-V$) και σημειώστε με ένα βέλος τη φορά της μεταβολής.",
         "explain": "Αφού αποδίδεται έργο στο περιβάλλον, το σύστημα διαστέλλεται και η ισόθερμη μεταβολή απεικονίζεται από κατάσταση με υψηλότερη πίεση προς κατάσταση με χαμηλότερη πίεση.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "Απεικονίστε στο διάγραμμα το έργο που αποδόθηκε.",
         "explain": "Το εμβαδόν κάτω από τη γραμμή του διαγράμματος είναι ίσο με το έργο $W_{AB}$ που αποδόθηκε στο περιβάλλον.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol02.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol02.webp"
       },
       {
         "kind": "calc",
@@ -168,12 +168,12 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Σε ισόθερμη εκτόνωση $\\Delta U = 0$, οπότε από τον πρώτο θερμοδυναμικό νόμο προκύπτει $Q = W$.",
         "explain": "Σε μία ισόθερμη εκτόνωση η μεταβολή της εσωτερικής ενέργειας είναι $\\Delta U = 0$. Με βάση τον πρώτο θερμοδυναμικό νόμο $Q = W$, οπότε $Q = 300\\text{ kJ}$. Η θερμότητα είναι θετική, πράγμα που σημαίνει ότι δόθηκε στο σύστημα.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.png",
-      "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol02.png"
+      "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol01.webp",
+      "images/b/thermod/chapter-06/b_thermod_ch06_#20986_sol02.webp"
     ]
   },
   {
@@ -248,14 +248,14 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Εφαρμόστε τον νόμο Boyle-Mariotte για ισόθερμη μεταβολή: $P_1 \\cdot V_1 = P_2 \\cdot V_2$.",
         "explain": "Από τον νόμο Boyle-Mariotte ($P_1 V_1 = P_2 V_2$) προκύπτει: $V_2 = \\frac{0,75\\text{ m}^3 \\cdot 2\\text{ bar}}{5\\text{ bar}} = 0,3\\text{ m}^3$.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "β",
         "prompt": "Να απεικονίσετε τη μεταβολή 1-2 σε διάγραμμα $P-V$.",
         "explain": "Στο διάγραμμα $P-V$, η ισόθερμη μεταβολή απεικονίζεται με μία ισοσκελή υπερβολή από κατάσταση χαμηλότερης πίεσης σε κατάσταση υψηλότερης πίεσης.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.webp"
       },
       {
         "kind": "calc",
@@ -270,7 +270,7 @@ window.EXERCISES.push(...
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.png"
+      "images/b/thermod/chapter-06/b_thermod_ch06_#20987_sol01.webp"
     ]
   },
   {
@@ -296,7 +296,7 @@ window.EXERCISES.push(...
         "tolerance": 0.02,
         "hint": "Εφαρμόστε τον νόμο Boyle-Mariotte για ισόθερμη μεταβολή: $P_1 \\cdot V_1 = P_2 \\cdot V_2$.",
         "explain": "Ο τελικός όγκος υπολογίζεται από τη σχέση: $V_2 = \\frac{0,9 \\text{ bar} \\cdot 0,03 \\text{ m}^3}{9 \\text{ bar}} = 0,003 \\text{ m}^3$.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.webp"
       },
       {
         "kind": "open",
@@ -304,11 +304,11 @@ window.EXERCISES.push(...
         "subqPrompt": "4.2. Να απεικονίσετε τη μεταβολή αυτή σε ένα διάγραμμα P – V.",
         "prompt": "Να απεικονίσετε τη μεταβολή αυτή σε ένα διάγραμμα $P – V$.",
         "explain": "Η ισόθερμη μεταβολή απεικονίζεται σε διάγραμμα $P-V$ ως ισόθερμη καμπύλη (υπερβολή) που συνδέει την αρχική κατάσταση 1 ($P_1, V_1$) με την τελική κατάσταση 2 ($P_2, V_2$).",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.png"
+      "images/b/thermod/chapter-06/b_thermod_ch06_#18710_sol01.webp"
     ]
   }
 ]

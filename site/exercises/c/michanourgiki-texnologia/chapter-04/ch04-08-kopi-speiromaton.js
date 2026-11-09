@@ -162,7 +162,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Λάβετε το 30% της ταχύτητας εκχόνδρισης $U = 120\\text{ m/min}$.",
         "explain": "Η ταχύτητα κοπής σπειρωμάτων εκτιμάται στο 25~30% της ταχύτητας εκχόνδρισης. Από τον πίνακα για χάλυβα αντοχής 50-70 kg/mm² έχουμε $U = 120\\text{ m/min}$, οπότε $U_s = 0,30 \\cdot 120 = 36\\text{ m/min}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27558_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27558_fig01.webp"
       },
       {
         "kind": "calc",

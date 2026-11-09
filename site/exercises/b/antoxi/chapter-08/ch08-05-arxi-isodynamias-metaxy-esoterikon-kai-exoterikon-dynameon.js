@@ -47,9 +47,9 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "kind": "mc",
         "subq": "2.2",
         "images": [
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig01.png",
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig02.png",
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig03.png"
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig01.webp",
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig02.webp",
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig03.webp"
         ],
         "subqPrompt": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το γράμμα που αντιστοιχεί στη σωστή απάντηση. Στα παρακάτω είδη στηρίξεως των δοκών, επιλέξτε ποια είδη αντιδράσεων αναπτύσσονται:",
         "prompt": "1. Στην πάκτωση εμφανίζονται:",
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         ],
         "answer": "d",
         "explain": "Στην πάκτωση αναπτύσσονται και οι τρεις αντιδράσεις: οριζόντια δύναμη $A_x$, κατακόρυφη δύναμη $A_y$ και ροπή πάκτωσης $M_\\Pi$.",
-        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig01.png"
+        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#17858_fig01.webp"
       },
       {
         "kind": "mc",
@@ -143,8 +143,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "images": [
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig01.png",
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig02.png"
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig01.webp",
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig02.webp"
         ],
         "subqPrompt": "Να γράψετε στις απαντήσεις σας τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τις εσωτερικές δυνάμεις της Στήλης Α με τη σήμανσή τους στη Στήλη Β:",
@@ -195,7 +195,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "4": "b"
         },
         "explain": "Εφελκυσμός: $N > 0$ (δ). Θλίψη: $N < 0$ (ε). Δεξιόστροφη ροπή εγκάρσιας δύναμης: $Q > 0$ (α). Αριστερόστροφη ροπή: $Q < 0$ (β).",
-        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig01.png"
+        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#19460_fig01.webp"
       },
       {
         "kind": "tf",

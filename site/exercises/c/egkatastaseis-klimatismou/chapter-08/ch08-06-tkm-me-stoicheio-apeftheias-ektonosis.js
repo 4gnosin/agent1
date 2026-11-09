@@ -27,10 +27,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Ένα χαρακτηριστικό σημείο όλων των ΤΚΜ είναι ότι έχουν τον ανεμιστήρα μπροστά από το στοιχείο.",
         "answer": false,
         "explain": "Λάθος. Στις ΤΚΜ ο ανεμιστήρας τοποθετείται πίσω από το στοιχείο (αναρροφά τον αέρα) για λόγους ασφαλείας και ομοιόμορφης ισοκατανομής.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig01.png",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig02.png"
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig02.webp"
         ]
       },
       {
@@ -91,10 +91,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "Αντιστοίχιση τύπων ΤΚΜ: 1 -> c (Τοίχου DX), 2 -> a (Εξωτερικό στοιχείο split-unit), 3 -> e (Δαπέδου-οροφής), 4 -> b (Ψευδοροφής / κασέτας).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig03.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig03.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig03.png",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig04.png"
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig03.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34469_fig04.webp"
         ]
       }
     ]

@@ -119,13 +119,13 @@ window.EXERCISES.push(...
           "4": "c"
         },
         "images": [
-          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig01.png",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig02.png",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig03.png",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig04.png"
+          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig01.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig02.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig03.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig04.webp"
         ],
         "explain": "Το έργο σταθερής δύναμης αντιστοιχεί σε ορθογώνιο (α), το έργο ελατηρίου σε τρίγωνο (δ), η τυχαία διαδρομή σε καμπύλη (β) και η επιπλέον συμπίεση βαλβίδας σε τραπέζιο (γ).",
-        "image": "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig01.png"
+        "image": "images/b/thermod/chapter-04/b_thermod_ch04_#18643_fig01.webp"
       }
     ]
   },

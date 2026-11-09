@@ -16,7 +16,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "items": [
       {
         "kind": "match",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.webp",
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το σχήμα 1, όπου παρουσιάζεται εγκατάσταση κεντρικής θέρμανσης με κλειστό δοχείο διαστολής, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 με τα εξαρτήματα της Στήλης Β.",
         "prompt": "Αντιστοιχίστε τους αριθμούς 1-4 του σχήματος με τα εξαρτήματα της εγκατάστασης:",
@@ -68,8 +68,8 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1->ε (Λέβητας), 2->α (Κυκλοφορητής), 3->γ (Κλειστό δοχείο διαστολής), 4->β (Βαλβίδα ασφαλείας).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.png",
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig02.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig01.webp",
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-01/c_stoixeia-kentrikon-thermanseon_ch01_#24119_fig02.webp"
         ]
       },
       {

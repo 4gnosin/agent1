@@ -74,10 +74,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "c"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#27391_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#27391_fig01.webp"
         ],
         "explain": "Σύμφωνα με το σχήμα οπίσθιας ανάρτησης Μακ Φέρσον: 1-β (Ελατήριο), 2-δ (Εγκάρσιος βραχίονας), 3-στ (Γόνατο με πλήμνη), 4-α (Αμορτισέρ), 5-γ (Διαμήκης βραχίονας). Περισσεύει το ε (Αντιστρεπτική ράβδος).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#27391_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#27391_fig01.webp"
       },
       {
         "kind": "tf",
@@ -185,10 +185,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "c"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34042_fig01.png"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34042_fig01.webp"
         ],
         "explain": "Σύμφωνα με το συγκρότημα εμβόλου-σφαίρας υδροπνευματικής ανάρτησης: 1-α (Ελαστικό διάφραγμα), 2-δ (Βαλβίδες), 3-ε (Έμβολο), 4-β (Επάνω θάλαμος αερίου αζώτου), 5-γ (Κάτω θάλαμος λαδιού).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34042_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34042_fig01.webp"
       },
       {
         "kind": "mc",

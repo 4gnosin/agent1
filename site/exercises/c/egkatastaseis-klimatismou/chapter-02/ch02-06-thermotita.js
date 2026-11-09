@@ -50,9 +50,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Ο ειδικός όγκος είναι $v = 0,87\\text{ m}^3/\\text{Kg}$. Η μάζα είναι $m = 348 / 0,87 = 400\\text{ Kg}$. Η λανθάνουσα θερμότητα είναι $Q_L = 400 \\cdot 16,3 = 6520\\text{ kJ}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23825_fig01.png",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23825_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23825_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23825_sol01.webp"
     ]
   },
   {
@@ -176,7 +176,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23871_sol01.png"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23871_sol01.webp"
     ]
   }
 ]

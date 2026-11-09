@@ -122,7 +122,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "3": "a"
         },
         "explain": "1 – γ (Πρόωση), 2 – δ (Συνισταμένη κίνηση), 3 – α (Πρωτεύουσα κίνηση).",
-        "image": "images/c/michanourgiki-texnologia/chapter-01/c_michanourgiki-texnologia_ch01_#26779_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-01/c_michanourgiki-texnologia_ch01_#26779_fig01.webp"
       },
       {
         "kind": "mc",

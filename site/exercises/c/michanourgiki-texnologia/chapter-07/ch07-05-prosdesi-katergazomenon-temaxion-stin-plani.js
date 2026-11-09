@@ -15,8 +15,8 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "sourceOrder": 3,
     "stem": "Στα πλαίσια εργαστηριακής άσκησης στο Μηχανουργείο του σχολείου πρόκειται να κατεργαστείτε σε πλάνη τεμάχιο από χάλυβα, ορθογωνικής διατομής, συνολικού μήκους 100 mm. Το τεμάχιο έχει 2 διαβαθμίσεις στο μήκος του και όριο θραύσης υλικού $40 \\text{ Kp/mm}^2$.",
     "images": [
-      "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.png",
-      "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig02.png"
+      "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.webp",
+      "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig02.webp"
     ],
     "items": [
       {
@@ -65,10 +65,10 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.05,
         "hint": "Μετατρέψτε το $L$ σε μέτρα ($L = 0,13\\text{ m}$) και διαιρέστε το $u_\\mu$ δια $2 \\cdot L$.",
         "explain": "Έχουμε $L = 130\\text{ mm} = 0,13\\text{ m}$. Ο αριθμός κύκλων εργασίας είναι $n = \\frac{22\\text{ m/min}}{2 \\cdot 0,13\\text{ m}} = \\frac{22}{0,26} \\approx 84,61 \\approx 85\\text{ κύκλοι/min}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.webp",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig02.png"
+          "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27543_fig02.webp"
         ]
       }
     ]

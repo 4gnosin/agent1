@@ -476,7 +476,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "α",
         "prompt": "α) Να υπολογιστεί ο συνολικός όγκος του κτιρίου ($V_{\\text{κτιρίου}}$) και να προσδιοριστεί η χωρητικότητα της νέας δεξαμενής (σε $\\text{m}^3$) με βάση τον Πίνακα 1.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-04/c_stoixeia-kentrikon-thermanseon_ch04_#31268_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-04/c_stoixeia-kentrikon-thermanseon_ch04_#31268_fig01.webp",
         "formula": "$V_{\\text{κτιρίου}} = 4 \\cdot 1750\\text{ m}^3 = 7000\\text{ m}^3 \\Rightarrow \\text{Χωρητικότητα} = 3{,}5\\text{ m}^3$",
         "answer": 3.5,
         "unit": "m³",

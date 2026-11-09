@@ -64,7 +64,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
       },
       {
         "subq": "4.2.α",
-        "subqPrompt": "4.2. Στο παρακάτω σχήμα φαίνεται ένας θερμοστάτης με διακύμανση ρύθμισης από +1 έως +5 °C. Ταυτόχρονα παρουσιάζεται η διακύμανση λειτουργίας του ψυκτικού θαλάμου τον οποίο ελέγχει ο θερμοστάτης από -4 °C έως +10 °C:\n\n![Διακύμανση ρύθμισης θερμοστάτη και λειτουργίας θαλάμου](images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.png)",
+        "subqPrompt": "4.2. Στο παρακάτω σχήμα φαίνεται ένας θερμοστάτης με διακύμανση ρύθμισης από +1 έως +5 °C. Ταυτόχρονα παρουσιάζεται η διακύμανση λειτουργίας του ψυκτικού θαλάμου τον οποίο ελέγχει ο θερμοστάτης από -4 °C έως +10 °C:\n\n![Διακύμανση ρύθμισης θερμοστάτη και λειτουργίας θαλάμου](images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.webp)",
         "kind": "calc",
         "prompt": "α. Πόση είναι η διακύμανση (διαφορική) ρύθμισης του θερμοστάτη;",
         "formula": "$\\Delta t = t_{\\text{on}} - t_{\\text{off}}$",
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "tolerance": 0.01,
         "hint": "Υπολογίστε τη διαφορά μεταξύ των δύο θερμοκρασιών ρύθμισης του θερμοστάτη (+1 °C και +5 °C).",
         "explain": "Η διακύμανση (διαφορική ρύθμιση) του θερμοστάτη είναι: $5 - 1 = 4\\text{ }^\\circ\\text{C}$.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#23678_fig01.webp"
       },
       {
         "subq": "4.2.β",

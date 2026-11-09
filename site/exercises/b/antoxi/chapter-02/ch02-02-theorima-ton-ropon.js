@@ -37,7 +37,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Υπολογίστε τις ροπές κάθε δύναμης ως προς το Α και αθροίστε τες αλγεβρικά.",
         "explain": "$M_{F1} = F_1 \\cdot l_1 = 80\\text{ N} \\cdot 3\\text{ m} = 240\\text{ N}\\cdot\\text{m}$, $M_{F2} = -F_2 \\cdot l_2 = -30\\text{ N} \\cdot 5\\text{ m} = -150\\text{ N}\\cdot\\text{m}$. Άρα $M_\\Sigma = 240 - 150 = 90\\text{ N}\\cdot\\text{m}$.",
-        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_#16262_fig01.png"
+        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_#16262_fig01.webp"
       }
     ]
   },

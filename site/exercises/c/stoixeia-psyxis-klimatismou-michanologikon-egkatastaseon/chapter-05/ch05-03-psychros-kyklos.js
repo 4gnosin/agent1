@@ -56,7 +56,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "3": "a"
         },
         "explain": "Σύμφωνα με τον ψυκτικό κύκλο: 1 - δ (Συμπιεστής), 2 - β (Συμπυκνωτής), 3 - α (Εκτονωτικό μέσο).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.webp"
       },
       {
         "kind": "tf",

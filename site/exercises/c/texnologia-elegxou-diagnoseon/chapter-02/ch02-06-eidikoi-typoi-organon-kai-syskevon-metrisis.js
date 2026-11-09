@@ -41,11 +41,11 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "2.2",
         "prompt": "2.2 Αντιστοιχίστε την ονομασία του οργάνου/συσκευής της Στήλης Α με την αντίστοιχη εικόνα της Στήλης Β:",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.png",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig02.png",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig03.png",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig04.png",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig05.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig02.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig03.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig04.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig05.webp"
         ],
         "left": [
           {
@@ -94,7 +94,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
           "4": "a"
         },
         "explain": "1-β: Λυχνία χρονισμού (εικόνα β). 2-γ: Αντλία υποπίεσης (εικόνα γ). 3-δ: Breakout box (εικόνα δ). 4-α: Παλμογράφος με παρελκόμενα (εικόνα α).",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.png"
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#30564_fig01.webp"
       }
     ]
   }

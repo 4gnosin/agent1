@@ -40,7 +40,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ της Στήλης Β:",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -85,7 +85,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - δ (Πλατύ κοπίδι), 2 - γ (Σταυρωτό κοπίδι), 3 - β (Μισοστρόγγυλο κοπίδι), 4 - α (Κοπίδι νύχι).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16400_fig01.webp"
         ]
       }
     ]
@@ -106,7 +106,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το παρακάτω σχήμα όπου απεικονίζονται τα είδη ζουμπάδων, να αντιστοιχίσετε τους αριθμούς 1, 2, 3 της Στήλης Α με τα γράμματα α, β, γ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig03.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig03.webp",
         "left": [
           {
             "id": "1",
@@ -147,10 +147,10 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2 Με βάση τα παρακάτω σχήματα όπου απεικονίζονται τα είδη κλειδιών, να αντιστοιχίσετε τα κλειδιά 1, 2, 3, 4 της Στήλης Α με τα αντίστοιχα σχήματα (α, β, γ, δ) της Στήλης Β.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.png",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig04.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig05.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16412_fig02.webp"
         ],
         "imageLabels": [
           "α. Εικόνα α",
@@ -243,7 +243,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται η αφαίρεση υλικού από εργαλείο κοπής. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -288,7 +288,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - δ (Βάθος κοπής), 2 - γ (Επιφάνεια αποβλήτου), 3 - α (Άκρο εργαλείου), 4 - β (Ελεύθερη επιφάνεια).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18373_fig01.webp"
         ]
       }
     ]

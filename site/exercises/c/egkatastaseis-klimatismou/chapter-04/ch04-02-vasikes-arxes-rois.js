@@ -40,7 +40,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.2",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26660_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26660_fig01.webp",
         "prompt": "Να υπολογίσετε τη δυναμική πίεση στον αεραγωγό του σχήματος (με ολική πίεση $p_T = 30\\text{ psi}$ και στατική πίεση $p_s = 25\\text{ psi}$).",
         "formula": "$p_T = p_s + p_d$",
         "answer": 5,

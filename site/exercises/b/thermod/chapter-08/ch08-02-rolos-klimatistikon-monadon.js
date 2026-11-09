@@ -129,16 +129,16 @@ window.EXERCISES.push(...
         ],
         "answer": "a",
         "explain": "Μπορεί να εφαρμοστεί η περίπτωση του σχήματος 2, γιατί ισχύει ο 1ος Θερμοδυναμικός νόμος ($\\Delta U = 0 \\Rightarrow Q_1 - Q_2 = W$) και ο 2ος Θερμοδυναμικός νόμος (η θερμότητα μετατρέπεται εν μέρει σε έργο και το υπόλοιπο αποβάλλεται σε ψυχρότερο περιβάλλον με $T_1 > T_2$).",
-        "image": "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.png",
+        "image": "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.webp",
         "images": [
-          "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.png",
-          "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig02.png"
+          "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.webp",
+          "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig02.webp"
         ]
       }
     ],
     "images": [
-      "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.png",
-      "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig02.png"
+      "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig01.webp",
+      "images/b/thermod/chapter-08/b_thermod_ch08_#17111_fig02.webp"
     ]
   },
   {

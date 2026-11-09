@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "a"
         },
         "explain": "Η σωστή αντιστοίχιση βάσει του σχεδίου της μηχανικής πρέσας είναι: 1-ε (Συμπλέκτης και φρένο), 2-β (Ρυθμιστής ολισθητήρα), 3-στ (Γρανάζι κίνησης), 4-δ (Αποσβεστήρας), 5-α (Διωστήρας).",
-        "image": "images/c/michanourgiki-texnologia/chapter-12/c_michanourgiki-texnologia_ch12_#27692_fig01.png"
+        "image": "images/c/michanourgiki-texnologia/chapter-12/c_michanourgiki-texnologia_ch12_#27692_fig01.webp"
       },
       {
         "kind": "mc",

@@ -247,7 +247,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "kind": "match",
         "subq": "2.2",
         "prompt": "Στην παρακάτω εικόνα απεικονίζεται η μέθοδος αποπάγωσης με μεταγωγή θερμού ατμού. Αντιστοιχίστε τα αριθμημένα μέρη της Στήλης Α με τα γράμματα της Στήλης Β.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26873_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26873_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -296,7 +296,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Σύμφωνα με το διάγραμμα αποπάγωσης: 1 αντιστοιχεί στον ατμοποιητή, 2 στον συμπιεστή, 3 στον σωλήνα μεταγωγής θερμού ατμού και 4 στη σωληνοειδή βαλβίδα.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26873_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26873_fig01.webp"
         ]
       }
     ]
@@ -317,7 +317,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "kind": "match",
         "subq": "2.1",
         "prompt": "Με βάση το παρακάτω σχήμα του πύργου ψύξης, αντιστοιχίστε τους αριθμούς της Στήλης Α με τα γράμματα της Στήλης Β.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26888_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26888_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -375,7 +375,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Στον πύργο ψύξης: 1 είναι η έξοδος νερού, 2 η εισαγωγή αέρα, 3 οι ψεκαστήρες νερού, 4 η είσοδος νερού και 5 η εξαγωγή αέρα.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26888_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26888_fig01.webp"
         ]
       },
       {

@@ -25,7 +25,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.001,
         "hint": "Ανατρέξτε στη γραμμή των $20\\text{ }^\\circ\\text{C}$ του πίνακα ιδιοτήτων.",
         "explain": "Σύμφωνα με τον πίνακα, η πίεση συμπύκνωσης που αντιστοιχεί στους $20\\text{ }^\\circ\\text{C}$ είναι $5,667\\text{ bar}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23815_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23815_fig01.webp"
       },
       {
         "subq": "β",
@@ -95,7 +95,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       {
         "subq": "2.2",
         "subqPrompt": "Στο παρακάτω σχήμα παριστάνεται ο συμπυκνωτής ενός οικιακού ψυγείου... Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα τον κωδικό της σωστής απάντησης.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.webp",
         "kind": "mc",
         "prompt": "1. Σε ποιο σημείο της σωλήνωσης έχουμε ξηρό κορεσμένο ατμό;",
         "options": [
@@ -119,7 +119,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": "b",
         "explain": "Στο σημείο Β ο υπέρθερμος ατμός έχει φτάσει σε κατάσταση ξηρού κορεσμένου ατμού (αρχή συμπύκνωσης).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23960_fig01.webp"
         ]
       },
       {
@@ -229,7 +229,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       {
         "subq": "2.2",
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται συμπυκνωτής οικιακού ψυγείου. Να αντιστοιχίσετε τα σημεία της Στήλης Α με τις καταστάσεις της Στήλης Β.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.webp",
         "kind": "match",
         "prompt": "Αντιστοιχίστε τα σημεία του συμπυκνωτή (Στήλη Α) με την αντίστοιχη κατάσταση ψυκτικού (Στήλη Β):",
         "left": [
@@ -280,7 +280,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Στο σημείο Α εισέρχεται υπέρθερμος ατμός (1-γ). Στο σημείο Β έχουμε ξηρό κορεσμένο ατμό (2-β). Στο σημείο Γ έχουμε κορεσμένο υγρό (3-ε). Στο σημείο Δ έχουμε υπόψυκτο υγρό (4-α).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#25275_fig01.webp"
         ]
       }
     ]

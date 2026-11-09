@@ -57,11 +57,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "Αντιστοίχιση: 1 – β, 2 – δ, 3 – α.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig01.png",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig01.png",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig02.png",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig03.png"
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32841_fig03.webp"
         ]
       },
       {

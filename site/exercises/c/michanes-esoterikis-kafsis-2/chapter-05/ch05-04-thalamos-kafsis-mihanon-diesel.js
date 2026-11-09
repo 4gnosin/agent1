@@ -20,7 +20,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται μία διάταξη μηχανής diesel με προθάλαμο καύσης. Να γράψετε στις απαντήσεις σας τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα μέρη της διάταξης μηχανής diesel με προθάλαμο καύσης:",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.webp"
         ],
         "left": [
           {
@@ -69,7 +69,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "a"
         },
         "explain": "Σύμφωνα με το σχήμα της διάταξης με προθάλαμο καύσης: 1 αντιστοιχεί στο έμβολο (β), 2 στον προθάλαμο (δ), 3 στον εγχυτήρα (ε) και 4 στο σύστημα υποβοήθησης της εκκίνησης (α). Περισσεύει το γ.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.webp"
       },
       {
         "kind": "tf",

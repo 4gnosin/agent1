@@ -19,7 +19,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Στην παρακάτω εικόνα απεικονίζεται ένα κύκλωμα με τον κυκλοφορητή στην προσαγωγή και ανοιχτό δοχείο διαστολής. Να αναφέρετε:",
         "prompt": "α. Πού βρίσκεται το ουδέτερο σημείο του κυκλώματος;",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.png",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -41,7 +41,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": "a",
         "explain": "Στο κύκλωμα το ουδέτερο σημείο βρίσκεται στο σημείο σύνδεσης του σωλήνα πλήρωσης του ανοιχτού δοχείου διαστολής.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.png"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-08/c_stoixeia-kentrikon-thermanseon_ch08_#28609_fig01.webp"
         ]
       },
       {

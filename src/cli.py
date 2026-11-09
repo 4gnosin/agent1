@@ -230,8 +230,21 @@ def rewrite_subject_script_tags(
     return html[: fallback.start()] + block + html[fallback.start() :]
 
 
+def normalize_grade(grade: str) -> str:
+    """Κανονικοποιεί την τάξη σε latin χαρακτήρες 'a', 'b', 'c'."""
+    if not grade:
+        return "b"
+    mapping = {
+        "α": "a", "a": "a", "Α": "a",
+        "β": "b", "b": "b", "Β": "b",
+        "γ": "c", "c": "c", "Γ": "c",
+    }
+    return mapping.get(str(grade).strip().lower(), str(grade).strip().lower())
+
+
 def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
     """Register generated chapter scripts in index.html and sync the course catalog."""
+    grade = normalize_grade(grade)
     index_path = site_dir / "index.html"
     catalog_path = site_dir / "content" / "catalog.js"
     if not index_path.is_file():
@@ -771,22 +784,33 @@ def process_inbox_command(args: argparse.Namespace) -> None:
             if source.suffix.lower() == ".pdf":
                 # 1. Πρώτα εξαγωγή εικόνων (ώστε να υπάρχει το manifest για spatial interleaving)
                 try:
-                    from src.utils.image_extractor import (
-                        extract_chapter_images,
-                        web_prefix_for,
-                    )
+                    from src.utils.image_extractor import web_prefix_for
 
-                    print("   🖼  Εξαγωγή εικόνων PDF (fig/sol ανά #κωδικό)...")
-                    manifest_path = extract_chapter_images(
-                        pdf_path=source,
-                        site_dir=site_dir,
-                        grade=grade,
-                        subject=subject,
-                        chapter=chapter,
-                        render_empty_pages=False,
-                        crop=True,
-                        verbose=False,
-                    )
+                    if getattr(args, "craft", False):
+                        from src.utils.craft_image_extractor import extract_chapter_images_craft
+                        print("   🖼  [ArtCraft] Εξαγωγή εικόνων PDF (PdfCraft + PhotoCraft)...")
+                        manifest_path = extract_chapter_images_craft(
+                            pdf_path=source,
+                            site_dir=site_dir,
+                            grade=grade,
+                            subject=subject,
+                            chapter=chapter,
+                            dpi=200,
+                            format="webp",
+                        )
+                    else:
+                        from src.utils.image_extractor import extract_chapter_images
+                        print("   🖼  Εξαγωγή εικόνων PDF (fig/sol ανά #κωδικό)...")
+                        manifest_path = extract_chapter_images(
+                            pdf_path=source,
+                            site_dir=site_dir,
+                            grade=grade,
+                            subject=subject,
+                            chapter=chapter,
+                            render_empty_pages=False,
+                            crop=True,
+                            verbose=False,
+                        )
                     web_prefix = web_prefix_for(grade, subject, chapter)
                     print(f"      ✓ {manifest_path}")
                 except Exception as img_exc:  # noqa: BLE001
@@ -976,6 +1000,11 @@ def main() -> None:
         help="Root του site (προεπιλογή: site/)",
     )
     p_inbox.add_argument("-m", "--model", default=None, help="Μοντέλο Gemini")
+    p_inbox.add_argument(
+        "--craft",
+        action="store_true",
+        help="Χρήση της σουίτας ArtCraft (PdfCraft + PhotoCraft) για εξαγωγή εικόνων",
+    )
     p_inbox.set_defaults(func=process_inbox_command)
 
     # 9. fix-stems — διόρθωση υπαρχουσών ασκήσεων (περιττά stem + ονόματα chNN-)

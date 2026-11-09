@@ -23,7 +23,33 @@ window.EXERCISES.push(...
         "answer": 120,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Η προσφερόμενη θερμότητα υπολογίζεται από τον τύπο: $Q = m \\cdot q \\Rightarrow Q = 8\\text{ kg} \\cdot 15\\text{ kJ/kg} = 120\\text{ kJ}$."
+        "explain": "Η προσφερόμενη θερμότητα υπολογίζεται από τον τύπο: $Q = m \\cdot q \\Rightarrow Q = 8\\text{ kg} \\cdot 15\\text{ kJ/kg} = 120\\text{ kJ}$.",
+        "animation": {
+          "title": "Υπολογισμός Προσφερόμενης Θερμότητας Q",
+          "steps": [
+            {
+              "step": 1,
+              "description": "Συλλογή δεδομένων από την εκφώνηση και έλεγχος μονάδων μέτρησης.",
+              "math": "\\begin{aligned} m &= 8\\text{ kg} \\\\ q &= 15\\text{ kJ/kg} \\\\ W &= 75\\text{ kJ} \\end{aligned}"
+            },
+            {
+              "step": 2,
+              "description": "Επιλογή του βασικού τύπου ολικής προσφερόμενης θερμότητας συναρτήσει της ειδικής θερμότητας q.",
+              "math": "Q = m \\cdot q"
+            },
+            {
+              "step": 3,
+              "description": "Αριθμητική αντικατάσταση των δεδομένων στον τύπο.",
+              "math": "\\begin{aligned} Q &= 8\\text{ kg} \\cdot 15\\text{ kJ/kg} \\\\ &= 120\\text{ kJ} \\end{aligned}"
+            },
+            {
+              "step": 4,
+              "description": "Τελικό αποτέλεσμα: Η θερμότητα που προσφέρεται στο ρευστό είναι θετική.",
+              "math": "Q = 120\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       },
       {
         "kind": "calc",
@@ -33,7 +59,33 @@ window.EXERCISES.push(...
         "answer": 45,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Από τον πρώτο νόμο της θερμοδυναμικής: $Q = \\Delta U + W \\Rightarrow \\Delta U = Q - W \\Rightarrow \\Delta U = 120\\text{ kJ} - 75\\text{ kJ} = 45\\text{ kJ}$."
+        "explain": "Από τον πρώτο νόμο της θερμοδυναμικής: $Q = \\Delta U + W \\Rightarrow \\Delta U = Q - W \\Rightarrow \\Delta U = 120\\text{ kJ} - 75\\text{ kJ} = 45\\text{ kJ}$.",
+        "animation": {
+          "title": "Υπολογισμός Μεταβολής Εσωτερικής Ενέργειας ΔU",
+          "steps": [
+            {
+              "step": 1,
+              "description": "Συλλογή υπολογισμένων μεγεθών και δεδομένων έργου της μεταβολής.",
+              "math": "\\begin{aligned} Q &= 120\\text{ kJ} \\\\ W &= +75\\text{ kJ}\\text{ (παραγόμενο έργο)} \\end{aligned}"
+            },
+            {
+              "step": 2,
+              "description": "Εφαρμογή του 1ου Θερμοδυναμικού Νόμου για κλειστό σύστημα και επίλυση ως προς ΔU.",
+              "math": "\\begin{aligned} Q &= \\Delta U + W \\\\ \\Delta U &= Q - W \\end{aligned}"
+            },
+            {
+              "step": 3,
+              "description": "Αριθμητική αντικατάσταση της προσφερόμενης θερμότητας και του παραγόμενου έργου.",
+              "math": "\\begin{aligned} \\Delta U &= 120\\text{ kJ} - 75\\text{ kJ} \\\\ &= 45\\text{ kJ} \\end{aligned}"
+            },
+            {
+              "step": 4,
+              "description": "Τελικό αποτέλεσμα: Η εσωτερική ενέργεια του συστήματος αυξάνεται (θετικό πρόσημο).",
+              "math": "\\Delta U = 45\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       },
       {
         "kind": "calc",
@@ -43,7 +95,33 @@ window.EXERCISES.push(...
         "answer": -75,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Εάν το σύστημα είναι μονωμένο τότε $Q = 0$, άρα η μεταβολή της εσωτερικής ενέργειας ισούται: $\\Delta U = -W = -75\\text{ kJ}$. Το αρνητικό αποτέλεσμα σημαίνει ότι η εσωτερική ενέργεια μειώνεται."
+        "explain": "Εάν το σύστημα είναι μονωμένο τότε $Q = 0$, άρα η μεταβολή της εσωτερικής ενέργειας ισούται: $\\Delta U = -W = -75\\text{ kJ}$. Το αρνητικό αποτέλεσμα σημαίνει ότι η εσωτερική ενέργεια μειώνεται.",
+        "animation": {
+          "title": "Μεταβολή Εσωτερικής Ενέργειας σε Μονωμένο Σύστημα",
+          "steps": [
+            {
+              "step": 1,
+              "description": "Καταγραφή συνθήκης θερμικής μόνωσης (αδιαβατική μεταβολή) και παραγόμενου έργου.",
+              "math": "\\begin{aligned} Q &= 0\\text{ kJ}\\text{ (θερμικά μονωμένο)} \\\\ W &= +75\\text{ kJ} \\end{aligned}"
+            },
+            {
+              "step": 2,
+              "description": "Εφαρμογή του 1ου Θερμοδυναμικού Νόμου για αδιαβατική διεργασία.",
+              "math": "\\begin{aligned} Q &= \\Delta U + W \\\\ 0 &= \\Delta U + W \\\\ \\Delta U &= -W \\end{aligned}"
+            },
+            {
+              "step": 3,
+              "description": "Αντικατάσταση της τιμής του παραγόμενου έργου στη σχέση.",
+              "math": "\\begin{aligned} \\Delta U &= -(+75\\text{ kJ}) \\\\ &= -75\\text{ kJ} \\end{aligned}"
+            },
+            {
+              "step": 4,
+              "description": "Τελικό αποτέλεσμα: Το αρνητικό πρόσημο σημαίνει ότι το σύστημα καταναλώνει εσωτερική ενέργεια για να παράγει έργο.",
+              "math": "\\Delta U = -75\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       }
     ]
   },
@@ -68,7 +146,40 @@ window.EXERCISES.push(...
         "answer": 700,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Σύμφωνα με τον 1ο νόμο της θερμοδυναμικής ισχύει: $Q = \\Delta U + W \\Rightarrow W = Q - \\Delta U = 2.600\\text{ kJ} - 1.900\\text{ kJ} = 700\\text{ kJ}$."
+        "explain": "Σύμφωνα με τον 1ο νόμο της θερμοδυναμικής ισχύει: $Q = \\Delta U + W \\Rightarrow W = Q - \\Delta U = 2.600\\text{ kJ} - 1.900\\text{ kJ} = 700\\text{ kJ}$.",
+        "animation": {
+          "title": "Υπολογισμός Έργου Μεταβολής Κλειστού Συστήματος",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Συλλογή Δεδομένων & Προσδιορισμός Προσήμων",
+              "description": "Καταγράφουμε τα θερμοδυναμικά μεγέθη σύμφωνα με τη σύμβαση προσήμων: η προσφερόμενη θερμότητα θεωρείται θετική ($Q > 0$) και η αύξηση της εσωτερικής ενέργειας είναι θετική ($\\Delta U > 0$).",
+              "latex": "\\begin{aligned} Q &= +2.600\\text{ kJ} \\\\ \\Delta U &= +1.900\\text{ kJ} \\\\ W &= \\text{;} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 2,
+              "title": "Βασικός Τύπος & Αλγεβρική Επίλυση",
+              "description": "Εφαρμόζουμε τον 1ο Νόμο της Θερμοδυναμικής για κλειστό σύστημα και επιλύουμε ως προς το συναλλασσόμενο μηχανικό έργο $W$.",
+              "latex": "\\begin{aligned} Q &= \\Delta U + W \\\\ W &= Q - \\Delta U \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 3,
+              "title": "Αριθμητική Αντικατάσταση",
+              "description": "Αντικαθιστούμε τις τιμές των δεδομένων στην παραπάνω εξίσωση και εκτελούμε την αφαίρεση.",
+              "latex": "\\begin{aligned} W &= 2.600\\text{ kJ} - 1.900\\text{ kJ} \\\\ &= 700\\text{ kJ} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 4,
+              "title": "Τελικό Αποτέλεσμα & Φυσική Ερμηνεία",
+              "description": "Το έργο που συναλλάχθηκε ισούται με $700\\text{ kJ}$. Το θετικό πρόσημο δηλώνει ότι πρόκειται για έργο παραγόμενο από το σύστημα προς το περιβάλλον (εκτόνωση).",
+              "latex": "W = 700\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       },
       {
         "kind": "mc",
@@ -115,7 +226,40 @@ window.EXERCISES.push(...
         "answer": -1800,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Από τον πρώτο νόμο της θερμοδυναμικής για κλειστά συστήματα έχουμε: $Q = \\Delta U + W \\Rightarrow Q = 700\\text{ kJ} - 2.500\\text{ kJ} = -1.800\\text{ kJ}$ (επειδή το έργο χορηγήθηκε προς το σύστημα, λαμβάνεται αρνητικό)."
+        "explain": "Από τον πρώτο νόμο της θερμοδυναμικής για κλειστά συστήματα έχουμε: $Q = \\Delta U + W \\Rightarrow Q = 700\\text{ kJ} - 2.500\\text{ kJ} = -1.800\\text{ kJ}$ (επειδή το έργο χορηγήθηκε προς το σύστημα, λαμβάνεται αρνητικό).",
+        "animation": {
+          "title": "Υπολογισμός Μεταφερόμενης Θερμότητας",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Συλλογή Δεδομένων & Σύμβαση Προσήμων",
+              "description": "Καταγράφουμε τα δεδομένα. Επειδή το μηχανικό έργο χορηγείται προς το σύστημα (έργο συμπίεσης), λαμβάνει αρνητικό πρόσημο ($W < 0$), ενώ η αύξηση της εσωτερικής ενέργειας είναι θετική.",
+              "latex": "\\begin{aligned} W &= -2.500\\text{ kJ} \\\\ \\Delta U &= +700\\text{ kJ} \\\\ Q &= \\text{;} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 2,
+              "title": "Βασικός Τύπος 1ου Νόμου",
+              "description": "Χρησιμοποιούμε τη θεμελιώδη εξίσωση του 1ου Νόμου της Θερμοδυναμικής για κλειστά συστήματα.",
+              "latex": "Q = \\Delta U + W",
+              "highlight": false
+            },
+            {
+              "step": 3,
+              "title": "Αριθμητική Αντικατάσταση",
+              "description": "Αντικαθιστούμε τα μεγέθη διατηρώντας τα σωστά πρόσημα και υπολογίζουμε το αλγεβρικό άθροισμα.",
+              "latex": "\\begin{aligned} Q &= 700\\text{ kJ} + (-2.500\\text{ kJ}) \\\\ &= 700\\text{ kJ} - 2.500\\text{ kJ} \\\\ &= -1.800\\text{ kJ} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 4,
+              "title": "Τελικό Αποτέλεσμα & Φυσική Ερμηνεία",
+              "description": "Η θερμότητα είναι $-1.800\\text{ kJ}$. Το αρνητικό πρόσημο σημαίνει ότι θερμότητα αποβάλλεται (απάγεται) από το σύστημα προς το περιβάλλον.",
+              "latex": "Q = -1.800\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       },
       {
         "kind": "mc",
@@ -162,7 +306,40 @@ window.EXERCISES.push(...
         "answer": 35,
         "unit": "kJ",
         "tolerance": 0.01,
-        "explain": "Από τον 1ο νόμο της θερμοδυναμικής: $Q = \\Delta U + W_e \\Rightarrow W_e = Q - \\Delta U \\Rightarrow W_e = 67\\text{ kJ} - 32\\text{ kJ} = 35\\text{ kJ}$."
+        "explain": "Από τον 1ο νόμο της θερμοδυναμικής: $Q = \\Delta U + W_e \\Rightarrow W_e = Q - \\Delta U \\Rightarrow W_e = 67\\text{ kJ} - 32\\text{ kJ} = 35\\text{ kJ}$.",
+        "animation": {
+          "title": "Υπολογισμός Συναλλασσόμενου Έργου Αερίου",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Συλλογή Δεδομένων",
+              "description": "Καταγράφουμε την προσφερόμενη θερμότητα $Q$ και τη μεταβολή εσωτερικής ενέργειας $\\Delta U$ του αερίου.",
+              "latex": "\\begin{aligned} Q &= 67\\text{ kJ} \\\\ \\Delta U &= 32\\text{ kJ} \\\\ W_e &= \\text{;} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 2,
+              "title": "Επιλογή Τύπου & Επίλυση ως προς το Έργο",
+              "description": "Από τον 1ο Νόμο της Θερμοδυναμικής ($Q = \\Delta U + W_e$), επιλύουμε αλγεβρικά ως προς το συναλλασσόμενο έργο $W_e$.",
+              "latex": "\\begin{aligned} Q &= \\Delta U + W_e \\\\ W_e &= Q - \\Delta U \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 3,
+              "title": "Αντικατάσταση & Υπολογισμός",
+              "description": "Αντικαθιστούμε τις αριθμητικές τιμές των δεδομένων και εκτελούμε την αφαίρεση.",
+              "latex": "\\begin{aligned} W_e &= 67\\text{ kJ} - 32\\text{ kJ} \\\\ &= 35\\text{ kJ} \\end{aligned}",
+              "highlight": false
+            },
+            {
+              "step": 4,
+              "title": "Τελικό Αποτέλεσμα & Φυσική Σημασία",
+              "description": "Το έργο που συναλλάχθηκε είναι $35\\text{ kJ}$. Καθώς είναι θετικό, εκφράζει έργο που παράγει το αέριο εκτονωνόμενο προς το περιβάλλον.",
+              "latex": "W_e = 35\\text{ kJ}",
+              "highlight": true
+            }
+          ]
+        }
       },
       {
         "kind": "mc",

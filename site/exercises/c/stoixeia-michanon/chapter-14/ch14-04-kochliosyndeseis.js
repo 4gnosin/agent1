@@ -62,7 +62,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 0.1,
         "hint": "Υπολογίστε πρώτα την απαιτούμενη διατομή $A = \\frac{F}{\\sigma_{\\text{επ}}}$ και έπειτα τη διάμετρο πυρήνα.",
         "explain": "Είναι $A = \\frac{3140}{40} = 78{,}5\\text{ mm}^2$. Συνεπώς $d_1 = \\sqrt{\\frac{78{,}5 \\cdot 4}{3{,}14}} = \\sqrt{100} = 10\\text{ mm}$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25680_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25680_fig01.webp"
       }
     ]
   },
@@ -102,7 +102,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Είναι $\\sigma_{\\text{θρ}} = 30 \\cdot 1{,}5 = 45\\text{ kp/mm}^2$."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25682_fig01.png"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25682_fig01.webp"
   },
   {
     "id": "ch14-25683",
@@ -138,7 +138,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 1,
         "hint": "Πολλαπλασιάστε την επιτρεπόμενη τάση με τον συντελεστή ασφάλειας.",
         "explain": "Είναι $\\sigma_{\\text{θρ}} = 1000 \\cdot 2{,}5 = 2500\\text{ daN/cm}^2$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25683_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25683_fig01.webp"
       }
     ]
   },
@@ -176,7 +176,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "tolerance": 1,
         "hint": "Μετατρέψτε τη διάμετρο σε cm ($3\\text{ cm}$) και εφαρμόστε τον τύπο σύνθετης καταπόνησης.",
         "explain": "Με $d_1 = 3\\text{ cm}$, έχουμε $F = 0{,}6 \\cdot 3^2 \\cdot 1000 = 0{,}6 \\cdot 9 \\cdot 1000 = 5400\\text{ daN}$.",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25684_fig01.png"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25684_fig01.webp"
       }
     ]
   },

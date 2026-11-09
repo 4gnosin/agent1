@@ -103,9 +103,9 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "images": [
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig01.png",
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig02.png",
-          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig03.png"
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig01.webp",
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig02.webp",
+          "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig03.webp"
         ],
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα σχήματα των στηρίξεων της Στήλης Α με την ονομασία τους στη Στήλη Β:",
@@ -147,7 +147,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "3": "d"
         },
         "explain": "Το σχήμα 1 παριστάνει πάκτωση, το σχήμα 2 άρθρωση και το σχήμα 3 κύλιση.",
-        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig01.png"
+        "image": "images/b/antoxi/chapter-08/b_antoxi_ch08_#18232_fig01.webp"
       },
       {
         "kind": "tf",

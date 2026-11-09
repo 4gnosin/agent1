@@ -42,10 +42,10 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "explain": "Η ενδεδειγμένη διαδικασία στον κυλινδροπιεστή περιλαμβάνει: Ρύθμιση κυλίνδρων στο πάχος του ελάσματος (1 mm), τοποθέτηση και ελαφρά πίεση με τον κύλινδρο διαμόρφωσης, αργή περιστροφή του χειροστροφάλου με ταυτόχρονη ώθηση του ελάσματος, και αποσύνδεση του πάνω κυλίνδρου εξαγωγής για την αφαίρεση του κυλινδρικού πλέον ελάσματος."
       }
     ],
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.png",
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.webp",
     "images": [
-      "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.png",
-      "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig02.png"
+      "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig01.webp",
+      "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#18911_fig02.webp"
     ]
   },
   {

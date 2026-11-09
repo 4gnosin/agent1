@@ -24,14 +24,14 @@ window.EXERCISES.push(...
         "tolerance": 0.02,
         "hint": "Μετατρέψτε τις θερμοκρασίες σε Kelvin και εφαρμόστε τον νόμο του Charles-Gay-Lussac για ισόχωρη μεταβολή: $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$.",
         "explain": "Μετατρέπουμε τις θερμοκρασίες σε Kelvin: $T_1 = 22 + 273 = 295\\text{ K}$ και $T_2 = 199 + 273 = 472\\text{ K}$. Για ισόχωρη μεταβολή: $P_2 = P_1 \\cdot \\frac{T_2}{T_1} = 1\\text{ bar} \\cdot \\frac{472}{295} \\approx 1,6\\text{ bar}$.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "β",
         "prompt": "Να απεικονίσετε τη μεταβολή 1-2 σε διάγραμμα $P-V$.",
         "explain": "Στο διάγραμμα $P-V$, η ισόχωρη μεταβολή απεικονίζεται με ευθύγραμμο τμήμα κάθετο στον άξονα των όγκων, από κατάσταση χαμηλότερης πίεσης σε κατάσταση υψηλότερης πίεσης.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.png"
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.webp"
       },
       {
         "kind": "calc",
@@ -46,7 +46,7 @@ window.EXERCISES.push(...
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.png"
+      "images/b/thermod/chapter-06/b_thermod_ch06_#16235_sol01.webp"
     ]
   }
 ]

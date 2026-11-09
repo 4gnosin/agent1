@@ -20,7 +20,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται το διάγραμμα λειτουργίας του συστήματος τροφοδοσίας πετρελαίου. Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα μέρη του διαγράμματος λειτουργίας του συστήματος τροφοδοσίας πετρελαίου:",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.webp"
         ],
         "left": [
           {
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "c"
         },
         "explain": "Σύμφωνα με το διάγραμμα: 1 είναι η δεξαμενή καυσίμου (δ), 2 ο εγχυτήρας (β), 3 η αντλία τροφοδοσίας (α), 4 το βασικό φίλτρο (ε) και 5 η αντλία έγχυσης καυσίμου (γ). Περισσεύει το στ.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-05/c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.webp"
       },
       {
         "kind": "tf",

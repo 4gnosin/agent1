@@ -58,7 +58,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Προσθέστε το αισθητό και το λανθάνον ψυκτικό φορτίο.",
         "explain": "$q_T = 1800 + 540 = 2340\\text{ W}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#26852_fig01.png"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#26852_fig01.webp"
       }
     ]
   }

@@ -66,10 +66,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.webp"
         ],
         "explain": "1 - γ (Ψυκτικό στοιχείο), 2 - α (Συμπιεστής), 3 - ε (Συμπυκνωτής), 4 - β (Εκτονωτική διάταξη).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.webp"
       },
       {
         "kind": "blank",

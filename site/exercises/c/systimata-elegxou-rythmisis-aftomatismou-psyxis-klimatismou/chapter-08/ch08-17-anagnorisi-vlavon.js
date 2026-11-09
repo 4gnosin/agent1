@@ -56,7 +56,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "3": "b"
         },
         "explain": "Αντιστοίχιση: 1-δ (Έλεγχος ροής), 2-α (Έλεγχος πολύ χαμηλής θερμοκρασίας), 3-β (Ρύθμιση θερμοκρασίας επιστροφής). Περισσεύει το γ.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36024_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#36024_fig01.webp"
       },
       {
         "kind": "tf",

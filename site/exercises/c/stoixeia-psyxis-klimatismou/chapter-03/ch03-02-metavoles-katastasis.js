@@ -21,7 +21,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "Να απαντηθούν τα παρακάτω ερωτήματα:",
         "prompt": "α) Να σχεδιάσετε τη μεταβολή αυτή σε διάγραμμα $P - V$.",
         "explain": "Η μεταβολή είναι ισόογκη ($V = \\text{σταθερό}$), οπότε στο διάγραμμα $P-V$ απεικονίζεται ως ευθύγραμμο τμήμα κάθετο στον άξονα των όγκων με κατεύθυνση προς τα πάνω.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23775_sol01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23775_sol01.webp"
       },
       {
         "kind": "calc",
@@ -58,7 +58,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23775_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23775_sol01.webp"
     ]
   },
   {
@@ -91,7 +91,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "4.2",
         "prompt": "4.2 Να απεικονίσετε τη μεταβολή 1-2 σε διάγραμμα $P-V$.",
         "explain": "Στο διάγραμμα $P-V$, η μεταβολή απεικονίζεται με ευθύγραμμο τμήμα κάθετο στον άξονα των όγκων (ισόογκη μεταβολή), από υψηλότερη πίεση προς χαμηλότερη.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23844_sol01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23844_sol01.webp"
       },
       {
         "kind": "calc",
@@ -106,7 +106,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23844_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23844_sol01.webp"
     ]
   },
   {
@@ -128,7 +128,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "Να δοθούν οι απαντήσεις στα ερωτήματα:",
         "prompt": "α. Να σχεδιάσετε τη μεταβολή του αερίου από την αρχική του κατάσταση 1 στην τελική του κατάσταση 2, σε ένα διάγραμμα $P-V$.",
         "explain": "Επειδή ο όγκος είναι σταθερός, η μεταβολή σχεδιάζεται ως κατακόρυφη ευθεία στο διάγραμμα $P-V$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23873_sol01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23873_sol01.webp"
       },
       {
         "kind": "calc",
@@ -165,7 +165,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23873_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#23873_sol01.webp"
     ]
   },
   {

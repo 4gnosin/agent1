@@ -165,9 +165,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Από τον χάρτη, στο σημείο 2 η σχετική υγρασία είναι $\\phi_2 = 30\\%$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32669_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32669_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32669_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32669_sol01.webp"
     ]
   },
   {
@@ -223,10 +223,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Η ενθαλπία στο σημείο Β είναι $h_2 = 42\\text{ kJ/kg}$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_sol01.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_sol02.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32798_sol02.webp"
     ]
   },
   {
@@ -320,7 +320,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "2": "a"
         },
         "explain": "Σταθερά κατά τη θέρμανση χωρίς ύγρανση είναι το σημείο δρόσου (β), ο λόγος υγρασίας (γ) και η λανθάνουσα θερμότητα (στ). Μεταβλητά είναι η αισθητή θερμότητα (α), η ενθαλπία (δ), η θερμοκρασία ξηρού βολβού (ε), η σχετική υγρασία (ζ) και η θερμοκρασία υγρού βολβού (η).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32835_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32835_fig01.webp"
       }
     ]
   },
@@ -392,11 +392,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "$\\Delta W = W_B - W_A = 10,5 - 6,5 = 4\\text{ g/kg}$ ξηρού αέρα."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol01.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol02.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol03.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32846_sol03.webp"
     ]
   },
   {
@@ -452,9 +452,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "$\\Delta h = h_2 - h_1 = 36 - 22 = 14\\text{ kJ/kg}$ ξηρού αέρα."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33870_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33870_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33870_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33870_sol01.webp"
     ]
   },
   {
@@ -512,11 +512,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "Το διάγραμμα 1 αντιστοιχεί σε θέρμανση χωρίς ύγρανση (β). Το διάγραμμα 2 σε ψύξη με αφύγρανση (γ). Το διάγραμμα 3 σε θέρμανση με ύγρανση (α).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig01.png",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig01.webp",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig01.png",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig02.png",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig03.png"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33879_fig03.webp"
         ]
       },
       {
@@ -660,9 +660,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Η οριζόντια μεταβολή προς τα δεξιά στον ψυχρομετρικό χάρτη δείχνει θέρμανση χωρίς μεταβολή του λόγου υγρασίας ($W = \\text{σταθερό}$), άρα δεν υπάρχει ύγρανση."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33880_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33880_fig01.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33880_sol01.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33880_sol01.webp"
     ]
   },
   {
@@ -683,7 +683,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "4.1",
         "prompt": "Να αποτυπώσετε πάνω στο διάγραμμα τη μεταβολή ΑΒ.",
         "explain": "Εντοπίζονται τα σημεία Α ($17\\text{ }^\\circ\\text{C}$, $50\\%$) και Β ($25\\text{ }^\\circ\\text{C}$, $30\\%$) στον ψυχρομετρικό χάρτη.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_fig02.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_fig02.webp"
       },
       {
         "kind": "mc",
@@ -710,7 +710,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Το σημείο Β εμπίπτει στην περιοχή θερινής άνεσης. Τον χειμώνα (Δεκέμβριο) οι απαιτήσεις είναι διαφορετικές, οπότε οι εργαζόμενοι θα αισθάνονται ζέστη.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_fig01.webp"
       },
       {
         "kind": "calc",
@@ -751,9 +751,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol01.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol02.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol03.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#33881_sol03.webp"
     ]
   }
 ]

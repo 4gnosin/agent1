@@ -93,7 +93,7 @@ window.EXERCISES.push(...
     "theory": "ch12-02-metadosi-me-agogi",
     "sourceOrder": 3,
     "stem": "Μια θερμαινόμενη ηλεκτρικά οροφή ενός συνεργείου έχει διαστάσεις $10\\text{ m}$ μήκος, $5\\text{ m}$ πλάτος και $20\\text{ cm}$ πάχος. Το υλικό της οροφής έχει συντελεστή θερμικής αγωγιμότητας $\\lambda = 0.6\\text{ W}/(\\text{m}\\cdot\\text{K})$. Η επιφανειακή εσωτερική θερμοκρασία είναι $13\\text{ }^\\circ\\text{C}$ και η επιφανειακή εξωτερική θερμοκρασία είναι $5\\text{ }^\\circ\\text{C}$.",
-    "image": "images/b/thermod/chapter-12/b_thermod_ch12_#20049_fig01.png",
+    "image": "images/b/thermod/chapter-12/b_thermod_ch12_#20049_fig01.webp",
     "items": [
       {
         "kind": "calc",

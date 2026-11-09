@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Διαδραστικός Ψυχρομετρικός Χάρτης | Interactive Psychrometric Chart</title>
+  <link rel="stylesheet" href="psychrometric.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-badge">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          <circle cx="12" cy="12" r="9"/>
+        </svg>
+      </div>
+      <div>
+        <h1>Διαδραστικός Ψυχρομετρικός Χάρτης</h1>
+        <p class="subtitle">Mollier / Carrier Psychrometric Chart & HVAC Process Simulator (101.325 kPa)</p>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <div class="preset-group">
+        <label for="preset-select">Πρότυπη Μεταβολή:</label>
+        <select id="preset-select">
+          <option value="">-- Επιλέξτε Σενάριο --</option>
+          <option value="summer-ac">Θερινός Κλιματισμός (Ψύξη & Αφύγρανση)</option>
+          <option value="winter-ac">Χειμερινός Κλιματισμός (Θέρμανση & Ύγρανση)</option>
+          <option value="adiabatic-mixing">Αδιαβατική Ανάμειξη 2 Ρευμάτων</option>
+          <option value="evap-cooling">Εξατμιστική Ψύξη (Αδιαβατική)</option>
+          <option value="sensible-heat">Απλή Αισθητή Θέρμανση</option>
+        </select>
+      </div>
+
+      <button id="btn-theme-toggle" class="btn btn-icon" title="Εναλλαγή Θέματος (Dark/Light)">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+      </button>
+
+      <button id="btn-export-svg" class="btn btn-secondary">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Εξαγωγή SVG
+      </button>
+      <button id="btn-export-png" class="btn btn-secondary">
+        Εξαγωγή PNG
+      </button>
+    </div>
+  </header>
+
+  <main class="app-layout">
+    <!-- Αριστερή Στήλη: Ο Χάρτης -->
+    <div class="chart-container">
+      <div class="chart-toolbar">
+        <div class="tool-toggles">
+          <button id="btn-mode-add" class="btn-tool active" title="Προσθήκη Σημείου με κλικ">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            Προσθήκη Σημείου
+          </button>
+          <button id="btn-mode-connect" class="btn-tool" title="Σύνδεση σημείων για Μεταβολή">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="12" r="3"/><circle cx="18" cy="12" r="3"/><line x1="9" y1="12" x2="15" y2="12"/></svg>
+            Σύνδεση Μεταβολής
+          </button>
+          <button id="btn-clear-all" class="btn-tool btn-danger-text" title="Καθαρισμός όλων">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+            Καθαρισμός
+          </button>
+        </div>
+
+        <div class="layer-toggles">
+          <label class="toggle-chip"><input type="checkbox" id="chk-comfort" checked> Ζώνη Άνεσης</label>
+          <label class="toggle-chip"><input type="checkbox" id="chk-enthalpy" checked> Ενθαλπία (h)</label>
+          <label class="toggle-chip"><input type="checkbox" id="chk-wetbulb" checked> Υγρό Θερμόμετρο (Twb)</label>
+          <label class="toggle-chip"><input type="checkbox" id="chk-volume" checked> Ειδικός Όγκος (v)</label>
+          <label class="toggle-chip"><input type="checkbox" id="chk-crosshair" checked> Σταυρόνημα</label>
+        </div>
+      </div>
+
+      <!-- SVG Chart Wrapper -->
+      <div class="svg-viewport" id="svg-viewport">
+        <svg id="chart-svg" viewBox="0 0 1000 650" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+            <marker id="arrowhead" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
+              <polygon points="0 0, 9 3, 0 6" fill="#f59e0b" />
+            </marker>
+          </defs>
+
+          <!-- Background Grid & Layers -->
+          <rect width="100%" height="100%" class="chart-bg" />
+          <g id="layer-grid" class="chart-layer"></g>
+          <g id="layer-volume" class="chart-layer"></g>
+          <g id="layer-enthalpy" class="chart-layer"></g>
+          <g id="layer-wetbulb" class="chart-layer"></g>
+          <g id="layer-comfort" class="chart-layer"></g>
+          <g id="layer-rh" class="chart-layer"></g>
+          <g id="layer-saturation" class="chart-layer"></g>
+          <g id="layer-axes" class="chart-layer"></g>
+          
+          <!-- Dynamic Layers -->
+          <g id="layer-processes" class="chart-layer"></g>
+          <g id="layer-points" class="chart-layer"></g>
+          <g id="layer-crosshair" class="chart-layer"></g>
+        </svg>
+
+        <!-- Live Cursor Hover Tooltip -->
+        <div id="hover-badge" class="hover-badge" style="display:none;"></div>
+      </div>
+
+      <!-- Live Cursor Bar below chart -->
+      <div class="cursor-bar" id="cursor-bar">
+        <span class="cursor-item"><b>T<sub>db</sub>:</b> <span id="cur-tdb">--</span> °C</span>
+        <span class="cursor-item"><b>RH:</b> <span id="cur-rh">--</span> %</span>
+        <span class="cursor-item"><b>w:</b> <span id="cur-w">--</span> g/kg</span>
+        <span class="cursor-item"><b>h:</b> <span id="cur-h">--</span> kJ/kg</span>
+        <span class="cursor-item"><b>T<sub>wb</sub>:</b> <span id="cur-twb">--</span> °C</span>
+        <span class="cursor-item"><b>T<sub>dp</sub>:</b> <span id="cur-tdp">--</span> °C</span>
+        <span class="cursor-item"><b>v:</b> <span id="cur-v">--</span> m³/kg</span>
+      </div>
+    </div>
+
+    <!-- Δεξιά Στήλη: Δεδομένα, Σημεία & Υπολογισμοί Ενέργειας -->
+    <aside class="sidebar">
+      <!-- Καρτέλα Σημείων (State Points) -->
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Σημεία Κατάστασης</h2>
+          <span class="badge" id="points-count">0 σημεία</span>
+        </div>
+        <div class="panel-body">
+          <p class="panel-hint">Κάντε κλικ στον χάρτη για προσθήκη ή σύρετε ένα σημείο για να το μετακινήσετε.</p>
+          
+          <div id="points-list" class="points-list">
+            <!-- Dynamic State Points will be injected here -->
+          </div>
+
+          <!-- Φόρμα Ακριβούς Εισαγωγής Σημείου -->
+          <details class="manual-input-box">
+            <summary>➕ Ακριβής Εισαγωγή Τιμών</summary>
+            <div class="input-grid">
+              <label>Όνομα: <input type="text" id="manual-name" value="Σημείο" style="width:70px"></label>
+              <label>T<sub>db</sub> (°C): <input type="number" id="manual-t" step="0.5" value="25" min="-10" max="50"></label>
+              <label>RH (%): <input type="number" id="manual-rh" step="1" value="50" min="1" max="100"></label>
+            </div>
+            <button id="btn-manual-add" class="btn btn-sm btn-primary" style="margin-top:8px; width:100%;">
+              Προσθήκη με Τιμές
+            </button>
+          </details>
+        </div>
+      </div>
+
+      <!-- Καρτέλα Μεταβολών & Υπολογισμών (Processes & Energy Loads) -->
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Μεταβολές & Υπολογισμοί</h2>
+          <span class="badge" id="processes-count">0 μεταβολές</span>
+        </div>
+        <div class="panel-body">
+          <div class="flow-input-row">
+            <label for="flow-rate">Παροχή Αέρα:</label>
+            <div class="input-unit-group">
+              <input type="number" id="flow-rate" value="1000" min="0" step="100">
+              <select id="flow-unit">
+                <option value="m3h">m³/h</option>
+                <option value="kgs">kg/s</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="processes-list" class="processes-list">
+            <!-- Dynamic Process cards injected here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Οδηγίες & Θερμοδυναμικό Υπόμνημα -->
+      <div class="panel panel-compact">
+        <details>
+          <summary><b>📖 Θερμοδυναμικό Υπόμνημα & Τύποι</b></summary>
+          <div class="legend-content">
+            <ul>
+              <li><span class="legend-color" style="background:#ef4444"></span> <b>Κορεσμός (100% RH):</b> Όριο μέγιστης υγρασίας.</li>
+              <li><span class="legend-color" style="background:#3b82f6"></span> <b>Καμπύλες RH (10%–90%):</b> Σχετική υγρασία.</li>
+              <li><span class="legend-color" style="background:#10b981"></span> <b>Ενθαλπία (h, kJ/kg):</b> Πλάγιες ισοενθαλπικές γραμμές.</li>
+              <li><span class="legend-color" style="background:#06b6d4"></span> <b>Twb (°C):</b> Θερμοκρασία υγρού θερμομέτρου.</li>
+              <li><span class="legend-color" style="background:#8b5cf6"></span> <b>Ειδικός Όγκος (v, m³/kg):</b> Κλίση ειδικού όγκου.</li>
+              <li><span class="legend-color" style="background:rgba(16, 185, 129, 0.25)"></span> <b>Ζώνη Άνεσης:</b> Όρια θερμικής άνεσης ASHRAE 55.</li>
+            </ul>
+            <p class="math-notes">
+              <b>Πίεση αναφοράς:</b> P<sub>atm</sub> = 101.325 kPa (στάθμη θάλασσας).<br>
+              <b>Συντελεστής SHR:</b> Q<sub>sensible</sub> / Q<sub>total</sub>.
+            </p>
+          </div>
+        </details>
+      </div>
+    </aside>
+  </main>
+
+  <script src="psychrometric.js"></script>
+</body>
+</html>

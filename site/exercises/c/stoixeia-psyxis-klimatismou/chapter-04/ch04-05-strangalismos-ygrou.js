@@ -65,7 +65,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Αν μειωθεί κατά 10 oC η θερμοκρασία θα φτάσει τους 130 oC, που είναι χαμηλότερη από την κρίσιμη θερμοκρασία. Άρα θα μπορεί να υγροποιηθεί.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23872_fig01.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23872_fig01.webp"
       },
       {
         "kind": "mc",
@@ -92,7 +92,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Καθώς το υγρό κινείται μέσα στο σωλήνα από το σημείο Α στο Β έχουμε πτώση πίεσης λόγω τριβών. Κάποια στιγμή η πίεση φτάνει την πίεση ατμοποίησης και εμφανίζονται φυσαλίδες ατμού.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23872_fig02.png"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#23872_fig02.webp"
       },
       {
         "kind": "mc",

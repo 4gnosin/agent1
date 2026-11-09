@@ -20,9 +20,9 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τις γωνίες κάμπερ σε ολόσωμο πρόσθιο άξονα:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig01.png",
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig02.png",
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig03.png"
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig03.webp"
         ],
         "left": [
           {
@@ -58,7 +58,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "explain": "Η γωνία κάμπερ διακρίνεται ανάλογα με την κλίση του τροχού ως προς την κατακόρυφο (μηδενική, αρνητική, θετική).",
-        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig01.png"
+        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32633_fig01.webp"
       },
       {
         "kind": "tf",

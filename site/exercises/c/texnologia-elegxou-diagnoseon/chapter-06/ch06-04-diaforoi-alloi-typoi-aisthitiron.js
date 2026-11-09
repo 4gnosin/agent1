@@ -17,7 +17,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "kind": "mc",
         "subq": "4.1",
         "openEnded": true,
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.webp",
         "prompt": "4.1. Με βάση την παρακάτω καμπύλη αντίστασης του θερμίστορ, να εξηγήσετε την αρχή λειτουργίας των θερμικών αντιστάσεων και να επισημάνετε τη διαφορά με τις μεταλλικές αντιστάσεις.",
         "options": [
           {
@@ -40,14 +40,14 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "answer": "a",
         "explain": "Το θερμίστορ είναι μια θερμική αντίσταση που αλλάζει τιμή ανάλογα με τη θερμοκρασία. Σε αντίθεση με τις μεταλλικές αντιστάσεις (των οποίων η αντίσταση αυξάνεται με τη θερμοκρασία), η αντίσταση ενός θερμίστορ μειώνεται με την αύξηση της θερμοκρασίας (NTC, Negative Temperature Coefficient).",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig01.webp"
         ]
       },
       {
         "kind": "mc",
         "subq": "4.2",
         "openEnded": true,
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.png",
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.webp",
         "prompt": "4.2. Σύμφωνα με την παρακάτω γραφική παράσταση, να εξηγήσετε τη καμπύλη τάσης εξόδου ενός αισθητήρα λ.",
         "options": [
           {
@@ -70,7 +70,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "answer": "a",
         "explain": "Αν το μείγμα είναι φτωχό, υπάρχει οξυγόνο στα καυσαέρια, δεν υπάρχει πόλωση των ηλεκτροδίων και η τάση είναι μικρή (~50 mV). Όταν το μείγμα είναι πλούσιο, δεν υπάρχει οξυγόνο στα καυσαέρια, υπάρχει πόλωση των ηλεκτροδίων και η τάση είναι μεγάλη (~900 mV).",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.png"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-06/c_texnologia-elegxou-diagnoseon_ch06_#26750_fig02.webp"
         ]
       }
     ]

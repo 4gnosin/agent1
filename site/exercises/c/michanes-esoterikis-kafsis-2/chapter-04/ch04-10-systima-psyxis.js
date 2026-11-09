@@ -172,10 +172,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "3": "δ",
           "4": "ε"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.png",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→γ, 2→α, 3→δ, 4→ε (Περισσεύει το β).",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.png"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#34763_fig01.webp"
         ]
       },
       {

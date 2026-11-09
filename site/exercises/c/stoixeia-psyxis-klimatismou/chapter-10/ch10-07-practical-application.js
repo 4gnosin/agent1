@@ -77,16 +77,16 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Κινείται κανείς οριζόντια από το σημείο κατάστασης προς την καμπύλη κορεσμού και βρίσκει θερμοκρασία σημείου δρόσου $19\\text{ }^\\circ\\text{C}$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig01.png",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig01.webp",
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig01.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig02.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig03.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig01.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig02.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_fig03.webp"
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol01.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol02.png",
-      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol03.png"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou/chapter-10/c_stoixeia-psyxis-klimatismou_ch10_#32879_sol03.webp"
     ]
   }
 ]

@@ -18,14 +18,14 @@ window.EXERCISES.push(...
         "kind": "open",
         "subq": "4.1",
         "prompt": "Σχεδιάστε τη μεταβολή σε διάγραμμα πίεσης όγκου ($P-V$) και σημειώστε με ένα βέλος τη φορά της μεταβολής.",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.png",
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.webp",
         "explain": "Η μεταβολή σχεδιάζεται στο διάγραμμα $P-V$ ως αδιαβατική καμπύλη με κατεύθυνση που αντιστοιχεί στη συμπίεση λόγω του έργου που προσφέρθηκε."
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "Απεικονίστε στο διάγραμμα το έργο που προσφέρθηκε.",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol02.png",
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol02.webp",
         "explain": "Το έργο που προσφέρθηκε αντιστοιχεί στην περιοχή κάτω από την καμπύλη και οριοθετείται στο $1, 2, 2', 1'$."
       },
       {
@@ -38,12 +38,12 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον πρώτο θερμοδυναμικό νόμο $Q = \\Delta U + W$ λαμβάνοντας υπόψη ότι στην αδιαβατική μεταβολή $Q = 0$ και το έργο είναι αρνητικό.",
         "explain": "Σύμφωνα με τον πρώτο θερμοδυναμικό νόμο $Q = \\Delta U + W$. Επειδή η μεταβολή είναι αδιαβατική, $Q = 0$, οπότε $0 = \\Delta U + W$. Το έργο προσφέρθηκε στο αέριο άρα $W = -450\\text{ kJ}$, συνεπώς $\\Delta U = 450\\text{ kJ}$ (η εσωτερική ενέργεια αυξήθηκε).",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.png"
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.png",
-      "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol02.png"
+      "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol01.webp",
+      "images/b/thermod/chapter-05/b_thermod_ch05_#20954_sol02.webp"
     ]
   }
 ]

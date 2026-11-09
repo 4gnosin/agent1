@@ -342,7 +342,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "prompt": "Στην παρακάτω εικόνα απεικονίζεται ένας καυστήρας οξυγονοσυγκόλλησης. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 με τα κατάλληλα μέρη του καυστήρα:",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.png",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -391,7 +391,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1: Ακροφύσιο (ε), 2: Δικλείδα ασετυλίνης (α), 3: Σωλήνας αναμείξεως αερίων (δ), 4: Σύνδεση με σωλήνα οξυγόνου (β).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.png"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#19123_fig01.webp"
         ]
       }
     ]

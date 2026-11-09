@@ -178,10 +178,10 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "theory": "ch06-04-synthikes-kopis",
     "sourceOrder": 4,
     "images": [
-      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.png",
-      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig02.png",
-      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig03.png",
-      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig04.png"
+      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.webp",
+      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig02.webp",
+      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig03.webp",
+      "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig04.webp"
     ],
     "items": [
       {
@@ -236,12 +236,12 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "4": "a"
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1 – ε, 2 – γ, 3 – δ, 4 – α.",
-        "image": "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.png",
+        "image": "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.webp",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.png",
-          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig02.png",
-          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig03.png",
-          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig04.png"
+          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig03.webp",
+          "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27207_fig04.webp"
         ]
       },
       {

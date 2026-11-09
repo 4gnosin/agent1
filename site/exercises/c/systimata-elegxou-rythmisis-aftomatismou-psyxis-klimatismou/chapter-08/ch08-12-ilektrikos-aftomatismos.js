@@ -20,9 +20,9 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "4.1 Να αναφέρετε ποια θα είναι τα πέντε σημεία που θα συνδέσετε τον ηλεκτρικό αυτοματισμό με το ψυκτικό κύκλωμα και να εξηγήσετε πώς λειτουργούν.",
         "prompt": "4.1 Να αναφέρετε ποια θα είναι τα πέντε σημεία που θα συνδέσετε τον ηλεκτρικό αυτοματισμό με το ψυκτικό κύκλωμα και να εξηγήσετε πώς λειτουργούν.",
         "explain": "Τα 5 σημεία σύνδεσης είναι: 1) Ηλεκτροκινητήρες (συμπιεστή, ανεμιστήρων), 2) Ασφαλιστικά λειτουργίας (πρεσσοστάτες υψηλής, χαμηλής και λαδιού), 3) Ηλεκτρομαγνητικές βαλβίδες, 4) Θερμοστάτης χώρου, 5) Ρυθμιστής στροφών ανεμιστήρα.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.png",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.webp",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.png"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29600_fig01.webp"
         ]
       },
       {
@@ -90,7 +90,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Όταν ο συμπιεστής σταματάει, η ηλεκτρομαγνητική βαλβίδα κλείνει για να αποτρέψει τη διέλευση υγρού.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33181_fig01.png"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33181_fig01.webp"
       },
       {
         "kind": "mc",

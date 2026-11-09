@@ -88,7 +88,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "theory": "ch06-01-axionikos-efelkysmos-kai-thlipsi",
     "sourceOrder": 3,
     "stem": "Στο σχήμα 1 διακρίνεται μία ράβδος κυκλικής διατομής $A$, με διάμετρο $d$ ίση με $d = 20\\text{ mm}$, στην οποία ασκείται εφελκυστικό φορτίο ίσο με $F = 6280\\text{ N}$. Το υλικό κατασκευής της ράβδου έχει επιτρεπόμενη ορθή τάση ίση με $\\sigma_{\\text{επ}} = 50\\text{ N/mm}^2$.\n[Δίνεται $\\pi = 3,14$]",
-    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_#19457_fig01.png",
+    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_#19457_fig01.webp",
     "items": [
       {
         "kind": "calc",
