@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_michanourgiki-texnologia_ch07_#27620_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch07_27620_fig01.png",
       "bank_code": "27620",
       "role": "fig",
       "page": 8,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch07_27543_fig01.png",
       "bank_code": "27543",
       "role": "fig",
       "page": 14,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch07_#27543_fig02.png",
+      "file": "c_michanourgiki-texnologia_ch07_27543_fig02.png",
       "bank_code": "27543",
       "role": "fig",
       "page": 14,
@@ -85,13 +85,13 @@
   "by_bank_code": {
     "27543": {
       "fig": [
-        "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
-        "c_michanourgiki-texnologia_ch07_#27543_fig02.png"
+        "c_michanourgiki-texnologia_ch07_27543_fig01.png",
+        "c_michanourgiki-texnologia_ch07_27543_fig02.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch07_#27543_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch07_27543_fig01.png",
           "bank_code": "27543",
           "role": "fig",
           "page": 14,
@@ -113,7 +113,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch07_#27543_fig02.png",
+          "file": "c_michanourgiki-texnologia_ch07_27543_fig02.png",
           "bank_code": "27543",
           "role": "fig",
           "page": 14,
@@ -138,12 +138,12 @@
     },
     "27620": {
       "fig": [
-        "c_michanourgiki-texnologia_ch07_#27620_fig01.png"
+        "c_michanourgiki-texnologia_ch07_27620_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch07_#27620_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch07_27620_fig01.png",
           "bank_code": "27620",
           "role": "fig",
           "page": 8,

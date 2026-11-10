@@ -45,7 +45,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "4.2",
         "prompt": "Να αναγνωρίσετε στην εικόνα το σφάλμα συγκόλλησης και να αναφέρετε τις πιθανές αιτίες που το προκαλούν.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#17706_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_17706_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -67,7 +67,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "answer": "a",
         "explain": "Το σφάλμα είναι το μεγάλο πλάτος ραφής συγκόλλησης. Προκαλείται από υψηλή ένταση ρεύματος, λανθασμένη κίνηση ηλεκτροδίου, μεγάλο μήκος τόξου ή ακάθαρτες επιφάνειες.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#17706_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_17706_fig01.webp"
         ]
       }
     ]
@@ -157,7 +157,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "α",
         "prompt": "α) Πώς θα καταλάβετε ότι έχετε επιλέξει χαμηλή ένταση ρεύματος, ενώ παρατηρείτε τη ραφή συγκόλλησης;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18062_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18062_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -317,7 +317,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "4.2",
         "subqPrompt": "Τα σφάλματα κατά τις ηλεκτροσυγκολλήσεις τόξου οφείλονται κυρίως σε λανθασμένες επιλογές και σε λανθασμένο τρόπο συγκόλλησης.",
         "prompt": "α) Να αναγνωρίσετε στην παρακάτω εικόνα το σφάλμα συγκόλλησης.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18376_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18376_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -339,7 +339,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "answer": "a",
         "explain": "Το σφάλμα της εικόνας είναι ρωγμές στη ραφή συγκόλλησης.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18376_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18376_fig01.webp"
         ]
       },
       {
@@ -387,8 +387,8 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "prompt": "Με βάση τα παρακάτω σχήματα των εξαρτημάτων μηχανής ηλεκτροσυγκόλλησης, αντιστοιχίστε την εικόνα 1 και 2 με τη σωστή λειτουργία και σύνδεση πόλου:",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18410_fig01.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18410_fig02.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18410_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18410_fig02.webp"
         ],
         "left": [
           {
@@ -423,7 +423,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "2": "b"
         },
         "explain": "1: Λαβίδα συγκράτησης ηλεκτροδίου που συνδέεται με τον αρνητικό πόλο (β, γ). 2: Σφιγκτήρας κομματιών που συνδέεται με τον θετικό πόλο (α, δ).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18410_fig01.webp"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18410_fig01.webp"
       },
       {
         "kind": "tf",
@@ -625,9 +625,9 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "prompt": "Να αντιστοιχίσετε τις εικόνες 1, 2, 3 με τη σωστή μέθοδο ηλεκτροσυγκόλλησης τόξου:",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#25401_fig01.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#25401_fig02.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#25401_fig03.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_25401_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_25401_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_25401_fig03.webp"
         ],
         "left": [
           {
@@ -663,7 +663,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "3": "b"
         },
         "explain": "1: Γυμνό μεταλλικό ηλεκτρόδιο (γ), 2: Μεταλλικό επενδυμένο ηλεκτρόδιο (α), 3: Ηλεκτρόδιο από άνθρακα (β).",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#25401_fig01.webp"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_25401_fig01.webp"
       },
       {
         "kind": "tf",

@@ -123,10 +123,10 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         ],
         "answer": "c",
         "explain": "Από τον πίνακα, για διάμετρο $D = 60\\text{ mm}$ και ταχύτητα κοπής $u = 30\\text{ m/min}$, προκύπτει ταχύτητα περιστροφής $n = 160\\text{ rpm}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25470_fig01.webp",
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25470_fig01.webp",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25470_fig01.webp",
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25470_fig02.webp"
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25470_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25470_fig02.webp"
         ]
       },
       {
@@ -164,7 +164,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Υπολογίστε πρώτα την ταχύτητα πρόωσης $S = 0,25 \\cdot 10 \\cdot 160 = 400\\text{ mm/min}$ και μετά τον χρόνο κοπής $t_h = \\frac{1200}{400}$.",
         "explain": "$S = 0,25 \\cdot 10 \\cdot 160 = 400\\text{ mm/min}$. Ο χρόνος κοπής είναι $t_h = \\frac{1200}{400} = 3\\text{ min}$.",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25470_fig03.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25470_fig03.webp"
       }
     ]
   }

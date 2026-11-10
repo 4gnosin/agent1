@@ -79,7 +79,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζετε ένα κιβώτιο διανομής σε όχημα με κινητήριους και τους τέσσερις τροχούς (4x4), να γράψετε δίπλα στους αριθμούς 1, 2, 3, 4, 5 στη στήλη Α ένα από τα γράμματα α, β, γ, δ, ε, ζ της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση μερών συστήματος 4x4 με το σχήμα",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31772_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31772_fig01.webp"
         ],
         "left": [
           {
@@ -137,7 +137,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "a"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-δ, 3-γ, 4-ζ, 5-α. Περισσεύει το ε.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31772_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31772_fig01.webp"
       },
       {
         "kind": "tf",
@@ -188,11 +188,11 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, ζ της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση εμπλοκής ταχυτήτων με τα σχήματα",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig02.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig03.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig04.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig05.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig03.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig04.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig05.webp"
         ],
         "left": [
           {
@@ -250,7 +250,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "ζ"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-γ, 2-β, 3-α, 4-ε, 5-ζ. Περισσεύει το δ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#31773_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_31773_fig01.webp"
       },
       {
         "kind": "mc",
@@ -299,7 +299,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζονται ένα μηχανικό κιβώτιο συγχρονισμού πέντε ταχυτήτων, να γράψετε δίπλα στους αριθμούς 1, 2, 3, 4 στη στήλη Α ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση μερών μηχανικού κιβωτίου συγχρονισμού",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32640_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32640_fig01.webp"
         ],
         "left": [
           {
@@ -348,7 +348,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "e"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-γ, 3-α, 4-ε. Περισσεύει το δ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32640_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32640_fig01.webp"
       },
       {
         "kind": "mc",
@@ -397,7 +397,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το Σχήμα 1 που απεικονίζει ένα μηχανικό κιβώτιο συγχρονισμού τεσσάρων ταχυτήτων, να γράψετε τους αριθμούς 1, 2, 3, 4, 5, 6, 7, 8 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, ζ, η, θ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοίχιση μερών μηχανικού κιβωτίου συγχρονισμού 4 ταχυτήτων",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32673_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32673_fig01.webp"
         ],
         "left": [
           {
@@ -478,7 +478,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "8": "ζ"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-ε, 2-η, 3-θ, 4-α, 5-δ, 6-γ, 7-β, 8-ζ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32673_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32673_fig01.webp"
       },
       {
         "kind": "mc",
@@ -527,7 +527,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζεται ένα μηχανικό κιβώτιο συγχρονισμού πέντε ταχυτήτων, να γράψετε δίπλα στους αριθμούς 1, 2, 3, 4 στη στήλη Α ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση συγχρονιστών και γραναζιών 5ταχυτου κιβωτίου",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#33519_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_33519_fig01.webp"
         ],
         "left": [
           {
@@ -576,7 +576,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "c"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-α, 2-β, 3-ε, 4-γ. Περισσεύει το δ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#33519_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_33519_fig01.webp"
       },
       {
         "kind": "tf",

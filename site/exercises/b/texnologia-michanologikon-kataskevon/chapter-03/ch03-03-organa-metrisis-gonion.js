@@ -20,7 +20,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "α",
         "openEnded": true,
         "prompt": "α) Ποιο όργανο συνεργάζεται με το αλφάδι στη συγκεκριμένη εργασία;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19473_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_19473_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -67,7 +67,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Μια επιφάνεια, που ελέγχεται με αλφάδι, είναι οριζόντια, όταν η φυσαλίδα αέρα βρίσκεται ακριβώς ανάμεσα στις δύο κύριες γραμμές. Εάν βρίσκεται δεξιότερα, αυτό σημαίνει ότι η επιφάνεια γέρνει προς τα αριστερά και αντιστρόφως. Στην περίπτωση του σχήματος 1, η φυσαλίδα βρίσκεται αριστερότερα που σημαίνει ότι η επιφάνεια δεν είναι κάθετη και γέρνει προς τα δεξιά.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19473_fig01.webp"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_19473_fig01.webp"
       },
       {
         "kind": "mc",
@@ -113,7 +113,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "2.1 Στο παρακάτω σχήμα βλέπετε ένα μοιρογνωμόνιο με κλίμακα βερνιέρου. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε της Στήλη Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19475_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_19475_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -162,7 +162,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - γ (Βερνιέρος), 2 - δ (Βαθμονομημένος δίσκος), 3 - α (Λεπίδα), 4 - ε (Κοχλίας ακινητοποίησης λεπίδας).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_#19475_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-03/b_texnologia-michanologikon-kataskevon_ch03_19475_fig01.webp"
         ]
       },
       {

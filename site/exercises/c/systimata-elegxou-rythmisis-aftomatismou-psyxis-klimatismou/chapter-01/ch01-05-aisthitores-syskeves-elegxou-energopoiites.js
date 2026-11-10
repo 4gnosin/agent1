@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "Να γράψετε τα γράμματα α, β, γ, που βλέπετε στο παρακάτω σχήμα, για το τμήμα ελέγχου ενός συστήματος και δίπλα μια από τις λέξεις ή φράσεις που κατάλληλα αντιστοιχούν σε αυτά.",
         "prompt": "Αντιστοιχίστε τα γράμματα α, β, γ του σχήματος με τα τμήματα ελέγχου:",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23784_fig01.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23784_fig01.webp"
         ],
         "left": [
           {
@@ -56,7 +56,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "c": "3"
         },
         "explain": "α. Αισθητήρες, β. Επεξεργαστής και πρόγραμμα, γ. Ενεργοποιητές.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23784_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23784_fig01.webp"
       },
       {
         "kind": "match",

@@ -41,10 +41,10 @@ window.EXERCISES.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα σχήματα/αριθμούς της Στήλης Α με τους τύπους έργου της Στήλης Β.",
         "images": [
-          "images/b/thermod/chapter-04/b_thermod_ch04_#16252_fig01.webp",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#16252_fig02.webp",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#16252_fig03.webp",
-          "images/b/thermod/chapter-04/b_thermod_ch04_#16252_fig04.webp"
+          "images/b/thermod/chapter-04/b_thermod_ch04_16252_fig01.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_16252_fig02.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_16252_fig03.webp",
+          "images/b/thermod/chapter-04/b_thermod_ch04_16252_fig04.webp"
         ],
         "left": [
           {
@@ -89,7 +89,7 @@ window.EXERCISES.push(...
           "4": "b"
         },
         "explain": "Η αντιστοίχιση βασίζεται στα αντίστοιχα σχήματα των διαφόρων ειδών έργου (1: Έργο Ανυψώσεως, 2: Έργο Ελατηρίου, 3: Έργο Ατράκτου, 4: Έργο Επιτάχυνσης).",
-        "image": "images/b/thermod/chapter-04/b_thermod_ch04_#16252_fig01.webp"
+        "image": "images/b/thermod/chapter-04/b_thermod_ch04_16252_fig01.webp"
       }
     ]
   },
@@ -117,7 +117,7 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο $W = F \\cdot l \\cdot \\sigma\\upsilon\\nu 60^\\circ$, μετατρέποντας τα $2\\text{ km}$ σε μέτρα ($2000\\text{ m}$).",
         "explain": "$W = 100\\text{ N} \\cdot 2000\\text{ m} \\cdot \\frac{1}{2} = 100000\\text{ J} = 100\\text{ kJ}$.",
-        "image": "images/b/thermod/chapter-04/b_thermod_ch04_#16257_fig01.webp"
+        "image": "images/b/thermod/chapter-04/b_thermod_ch04_16257_fig01.webp"
       },
       {
         "kind": "calc",

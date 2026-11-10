@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch05_#20954_sol01.png",
+      "file": "b_thermod_ch05_20954_sol01.png",
       "bank_code": "20954",
       "role": "sol",
       "page": 11,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch05_#20954_sol02.png",
+      "file": "b_thermod_ch05_20954_sol02.png",
       "bank_code": "20954",
       "role": "sol",
       "page": 11,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch05_#20955_sol01.png",
+      "file": "b_thermod_ch05_20955_sol01.png",
       "bank_code": "20955",
       "role": "sol",
       "page": 20,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch05_#20955_sol02.png",
+      "file": "b_thermod_ch05_20955_sol02.png",
       "bank_code": "20955",
       "role": "sol",
       "page": 20,
@@ -108,12 +108,12 @@
     "20954": {
       "fig": [],
       "sol": [
-        "b_thermod_ch05_#20954_sol01.png",
-        "b_thermod_ch05_#20954_sol02.png"
+        "b_thermod_ch05_20954_sol01.png",
+        "b_thermod_ch05_20954_sol02.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch05_#20954_sol01.png",
+          "file": "b_thermod_ch05_20954_sol01.png",
           "bank_code": "20954",
           "role": "sol",
           "page": 11,
@@ -135,7 +135,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch05_#20954_sol02.png",
+          "file": "b_thermod_ch05_20954_sol02.png",
           "bank_code": "20954",
           "role": "sol",
           "page": 11,
@@ -161,12 +161,12 @@
     "20955": {
       "fig": [],
       "sol": [
-        "b_thermod_ch05_#20955_sol01.png",
-        "b_thermod_ch05_#20955_sol02.png"
+        "b_thermod_ch05_20955_sol01.png",
+        "b_thermod_ch05_20955_sol02.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch05_#20955_sol01.png",
+          "file": "b_thermod_ch05_20955_sol01.png",
           "bank_code": "20955",
           "role": "sol",
           "page": 20,
@@ -188,7 +188,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch05_#20955_sol02.png",
+          "file": "b_thermod_ch05_20955_sol02.png",
           "bank_code": "20955",
           "role": "sol",
           "page": 20,

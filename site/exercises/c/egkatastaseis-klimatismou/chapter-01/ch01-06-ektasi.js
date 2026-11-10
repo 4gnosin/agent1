@@ -80,7 +80,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "2": "b"
         },
         "explain": "Ο αριθμός 1 αντιστοιχεί σε ημικεντρική μονάδα με αερόψυκτο συμπυκνωτή (α) και ο αριθμός 2 σε μονάδα με υδρόψυκτο συμπυκνωτή (β).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_#25282_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_25282_fig01.webp"
       }
     ]
   },
@@ -139,11 +139,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "1 αντιστοιχεί στο β (split type), 2 αντιστοιχεί στο δ (ημικεντρική split με αερόψυκτο συμπυκνωτή), 3 αντιστοιχεί στο α (μονάδα δωματίου τοίχου).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_#26820_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_26820_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_#26820_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_#26820_fig02.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_#26820_fig03.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_26820_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_26820_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-01/c_egkatastaseis-klimatismou_ch01_26820_fig03.webp"
         ]
       },
       {

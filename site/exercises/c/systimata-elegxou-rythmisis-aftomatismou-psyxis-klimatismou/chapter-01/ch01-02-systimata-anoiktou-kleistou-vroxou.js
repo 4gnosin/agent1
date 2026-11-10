@@ -95,7 +95,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
       }
     ],
     "solutionImages": [
-      "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23640_sol01.webp"
+      "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23640_sol01.webp"
     ]
   },
   {
@@ -168,7 +168,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "Εξηγήστε τον τρόπο λειτουργίας του συστήματος ελέγχου θερμοκρασίας σε έναν αυτόνομο κλιματιζόμενο χώρο, το οποίο φαίνεται στο παρακάτω σχήμα. Να χρησιμοποιήσετε την αριθμημένη σειρά που δίνεται από το 1 έως το 4.",
         "prompt": "Αντιστοιχίστε τα τμήματα 1-4 του συστήματος ελέγχου με τη λειτουργία τους:",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23785_fig01.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23785_fig01.webp"
         ],
         "left": [
           {
@@ -213,7 +213,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "4": "d"
         },
         "explain": "Η επιθυμητή θερμοκρασία (1) συγκρίνεται με την πραγματική από το θερμόμετρο (2), το σφάλμα πηγαίνει στον ελεγκτή (3) και διορθώνεται από το σύστημα κλιματισμού (4).",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23785_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23785_fig01.webp"
       }
     ]
   },
@@ -318,9 +318,9 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "Χαρακτηρίστε κάθε ένα από τα παρακάτω συστήματα αυτομάτου ελέγχου, γράφοντας δίπλα στον αριθμό του το γράμμα α. αν θεωρείτε ότι είναι ανοικτού βρόχου ή το γράμμα β. αν θεωρείτε ότι είναι κλειστού βρόχου.",
         "prompt": "Αντιστοιχίστε τα σχήματα συστημάτων 1, 2, 3 με τον τύπο βρόχου:",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23954_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23954_fig02.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23954_fig03.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23954_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23954_fig02.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23954_fig03.webp"
         ],
         "left": [
           {
@@ -352,7 +352,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "3": "b"
         },
         "explain": "Το σύστημα 1 είναι ανοικτού βρόχου, ενώ τα συστήματα 2 και 3 είναι κλειστού βρόχου.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_#23954_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-01/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch01_23954_fig01.webp"
       },
       {
         "kind": "mc",

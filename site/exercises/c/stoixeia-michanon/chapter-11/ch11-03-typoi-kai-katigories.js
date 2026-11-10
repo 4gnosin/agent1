@@ -66,7 +66,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "c"
         },
         "explain": "1. D αντιστοιχεί στη διάμετρο κυλίνδρου (β). 2. d αντιστοιχεί στη διάμετρο εμβόλου (δ). 3. s αντιστοιχεί στη διαδρομή εμβόλου (α). 4. l αντιστοιχεί στο μήκος διωστήρα (γ).",
-        "image": "images/c/stoixeia-michanon/chapter-11/c_stoixeia-michanon_ch11_#30677_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-11/c_stoixeia-michanon_ch11_30677_fig01.webp"
       },
       {
         "kind": "blank",

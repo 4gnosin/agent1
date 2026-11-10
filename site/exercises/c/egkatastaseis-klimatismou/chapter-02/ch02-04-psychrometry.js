@@ -66,7 +66,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "a"
         },
         "explain": "Στον ψυχρομετρικό χάρτη, οι καμπύλες παριστούν τη σχετική υγρασία (1-δ), οι οριζόντιες ή σχεδόν οριζόντιες γραμμές την ειδική υγρασία (2-ε), οι κεκλιμένες γραμμές τον ειδικό όγκο (3-β) και οι οριζόντιες προεκτάσεις προς την καμπύλη κορεσμού τη θερμοκρασία σημείου δρόσου (4-α).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23768_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23768_fig01.webp"
       },
       {
         "kind": "mc",
@@ -249,9 +249,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Για θερμοκρασία $t_{db} = 31\\text{ }^\\circ\\text{C}$ στην καμπύλη κορεσμού $\\varphi = 100\\%$, η ειδική υγρασία είναι $W = 29\\text{ g/kg}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23770_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23770_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23770_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23770_sol01.webp"
     ]
   },
   {
@@ -495,7 +495,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "6": "a"
         },
         "explain": "Αντιστοίχιση γραμμών ψυχρομετρικού χάρτη: 1-Θερμοκρασία ξηρού βολβού (γ), 2-Θερμοκρασία υγρού βολβού (ε), 3-Ειδικός όγκος (β), 4-Ενθαλπία (δ), 5-Ειδική υγρασία (στ), 6-Σχετική υγρασία (α).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23828_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23828_fig01.webp"
       }
     ]
   },
@@ -698,9 +698,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Για την Κατάσταση 2, $t_{dp2} = 15,8\\text{ }^\\circ\\text{C}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23894_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23894_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23894_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23894_sol01.webp"
     ]
   }
 ]

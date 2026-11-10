@@ -176,7 +176,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": " \\( V_3 = \\frac{P_2 \\cdot V_2}{P_3} = \\frac{4 \\cdot 0,04}{2} = 0,08\\text{ m}^3 \\). \\( W_{31} = 2 \\cdot 10^5 \\cdot (0,04 - 0,08) = -8000\\text{ Joule} \\)."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33875_fig01.webp"
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_33875_fig01.webp"
   },
   {
     "id": "ch03-33902",
@@ -197,7 +197,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "Απαντήστε στα ερωτήματα:",
         "prompt": "4.1 Να απεικονίσετε σχηματικά την κυκλική αυτή μεταβολή σε διάγραμμα $P-V$.",
         "explain": "Η μεταβολή 1-2 είναι ισόθερμη καμπύλη, η 2-3 κατακόρυφη ευθύγραμμη ισόογκη και η 3-1 οριζόντια ισόθλιπτη.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33902_sol01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_33902_sol01.webp"
       },
       {
         "kind": "calc",
@@ -234,7 +234,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_#33902_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-03/c_stoixeia-psyxis-klimatismou_ch03_33902_sol01.webp"
     ]
   }
 ]

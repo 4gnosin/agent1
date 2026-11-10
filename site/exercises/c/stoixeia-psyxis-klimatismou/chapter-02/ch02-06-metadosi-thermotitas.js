@@ -167,10 +167,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "C": "c"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_33869_fig01.webp"
         ],
         "explain": "Α. Μεταφορά (στο νερό που θερμαίνεται), Β. Αγωγή (στο χερούλι/τοίχωμα), Γ. Ακτινοβολία (από τη φλόγα/εστία).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#33869_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_33869_fig01.webp"
       }
     ]
   }

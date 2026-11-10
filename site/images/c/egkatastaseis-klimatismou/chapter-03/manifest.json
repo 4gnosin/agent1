@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#23879_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_23879_fig01.png",
       "bank_code": "23879",
       "role": "fig",
       "page": 6,
@@ -28,7 +28,7 @@
       "bank_code_inherited": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#23879_fig02.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_23879_fig02.png",
       "bank_code": "23879",
       "role": "fig",
       "page": 7,
@@ -40,7 +40,7 @@
       "bank_code_inherited": true
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#25284_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_25284_fig01.png",
       "bank_code": "25284",
       "role": "fig",
       "page": 9,
@@ -52,7 +52,7 @@
       "bank_code_inherited": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#25284_fig02.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_25284_fig02.png",
       "bank_code": "25284",
       "role": "fig",
       "page": 10,
@@ -64,7 +64,7 @@
       "bank_code_inherited": true
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#26823_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_26823_fig01.png",
       "bank_code": "26823",
       "role": "fig",
       "page": 13,
@@ -76,7 +76,7 @@
       "xref": 399
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#26823_fig02.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_26823_fig02.png",
       "bank_code": "26823",
       "role": "fig",
       "page": 14,
@@ -88,7 +88,7 @@
       "xref": 463
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#23896_sol01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_23896_sol01.png",
       "bank_code": "23896",
       "role": "sol",
       "page": 18,
@@ -100,7 +100,7 @@
       "bank_code_inherited": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#23893_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_23893_fig01.png",
       "bank_code": "23893",
       "role": "fig",
       "page": 23,
@@ -112,7 +112,7 @@
       "xref": 786
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#23893_sol01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_23893_sol01.png",
       "bank_code": "23893",
       "role": "sol",
       "page": 26,
@@ -124,7 +124,7 @@
       "bank_code_inherited": true
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#29449_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_29449_fig01.png",
       "bank_code": "29449",
       "role": "fig",
       "page": 29,
@@ -136,7 +136,7 @@
       "xref": 953
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#29449_fig02.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_29449_fig02.png",
       "bank_code": "29449",
       "role": "fig",
       "page": 29,
@@ -148,7 +148,7 @@
       "xref": 954
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#26852_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_26852_fig01.png",
       "bank_code": "26852",
       "role": "fig",
       "page": 31,
@@ -160,7 +160,7 @@
       "xref": 1052
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#25272_sol01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_25272_sol01.png",
       "bank_code": "25272",
       "role": "sol",
       "page": 35,
@@ -172,7 +172,7 @@
       "bank_code_inherited": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#25273_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_25273_fig01.png",
       "bank_code": "25273",
       "role": "fig",
       "page": 36,
@@ -184,7 +184,7 @@
       "bank_code_inherited": false
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch03_#26877_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch03_26877_fig01.png",
       "bank_code": "26877",
       "role": "fig",
       "page": 38,
@@ -199,67 +199,67 @@
   "by_bank_code": {
     "23879": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#23879_fig01.png",
-        "c_egkatastaseis-klimatismou_ch03_#23879_fig02.png"
+        "c_egkatastaseis-klimatismou_ch03_23879_fig01.png",
+        "c_egkatastaseis-klimatismou_ch03_23879_fig02.png"
       ],
       "sol": []
     },
     "23893": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#23893_fig01.png"
+        "c_egkatastaseis-klimatismou_ch03_23893_fig01.png"
       ],
       "sol": [
-        "c_egkatastaseis-klimatismou_ch03_#23893_sol01.png"
+        "c_egkatastaseis-klimatismou_ch03_23893_sol01.png"
       ]
     },
     "23896": {
       "fig": [],
       "sol": [
-        "c_egkatastaseis-klimatismou_ch03_#23896_sol01.png"
+        "c_egkatastaseis-klimatismou_ch03_23896_sol01.png"
       ]
     },
     "25272": {
       "fig": [],
       "sol": [
-        "c_egkatastaseis-klimatismou_ch03_#25272_sol01.png"
+        "c_egkatastaseis-klimatismou_ch03_25272_sol01.png"
       ]
     },
     "25273": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#25273_fig01.png"
+        "c_egkatastaseis-klimatismou_ch03_25273_fig01.png"
       ],
       "sol": []
     },
     "25284": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#25284_fig01.png",
-        "c_egkatastaseis-klimatismou_ch03_#25284_fig02.png"
+        "c_egkatastaseis-klimatismou_ch03_25284_fig01.png",
+        "c_egkatastaseis-klimatismou_ch03_25284_fig02.png"
       ],
       "sol": []
     },
     "26823": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#26823_fig01.png",
-        "c_egkatastaseis-klimatismou_ch03_#26823_fig02.png"
+        "c_egkatastaseis-klimatismou_ch03_26823_fig01.png",
+        "c_egkatastaseis-klimatismou_ch03_26823_fig02.png"
       ],
       "sol": []
     },
     "26852": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#26852_fig01.png"
+        "c_egkatastaseis-klimatismou_ch03_26852_fig01.png"
       ],
       "sol": []
     },
     "26877": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#26877_fig01.png"
+        "c_egkatastaseis-klimatismou_ch03_26877_fig01.png"
       ],
       "sol": []
     },
     "29449": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch03_#29449_fig01.png",
-        "c_egkatastaseis-klimatismou_ch03_#29449_fig02.png"
+        "c_egkatastaseis-klimatismou_ch03_29449_fig01.png",
+        "c_egkatastaseis-klimatismou_ch03_29449_fig02.png"
       ],
       "sol": []
     }

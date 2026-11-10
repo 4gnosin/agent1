@@ -52,9 +52,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Από τον Πίνακα 1 για παροχή αέρα $106\\text{ L/s}$ και ταχύτητα αέρα $3,75\\text{ m/s}$ η πλησιέστερη τιμή είναι $4\\text{ m/s}$, σε γωνία πτερυγίων $0^\\circ$. Το βεληνεκές είναι $7,3\\text{ m}$ που ικανοποιεί το υπολογισμένο βεληνεκές των $7,5\\text{ m}$. Επιλέγουμε στόμιο τοίχου με διαστάσεις $305 \\times 127\\text{ mm}$ σε $0^\\circ$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29156_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29156_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29156_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29156_sol01.webp"
     ]
   },
   {
@@ -129,10 +129,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Από τον πίνακα 2, για τα στόμια που έχουμε επιλέξει, η γωνία ρύθμισης των πτερυγίων πρέπει να είναι $0^\\circ$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29329_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29329_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29329_fig01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29329_fig02.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29329_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29329_fig02.webp"
     ]
   },
   {
@@ -294,7 +294,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "1 – γ (Βεληνεκές), 2 – δ (Στόμιο), 3 – α (Πτώση), 4 – β (Δάπεδο).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#29500_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29500_fig01.webp"
       }
     ]
   },
@@ -426,7 +426,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.02,
         "hint": "Υπολογίστε τα $3/4$ της απόστασης $10\\text{ m}$.",
         "explain": "Το βεληνεκές είναι $\\frac{3}{4} \\cdot 10\\text{ m} = 7,5\\text{ m}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32809_fig02.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_32809_fig02.webp"
       },
       {
         "kind": "mc",
@@ -454,9 +454,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Για παροχή $106\\text{ L/s}$ και ταχύτητα κοντά σε $5\\text{ m/s}$ (πλησιέστερη $4,7\\text{ m/s}$ σε $0^\\circ$), επιλέγουμε διαστάσεις $305 \\times 102\\text{ mm}$ σε γωνία πτερυγίων $0^\\circ$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32809_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_32809_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#32809_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_32809_sol01.webp"
     ]
   },
   {
@@ -564,7 +564,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Το βεληνεκές είναι $\\frac{3}{4} \\cdot 12\\text{ m} = 9\\text{ m}$. Η ταχύτητα για σχολεία είναι $5\\text{ m/s}$. Από τον πίνακα 2 για παροχή $118\\text{ L/s}$, ταχύτητα $5,3\\text{ m/s}$ και βεληνεκές $9,1\\text{ m}$, επιλέγουμε διαστάσεις $305\\times102\\text{ mm}$ σε γωνία $0^\\circ$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_#34654_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_34654_fig01.webp"
       },
       {
         "kind": "mc",

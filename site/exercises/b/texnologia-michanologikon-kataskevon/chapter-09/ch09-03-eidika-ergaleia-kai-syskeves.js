@@ -85,7 +85,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Στο παρακάτω σχήμα βλέπετε τη διαδικασία αποκοπής σωλήνα. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5 της Στήλης Α με τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β (ένα γράμμα περισσεύει):",
         "prompt": "Αντιστοίχιση μερών στη διαδικασία αποκοπής σωλήνα:",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19042_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19042_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -143,7 +143,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1: Κοπτικός δίσκος (γ), 2: Σωληνομέγγενη (β), 3: Σωληνοκόφτης (α), 4: Σωλήνας (ε), 5: Κύλιστρα/οδηγοί (στ).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19042_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19042_fig01.webp"
         ]
       },
       {
@@ -202,7 +202,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "α",
         "prompt": "α) Να κάνετε την αναγνώριση των εξαρτημάτων του παραπάνω δικτύου.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19365_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19365_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -251,7 +251,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "explain": "Για την πραγματοποίηση με λιγότερα εξαρτήματα, η γωνία 5 αντικαθίσταται με ενιαίο σωλήνα που περνά από κουρμπαδόρο Φ18 (κάμψη 90°). Επίσης, η μούφα 4 παραλείπεται χρησιμοποιώντας ένα ολόκληρο κομμάτι χαλκοσωλήνα Φ18."
       }
     ],
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19365_fig01.webp"
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19365_fig01.webp"
   },
   {
     "id": "ch09-19368",
@@ -271,7 +271,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "α",
         "prompt": "α) Να κάνετε την αναγνώριση των εξαρτημάτων του παραπάνω δικτύου.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19368_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19368_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -320,7 +320,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "explain": "Οι γωνίες 2, 3 αντικαθίστανται με ενιαίο σιδηροσωλήνα που κουρμπάρεται στον κουρμπαδόρο 1΄΄. Επίσης η μούφα 8 παραλείπεται χρησιμοποιώντας ένα ολόκληρο κομμάτι σιδηροσωλήνα."
       }
     ],
-    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_#19368_fig01.webp"
+    "image": "images/b/texnologia-michanologikon-kataskevon/chapter-09/b_texnologia-michanologikon-kataskevon_ch09_19368_fig01.webp"
   }
 ]
 );

@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch03_#30028_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch03_30028_fig01.png",
       "bank_code": "30028",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch03_#34644_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch03_34644_fig01.png",
       "bank_code": "34644",
       "role": "fig",
       "page": 16,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch03_23739_fig01.png",
       "bank_code": "23739",
       "role": "fig",
       "page": 23,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch03_23740_fig01.png",
       "bank_code": "23740",
       "role": "fig",
       "page": 26,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch03_26278_fig01.png",
       "bank_code": "26278",
       "role": "fig",
       "page": 29,
@@ -129,12 +129,12 @@
   "by_bank_code": {
     "23739": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch03_23739_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch03_#23739_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch03_23739_fig01.png",
           "bank_code": "23739",
           "role": "fig",
           "page": 23,
@@ -159,12 +159,12 @@
     },
     "23740": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch03_23740_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch03_#23740_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch03_23740_fig01.png",
           "bank_code": "23740",
           "role": "fig",
           "page": 26,
@@ -189,12 +189,12 @@
     },
     "26278": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch03_26278_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch03_#26278_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch03_26278_fig01.png",
           "bank_code": "26278",
           "role": "fig",
           "page": 29,
@@ -219,12 +219,12 @@
     },
     "30028": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch03_#30028_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch03_30028_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch03_#30028_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch03_30028_fig01.png",
           "bank_code": "30028",
           "role": "fig",
           "page": 2,
@@ -249,12 +249,12 @@
     },
     "34644": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch03_#34644_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch03_34644_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch03_#34644_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch03_34644_fig01.png",
           "bank_code": "34644",
           "role": "fig",
           "page": 16,

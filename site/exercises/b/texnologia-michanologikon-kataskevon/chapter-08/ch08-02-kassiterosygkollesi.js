@@ -19,9 +19,9 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "prompt": "Να αντιστοιχίσετε τις εικόνες 1, 2, 3 της Στήλης Α με την κατάλληλη ονομασία της Στήλης Β:",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig01.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig02.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#18408_fig03.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18408_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18408_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_18408_fig03.webp"
         ],
         "imageLabels": [
           "1. Εικόνα 1",
@@ -184,7 +184,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "mc",
         "openEnded": true,
         "prompt": "Περιγράψτε τη διαδικασία που θα ακολουθήσετε για την κασσιτεροσυγκόλληση των χαλκοσωλήνων με τα εξαρτήματά τους για την κατασκευή του δικτύου σωλήνωσης.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_#25409_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-08/b_texnologia-michanologikon-kataskevon_ch08_25409_fig01.webp",
         "options": [
           {
             "id": "a",

@@ -172,7 +172,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω διάγραμμα απεικονίζεται η ψυχρομετρική μεταβολή θέρμανσης του αέρα χωρίς ύγρανση. Να γράψετε τους αριθμούς 1, 2 από τη στήλη Α και δίπλα στο καθένα, ποια από τα γράμματα α, β, γ, δ, ε, στ, ζ, η της στήλης Β δίνουν τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα μεγέθη ως προς τη συμπεριφορά τους κατά τη θέρμανση του αέρα χωρίς ύγρανση:",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33898_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33898_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -223,7 +223,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Κατά τη θέρμανση χωρίς ύγρανση, ο λόγος υγρασίας, η θερμοκρασία δρόσου και η λανθάνουσα θερμότητα παραμένουν σταθερά, ενώ αυξάνονται η θερμοκρασία ξηρού και υγρού βολβού, η ενθαλπία, η αισθητή θερμότητα και μειώνεται η σχετική υγρασία.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33898_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33898_fig01.webp"
         ]
       }
     ]
@@ -283,9 +283,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "1 (Διάγραμμα 1): β. Θέρμανση του αέρα χωρίς ύγρανση\n2 (Διάγραμμα 2): γ. Ψύξη του αέρα με αφύγρανση στην πράξη\n3 (Διάγραμμα 3): α. Θέρμανση του αέρα με ύγρανση\n(Η επιλογή «δ. Αδιαβατική ψύξη» περισσεύει).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32843_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32843_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32843_fig03.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32843_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32843_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32843_fig03.webp"
         ],
         "imageLayout": "grid",
         "imageLabels": [
@@ -363,13 +363,13 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch10-08",
     "sourceOrder": 2,
     "stem": "Χώρος με θερμοκρασία (ξηρού θερμομέτρου) $18\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $20\\%$ θερμαίνεται με αποτέλεσμα να αυξηθεί η θερμοκρασία του κατά $4\\text{ }^\\circ\\text{C}$. Παράλληλα προστέθηκε στο χώρο υγρασία σε ποσότητα $5\\text{ gr}$ νερού$/\\text{kg}$ ξηρού αέρα.",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_fig01.webp",
     "items": [
       {
         "kind": "open",
         "subq": "α",
         "prompt": "α. Να παραστήσετε τη μεταβολή στον ψυχρομετρικό χάρτη.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol01.webp",
         "explain": "Βρίσκουμε το σημείο Α στον χάρτη για $t_{db1} = 18\\text{ }^\\circ\\text{C}$ και $\\phi_1 = 20\\%$. Από τον χάρτη ο λόγος υγρασίας είναι $2{,}5\\text{ gr/kg}$. Με προσθήκη $5\\text{ gr/kg}$, ο τελικός λόγος υγρασίας γίνεται $7{,}5\\text{ gr/kg}$. Σημειώνουμε την τελική κατάσταση Β στη θερμοκρασία $t_{db2} = 22\\text{ }^\\circ\\text{C}$ και λόγο υγρασίας $7{,}5\\text{ gr/kg}$."
       },
       {
@@ -379,7 +379,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": 45,
         "unit": "%",
         "tolerance": 0.05,
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol02.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol02.webp",
         "explain": "Η σχετική υγρασία στο σημείο Β βρίσκεται στον ψυχρομετρικό χάρτη περίπου στο μέσο των καμπυλών $40\\%$ και $50\\%$, δηλαδή είναι ίση με $45\\%$."
       },
       {
@@ -389,7 +389,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": 25,
         "unit": "kJ/kg",
         "tolerance": 0.02,
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol03.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol03.webp",
         "explain": "Από τον ψυχρομετρικό χάρτη, η ενθαλπία για την αρχική κατάσταση (σημείο Α στους $18\\text{ }^\\circ\\text{C}$) είναι $h_1 = 25\\text{ kJ/kg}$."
       },
       {
@@ -399,15 +399,15 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": 42,
         "unit": "kJ/kg",
         "tolerance": 0.02,
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol04.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol04.webp",
         "explain": "Από τον ψυχρομετρικό χάρτη, η ενθαλπία για την τελική κατάσταση (σημείο Β στους $22\\text{ }^\\circ\\text{C}$) είναι $h_2 = 42\\text{ kJ/kg}$."
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol02.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol03.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33913_sol04.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol03.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33913_sol04.webp"
     ]
   },
   {
@@ -423,12 +423,12 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "sourceOrder": 3,
     "stem": "Σε επαγγελματικό χώρο τον μήνα Δεκέμβριο, ο ατμοσφαιρικός αέρας μετρήθηκε να έχει θερμοκρασία ξηρού βολβού $17\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $50\\%$. Ο αέρας του χώρου αυτού κλιματίζεται μέχρι τη θερμοκρασία ξηρού βολβού των $25\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $30\\%$. Με τη βοήθεια του Διαγράμματος 2 (ψυχρομετρικός χάρτης) που σας δίνεται:",
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_fig01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_fig01.webp"
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol02.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol03.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol03.webp"
     ],
     "items": [
       {
@@ -436,8 +436,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "4.1",
         "prompt": "4.1. Να αποτυπώσετε πάνω στο Διάγραμμα 2, τη μεταβολή AB.",
         "explain": "Η αποτύπωση γίνεται εντοπίζοντας τα σημεία Α ($17\\text{ }^\\circ\\text{C}$, $50\\%$) και Β ($25\\text{ }^\\circ\\text{C}$, $30\\%$) και συνδέοντάς τα.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol01.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_fig02.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_fig02.webp"
       },
       {
         "kind": "mc",
@@ -464,8 +464,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "a",
         "explain": "Στο διάγραμμα 1, η κατάσταση Β ($25\\text{ }^\\circ\\text{C}$ και $30\\%$ RH) εμπίπτει στην περιοχή θερινής άνεσης. Συνεπώς, τον χειμώνα (Δεκέμβριο), οι εργαζόμενοι θα αισθάνονται δυσφορία λόγω υπερβολικής ζέστης.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_fig01.webp",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_fig01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol01.webp"
       },
       {
         "kind": "calc",
@@ -477,7 +477,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Διαβάστε τους λόγους υγρασίας $W_A$ και $W_B$ από τον χάρτη.",
         "explain": "Από τον ψυχρομετρικό χάρτη βρίσκουμε $W_A = W_B = 6\\text{ gr/kg ξηρού αέρα}$. Άποτε $\\Delta W = 6 - 6 = 0\\text{ gr/kg}$. Η μεταβολή είναι καθαρή θέρμανση ($T_B > T_A$) χωρίς ύγρανση ($\\Delta W = 0$).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32844_sol02.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32844_sol02.webp"
       }
     ]
   },
@@ -494,10 +494,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "sourceOrder": 4,
     "stem": "Ατμοσφαιρικός αέρας εσωτερικού χώρου, θερμοκρασίας ξηρού βολβού $14\\text{ }^\\circ\\text{C}$ και σχετικής υγρασίας $30\\%$, θερμαίνεται με ύγρανση έως τους $19\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $50\\%$.",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol02.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol03.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol04.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol02.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol03.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol04.webp"
     ],
     "items": [
       {
@@ -505,8 +505,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "α",
         "prompt": "α) Αποτυπώστε τα δύο σημεία 1 και 2 στον ψυχρομετρικό χάρτη, στην αρχή και στο τέλος της μεταβολής αντίστοιχα.",
         "explain": "Τα σημεία 1 ($14\\text{ }^\\circ\\text{C}$, $30\\%$) και 2 ($19\\text{ }^\\circ\\text{C}$, $50\\%$) εντοπίζονται και σημειώνονται στον ψυχρομετρικό χάρτη.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol01.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_fig01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_fig01.webp"
       },
       {
         "kind": "calc",
@@ -518,7 +518,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.5,
         "hint": "Διαβάστε τη θερμοκρασία υγρού βολβού κατά μήκος της διακεκομμένης πλάγιας γραμμής στο σημείο 2.",
         "explain": "Για το σημείο 2, ακολουθώντας την πλάγια γραμμή υγρού βολβού, προκύπτει $T_{WB} = 13\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol02.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol02.webp"
       },
       {
         "kind": "calc",
@@ -530,7 +530,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.2,
         "hint": "Διαβάστε τον λόγο υγρασίας από τη δεξιά κατακόρυφη κλίμακα του χάρτη.",
         "explain": "Από τον ψυχρομετρικό χάρτη για το σημείο 1, ο λόγος υγρασίας είναι $W = 3\\text{ gr/kg ξηρού αέρα}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol03.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol03.webp"
       },
       {
         "kind": "calc",
@@ -542,7 +542,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.5,
         "hint": "Βρείτε τις ενθαλπίες $h_1$ και $h_2$ από τον χάρτη και υπολογίστε τη διαφορά τους.",
         "explain": "Από τον χάρτη προκύπτουν $h_1 = 22\\text{ kJ/kg}$ και $h_2 = 36\\text{ kJ/kg}$. Επομένως: $\\Delta h = 36 - 22 = 14\\text{ kJ/kg ξηρού αέρα}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32938_sol04.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32938_sol04.webp"
       }
     ]
   }

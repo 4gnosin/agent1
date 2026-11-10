@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch02_25374_fig01.png",
       "bank_code": "25374",
       "role": "fig",
       "page": 5,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch02_25373_fig01.png",
       "bank_code": "25373",
       "role": "fig",
       "page": 16,
@@ -63,12 +63,12 @@
   "by_bank_code": {
     "25373": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch02_25373_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch02_#25373_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch02_25373_fig01.png",
           "bank_code": "25373",
           "role": "fig",
           "page": 16,
@@ -93,12 +93,12 @@
     },
     "25374": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch02_25374_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch02_25374_fig01.png",
           "bank_code": "25374",
           "role": "fig",
           "page": 5,

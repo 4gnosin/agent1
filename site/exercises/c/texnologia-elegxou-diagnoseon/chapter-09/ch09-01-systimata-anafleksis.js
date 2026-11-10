@@ -20,7 +20,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζεται ηλεκτρονική ελεγχόμενη ανάφλεξη από ηλεκτρονική μονάδα (εγκέφαλο). Να γράψετε στις απαντήσεις σας τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα (1) γράμμα από τη Στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα στοιχεία της Στήλης Α με τα στοιχεία της Στήλης Β:",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.webp"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_34104_fig01.webp"
         ],
         "left": [
           {
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
           "5": "α"
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1 - γ (Μπαταρία), 2 - ε (Επαγωγικός αισθητήρας στροφών), 3 - β (Πολλαπλασιαστής), 4 - στ (Διανομέας), 5 - α (Μπουζί). Περισσεύει το δ (Διακόπτης ανάφλεξης).",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.webp"
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_34104_fig01.webp"
       },
       {
         "kind": "tf",
@@ -136,15 +136,15 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subqPrompt": "Με βάση τη σχηματική παράσταση που απεικονίζεται σε κάθε ένα από τα δύο παρακάτω σχήματα, να γράψετε τους αριθμούς 1, 2 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ της στήλης Β που δίνει τη σωστή αντιστοίχιση για την κυματομορφή που παράγει η κάθε γεννήτρια του συστήματος ανάφλεξης.",
         "prompt": "Αντιστοιχίστε τις γεννήτριες του συστήματος ανάφλεξης (Στήλη Α) με τις κυματομορφές τους (Στήλη Β):",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.webp"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig01.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig03.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig02.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig04.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig05.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig02.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig03.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig04.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig05.webp"
         ],
         "left": [
           {
@@ -175,7 +175,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
           "2": "γ"
         },
         "explain": "Η γεννήτρια Hall αντιστοιχεί στην κυματομορφή 1 (α) και η επαγωγική γεννήτρια στην κυματομορφή 2 (γ).",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.webp"
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-09/c_texnologia-elegxou-diagnoseon_ch09_36260_fig01.webp"
       },
       {
         "kind": "blank",

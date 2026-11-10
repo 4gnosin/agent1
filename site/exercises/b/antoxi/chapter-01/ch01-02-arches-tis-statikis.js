@@ -26,7 +26,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον νόμο του συνημιτόνου για τη σύνθεση δύο δυνάμεις που σχηματίζουν γωνία $\\varphi$.",
         "explain": "Από τον τύπο της συνισταμένης δύναμης:\\n\\( \\Sigma = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}\\varphi} \\)\\n\\( \\Sigma = \\sqrt{20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot 0{,}342} = \\sqrt{400 + 900 + 400 \\cdot 0{,}342} = \\sqrt{1300 + 410{,}4} = \\sqrt{1710{,}4} = 41{,}35\\text{ N} \\)",
-        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#18898_fig01.webp"
+        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_18898_fig01.webp"
       },
       {
         "kind": "calc",
@@ -192,7 +192,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "sourceOrder": 3,
     "stem": "Δύο δυνάμεις $F_1 = 5\\text{ N}$ και $F_2 = 4\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $60^\\circ$, όπως φαίνεται στο σχήμα.\\nΔίνεται $\\text{ημ}60^\\circ = \\frac{\\sqrt{3}}{2} = 0{,}866$, $\\text{συν}60^\\circ = \\frac{1}{2}$, $\\sqrt{61} = 7{,}81$.",
     "solutionImages": [
-      "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.webp"
+      "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_sol01.webp"
     ],
     "items": [
       {
@@ -206,8 +206,8 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.02,
         "hint": "Εφαρμόστε τον νόμο των συνημιτόνων για τις δύο δυνάμεις.",
         "explain": "$\\begin{aligned}\n\\Sigma &= \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}60^\\circ} \\\\\n&= \\sqrt{5^2 + 4^2 + 2 \\cdot 5 \\cdot 4 \\cdot 0{,}5} \\\\\n&= \\sqrt{25 + 16 + 20} = \\sqrt{61} \\approx 7{,}81\\text{ N}\n\\end{aligned}$",
-        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_fig01.webp",
-        "hintImage": "images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.webp"
+        "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_fig01.webp",
+        "hintImage": "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_sol01.webp"
       },
       {
         "kind": "calc",

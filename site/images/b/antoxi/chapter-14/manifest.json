@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_antoxi_ch14_#23687_fig01.png",
+      "file": "b_antoxi_ch14_23687_fig01.png",
       "bank_code": "23687",
       "role": "fig",
       "page": 8,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch14_#23788_fig01.png",
+      "file": "b_antoxi_ch14_23788_fig01.png",
       "bank_code": "23788",
       "role": "fig",
       "page": 10,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch14_#23317_fig01.png",
+      "file": "b_antoxi_ch14_23317_fig01.png",
       "bank_code": "23317",
       "role": "fig",
       "page": 14,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch14_#23688_fig01.png",
+      "file": "b_antoxi_ch14_23688_fig01.png",
       "bank_code": "23688",
       "role": "fig",
       "page": 18,
@@ -107,12 +107,12 @@
   "by_bank_code": {
     "23317": {
       "fig": [
-        "b_antoxi_ch14_#23317_fig01.png"
+        "b_antoxi_ch14_23317_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch14_#23317_fig01.png",
+          "file": "b_antoxi_ch14_23317_fig01.png",
           "bank_code": "23317",
           "role": "fig",
           "page": 14,
@@ -137,12 +137,12 @@
     },
     "23687": {
       "fig": [
-        "b_antoxi_ch14_#23687_fig01.png"
+        "b_antoxi_ch14_23687_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch14_#23687_fig01.png",
+          "file": "b_antoxi_ch14_23687_fig01.png",
           "bank_code": "23687",
           "role": "fig",
           "page": 8,
@@ -167,12 +167,12 @@
     },
     "23688": {
       "fig": [
-        "b_antoxi_ch14_#23688_fig01.png"
+        "b_antoxi_ch14_23688_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch14_#23688_fig01.png",
+          "file": "b_antoxi_ch14_23688_fig01.png",
           "bank_code": "23688",
           "role": "fig",
           "page": 18,
@@ -197,12 +197,12 @@
     },
     "23788": {
       "fig": [
-        "b_antoxi_ch14_#23788_fig01.png"
+        "b_antoxi_ch14_23788_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch14_#23788_fig01.png",
+          "file": "b_antoxi_ch14_23788_fig01.png",
           "bank_code": "23788",
           "role": "fig",
           "page": 10,

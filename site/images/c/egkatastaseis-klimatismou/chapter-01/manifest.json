@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_egkatastaseis-klimatismou_ch01_#25282_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch01_25282_fig01.png",
       "bank_code": "25282",
       "role": "fig",
       "page": 6,
@@ -28,7 +28,7 @@
       "xref": 162
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch01_#26820_fig01.png",
+      "file": "c_egkatastaseis-klimatismou_ch01_26820_fig01.png",
       "bank_code": "26820",
       "role": "fig",
       "page": 8,
@@ -40,7 +40,7 @@
       "xref": 239
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch01_#26820_fig02.png",
+      "file": "c_egkatastaseis-klimatismou_ch01_26820_fig02.png",
       "bank_code": "26820",
       "role": "fig",
       "page": 8,
@@ -52,7 +52,7 @@
       "xref": 240
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch01_#26820_fig03.png",
+      "file": "c_egkatastaseis-klimatismou_ch01_26820_fig03.png",
       "bank_code": "26820",
       "role": "fig",
       "page": 8,
@@ -64,7 +64,7 @@
       "xref": 241
     },
     {
-      "file": "c_egkatastaseis-klimatismou_ch01_#26820_fig04.png",
+      "file": "c_egkatastaseis-klimatismou_ch01_26820_fig04.png",
       "bank_code": "26820",
       "role": "fig",
       "page": 9,
@@ -79,16 +79,16 @@
   "by_bank_code": {
     "25282": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch01_#25282_fig01.png"
+        "c_egkatastaseis-klimatismou_ch01_25282_fig01.png"
       ],
       "sol": []
     },
     "26820": {
       "fig": [
-        "c_egkatastaseis-klimatismou_ch01_#26820_fig01.png",
-        "c_egkatastaseis-klimatismou_ch01_#26820_fig02.png",
-        "c_egkatastaseis-klimatismou_ch01_#26820_fig03.png",
-        "c_egkatastaseis-klimatismou_ch01_#26820_fig04.png"
+        "c_egkatastaseis-klimatismou_ch01_26820_fig01.png",
+        "c_egkatastaseis-klimatismou_ch01_26820_fig02.png",
+        "c_egkatastaseis-klimatismou_ch01_26820_fig03.png",
+        "c_egkatastaseis-klimatismou_ch01_26820_fig04.png"
       ],
       "sol": []
     }

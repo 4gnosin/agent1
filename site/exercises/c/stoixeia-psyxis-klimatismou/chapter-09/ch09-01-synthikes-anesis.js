@@ -25,7 +25,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "unit": "%",
         "tolerance": 0.01,
         "explain": "Από τον δείκτη PMV που είναι +2 και βάσει του διαγράμματος 1 βρίσκουμε PPD = 75%.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#32786_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_32786_fig01.webp"
       },
       {
         "kind": "mc",
@@ -60,9 +60,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Στο διάγραμμα 2 φέρνουμε κατακόρυφη γραμμή στους $27\\text{ }^\\circ\\text{C}$ και σημειώνουμε το σημείο τομής με τη γραμμή σχετικής υγρασίας $20\\%$. Βλέπουμε ότι ο αέρας δεν πρέπει να έχει ταχύτητα μεγαλύτερη από $0,2\\text{ m/s}$ και πάντως μεγαλύτερη από $0,1\\text{ m/s}$."
       }
     ],
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#32786_fig02.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_32786_fig02.webp",
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#32786_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_32786_sol01.webp"
     ]
   }
 ]

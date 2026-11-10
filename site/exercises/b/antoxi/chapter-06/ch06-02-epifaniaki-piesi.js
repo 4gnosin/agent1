@@ -269,7 +269,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "theory": "ch06-02-epifaniaki-piesi",
     "sourceOrder": 9,
     "stem": "Στο σχήμα 1 διακρίνεται πέδιλο υποστυλώματος τετραγωνικής επιφάνειας επαφής $A$, με πλευρά τετραγώνου $a$, στην οποία ασκείται φορτίο $F = 720\\text{ daN}$ και η επιφανειακή πίεση $p$ είναι ίση με $p = 180\\text{ daN/m}^2$.",
-    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_#20275_fig01.webp",
+    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_20275_fig01.webp",
     "items": [
       {
         "kind": "calc",
@@ -307,7 +307,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "theory": "ch06-02-epifaniaki-piesi",
     "sourceOrder": 10,
     "stem": "Μία κατασκευή διαθέτει τέσσερα (4) πέδιλα υποστυλώματος που δέχονται συνολικό φορτίο $F_{\\text{ολ}}$ ίσο με $F_{\\text{ολ}} = 2560\\text{ daN}$. Στο σχήμα 1 διακρίνεται το ένα πέδιλο υποστυλώματος από τα τέσσερα της κατασκευής. Το κάθε πέδιλο έχει τετραγωνική επιφάνεια επαφής $A$, με πλευρά τετραγώνου $a$ ίση με $a = 0,8\\text{ m}$, στην οποία ασκείται φορτίο $F$.",
-    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_#20276_fig01.webp",
+    "image": "images/b/antoxi/chapter-06/b_antoxi_ch06_20276_fig01.webp",
     "items": [
       {
         "kind": "calc",

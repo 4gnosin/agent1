@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_antoxi_ch09_#20265_fig01.png",
+      "file": "b_antoxi_ch09_20265_fig01.png",
       "bank_code": "20265",
       "role": "fig",
       "page": 8,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "20265": {
       "fig": [
-        "b_antoxi_ch09_#20265_fig01.png"
+        "b_antoxi_ch09_20265_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch09_#20265_fig01.png",
+          "file": "b_antoxi_ch09_20265_fig01.png",
           "bank_code": "20265",
           "role": "fig",
           "page": 8,

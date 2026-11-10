@@ -20,11 +20,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "2.1 Να αντιστοιχίσετε τα είδη γραμμών του διαγράμματος p-h από τη Στήλη Α με τα σχήματα της Στήλης Β:",
         "prompt": "Αντιστοίχιση γραμμών διαγράμματος p-h με τα αντίστοιχα σχήματα:",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig04.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig05.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig04.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig05.webp"
         ],
         "left": [
           {
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "1 -> δ (Σταθερή πίεση - οριζόντιες), 2 -> γ (Σταθερή θερμοκρασία), 3 -> ε (Σταθερή ξηρότητα), 4 -> β (Σταθερή ενθαλπία - κατακόρυφες).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29116_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29116_fig01.webp"
       },
       {
         "kind": "tf",

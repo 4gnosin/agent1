@@ -257,7 +257,7 @@ window.EXERCISES.push(...
           "4": "d"
         },
         "explain": "Σύμφωνα με τα χαρακτηριστικά ύψη αντλίας: στατικό ύψος αναρρόφησης $H_a$, ύψος αντιστάσεων $H_r$, στατικό ύψος κατάθλιψης $H_u$, και ολικό ύψος $H_o$.",
-        "image": "images/b/thermod/chapter-10/b_thermod_ch10_#20952_fig01.webp"
+        "image": "images/b/thermod/chapter-10/b_thermod_ch10_20952_fig01.webp"
       },
       {
         "kind": "tf",

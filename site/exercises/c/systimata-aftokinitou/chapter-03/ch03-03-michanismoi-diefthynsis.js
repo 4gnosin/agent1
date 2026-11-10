@@ -46,10 +46,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τους μηχανισμούς διεύθυνσης:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32636_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32636_fig02.webp",
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32636_fig03.webp",
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32636_fig04.webp"
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32636_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32636_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32636_fig03.webp",
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32636_fig04.webp"
         ],
         "left": [
           {
@@ -94,7 +94,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "γ"
         },
         "explain": "Η αντιστοίχιση βασίζεται στους τυποποιημένους τύπους πυξίδων διεύθυνσης με ατέρμονα κοχλία.",
-        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32636_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32636_fig01.webp"
       }
     ]
   },

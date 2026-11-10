@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_antoxi_ch04_#19803_fig01.png",
+      "file": "b_antoxi_ch04_19803_fig01.png",
       "bank_code": "19803",
       "role": "fig",
       "page": 5,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch04_#16432_fig01.png",
+      "file": "b_antoxi_ch04_16432_fig01.png",
       "bank_code": "16432",
       "role": "fig",
       "page": 11,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch04_#16432_fig02.png",
+      "file": "b_antoxi_ch04_16432_fig02.png",
       "bank_code": "16432",
       "role": "fig",
       "page": 11,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch04_#16432_sol01.png",
+      "file": "b_antoxi_ch04_16432_sol01.png",
       "bank_code": "16432",
       "role": "sol",
       "page": 12,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch04_#16432_sol02.png",
+      "file": "b_antoxi_ch04_16432_sol02.png",
       "bank_code": "16432",
       "role": "sol",
       "page": 12,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch04_#16422_fig01.png",
+      "file": "b_antoxi_ch04_16422_fig01.png",
       "bank_code": "16422",
       "role": "fig",
       "page": 13,
@@ -151,12 +151,12 @@
   "by_bank_code": {
     "16422": {
       "fig": [
-        "b_antoxi_ch04_#16422_fig01.png"
+        "b_antoxi_ch04_16422_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch04_#16422_fig01.png",
+          "file": "b_antoxi_ch04_16422_fig01.png",
           "bank_code": "16422",
           "role": "fig",
           "page": 13,
@@ -181,16 +181,16 @@
     },
     "16432": {
       "fig": [
-        "b_antoxi_ch04_#16432_fig01.png",
-        "b_antoxi_ch04_#16432_fig02.png"
+        "b_antoxi_ch04_16432_fig01.png",
+        "b_antoxi_ch04_16432_fig02.png"
       ],
       "sol": [
-        "b_antoxi_ch04_#16432_sol01.png",
-        "b_antoxi_ch04_#16432_sol02.png"
+        "b_antoxi_ch04_16432_sol01.png",
+        "b_antoxi_ch04_16432_sol02.png"
       ],
       "images": [
         {
-          "file": "b_antoxi_ch04_#16432_fig01.png",
+          "file": "b_antoxi_ch04_16432_fig01.png",
           "bank_code": "16432",
           "role": "fig",
           "page": 11,
@@ -212,7 +212,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_antoxi_ch04_#16432_fig02.png",
+          "file": "b_antoxi_ch04_16432_fig02.png",
           "bank_code": "16432",
           "role": "fig",
           "page": 11,
@@ -234,7 +234,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_antoxi_ch04_#16432_sol01.png",
+          "file": "b_antoxi_ch04_16432_sol01.png",
           "bank_code": "16432",
           "role": "sol",
           "page": 12,
@@ -256,7 +256,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_antoxi_ch04_#16432_sol02.png",
+          "file": "b_antoxi_ch04_16432_sol02.png",
           "bank_code": "16432",
           "role": "sol",
           "page": 12,
@@ -281,12 +281,12 @@
     },
     "19803": {
       "fig": [
-        "b_antoxi_ch04_#19803_fig01.png"
+        "b_antoxi_ch04_19803_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch04_#19803_fig01.png",
+          "file": "b_antoxi_ch04_19803_fig01.png",
           "bank_code": "19803",
           "role": "fig",
           "page": 5,

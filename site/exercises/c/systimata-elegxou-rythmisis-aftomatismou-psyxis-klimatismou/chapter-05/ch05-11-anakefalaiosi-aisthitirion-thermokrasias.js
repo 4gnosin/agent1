@@ -19,7 +19,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "2.1",
         "subqPrompt": "Με βάση τη σχηματική παράσταση που απεικονίζεται στα παρακάτω σχήματα, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_24132_fig01.webp"
         ],
         "left": [
           {
@@ -77,7 +77,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "5": "c"
         },
         "explain": "Αντιστοίχιση οργάνων και διατάξεων αυτοματισμού.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_24132_fig01.webp"
       },
       {
         "kind": "mc",

@@ -68,10 +68,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τα σχήματα 1, 2, 3, 4 με τις καταστάσεις υγρού-ατμού (Μετατροπές φάσης του νερού υπό πίεση $1 atm$):",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23655_fig04.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_23655_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_23655_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_23655_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_23655_fig04.webp"
         ],
         "imageLayout": "grid",
         "imageLabels": [
@@ -199,7 +199,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "2.1",
         "subqPrompt": "Με βάση τη σχηματική παράσταση που απεικονίζει τα κύρια μέρη ενός ψυκτικού κύκλου στο παρακάτω σχήμα, να γράψετε τους αριθμούς 1, 2, 3 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα κύρια μέρη του ψυκτικού κύκλου:",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#23747_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_23747_fig01.webp",
         "left": [
           {
             "id": "1",

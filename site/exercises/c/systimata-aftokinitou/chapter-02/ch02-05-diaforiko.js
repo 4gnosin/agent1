@@ -42,7 +42,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζονται ένα διαφορικό, να γράψετε δίπλα στους αριθμούς 1, 2, 3, 4 στη στήλη Α ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση μερών διαφορικού",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24141_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24141_fig01.webp"
         ],
         "left": [
           {
@@ -91,7 +91,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "d"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-ε, 2-β, 3-α, 4-δ. Περισσεύει το γ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24141_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24141_fig01.webp"
       }
     ]
   },
@@ -113,9 +113,9 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση ειδών συστήματος γωνιακής μετάδοσης (κορώνα - πινιόν)",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24142_fig02.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24142_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24142_fig03.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24142_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24142_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24142_fig03.webp"
         ],
         "left": [
           {
@@ -155,7 +155,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "α"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-γ, 3-α. Περισσεύει το δ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#24142_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_24142_fig01.webp"
       },
       {
         "kind": "tf",

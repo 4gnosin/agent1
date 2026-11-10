@@ -89,7 +89,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "7": "e"
         },
         "explain": "1. β (μέτωπο εμβόλου), 2. δ (ελατήρια πιέσεως), 3. α (ελατήριο λαδιού), 4. γ (ασφάλεια πείρου), 5. η (ποδιά εμβόλου), 6. στ (πείρος εμβόλου), 7. ε (διωστήρας).",
-        "image": "images/c/stoixeia-michanon/chapter-11/c_stoixeia-michanon_ch11_#23889_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-11/c_stoixeia-michanon_ch11_23889_fig01.webp"
       },
       {
         "kind": "tf",

@@ -14,7 +14,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "theory": "ch03-01",
     "sourceOrder": 1,
     "stem": "Σε ένα σώμα ασκούνται δύο δυνάμεις με μέτρο $F_1 = 10\\text{ N}$ και $F_2 = 4\\text{ N}$ όπως φαίνεται στο σχήμα 1. Δίδεται ότι: $\\text{ημ}45^\\circ = \\text{συν}45^\\circ = \\frac{\\sqrt{2}}{2} = 0,7$ και $\\sqrt{170} = 13,03$.",
-    "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_#20475_fig01.webp",
+    "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_20475_fig01.webp",
     "items": [
       {
         "kind": "calc",
@@ -74,7 +74,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/b/antoxi/chapter-03/b_antoxi_ch03_#20475_sol01.webp"
+      "images/b/antoxi/chapter-03/b_antoxi_ch03_20475_sol01.webp"
     ]
   },
   {
@@ -181,7 +181,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "prompt": "Αντιστοιχίστε την περίπτωση σύνθεσης δυνάμεων με τη διεύθυνση και φορά της συνισταμένης:",
         "images": [
           {
-            "url": "images/b/antoxi/chapter-03/b_antoxi_ch03_#21107_fig01.webp",
+            "url": "images/b/antoxi/chapter-03/b_antoxi_ch03_21107_fig01.webp",
             "caption": "Σχήμα 2.1"
           }
         ],
@@ -219,7 +219,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "3": "b"
         },
         "explain": "1 - γ: Στις αντίφορες δυνάμεις η συνισταμένη έχει τη διεύθυνση των συνιστωσών και φορά της μεγαλύτερης. 2 - α: Στις ομόφορες η φορά είναι ίδια με των συνιστωσών. 3 - β: Για κάθετες δυνάμεις (φ=90°) η διεύθυνση δίνεται από την εφαπτομένη.",
-        "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_#21107_fig01.webp"
+        "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_21107_fig01.webp"
       },
       {
         "kind": "blank",

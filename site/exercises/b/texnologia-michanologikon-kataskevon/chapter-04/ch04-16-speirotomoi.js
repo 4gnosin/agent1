@@ -124,7 +124,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "openEnded": true,
         "subq": "4.1",
         "prompt": "4.1 Σας δίνεται ένα σετ σπειροτόμων όπου στο στέλεχος τους είναι χαραγμένο αντίστοιχα με μία, δύο και τρείς χαραγές. Πώς θα χρησιμοποιηθούν για τη δημιουργία ενός εσωτερικού σπειρώματος σε μία υπάρχουσα οπή;",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16442_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_16442_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -150,7 +150,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "answer": "a",
         "explain": "1 χαραγή: 1ος σπειροτόμος (αφαίρεση ~50%), 2 χαραγές: 2ος σπειροτόμος (αφαίρεση ~25%), 3 χαραγές: 3ος σπειροτόμος αποπεράτωσης (τελική μορφή).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16442_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_16442_fig01.webp"
         ]
       },
       {
@@ -275,7 +275,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το σχήμα 1 όπου απεικονίζονται τα χαρακτηριστικά στοιχεία του σπειρώματος, να αντιστοιχίσετε τα στοιχεία 1, 2, 3 της Στήλης Α με τα ονόματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19158_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_19158_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -315,7 +315,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1. h - γ (Βήμα του σπειρώματος), 2. d - δ (Μεγάλη ή εξωτερική διάμετρος του κοχλία), 3. d₁ - β (Μικρή ή εσωτερική διάμετρος του κοχλία). Περισσεύει το α.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19158_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_19158_fig01.webp"
         ]
       },
       {
@@ -387,7 +387,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στο σχήμα 1 απεικονίζεται μια μανέλα βιδολόγων. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#28776_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_28776_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -432,7 +432,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - β (κοχλίας συγκράτησης), 2 - δ (κοχλίας ρύθμισης), 3 - α (χειρολαβή), 4 - γ (φωλιά).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#28776_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_28776_fig01.webp"
         ]
       }
     ]

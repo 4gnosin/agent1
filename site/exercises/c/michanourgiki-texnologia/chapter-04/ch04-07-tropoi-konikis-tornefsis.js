@@ -56,7 +56,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Σύμφωνα με τα βήματα αντιγραφής, απομονώνεται ο μοχλός εγκάρσιας κίνησης (β).",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#29136_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_29136_fig01.webp"
       },
       {
         "kind": "mc",

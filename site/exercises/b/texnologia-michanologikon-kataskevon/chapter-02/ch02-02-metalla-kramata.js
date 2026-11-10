@@ -147,7 +147,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
       {
         "subq": "2.1",
         "kind": "match",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_25374_fig01.webp",
         "prompt": "2.1 Στο παρακάτω σχήμα βλέπετε τον πίνακα ταξινόμησης των Μηχανουργικών Υλικών. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
         "left": [
           {
@@ -193,7 +193,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1. δ (Χάλυβας), 2. α (Χαλκός), 3. β (Πλαστικό), 4. γ (Καουτσούκ).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_#25374_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-02/b_texnologia-michanologikon-kataskevon_ch02_25374_fig01.webp"
         ]
       },
       {

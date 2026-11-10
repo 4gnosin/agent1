@@ -20,7 +20,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "α",
         "subqPrompt": "α) Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α με τα στοιχεία της Στήλης Β.",
         "prompt": "Αντιστοίχιση στοιχείων στοιχειώδους κυκλώματος κεντρικής θέρμανσης:",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#25175_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_25175_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -69,7 +69,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1 -> α (Στοιχεία απόδοσης θερμότητας), 2 -> ε (Λέβητας), 3 -> β (Αντλία λειτουργίας/κυκλοφορητής), 4 -> δ (Σωληνώσεις).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_#25175_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_25175_fig01.webp"
         ]
       },
       {

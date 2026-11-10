@@ -75,7 +75,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Ποια είναι η απόσταση του φορέα της δύναμης από το κέντρο περιστροφής;",
         "explain": "Όταν ο φορέας της δύναμης $F$ διέρχεται từ το κέντρο περιστροφής, η οριζόντια απόσταση (μοχλοβραχίονας) είναι μηδέν, οπότε $M = 0\\text{ N}\\cdot\\text{m}$.",
-        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_#21875_fig01.webp"
+        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_21875_fig01.webp"
       }
     ]
   },
@@ -135,12 +135,12 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         },
         "images": [
           {
-            "url": "images/b/antoxi/chapter-02/b_antoxi_ch02_#24974_fig01.webp",
+            "url": "images/b/antoxi/chapter-02/b_antoxi_ch02_24974_fig01.webp",
             "alt": "Σχήμα άσκησης 24974"
           }
         ],
         "explain": "Από το σχήμα προκύπτει η αντιστοίχιση: 1 -> β (Ροπή Μ3), 2 -> δ (Κάθετη απόσταση l), 3 -> γ (Δύναμη F).",
-        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_#24974_fig01.webp"
+        "image": "images/b/antoxi/chapter-02/b_antoxi_ch02_24974_fig01.webp"
       },
       {
         "kind": "tf",

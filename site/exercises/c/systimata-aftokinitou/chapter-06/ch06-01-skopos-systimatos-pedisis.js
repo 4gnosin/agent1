@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το Σχήμα 1 που απεικονίζει μια ηλεκτρική πέδη (ηλεκτρόφρενο), να γράψετε τους αριθμούς 1, 2, 3, 4 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα στοιχεία του ηλεκτρόφρενου:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34987_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_34987_fig01.webp"
         ],
         "left": [
           {
@@ -65,7 +65,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "a"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-δ, 2-γ, 3-β, 4-α.",
-        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_#34987_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-06/c_systimata-aftokinitou_ch06_34987_fig01.webp"
       },
       {
         "kind": "mc",

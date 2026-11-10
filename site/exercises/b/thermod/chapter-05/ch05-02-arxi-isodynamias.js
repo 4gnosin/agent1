@@ -14,22 +14,22 @@ window.EXERCISES.push(...
     "sourceOrder": 1,
     "stem": "Μια ποσότητα αερίου βρίσκεται σε κλειστό σύστημα και υφίσταται αδιαβατική μεταβολή κατά τη διάρκεια της οποίας αποδίδεται έργο στο περιβάλλον $200\\text{ kJ}$.",
     "solutionImages": [
-      "images/b/thermod/chapter-05/b_thermod_ch05_#20955_sol01.webp",
-      "images/b/thermod/chapter-05/b_thermod_ch05_#20955_sol02.webp"
+      "images/b/thermod/chapter-05/b_thermod_ch05_20955_sol01.webp",
+      "images/b/thermod/chapter-05/b_thermod_ch05_20955_sol02.webp"
     ],
     "items": [
       {
         "kind": "open",
         "subq": "4.1",
         "prompt": "4.1 Σχεδιάστε τη μεταβολή σε διάγραμμα πίεσης όγκου (P-V) και σημειώστε με ένα βέλος τη φορά της μεταβολής.",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20955_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_20955_sol01.webp",
         "explain": "Σε διάγραμμα P-V, η αδιαβατική εκτόνωση απεικονίζεται με καμπύλη που συνδέει την αρχική κατάσταση (1) με την τελική (2), με φορά προς τα δεξιά και κάτω."
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "4.2 Απεικονίστε στο διάγραμμα το έργο που προσφέρθηκε.",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20955_sol02.webp",
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_20955_sol02.webp",
         "explain": "Το έργο που αποδόθηκε αντιστοιχεί στο εμβαδόν κάτω από την καμπύλη της μεταβολής, οριζόμενο από το τετράπλευρο $1, 2, 2', 1'$."
       },
       {
@@ -42,7 +42,7 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Εφαρμόστε τον πρώτο θερμοδυναμικό νόμο $Q = \\Delta U + W$ λαμβάνοντας υπόψη ότι για αδιαβατική μεταβολή $Q = 0$ και το έργο που αποδίδεται από το αέριο είναι θετικό ($W = 200\\text{ kJ}$).",
         "explain": "Σύμφωνα με τον πρώτο θερμοδυναμικό νόμο $Q = \\Delta U + W$. Επειδή η μεταβολή είναι αδιαβατική, ισχύει $Q = 0$, οπότε $0 = \\Delta U + W$. Το έργο αποδόθηκε από το αέριο προς το περιβάλλον, άρα $W = 200\\text{ kJ}$. Συνεπώς προκύπτει $\\Delta U = -200\\text{ kJ}$, δηλαδή η εσωτερική ενέργεια μειώθηκε κατά $200\\text{ kJ}$.",
-        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_#20955_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-05/b_thermod_ch05_20955_sol01.webp",
         "animation": {
           "title": "Ερώτημα (4.3): Υπολογισμός \\Delta U",
           "steps": [

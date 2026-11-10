@@ -57,10 +57,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#33884_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_33884_fig01.webp"
         ],
         "explain": "1 - δ (Συμπιεστής), 2 - β (Συμπυκνωτής), 3 - α (Εκτονωτικό μέσο).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#33884_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_33884_fig01.webp"
       },
       {
         "kind": "tf",

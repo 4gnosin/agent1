@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch10-08-psychrometrikes-metavoles",
     "sourceOrder": 3,
     "stem": "Στον παρακάτω ψυχρομετρικό χάρτη έχει σχεδιαστεί μία ψυχρομετρική μεταβολή θέρμανσης του αέρα.",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32205_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32205_fig01.webp",
     "items": [
       {
         "kind": "calc",
@@ -76,12 +76,12 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           }
         ],
         "answer": "a",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32205_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32205_sol01.webp",
         "explain": "Δεν υπάρχει ύγρανση του αέρα καθώς ο λόγος υγρασίας W παραμένει σταθερός κατά τη διαδικασία της απλής θέρμανσης."
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32205_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32205_sol01.webp"
     ]
   },
   {
@@ -101,7 +101,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "2.1",
         "subqPrompt": "Με βάση το διάγραμμα που απεικονίζει τις καμπύλες σε έναν ψυχρομετρικό χάρτη, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα στοιχεία του χάρτη (Στήλη Α) με τα αντίστοιχα μεγέθη (Στήλη Β):",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -155,7 +155,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Η σωστή αντιστοίχιση βασίζεται στα τυποποιημένα χαρακτηριστικά γνωρίσματα του ψυχρομετρικού χάρτη.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig01.webp"
         ]
       },
       {
@@ -164,10 +164,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ της Στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη Στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοιχίστε τις ψυχρομετρικές διεργασίες με τα αντίστοιχα διαγράμματα:",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig04.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig04.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig04.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig04.webp"
         ],
         "left": [
           {
@@ -198,7 +198,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "2": "α"
         },
         "explain": "Η θέρμανση χωρίς ύγρανση απεικονίζεται με οριζόντια πορεία προς τα δεξιά (σταθερός λόγος υγρασίας), ενώ η ψύξη με αφύγρανση ακολουθεί πορεία προς τα αριστερά και κάτω κάτω από το σημείο δρόσου.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32787_fig02.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32787_fig02.webp"
       }
     ]
   }

@@ -40,7 +40,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "prompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται ένα μηχανικό ψαλίδι με χειροκίνητο μηχανισμό κοπής. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β:",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#16829_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_16829_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -85,7 +85,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 – γ (Μοχλός), 2 – δ (Κινητή λεπίδα), 3 – β (Σταθερή λεπίδα), 4 – α (Ράβδος συγκράτησης ελάσματος).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#16829_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_16829_fig01.webp"
         ]
       }
     ]
@@ -154,7 +154,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Ο τεχνίτης πρέπει να προσέξει: Γνώση λειτουργίας και δυνατοτήτων του ψαλιδιού, κατάλληλα γάντια στο χέρι που κρατάει το έλασμα, χέρια μακριά από τις λεπίδες, ασφάλιση μοχλού μετά το τέλος εργασίας ή κατά τη συντήρηση, έλεγχο στερέωσης και φθορών στις λεπίδες, καθαρισμό μετά τη χρήση και τακτική λίπανση.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_#29025_fig01.webp"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-06/b_texnologia-michanologikon-kataskevon_ch06_29025_fig01.webp"
       }
     ]
   }

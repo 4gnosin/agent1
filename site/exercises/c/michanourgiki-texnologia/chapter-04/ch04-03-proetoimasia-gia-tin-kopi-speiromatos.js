@@ -128,7 +128,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "Στο σχήμα 1 παρουσιάζονται οι χαρακτηριστικές επιφάνειες και ακμές του εργαλείου και του κατεργαζόμενου τεμαχίου κατά την τόρνευση. Να γράψετε τους αριθμούς 1, 2, 3, 4, από τη Στήλη Α και δίπλα, ένα από τα γράμματα α, β, γ ,δ, ε, της Στήλης Β, που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση αριθμών σχήματος 1 με τα στοιχεία τόρνευσης:",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27599_fig01.webp",
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27599_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -177,7 +177,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         },
         "explain": "Σύμφωνα με το σχήμα 1: 1 -> ε (Στέλεχος), 2 -> d (Κοπτικό άκρο), 3 -> c (Επιφάνεια αποβλήτου), 4 -> a (Κατεργαζόμενη επιφάνεια τεμαχίου).",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27599_fig01.webp"
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27599_fig01.webp"
         ]
       }
     ]

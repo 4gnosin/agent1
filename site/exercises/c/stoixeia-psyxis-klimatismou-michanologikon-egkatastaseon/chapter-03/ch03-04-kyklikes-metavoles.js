@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch03-04-kyklikes-metavoles",
     "sourceOrder": 1,
     "stem": "Μία ποσότητα ιδανικού αερίου εκτελεί την κυκλική μεταβολή 1-2-3 του Σχήματος 1. Η μεταβολή 2-3 είναι ισοθερμοκρασιακή.",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#29507_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_29507_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -121,7 +121,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "kind": "open",
         "subq": "4.1",
         "prompt": "Να απεικονίσετε σχηματικά την κυκλική αυτή μεταβολή σε διάγραμμα P-V.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23638_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23638_sol01.webp",
         "explain": "Η κυκλική μεταβολή αποτελείται από ισοθερμοκρασιακή συμπίεση (1-2), ισόογκη ψύξη (2-3) και ισόθλιπτη θέρμανση (3-1)."
       },
       {
@@ -134,7 +134,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε το νόμο του Boyle-Mariotte για την ισοθερμοκρασιακή μεταβολή 1-2.",
         "explain": " \\( P_2 = \\frac{P_1 \\cdot V_1}{V_2} = \\frac{1\\text{ bar} \\cdot 5\\text{ lt}}{2\\text{ lt}} = 2,5\\text{ bar} \\).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23638_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23638_sol01.webp"
       },
       {
         "kind": "calc",
@@ -160,7 +160,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23638_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23638_sol01.webp"
     ]
   }
 ]

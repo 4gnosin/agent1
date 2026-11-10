@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-aftokinitou_ch06_#34987_fig01.png",
+      "file": "c_systimata-aftokinitou_ch06_34987_fig01.png",
       "bank_code": "34987",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch06_#34539_fig01.png",
+      "file": "c_systimata-aftokinitou_ch06_34539_fig01.png",
       "bank_code": "34539",
       "role": "fig",
       "page": 9,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch06_#34539_fig02.png",
+      "file": "c_systimata-aftokinitou_ch06_34539_fig02.png",
       "bank_code": "34539",
       "role": "fig",
       "page": 9,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch06_#34539_fig03.png",
+      "file": "c_systimata-aftokinitou_ch06_34539_fig03.png",
       "bank_code": "34539",
       "role": "fig",
       "page": 9,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch06_#34539_fig04.png",
+      "file": "c_systimata-aftokinitou_ch06_34539_fig04.png",
       "bank_code": "34539",
       "role": "fig",
       "page": 10,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch06_#34540_fig01.png",
+      "file": "c_systimata-aftokinitou_ch06_34540_fig01.png",
       "bank_code": "34540",
       "role": "fig",
       "page": 12,
@@ -151,15 +151,15 @@
   "by_bank_code": {
     "34539": {
       "fig": [
-        "c_systimata-aftokinitou_ch06_#34539_fig01.png",
-        "c_systimata-aftokinitou_ch06_#34539_fig02.png",
-        "c_systimata-aftokinitou_ch06_#34539_fig03.png",
-        "c_systimata-aftokinitou_ch06_#34539_fig04.png"
+        "c_systimata-aftokinitou_ch06_34539_fig01.png",
+        "c_systimata-aftokinitou_ch06_34539_fig02.png",
+        "c_systimata-aftokinitou_ch06_34539_fig03.png",
+        "c_systimata-aftokinitou_ch06_34539_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch06_#34539_fig01.png",
+          "file": "c_systimata-aftokinitou_ch06_34539_fig01.png",
           "bank_code": "34539",
           "role": "fig",
           "page": 9,
@@ -181,7 +181,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch06_#34539_fig02.png",
+          "file": "c_systimata-aftokinitou_ch06_34539_fig02.png",
           "bank_code": "34539",
           "role": "fig",
           "page": 9,
@@ -203,7 +203,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch06_#34539_fig03.png",
+          "file": "c_systimata-aftokinitou_ch06_34539_fig03.png",
           "bank_code": "34539",
           "role": "fig",
           "page": 9,
@@ -225,7 +225,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch06_#34539_fig04.png",
+          "file": "c_systimata-aftokinitou_ch06_34539_fig04.png",
           "bank_code": "34539",
           "role": "fig",
           "page": 10,
@@ -250,12 +250,12 @@
     },
     "34540": {
       "fig": [
-        "c_systimata-aftokinitou_ch06_#34540_fig01.png"
+        "c_systimata-aftokinitou_ch06_34540_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch06_#34540_fig01.png",
+          "file": "c_systimata-aftokinitou_ch06_34540_fig01.png",
           "bank_code": "34540",
           "role": "fig",
           "page": 12,
@@ -280,12 +280,12 @@
     },
     "34987": {
       "fig": [
-        "c_systimata-aftokinitou_ch06_#34987_fig01.png"
+        "c_systimata-aftokinitou_ch06_34987_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch06_#34987_fig01.png",
+          "file": "c_systimata-aftokinitou_ch06_34987_fig01.png",
           "bank_code": "34987",
           "role": "fig",
           "page": 2,

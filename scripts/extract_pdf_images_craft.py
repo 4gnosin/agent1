@@ -9,8 +9,8 @@ extract_pdf_images_craft.py — Εξαγωγή & Βελτιστοποίηση Ε
   - VectorCraft(vectorcraft-cli.exe): απευθείας εξαγωγή διανυσματικών σχημάτων σε SVG
 
 Ονοματοδοσία αρχείων (πλήρως συμβατή με το 4gnosin.github.io):
-  {grade}_{subject}_ch{NN}_#{bankCode}_fig01.webp  (ή .png)
-  {grade}_{subject}_ch{NN}_#{bankCode}_sol01.webp
+  {grade}_{subject}_ch{NN}_{bankCode}_fig01.webp  (ή .png)
+  {grade}_{subject}_ch{NN}_{bankCode}_sol01.webp
 
 Παραδείγματα χρήσης:
   python extract_pdf_images_craft.py c_klimatismos_ch02.pdf
@@ -269,7 +269,7 @@ def extract_craft(pdf_path: Path, args: argparse.Namespace) -> Path:
         else:
             counters[(code, role)] += 1
             n = counters[(code, role)]
-            base_name = f"{stem}_#{code}_{role}{n:02d}"
+            base_name = f"{stem}_{code}_{role}{n:02d}"
 
         # 1. Δοκιμή VectorCraft για καθαρό SVG (αν ζητήθηκε --vector)
         svg_created = False

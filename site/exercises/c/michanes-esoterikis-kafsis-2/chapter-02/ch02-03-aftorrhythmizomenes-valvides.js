@@ -66,10 +66,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "a"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#29066_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_29066_fig01.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση είναι: 1 - β, 2 - ε, 3 - γ, 4 - α. Περισσεύει το δ.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#29066_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_29066_fig01.webp"
       },
       {
         "kind": "tf",
@@ -191,10 +191,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "8": "c"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#33197_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_33197_fig01.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση είναι: 1-β, 2-ε, 3-ζ, 4-στ, 5-δ, 6-η, 7-α, 8-γ.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#33197_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_33197_fig01.webp"
       },
       {
         "kind": "tf",

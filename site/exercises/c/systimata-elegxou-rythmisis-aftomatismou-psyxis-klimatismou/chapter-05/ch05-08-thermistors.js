@@ -213,8 +213,8 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "2.1",
         "subqPrompt": "Με βάση τη σχηματική παράσταση που απεικονίζεται στα παρακάτω σχήματα, να γράψετε τους αριθμούς 1, 2 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig02.webp"
         ],
         "left": [
           {
@@ -241,7 +241,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "2": "a"
         },
         "explain": "Το σχήμα 1 αντιστοιχεί σε Σύστημα Ανοιχτού Βρόχου και το σχήμα 2 σε Σύστημα Κλειστού Βρόχου.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig01.webp"
       },
       {
         "kind": "mc",

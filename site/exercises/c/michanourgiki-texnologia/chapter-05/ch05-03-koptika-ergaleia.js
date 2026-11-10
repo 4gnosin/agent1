@@ -18,7 +18,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "2.1",
         "kind": "match",
         "prompt": "Με βάση τη σχηματική παράσταση του παρακάτω σχήματος, που απεικονίζει μια κατακόρυφη φρέζα, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α με τα γράμματα α, β, γ, δ, ε, στ της Στήλης Β.",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27199_fig01.webp",
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_27199_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -76,7 +76,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         },
         "explain": "Η σωστή αντιστοίχιση προκύπτει από τα μέρη της κατακόρυφης φρέζας: 1-δ (Κύρια άτρακτος), 2-ε (Βάση), 3-γ (Κοχλίας ανύψωσης τραπεζιού), 4-στ (Ορθοστάτης/κορμός), 5-β (Κινητήρας).",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#27199_fig01.webp"
+          "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_27199_fig01.webp"
         ]
       },
       {

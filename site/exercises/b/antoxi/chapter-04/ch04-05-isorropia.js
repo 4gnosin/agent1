@@ -48,7 +48,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "Να αντιστοιχίσετε τις περιπτώσεις ισορροπίας της Στήλης Α με τα είδη ισορροπίας της Στήλης Β.",
         "images": [
-          "images/b/antoxi/chapter-04/b_antoxi_ch04_#16422_fig01.webp"
+          "images/b/antoxi/chapter-04/b_antoxi_ch04_16422_fig01.webp"
         ],
         "left": [
           {
@@ -88,7 +88,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "3": "a"
         },
         "explain": "Η σωστή αντιστοίχιση των θέσεων ισορροπίας είναι: 1-β (Ευσταθή), 2-γ (Ασταθή), 3-α (Αδιάφορη).",
-        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_#16422_fig01.webp"
+        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_16422_fig01.webp"
       }
     ]
   },

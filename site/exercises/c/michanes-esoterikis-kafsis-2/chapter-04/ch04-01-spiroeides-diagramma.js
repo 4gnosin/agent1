@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "β"
         },
         "explain": "Η σωστή αντιστοίχιση από το σπειροειδές διάγραμμα είναι: 1→δ (Εισαγωγή), 2→α (Επικάλυψη), 3→ε (Συμπίεση), 4→στ (Καύση), 5→β (Εξαγωγή).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30596_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30596_fig01.webp"
       },
       {
         "kind": "mc",

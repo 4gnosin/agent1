@@ -70,10 +70,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "d"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34039_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34039_fig01.webp"
         ],
         "explain": "Σύμφωνα με το σχήμα της ανεξάρτητης ανάρτησης με ψαλίδια άνισου μήκους: 1-β (Άνω ψαλίδι), 2-α (Κάτω ψαλίδι), 3-γ (Αμορτισέρ), 4-ε (Αντιστρεπτική ράβδος), 5-δ (Ελικοειδές ελατήριο).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34039_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34039_fig01.webp"
       },
       {
         "kind": "mc",

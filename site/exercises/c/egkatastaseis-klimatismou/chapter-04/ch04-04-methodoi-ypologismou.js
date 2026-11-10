@@ -78,10 +78,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "1 - β, 2 - α, 3 - α, βάσει των ορθών κατασκευαστικών λεπτομερειών διεύρυνσης αεραγωγών.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25302_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_25302_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25302_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#25302_fig02.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_25302_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_25302_fig02.webp"
         ]
       },
       {

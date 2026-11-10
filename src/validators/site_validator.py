@@ -358,6 +358,8 @@ class SiteValidator:
                 if not clean.startswith("images/"):
                     errors.append(f"{context}: Η διαδρομή εικόνας '{src}' πρέπει να ξεκινά με 'images/'.")
                     return
+                if "#" in src:
+                    errors.append(f"{context}: Η διαδρομή εικόνας '{src}' περιέχει '#' (μη επιτρεπτό σε URL/web). Απαιτείται διαδρομή χωρίς '#'.")
                 if site_dir.exists():
                     rel_img = clean[len("images/"):].lstrip("/")
                     full_p = site_dir / "images" / rel_img
@@ -451,6 +453,23 @@ def main():
     if content_dir.exists():
         all_files.extend(sorted(content_dir.rglob("*.js")))
 
+    do_fix = "--fix" in sys.argv
+    if do_fix:
+        print("🔧 Ενεργοποιήθηκε η λειτουργία αυτόματης επιδιόρθωσης (--fix)...")
+        fixed_files = 0
+        for js_path in all_files:
+            try:
+                orig = js_path.read_text(encoding="utf-8")
+                new_t = re.sub(r'_#(?=\d+)', '_', orig)
+                new_t = re.sub(r',\s*([\]}])', r'\1', new_t)
+                if new_t != orig:
+                    js_path.write_text(new_t, encoding="utf-8")
+                    fixed_files += 1
+            except Exception as e:
+                print(f"   ⚠️ Σφάλμα επιδιόρθωσης στο {js_path.name}: {e}")
+        if fixed_files > 0:
+            print(f"✅ Επιδιορθώθηκαν αυτόματα {fixed_files} αρχεία.\n")
+
     for js_path in all_files:
         if "content" in js_path.parts:
             if not any(p.startswith("chapter-") for p in js_path.parts):
@@ -476,9 +495,11 @@ def main():
     print("-" * 68)
     if total_errors == 0:
         print(f"✅ Όλα τα {total_files} αρχεία JavaScript είναι 100% έγκυρα!")
+        sys.exit(0)
     else:
-        print(f"⚠️ Βρέθηκαν {total_errors} σφάλματα σε {failed_files} από {total_files} αρχεία.")
-    print("=" * 68)
+        print(f"❌ Βρέθηκαν {total_errors} σφάλματα σε {failed_files} από {total_files} αρχεία.")
+        print("=" * 68)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

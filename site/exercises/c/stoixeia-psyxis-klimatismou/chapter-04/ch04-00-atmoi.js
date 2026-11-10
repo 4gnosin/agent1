@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "atmoi",
     "sourceOrder": 1,
     "stem": "Στο παρακάτω διάγραμμα παριστάνεται η θερμοκρασία της ουσίας $H_2O$ ως συνάρτηση της προσδιδόμενης θερμότητας. Τα ποσά θερμότητας του οριζόντιου άξονα αντιστοιχούν σε $1\\text{ kg}$ της ουσίας $H_2O$. Τα σημεία Α, Β, Γ, Δ, Ε αντιπροσωπεύουν διάφορες καταστάσεις της ουσίας $H_2O$.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_#33868_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-04/c_stoixeia-psyxis-klimatismou_ch04_33868_fig01.webp",
     "items": [
       {
         "kind": "calc",

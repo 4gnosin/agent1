@@ -164,10 +164,12 @@ window.KIND_LABEL = {
   };
   let simulationCleanup = null;
 
-    /** Encode path for <img src> — το # στο όνομα αρχείου αλλιώς κόβει το URL. */
+    /** Encode path for <img src> */
   function imgUrl(src) {
     if (!src) return "";
     src = String(src).replace(/\.(png|jpg|jpeg)$/i, ".webp");
+    // Normalize any legacy bank code _# pattern to _
+    src = src.replace(/_#(?=\d)/g, "_");
     return String(src).split("/").map(function (part) {
       return encodeURIComponent(part);
     }).join("/");
@@ -255,10 +257,14 @@ function esc(s) {
     const value = Number(match[0]);
     return Number.isFinite(value) ? value : null;
   }
-  function nearlyEqual(a, b, tolerance) {
+  function nearlyEqual(a, b, tolerance, mode) {
+    if (mode === "abs") {
+      const t = tolerance == null ? 0.01 : tolerance;
+      return Math.abs(a - b) <= t;
+    }
     const t = tolerance == null ? 0.02 : tolerance;
-    if (b === 0) return Math.abs(a) <= t;
-    return Math.abs(a - b) / Math.abs(b) <= t || Math.abs(a - b) <= 0.51;
+    if (b === 0) return Math.abs(a) <= (tolerance == null ? 1e-4 : tolerance);
+    return Math.abs(a - b) / Math.abs(b) <= t;
   }
 
   function route() {
@@ -461,7 +467,7 @@ function esc(s) {
     }
     const n = parseNumber(a.calc || "");
     if (n === null) return false;
-    return nearlyEqual(n, item.answer, item.tolerance == null ? 0.02 : item.tolerance);
+    return nearlyEqual(n, item.answer, item.tolerance == null ? 0.02 : item.tolerance, item.toleranceMode);
   }
 
   function resetEngine(ex) {
@@ -2556,6 +2562,45 @@ function esc(s) {
     });
   }
 
+  const loadedSubjects = Object.create(null);
+
+  function ensureSubjectLoaded(subjectId) {
+    if (!subjectId || loadedSubjects[subjectId]) {
+      return Promise.resolve();
+    }
+    const scripts = (window.SUBJECT_SCRIPTS && window.SUBJECT_SCRIPTS[subjectId]) || [];
+    if (!scripts.length) {
+      loadedSubjects[subjectId] = true;
+      return Promise.resolve();
+    }
+    return new Promise(function (resolve) {
+      let loadedCount = 0;
+      const total = scripts.length;
+      function checkDone() {
+        loadedCount++;
+        if (loadedCount >= total) {
+          loadedSubjects[subjectId] = true;
+          resolve();
+        }
+      }
+      scripts.forEach(function (src) {
+        if (document.querySelector('script[src="' + src + '"]')) {
+          checkDone();
+          return;
+        }
+        const s = document.createElement("script");
+        s.src = src;
+        s.async = false;
+        s.onload = checkDone;
+        s.onerror = function () {
+          console.warn("Could not load script:", src);
+          checkDone();
+        };
+        document.body.appendChild(s);
+      });
+    });
+  }
+
   function render(opts) {
     opts = opts || {};
     const y = window.scrollY;
@@ -2570,6 +2615,19 @@ function esc(s) {
     }
     applyTheme();
     const r = route();
+    if (r.subject && !loadedSubjects[r.subject] && window.SUBJECT_SCRIPTS && window.SUBJECT_SCRIPTS[r.subject]) {
+      const root = document.getElementById("app");
+      if (root) {
+        root.innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:50vh;gap:1rem;color:var(--text-muted);font-family:var(--font-sans);">' +
+          '<div style="font-size:2rem;">⏳</div>' +
+          '<div style="font-size:1.1rem;font-weight:500;">Φόρτωση περιεχομένου μαθήματος...</div>' +
+          '</div>';
+      }
+      ensureSubjectLoaded(r.subject).then(function () {
+        render(opts);
+      });
+      return;
+    }
     if (r.subject) setCtx(r.subject);
     const root = document.getElementById("app");
     if (r.name === "site-home") {

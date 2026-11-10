@@ -61,12 +61,12 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "Αντιστοίχιση εξαρτημάτων ΚΚΜ: 1 -> d (Φίλτρο αέρα), 2 -> c (Τάμπερ), 3 -> a (Ανεμιστήρας), 4 -> b (Στοιχείο εναλλαγής θερμότητας).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34216_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34216_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34216_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34216_fig02.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34216_fig03.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34216_fig04.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34216_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34216_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34216_fig03.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34216_fig04.webp"
         ]
       },
       {
@@ -192,13 +192,13 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.05,
         "hint": "Εντοπίστε στο διάγραμμα το σημείο τομής της πίεσης $0,35\\text{ kPa}$ με την καμπύλη απόδοσης 72%.",
         "explain": "Το σημείο τομής της πίεσης $0,35\\text{ kPa}$ και του βαθμού απόδοσης 72% δίνει νέα απαιτούμενη παροχή αέρα ίση με $820\\text{ L/s}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34219_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34219_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34219_sol01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34219_sol02.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34219_sol03.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34219_sol01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34219_sol02.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34219_sol03.webp"
     ]
   },
   {
@@ -285,7 +285,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "a"
         },
         "explain": "Αντιστοίχιση μερών FCU: 1 -> e (Λεκάνη συμπυκνωμάτων), 2 -> c (Στοιχείο), 3 -> d (Φίλτρο), 4 -> a (Ανεμιστήρας).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34222_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34222_fig01.webp"
       }
     ]
   },
@@ -382,7 +382,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "5": "c"
         },
         "explain": "Αντιστοίχιση μερών ΚΚΜ: 1 -> στ (Εισαγωγή αέρα), 2 -> β (Υγραντήρας), 3 -> ε (Ανεμιστήρας), 4 -> α (Στοιχεία), 5 -> γ (Θερμομονωμένα καπάκια).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34223_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34223_fig01.webp"
       }
     ]
   },
@@ -440,7 +440,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Το φίλτρο κατηγορίας H12 συγκρατεί τουλάχιστον το 99,99% των σωματιδίων διαμέτρου $0,3\\text{ }\\mu\\text{m}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34729_fig01.webp"
+    "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34729_fig01.webp"
   },
   {
     "id": "ch08-34868",
@@ -465,7 +465,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Προσθέστε την πτώση πίεσης δικτύου και ΚΚΜ.",
         "explain": "Ολική πτώση πίεσης = $0,70\\text{ kPa} + 0,20\\text{ kPa} = 0,90\\text{ kPa}$.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34868_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34868_fig01.webp"
       },
       {
         "kind": "calc",
@@ -513,7 +513,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#34868_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_34868_sol01.webp"
     ]
   },
   {
@@ -541,10 +541,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "prompt": "Η θερμομόνωση είναι απαραίτητη στις ΚΚΜ, επειδή τοποθετούνται σε μη κλιματιζόμενους χώρους.",
         "answer": true,
         "explain": "Σωστό. Οι ΚΚΜ απαιτούν θερμομόνωση λόγω εγκατάστασης σε μη κλιματιζόμενα περιβάλλοντα.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig02.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig02.webp"
         ]
       },
       {
@@ -607,10 +607,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Αντιστοίχιση εξαρτημάτων: 1 -> c (Στοιχείο FCU), 2 -> d (Τρίοδη βάνα), 3 -> a (Ανεμιστήρας FCU), 4 -> b (Ηχοπαγίδα αεραγωγού)."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig03.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig03.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig03.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35090_fig04.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig03.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35090_fig04.webp"
     ]
   }
 ]

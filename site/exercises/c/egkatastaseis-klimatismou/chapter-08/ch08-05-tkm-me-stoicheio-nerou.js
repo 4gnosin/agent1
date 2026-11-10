@@ -110,7 +110,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "Αντιστοίχιση μερών FCU: 1 -> β (Λεκάνη συμπυκνωμάτων), 2 -> δ (Στοιχείο), 3 -> α (Ανεμιστήρας).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_#35088_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-08/c_egkatastaseis-klimatismou_ch08_35088_fig01.webp"
       },
       {
         "kind": "tf",

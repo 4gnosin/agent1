@@ -68,7 +68,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "Με βάση το παρακάτω σχήμα, όπου απεικονίζονται τα χαρακτηριστικά στοιχεία των οδοντώσεων, να αντιστοιχίσετε τους αριθμούς της Στήλης Α με τα γράμματα της Στήλης Β.",
         "prompt": "Αντιστοίχιση χαρακτηριστικών στοιχείων οδοντώσεων:",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29885_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29885_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -140,7 +140,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         },
         "explain": "Η σωστή αντιστοίχιση προκύπτει από τη γεωμετρία του κανονικού δοντιού: 1-γ, 2-α, 3-β, 4-ζ, 5-ε, 6-στ, 7-δ.",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29885_fig01.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29885_fig01.webp"
         ]
       },
       {
@@ -598,9 +598,9 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "subqPrompt": "Να αντιστοιχίσετε τους γεωμετρικούς άξονες των ατράκτων (Στήλη Α) με τη σχεδίαση οδοντώσεων (Στήλη Β).",
         "prompt": "Αντιστοίχιση αξόνων και σχεδίασης:",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig03.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig03.webp"
         ],
         "left": [
           {
@@ -636,7 +636,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "a"
         },
         "explain": "Οι παράλληλοι άξονες αντιστοιχούν στο σχήμα α, οι τεμνόμενοι στο β και οι ασύμβατοι στο γ.",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig01.webp"
       },
       {
         "kind": "match",
@@ -644,10 +644,10 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "subqPrompt": "Να αντιστοιχίσετε τις ονομασίες των ιμάντων (Στήλη Α) με τη μορφή τους (Στήλη Β).",
         "prompt": "Αντιστοίχιση τύπων ιμάντων:",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig04.webp",
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig05.webp",
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig06.webp",
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig07.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig04.webp",
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig05.webp",
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig06.webp",
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig07.webp"
         ],
         "left": [
           {
@@ -692,7 +692,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "a"
         },
         "explain": "Η μορφή κάθε ιμάντα αντιστοιχεί στα αντίστοιχα σχήματα: 1-δ, 2-β, 3-γ, 4-α.",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#23888_fig04.webp"
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_23888_fig04.webp"
       }
     ]
   }

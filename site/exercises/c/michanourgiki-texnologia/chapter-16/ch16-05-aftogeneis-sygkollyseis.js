@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "e"
         },
         "explain": "Η σωστή αντιστοίχιση από τη λύση του θέματος είναι: 1-γ, 2-β, 3-δ, 4-στ, 5-ε.",
-        "image": "images/c/michanourgiki-texnologia/chapter-16/c_michanourgiki-texnologia_ch16_#27536_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-16/c_michanourgiki-texnologia_ch16_27536_fig01.webp"
       },
       {
         "kind": "mc",

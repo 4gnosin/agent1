@@ -18,7 +18,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "Με βάση το παρακάτω σχήμα, να αντιστοιχίσετε τους αριθμούς 1, 2, 3 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β (ένα γράμμα περισσεύει).",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_#28982_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_28982_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -58,7 +58,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1. γ (Αναχώρηση νερού)\n2. δ (Επιστροφή νερού)\n3. β (Εκκένωση)\nΠερισσεύει το α (Έξοδος καυσαερίων).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_#28982_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_28982_fig01.webp"
         ]
       },
       {
@@ -108,7 +108,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "prompt": "Με βάση το παρακάτω σχήμα, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β (ένα γράμμα περισσεύει).",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_#31267_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_31267_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -157,7 +157,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1. β (Ατμοστάσιο)\n2. γ (Λεβητοστάσιο)\n3. ε (Κλιματισμός)\n4. α (Υδροστάσιο)\nΠερισσεύει το δ (Κλιμακοστάσιο).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_#31267_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-03/c_stoixeia-kentrikon-thermanseon_ch03_31267_fig01.webp"
         ]
       },
       {

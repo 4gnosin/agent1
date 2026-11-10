@@ -195,13 +195,13 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "4": "c"
         },
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25644_fig01.webp",
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25644_fig02.webp",
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25644_fig03.webp",
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25644_fig04.webp"
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25644_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25644_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25644_fig03.webp",
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25644_fig04.webp"
         ],
         "explain": "Αντιστοίχιση σχημάτων με τις κατεργασίες τόρνευσης: 1 -> Μετωπική, 2 -> Μορφής, 3 -> Κωνική, 4 -> Σπειρώματος.",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25644_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25644_fig01.webp"
       },
       {
         "kind": "tf",

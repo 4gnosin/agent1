@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-r134a",
     "sourceOrder": 9,
     "stem": "Στο παρακάτω ψυκτικό διάγραμμα ψυκτικού μέσου R134a, έχει σχεδιαστεί ένας ψυκτικός κύκλος. Με τη βοήθεια του ψυκτικού διαγράμματος που σας δίνεται να απαντήσετε στα ερωτήματα.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25306_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_25306_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -114,7 +114,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#25306_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_25306_sol01.webp"
     ]
   },
   {
@@ -134,7 +134,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το Σχήμα 1 που απεικονίζει την απόψυξη με μεταγωγή θερμού ατμού, να αντιστοιχίσετε τους αριθμούς 1-6 της Στήλης Α με τα γράμματα α-στ της Στήλης Β:",
         "prompt": "Αντιστοίχιση εξαρτημάτων κυκλώματος απόψυξης (Σχήμα 1):",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26758_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26758_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -197,7 +197,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - στ (Συμπιεστής), 2 - δ (Συμπυκνωτής), 3 - γ (Τριχοειδής σωλήνας), 4 - β (Ατμοποιητής), 5 - α (Σωληνοειδής βαλβίδα), 6 - ε (Σωλήνας μεταγωγής θερμού ατμού).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26758_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26758_fig01.webp"
         ]
       },
       {
@@ -259,7 +259,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-metavoles",
     "sourceOrder": 12,
     "stem": "Στο επόμενο διάγραμμα φαίνονται δύο μεταβολές στο διάγραμμα $p\\text{--}h$ (καμπάνα) ενός ψυκτικού ρευστού: η ΑΔ και η ΔΖ. Στο διάγραμμα επίσης φαίνονται και οι γραμμές σταθερού βαθμού ξηρότητας.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29115_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29115_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -364,7 +364,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-atmopoiitis",
     "sourceOrder": 14,
     "stem": "Στο παρακάτω Σχήμα 1 απεικονίζεται το ψυκτικό διάγραμμα για το ψυκτικό μέσο R134a.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29221_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29221_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -470,7 +470,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29221_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29221_sol01.webp"
     ]
   },
   {
@@ -590,11 +590,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 180,
         "unit": "kJ/kg",
         "explain": "$q = h_1 - h_4 = 400\\text{ kJ/kg} - 220\\text{ kJ/kg} = 180\\text{ kJ/kg}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29259_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29259_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29259_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29259_sol01.webp"
     ]
   },
   {
@@ -609,7 +609,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-kyklos-r22",
     "sourceOrder": 16,
     "stem": "Μια ψυκτική διάταξη μηχανικής συμπίεσης ατμού, χωρίς υπόψυξη συμπυκνώματος, χρησιμοποιεί το ψυκτικό μέσο R–22 με συνολική μάζα $m = 2\\text{ kg}$. Η ειδική ενθαλπία του υπέρθερμου ατμού, κατά την είσοδο στον συμπυκνωτή είναι $450\\text{ kJ/kg}$ και η θερμοκρασία του $80\\text{ }^\\circ\\text{C}$.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29331_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29331_fig01.webp",
     "givens": [
       {
         "label": "m",
@@ -656,7 +656,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29331_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29331_sol01.webp"
     ]
   },
   {
@@ -676,7 +676,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς 1, 2, 3 από τη Στήλη Α με τα στοιχεία του διαγράμματος p-h στη Στήλη Β:",
         "prompt": "Αντιστοίχιση χαρακτηριστικών σημείων/γραμμών στο διάγραμμα p-h:",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29501_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29501_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -716,7 +716,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - δ (Γραμμή κορεσμένου υγρού), 2 - α (Κρίσιμο σημείο), 3 - β (Γραμμή κορεσμένου ατμού).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29501_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29501_fig01.webp"
         ]
       },
       {
@@ -831,7 +831,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 210,
         "unit": "kJ/kg",
         "explain": "$q_{\\text{συμπ}} = h_3 - h_4 = 410\\text{ kJ/kg} - 200\\text{ kJ/kg} = 210\\text{ kJ/kg}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29503_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29503_fig01.webp"
       }
     ]
   },
@@ -973,11 +973,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 5.2,
         "unit": "",
         "explain": "$CR = \\frac{13\\text{ bar}}{2{,}5\\text{ bar}} = 5{,}2$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29540_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29540_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#29540_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29540_sol01.webp"
     ]
   },
   {
@@ -992,7 +992,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-isxys",
     "sourceOrder": 21,
     "stem": "Ψυκτική διάταξη μηχανικής συμπίεσης ατμού λειτουργεί με ψυκτικό μέσο R-134a. Στο παρακάτω ψυκτικό διάγραμμα ψυκτικού μέσου R134a, έχει σχεδιαστεί ο ψυκτικός κύκλος με τον οποίο λειτουργεί η διάταξη. Δίνεται ως δεδομένο ότι η μεταβολή ΑΒ αντιπροσωπεύει την ατμοποίηση του ψυκτικού μέσου και η μεταβολή ΒΓ τη συμπίεση του. Δίζεται επίσης η παροχή μάζας του ψυκτικού που κυκλοφορεί στο κύκλωμα είναι $\\dot{m} = 0{,}1\\text{ kg/s}$.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#30503_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_30503_fig01.webp",
     "givens": [
       {
         "label": "\\dot{m}",
@@ -1051,7 +1051,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#30503_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_30503_sol01.webp"
     ]
   },
   {
@@ -1066,7 +1066,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-logos-sympiesis",
     "sourceOrder": 23,
     "stem": "Ψυκτική διάταξη μηχανικής συμπίεσης ατμού λειτουργεί με ψυκτικό μέσο R-134a. Στο παρακάτω ψυκτικό διάγραμμα ψυκτικού μέσου R134a, έχει σχεδιαστεί ο ψυκτικός κύκλος με τον οποίο λειτουργεί η διάταξη. Δίνεται ως δεδομένο ότι η μεταβολή ΑΒ αντιπροσωπεύει την ατμοποίηση του ψυκτικού μέσου και η μεταβολή ΒΓ την συμπίεση του.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33873_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33873_fig01.webp",
     "items": [
       {
         "kind": "mc",
@@ -1127,7 +1127,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33873_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33873_sol01.webp"
     ]
   },
   {
@@ -1142,7 +1142,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "diagramma-p-h-atmopoihsi-r22",
     "sourceOrder": 24,
     "stem": "Δίνεται το διάγραμμα πίεσης – ειδικής ενθαλπίας για το ψυκτικό ρευστό R – 22.",
-    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33878_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33878_fig01.webp",
     "items": [
       {
         "kind": "open",
@@ -1183,7 +1183,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33878_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33878_sol01.webp"
     ]
   }
 ]

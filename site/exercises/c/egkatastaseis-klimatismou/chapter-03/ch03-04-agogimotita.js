@@ -138,10 +138,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "$q = 400\\text{ W} + 232\\text{ W} = 632\\text{ W}$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#26823_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_26823_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#26823_fig01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_#26823_fig02.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_26823_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-03/c_egkatastaseis-klimatismou_ch03_26823_fig02.webp"
     ]
   }
 ]

@@ -74,7 +74,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "5": "d"
         },
         "explain": "Η σωστή αντιστοίχιση με βάση τα μέρη του εδράνου κύλισης είναι: 1->ε (Σφαιροθήκη), 2->α (Εσωτερικός δακτύλιος), 3->στ (Πλάτος), 4->β (Εσωτερική διάμετρος), 5->δ (Εξωτερικός δακτύλιος).",
-        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#23984_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_23984_fig01.webp"
       },
       {
         "kind": "mc",
@@ -392,10 +392,10 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Για τη θέση Β με $F_2 = 500\\text{ kP}$, επιλέγεται το 16010."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32150_fig01.webp",
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32150_fig01.webp",
     "images": [
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32150_fig01.webp",
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32150_fig02.webp"
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32150_fig01.webp",
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32150_fig02.webp"
     ]
   },
   {
@@ -485,7 +485,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Με $C = 28750\\text{ N}$ και $d = 55\\text{ mm}$, επιλέγεται το 6211 ($C = 43600\\text{ N}$)."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32169_fig01.webp"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32169_fig01.webp"
   },
   {
     "id": "ch14-32172",
@@ -549,7 +549,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Με $C = 24880\\text{ N}$ και $d = 50\\text{ mm}$, επιλέγεται το 6210 ($C = 35100\\text{ N}$). তিনিই θέση Β δίνει το ίδιο ρουλεμάν."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32172_fig01.webp"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32172_fig01.webp"
   },
   {
     "id": "ch14-32789",
@@ -638,10 +638,10 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Με $C = 27500\\text{ N}$ και $d = 45\\text{ mm}$, επιλέγεται το 6209."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32789_fig01.webp",
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32789_fig01.webp",
     "images": [
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32789_fig01.webp",
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#32789_fig02.webp"
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32789_fig01.webp",
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_32789_fig02.webp"
     ]
   },
   {
@@ -731,10 +731,10 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "explain": "Με $C = 10000\\text{ N}$ και $d = 55\\text{ mm}$, επιλέγεται το 16011."
       }
     ],
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#33492_fig01.webp",
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_33492_fig01.webp",
     "images": [
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#33492_fig01.webp",
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#33492_fig02.webp"
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_33492_fig01.webp",
+      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_33492_fig02.webp"
     ]
   }
 ]

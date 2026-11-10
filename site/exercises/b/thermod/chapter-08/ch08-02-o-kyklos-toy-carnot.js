@@ -40,7 +40,7 @@ window.EXERCISES.push(...
         "subq": "2.2",
         "subqPrompt": "Στο παρακάτω σχήμα απεικονίζονται δύο θερμικές μηχανές που ακολουθούν τον κύκλο του Carnot. Η 1η λειτουργεί ανάμεσα στις θερμοκρασίες $T_1$ (υψηλή) και $T_2$ (χαμηλή), ενώ η 2η ανάμεσα στις θερμοκρασίες $T_1$ (υψηλή) και $T_3$ (χαμηλή). Δίνεται $T_2 > T_3$.",
         "prompt": "α. Ποια από τις δύο μηχανές έχει μεγαλύτερο θερμικό βαθμό απόδοσης;",
-        "image": "images/b/thermod/chapter-08/b_thermod_ch08_#29268_fig01.webp",
+        "image": "images/b/thermod/chapter-08/b_thermod_ch08_29268_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -79,7 +79,7 @@ window.EXERCISES.push(...
         ],
         "answer": "a",
         "explain": "Ο θερμικός βαθμός απόδοσης της 1ης μηχανής είναι $n_{\\theta 1} = 1 - \\frac{T_2}{T_1}$ και της 2ης $n_{\\theta 2} = 1 - \\frac{T_3}{T_1}$. Εφόσον $T_2 > T_3$, προκύπτει ότι $n_{\\theta 1} < n_{\\theta 2}$.",
-        "image": "images/b/thermod/chapter-08/b_thermod_ch08_#29268_fig01.webp"
+        "image": "images/b/thermod/chapter-08/b_thermod_ch08_29268_fig01.webp"
       }
     ]
   },

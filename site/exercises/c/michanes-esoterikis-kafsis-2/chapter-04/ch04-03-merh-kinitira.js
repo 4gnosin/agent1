@@ -70,10 +70,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "γ",
           "5": "β"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24351_fig01.webp",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24351_fig01.webp",
         "explain": "Η αντιστοίχιση των σημαδιών και χαρακτηριστικών του εμβόλου είναι: 1→δ, 2→α, 3→ε, 4→γ, 5→β.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24351_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24351_fig01.webp"
         ]
       },
       {
@@ -177,10 +177,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "3": "δ",
           "4": "ε"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24365_fig01.webp",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24365_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→γ, 2→α, 3→δ, 4→ε.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24365_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24365_fig01.webp"
         ]
       },
       {
@@ -273,10 +273,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "3": "β",
           "4": "ε"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24368_fig01.webp",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24368_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→γ, 2→δ, 3→β, 4→ε.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#24368_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_24368_fig01.webp"
         ]
       },
       {
@@ -375,10 +375,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "ε",
           "5": "β"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30559_fig01.webp",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30559_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→γ, 2→δ, 3→α, 4→ε, 5→β.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30559_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30559_fig01.webp"
         ]
       },
       {
@@ -489,7 +489,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "ε"
         },
         "explain": "Η αντιστοίχιση των μερών του διωστήρα είναι: 1→στ (πόδι), 2→γ (τριβέας πείρου), 3→δ (κορμός), 4→β (καβαλέτο), 5→ε (τριβέας στροφαλοφόρου).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30597_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30597_fig01.webp"
       },
       {
         "kind": "mc",
@@ -591,10 +591,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "α",
           "5": "στ"
         },
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30599_fig01.webp",
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30599_fig01.webp",
         "explain": "Η σωστή αντιστοίχιση είναι: 1→γ, 2→β, 3→δ, 4→α, 5→στ.",
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30599_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30599_fig01.webp"
         ]
       },
       {
@@ -689,13 +689,13 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "α"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30611_fig01.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30611_fig02.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30611_fig03.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30611_fig04.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30611_fig01.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30611_fig02.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30611_fig03.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30611_fig04.webp"
         ],
         "explain": "Η αντιστοίχιση είναι: 1→β, 2→δ, 3→γ, 4→α.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_#30611_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-04/c_michanes-esoterikis-kafsis-2_ch04_30611_fig01.webp"
       },
       {
         "kind": "mc",

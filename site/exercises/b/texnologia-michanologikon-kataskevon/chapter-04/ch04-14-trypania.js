@@ -44,7 +44,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Με βάση το παρακάτω σχήμα όπου απεικονίζονται διάφορα είδη τρυπανιών, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18407_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_18407_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -89,7 +89,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - β (Κοινά τρυπάνια), 2 - δ (Κεντροτρύπανο), 3 - α (Φρεζοτρύπανο), 4 - γ (Χειροκίνητο δράπανο).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#18407_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_18407_fig01.webp"
         ]
       }
     ]
@@ -135,7 +135,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω σχήμα βλέπετε τα κύρια μέρη του τρυπανιού. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ, ε της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19040_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_19040_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -184,7 +184,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - β (Σώμα), 2 - γ (Στέλεχος ή ουρά), 3 - δ (Ωφέλιμο μήκος κοπής), 4 - ε (Διάμετρος τρυπανιού). Περισσεύει το α (Κώνος Μορς).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#19040_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_19040_fig01.webp"
         ]
       }
     ]

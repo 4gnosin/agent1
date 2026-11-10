@@ -21,12 +21,13 @@
 7. [Εξαγωγή Τεχνικών Σχημάτων και Βελτιστοποίηση WebP](#7-εξαγωγή-τεχνικών-σχημάτων-και-βελτιστοποίηση-webp)
 8. [Αυστηροί Κανόνες Σύνταξης και Τεχνικοί Περιορισμοί (AI Context Invariants)](#8-αυστηροί-κανόνες-σύνταξης-και-τεχνικοί-περιορισμοί-ai-context-invariants)
 9. [Εγκατάσταση, Ρύθμιση και Αναφορά Εντολών CLI](#9-εγκατάσταση-ρύθμιση-και-αναφορά-εντολών-cli)
+10. [Πνευματικά Δικαιώματα και Πηγές Υλικού](#10-πνευματικά-δικαιώματα-και-πηγές-υλικού)
 
 ---
 
 ## 1. Αρχιτεκτονική Συστήματος και Ροή Δεδομένων
 
-Η ροή δεδομένων του συστήματος είναι ντετερμινιστική και μετατρέπει πρωτογενή έγγραφα PDF σε στατικά αρχεία JavaScript τα οποία εγγράφουν τα δεδομένα τους στο καθολικό αντικείμενο `window.SUBJECT_DATA`.
+Η ροή δεδομένων του συστήματος είναι αναπαραγώγιμη με αυστηρή επικύρωση (validation) και μετατρέπει πρωτογενή έγγραφα PDF σε στατικά αρχεία JavaScript τα οποία εγγράφουν τα δεδομένα τους στο καθολικό αντικείμενο `window.SUBJECT_DATA`.
 
 ```mermaid
 flowchart TD
@@ -73,11 +74,12 @@ flowchart TD
 Το ριζικό επίπεδο (root) του αποθετηρίου διατηρείται αυστηρά καθαρό. Περιέχει αποκλειστικά τον κεντρικό εκκινητή `4gnosin.bat`, τη συντόμευση του ιστότοπου `Site (index.html).lnk` και τα αρχεία ρυθμίσεων. Όλα τα εκτελέσιμα scripts βρίσκονται στον φάκελο `scripts/` και όλη η βιβλιοθήκη Python στον φάκελο `src/`.
 
 ```text
-agent/
+agent1/
 ├── 4gnosin.bat                       Κεντρικό σημείο εκκίνησης του Control Center (Windows Batch)
 ├── Site (index.html).lnk             Συντόμευση απευθείας ανοίγματος του site/index.html στον browser
 ├── requirements.txt                  Εξαρτήσεις πακέτων Python
-├── .env                              Μεταβλητές περιβάλλοντος (GEMINI_API_KEY, GEMINI_MODEL)
+├── .env.example                      Πρότυπο μεταβλητών περιβάλλοντος (GEMINI_API_KEY, GEMINI_MODEL)
+├── .gitignore                        Κανόνες εξαίρεσης Git (προστασία .env, cache κ.λπ.)
 ├── README.md                         Αρχιτεκτονική τεκμηρίωση και προδιαγραφές συστήματος
 │
 ├── scripts/                          Αυτοτελή εργαλεία εκτέλεσης (.py) και βοηθητικά scripts (.bat)
@@ -88,8 +90,12 @@ agent/
 │   ├── theory.py                     CLI παραγωγής διδακτικής θεωρίας ανά μάθημα και κεφάλαιο
 │   ├── optimize_images_to_webp.py    Μαζικός μετατροπέας PNG/JPG σε WebP, deduplicator και ενημέρωση JS
 │   ├── extract_pdf_images_craft.py   Εξαγωγέας σχημάτων PDF μέσω της σουίτας ArtCraft CLI
+│   ├── build_scripts_catalog.py      Κατασκευαστής καταλόγου scripts (scripts_catalog.js) για Lazy Loading
 │   ├── site_server.py                Πολυνηματικός τοπικός HTTP server (ThreadingHTTPServer, port 8000)
 │   └── *.bat                         Μεμονωμένοι εκκινητές (anim, edubooks, fix_exercise, theory, trapeza7 κ.λπ.)
+│
+├── tests/                            Σουίτες αυτοματοποιημένων ελέγχων (pytest)
+│   └── test_latex_sanitizer.py       Έλεγχοι απολύμανσης LaTeX, τριγωνομετρίας, escapes και ομογλύφων
 │
 ├── src/                              Πυρήνας λογισμικού Python (modular package)
 │   ├── cli.py                        Κεντρικός CLI ελεγκτής (process-inbox, fix-exercise, extract-pdf, sync)
@@ -153,14 +159,12 @@ agent/
 
 Η εφαρμογή στο `site/` είναι σχεδιασμένη ώστε να λειτουργεί **χωρίς HTTP server** (απευθείας μέσω πρωτοκόλλου `file:///`) καθώς και σε οποιονδήποτε στατικό εξυπηρετητή (GitHub Pages).
 
-### 3.1 Απουσία `fetch()` και Καθολικός Χώρος Ονομάτων
+### 3.1 Απουσία `fetch()`, Καθολικός Χώρος Ονομάτων και On-Demand Lazy Loading
 Λόγω των περιορισμών CORS των σύγχρονων φυλλομετρητών στο πρωτόκολλο `file:///`, η εφαρμογή **δεν** χρησιμοποιεί `fetch()` ή ES Modules (`import`/`export`) για την ανάκτηση περιεχομένου. Αντί αυτού:
 1. Κάθε αρχείο θεωρίας και ασκήσεων είναι ένα έγκυρο script JavaScript το οποίο προσαρτά τα δεδομένα του στο καθολικό αντικείμενο `window.SUBJECT_DATA["<subject_slug>"]`.
-2. Το `site/index.html` φορτώνει σειριακά με `<script src="...">`:
-   - Πρώτα το `content/catalog.js` (`window.CATALOG`).
-   - Έπειτα τα αρχεία θεωρίας `content/{b,c}/{slug}/chapter-NN/*.js`.
-   - Έπειτα, για κάθε κεφάλαιο ασκήσεων, **πρώτα** το `groups.js` και αμέσως μετά τα αρχεία ασκήσεων `chNN-MM-*.js`.
-   - Τέλος, τις βιβλιοθήκες KaTeX και τον πυρήνα της εφαρμογής `js/app.js`.
+2. **On-Demand Lazy Loading χωρίς fetch:** Το `site/index.html` παραμένει εξαιρετικά ελαφρύ και ταχύτατο (~15 scripts πυρήνα). Περιλαμβάνει το `content/catalog.js` και τον αυτόματα παραγόμενο κατάλογο διαδρομών `content/scripts_catalog.js` (`window.SUBJECT_SCRIPTS`).
+3. Όταν ο μαθητής επιλέγει μάθημα (π.χ. `#/antoxi`), ο router στο `js/app.js` φορτώνει δυναμικά μόνο τα scripts του συγκεκριμένου μαθήματος μέσω `document.createElement('script')` με `async = false`, διατηρώντας αυστηρά τη σειρά εκτέλεσης (`groups.js` πριν από τα επιμέρους θέματα).
+4. Ο μηχανισμός είναι πλήρως συμβατός τόσο με απευθείας άνοιγμα από το δίσκο (`file:///`) όσο και με στατικό hosting (GitHub Pages).
 
 ### 3.2 Δρομολόγηση (Hash Routing) στο `site/js/app.js`
 Η πλοήγηση βασίζεται στο `window.location.hash` (συμβάν `hashchange`):
@@ -338,14 +342,14 @@ window.SUBJECT_DATA["thermod"].exercises.push({
 ```
 
 > [!NOTE]
-> Σε περίπτωση που κάποιο παλαιότερο υπολογιστικό ερώτημα δεν περιλαμβάνει προϋπολογισμένο πεδίο `animation`, η συνάρτηση `getAnimationForCalcItem()` στο [`site/js/app.js`](file:///c:/Users/konst/OneDrive/Desktop/agent/site/js/app.js) αναλύει δυναμικά το `stem`, το `prompt` και τον πίνακα `solution` και συνθέτει αυτόματα σενάριο 4 βημάτων κατά τον χρόνο εκτέλεσης (Universal Auto-Fallback Engine).
+> Σε περίπτωση που κάποιο παλαιότερο υπολογιστικό ερώτημα δεν περιλαμβάνει προϋπολογισμένο πεδίο `animation`, η συνάρτηση `getAnimationForCalcItem()` στο [`site/js/app.js`](site/js/app.js) αναλύει δυναμικά το `stem`, το `prompt` και τον πίνακα `solution` και συνθέτει αυτόματα σενάριο 4 βημάτων κατά τον χρόνο εκτέλεσης (Universal Auto-Fallback Engine).
 
 ---
 
 ## 6. Υποσυστήματα Παραγωγής Περιεχομένου και Pipelines
 
 ### 6.1 Κεντρικός Ελεγκτής (`4gnosin.bat` / `scripts/menu.py`)
-Το [`4gnosin.bat`](file:///c:/Users/konst/OneDrive/Desktop/agent/4gnosin.bat) ενεργοποιεί αυτόματα το εικονικό περιβάλλον `.venv`, ρυθμίζει την κωδικοποίηση της κονσόλας σε UTF-8 και εκκινεί το [`scripts/menu.py`](file:///c:/Users/konst/OneDrive/Desktop/agent/scripts/menu.py). Από εκεί παρέχεται ενοποιημένη πρόσβαση σε όλες τις ροές εργασίας:
+Το [`4gnosin.bat`](4gnosin.bat) ενεργοποιεί αυτόματα το εικονικό περιβάλλον `.venv`, ρυθμίζει την κωδικοποίηση της κονσόλας σε UTF-8 και εκκινεί το [`scripts/menu.py`](scripts/menu.py). Από εκεί παρέχεται ενοποιημένη πρόσβαση σε όλες τις ροές εργασίας:
 1. Κατασκευή Τράπεζας Θεμάτων (Λήψη + Επεξεργασία Gemini API + WebP + Επικύρωση).
 2. Διαδραστική Θεωρία (Λήψη σχολικών βιβλίων + Παραγωγή θεωρίας + Εξαγωγή σχημάτων).
 3. Παραγωγή Παιδαγωγικών Animations Μαυροπίνακα (`calc_animator`).
@@ -357,16 +361,16 @@ window.SUBJECT_DATA["thermod"].exercises.push({
 2. **Εξαγωγή & Μεταγλώττιση (`python -m src.cli process-inbox`):**
    - Εξάγει τα τεχνικά σχήματα των θεμάτων στο `site/images/{grade}/{subject}/chapter-{NN}/`.
    - Μετατρέπει το περιεχόμενο του PDF σε δομημένο Markdown στο `data/chapters/`.
-   - Καλεί το [`src/generators/exercise_generator.py`](file:///c:/Users/konst/OneDrive/Desktop/agent/src/generators/exercise_generator.py) (σε chunks των 8 θεμάτων για αποφυγή υπέρβασης ορίων tokens) ώστε να παραχθούν τα αρχεία `groups.js` και `chNN-MM-*.js`.
+   - Καλεί το [`src/generators/exercise_generator.py`](src/generators/exercise_generator.py) (σε chunks των 8 θεμάτων για αποφυγή υπέρβασης ορίων tokens) ώστε να παραχθούν τα αρχεία `groups.js` και `chNN-MM-*.js`.
    - Ενημερώνει αυτόματα το `site/index.html` και το `site/content/catalog.js` και μετακινεί το επεξεργασμένο PDF στο `data/inbox/done/`.
 
 ### 6.3 Pipeline Συγγραφής Θεωρίας (`edubooks.py` -> `theory.py`)
 1. **Λήψη Βιβλίων (`scripts/edubooks.py`):** Κατεβάζει τα επίσημα σχολικά εγχειρίδια PDF από το `ebooks.edu.gr` στον φάκελο `data/books/{b,c}/{subject}/`.
-2. **Σύνθεση Θεωρίας (`scripts/theory.py`):** Διαβάζει τη διδακτέα ύλη από το `data/syllabus/syllabus_epal_mech.json`, απομονώνει τις αντίστοιχες σελίδες του σχολικού βιβλίου μέσω του `BookExtractor`, εξάγει τα διαγράμματα της θεωρίας και καλεί το [`src/generators/theory_generator.py`](file:///c:/Users/konst/OneDrive/Desktop/agent/src/generators/theory_generator.py).
+2. **Σύνθεση Θεωρίας (`scripts/theory.py`):** Διαβάζει τη διδακτέα ύλη από το `data/syllabus/syllabus_epal_mech.json`, απομονώνει τις αντίστοιχες σελίδες του σχολικού βιβλίου μέσω του `BookExtractor`, εξάγει τα διαγράμματα της θεωρίας και καλεί το [`src/generators/theory_generator.py`](src/generators/theory_generator.py).
 3. Παράγει για κάθε κεφάλαιο πλήρη σειρά ενοτήτων (`00-stoxoi.js`, θεματικές ενότητες, περίληψη/τυπολόγιο και `sfalmata-kai-dieykriniseis.js`).
 
 ### 6.4 Μόνιμη Μνήμη AI Agent (`src/utils/agent_memory.py`)
-Το σύστημα διαθέτει μηχανισμό διαρκούς μάθησης αποθηκευμένο στο [`data/agent_memory/lessons_learned.json`](file:///c:/Users/konst/OneDrive/Desktop/agent/data/agent_memory/lessons_learned.json). Κάθε φορά που εκτελείται το `ExerciseGenerator`, το `TheoryGenerator` ή το `ExerciseFixer`, η κλάση `AgentMemory` φορτώνει τους αποθηκευμένους κανόνες (global, ανά μάθημα ή ανά κεφάλαιο) και τους εγχέει δυναμικά στο System Prompt του Gemini API, αποτρέποντας την επανάληψη παλαιότερων σφαλμάτων.
+Το σύστημα διαθέτει μηχανισμό διαρκούς μάθησης αποθηκευμένο στο [`data/agent_memory/lessons_learned.json`](data/agent_memory/lessons_learned.json). Κάθε φορά που εκτελείται το `ExerciseGenerator`, το `TheoryGenerator` ή το `ExerciseFixer`, η κλάση `AgentMemory` φορτώνει τους αποθηκευμένους κανόνες (global, ανά μάθημα ή ανά κεφάλαιο) και τους εγχέει δυναμικά στο System Prompt του Gemini API, αποτρέποντας την επανάληψη παλαιότερων σφαλμάτων.
 
 ---
 
@@ -376,8 +380,8 @@ window.SUBJECT_DATA["thermod"].exercises.push({
 
 | Δείγμα Εξαγόμενου Τεχνικού Σχήματος (Θεωρία) | Δείγμα Εξαγόμενου Σχήματος Ασκήσεων (Τράπεζα) |
 | :---: | :---: |
-| ![Σχήμα Θεωρίας Αντοχής Υλικών](site/images/b/antoxi/chapter-01/theory/ch01_p040_01.webp) | ![Σχήμα Άσκησης Αντοχής Υλικών](site/images/b/antoxi/chapter-01/b_antoxi_ch01_%2318826_fig01.webp) |
-| `site/images/b/antoxi/chapter-01/theory/ch01_p040_01.webp` | `site/images/b/antoxi/chapter-01/b_antoxi_ch01_#18826_fig01.webp` |
+| ![Σχήμα Θεωρίας Αντοχής Υλικών](site/images/b/antoxi/chapter-01/theory/ch01_p040_01.webp) | ![Σχήμα Άσκησης Αντοχής Υλικών](site/images/b/antoxi/chapter-01/b_antoxi_ch01_18826_fig01.webp) |
+| `site/images/b/antoxi/chapter-01/theory/ch01_p040_01.webp` | `site/images/b/antoxi/chapter-01/b_antoxi_ch01_18826_fig01.webp` |
 
 ### 7.1 Μηχανισμός Εξαγωγής και Ονοματοδοσίας
 - Τα σχήματα ανιχνεύονται είτε μέσω γεωμετρικής ανάλυσης vector paths/rasters (`src/utils/image_extractor.py`) είτε μέσω της σουίτας εργαλείων ArtCraft (`scripts/extract_pdf_images_craft.py`).
@@ -441,10 +445,13 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-Δημιουργήστε ή ελέγξτε το αρχείο `.env` στο root του αποθετηρίου:
+Αντιγράψτε το αρχείο `.env.example` σε `.env` στο root του αποθετηρίου (το αρχείο `.env` προστατεύεται από το `.gitignore` και δεν διαρρέει στο GitHub) και ορίστε το κλειδί σας:
+```bash
+copy .env.example .env   # Σε Windows CMD / PowerShell
+```
 ```env
 GEMINI_API_KEY=<Το_API_Key_σας_από_το_Google_AI_Studio>
-GEMINI_MODEL=gemini-2.5-pro
+GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
 ### 9.2 Διαδραστική Εκτέλεση
@@ -474,3 +481,15 @@ GEMINI_MODEL=gemini-2.5-pro
 | `python scripts/extract_pdf_images_craft.py <path.pdf> --format webp` | Αυτόνομη εξαγωγή και βελτιστοποίηση σχημάτων από αρχείο PDF. |
 | `python -m src.validators.site_validator` | Πλήρης στατικός έλεγχος εγκυρότητας όλων των αρχείων JS, KaTeX και εικόνων του site. |
 | `python scripts/site_server.py` | Εκκίνηση τοπικού multithreaded HTTP server στη διεύθυνση `http://localhost:8000`. |
+
+---
+
+## 10. Πνευματικά Δικαιώματα και Πηγές Υλικού
+
+Το παρόν αποθετήριο και η πλατφόρμα **4gnosin** αξιοποιούν δημόσιο εκπαιδευτικό υλικό υπό τους ακόλουθους όρους:
+
+1. **Τράπεζα Θεμάτων Διαβαθμισμένης Δυσκολίας (Ι.Ε.Π.):** Τα πρωτογενή θέματα, οι εκφωνήσεις και τα συνοδευτικά σχήματα αντλούνται από την επίσημη πλατφόρμα της Τράπεζας Θεμάτων του Ινστιτούτου Εκπαιδευτικής Πολιτικής (έργο MIS 5070818). Τα δικαιώματα του πρωτογενούς εκπαιδευτικού υλικού παραμένουν στο Ι.Ε.Π. και το Υπουργείο Παιδείας, Θρησκευμάτων και Αθλητισμού.
+2. **Ψηφιακά Σχολικά Εγχειρίδια (Ι.Τ.Υ.Ε. «Διόφαντος»):** Τα αποσπάσματα θεωρίας και τα διαγράμματα προέρχονται από τα επίσημα διδακτικά βιβλία των ΕΠΑ.Λ. που διατίθενται ελεύθερα μέσω του `ebooks.edu.gr`.
+3. **Πρωτότυπο Υλικό, Κώδικας & Διαδραστικό Περιεχόμενο:** Ο σχεδιασμός της πλατφόρμας, ο κώδικας αυτοματισμού/επεξεργασίας, οι διαδραστικές ασκήσεις, οι βήμα-προς-βήμα λύσεις και τα σενάρια μαυροπίνακα διανέμονται υπό την άδεια **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+> Για αναλυτικές νομικές πληροφορίες, όρους αναφοράς και στοιχεία δημιουργού, ανατρέξτε στο [`site/LICENSE.md`](site/LICENSE.md).

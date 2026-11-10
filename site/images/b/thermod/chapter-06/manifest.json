@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch06_#18710_sol01.png",
+      "file": "b_thermod_ch06_18710_sol01.png",
       "bank_code": "18710",
       "role": "sol",
       "page": 9,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#20976_sol01.png",
+      "file": "b_thermod_ch06_20976_sol01.png",
       "bank_code": "20976",
       "role": "sol",
       "page": 11,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#20976_sol02.png",
+      "file": "b_thermod_ch06_20976_sol02.png",
       "bank_code": "20976",
       "role": "sol",
       "page": 11,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#20986_sol01.png",
+      "file": "b_thermod_ch06_20986_sol01.png",
       "bank_code": "20986",
       "role": "sol",
       "page": 14,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#20986_sol02.png",
+      "file": "b_thermod_ch06_20986_sol02.png",
       "bank_code": "20986",
       "role": "sol",
       "page": 14,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#20987_sol01.png",
+      "file": "b_thermod_ch06_20987_sol01.png",
       "bank_code": "20987",
       "role": "sol",
       "page": 16,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16235_sol01.png",
+      "file": "b_thermod_ch06_16235_sol01.png",
       "bank_code": "16235",
       "role": "sol",
       "page": 18,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16256_fig01.png",
+      "file": "b_thermod_ch06_16256_fig01.png",
       "bank_code": "16256",
       "role": "fig",
       "page": 19,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16258_sol01.png",
+      "file": "b_thermod_ch06_16258_sol01.png",
       "bank_code": "16258",
       "role": "sol",
       "page": 22,
@@ -214,7 +214,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#18627_sol01.png",
+      "file": "b_thermod_ch06_18627_sol01.png",
       "bank_code": "18627",
       "role": "sol",
       "page": 26,
@@ -236,7 +236,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16255_fig01.png",
+      "file": "b_thermod_ch06_16255_fig01.png",
       "bank_code": "16255",
       "role": "fig",
       "page": 27,
@@ -258,7 +258,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16255_fig02.png",
+      "file": "b_thermod_ch06_16255_fig02.png",
       "bank_code": "16255",
       "role": "fig",
       "page": 27,
@@ -280,7 +280,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16255_fig03.png",
+      "file": "b_thermod_ch06_16255_fig03.png",
       "bank_code": "16255",
       "role": "fig",
       "page": 28,
@@ -302,7 +302,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#16255_fig04.png",
+      "file": "b_thermod_ch06_16255_fig04.png",
       "bank_code": "16255",
       "role": "fig",
       "page": 28,
@@ -324,7 +324,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch06_#17100_fig01.png",
+      "file": "b_thermod_ch06_17100_fig01.png",
       "bank_code": "17100",
       "role": "fig",
       "page": 32,
@@ -350,11 +350,11 @@
     "16235": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#16235_sol01.png"
+        "b_thermod_ch06_16235_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#16235_sol01.png",
+          "file": "b_thermod_ch06_16235_sol01.png",
           "bank_code": "16235",
           "role": "sol",
           "page": 18,
@@ -379,15 +379,15 @@
     },
     "16255": {
       "fig": [
-        "b_thermod_ch06_#16255_fig01.png",
-        "b_thermod_ch06_#16255_fig02.png",
-        "b_thermod_ch06_#16255_fig03.png",
-        "b_thermod_ch06_#16255_fig04.png"
+        "b_thermod_ch06_16255_fig01.png",
+        "b_thermod_ch06_16255_fig02.png",
+        "b_thermod_ch06_16255_fig03.png",
+        "b_thermod_ch06_16255_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch06_#16255_fig01.png",
+          "file": "b_thermod_ch06_16255_fig01.png",
           "bank_code": "16255",
           "role": "fig",
           "page": 27,
@@ -409,7 +409,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch06_#16255_fig02.png",
+          "file": "b_thermod_ch06_16255_fig02.png",
           "bank_code": "16255",
           "role": "fig",
           "page": 27,
@@ -431,7 +431,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch06_#16255_fig03.png",
+          "file": "b_thermod_ch06_16255_fig03.png",
           "bank_code": "16255",
           "role": "fig",
           "page": 28,
@@ -453,7 +453,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch06_#16255_fig04.png",
+          "file": "b_thermod_ch06_16255_fig04.png",
           "bank_code": "16255",
           "role": "fig",
           "page": 28,
@@ -478,12 +478,12 @@
     },
     "16256": {
       "fig": [
-        "b_thermod_ch06_#16256_fig01.png"
+        "b_thermod_ch06_16256_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch06_#16256_fig01.png",
+          "file": "b_thermod_ch06_16256_fig01.png",
           "bank_code": "16256",
           "role": "fig",
           "page": 19,
@@ -509,11 +509,11 @@
     "16258": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#16258_sol01.png"
+        "b_thermod_ch06_16258_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#16258_sol01.png",
+          "file": "b_thermod_ch06_16258_sol01.png",
           "bank_code": "16258",
           "role": "sol",
           "page": 22,
@@ -538,12 +538,12 @@
     },
     "17100": {
       "fig": [
-        "b_thermod_ch06_#17100_fig01.png"
+        "b_thermod_ch06_17100_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch06_#17100_fig01.png",
+          "file": "b_thermod_ch06_17100_fig01.png",
           "bank_code": "17100",
           "role": "fig",
           "page": 32,
@@ -569,11 +569,11 @@
     "18627": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#18627_sol01.png"
+        "b_thermod_ch06_18627_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#18627_sol01.png",
+          "file": "b_thermod_ch06_18627_sol01.png",
           "bank_code": "18627",
           "role": "sol",
           "page": 26,
@@ -599,11 +599,11 @@
     "18710": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#18710_sol01.png"
+        "b_thermod_ch06_18710_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#18710_sol01.png",
+          "file": "b_thermod_ch06_18710_sol01.png",
           "bank_code": "18710",
           "role": "sol",
           "page": 9,
@@ -629,12 +629,12 @@
     "20976": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#20976_sol01.png",
-        "b_thermod_ch06_#20976_sol02.png"
+        "b_thermod_ch06_20976_sol01.png",
+        "b_thermod_ch06_20976_sol02.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#20976_sol01.png",
+          "file": "b_thermod_ch06_20976_sol01.png",
           "bank_code": "20976",
           "role": "sol",
           "page": 11,
@@ -656,7 +656,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch06_#20976_sol02.png",
+          "file": "b_thermod_ch06_20976_sol02.png",
           "bank_code": "20976",
           "role": "sol",
           "page": 11,
@@ -682,12 +682,12 @@
     "20986": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#20986_sol01.png",
-        "b_thermod_ch06_#20986_sol02.png"
+        "b_thermod_ch06_20986_sol01.png",
+        "b_thermod_ch06_20986_sol02.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#20986_sol01.png",
+          "file": "b_thermod_ch06_20986_sol01.png",
           "bank_code": "20986",
           "role": "sol",
           "page": 14,
@@ -709,7 +709,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch06_#20986_sol02.png",
+          "file": "b_thermod_ch06_20986_sol02.png",
           "bank_code": "20986",
           "role": "sol",
           "page": 14,
@@ -735,11 +735,11 @@
     "20987": {
       "fig": [],
       "sol": [
-        "b_thermod_ch06_#20987_sol01.png"
+        "b_thermod_ch06_20987_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch06_#20987_sol01.png",
+          "file": "b_thermod_ch06_20987_sol01.png",
           "bank_code": "20987",
           "role": "sol",
           "page": 16,

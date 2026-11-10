@@ -83,10 +83,10 @@ window.EXERCISES.push(...
           "4": "a"
         },
         "images": [
-          "images/b/thermod/chapter-09/b_thermod_ch09_#17640_fig01.webp"
+          "images/b/thermod/chapter-09/b_thermod_ch09_17640_fig01.webp"
         ],
         "explain": "Στον κύκλο Otto: 1-β (Αδιαβατική συμπίεση), 2-γ (Καύση υπό σταθερό όγκο), 3-δ (Εκτόνωση), 4-α (Εξαγωγή υπό σταθερό όγκο).",
-        "image": "images/b/thermod/chapter-09/b_thermod_ch09_#17640_fig01.webp"
+        "image": "images/b/thermod/chapter-09/b_thermod_ch09_17640_fig01.webp"
       }
     ]
   },
@@ -112,7 +112,7 @@ window.EXERCISES.push(...
         "tolerance": 0.05,
         "hint": "Παρατηρήστε την καμπύλη στο διάγραμμα για τον κινητήρα Otto.",
         "explain": "Σύμφωνα με το διάγραμμα, ο μέγιστος βαθμός απόδοσης για τον κύκλο Otto επιτυγχάνεται σε βαθμό συμπίεσης $\\varepsilon \\cong 11$.",
-        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_#20953_sol01.webp"
+        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_20953_sol01.webp"
       },
       {
         "subq": "4.2",
@@ -123,8 +123,8 @@ window.EXERCISES.push(...
         "tolerance": 0.05,
         "hint": "Ακολουθήστε την τιμή 20 στον άξονα του βαθμού συμπίεσης για τον κύκλο Diesel.",
         "explain": "Σύμφωνα με το διάγραμμα, βαθμός συμπίεσης κύκλου Diesel $\\varepsilon \\cong 20$ αντιστοιχεί σε θερμική απόδοση $\\eta \\cong 64\\%$.",
-        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_#20953_sol02.webp",
-        "image": "images/b/thermod/chapter-09/b_thermod_ch09_#20953_fig01.webp"
+        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_20953_sol02.webp",
+        "image": "images/b/thermod/chapter-09/b_thermod_ch09_20953_fig01.webp"
       },
       {
         "subq": "4.3",
@@ -150,12 +150,12 @@ window.EXERCISES.push(...
         ],
         "answer": "a",
         "explain": "Σύμφωνα με το διάγραμμα και τη θεωρία, ο βαθμός συμπίεσης για τους βενζινοκινητήρες Otto κυμαίνεται από $6 < \\varepsilon < 11$, ενώ για τους πετρελαιοκινητήρες Diesel από $13 < \\varepsilon < 22$.",
-        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_#20953_sol01.webp"
+        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_20953_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-09/b_thermod_ch09_#20953_sol01.webp",
-      "images/b/thermod/chapter-09/b_thermod_ch09_#20953_sol02.webp"
+      "images/b/thermod/chapter-09/b_thermod_ch09_20953_sol01.webp",
+      "images/b/thermod/chapter-09/b_thermod_ch09_20953_sol02.webp"
     ]
   },
   {
@@ -181,7 +181,7 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Μετατρέψτε τη διάμετρο σε cm ($d = 20\\text{ cm}$) και τη διαδρομή σε cm ($l = 10\\text{ cm}$). Χρησιμοποιήστε $\\pi \\approx 3{,}14$.",
         "explain": "Ο κυβισμός υπολογίζεται: $d = 200\\text{ mm} = 20\\text{ cm}$, $l = 100\\text{ mm} = 10\\text{ cm}$. \\( V = \\frac{3{,}14 \\cdot (20\\text{ cm})^2}{4} \\cdot 10\\text{ cm} = 3140\\text{ cm}^3 \\).",
-        "image": "images/b/thermod/chapter-09/b_thermod_ch09_#17645_fig01.webp"
+        "image": "images/b/thermod/chapter-09/b_thermod_ch09_17645_fig01.webp"
       },
       {
         "kind": "calc",
@@ -224,7 +224,7 @@ window.EXERCISES.push(...
         "subqPrompt": "2.1. Να γράψετε τους αριθμούς 1, 2, 3, 4 του διαγράμματος του Κύκλου Diesel από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "kind": "match",
         "prompt": "Αντιστοιχίστε τα σημεία/μεταβολές του κύκλου Diesel (Στήλη Α) με τις φάσεις-μεταβολές (Στήλη Β):",
-        "image": "images/b/thermod/chapter-09/b_thermod_ch09_#20974_fig01.webp",
+        "image": "images/b/thermod/chapter-09/b_thermod_ch09_20974_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -269,7 +269,7 @@ window.EXERCISES.push(...
         },
         "explain": "Η σωστή αντιστοίχιση είναι: 1 - β (Αδιαβατική Συμπίεση), 2 - γ (Καύση υπό σταθερή πίεση), 3 - δ (Αδιαβατική Εκτόνωση), 4 - α (Εξαγωγή υπό σταθερό όγκο).",
         "images": [
-          "images/b/thermod/chapter-09/b_thermod_ch09_#20974_fig01.webp"
+          "images/b/thermod/chapter-09/b_thermod_ch09_20974_fig01.webp"
         ]
       },
       {
@@ -297,11 +297,11 @@ window.EXERCISES.push(...
         ],
         "answer": "a",
         "explain": "Στους βενζινοκινητήρες η αύξηση του $\\varepsilon$ οδηγεί σε κρουστική καύση, περιορίζοντας τη συμπίεση μέχρι το 11. Στους Diesel δεν υπάρχουν κρουστικές καύσεις, άρα το $\\varepsilon$ μπορεί να είναι πολύ μεγαλύτερο (π.χ. 20), δίνοντας υψηλότερο βαθμό απόδοσης.",
-        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_#20974_sol01.webp"
+        "hintImage": "images/b/thermod/chapter-09/b_thermod_ch09_20974_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-09/b_thermod_ch09_#20974_sol01.webp"
+      "images/b/thermod/chapter-09/b_thermod_ch09_20974_sol01.webp"
     ]
   },
   {

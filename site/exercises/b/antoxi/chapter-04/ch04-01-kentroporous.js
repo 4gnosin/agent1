@@ -77,7 +77,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "Στο παρακάτω σχήμα φαίνεται η απόσταση των κέντρων βάρους κανονικών γεωμετρικών σχημάτων σε σχέση με το ύψος τους $h$. Να αντιστοιχίσετε τα στοιχεία της στήλης Α με τη στήλη Β (ένα γράμμα περισσεύει).",
         "images": [
-          "images/b/antoxi/chapter-04/b_antoxi_ch04_#19803_fig01.webp"
+          "images/b/antoxi/chapter-04/b_antoxi_ch04_19803_fig01.webp"
         ],
         "left": [
           {
@@ -117,7 +117,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "3": "d"
         },
         "explain": "Η σωστή αντιστοίχιση βάσει της θέσης του κέντρου βάρους των σχημάτων είναι: 1-γ, 2-α, 3-δ.",
-        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_#19803_fig01.webp"
+        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_19803_fig01.webp"
       },
       {
         "kind": "blank",

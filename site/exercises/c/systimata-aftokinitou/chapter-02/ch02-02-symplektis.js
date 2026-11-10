@@ -173,7 +173,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Οι αιτίες ολίσθησης περιλαμβάνουν φθορά θερμουίτ, διαρροή λαδιού, φθαρμένη πλάκα πίεσης, εξασθένηση χτενιού και κακή ευθυγράμμιση.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#28996_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_28996_fig01.webp"
       },
       {
         "kind": "mc",
@@ -221,7 +221,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Να γράψετε τους αριθμούς 1, 2, 3, 4, 5, από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της στήλης Β που δίνει τη σωστή αντιστοίχιση. Σημειώνεται ότι ένα γράμμα από τη στήλη Β θα περισσέψει.",
         "prompt": "Αντιστοίχιση μερών συμπλέκτη με το σχήμα",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#30562_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_30562_fig01.webp"
         ],
         "left": [
           {
@@ -279,7 +279,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "a"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-στ, 2-ε, 3-γ, 4-β, 5-α. Περισσεύει το δ.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#30562_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_30562_fig01.webp"
       },
       {
         "kind": "blank",
@@ -334,7 +334,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το Σχήμα 1 που απεικονίζει ένα αποσυναρμολογημένο συμπλέκτη με ελατήρια, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοίχιση μερών αποσυναρμολογημένου συμπλέκτη με ελατήρια",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32672_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32672_fig01.webp"
         ],
         "left": [
           {
@@ -388,7 +388,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "e"
         },
         "explain": "Σύμφωνα με την ενδεικτική λύση: 1-β, 2-α, 3-δ, 4-γ, 5-ε.",
-        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_#32672_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-02/c_systimata-aftokinitou_ch02_32672_fig01.webp"
       },
       {
         "kind": "mc",

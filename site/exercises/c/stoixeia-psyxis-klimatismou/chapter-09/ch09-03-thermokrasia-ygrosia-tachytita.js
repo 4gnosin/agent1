@@ -204,11 +204,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "unit": "°C",
         "tolerance": 0.5,
         "explain": "Από το διάγραμμα, το σημείο τομής της ταχύτητας αέρα $0,4\\text{ m/s}$ και του αριθμού μεταβολισμού $125\\text{ kcal}/(\\text{h}\\cdot\\text{m}^2)$ δίνει θερμοκρασία αέρα $19\\text{ }^\\circ\\text{C}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#32836_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_32836_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#32836_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_32836_sol01.webp"
     ]
   },
   {
@@ -243,11 +243,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "unit": "°C",
         "tolerance": 0.5,
         "explain": "Το σημείο τομής της θερμοκρασίας αέρα ($36\\text{ }^\\circ\\text{C}$) και της ταχύτητας του αέρα ($0,2\\text{ m/s}$) δίνει μέση θερμοκρασία εσωτερικών επιφανειών $10\\text{ }^\\circ\\text{C}$.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#33901_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_33901_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_#33901_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-09/c_stoixeia-psyxis-klimatismou_ch09_33901_sol01.webp"
     ]
   }
 ]

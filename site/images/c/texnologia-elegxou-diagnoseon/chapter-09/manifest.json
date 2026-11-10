@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_34104_fig01.png",
       "bank_code": "34104",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig01.png",
       "bank_code": "36260",
       "role": "fig",
       "page": 5,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig02.png",
       "bank_code": "36260",
       "role": "fig",
       "page": 5,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig03.png",
       "bank_code": "36260",
       "role": "fig",
       "page": 5,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig04.png",
       "bank_code": "36260",
       "role": "fig",
       "page": 5,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig05.png",
       "bank_code": "36260",
       "role": "fig",
       "page": 5,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch09_34105_fig01.png",
       "bank_code": "34105",
       "role": "fig",
       "page": 8,
@@ -173,12 +173,12 @@
   "by_bank_code": {
     "34104": {
       "fig": [
-        "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png"
+        "c_texnologia-elegxou-diagnoseon_ch09_34104_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#34104_fig01.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_34104_fig01.png",
           "bank_code": "34104",
           "role": "fig",
           "page": 2,
@@ -203,12 +203,12 @@
     },
     "34105": {
       "fig": [
-        "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png"
+        "c_texnologia-elegxou-diagnoseon_ch09_34105_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#34105_fig01.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_34105_fig01.png",
           "bank_code": "34105",
           "role": "fig",
           "page": 8,
@@ -233,16 +233,16 @@
     },
     "36260": {
       "fig": [
-        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
-        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
-        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
-        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
-        "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png"
+        "c_texnologia-elegxou-diagnoseon_ch09_36260_fig01.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_36260_fig02.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_36260_fig03.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_36260_fig04.png",
+        "c_texnologia-elegxou-diagnoseon_ch09_36260_fig05.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig01.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig01.png",
           "bank_code": "36260",
           "role": "fig",
           "page": 5,
@@ -264,7 +264,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig02.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig02.png",
           "bank_code": "36260",
           "role": "fig",
           "page": 5,
@@ -286,7 +286,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig03.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig03.png",
           "bank_code": "36260",
           "role": "fig",
           "page": 5,
@@ -308,7 +308,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig04.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig04.png",
           "bank_code": "36260",
           "role": "fig",
           "page": 5,
@@ -330,7 +330,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch09_#36260_fig05.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch09_36260_fig05.png",
           "bank_code": "36260",
           "role": "fig",
           "page": 5,

@@ -49,7 +49,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "2.2",
         "subqPrompt": "2.2 Στα παρακάτω σχήματα, βλέπουμε δύο στόμια που χρησιμοποιούνται στα συστήματα VAV:",
         "prompt": "α) Πώς ονομάζεται το σύστημα του στομίου του σχήματος 1;",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig01.webp",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_35406_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -71,8 +71,8 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "answer": "a",
         "explain": "Το στόμιο του σχήματος 1 αντιστοιχεί σε σύστημα αποκοπής.",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig02.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_35406_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_35406_fig02.webp"
         ]
       },
       {
@@ -80,7 +80,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "openEnded": true,
         "subq": "2.2",
         "prompt": "β) Πώς ονομάζεται το σύστημα του στομίου του σχήματος 2;",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#35406_fig02.webp",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_35406_fig02.webp",
         "options": [
           {
             "id": "a",

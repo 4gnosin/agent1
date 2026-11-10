@@ -298,20 +298,32 @@ def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
             f"Δεν βρέθηκαν παραγόμενα αρχεία ασκήσεων για {grade}/{subject}."
         )
 
-    html = index_path.read_text(encoding="utf-8")
-    html = rewrite_subject_script_tags(
-        html,
-        site_dir=site_dir,
-        grade=grade,
-        subject=subject,
-        theory_files=theory_files,
-        exercise_files=exercise_files,
-    )
+    index_full_path = site_dir / "index_full.html"
+    if index_full_path.is_file():
+        try:
+            full_html = index_full_path.read_text(encoding="utf-8")
+            full_html = rewrite_subject_script_tags(
+                full_html,
+                site_dir=site_dir,
+                grade=grade,
+                subject=subject,
+                theory_files=theory_files,
+                exercise_files=exercise_files,
+            )
+            index_full_path.write_text(full_html, encoding="utf-8")
+        except Exception:
+            pass
+
+    # Ενημέρωση scripts_catalog.js για Lazy Loading
+    try:
+        from scripts.build_scripts_catalog import build_catalog
+        build_catalog()
+    except Exception as e:
+        print(f"⚠️ Σφάλμα κατά την ενημέρωση του scripts_catalog.js: {e}")
+
     updated_catalog = sync_catalog_subject(catalog_text, subject_id)
-    index_path.write_text(html, encoding="utf-8")
     catalog_path.write_text(updated_catalog, encoding="utf-8")
-    print(f"Updated script tags in {index_path}")
-    print(f"Synchronized course '{subject_id}' in {catalog_path}")
+    print(f"Synchronized course '{subject_id}' in {catalog_path} and scripts_catalog.js")
 
 
 def build_batch_command(args: argparse.Namespace) -> None:
@@ -530,6 +542,23 @@ def validate_command(args: argparse.Namespace) -> None:
 
     files_to_check = [target_path] if target_path.is_file() else list(target_path.rglob("*.js"))
 
+    do_fix = getattr(args, "fix", False)
+    if do_fix:
+        print("🔧 Ενεργοποιήθηκε αυτόματη επιδιόρθωση (--fix)...")
+        fixed_count = 0
+        for f in files_to_check:
+            try:
+                orig = f.read_text(encoding="utf-8")
+                new_t = re.sub(r'_#(?=\d+)', '_', orig)
+                new_t = re.sub(r',\s*([\]}])', r'\1', new_t)
+                if new_t != orig:
+                    f.write_text(new_t, encoding="utf-8")
+                    fixed_count += 1
+            except Exception as e:
+                print(f"   ⚠️ Σφάλμα επιδιόρθωσης στο {f.name}: {e}")
+        if fixed_count > 0:
+            print(f"✅ Επιδιορθώθηκαν αυτόματα {fixed_count} αρχεία.\n")
+
     print(f"\n🔍 Επικύρωση {len(files_to_check)} αρχείων JavaScript...")
     has_errors = False
     for f in files_to_check:
@@ -551,6 +580,9 @@ def validate_command(args: argparse.Namespace) -> None:
 
     if not has_errors:
         print("\n🎉 Όλα τα αρχεία τηρούν αυστηρά τα schemas του 4gnosin.github.io!")
+    else:
+        print("\n❌ Βρέθηκαν σφάλματα κατά τον έλεγχο επικύρωσης.", file=sys.stderr)
+        sys.exit(1)
 
 
 def extract_pdf_command(args: argparse.Namespace) -> None:
@@ -960,6 +992,7 @@ def main() -> None:
     # 4. validate
     p_val = subparsers.add_parser("validate", help="Έλεγχος και επικύρωση αρχείων JavaScript")
     p_val.add_argument("path", help="Διαδρομή αρχείου .js ή φακέλου προς έλεγχο")
+    p_val.add_argument("--fix", action="store_true", help="Αυτόματη επιδιόρθωση γνωστών λαθών (π.χ. αφαίρεση # από εικόνες)")
     p_val.set_defaults(func=validate_command)
 
     # 5. tutor

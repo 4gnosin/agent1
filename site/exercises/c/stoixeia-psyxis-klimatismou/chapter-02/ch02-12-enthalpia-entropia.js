@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "theory": "ch02-12-enthalpia-entropia",
     "sourceOrder": 14,
     "images": [
-      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23812_fig01.webp"
+      "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_23812_fig01.webp"
     ],
     "items": [
       {
@@ -111,7 +111,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "1 - δ ($Q_1$), 2 - γ ($W$), 3 - α ($Q_2$).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_#23812_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-02/c_stoixeia-psyxis-klimatismou_ch02_23812_fig01.webp"
       }
     ]
   }

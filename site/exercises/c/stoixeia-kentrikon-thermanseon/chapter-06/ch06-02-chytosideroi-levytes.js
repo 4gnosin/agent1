@@ -19,7 +19,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Στο παρακάτω σχήμα απεικονίζεται ένας χυτοσιδηρός λέβητας με είσοδο – έξοδο νερού στο πάνω μέρος. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α με τα γράμματα α, β, γ, δ, ε της στήλης Β (ένα γράμμα περισσεύει):",
         "prompt": "Αντιστοιχίστε τα αριθμημένα μέρη του λέβητα με τις ονομασίες/λειτουργίες τους:",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24318_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_24318_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -68,7 +68,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1. ε (Περιοχή υδραυλικού διαχωρισμού νερού εισαγωγής και επιστροφής), 2. α (Θέρμανση νερού επιστροφής), 3. β (Κανάλι καυσαερίων), 4. δ (Χώρος καύσεως).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_#24318_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-06/c_stoixeia-kentrikon-thermanseon_ch06_24318_fig01.webp"
         ]
       },
       {

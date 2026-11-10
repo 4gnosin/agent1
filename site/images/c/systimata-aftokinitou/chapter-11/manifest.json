@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-aftokinitou_ch11_#34984_fig01.png",
+      "file": "c_systimata-aftokinitou_ch11_34984_fig01.png",
       "bank_code": "34984",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch11_#34984_fig02.png",
+      "file": "c_systimata-aftokinitou_ch11_34984_fig02.png",
       "bank_code": "34984",
       "role": "fig",
       "page": 2,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch11_#34984_fig03.png",
+      "file": "c_systimata-aftokinitou_ch11_34984_fig03.png",
       "bank_code": "34984",
       "role": "fig",
       "page": 2,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch11_#34984_fig04.png",
+      "file": "c_systimata-aftokinitou_ch11_34984_fig04.png",
       "bank_code": "34984",
       "role": "fig",
       "page": 2,
@@ -107,15 +107,15 @@
   "by_bank_code": {
     "34984": {
       "fig": [
-        "c_systimata-aftokinitou_ch11_#34984_fig01.png",
-        "c_systimata-aftokinitou_ch11_#34984_fig02.png",
-        "c_systimata-aftokinitou_ch11_#34984_fig03.png",
-        "c_systimata-aftokinitou_ch11_#34984_fig04.png"
+        "c_systimata-aftokinitou_ch11_34984_fig01.png",
+        "c_systimata-aftokinitou_ch11_34984_fig02.png",
+        "c_systimata-aftokinitou_ch11_34984_fig03.png",
+        "c_systimata-aftokinitou_ch11_34984_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch11_#34984_fig01.png",
+          "file": "c_systimata-aftokinitou_ch11_34984_fig01.png",
           "bank_code": "34984",
           "role": "fig",
           "page": 2,
@@ -137,7 +137,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch11_#34984_fig02.png",
+          "file": "c_systimata-aftokinitou_ch11_34984_fig02.png",
           "bank_code": "34984",
           "role": "fig",
           "page": 2,
@@ -159,7 +159,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch11_#34984_fig03.png",
+          "file": "c_systimata-aftokinitou_ch11_34984_fig03.png",
           "bank_code": "34984",
           "role": "fig",
           "page": 2,
@@ -181,7 +181,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch11_#34984_fig04.png",
+          "file": "c_systimata-aftokinitou_ch11_34984_fig04.png",
           "bank_code": "34984",
           "role": "fig",
           "page": 2,

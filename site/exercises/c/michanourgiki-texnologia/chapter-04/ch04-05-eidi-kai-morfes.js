@@ -19,9 +19,9 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "prompt": "2.1. Να γράψετε τους αριθμούς 1, 2, 3 από τη στήλη Α και δίπλα ένα από τα α, β, γ, της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "subq": "2.1",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27617_fig01.webp",
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27617_fig02.webp",
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27617_fig03.webp"
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27617_fig01.webp",
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27617_fig02.webp",
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27617_fig03.webp"
         ],
         "left": [
           {
@@ -57,7 +57,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "3": "β"
         },
         "explain": "Η σωστή αντιστοίχιση προκύπτει από τη γεωμετρική θέση του εργαλείου ως προς το κέντρο περιστροφής του τεμαχίου (1->γ, 2->α, 3->β).",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27617_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27617_fig01.webp"
       },
       {
         "kind": "tf",

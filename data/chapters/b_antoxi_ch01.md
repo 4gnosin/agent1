@@ -48,7 +48,7 @@
 1.
 
 <!-- Ζεύγος εικόνων δίπλα-δίπλα (2 εικόνες) -->
-![b_antoxi_ch01_#16324_fig01.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig01.png) ![b_antoxi_ch01_#16324_fig02.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig02.png)
+![b_antoxi_ch01_16324_fig01.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig01.png) ![b_antoxi_ch01_16324_fig02.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig02.png)
 
 α. Οι δυνάμεις F διαφέρουν κατά το μέτρο τους.
 
@@ -61,7 +61,7 @@
 2.
 
 <!-- Ζεύγος εικόνων δίπλα-δίπλα (2 εικόνες) -->
-![b_antoxi_ch01_#16324_fig03.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig03.png) ![b_antoxi_ch01_#16324_fig04.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig04.png)
+![b_antoxi_ch01_16324_fig03.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig03.png) ![b_antoxi_ch01_16324_fig04.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig04.png)
 
 α. Οι δυνάμεις F διαφέρουν κατά το μέτρο τους.
 
@@ -72,7 +72,7 @@
 3.
 
 <!-- Ζεύγος εικόνων δίπλα-δίπλα (2 εικόνες) -->
-![b_antoxi_ch01_#16324_fig05.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig05.png) ![b_antoxi_ch01_#16324_fig06.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16324_fig06.png)
+![b_antoxi_ch01_16324_fig05.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig05.png) ![b_antoxi_ch01_16324_fig06.png (2.2)](images/b/antoxi/chapter-01/b_antoxi_ch01_16324_fig06.png)
 
 α. Οι δυνάμεις F και F’ διαφέρουν κατά το μέτρο τους.
 
@@ -116,7 +116,7 @@
 
 (βλέπε σχήμα)
 
-![b_antoxi_ch01_#18826_fig01.png (2.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_#18826_fig01.png)
+![b_antoxi_ch01_18826_fig01.png (2.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_18826_fig01.png)
 
 ΣΤΗΛΗ Β
 
@@ -189,7 +189,7 @@
 
 4.1. Να υπολογίσετε το μέτρο της συνισταμένης δύναμης Σ.
 
-![b_antoxi_ch01_#16261_fig01.png (4.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_fig01.png)
+![b_antoxi_ch01_16261_fig01.png (4.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_16261_fig01.png)
 
 Μονάδες 15
 
@@ -205,13 +205,13 @@
 
 ### Λύση #16261
 
-![b_antoxi_ch01_#16261_sol01.png](images/b/antoxi/chapter-01/b_antoxi_ch01_#16261_sol01.png)
+![b_antoxi_ch01_16261_sol01.png](images/b/antoxi/chapter-01/b_antoxi_ch01_16261_sol01.png)
 
 <!-- Σελίδα 9 -->
 
 ## Θέμα #18896 | 1.2 ΟΙ ΑΡΧΕΣ ΤΗΣ ΣΤΑΤΙΚΗΣ
 
-![b_antoxi_ch01_#18896_fig01.png](images/b/antoxi/chapter-01/b_antoxi_ch01_#18896_fig01.png)
+![b_antoxi_ch01_18896_fig01.png](images/b/antoxi/chapter-01/b_antoxi_ch01_18896_fig01.png)
 
 <!-- Σελίδα 10 -->
 
@@ -243,7 +243,7 @@
 
 μέθοδο.
 
-![b_antoxi_ch01_#18898_fig01.png (4.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_#18898_fig01.png)
+![b_antoxi_ch01_18898_fig01.png (4.1)](images/b/antoxi/chapter-01/b_antoxi_ch01_18898_fig01.png)
 
 Μονάδες 15
 

@@ -99,10 +99,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           }
         ],
         "answer": "a",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23959_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23959_fig01.webp",
         "explain": "Στον κύκλο Carnot, η μεταβολή 4-1 αντιστοιχεί σε αδιαβατική συμπίεση και η 1-2 σε ισοθερμοκρασιακή εκτόνωση.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23959_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23959_fig01.webp"
         ]
       },
       {
@@ -303,7 +303,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται ο κύκλος Carnot σε διάγραμμα P-V. Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23832_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23832_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -356,7 +356,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Στον κύκλο Carnot: 1-2 είναι ισοθερμοκρασιακή εκτόνωση (e), 2-3 είναι αδιαβατική εκτόνωση (c), 3-4 είναι ισοθερμοκρασιακή συμπίεση (b), και 4-5 (ή 4-1) είναι αδιαβατική συμπίεση (f).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23832_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23832_fig01.webp"
         ]
       }
     ]
@@ -419,10 +419,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "3": "b",
           "4": "a"
         },
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#33862_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_33862_fig01.webp",
         "explain": "Στον κύκλο Carnot: 1-δ (Ισοθερμοκρασιακή Εκτόνωση), 2-γ (Αδιαβατική Εκτόνωση), 3-β (Ισοθερμοκρασιακή Συμπίεση), 4-α (Αδιαβατική Συμπίεση).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#33862_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_33862_fig01.webp"
         ]
       },
       {

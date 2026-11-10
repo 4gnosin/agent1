@@ -26,7 +26,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.05,
         "hint": "Αναζητήστε στο διάγραμμα τη σχετική τιμή του δείκτη PPD για PMV = -1.",
         "explain": "Από τον δείκτη PMV που είναι -1 και βάσει του διαγράμματος βρίσκουμε PPD = 26%.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29142_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29142_fig01.webp",
         "animation": {
           "title": "Ερώτημα (α): Υπολογισμός PPD",
           "steps": [
@@ -166,7 +166,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω διάγραμμα απεικονίζεται η σχέση των δεικτών άνεσης PMV και δυσαρέσκειας PPD. Απαντήστε στα παρακάτω ερωτήματα:",
         "prompt": "α. Ποιος άξονας αντιστοιχεί στον δείκτη άνεσης PMV και ποιος στον δείκτη δυσαρέσκειας PPD;",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29785_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -212,8 +212,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "b",
         "explain": "Κατάσταση αίσθησης άνεσης σε έναν χώρο υπάρχει όταν ο δείκτης άνεσης PMV ισούται με το μηδέν (PMV = 0).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_fig01.webp",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29785_fig01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29785_sol01.webp"
       },
       {
         "kind": "calc",
@@ -223,7 +223,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": 0.5,
         "unit": "",
         "tolerance": 0.05,
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29785_sol01.webp",
         "hint": "Όταν το 90% είναι ικανοποιημένο, ο δείκτης δυσαρέσκειας PPD είναι 10%. Βρείτε την αντίστοιχη τιμή του PMV από το διάγραμμα.",
         "explain": "Αν το 90% είναι ικανοποιημένο, ο δείκτης δυσαρέσκειας PPD είναι 10%. Από το διάγραμμα προκύπτει PMV = -0,5 ή PMV = 0,5 (ή δεκτή απάντηση -0,5 / 0,5).",
         "animation": {
@@ -270,7 +270,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#29785_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_29785_sol01.webp"
     ]
   }
 ]

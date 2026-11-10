@@ -30,7 +30,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Να υπολογίσετε τον συντελεστή διόρθωσης $\\sigma_{\\delta}$ του σώματος χρησιμοποιώντας το διάγραμμα διόρθωσης απόδοσης.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28564_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_28564_fig01.webp",
         "formula": "\\text{Από το διάγραμμα για } t_{\\text{εν}} = 60^\\circ\\text{C}",
         "answer": 1,
         "unit": "",
@@ -38,7 +38,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "hint": "Για ενεργό θερμοκρασιακή διαφορά $t_{\\text{εν}} = 60^\\circ\\text{C}$, διαβάστε την τιμή του $\\sigma_{\\delta}$ στο διάγραμμα.",
         "explain": "Για ενεργό θερμοκρασιακή διαφορά $t_{\\text{εν}} = 60^\\circ\\text{C}$, από το διάγραμμα προκύπτει συντελεστής διόρθωσης $\\sigma_{\\delta} = 1$.",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28564_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_28564_fig01.webp"
         ]
       },
       {
@@ -55,7 +55,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     ],
     "omitted": [],
     "solutionImages": [
-      "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_#28564_sol01.webp"
+      "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_28564_sol01.webp"
     ]
   },
   {

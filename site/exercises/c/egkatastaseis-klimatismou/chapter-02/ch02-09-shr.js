@@ -60,9 +60,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Ο συντελεστής SHR υπολογίζεται από το πηλίκο $\\text{SHR} = 9 / 47 = 0,19$."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23771_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23771_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23771_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23771_sol01.webp"
     ]
   }
 ]

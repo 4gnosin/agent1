@@ -75,7 +75,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "explain": " \\( A = \\frac{4.800\\text{ daN}}{300\\text{ daN/mm}^2} = 16\\text{ mm}^2 \\). Άρα $a = \\sqrt{16} = 4\\text{ mm}$."
       }
     ],
-    "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#18832_fig01.webp"
+    "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_18832_fig01.webp"
   },
   {
     "id": "ch05-19135",

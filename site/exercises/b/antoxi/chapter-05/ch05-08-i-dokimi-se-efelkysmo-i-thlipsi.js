@@ -65,7 +65,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "4": "β"
         },
         "explain": "Η περιοχή ΟΑ είναι η αναλογική, η ΟΕ η ελαστική, η ΕΔ η περιοχή πλαστικών παραμορφώσεων και η ΔΘ οδηγεί στη θραύση.",
-        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#18135_fig01.webp"
+        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_18135_fig01.webp"
       },
       {
         "kind": "blank",
@@ -127,7 +127,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 1,
         "hint": "Διαιρέστε το φορτίο θραύσης $F_\\theta$ με το εμβαδόν $A$.",
         "explain": " \\( \\sigma_\\theta = \\frac{6.280\\text{ daN}}{3{,}14\\text{ cm}^2} = 2.000\\text{ daN/cm}^2 \\).",
-        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#18353_fig01.webp"
+        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_18353_fig01.webp"
       },
       {
         "kind": "calc",
@@ -252,7 +252,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "5": "ε"
         },
         "explain": "Αντιστοίχιση περιοχών του διαγράμματος φορτίων-επιμηκύνσεων.",
-        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#18354_fig01.webp"
+        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_18354_fig01.webp"
       }
     ]
   },
@@ -440,7 +440,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "4": "δ"
         },
         "explain": "Αντιστοίχιση σημείων/φορτίων στο διάγραμμα εφελκυσμού.",
-        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#19458_fig01.webp"
+        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_19458_fig01.webp"
       },
       {
         "kind": "tf",

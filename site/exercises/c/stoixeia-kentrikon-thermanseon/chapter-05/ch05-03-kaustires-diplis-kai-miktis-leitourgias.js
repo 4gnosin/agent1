@@ -110,7 +110,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2 Στην παρακάτω εικόνα απεικονίζεται ένας πιεστικός καυστήρας αερίου. Να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα εξαρτήματα του πιεστικού καυστήρα αερίου (1-4) με τις ονομασίες τους (α-ε):",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_28449_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -159,7 +159,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1 - δ (Αντιδονητικός σύνδεσμος), 2 - ε (Σύστημα τάμπερ αέρα), 3 - β (Πιεζοστάτης αέρα), 4 - α (Βάνα τροφοδότησης αερίου).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_28449_fig01.webp"
         ]
       }
     ]

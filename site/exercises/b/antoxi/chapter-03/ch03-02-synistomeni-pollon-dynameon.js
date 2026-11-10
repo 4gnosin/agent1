@@ -14,7 +14,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "theory": "ch03-02",
     "sourceOrder": 4,
     "stem": "Στο σώμα Σ ενεργούν τέσσερις ομοεπίπεδες δυνάμεις $F_1$, $F_2$, $F_3$ και $F_4$. Οι $F_1$ και $F_2$ έχουν διεύθυνση τον άξονα $y'y$ και οι $F_3$ και $F_4$ έχουν διεύθυνση τον άξονα $x'x$, όπως φαίνεται στο σχήμα 1. Να προσδιορίσετε, με την αναλυτική μέθοδο, το μέτρο και την διεύθυνση ($\\text{εφ}\\theta$) της συνισταμένης του συστήματος των δυνάμεων $F_{\\Sigma}$.",
-    "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_#18829_fig01.webp",
+    "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_18829_fig01.webp",
     "items": [
       {
         "kind": "calc",

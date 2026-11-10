@@ -216,7 +216,8 @@ class ExerciseGenerator:
             f"Δημιούργησε μία ομάδα ανά ΥΠΟΕΝΟΤΗΤΑ ύλης, σε αριθμητική σειρά. "
             f"ΑΠΑΓΟΡΕΥΕΤΑΙ ομαδοποίηση ανά είδος άσκησης (tf/mc/match/calc).\n\n"
             f"ΥΛΗ ΚΕΦΑΛΑΙΟΥ:\n{source_content}\n\n"
-            f"ΕΞΑΓΩΓΗ: ΜΟΝΟ ο κώδικας JavaScript (window.GROUPS = window.GROUPS || []; window.GROUPS.push(...);)."
+            f"ΕΞΑΓΩΓΗ: ΜΟΝΟ έγκυρο JSON Array με τις ομάδες:\n"
+            f'[{{\"id\": \"chNN-SS-slug\", \"chapter\": {chapter}, \"title\": \"...\", \"desc\": \"...\"}}]'
         )
 
         response = self._generate_content(
@@ -225,10 +226,28 @@ class ExerciseGenerator:
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
                 temperature=0.2,
+                response_mime_type="application/json",
             ),
         )
 
-        js_code = sanitize_text(self.clean_js_output(response.text or ""))
+        cleaned = self.clean_js_output(response.text or "")
+        try:
+            groups_data = json.loads(cleaned)
+        except json.JSONDecodeError:
+            extracted = SiteValidator.extract_json_from_js(cleaned)
+            if extracted:
+                groups_data = extracted
+            else:
+                raise
+        if isinstance(groups_data, dict) and "groups" in groups_data:
+            groups_data = groups_data["groups"]
+        groups_data = sanitize_obj(groups_data)
+        route_id = catalog_subject_id(subject)
+        js_code = (
+            _js_push_prefix(route_id, "groups")
+            + json.dumps(groups_data, ensure_ascii=False, indent=2)
+            + "\n);\n"
+        )
         errors = SiteValidator.validate_groups_code(js_code)
         if errors:
             raise ValueError("groups.js δεν περνά την επικύρωση: " + "; ".join(errors))
@@ -240,8 +259,7 @@ class ExerciseGenerator:
 
         target_file = target_dir / "groups.js"
         target_file.write_text(js_code, encoding="utf-8")
-        extracted = SiteValidator.extract_json_from_js(js_code)
-        return target_file, extracted
+        return target_file, groups_data
 
     def generate_exercise_file(
         self,
@@ -265,7 +283,7 @@ class ExerciseGenerator:
             f"Στο code γράψε Θέμα 2<sup>ο</sup> και τον κωδικό (#18622).\n"
             f"Κάθε ερώτημα ΠΡΕΠΕΙ να έχει πεδίο 'explain'.\n\n"
             f"ΥΛΗ:\n{source_content}\n\n"
-            f"ΕΞΑΓΩΓΗ: ΜΟΝΟ ο κώδικας JavaScript (window.EXERCISES = window.EXERCISES || []; window.EXERCISES.push(...);)."
+            f"ΕΞΑΓΩΓΗ: ΜΟΝΟ έγκυρο JSON Array με τα αντικείμενα των ασκήσεων ([{{...}}, {{...}}])."
         )
 
         response = self._generate_content(
@@ -274,10 +292,28 @@ class ExerciseGenerator:
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
                 temperature=0.2,
+                response_mime_type="application/json",
             ),
         )
 
-        js_code = sanitize_text(self.clean_js_output(response.text or ""))
+        cleaned = self.clean_js_output(response.text or "")
+        try:
+            ex_data = json.loads(cleaned)
+        except json.JSONDecodeError:
+            extracted = SiteValidator.extract_json_from_js(cleaned)
+            if extracted:
+                ex_data = extracted
+            else:
+                raise
+        if isinstance(ex_data, dict) and "exercises" in ex_data:
+            ex_data = ex_data["exercises"]
+        ex_data = sanitize_obj(ex_data)
+        route_id = catalog_subject_id(subject)
+        js_code = (
+            _js_push_prefix(route_id, "exercises")
+            + json.dumps(ex_data, ensure_ascii=False, indent=2)
+            + "\n);\n"
+        )
         errors = SiteValidator.validate_exercises_code(js_code)
         if errors:
             raise ValueError(f"{group_id}.js δεν περνά την επικύρωση: " + "; ".join(errors))

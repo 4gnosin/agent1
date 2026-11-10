@@ -177,9 +177,9 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Ποσότητα συμπυκνώματος = $(14,3 - 9,5) \\cdot 349,77 \\cdot 3600 = 6048\\text{ g/h}$ (ή $6,048\\text{ kg/h}$)."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23811_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23811_fig01.webp",
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_#23811_sol01.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23811_sol01.webp"
     ]
   }
 ]

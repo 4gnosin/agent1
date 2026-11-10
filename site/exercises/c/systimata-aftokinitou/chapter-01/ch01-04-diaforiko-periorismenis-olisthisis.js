@@ -82,12 +82,12 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#32671_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#32671_fig02.webp",
-          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#32671_fig03.webp"
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_32671_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_32671_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_32671_fig03.webp"
         ],
         "explain": "Αντιστοίχιση λειτουργίας διαφορικού: 1-γ (ευθεία), 2-β (ακινητοποίηση/ολίσθηση ενός τροχού), 3-α (στροφή).",
-        "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_#32671_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-01/c_systimata-aftokinitou_ch01_32671_fig01.webp"
       }
     ]
   }

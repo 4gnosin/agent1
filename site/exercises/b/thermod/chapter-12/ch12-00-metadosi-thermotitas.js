@@ -81,11 +81,11 @@ window.EXERCISES.push(...
           "3": "a"
         },
         "explain": "1-β (Η αγωγή απεικονίζεται στο σχήμα της κατσαρόλας), 2-γ (Η μεταφορά απεικονίζεται στα ρεύματα υγρού/αερίου), 3-α (Η ακτινοβολία απεικονίζεται με ακτίνες θερμότητας).",
-        "image": "images/b/thermod/chapter-12/b_thermod_ch12_#17722_fig01.webp",
+        "image": "images/b/thermod/chapter-12/b_thermod_ch12_17722_fig01.webp",
         "images": [
-          "images/b/thermod/chapter-12/b_thermod_ch12_#17722_fig01.webp",
-          "images/b/thermod/chapter-12/b_thermod_ch12_#17722_fig02.webp",
-          "images/b/thermod/chapter-12/b_thermod_ch12_#17722_fig03.webp"
+          "images/b/thermod/chapter-12/b_thermod_ch12_17722_fig01.webp",
+          "images/b/thermod/chapter-12/b_thermod_ch12_17722_fig02.webp",
+          "images/b/thermod/chapter-12/b_thermod_ch12_17722_fig03.webp"
         ]
       },
       {

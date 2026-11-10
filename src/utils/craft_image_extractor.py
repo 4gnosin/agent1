@@ -149,7 +149,7 @@ def extract_chapter_images_craft(
         else:
             counters[(code, role)] += 1
             n = counters[(code, role)]
-            base_name = f"{stem}_#{code}_{role}{n:02d}"
+            base_name = f"{stem}_{code}_{role}{n:02d}"
 
         temp_png = temp_render_dir / f"p{page_num}.png"
         ok_render = render_page_with_craft(pdf_path, page_num, temp_png, dpi=dpi)

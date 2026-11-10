@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_antoxi_ch05_#19804_fig01.png",
+      "file": "b_antoxi_ch05_19804_fig01.png",
       "bank_code": "19804",
       "role": "fig",
       "page": 25,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch05_#18135_fig01.png",
+      "file": "b_antoxi_ch05_18135_fig01.png",
       "bank_code": "18135",
       "role": "fig",
       "page": 34,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch05_#18353_fig01.png",
+      "file": "b_antoxi_ch05_18353_fig01.png",
       "bank_code": "18353",
       "role": "fig",
       "page": 36,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch05_#18354_fig01.png",
+      "file": "b_antoxi_ch05_18354_fig01.png",
       "bank_code": "18354",
       "role": "fig",
       "page": 38,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch05_#19458_fig01.png",
+      "file": "b_antoxi_ch05_19458_fig01.png",
       "bank_code": "19458",
       "role": "fig",
       "page": 43,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_antoxi_ch05_#18832_fig01.png",
+      "file": "b_antoxi_ch05_18832_fig01.png",
       "bank_code": "18832",
       "role": "fig",
       "page": 48,
@@ -151,12 +151,12 @@
   "by_bank_code": {
     "18135": {
       "fig": [
-        "b_antoxi_ch05_#18135_fig01.png"
+        "b_antoxi_ch05_18135_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#18135_fig01.png",
+          "file": "b_antoxi_ch05_18135_fig01.png",
           "bank_code": "18135",
           "role": "fig",
           "page": 34,
@@ -181,12 +181,12 @@
     },
     "18353": {
       "fig": [
-        "b_antoxi_ch05_#18353_fig01.png"
+        "b_antoxi_ch05_18353_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#18353_fig01.png",
+          "file": "b_antoxi_ch05_18353_fig01.png",
           "bank_code": "18353",
           "role": "fig",
           "page": 36,
@@ -211,12 +211,12 @@
     },
     "18354": {
       "fig": [
-        "b_antoxi_ch05_#18354_fig01.png"
+        "b_antoxi_ch05_18354_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#18354_fig01.png",
+          "file": "b_antoxi_ch05_18354_fig01.png",
           "bank_code": "18354",
           "role": "fig",
           "page": 38,
@@ -241,12 +241,12 @@
     },
     "18832": {
       "fig": [
-        "b_antoxi_ch05_#18832_fig01.png"
+        "b_antoxi_ch05_18832_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#18832_fig01.png",
+          "file": "b_antoxi_ch05_18832_fig01.png",
           "bank_code": "18832",
           "role": "fig",
           "page": 48,
@@ -271,12 +271,12 @@
     },
     "19458": {
       "fig": [
-        "b_antoxi_ch05_#19458_fig01.png"
+        "b_antoxi_ch05_19458_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#19458_fig01.png",
+          "file": "b_antoxi_ch05_19458_fig01.png",
           "bank_code": "19458",
           "role": "fig",
           "page": 43,
@@ -301,12 +301,12 @@
     },
     "19804": {
       "fig": [
-        "b_antoxi_ch05_#19804_fig01.png"
+        "b_antoxi_ch05_19804_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_antoxi_ch05_#19804_fig01.png",
+          "file": "b_antoxi_ch05_19804_fig01.png",
           "bank_code": "19804",
           "role": "fig",
           "page": 25,

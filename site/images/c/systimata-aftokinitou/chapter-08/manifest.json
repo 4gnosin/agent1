@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-aftokinitou_ch08_#34983_fig01.png",
+      "file": "c_systimata-aftokinitou_ch08_34983_fig01.png",
       "bank_code": "34983",
       "role": "fig",
       "page": 2,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "34983": {
       "fig": [
-        "c_systimata-aftokinitou_ch08_#34983_fig01.png"
+        "c_systimata-aftokinitou_ch08_34983_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch08_#34983_fig01.png",
+          "file": "c_systimata-aftokinitou_ch08_34983_fig01.png",
           "bank_code": "34983",
           "role": "fig",
           "page": 2,

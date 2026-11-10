@@ -135,7 +135,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "a",
         "explain": "Μια ουσία σε αέρια κατάσταση δεν μπορεί σε καμία περίπτωση να υγροποιηθεί εάν η θερμοκρασία της είναι ανώτερη της κρίσιμης θερμοκρασίας της (για την αμμωνία $t_{\\text{kr}} = 132\\text{ }^\\circ\\text{C}$).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_33885_fig01.webp"
       },
       {
         "kind": "mc",
@@ -168,7 +168,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "openEnded": true,
         "subq": "2.2",
         "subqPrompt": "2.2 Στο εσωτερικό του σωλήνα του παρακάτω σχήματος ρέει ψυκτικό υγρό με τη μορφή υπόψυκτου υγρού (σημείο Α)...",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig02.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_33885_fig02.webp",
         "prompt": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε τη δημιουργία αυτών των φυσαλίδων;",
         "options": [
           {
@@ -191,7 +191,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "answer": "a",
         "explain": "Καθώς το υγρό κινείται από το Α στο Β, η πίεση πέφτει λόγω τριβών. Όταν φτάσει την πίεση ατμοποίησης, αρχίζουν να εμφανίζονται φυσαλίδες ατμού (σημείο Β).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_#33885_fig02.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch04_33885_fig02.webp"
         ]
       },
       {

@@ -146,7 +146,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "4": "c"
         },
         "explain": "Η αντιστοίχιση προκύπτει από το διάγραμμα φάσεων/σταδίων επιβελτίωσης: 1 -> β (ωστενίτης), 2 -> α (φερίττης – περλίτης), 3 -> δ (μαρτενσίτης), 4 -> γ (μαρτενσίτης επαναφοράς).",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25881_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25881_fig01.webp"
       },
       {
         "kind": "blank",

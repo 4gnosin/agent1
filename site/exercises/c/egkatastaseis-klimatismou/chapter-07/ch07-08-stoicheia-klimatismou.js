@@ -66,7 +66,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Ο αέρας κινείται κάθετα προς τους σωλήνες από τους οποίους διέρχεται το ψυκτικό ρευστό, συνεπώς έχουμε διασταυρούμενη ροή.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32195_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32195_fig01.webp"
       },
       {
         "kind": "mc",

@@ -75,10 +75,10 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "5": "e"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#25289_fig01.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_25289_fig01.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση είναι: 1-στ, 2-α, 3-γ, 4-β, 5-ε.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#25289_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_25289_fig01.webp"
       },
       {
         "kind": "tf",
@@ -182,14 +182,14 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
           "4": "b"
         },
         "images": [
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig01.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig02.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig03.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig04.webp",
-          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig05.webp"
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig01.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig02.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig03.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig04.webp",
+          "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig05.webp"
         ],
         "explain": "Η σωστή αντιστοίχιση σύμφωνα με το ΙΕΠ είναι: 1-ε (Μηχανή τύπου Boxer), 2-γ (Μηχανή με οριζόντιους κυλίνδρους σε σειρά), 3-δ (Μηχανή διάταξης V), 4-β (Μηχανή με κατακόρυφους κυλίνδρους σε σειρά). Περισσεύει το Σχήμα α (ακτινωτή μηχανή).",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#26270_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_26270_fig01.webp"
       },
       {
         "kind": "tf",

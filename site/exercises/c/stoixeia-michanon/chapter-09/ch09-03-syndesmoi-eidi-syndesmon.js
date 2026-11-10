@@ -56,11 +56,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "a"
         },
         "explain": "Αντιστοίχιση απεικονίσεων συνδέσμων: 1 -> γ, 2 -> δ, 3 -> α.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#25989_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_25989_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#25989_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#25989_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#25989_fig03.webp"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_25989_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_25989_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_25989_fig03.webp"
         ]
       },
       {
@@ -173,11 +173,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "c"
         },
         "explain": "Αντιστοίχιση ειδών συνδέσμων με απεικονίσεις: 1 -> β, 2 -> α, 3 -> γ.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27700_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_27700_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27700_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27700_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#27700_fig03.webp"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_27700_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_27700_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_27700_fig03.webp"
         ]
       }
     ]
@@ -333,13 +333,13 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "a"
         },
         "explain": "Σωστή αντιστοίχιση συνδέσμων με τα σχήματά τους: 1 -> β, 2 -> δ, 3 -> ε, 4 -> α.",
-        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig03.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig04.webp",
-          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_#29753_fig05.webp"
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig04.webp",
+          "images/c/stoixeia-michanon/chapter-09/c_stoixeia-michanon_ch09_29753_fig05.webp"
         ]
       },
       {

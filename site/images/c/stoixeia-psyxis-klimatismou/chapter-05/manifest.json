@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_stoixeia-psyxis-klimatismou_ch05_#33884_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou_ch05_33884_fig01.png",
       "bank_code": "33884",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-psyxis-klimatismou_ch05_#26853_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou_ch05_26853_fig01.png",
       "bank_code": "26853",
       "role": "fig",
       "page": 4,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-psyxis-klimatismou_ch05_#29450_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou_ch05_29450_fig01.png",
       "bank_code": "29450",
       "role": "fig",
       "page": 7,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou_ch05_23881_fig01.png",
       "bank_code": "23881",
       "role": "fig",
       "page": 10,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou_ch05_25276_fig01.png",
       "bank_code": "25276",
       "role": "fig",
       "page": 19,
@@ -129,12 +129,12 @@
   "by_bank_code": {
     "23881": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.png"
+        "c_stoixeia-psyxis-klimatismou_ch05_23881_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou_ch05_#23881_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou_ch05_23881_fig01.png",
           "bank_code": "23881",
           "role": "fig",
           "page": 10,
@@ -159,12 +159,12 @@
     },
     "25276": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.png"
+        "c_stoixeia-psyxis-klimatismou_ch05_25276_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou_ch05_#25276_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou_ch05_25276_fig01.png",
           "bank_code": "25276",
           "role": "fig",
           "page": 19,
@@ -189,12 +189,12 @@
     },
     "26853": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou_ch05_#26853_fig01.png"
+        "c_stoixeia-psyxis-klimatismou_ch05_26853_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou_ch05_#26853_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou_ch05_26853_fig01.png",
           "bank_code": "26853",
           "role": "fig",
           "page": 4,
@@ -219,12 +219,12 @@
     },
     "29450": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou_ch05_#29450_fig01.png"
+        "c_stoixeia-psyxis-klimatismou_ch05_29450_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou_ch05_#29450_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou_ch05_29450_fig01.png",
           "bank_code": "29450",
           "role": "fig",
           "page": 7,
@@ -249,12 +249,12 @@
     },
     "33884": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou_ch05_#33884_fig01.png"
+        "c_stoixeia-psyxis-klimatismou_ch05_33884_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou_ch05_#33884_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou_ch05_33884_fig01.png",
           "bank_code": "33884",
           "role": "fig",
           "page": 2,

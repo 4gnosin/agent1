@@ -292,10 +292,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Για συνολικό δείκτη φόρτισης 215 (>160), η γραμμή αναρρόφησης είναι 28,6 mm και η γραμμή υγρού 19,1 mm."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#32842_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_32842_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#32842_fig01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#32842_fig02.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_32842_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_32842_fig02.webp"
     ]
   },
   {
@@ -506,15 +506,15 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "explain": "Στο τμήμα ΑΒ ο δείκτης φόρτισης είναι 90 + 120 = 210 (>160). Επιλέγεται γραμμή αναρρόφησης 28,6 mm και γραμμή υγρού 19,1 mm."
       }
     ],
-    "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_fig01.webp",
+    "image": "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_fig01.webp",
     "images": [
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_fig01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_fig02.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_fig01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_fig02.webp"
     ],
     "solutionImages": [
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_sol01.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_sol02.webp",
-      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_#35118_sol03.webp"
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_sol01.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_sol02.webp",
+      "images/c/egkatastaseis-klimatismou/chapter-06/c_egkatastaseis-klimatismou_ch06_35118_sol03.webp"
     ]
   }
 ]

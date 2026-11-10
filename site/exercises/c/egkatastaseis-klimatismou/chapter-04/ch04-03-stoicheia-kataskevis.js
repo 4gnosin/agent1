@@ -86,11 +86,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "b"
         },
         "explain": "1 - δ (Ολική πίεση), 2 - α (Στατική πίεση στα τοιχώματα), 3 - β (Δυναμική πίεση). Το γ περισσεύει.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26629_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_26629_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26629_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26629_fig02.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_#26629_fig03.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_26629_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_26629_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-04/c_egkatastaseis-klimatismou_ch04_26629_fig03.webp"
         ]
       },
       {

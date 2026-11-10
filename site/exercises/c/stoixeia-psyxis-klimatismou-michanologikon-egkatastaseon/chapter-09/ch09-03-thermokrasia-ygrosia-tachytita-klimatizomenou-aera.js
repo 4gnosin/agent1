@@ -25,7 +25,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.05,
         "hint": "Εντοπίστε στο διάγραμμα την τομή της μέσης θερμοκρασίας των εσωτερικών επιφανειών ($25\\text{ }^\\circ\\text{C}$) και της ταχύτητας του αέρα ($0,2\\text{ m/s}$).",
         "explain": "Στο διάγραμμα, το σημείο τομής των γραμμών της μέσης θερμοκρασίας των εσωτερικών επιφανειών και της ταχύτητας του αέρα δίνει τη θερμοκρασία του αέρα στην οποία ο τεχνίτης νιώθει άνετα, ίση με $27,2\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_32838_sol01.webp",
         "animation": {
           "title": "Ερώτημα (4.1): Υπολογισμός Θερμοκρασίας Αέρα Αν άνεσης",
           "steps": [
@@ -78,8 +78,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.05,
         "hint": "Εντοπίστε στο διάγραμμα την τομή της θερμοκρασίας του αέρα ($36\\text{ }^\\circ\\text{C}$) και της ταχύτητας του αέρα ($0,2\\text{ m/s}$).",
         "explain": "Στο διάγραμμα, το σημείο τομής των γραμμών της θερμοκρασίας αέρα στην οποία ο τεχνίτης νιώθει άνετα και της ταχύτητας του αέρα δίνει τη μέση θερμοκρασία των εσωτερικών επιφανειών, ίση με $10\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol02.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_fig01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_32838_sol02.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_32838_fig01.webp",
         "animation": {
           "title": "Ερώτημα (4.2): Υπολογισμός Μέσης Θερμοκρασίας Επιφανειών",
           "steps": [
@@ -124,8 +124,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#32838_sol02.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_32838_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_32838_sol02.webp"
     ]
   },
   {
@@ -151,7 +151,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.05,
         "hint": "Εντοπίστε στο διάγραμμα την τομή της θερμοκρασίας του αέρα ($20\\text{ }^\\circ\\text{C}$) και του αριθμού μεταβολισμού ($125\\text{ kcal/h}\\cdot\\text{m}^2$).",
         "explain": "Στο διάγραμμα, το σημείο τομής των γραμμών της θερμοκρασίας του αέρα και του αριθμού μεταβολισμού δίνει την ταχύτητα του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με $0,7\\text{ m/s}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_33899_sol01.webp",
         "animation": {
           "title": "Υπολογισμός ταχύτητας αέρα για θερμική άνεση τεχνίτη",
           "steps": [
@@ -204,8 +204,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.05,
         "hint": "Εντοπίστε στο διάγραμμα την τομή της ταχύτητας αέρα ($0,4\\text{ m/s}$) και του αριθμού μεταβολισμού ($125\\text{ kcal/h}\\cdot\\text{m}^2$).",
         "explain": "Στο διάγραμμα, το σημείο τομής των γραμμών της ταχύτητας αέρα και του αριθμού μεταβολισμού δίνει την απαιτούμενη θερμοκρασία του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με $19\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol02.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_fig01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_33899_sol02.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_33899_fig01.webp",
         "animation": {
           "title": "Ερώτημα (4.2): Υπολογισμός Θερμοκρασίας Αέρα",
           "steps": [
@@ -250,8 +250,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_#33899_sol02.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_33899_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch09_33899_sol02.webp"
     ]
   },
   {

@@ -317,7 +317,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "2.1",
         "images": [
           {
-            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23687_fig01.webp",
+            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_23687_fig01.webp",
             "caption": "Σχήμα ολισθαίνοντος σώματος"
           }
         ],
@@ -370,7 +370,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           "4": "a"
         },
         "explain": "1-δ (Αντίδραση κάθετης δύναμης $F_\\kappa$), 2-β (Τριβή ολίσθησης $T$), 3-ε (Βάρος σώματος $B$), 4-α (Κινητήρια δύναμη $F$).",
-        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23687_fig01.webp"
+        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_23687_fig01.webp"
       },
       {
         "kind": "tf",
@@ -414,7 +414,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "α",
         "images": [
           {
-            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23788_fig01.webp",
+            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_23788_fig01.webp",
             "caption": "Σχήμα λειαντικού τροχού"
           }
         ],
@@ -438,7 +438,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "explain": "Η ακτίνα είναι $r = \\frac{800\\text{ mm}}{2} = 400\\text{ mm} = 0{,}4\\text{ m}$. Η ροπή είναι $M_T = 20\\text{ N} \\cdot 0{,}4\\text{ m} = 8\\text{ Nm}$."
       }
     ],
-    "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23788_fig01.webp"
+    "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_23788_fig01.webp"
   }
 ]
 );

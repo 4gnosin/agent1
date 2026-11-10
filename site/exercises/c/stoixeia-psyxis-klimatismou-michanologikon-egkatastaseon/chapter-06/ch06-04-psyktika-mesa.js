@@ -65,7 +65,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "4": "β"
         },
         "explain": "Η σωστή αντιστοίχιση βάσει της λειτουργίας του πύργου ψύξης είναι: 1 - γ, 2 - ε, 3 - α, 4 - β.",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#25307_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_25307_fig01.webp"
       },
       {
         "kind": "blank",
@@ -160,8 +160,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         ],
         "answer": "a",
         "explain": "Στο διάγραμμα p-h, το σημείο 2 βρίσκεται πάνω στην καμπύλη οριακού ατμού, άρα είναι ξηρός κορεσμένος ατμός.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26628_sol01.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26628_fig01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26628_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26628_fig01.webp"
       },
       {
         "kind": "mc",
@@ -220,7 +220,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26628_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26628_sol01.webp"
     ]
   },
   {
@@ -330,8 +330,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "2": "b"
         },
         "explain": "Από το διάγραμμα p-h προκύπτει: πίεση στην είσοδο του συμπιεστή (Σημείο Β) $P_{\\text{AN}} = 0,1\\text{ MPa}$ και στην έξοδο (Σημείο Γ) $P_{\\text{KAT}} = 0,6\\text{ MPa}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26850_sol01.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26850_fig01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26850_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26850_fig01.webp"
       },
       {
         "kind": "calc",
@@ -343,11 +343,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Διαιρέστε την πίεση κατάθλιψης (έξοδος Γ) δια της πίεσης αναρρόφησης (είσοδος Β).",
         "explain": "Ο λόγος συμπίεσης δίνεται από τη σχέση: \\( \\text{CR} = \\frac{P_{\\text{KAT}}}{P_{\\text{AN}}} = \\frac{0,6\\text{ MPa}}{0,1\\text{ MPa}} = 6 \\).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26850_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26850_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_#26850_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch06_26850_sol01.webp"
     ]
   }
 ]

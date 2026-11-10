@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-aftokinitou_ch03_#32634_fig01.png",
+      "file": "c_systimata-aftokinitou_ch03_32634_fig01.png",
       "bank_code": "32634",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32636_fig01.png",
+      "file": "c_systimata-aftokinitou_ch03_32636_fig01.png",
       "bank_code": "32636",
       "role": "fig",
       "page": 5,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32636_fig02.png",
+      "file": "c_systimata-aftokinitou_ch03_32636_fig02.png",
       "bank_code": "32636",
       "role": "fig",
       "page": 6,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32636_fig03.png",
+      "file": "c_systimata-aftokinitou_ch03_32636_fig03.png",
       "bank_code": "32636",
       "role": "fig",
       "page": 6,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32636_fig04.png",
+      "file": "c_systimata-aftokinitou_ch03_32636_fig04.png",
       "bank_code": "32636",
       "role": "fig",
       "page": 6,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32639_fig01.png",
+      "file": "c_systimata-aftokinitou_ch03_32639_fig01.png",
       "bank_code": "32639",
       "role": "fig",
       "page": 10,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32633_fig01.png",
+      "file": "c_systimata-aftokinitou_ch03_32633_fig01.png",
       "bank_code": "32633",
       "role": "fig",
       "page": 13,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32633_fig02.png",
+      "file": "c_systimata-aftokinitou_ch03_32633_fig02.png",
       "bank_code": "32633",
       "role": "fig",
       "page": 13,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch03_#32633_fig03.png",
+      "file": "c_systimata-aftokinitou_ch03_32633_fig03.png",
       "bank_code": "32633",
       "role": "fig",
       "page": 13,
@@ -217,14 +217,14 @@
   "by_bank_code": {
     "32633": {
       "fig": [
-        "c_systimata-aftokinitou_ch03_#32633_fig01.png",
-        "c_systimata-aftokinitou_ch03_#32633_fig02.png",
-        "c_systimata-aftokinitou_ch03_#32633_fig03.png"
+        "c_systimata-aftokinitou_ch03_32633_fig01.png",
+        "c_systimata-aftokinitou_ch03_32633_fig02.png",
+        "c_systimata-aftokinitou_ch03_32633_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch03_#32633_fig01.png",
+          "file": "c_systimata-aftokinitou_ch03_32633_fig01.png",
           "bank_code": "32633",
           "role": "fig",
           "page": 13,
@@ -246,7 +246,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch03_#32633_fig02.png",
+          "file": "c_systimata-aftokinitou_ch03_32633_fig02.png",
           "bank_code": "32633",
           "role": "fig",
           "page": 13,
@@ -268,7 +268,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch03_#32633_fig03.png",
+          "file": "c_systimata-aftokinitou_ch03_32633_fig03.png",
           "bank_code": "32633",
           "role": "fig",
           "page": 13,
@@ -293,12 +293,12 @@
     },
     "32634": {
       "fig": [
-        "c_systimata-aftokinitou_ch03_#32634_fig01.png"
+        "c_systimata-aftokinitou_ch03_32634_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch03_#32634_fig01.png",
+          "file": "c_systimata-aftokinitou_ch03_32634_fig01.png",
           "bank_code": "32634",
           "role": "fig",
           "page": 2,
@@ -323,15 +323,15 @@
     },
     "32636": {
       "fig": [
-        "c_systimata-aftokinitou_ch03_#32636_fig01.png",
-        "c_systimata-aftokinitou_ch03_#32636_fig02.png",
-        "c_systimata-aftokinitou_ch03_#32636_fig03.png",
-        "c_systimata-aftokinitou_ch03_#32636_fig04.png"
+        "c_systimata-aftokinitou_ch03_32636_fig01.png",
+        "c_systimata-aftokinitou_ch03_32636_fig02.png",
+        "c_systimata-aftokinitou_ch03_32636_fig03.png",
+        "c_systimata-aftokinitou_ch03_32636_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch03_#32636_fig01.png",
+          "file": "c_systimata-aftokinitou_ch03_32636_fig01.png",
           "bank_code": "32636",
           "role": "fig",
           "page": 5,
@@ -353,7 +353,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch03_#32636_fig02.png",
+          "file": "c_systimata-aftokinitou_ch03_32636_fig02.png",
           "bank_code": "32636",
           "role": "fig",
           "page": 6,
@@ -375,7 +375,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch03_#32636_fig03.png",
+          "file": "c_systimata-aftokinitou_ch03_32636_fig03.png",
           "bank_code": "32636",
           "role": "fig",
           "page": 6,
@@ -397,7 +397,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch03_#32636_fig04.png",
+          "file": "c_systimata-aftokinitou_ch03_32636_fig04.png",
           "bank_code": "32636",
           "role": "fig",
           "page": 6,
@@ -422,12 +422,12 @@
     },
     "32639": {
       "fig": [
-        "c_systimata-aftokinitou_ch03_#32639_fig01.png"
+        "c_systimata-aftokinitou_ch03_32639_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch03_#32639_fig01.png",
+          "file": "c_systimata-aftokinitou_ch03_32639_fig01.png",
           "bank_code": "32639",
           "role": "fig",
           "page": 10,

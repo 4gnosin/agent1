@@ -90,7 +90,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "4": "b"
         },
         "explain": "Αντιστοίχιση κινηματικών στοιχείων πλανίσματος: 1 (Ενεργή κίνηση / κοπή), 2 (Μη ενεργή κίνηση / επιστροφή), 3 (Πρόωση), 4 (Κίνηση για το βάθος κοπής).",
-        "image": "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_#27620_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-07/c_michanourgiki-texnologia_ch07_27620_fig01.webp"
       }
     ]
   }

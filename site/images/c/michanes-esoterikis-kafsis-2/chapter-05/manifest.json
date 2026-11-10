@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_31678_fig01.png",
       "bank_code": "31678",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_23725_fig01.png",
       "bank_code": "23725",
       "role": "fig",
       "page": 5,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png",
+      "file": "c_michanes-esoterikis-kafsis-2_ch05_33200_fig01.png",
       "bank_code": "33200",
       "role": "fig",
       "page": 8,
@@ -85,12 +85,12 @@
   "by_bank_code": {
     "23725": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch05_23725_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch05_#23725_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_23725_fig01.png",
           "bank_code": "23725",
           "role": "fig",
           "page": 5,
@@ -115,12 +115,12 @@
     },
     "31678": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch05_31678_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch05_#31678_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_31678_fig01.png",
           "bank_code": "31678",
           "role": "fig",
           "page": 2,
@@ -145,12 +145,12 @@
     },
     "33200": {
       "fig": [
-        "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png"
+        "c_michanes-esoterikis-kafsis-2_ch05_33200_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanes-esoterikis-kafsis-2_ch05_#33200_fig01.png",
+          "file": "c_michanes-esoterikis-kafsis-2_ch05_33200_fig01.png",
           "bank_code": "33200",
           "role": "fig",
           "page": 8,

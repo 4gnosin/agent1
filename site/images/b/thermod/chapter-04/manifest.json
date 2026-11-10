@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch04_#16252_fig01.png",
+      "file": "b_thermod_ch04_16252_fig01.png",
       "bank_code": "16252",
       "role": "fig",
       "page": 6,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#16252_fig02.png",
+      "file": "b_thermod_ch04_16252_fig02.png",
       "bank_code": "16252",
       "role": "fig",
       "page": 6,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#16252_fig03.png",
+      "file": "b_thermod_ch04_16252_fig03.png",
       "bank_code": "16252",
       "role": "fig",
       "page": 7,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#16252_fig04.png",
+      "file": "b_thermod_ch04_16252_fig04.png",
       "bank_code": "16252",
       "role": "fig",
       "page": 7,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#16257_fig01.png",
+      "file": "b_thermod_ch04_16257_fig01.png",
       "bank_code": "16257",
       "role": "fig",
       "page": 9,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#18643_fig01.png",
+      "file": "b_thermod_ch04_18643_fig01.png",
       "bank_code": "18643",
       "role": "fig",
       "page": 13,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#18643_fig02.png",
+      "file": "b_thermod_ch04_18643_fig02.png",
       "bank_code": "18643",
       "role": "fig",
       "page": 13,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#18643_fig03.png",
+      "file": "b_thermod_ch04_18643_fig03.png",
       "bank_code": "18643",
       "role": "fig",
       "page": 13,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#18643_fig04.png",
+      "file": "b_thermod_ch04_18643_fig04.png",
       "bank_code": "18643",
       "role": "fig",
       "page": 14,
@@ -214,7 +214,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch04_#18614_sol01.png",
+      "file": "b_thermod_ch04_18614_sol01.png",
       "bank_code": "18614",
       "role": "sol",
       "page": 21,
@@ -239,15 +239,15 @@
   "by_bank_code": {
     "16252": {
       "fig": [
-        "b_thermod_ch04_#16252_fig01.png",
-        "b_thermod_ch04_#16252_fig02.png",
-        "b_thermod_ch04_#16252_fig03.png",
-        "b_thermod_ch04_#16252_fig04.png"
+        "b_thermod_ch04_16252_fig01.png",
+        "b_thermod_ch04_16252_fig02.png",
+        "b_thermod_ch04_16252_fig03.png",
+        "b_thermod_ch04_16252_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch04_#16252_fig01.png",
+          "file": "b_thermod_ch04_16252_fig01.png",
           "bank_code": "16252",
           "role": "fig",
           "page": 6,
@@ -269,7 +269,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#16252_fig02.png",
+          "file": "b_thermod_ch04_16252_fig02.png",
           "bank_code": "16252",
           "role": "fig",
           "page": 6,
@@ -291,7 +291,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#16252_fig03.png",
+          "file": "b_thermod_ch04_16252_fig03.png",
           "bank_code": "16252",
           "role": "fig",
           "page": 7,
@@ -313,7 +313,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#16252_fig04.png",
+          "file": "b_thermod_ch04_16252_fig04.png",
           "bank_code": "16252",
           "role": "fig",
           "page": 7,
@@ -338,12 +338,12 @@
     },
     "16257": {
       "fig": [
-        "b_thermod_ch04_#16257_fig01.png"
+        "b_thermod_ch04_16257_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch04_#16257_fig01.png",
+          "file": "b_thermod_ch04_16257_fig01.png",
           "bank_code": "16257",
           "role": "fig",
           "page": 9,
@@ -369,11 +369,11 @@
     "18614": {
       "fig": [],
       "sol": [
-        "b_thermod_ch04_#18614_sol01.png"
+        "b_thermod_ch04_18614_sol01.png"
       ],
       "images": [
         {
-          "file": "b_thermod_ch04_#18614_sol01.png",
+          "file": "b_thermod_ch04_18614_sol01.png",
           "bank_code": "18614",
           "role": "sol",
           "page": 21,
@@ -398,15 +398,15 @@
     },
     "18643": {
       "fig": [
-        "b_thermod_ch04_#18643_fig01.png",
-        "b_thermod_ch04_#18643_fig02.png",
-        "b_thermod_ch04_#18643_fig03.png",
-        "b_thermod_ch04_#18643_fig04.png"
+        "b_thermod_ch04_18643_fig01.png",
+        "b_thermod_ch04_18643_fig02.png",
+        "b_thermod_ch04_18643_fig03.png",
+        "b_thermod_ch04_18643_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch04_#18643_fig01.png",
+          "file": "b_thermod_ch04_18643_fig01.png",
           "bank_code": "18643",
           "role": "fig",
           "page": 13,
@@ -428,7 +428,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#18643_fig02.png",
+          "file": "b_thermod_ch04_18643_fig02.png",
           "bank_code": "18643",
           "role": "fig",
           "page": 13,
@@ -450,7 +450,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#18643_fig03.png",
+          "file": "b_thermod_ch04_18643_fig03.png",
           "bank_code": "18643",
           "role": "fig",
           "page": 13,
@@ -472,7 +472,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch04_#18643_fig04.png",
+          "file": "b_thermod_ch04_18643_fig04.png",
           "bank_code": "18643",
           "role": "fig",
           "page": 14,

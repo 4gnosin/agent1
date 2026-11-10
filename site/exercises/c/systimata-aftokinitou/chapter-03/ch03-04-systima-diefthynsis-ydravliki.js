@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subqPrompt": "Με βάση το παρακάτω σχήμα όπου απεικονίζεται ο αριστερός τροχός από το εμπρόσθιο μέρος του αυτοκινήτου σε σύστημα σφαιρικών συνδέσμων, να γράψετε δίπλα στους αριθμούς 1, 2, 3, 4 στη στήλη Α ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β, που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα γεωμετρικά στοιχεία:",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32639_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32639_fig01.webp"
         ],
         "left": [
           {
@@ -69,7 +69,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "δ"
         },
         "explain": "Η αντιστοίχιση βασίζεται στα γεωμετρικά στοιχεία του τροχού με σφαιρικούς συνδέσμους. Το γράμμα γ (Κάστερ) περισσεύει.",
-        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_#32639_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-03/c_systimata-aftokinitou_ch03_32639_fig01.webp"
       },
       {
         "kind": "tf",

@@ -139,7 +139,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το Σχήμα 1, που απεικονίζει έναν συμπιεστή τύπου τυμπάνου, να αντιστοιχίσετε τους αριθμούς 1-8 της Στήλης Α με τα γράμματα α-θ της Στήλης Β:",
         "prompt": "Αντιστοίχιση μερών συμπιεστή τύπου τυμπάνου (Σχήμα 1):",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -220,10 +220,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         },
         "explain": "1 - δ (Λάμα), 2 - ε (Κατάθλιψη), 3 - θ (Αναρρόφηση), 4 - α (Κέλυφος), 5 - γ (Κύλινδρος), 6 - ζ (Έκκεντρο), 7 - η (Στροφέας), 8 - β (Άξονας του στροφέα).",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig04.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig04.webp"
         ]
       },
       {
@@ -232,9 +232,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "2.2 Να αντιστοιχίσετε τις ονομασίες των συμπιεστών από τη Στήλη Α με τις αντίστοιχες εικόνες στη Στήλη Β:",
         "prompt": "Αντιστοίχιση τύπων συμπιεστών με τις εικόνες τους:",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#26759_fig04.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_26759_fig04.webp"
         ],
         "left": [
           {
@@ -451,9 +451,9 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "subqPrompt": "2.1 α) Να αντιστοιχίσετε την εικόνα του συμπιεστή από τη Στήλη Α με την ονομασία του από τη Στήλη Β (ανάλογα με το πόσο προσιτό είναι το εσωτερικό του):",
         "prompt": "Αντιστοίχιση συμπιεστών 1-3 με τους τύπους τους:",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33877_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33877_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33877_fig03.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33877_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33877_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33877_fig03.webp"
         ],
         "left": [
           {
@@ -493,7 +493,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "3": "d"
         },
         "explain": "1 - β (Ημιερμητικός), 2 - γ (Ερμητικός), 3 - δ (Ανοιχτού τύπου).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_#33877_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_33877_fig01.webp"
       },
       {
         "kind": "mc",

@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch16_19897_fig01.png",
       "bank_code": "19897",
       "role": "fig",
       "page": 4,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "19897": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch16_19897_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch16_#19897_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch16_19897_fig01.png",
           "bank_code": "19897",
           "role": "fig",
           "page": 4,

@@ -20,7 +20,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "4.1. Να σχεδιάσετε την τυπική ηλεκτρική συνδεσμολογία ενός οικιακού ψυγείου.",
         "prompt": "4.1. Να σχεδιάσετε την τυπική ηλεκτρική συνδεσμολογία ενός οικιακού ψυγείου.",
         "explain": "Βλέπε τυπικό ηλεκτρικό διάγραμμα και συνδεσμολογία οικιακού ψυγείου.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#25318_sol01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_25318_sol01.webp"
       },
       {
         "kind": "mc",
@@ -50,7 +50,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
       }
     ],
     "solutionImages": [
-      "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#25318_sol01.webp"
+      "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_25318_sol01.webp"
     ]
   },
   {
@@ -119,7 +119,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Είναι λάθος καθώς ανάλογα με τη θέση του χρονοδιακόπτη λειτουργεί μόνο το ένα από τα δύο συστήματα (θέση 1-3 συμπιεστής, θέση 2-3 αντίσταση απόψυξης).",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#33180_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_33180_fig01.webp"
       },
       {
         "kind": "mc",

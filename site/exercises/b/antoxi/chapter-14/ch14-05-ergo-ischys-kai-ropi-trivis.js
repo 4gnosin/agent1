@@ -68,7 +68,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "4.1",
         "images": [
           {
-            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23317_fig01.webp",
+            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_23317_fig01.webp",
             "caption": "Σχήμα ακονιστικού τροχού"
           }
         ],
@@ -79,7 +79,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Πολλαπλασιάστε τον συντελεστή τριβής επί την κάθετη δύναμη.",
         "explain": "Η τριβή είναι: $T = 0{,}8 \\cdot 300\\text{ N} = 240\\text{ N}$.",
-        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23317_fig01.webp"
+        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_23317_fig01.webp"
       },
       {
         "kind": "calc",
@@ -171,7 +171,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "α",
         "images": [
           {
-            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23688_fig01.webp",
+            "url": "images/b/antoxi/chapter-14/b_antoxi_ch14_23688_fig01.webp",
             "caption": "Σχήμα ακονιστικού τροχού"
           }
         ],
@@ -193,7 +193,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Λύστε τον τύπο της ροπής $M_T = T \\cdot \\frac{d}{2}$ ως προς $d$.",
         "explain": "Η διάμετρος είναι: $d = \\frac{2 \\cdot 40\\text{ Nm}}{160\\text{ N}} = 0{,}5\\text{ m}$.",
-        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_#23688_fig01.webp"
+        "image": "images/b/antoxi/chapter-14/b_antoxi_ch14_23688_fig01.webp"
       }
     ]
   }

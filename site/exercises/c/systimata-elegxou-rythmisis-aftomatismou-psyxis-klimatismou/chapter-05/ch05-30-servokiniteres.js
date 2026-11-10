@@ -71,7 +71,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Τα συστήματα σερβοκινητήρων λειτουργούν με βρόχο ανάδρασης συγκρίνοντας την επιθυμητή και την πραγματική θέση.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26892_fig01.webp"
       }
     ]
   },
@@ -108,7 +108,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Τα RTD παρουσιάζουν γραμμική αύξηση της αντίστασης με τη θερμοκρασία, με χαρακτηριστική τιμή αναφοράς $R_0$ στους 0°C.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26906_fig01.webp"
       },
       {
         "kind": "tf",
@@ -233,8 +233,8 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subq": "2.1",
         "openEnded": true,
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig02.webp"
         ],
         "prompt": "Να αναφέρετε πώς ονομάζονται οι δύο πρεσσοστάτες που απεικονίζονται στα παρακάτω σχήματα (Σχήμα 1 και Σχήμα 2) και να εξηγήσετε για ποιον σκοπό προορίζονται.",
         "options": [
@@ -253,7 +253,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Το Σχήμα 1 είναι πρεσσοστάτης δύο επαφών και το Σχήμα 2 πρεσσοστάτης ρύθμισης πίεσης συμπύκνωσης.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-05/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig01.webp"
       },
       {
         "kind": "tf",

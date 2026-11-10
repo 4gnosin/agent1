@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_28669_fig01.png",
       "bank_code": "28669",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_28449_fig01.png",
       "bank_code": "28449",
       "role": "fig",
       "page": 8,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_24088_fig01.png",
       "bank_code": "24088",
       "role": "fig",
       "page": 12,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_24088_sol01.png",
       "bank_code": "24088",
       "role": "sol",
       "page": 13,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_25897_fig01.png",
       "bank_code": "25897",
       "role": "fig",
       "page": 16,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_25897_sol01.png",
       "bank_code": "25897",
       "role": "sol",
       "page": 17,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png",
+      "file": "c_stoixeia-kentrikon-thermanseon_ch05_28670_fig01.png",
       "bank_code": "28670",
       "role": "fig",
       "page": 20,
@@ -173,14 +173,14 @@
   "by_bank_code": {
     "24088": {
       "fig": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_24088_fig01.png"
       ],
       "sol": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_24088_sol01.png"
       ],
       "images": [
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_fig01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_24088_fig01.png",
           "bank_code": "24088",
           "role": "fig",
           "page": 12,
@@ -202,7 +202,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#24088_sol01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_24088_sol01.png",
           "bank_code": "24088",
           "role": "sol",
           "page": 13,
@@ -227,14 +227,14 @@
     },
     "25897": {
       "fig": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_25897_fig01.png"
       ],
       "sol": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_25897_sol01.png"
       ],
       "images": [
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_fig01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_25897_fig01.png",
           "bank_code": "25897",
           "role": "fig",
           "page": 16,
@@ -256,7 +256,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#25897_sol01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_25897_sol01.png",
           "bank_code": "25897",
           "role": "sol",
           "page": 17,
@@ -281,12 +281,12 @@
     },
     "28449": {
       "fig": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_28449_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28449_fig01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_28449_fig01.png",
           "bank_code": "28449",
           "role": "fig",
           "page": 8,
@@ -311,12 +311,12 @@
     },
     "28669": {
       "fig": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_28669_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_28669_fig01.png",
           "bank_code": "28669",
           "role": "fig",
           "page": 2,
@@ -341,12 +341,12 @@
     },
     "28670": {
       "fig": [
-        "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png"
+        "c_stoixeia-kentrikon-thermanseon_ch05_28670_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-kentrikon-thermanseon_ch05_#28670_fig01.png",
+          "file": "c_stoixeia-kentrikon-thermanseon_ch05_28670_fig01.png",
           "bank_code": "28670",
           "role": "fig",
           "page": 20,

@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig01.png",
       "bank_code": "26941",
       "role": "fig",
       "page": 6,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig02.png",
       "bank_code": "26941",
       "role": "fig",
       "page": 6,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_24132_fig01.png",
       "bank_code": "24132",
       "role": "fig",
       "page": 10,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_23780_fig01.png",
       "bank_code": "23780",
       "role": "fig",
       "page": 15,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig01.png",
       "bank_code": "33034",
       "role": "fig",
       "page": 17,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig02.png",
       "bank_code": "33034",
       "role": "fig",
       "page": 17,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig03.png",
       "bank_code": "33034",
       "role": "fig",
       "page": 17,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26892_fig01.png",
       "bank_code": "26892",
       "role": "fig",
       "page": 20,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26906_fig01.png",
       "bank_code": "26906",
       "role": "fig",
       "page": 22,
@@ -214,7 +214,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig01.png",
       "bank_code": "29604",
       "role": "fig",
       "page": 26,
@@ -236,7 +236,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png",
+      "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig02.png",
       "bank_code": "29604",
       "role": "fig",
       "page": 26,
@@ -261,12 +261,12 @@
   "by_bank_code": {
     "23780": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_23780_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#23780_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_23780_fig01.png",
           "bank_code": "23780",
           "role": "fig",
           "page": 15,
@@ -291,12 +291,12 @@
     },
     "24132": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_24132_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#24132_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_24132_fig01.png",
           "bank_code": "24132",
           "role": "fig",
           "page": 10,
@@ -321,12 +321,12 @@
     },
     "26892": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26892_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26892_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26892_fig01.png",
           "bank_code": "26892",
           "role": "fig",
           "page": 20,
@@ -351,12 +351,12 @@
     },
     "26906": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26906_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26906_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26906_fig01.png",
           "bank_code": "26906",
           "role": "fig",
           "page": 22,
@@ -381,13 +381,13 @@
     },
     "26941": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig02.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig01.png",
           "bank_code": "26941",
           "role": "fig",
           "page": 6,
@@ -409,7 +409,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#26941_fig02.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_26941_fig02.png",
           "bank_code": "26941",
           "role": "fig",
           "page": 6,
@@ -434,13 +434,13 @@
     },
     "29604": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig02.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig01.png",
           "bank_code": "29604",
           "role": "fig",
           "page": 26,
@@ -462,7 +462,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#29604_fig02.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_29604_fig02.png",
           "bank_code": "29604",
           "role": "fig",
           "page": 26,
@@ -487,14 +487,14 @@
     },
     "33034": {
       "fig": [
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
-        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png"
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig01.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig02.png",
+        "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig01.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig01.png",
           "bank_code": "33034",
           "role": "fig",
           "page": 17,
@@ -516,7 +516,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig02.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig02.png",
           "bank_code": "33034",
           "role": "fig",
           "page": 17,
@@ -538,7 +538,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_#33034_fig03.png",
+          "file": "c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch05_33034_fig03.png",
           "bank_code": "33034",
           "role": "fig",
           "page": 17,

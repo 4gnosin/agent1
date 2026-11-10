@@ -19,7 +19,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "openEnded": true,
         "subq": "4.1",
         "prompt": "4.1 Στο παρακάτω Σχήμα 1 παρουσιάζεται το σύστημα κλιματισμού σε μεγάλο κτίριο γραφείων. Να εξηγήσετε ποιο σύστημα κλιματισμού εφαρμόζεται, ποια είναι τα τρία κυριότερα μέρη του (Α, Β, Γ) και πού βρίσκεται εγκατεστημένο το σύστημα.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#33036_fig01.webp",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_33036_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -41,7 +41,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "answer": "a",
         "explain": "Στο σχήμα 1 φαίνεται ένα αερόψυκτο συγκρότημα παραγωγής ψύξης-θέρμανσης (Α) σε μεγάλο κτίριο γραφείων με δίκτυο αεραγωγών (Γ) και κεντρική κλιματιστική μονάδα (ΚΚΜ). Διακρίνουμε μία ΚΚΜ (Β), που τροφοδοτείται με κρύο ή ζεστό νερό από το αερόψυκτο συγκρότημα (αντλία θερμότητας). Η ΚΚΜ είναι εγκατεστημένη στην οροφή του κτιρίου.",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#33036_fig01.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_33036_fig01.webp"
         ]
       },
       {

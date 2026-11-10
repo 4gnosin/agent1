@@ -334,7 +334,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
 
     ],
 
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#24076_fig01.webp"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_24076_fig01.webp"
 
   },
 
@@ -452,7 +452,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
 
     ],
 
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.webp"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_25714_fig01.webp"
   },
 
   {
@@ -795,7 +795,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
 
     ],
 
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25987_fig01.webp"
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_25987_fig01.webp"
 
   },
 

@@ -19,7 +19,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Με βάση το ακόλουθο σχήμα, όπου παρουσιάζεται ένας διβάθμιος καυστήρας διασκορπισμού, να γράψετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ και ε της στήλη Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα εξαρτήματα του διβάθμιου καυστήρα διασκορπισμού (1-4) με τις ονομασίες τους (α-ε):",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.webp",
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_28669_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -68,7 +68,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         },
         "explain": "1 - β (Αντλία πετρελαίου), 2 - δ (Ηλεκτρομαγνητική βαλβίδα «κανονικά κλειστή»), 3 - α (Ηλεκτρομαγνητική βαλβίδα «κανονικά ανοιχτή»), 4 - ε (Κεφαλή διβάθμιου μπεκ με διάταξη αποκοπής).",
         "images": [
-          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_#28669_fig01.webp"
+          "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_28669_fig01.webp"
         ]
       },
       {

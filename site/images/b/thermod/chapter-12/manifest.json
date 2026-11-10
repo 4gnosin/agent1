@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch12_#17722_fig01.png",
+      "file": "b_thermod_ch12_17722_fig01.png",
       "bank_code": "17722",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch12_#17722_fig02.png",
+      "file": "b_thermod_ch12_17722_fig02.png",
       "bank_code": "17722",
       "role": "fig",
       "page": 2,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch12_#17722_fig03.png",
+      "file": "b_thermod_ch12_17722_fig03.png",
       "bank_code": "17722",
       "role": "fig",
       "page": 3,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch12_#20049_fig01.png",
+      "file": "b_thermod_ch12_20049_fig01.png",
       "bank_code": "20049",
       "role": "fig",
       "page": 13,
@@ -107,14 +107,14 @@
   "by_bank_code": {
     "17722": {
       "fig": [
-        "b_thermod_ch12_#17722_fig01.png",
-        "b_thermod_ch12_#17722_fig02.png",
-        "b_thermod_ch12_#17722_fig03.png"
+        "b_thermod_ch12_17722_fig01.png",
+        "b_thermod_ch12_17722_fig02.png",
+        "b_thermod_ch12_17722_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch12_#17722_fig01.png",
+          "file": "b_thermod_ch12_17722_fig01.png",
           "bank_code": "17722",
           "role": "fig",
           "page": 2,
@@ -136,7 +136,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch12_#17722_fig02.png",
+          "file": "b_thermod_ch12_17722_fig02.png",
           "bank_code": "17722",
           "role": "fig",
           "page": 2,
@@ -158,7 +158,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch12_#17722_fig03.png",
+          "file": "b_thermod_ch12_17722_fig03.png",
           "bank_code": "17722",
           "role": "fig",
           "page": 3,
@@ -183,12 +183,12 @@
     },
     "20049": {
       "fig": [
-        "b_thermod_ch12_#20049_fig01.png"
+        "b_thermod_ch12_20049_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch12_#20049_fig01.png",
+          "file": "b_thermod_ch12_20049_fig01.png",
           "bank_code": "20049",
           "role": "fig",
           "page": 13,

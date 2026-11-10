@@ -40,7 +40,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.2",
         "subqPrompt": "2.2 Με βάση το παρακάτω σχήμα όπου απεικονίζονται τα είδη λιμών, να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16827_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_16827_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -85,7 +85,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - δ (Πλατειά παράλληλη), 2 - α (Πλατειά συγκλίνουσα), 3 - β (Τετραγωνική), 4 - γ (Στρογγυλή).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#16827_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_16827_fig01.webp"
         ]
       }
     ]
@@ -107,10 +107,10 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "2.1 Να αντιστοιχίσετε τους αριθμούς 1, 2, 3, 4 από τη στήλη Α με ένα από τα γράμματα α, β, γ, δ, ε της στήλης Β.",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#17366_fig01.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#17366_fig02.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#17366_fig03.webp",
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#17366_fig04.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_17366_fig01.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_17366_fig02.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_17366_fig03.webp",
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_17366_fig04.webp"
         ],
         "left": [
           {
@@ -159,7 +159,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           "4": "e"
         },
         "explain": "1-δ (Μετρητικό ρολόι), 2-α (Ηλεκτρονικό ψηφιακό παχύμετρο), 3-β (Μικρόμετρο εσωτερικών διαστάσεων), 4-ε (Βαθύμετρο). Περισσεύει το γ.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#17366_fig01.webp"
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_17366_fig01.webp"
       },
       {
         "kind": "mc",
@@ -209,7 +209,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "match",
         "subq": "2.1",
         "subqPrompt": "2.1 Στο παρακάτω σχήμα βλέπετε τα μέρη της λίμας. Να αντιστοιχίσετε τους αριθμούς 1, 2, 3 της Στήλης Α με τα γράμματα α, β, γ, δ της Στήλης Β.",
-        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29016_fig01.webp",
+        "image": "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_29016_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -249,7 +249,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         },
         "explain": "1 - δ (Χειρολαβή), 2 - γ (Ουρά), 3 - β (Σώμα). Περισσεύει το α (Κορμός).",
         "images": [
-          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_#29016_fig01.webp"
+          "images/b/texnologia-michanologikon-kataskevon/chapter-04/b_texnologia-michanologikon-kataskevon_ch04_29016_fig01.webp"
         ]
       },
       {

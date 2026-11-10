@@ -61,10 +61,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "4": "c"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34041_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34041_fig01.webp"
         ],
         "explain": "Σύμφωνα με το σχήμα της ανάρτησης Μακ Φέρσον: 1-β (Αμορτισέρ), 2-α (Ελικοειδές ελατήριο), 3-δ (Αποστάτης), 4-γ (Κύλινδρος με ελαστικό τέλος διαδρομής).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34041_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34041_fig01.webp"
       },
       {
         "kind": "tf",
@@ -140,12 +140,12 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34044_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34044_fig02.webp",
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34044_fig03.webp"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34044_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34044_fig02.webp",
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34044_fig03.webp"
         ],
         "explain": "Αντιστοίχιση τύπων ψαλιδιών με τα αντίστοιχα σχήματα γεωμετρίας.",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34044_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34044_fig01.webp"
       },
       {
         "kind": "tf",

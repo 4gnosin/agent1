@@ -13,7 +13,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "units": 25,
     "theory": "ch06-07-tropos-elegxou-hlektronikes-diataxeis",
     "sourceOrder": 4,
-    "stem": "Στο παρακάτω σχήμα βλέπουμε τη διάταξη που ελέγχει τη θερμοκρασία σε έναν κλιματιζόμενο χώρο. Να απαντήσετε στις παρακάτω ερωτήσεις αιτιολογώντας κάθε φορά την απάντησή σας:\n\n![Διάταξη ελέγχου θερμοκρασίας κλιματιζόμενου χώρου](images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#36449_fig01.webp)",
+    "stem": "Στο παρακάτω σχήμα βλέπουμε τη διάταξη που ελέγχει τη θερμοκρασία σε έναν κλιματιζόμενο χώρο. Να απαντήσετε στις παρακάτω ερωτήσεις αιτιολογώντας κάθε φορά την απάντησή σας:\n\n![Διάταξη ελέγχου θερμοκρασίας κλιματιζόμενου χώρου](images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_36449_fig01.webp)",
     "items": [
       {
         "subq": "α",
@@ -40,7 +40,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Το σύστημα είναι κλειστού βρόχου, καθώς υπάρχει συνεχής μέτρηση της θερμοκρασίας του χώρου και ανάδραση προς τον ελεγκτή Ν1.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#36449_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_36449_fig01.webp"
       },
       {
         "subq": "β",

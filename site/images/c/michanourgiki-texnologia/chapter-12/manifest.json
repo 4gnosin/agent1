@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_michanourgiki-texnologia_ch12_#27692_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch12_27692_fig01.png",
       "bank_code": "27692",
       "role": "fig",
       "page": 6,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "27692": {
       "fig": [
-        "c_michanourgiki-texnologia_ch12_#27692_fig01.png"
+        "c_michanourgiki-texnologia_ch12_27692_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch12_#27692_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch12_27692_fig01.png",
           "bank_code": "27692",
           "role": "fig",
           "page": 6,

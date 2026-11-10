@@ -60,9 +60,9 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
         "subq": "2.1",
         "prompt": "2.1 Αντιστοιχίστε τη συνδεσμολογία του πολυμέτρου (Σχήματα 1, 2, 3) με το είδος μέτρησης στη Στήλη Β:",
         "images": [
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#34302_fig01.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#34302_fig02.webp",
-          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#34302_fig03.webp"
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_34302_fig01.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_34302_fig02.webp",
+          "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_34302_fig03.webp"
         ],
         "left": [
           {
@@ -98,7 +98,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
           "3": "a"
         },
         "explain": "1-β: Παράλληλη σύνδεση για μέτρηση τάσης. 2-γ: Σύνδεση σε σειρά για μέτρηση έντασης ρεύματος. 3-α: Σύνδεση στα άκρα απομονωμένου στοιχείου για μέτρηση αντίστασης.",
-        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_#34302_fig01.webp"
+        "image": "images/c/texnologia-elegxou-diagnoseon/chapter-02/c_texnologia-elegxou-diagnoseon_ch02_34302_fig01.webp"
       },
       {
         "kind": "tf",

@@ -20,9 +20,9 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "kind": "match",
         "prompt": "Αντιστοιχίστε το σχήμα (Στήλη Α) με το αντίστοιχο είδος βάνας (Στήλη Β):",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig02.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig03.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_26940_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_26940_fig02.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_26940_fig03.webp"
         ],
         "left": [
           {
@@ -62,7 +62,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "3": "a"
         },
         "explain": "1 – β (Τετράοδη βάνα στο Σχήμα 1), 2 – δ (Δίοδη βάνα στο Σχήμα 2), 3 – α (Τρίοδη βάνα για μεταβολή θερμοκρασίας στο Σχήμα 3). Περισσεύει το γ.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#26940_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_26940_fig01.webp"
       },
       {
         "subq": "2.1",
@@ -162,9 +162,9 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "kind": "match",
         "prompt": "Αντιστοιχίστε το σχήμα τάμπερ (Στήλη Α) με τον τύπο/περιγραφή του (Στήλη Β):",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig01.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig02.webp",
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig03.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_27159_fig01.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_27159_fig02.webp",
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_27159_fig03.webp"
         ],
         "left": [
           {
@@ -204,7 +204,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
           "3": "a"
         },
         "explain": "1 – β (Τάμπερ ακριβούς μέτρησης παροχής στο Σχήμα 1), 2 – δ (Τάμπερ με πτερύγια παράλληλης κίνησης στο Σχήμα 2), 3 – α (Τάμπερ με πτερύγια αντίστροφης κίνησης στο Σχήμα 3). Περισσεύει το γ.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_#27159_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-06/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch06_27159_fig01.webp"
       },
       {
         "subq": "2.2.α",

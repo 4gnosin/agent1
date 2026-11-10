@@ -40,18 +40,18 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Στην ισοθερμοκρασιακή μεταβολή ισχύει ο νόμος Boyle-Mariotte: $P_1 \\cdot V_1 = P_2 \\cdot V_2$.",
         "explain": "Από τον νόμο της ισοθερμοκρασιακής μεταβολής: \\( P_1 \\cdot V_1 = P_2 \\cdot V_2 \\Rightarrow V_2 = \\frac{P_1 \\cdot V_1}{P_2} = \\frac{1 \\cdot 0,8}{10} = 0,08\\text{ m}^3 \\).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23748_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23748_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "4.2. Να απεικονίσετε τη μεταβολή του παραπάνω ερωτήματος σε ένα διάγραμμα $P-V$ (πίεσης-όγκου).",
         "explain": "Η ισοθερμοκρασιακή μεταβολή στο διάγραμμα P-V απεικονίζεται ως καμπύλη (ισόθερμη υπερβολή) που συνδέει την αρχική κατάσταση (1 bar, 0,8 m³) με την τελική κατάσταση (10 bar, 0,08 m³).",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23748_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23748_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23748_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23748_sol01.webp"
     ]
   },
   {
@@ -114,13 +114,13 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "4": "a"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23891_fig01.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23891_fig02.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23891_fig03.webp",
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23891_fig04.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23891_fig01.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23891_fig02.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23891_fig03.webp",
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23891_fig04.webp"
         ],
         "explain": "Με βάση τα διαγράμματα P-V: 1-β (Ισόθλιπτη), 2-γ (Αδιαβατική), 3-δ (Ισόογκη), 4-α (Ισοθερμοκρασιακή).",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23891_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23891_fig01.webp"
       },
       {
         "kind": "tf",

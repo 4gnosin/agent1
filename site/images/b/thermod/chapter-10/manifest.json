@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch10_#20952_fig01.png",
+      "file": "b_thermod_ch10_20952_fig01.png",
       "bank_code": "20952",
       "role": "fig",
       "page": 6,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "20952": {
       "fig": [
-        "b_thermod_ch10_#20952_fig01.png"
+        "b_thermod_ch10_20952_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch10_#20952_fig01.png",
+          "file": "b_thermod_ch10_20952_fig01.png",
           "bank_code": "20952",
           "role": "fig",
           "page": 6,

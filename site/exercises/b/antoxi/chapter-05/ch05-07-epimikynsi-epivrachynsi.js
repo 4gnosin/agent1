@@ -349,7 +349,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "tolerance": 1,
         "hint": "Υπολογίστε το εμβαδόν κύκλου με διάμετρο $d = 20\\text{ mm}$.",
         "explain": " \\( A = \\frac{3{,}14 \\cdot (20\\text{ mm})^2}{4} = \\frac{3{,}14 \\cdot 400}{4} = 314\\text{ mm}^2 \\).",
-        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_#19804_fig01.webp"
+        "image": "images/b/antoxi/chapter-05/b_antoxi_ch05_19804_fig01.webp"
       },
       {
         "kind": "calc",

@@ -126,25 +126,25 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "4.1",
         "prompt": "Να ορίσετε τα κεντροειδή των παρακάτω γεωμετρικών σχημάτων, γραφικά και αναλυτικά: Ορθογωνίου με διαστάσεις μήκος $l = 18\\text{ cm}$, ύψος $h = 6\\text{ cm}$.",
         "images": [
-          "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_fig01.webp"
+          "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_fig01.webp"
         ],
         "explain": "Γραφικά: Φέρνουμε τις διαγώνιες του ορθογωνίου. Το σημείο τομής τους G είναι το κεντροειδές. Αναλυτικά: $x_0 = \\frac{h}{2} = \\frac{6}{2} = 3\\text{ cm}$, $y_0 = \\frac{l}{2} = \\frac{18}{2} = 9\\text{ cm}$.",
-        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_fig01.webp"
+        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_fig01.webp"
       },
       {
         "kind": "open",
         "subq": "4.2",
         "prompt": "Να ορίσετε τα κεντροειδή των παρακάτω γεωμετρικών σχημάτων, γραφικά και αναλυτικά: Ισόπλευρου τριγώνου με πλευρά $α = 15\\text{ cm}$ και ύψος $h = 13\\text{ cm}$.",
         "images": [
-          "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_fig02.webp"
+          "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_fig02.webp"
         ],
         "explain": "Γραφικά: Φέρνουμε τις διάμεσους του τριγώνου. Το σημείο τομής τους G είναι το κεντροειδές. Αναλυτικά: $x_0 = \\frac{h}{3} = \\frac{13}{3} \\approx 4,33\\text{ cm}$, $y_0 = \\frac{a}{2} = \\frac{15}{2} = 7,5\\text{ cm}$.",
-        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_fig02.webp"
+        "image": "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_fig02.webp"
       }
     ],
     "solutionImages": [
-      "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_sol01.webp",
-      "images/b/antoxi/chapter-04/b_antoxi_ch04_#16432_sol02.webp"
+      "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_sol01.webp",
+      "images/b/antoxi/chapter-04/b_antoxi_ch04_16432_sol02.webp"
     ]
   }
 ]

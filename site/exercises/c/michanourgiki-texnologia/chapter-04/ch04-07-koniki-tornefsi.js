@@ -26,7 +26,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο κωνικότητας $1:\\kappa = \\frac{D - d}{l}$.",
         "explain": "Η κωνικότητα δίνεται από τη σχέση: \\( 1:\\kappa = \\frac{60\\text{ mm} - 50\\text{ mm}}{200\\text{ mm}} = \\frac{10}{200} = \\frac{1}{20} = 0,05 \\).",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#25468_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_25468_fig01.webp"
       },
       {
         "kind": "calc",
@@ -135,7 +135,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "2.2 Στο παρακάτω σχήμα, παρουσιάζονται τα βασικά γεωμετρικά στοιχεία ενός κώνου... Τί ονομάζουμε κωνικότητα σε έναν κώνο, πώς αυτή συμβολίζεται και από ποιον τύπο δίνεται; Τί είναι ημιγωνία του κώνου α/2 και πώς σχετίζεται αυτή με τη στροφή του εργαλειοδέτη του τόρνου;",
         "prompt": "Τι ονομάζουμε κωνικότητα σε έναν κώνο και ποιος είναι ο τύπος της;",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27329_fig01.webp",
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27329_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -157,7 +157,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "answer": "a",
         "explain": "Η μεταβολή της διαμέτρου του κώνου σε 1 mm μήκος του ορίζεται ως κωνικότητα, συμβολίζεται με 1:κ και δίνεται από τον τύπο 1:κ = (D - d) / l.",
         "images": [
-          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27329_fig01.webp"
+          "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27329_fig01.webp"
         ]
       },
       {
@@ -199,9 +199,9 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 3,
     "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε έναν άξονα σαν αυτόν που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 20\\text{ mm}$, $d = 10\\text{ mm}$, $l = 20\\text{ mm}$.\nΔίνεται: $\\text{εφ}(\\varphi) = 0,25$ όταν η γωνία $\\varphi = 14,036^\\circ$.",
-    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27559_fig01.webp",
+    "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27559_fig01.webp",
     "solutionImages": [
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27559_sol01.webp"
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27559_sol01.webp"
     ],
     "items": [
       {
@@ -215,7 +215,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο κωνικότητας $1:\\kappa = \\frac{D - d}{l}$.",
         "explain": " \\( 1:\\kappa = \\frac{20 - 10}{20} = \\frac{10}{20} = \\frac{1}{2} = 0,5 \\).",
-        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27559_sol01.webp"
+        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27559_sol01.webp"
       },
       {
         "kind": "calc",
@@ -296,7 +296,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "sourceOrder": 4,
     "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε μια παρτίδα πολλών κομματιών, από τον άξονα που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 40\\text{ mm}$, $d = 30\\text{ mm}$, $L = 180\\text{ mm}$, $l = 120\\text{ mm}$.",
     "solutionImages": [
-      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27560_sol01.webp"
+      "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27560_sol01.webp"
     ],
     "items": [
       {
@@ -310,8 +310,8 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "tolerance": 0.1,
         "hint": "Χρησιμοποιήστε τον τύπο $V = \\frac{D - d}{2} \\cdot \\frac{L}{l}$.",
         "explain": " \\( V = \\frac{40 - 30}{2} \\cdot \\frac{180}{120} = 5 \\cdot 1,5 = 7,5\\text{ mm} \\).",
-        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27560_fig01.webp",
-        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27560_sol01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27560_fig01.webp",
+        "hintImage": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27560_sol01.webp"
       },
       {
         "kind": "mc",

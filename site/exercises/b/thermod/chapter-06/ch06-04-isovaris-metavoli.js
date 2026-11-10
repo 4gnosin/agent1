@@ -18,7 +18,7 @@ window.EXERCISES.push(...
         "subq": "2.1",
         "subqPrompt": "1) Στο παραπάνω διάγραμμα P-V (Πίεσης-Όγκου) απεικονίζεται η μεταβολή κατάστασης ενός αερίου (Από την κατάσταση 1 στην κατάσταση 2). Τι είδους μεταβολή είναι η παραπάνω;",
         "prompt": "Επιλέξτε το είδος της μεταβολής:",
-        "image": "images/b/thermod/chapter-06/b_thermod_ch06_#16256_fig01.webp",
+        "image": "images/b/thermod/chapter-06/b_thermod_ch06_16256_fig01.webp",
         "options": [
           {
             "id": "a",
@@ -36,7 +36,7 @@ window.EXERCISES.push(...
         "answer": "b",
         "explain": "Στη μεταβολή που απεικονίζεται, παραμένει σταθερή η πίεση ($P = \\text{σταθ}$), γεγονός που χαρακτηρίζει την ισοβαρή μεταβολή.",
         "images": [
-          "images/b/thermod/chapter-06/b_thermod_ch06_#16256_fig01.webp"
+          "images/b/thermod/chapter-06/b_thermod_ch06_16256_fig01.webp"
         ]
       },
       {
@@ -130,7 +130,7 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Μετατρέψτε τις θερμοκρασίες σε Κέλβιν και εφαρμόστε το νόμο του Gay-Lussac (\\( \\frac{V_1}{T_1} = \\frac{V_2}{T_2} \\)).",
         "explain": "Έχουμε $T_1 = 27 + 273 = 300\\text{ K}$ και $T_2 = 177 + 273 = 450\\text{ K}$. Από την ισοβαρή μεταβολή: \\( V_2 = V_1 \\cdot \\frac{T_2}{T_1} = 0,02\\text{ m}^3 \\cdot \\frac{450\\text{ K}}{300\\text{ K}} = 0,02 \\cdot 1,5 = 0,03\\text{ m}^3 \\).",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16258_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_16258_sol01.webp",
         "animation": {
           "title": "Ερώτημα (4.1): Υπολογισμός $V_2$",
           "steps": [
@@ -198,12 +198,12 @@ window.EXERCISES.push(...
         "kind": "open",
         "subq": "4.3",
         "prompt": "Να απεικονίσετε τη μεταβολή σε διάγραμμα P-V.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#16258_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_16258_sol01.webp",
         "explain": "Στο διάγραμμα P-V, η μεταβολή απεικονίζεται με ένα οριζόντιο ευθύγραμμο τμήμα καθώς η πίεση παραμένει σταθερή. Η φορά του ευθύγραμμου τμήματος είναι προς τα δεξιά καθώς ο όγκος αυξάνεται από $0,02\\text{ m}^3$ σε $0,03\\text{ m}^3$."
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#16258_sol01.webp"
+      "images/b/thermod/chapter-06/b_thermod_ch06_16258_sol01.webp"
     ]
   },
   {
@@ -394,7 +394,7 @@ window.EXERCISES.push(...
         "kind": "open",
         "subq": "4.1",
         "prompt": "Να σχεδιάσετε σε διάγραμμα P-V την μεταβολή.",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18627_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_18627_sol01.webp",
         "explain": "Η μεταβολή σε διάγραμμα P-V απεικονίζεται ως οριζόντιο ευθύγραμμο τμήμα από την κατάσταση $1$ ($V_1 = 0,3\\text{ m}^3$) προς την κατάσταση $2$ ($V_2 = 0,6\\text{ m}^3$) με σταθερή πίεση $P = 50\\text{ kN/m}^2$ και φορά προς τα δεξιά."
       },
       {
@@ -407,7 +407,7 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Εφαρμόστε τον τύπο $W = P \\cdot \\Delta V$.",
         "explain": "Το έργο ογκομεταβολής υπολογίζεται από τη σχέση: \\( W = P \\cdot (V_2 - V_1) = 50\\text{ kN/m}^2 \\cdot (0,6 - 0,3)\\text{ m}^3 = 50 \\cdot 0,3 = 15\\text{ kJ} \\).",
-        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_#18627_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-06/b_thermod_ch06_18627_sol01.webp",
         "animation": {
           "title": "Ερώτημα (4.2): Υπολογισμός $W$",
           "steps": [
@@ -504,7 +504,7 @@ window.EXERCISES.push(...
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-06/b_thermod_ch06_#18627_sol01.webp"
+      "images/b/thermod/chapter-06/b_thermod_ch06_18627_sol01.webp"
     ]
   }
 ]

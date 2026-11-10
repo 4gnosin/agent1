@@ -377,7 +377,7 @@ def check_and_fix_vector_diagrams(
                 continue
 
             fig_counter += 1
-            name = f"{stem}_#{bank_code}_fig{fig_counter:02d}.png"
+            name = f"{stem}_{bank_code}_fig{fig_counter:02d}.png"
             has_overlays = False
             if img_bbox:
                 r_img = fitz.Rect(img_bbox)
@@ -488,7 +488,7 @@ def check_and_fix_vector_diagrams(
         max_x = min(q_page.rect.width, max(dr.x1 for dr in diag_rects) + 25.0)
         max_y = min(q_page.rect.height * 0.95, max(dr.y1 for dr in diag_rects) + 20.0)
 
-        fig_file = f"{stem}_#{bank_code}_fig01.png"
+        fig_file = f"{stem}_{bank_code}_fig01.png"
         fig_full_path = img_dir / fig_file
 
         needs_render = False

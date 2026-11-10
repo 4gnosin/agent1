@@ -38,7 +38,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "explain": "$L = \\frac{d}{\\text{ημ}\\varphi} = \\frac{0,07\\text{ m}}{0,35} = 0,2\\text{ m}$."
       }
     ],
-    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#23741_fig01.webp"
+    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_23741_fig01.webp"
   },
   {
     "id": "ch02-23742",
@@ -74,7 +74,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Διαιρέστε τη ροπή $M$ με τον μοχλοβραχίονα $d$.",
         "explain": "$F = \\frac{M}{d} = \\frac{560\\text{ Nm}}{0,08\\text{ m}} = 7000\\text{ N} = 7\\text{ kN}$.",
-        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#23742_fig01.webp"
+        "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_23742_fig01.webp"
       }
     ]
   },
@@ -114,7 +114,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "explain": "$L = \\frac{d}{\\text{ημ} 11^{\\circ}} = \\frac{0,0955\\text{ m}}{0,191} = 0,5\\text{ m}$."
       }
     ],
-    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#24400_fig01.webp"
+    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_24400_fig01.webp"
   },
   {
     "id": "ch02-34913",
@@ -152,7 +152,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "explain": "$L = \\frac{d}{\\text{συν}\\varphi} = \\frac{0,15\\text{ m}}{0,25} = 0,6\\text{ m}$."
       }
     ],
-    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#34913_fig01.webp"
+    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_34913_fig01.webp"
   },
   {
     "id": "ch02-34916",
@@ -190,7 +190,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "explain": "$\\text{ημ}\\varphi = \\frac{0,18}{0,8} = 0,225$. Από τον πίνακα προκύπτει γωνία $13^{\\circ}$."
       }
     ],
-    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#34916_fig01.webp"
+    "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_34916_fig01.webp"
   }
 ]
 );

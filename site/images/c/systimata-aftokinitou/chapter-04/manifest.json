@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_systimata-aftokinitou_ch04_#34039_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34039_fig01.png",
       "bank_code": "34039",
       "role": "fig",
       "page": 4,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34040_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34040_fig01.png",
       "bank_code": "34040",
       "role": "fig",
       "page": 6,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34043_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34043_fig01.png",
       "bank_code": "34043",
       "role": "fig",
       "page": 8,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34043_fig02.png",
+      "file": "c_systimata-aftokinitou_ch04_34043_fig02.png",
       "bank_code": "34043",
       "role": "fig",
       "page": 8,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34043_fig03.png",
+      "file": "c_systimata-aftokinitou_ch04_34043_fig03.png",
       "bank_code": "34043",
       "role": "fig",
       "page": 8,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34041_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34041_fig01.png",
       "bank_code": "34041",
       "role": "fig",
       "page": 11,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34044_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34044_fig01.png",
       "bank_code": "34044",
       "role": "fig",
       "page": 14,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34044_fig02.png",
+      "file": "c_systimata-aftokinitou_ch04_34044_fig02.png",
       "bank_code": "34044",
       "role": "fig",
       "page": 14,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34044_fig03.png",
+      "file": "c_systimata-aftokinitou_ch04_34044_fig03.png",
       "bank_code": "34044",
       "role": "fig",
       "page": 14,
@@ -214,7 +214,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#27391_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_27391_fig01.png",
       "bank_code": "27391",
       "role": "fig",
       "page": 17,
@@ -236,7 +236,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_systimata-aftokinitou_ch04_#34042_fig01.png",
+      "file": "c_systimata-aftokinitou_ch04_34042_fig01.png",
       "bank_code": "34042",
       "role": "fig",
       "page": 20,
@@ -261,12 +261,12 @@
   "by_bank_code": {
     "27391": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#27391_fig01.png"
+        "c_systimata-aftokinitou_ch04_27391_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#27391_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_27391_fig01.png",
           "bank_code": "27391",
           "role": "fig",
           "page": 17,
@@ -291,12 +291,12 @@
     },
     "34039": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34039_fig01.png"
+        "c_systimata-aftokinitou_ch04_34039_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34039_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34039_fig01.png",
           "bank_code": "34039",
           "role": "fig",
           "page": 4,
@@ -321,12 +321,12 @@
     },
     "34040": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34040_fig01.png"
+        "c_systimata-aftokinitou_ch04_34040_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34040_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34040_fig01.png",
           "bank_code": "34040",
           "role": "fig",
           "page": 6,
@@ -351,12 +351,12 @@
     },
     "34041": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34041_fig01.png"
+        "c_systimata-aftokinitou_ch04_34041_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34041_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34041_fig01.png",
           "bank_code": "34041",
           "role": "fig",
           "page": 11,
@@ -381,12 +381,12 @@
     },
     "34042": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34042_fig01.png"
+        "c_systimata-aftokinitou_ch04_34042_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34042_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34042_fig01.png",
           "bank_code": "34042",
           "role": "fig",
           "page": 20,
@@ -411,14 +411,14 @@
     },
     "34043": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34043_fig01.png",
-        "c_systimata-aftokinitou_ch04_#34043_fig02.png",
-        "c_systimata-aftokinitou_ch04_#34043_fig03.png"
+        "c_systimata-aftokinitou_ch04_34043_fig01.png",
+        "c_systimata-aftokinitou_ch04_34043_fig02.png",
+        "c_systimata-aftokinitou_ch04_34043_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34043_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34043_fig01.png",
           "bank_code": "34043",
           "role": "fig",
           "page": 8,
@@ -440,7 +440,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch04_#34043_fig02.png",
+          "file": "c_systimata-aftokinitou_ch04_34043_fig02.png",
           "bank_code": "34043",
           "role": "fig",
           "page": 8,
@@ -462,7 +462,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch04_#34043_fig03.png",
+          "file": "c_systimata-aftokinitou_ch04_34043_fig03.png",
           "bank_code": "34043",
           "role": "fig",
           "page": 8,
@@ -487,14 +487,14 @@
     },
     "34044": {
       "fig": [
-        "c_systimata-aftokinitou_ch04_#34044_fig01.png",
-        "c_systimata-aftokinitou_ch04_#34044_fig02.png",
-        "c_systimata-aftokinitou_ch04_#34044_fig03.png"
+        "c_systimata-aftokinitou_ch04_34044_fig01.png",
+        "c_systimata-aftokinitou_ch04_34044_fig02.png",
+        "c_systimata-aftokinitou_ch04_34044_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_systimata-aftokinitou_ch04_#34044_fig01.png",
+          "file": "c_systimata-aftokinitou_ch04_34044_fig01.png",
           "bank_code": "34044",
           "role": "fig",
           "page": 14,
@@ -516,7 +516,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch04_#34044_fig02.png",
+          "file": "c_systimata-aftokinitou_ch04_34044_fig02.png",
           "bank_code": "34044",
           "role": "fig",
           "page": 14,
@@ -538,7 +538,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_systimata-aftokinitou_ch04_#34044_fig03.png",
+          "file": "c_systimata-aftokinitou_ch04_34044_fig03.png",
           "bank_code": "34044",
           "role": "fig",
           "page": 14,

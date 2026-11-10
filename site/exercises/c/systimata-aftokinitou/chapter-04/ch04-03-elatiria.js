@@ -70,10 +70,10 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "5": "c"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34040_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34040_fig01.webp"
         ],
         "explain": "Σύμφωνα με το σχήμα σύνδεσης ημιελλειπτικού ελατηρίου: 1-β (Κύριο έλασμα), 2-α (Συνδετήρες), 3-δ (Μάτι μάνας), 4-ε (Έδρα ελατηρίου), 5-γ (Ενισχυτικό έλασμα).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34040_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34040_fig01.webp"
       },
       {
         "kind": "mc",
@@ -149,12 +149,12 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           "3": "a"
         },
         "images": [
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34043_fig03.webp",
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34043_fig01.webp",
-          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34043_fig02.webp"
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34043_fig03.webp",
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34043_fig01.webp",
+          "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34043_fig02.webp"
         ],
         "explain": "Αντιστοίχιση τύπων ελατηρίων με τα αντίστοιχα σχήματα: 1-γ (Ημιελλειπτικό), 2-β (Ελικοειδές), 3-α (Στρεπτική ράβδος).",
-        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_#34043_fig01.webp"
+        "image": "images/c/systimata-aftokinitou/chapter-04/c_systimata-aftokinitou_ch04_34043_fig01.webp"
       },
       {
         "kind": "tf",

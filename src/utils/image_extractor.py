@@ -3,8 +3,8 @@
 extract_pdf_images.py — τοπική εξαγωγή εικόνων από PDF Τράπεζας Θεμάτων (0 AI tokens).
 
 Ονοματοδοσία:
-  {grade}_{subject}_ch{NN}_#{bankCode}_fig01.png   ← εκφώνηση / σχήμα
-  {grade}_{subject}_ch{NN}_#{bankCode}_sol01.png   ← λύση / ενδεικτικές απαντήσεις
+  {grade}_{subject}_ch{NN}_{bankCode}_fig01.png   ← εκφώνηση / σχήμα
+  {grade}_{subject}_ch{NN}_{bankCode}_sol01.png   ← λύση / ενδεικτικές απαντήσεις
 
 Παράδειγμα:
   python extract_pdf_images.py c_egkatastaseis-klimatismou_ch02.pdf --render-empty-pages
@@ -548,7 +548,7 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             else:
                 counters[(code, role)] += 1
                 n = counters[(code, role)]
-                name = f"{stem}_#{code}_{role}{n:02d}.png"
+                name = f"{stem}_{code}_{role}{n:02d}.png"
                 bank = code
             has_overlays = False
             if img_bbox:
@@ -637,7 +637,7 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             else:
                 counters[(code, role)] += 1
                 n = counters[(code, role)]
-                name = f"{stem}_#{code}_{role}{n:02d}.png"
+                name = f"{stem}_{code}_{role}{n:02d}.png"
                 bank = code
             clip = None
             kind = "render"

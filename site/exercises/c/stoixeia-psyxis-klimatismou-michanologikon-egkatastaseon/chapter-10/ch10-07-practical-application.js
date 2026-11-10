@@ -14,7 +14,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "10.7",
     "sourceOrder": 4,
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
     ],
     "stem": "Ο αέρας ενός χώρου έχει θερμοκρασία υγρού θερμομέτρου $20\\text{ }^\\circ\\text{C}$ και λόγο υγρασίας $10\\text{ g υδρατμού}/\\text{kg ξηρού αέρα}$. Στον ψυχρομετρικό χάρτη:",
     "items": [
@@ -23,7 +23,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "α",
         "prompt": "α) Να εντοπίσετε το σημείο που αντιπροσωπεύει την κατάσταση του αέρα του χώρου.",
         "explain": "Με βάση τα δεδομένα ($t_{wb} = 20\\text{ }^\\circ\\text{C}$ και $W = 10\\text{ g/kg}$), εντοπίζεται το σημείο 1 τομή των αντίστοιχων ψυχρομετρικών γραμμών στον χάρτη.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
       },
       {
         "kind": "calc",
@@ -35,7 +35,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.5,
         "hint": "Διαβάστε την κατακόρυφη κλίμακα θερμοκρασίας ξηρού βολβού από το σημείο 1.",
         "explain": "Η θερμοκρασία ξηρού βολβού είναι $31\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
       },
       {
         "kind": "calc",
@@ -47,7 +47,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.5,
         "hint": "Ακολουθήστε την οριζόντια γραμμή λόγου υγρασίας προς τα αριστερά έως την καμπύλη κορεσμού (100% σχετική υγρασία).",
         "explain": "Το σημείο δρόσου είναι $14\\text{ }^\\circ\\text{C}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
       },
       {
         "kind": "calc",
@@ -59,7 +59,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 2,
         "hint": "Εντοπίστε την καμπύλη σχετικής υγρασίας που διέρχεται από το σημείο 1.",
         "explain": "Η σχετική υγρασία είναι $36\\%$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
       },
       {
         "kind": "calc",
@@ -71,7 +71,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 0.01,
         "hint": "Διαβάστε την τιμή από τις πλάγιες γραμμές ειδικού όγκου στον χάρτη.",
         "explain": "Ο ειδικός όγκος είναι $0,875\\text{ m}^3/\\text{kg}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp"
       },
       {
         "kind": "calc",
@@ -83,8 +83,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "tolerance": 1,
         "hint": "Προεκτείνετε τη γραμμή υγρού βολβού προς την κλίμακα ενθαλπίας.",
         "explain": "Η ενθαλπία είναι $57\\text{ KJ/kg}$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_sol01.webp",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32788_fig01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_sol01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32788_fig01.webp"
       }
     ]
   }

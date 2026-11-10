@@ -144,12 +144,12 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "β"
         },
         "explain": "Η ορθή αντιστοίχιση ηλεκτροδίων είναι: 1-δ, 2-α, 3-β.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23970_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23970_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23970_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23970_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23970_fig03.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23970_fig04.webp"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23970_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23970_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23970_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23970_fig04.webp"
         ]
       },
       {
@@ -435,11 +435,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "γ"
         },
         "explain": "Η ορθή αντιστοίχιση ραφών συγκόλλησης είναι: 1-α (επίπεδη γωνιακή), 2-δ (κυρτή γωνιακή), 3-γ (κοίλη γωνιακή).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24102_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24102_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24102_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24102_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24102_fig03.webp"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24102_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24102_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24102_fig03.webp"
         ]
       },
       {

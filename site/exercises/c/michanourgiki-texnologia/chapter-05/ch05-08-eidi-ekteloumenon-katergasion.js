@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "d"
         },
         "explain": "Με βάση το σχήμα του φρεζοδράπανου: 1 αντιστοιχεί στο τραπέζι (β), 2 στον ακίνητο ορθοστάτη (α), 3 στο κιβώτιο ταχυτήτων (στ), 4 στο κρεβάτι (ε) και 5 στον κινητό ορθοστάτη (δ).",
-        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_#25464_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-05/c_michanourgiki-texnologia_ch05_25464_fig01.webp"
       },
       {
         "subq": "2.2",

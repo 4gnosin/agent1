@@ -131,12 +131,12 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "δ"
         },
         "explain": "Η αντιστοίχιση βασίζεται στα τυποποιημένα σχήματα των κεφαλών των ήλων: 1-β, 2-α, 3-γ, 4-δ.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig03.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig04.webp"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig04.webp"
         ]
       },
       {
@@ -178,11 +178,11 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "3": "α"
         },
         "explain": "Η ορθή αντιστοίχιση των διατάξεων ήλωσης είναι: 1-β (απλής σειράς), 2-γ (τριπλής σειράς), 3-α (διπλής σειράς).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig05.webp",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig05.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig05.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig06.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23884_fig07.webp"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig05.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig06.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23884_fig07.webp"
         ]
       }
     ]
@@ -247,12 +247,12 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "α"
         },
         "explain": "Η σωστή αντιστοίχιση ανάλογα με τη διάταξη και τις σειρές των ήλων είναι: 1-γ, 2-δ, 3-β, 4-α.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23885_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23885_fig01.webp",
         "images": [
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23885_fig01.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23885_fig02.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23885_fig03.webp",
-          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#23885_fig04.webp"
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23885_fig01.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23885_fig02.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23885_fig03.webp",
+          "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_23885_fig04.webp"
         ]
       },
       {
@@ -418,7 +418,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "5": "c"
         },
         "explain": "Η ορθή αντιστοίχιση των γεωμετρικών μεγεθών της ήλωσης είναι: 1-στ, 2-δ, 3-β, 4-α, 5-γ.",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24203_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24203_fig01.webp"
       },
       {
         "kind": "tf",
@@ -604,7 +604,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           "4": "β"
         },
         "explain": "Η ορθή αντιστοίχιση είναι: 1-ε (κρουστική σφύρα), 2-δ (κορμός), 3-α (αρχική κεφαλή), 4-β (αντιστήριγμα).",
-        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_#24205_fig01.webp"
+        "image": "images/c/stoixeia-michanon/chapter-07/c_stoixeia-michanon_ch07_24205_fig01.webp"
       },
       {
         "kind": "tf",

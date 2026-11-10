@@ -117,7 +117,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Υπολογίστε την επιφάνεια του παραθύρου $F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $18 - (-2) = 20\\text{ }^\\circ\\text{C}$.",
         "explain": "$F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2$\n$Q_{\\text{παραθ.}} = K_{\\text{παραθ.}} \\cdot F_{\\text{παραθ.}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 3 \\cdot (2 \\cdot 1) \\cdot (18 - (-2)) = 3 \\cdot 2 \\cdot 20 = 120 \\text{ kcal/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_#27806_fig01.webp"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27806_fig01.webp"
       },
       {
         "kind": "calc",
@@ -142,7 +142,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "explain": "$Q_{\\text{ΑΔ}} = Q_{\\text{παραθ.}} + Q_{\\text{τοιχ.}} = 120 \\text{ kcal/h} + 168 \\text{ kcal/h} = 288 \\text{ kcal/h}$."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_#27806_fig01.webp"
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27806_fig01.webp"
   },
   {
     "id": "ch11-27809",
@@ -189,7 +189,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "tolerance": 0.01,
         "hint": "Υπολογίστε την επιφάνεια της οροφής $F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $21 - 1 = 20\\text{ }^\\circ\\text{C}$.",
         "explain": "$F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$\n$Q_{\\text{οροφής}} = K_{\\text{οροφής}} \\cdot F_{\\text{οροφής}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 2 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 2 \\cdot 17{,}5 \\cdot 20 = 700 \\text{ kcal/h}$.",
-        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_#27809_fig01.webp"
+        "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27809_fig01.webp"
       },
       {
         "kind": "calc",
@@ -203,7 +203,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "explain": "$F_{\\text{δαπέδου}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$\n$Q_{\\text{δαπέδου}} = K_{\\text{δαπέδου}} \\cdot F_{\\text{δαπέδου}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 1 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 1 \\cdot 17{,}5 \\cdot 20 = 350 \\text{ kcal/h}$."
       }
     ],
-    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_#27809_fig01.webp"
+    "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27809_fig01.webp"
   }
 ]
 );

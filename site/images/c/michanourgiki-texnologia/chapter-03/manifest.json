@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch03_27537_fig01.png",
       "bank_code": "27537",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
+      "file": "c_michanourgiki-texnologia_ch03_27537_fig02.png",
       "bank_code": "27537",
       "role": "fig",
       "page": 2,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
+      "file": "c_michanourgiki-texnologia_ch03_27537_fig03.png",
       "bank_code": "27537",
       "role": "fig",
       "page": 2,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27537_fig04.png",
+      "file": "c_michanourgiki-texnologia_ch03_27537_fig04.png",
       "bank_code": "27537",
       "role": "fig",
       "page": 2,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch03_26787_fig01.png",
       "bank_code": "26787",
       "role": "fig",
       "page": 6,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#26787_fig02.png",
+      "file": "c_michanourgiki-texnologia_ch03_26787_fig02.png",
       "bank_code": "26787",
       "role": "fig",
       "page": 6,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch03_27193_fig01.png",
       "bank_code": "27193",
       "role": "fig",
       "page": 9,
@@ -170,7 +170,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
+      "file": "c_michanourgiki-texnologia_ch03_27193_fig02.png",
       "bank_code": "27193",
       "role": "fig",
       "page": 9,
@@ -192,7 +192,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
+      "file": "c_michanourgiki-texnologia_ch03_27193_fig03.png",
       "bank_code": "27193",
       "role": "fig",
       "page": 9,
@@ -214,7 +214,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#27193_fig04.png",
+      "file": "c_michanourgiki-texnologia_ch03_27193_fig04.png",
       "bank_code": "27193",
       "role": "fig",
       "page": 9,
@@ -236,7 +236,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_michanourgiki-texnologia_ch03_#25642_fig01.png",
+      "file": "c_michanourgiki-texnologia_ch03_25642_fig01.png",
       "bank_code": "25642",
       "role": "fig",
       "page": 14,
@@ -261,12 +261,12 @@
   "by_bank_code": {
     "25642": {
       "fig": [
-        "c_michanourgiki-texnologia_ch03_#25642_fig01.png"
+        "c_michanourgiki-texnologia_ch03_25642_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch03_#25642_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch03_25642_fig01.png",
           "bank_code": "25642",
           "role": "fig",
           "page": 14,
@@ -291,13 +291,13 @@
     },
     "26787": {
       "fig": [
-        "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
-        "c_michanourgiki-texnologia_ch03_#26787_fig02.png"
+        "c_michanourgiki-texnologia_ch03_26787_fig01.png",
+        "c_michanourgiki-texnologia_ch03_26787_fig02.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch03_#26787_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch03_26787_fig01.png",
           "bank_code": "26787",
           "role": "fig",
           "page": 6,
@@ -319,7 +319,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#26787_fig02.png",
+          "file": "c_michanourgiki-texnologia_ch03_26787_fig02.png",
           "bank_code": "26787",
           "role": "fig",
           "page": 6,
@@ -344,15 +344,15 @@
     },
     "27193": {
       "fig": [
-        "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
-        "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
-        "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
-        "c_michanourgiki-texnologia_ch03_#27193_fig04.png"
+        "c_michanourgiki-texnologia_ch03_27193_fig01.png",
+        "c_michanourgiki-texnologia_ch03_27193_fig02.png",
+        "c_michanourgiki-texnologia_ch03_27193_fig03.png",
+        "c_michanourgiki-texnologia_ch03_27193_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27193_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch03_27193_fig01.png",
           "bank_code": "27193",
           "role": "fig",
           "page": 9,
@@ -374,7 +374,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27193_fig02.png",
+          "file": "c_michanourgiki-texnologia_ch03_27193_fig02.png",
           "bank_code": "27193",
           "role": "fig",
           "page": 9,
@@ -396,7 +396,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27193_fig03.png",
+          "file": "c_michanourgiki-texnologia_ch03_27193_fig03.png",
           "bank_code": "27193",
           "role": "fig",
           "page": 9,
@@ -418,7 +418,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27193_fig04.png",
+          "file": "c_michanourgiki-texnologia_ch03_27193_fig04.png",
           "bank_code": "27193",
           "role": "fig",
           "page": 9,
@@ -443,15 +443,15 @@
     },
     "27537": {
       "fig": [
-        "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
-        "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
-        "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
-        "c_michanourgiki-texnologia_ch03_#27537_fig04.png"
+        "c_michanourgiki-texnologia_ch03_27537_fig01.png",
+        "c_michanourgiki-texnologia_ch03_27537_fig02.png",
+        "c_michanourgiki-texnologia_ch03_27537_fig03.png",
+        "c_michanourgiki-texnologia_ch03_27537_fig04.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27537_fig01.png",
+          "file": "c_michanourgiki-texnologia_ch03_27537_fig01.png",
           "bank_code": "27537",
           "role": "fig",
           "page": 2,
@@ -473,7 +473,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27537_fig02.png",
+          "file": "c_michanourgiki-texnologia_ch03_27537_fig02.png",
           "bank_code": "27537",
           "role": "fig",
           "page": 2,
@@ -495,7 +495,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27537_fig03.png",
+          "file": "c_michanourgiki-texnologia_ch03_27537_fig03.png",
           "bank_code": "27537",
           "role": "fig",
           "page": 2,
@@ -517,7 +517,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "c_michanourgiki-texnologia_ch03_#27537_fig04.png",
+          "file": "c_michanourgiki-texnologia_ch03_27537_fig04.png",
           "bank_code": "27537",
           "role": "fig",
           "page": 2,

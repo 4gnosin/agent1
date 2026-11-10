@@ -70,14 +70,14 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "4.1",
         "kind": "open",
         "prompt": "Σχεδιάστε τη μεταβολή σε διάγραμμα πίεσης όγκου ($P-V$) και σημειώστε με ένα βέλος τη φορά της μεταβολής.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23963_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23963_sol01.webp",
         "explain": "Η ισοθερμοκρασιακή μεταβολή απεικονίζεται σε διάγραμμα $P-V$ ως καμπύλη ισόotherm (ισόθερμη)."
       },
       {
         "subq": "4.2",
         "kind": "open",
         "prompt": "Απεικονίστε στο διάγραμμα το έργο που προσφέρθηκε.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23963_sol02.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23963_sol02.webp",
         "explain": "Το έργο αντιστοιχεί στην επιφάνεια κάτω από την καμπύλη της ισοθερμοκρασιακής μεταβολής."
       },
       {
@@ -89,12 +89,12 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "unit": "kJ",
         "tolerance": 0.01,
         "explain": "Σύμφωνα με τον πρώτο θερμοδυναμικό νόμο: $Q = \\Delta U + W$. Επειδή $\\Delta U = 0$, προκύπτει $Q = W$. Το έργο προσφέρθηκε στο αέριο, άρα έχει αρνητικό πρόσημο ($W = -200\\text{ kJ}$), οπότε $Q = -200\\text{ kJ}$. Η θερμότητα έχει αρνητικό πρόσημο, άρα αποδόθηκε από το αέριο προς το περιβάλλον.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23963_sol01.webp"
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23963_sol01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23963_sol01.webp",
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23963_sol02.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23963_sol01.webp",
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23963_sol02.webp"
     ]
   },
   {
@@ -113,7 +113,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "4.1",
         "kind": "open",
         "prompt": "Αέριο βρίσκεται σε δοχείο σε κατάσταση Α και υφίσταται τις ακόλουθες μεταβολές:\nα. Θερμαίνεται, υπό σταθερό όγκο, μέχρι να διπλασιάσει την απόλυτη θερμοκρασία του (κατάσταση Β),\nβ. Εκτονώνεται, υπό σταθερή θερμοκρασία, αποκτώντας την αρχική του πίεση (κατάσταση Γ), και\nγ. Επιστρέφει ισόθλιπτα στην αρχική του κατάσταση Α.\n\nΝα παραστήσετε τις μεταβολές αυτές σε διάγραμμα με άξονες $p-V$.",
-        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23978_sol01.webp",
+        "hintImage": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23978_sol01.webp",
         "explain": "Οι τρεις διαδοχικές μεταβολές σχηματίζουν κλειστό κύκλο στο διάγραμμα $p-V$ (ισόογκη θέρμανση Α–Β, ισοθερμοκρασιακή εκτόνωση Β–Γ, ισόθλιπτη συμπίεση Γ–Α)."
       },
       {
@@ -140,7 +140,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           }
         ],
         "answer": "a",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23978_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23978_fig01.webp",
         "explain": "Α–Β: Ισόθλιπτη μεταβολή (οριζόντια σε σταθερό $p=5\\text{ bar}$),\nΒ–Γ: Ισοθερμοκρασιακή μεταβολή ($T_B = T_\\Gamma$),\nΓ–Δ: Ισόθλιπτη μεταβολή (οριζόντια σε σταθερό $p=1\\text{ bar}$),\nΔ–Α: Ισόογκη μεταβολή (κατακόρυφη σε σταθερό $V=2\\text{ L}$)."
       },
       {
@@ -152,11 +152,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "unit": "L",
         "tolerance": 0.01,
         "explain": "Η μεταβολή Β–Γ είναι ισοθερμοκρασιακή, επομένως ισχύει ο νόμος Boyle-Mariotte:\n$$P_B \\cdot V_B = P_\\Gamma \\cdot V_\\Gamma \\Rightarrow V_\\Gamma = \\frac{P_B \\cdot V_B}{P_\\Gamma} = \\frac{5\\text{ bar} \\cdot 4\\text{ L}}{1\\text{ bar}} = 20\\text{ L}$$",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23978_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23978_fig01.webp"
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_#23978_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch03_23978_sol01.webp"
     ]
   },
   {

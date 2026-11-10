@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_17710_fig01.png",
       "bank_code": "17710",
       "role": "fig",
       "page": 4,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_18711_fig01.png",
       "bank_code": "18711",
       "role": "fig",
       "page": 6,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_18711_fig02.png",
       "bank_code": "18711",
       "role": "fig",
       "page": 6,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_18886_fig01.png",
       "bank_code": "18886",
       "role": "fig",
       "page": 9,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png",
+      "file": "b_texnologia-michanologikon-kataskevon_ch07_25410_fig01.png",
       "bank_code": "25410",
       "role": "fig",
       "page": 11,
@@ -129,12 +129,12 @@
   "by_bank_code": {
     "17710": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch07_17710_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch07_#17710_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_17710_fig01.png",
           "bank_code": "17710",
           "role": "fig",
           "page": 4,
@@ -159,14 +159,14 @@
     },
     "18711": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
-        "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
-        "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig03.png"
+        "b_texnologia-michanologikon-kataskevon_ch07_18711_fig01.png",
+        "b_texnologia-michanologikon-kataskevon_ch07_18711_fig02.png",
+        "b_texnologia-michanologikon-kataskevon_ch07_18711_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_18711_fig01.png",
           "bank_code": "18711",
           "role": "fig",
           "page": 6,
@@ -188,7 +188,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18711_fig02.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_18711_fig02.png",
           "bank_code": "18711",
           "role": "fig",
           "page": 6,
@@ -213,12 +213,12 @@
     },
     "18886": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch07_18886_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch07_#18886_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_18886_fig01.png",
           "bank_code": "18886",
           "role": "fig",
           "page": 9,
@@ -243,12 +243,12 @@
     },
     "25410": {
       "fig": [
-        "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png"
+        "b_texnologia-michanologikon-kataskevon_ch07_25410_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_texnologia-michanologikon-kataskevon_ch07_#25410_fig01.png",
+          "file": "b_texnologia-michanologikon-kataskevon_ch07_25410_fig01.png",
           "bank_code": "25410",
           "role": "fig",
           "page": 11,

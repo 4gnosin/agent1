@@ -39,7 +39,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Με βάση τα στοιχεία του ψυκτικού μέσου R12, στην πίεση 1,51 bar (ή αντίστοιχη αντιστοιχία πίνακα) η ατμοποίηση γίνεται στους -20 °C.",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#26853_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_26853_fig01.webp"
       },
       {
         "kind": "mc",
@@ -157,10 +157,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "4": "a"
         },
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#29450_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_29450_fig01.webp"
         ],
         "explain": "1 - δ (Εξατμιστής), 2 - ε (Εκτονωτικό μέσο), 3 - β (Συμπυκνωτής), 4 - α (Συμπιεστής).",
-        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_#29450_fig01.webp"
+        "image": "images/c/stoixeia-psyxis-klimatismou/chapter-05/c_stoixeia-psyxis-klimatismou_ch05_29450_fig01.webp"
       },
       {
         "kind": "tf",

@@ -75,7 +75,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           "5": "a"
         },
         "explain": "Η σωστή αντιστοίχιση βάσει του σχεδίου της λειαντικής μηχανής γενικής χρήσης είναι: 1 $\\rightarrow$ γ, 2 $\\rightarrow$ β, 3 $\\rightarrow$ δ, 4 $\\rightarrow$ στ, 5 $\\rightarrow$ α.",
-        "image": "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_#27619_fig01.webp"
+        "image": "images/c/michanourgiki-texnologia/chapter-06/c_michanourgiki-texnologia_ch06_27619_fig01.webp"
       },
       {
         "kind": "tf",

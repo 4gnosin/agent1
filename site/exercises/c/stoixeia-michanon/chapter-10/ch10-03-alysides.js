@@ -140,7 +140,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "subq": "2.2",
         "subqPrompt": "Με βάση το παρακάτω σχήμα, να αντιστοιχίσετε τα σύμβολα (Στήλη Α) με τις ονομασίες τους (Στήλη Β).",
         "prompt": "Αντιστοίχιση συμβολισμών διαστάσεων αλυσίδας:",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29757_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29757_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -180,7 +180,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         },
         "explain": "Σύμφωνα με τα τυποποιημένα στοιχεία αλυσίδων: d1 είναι η εξωτερική διάμετρος ράουλου/δαχτυλιδιού, b1 το εσωτερικό πλάτος ελασμάτων και t (ή p) το βήμα.",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29757_fig01.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29757_fig01.webp"
         ]
       }
     ]
@@ -202,7 +202,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "Με βάση το παρακάτω σχήμα μιας αλυσίδας με ράουλα, να αντιστοιχίσετε τα μέρη (Στήλη Α) με τις ονομασίες τους (Στήλη Β).",
         "prompt": "Αντιστοίχιση μερών αλυσίδας με ράουλα:",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29758_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29758_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -260,7 +260,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         },
         "explain": "Η αντιστοίχιση βασίζεται στη δομή της αλυσίδας ράουλου: 1-εσωτερικό έλασμα, 2-ράουλο, 3-πείρος, 4-δαχτυλίδι, 5-εξωτερικό έλασμα.",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#29758_fig01.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_29758_fig01.webp"
         ]
       },
       {
@@ -317,7 +317,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "kind": "blank",
         "subq": "2.1",
         "subqPrompt": "Με βάση το σχήμα διαβάθμισης της περιφερειακής δύναμης, να συμπληρώσετε τα κενά με τις κατάλληλες λέξεις/φράσεις.",
-        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#30048_fig01.webp",
+        "image": "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_30048_fig01.webp",
         "textBefore": [
           "1. Στις αλυσίδες, η περιφερειακή δύναμη αναπτύσσεται με την απευθείας επαφή στοιχείου ‐ δοντιού. Η δύναμη αυτή ",
           " (είναι/δεν είναι) ίδια για όλα τα στοιχεία που κάποια χρονική στιγμή είναι ταυτόχρονα σε εμπλοκή."
@@ -331,7 +331,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         ],
         "explain": "Η κατανομή της δύναμης στα στοιχεία σε εμπλοκή δεν είναι ομοιόμορφη.",
         "images": [
-          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_#30048_fig01.webp"
+          "images/c/stoixeia-michanon/chapter-10/c_stoixeia-michanon_ch10_30048_fig01.webp"
         ]
       },
       {

@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png",
+      "file": "c_texnologia-elegxou-diagnoseon_ch01_24954_sol01.png",
       "bank_code": "24954",
       "role": "sol",
       "page": 7,
@@ -42,11 +42,11 @@
     "24954": {
       "fig": [],
       "sol": [
-        "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png"
+        "c_texnologia-elegxou-diagnoseon_ch01_24954_sol01.png"
       ],
       "images": [
         {
-          "file": "c_texnologia-elegxou-diagnoseon_ch01_#24954_sol01.png",
+          "file": "c_texnologia-elegxou-diagnoseon_ch01_24954_sol01.png",
           "bank_code": "24954",
           "role": "sol",
           "page": 7,

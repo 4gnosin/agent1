@@ -42,7 +42,19 @@ def optimize_images():
     print("       4GNOSIN - ΒΕΛΤΙΣΤΟΠΟΙΗΣΗ ΕΙΚΟΝΩΝ ΣΕ WEBP (PIL / METHOD 6)")
     print("=" * 68)
     print("1. ΣΑΡΩΣΗ ΦΑΚΕΛΟΥ ΕΙΚΟΝΩΝ (site/images)...")
-    
+
+    # Έλεγχος και αφαίρεση '#' από ονόματα αρχείων εικόνας
+    hash_files = [f for f in glob.glob(os.path.join(images_dir, "**", "*"), recursive=True) if os.path.isfile(f) and "#" in os.path.basename(f)]
+    if hash_files:
+        print(f"   ℹ️ Εντοπίστηκαν {len(hash_files)} αρχεία με '#' προς εξομάλυνση...")
+        for hf in hash_files:
+            d_name = os.path.dirname(hf)
+            b_name = os.path.basename(hf).replace("_#", "_").replace("#", "")
+            t_path = os.path.join(d_name, b_name)
+            if not os.path.exists(t_path):
+                os.rename(hf, t_path)
+        print("   ✅ Ολοκληρώθηκε η αφαίρεση του '#' από τα αρχεία εικόνων.")
+
     png_files = glob.glob(os.path.join(images_dir, "**", "*.png"), recursive=True)
     jpg_files = glob.glob(os.path.join(images_dir, "**", "*.jpg"), recursive=True)
     all_files = png_files + jpg_files
@@ -105,15 +117,19 @@ def optimize_images():
             with open(ex_path, "r", encoding="utf-8") as f:
                 content = f.read()
             
+            repls = 0
             if ".png" in content or ".jpg" in content:
-                new_content, count1 = re.subn(r'images/([^"\']+?)\.png', r'images/\1.webp', content)
-                new_content, count2 = re.subn(r'images/([^"\']+?)\.jpg', r'images/\1.webp', new_content)
-                repls = count1 + count2
-                if repls > 0:
-                    with open(ex_path, "w", encoding="utf-8") as f:
-                        f.write(new_content)
-                    updated_ex_files += 1
-                    total_replacements += repls
+                content, count1 = re.subn(r'images/([^"\']+?)\.png', r'images/\1.webp', content)
+                content, count2 = re.subn(r'images/([^"\']+?)\.jpg', r'images/\1.webp', content)
+                repls += count1 + count2
+            if "_#" in content:
+                content, count3 = re.subn(r'_#(?=\d+)', '_', content)
+                repls += count3
+            if repls > 0:
+                with open(ex_path, "w", encoding="utf-8") as f:
+                    f.write(content)
+                updated_ex_files += 1
+                total_replacements += repls
         except Exception as e:
             print(f"   ⚠️ Σφάλμα στο {ex_path}: {e}")
             

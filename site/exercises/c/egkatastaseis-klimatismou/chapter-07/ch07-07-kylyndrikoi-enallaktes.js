@@ -82,11 +82,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "Αντιστοίχιση: 1 – β (Αντιρροή), 2 – γ (Διασταυρούμενη ροή), 3 – α (Ομορροή).",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32191_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32191_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32191_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32191_fig02.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32191_fig03.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32191_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32191_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32191_fig03.webp"
         ]
       },
       {
@@ -114,7 +114,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         ],
         "answer": "a",
         "explain": "Στον συγκεκριμένο τύπο εναλλάκτη, λόγω της διαδρομής των ρευστών, συνυπάρχουν περιοχές ομορροής και αντιρροής.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32191_fig04.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32191_fig04.webp"
       }
     ]
   },
@@ -230,7 +230,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "4": "b"
         },
         "explain": "Αντιστοίχιση: 1 – ε, 2 – α, 3 – γ, 4 – β.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#32839_fig01.webp"
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_32839_fig01.webp"
       }
     ]
   },
@@ -289,11 +289,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "a"
         },
         "explain": "Αντιστοίχιση: 1 – γ, 2 – δ, 3 – α.",
-        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#34653_fig01.webp",
+        "image": "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_34653_fig01.webp",
         "images": [
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#34653_fig01.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#34653_fig02.webp",
-          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_#34653_fig03.webp"
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_34653_fig01.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_34653_fig02.webp",
+          "images/c/egkatastaseis-klimatismou/chapter-07/c_egkatastaseis-klimatismou_ch07_34653_fig03.webp"
         ]
       },
       {

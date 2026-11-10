@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "b_thermod_ch16_#29453_fig01.png",
+      "file": "b_thermod_ch16_29453_fig01.png",
       "bank_code": "29453",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#29453_fig02.png",
+      "file": "b_thermod_ch16_29453_fig02.png",
       "bank_code": "29453",
       "role": "fig",
       "page": 2,
@@ -60,7 +60,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#29453_fig03.png",
+      "file": "b_thermod_ch16_29453_fig03.png",
       "bank_code": "29453",
       "role": "fig",
       "page": 2,
@@ -82,7 +82,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#27121_fig01.png",
+      "file": "b_thermod_ch16_27121_fig01.png",
       "bank_code": "27121",
       "role": "fig",
       "page": 17,
@@ -104,7 +104,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#27121_fig02.png",
+      "file": "b_thermod_ch16_27121_fig02.png",
       "bank_code": "27121",
       "role": "fig",
       "page": 17,
@@ -126,7 +126,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#27121_fig03.png",
+      "file": "b_thermod_ch16_27121_fig03.png",
       "bank_code": "27121",
       "role": "fig",
       "page": 17,
@@ -148,7 +148,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "b_thermod_ch16_#29232_fig01.png",
+      "file": "b_thermod_ch16_29232_fig01.png",
       "bank_code": "29232",
       "role": "fig",
       "page": 20,
@@ -173,14 +173,14 @@
   "by_bank_code": {
     "27121": {
       "fig": [
-        "b_thermod_ch16_#27121_fig01.png",
-        "b_thermod_ch16_#27121_fig02.png",
-        "b_thermod_ch16_#27121_fig03.png"
+        "b_thermod_ch16_27121_fig01.png",
+        "b_thermod_ch16_27121_fig02.png",
+        "b_thermod_ch16_27121_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch16_#27121_fig01.png",
+          "file": "b_thermod_ch16_27121_fig01.png",
           "bank_code": "27121",
           "role": "fig",
           "page": 17,
@@ -202,7 +202,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch16_#27121_fig02.png",
+          "file": "b_thermod_ch16_27121_fig02.png",
           "bank_code": "27121",
           "role": "fig",
           "page": 17,
@@ -224,7 +224,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch16_#27121_fig03.png",
+          "file": "b_thermod_ch16_27121_fig03.png",
           "bank_code": "27121",
           "role": "fig",
           "page": 17,
@@ -249,12 +249,12 @@
     },
     "29232": {
       "fig": [
-        "b_thermod_ch16_#29232_fig01.png"
+        "b_thermod_ch16_29232_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch16_#29232_fig01.png",
+          "file": "b_thermod_ch16_29232_fig01.png",
           "bank_code": "29232",
           "role": "fig",
           "page": 20,
@@ -279,14 +279,14 @@
     },
     "29453": {
       "fig": [
-        "b_thermod_ch16_#29453_fig01.png",
-        "b_thermod_ch16_#29453_fig02.png",
-        "b_thermod_ch16_#29453_fig03.png"
+        "b_thermod_ch16_29453_fig01.png",
+        "b_thermod_ch16_29453_fig02.png",
+        "b_thermod_ch16_29453_fig03.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "b_thermod_ch16_#29453_fig01.png",
+          "file": "b_thermod_ch16_29453_fig01.png",
           "bank_code": "29453",
           "role": "fig",
           "page": 2,
@@ -308,7 +308,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch16_#29453_fig02.png",
+          "file": "b_thermod_ch16_29453_fig02.png",
           "bank_code": "29453",
           "role": "fig",
           "page": 2,
@@ -330,7 +330,7 @@
           "is_full_page_scan": false
         },
         {
-          "file": "b_thermod_ch16_#29453_fig03.png",
+          "file": "b_thermod_ch16_29453_fig03.png",
           "bank_code": "29453",
           "role": "fig",
           "page": 2,

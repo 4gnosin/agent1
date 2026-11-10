@@ -55,7 +55,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "2.2",
         "subqPrompt": "Στην παρακάτω εικόνα απεικονίζεται o ψυχρομετρικός χάρτης και ένα σημείο Σ πάνω στο χάρτη. Να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε, στ της στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα σημεία/αριθμούς του χάρτη με τα αντίστοιχα μεγέθη:",
-        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32936_fig01.webp",
+        "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32936_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -113,7 +113,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         },
         "explain": "Η αντιστοίχιση προκύπτει από την ανάγνωση των ισοδύναμων καμπυλών και γραμμών του ψυχρομετρικού χάρτη για το σημείο Σ.",
         "images": [
-          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#32936_fig01.webp"
+          "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_32936_fig01.webp"
         ]
       }
     ]
@@ -130,7 +130,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
     "theory": "ch10-07-praktiki-efarmogi",
     "sourceOrder": 2,
     "stem": "Ο αέρας σε έναν χώρο έχει σχετική υγρασία 70% και θερμοκρασία 25 °C (θερμοκρασία ξηρού βολβού). Με τη βοήθεια του ψυχρομετρικού χάρτη στο σχήμα που ακολουθεί:",
-    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33886_fig01.webp",
+    "image": "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33886_fig01.webp",
     "items": [
       {
         "kind": "open",
@@ -191,7 +191,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
       }
     ],
     "solutionImages": [
-      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_#33886_sol01.webp"
+      "images/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch10_33886_sol01.webp"
     ]
   }
 ]

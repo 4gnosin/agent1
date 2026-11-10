@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_stoixeia-michanon_ch11_#30677_fig01.png",
+      "file": "c_stoixeia-michanon_ch11_30677_fig01.png",
       "bank_code": "30677",
       "role": "fig",
       "page": 2,
@@ -38,7 +38,7 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-michanon_ch11_#23889_fig01.png",
+      "file": "c_stoixeia-michanon_ch11_23889_fig01.png",
       "bank_code": "23889",
       "role": "fig",
       "page": 5,
@@ -63,12 +63,12 @@
   "by_bank_code": {
     "23889": {
       "fig": [
-        "c_stoixeia-michanon_ch11_#23889_fig01.png"
+        "c_stoixeia-michanon_ch11_23889_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-michanon_ch11_#23889_fig01.png",
+          "file": "c_stoixeia-michanon_ch11_23889_fig01.png",
           "bank_code": "23889",
           "role": "fig",
           "page": 5,
@@ -93,12 +93,12 @@
     },
     "30677": {
       "fig": [
-        "c_stoixeia-michanon_ch11_#30677_fig01.png"
+        "c_stoixeia-michanon_ch11_30677_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-michanon_ch11_#30677_fig01.png",
+          "file": "c_stoixeia-michanon_ch11_30677_fig01.png",
           "bank_code": "30677",
           "role": "fig",
           "page": 2,

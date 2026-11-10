@@ -25,19 +25,19 @@ window.EXERCISES.push(...
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο $W = P \\cdot (V_2 - V_1)$ λαμβάνοντας υπόψη ότι $1 \\text{ kN/m}^2 \\cdot \\text{m}^3 = 1 \\text{ kJ}$.",
         "explain": "$W = P \\cdot \\Delta V = 400 \\text{ kN/m}^2 \\cdot (1,2 - 0,2)\\text{ m}^3 = 400 \\cdot 1\\text{ kJ} = 400\\text{ kJ}$.",
-        "hintImage": "images/b/thermod/chapter-04/b_thermod_ch04_#18614_sol01.webp"
+        "hintImage": "images/b/thermod/chapter-04/b_thermod_ch04_18614_sol01.webp"
       },
       {
         "kind": "open",
         "subq": "β",
         "subqPrompt": "β) Να παραστήσετε σε διάγραμμα πίεσης - όγκου (P-V) το έργο (W) που παρήγαγε το παραπάνω σύστημα.",
         "prompt": "Να παραστήσετε σε διάγραμμα πίεσης - όγκου ($P-V$) το έργο $W$ που παρήγαγε το παραπάνω σύστημα.",
-        "hintImage": "images/b/thermod/chapter-04/b_thermod_ch04_#18614_sol01.webp",
+        "hintImage": "images/b/thermod/chapter-04/b_thermod_ch04_18614_sol01.webp",
         "explain": "Το έργο είναι ίσο με το εμβαδόν του γραμμοσκιασμένου παραλληλογράμμου ($P \\cdot \\Delta V$)."
       }
     ],
     "solutionImages": [
-      "images/b/thermod/chapter-04/b_thermod_ch04_#18614_sol01.webp"
+      "images/b/thermod/chapter-04/b_thermod_ch04_18614_sol01.webp"
     ]
   }
 ]

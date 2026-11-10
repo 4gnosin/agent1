@@ -19,7 +19,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         "subq": "2.1",
         "subqPrompt": "Με βάση το Σχήμα 1 που απεικονίζει ένα συγκρότημα ψυκτικής μονάδας σε αυτοκίνητο, να γράψετε τους αριθμούς 1, 2, 3, 4, 5 από τη Στήλη Α και δίπλα ένα από τα γράμματα α, β, γ, δ, ε της Στήλης Β που δίνει τη σωστή αντιστοίχιση.",
         "prompt": "Αντιστοιχίστε τα στοιχεία του συγκροτήματος ψυκτικής μονάδας (1 έως 5) με τις ονομασίες τους (α έως ε):",
-        "image": "images/c/systimata-aftokinitou/chapter-08/c_systimata-aftokinitou_ch08_#34983_fig01.webp",
+        "image": "images/c/systimata-aftokinitou/chapter-08/c_systimata-aftokinitou_ch08_34983_fig01.webp",
         "left": [
           {
             "id": "1",
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
         },
         "explain": "Σύμφωνα με το σχήμα του κύκλου ψύξης του αυτοκινήτου: 1 αντιστοιχεί στον συμπυκνωτή (β), 2 στον συλλέκτη-φίλτρο ψυκτικού υγρού (ε), 3 στον συμπιεστή (α), 4 στην εκτονωτική βαλβίδα (δ) και 5 στον εξατμιστή ή ατμοποιητή (γ).",
         "images": [
-          "images/c/systimata-aftokinitou/chapter-08/c_systimata-aftokinitou_ch08_#34983_fig01.webp"
+          "images/c/systimata-aftokinitou/chapter-08/c_systimata-aftokinitou_ch08_34983_fig01.webp"
         ]
       },
       {

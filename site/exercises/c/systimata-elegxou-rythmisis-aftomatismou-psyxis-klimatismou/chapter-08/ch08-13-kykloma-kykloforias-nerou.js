@@ -20,9 +20,9 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "subqPrompt": "4.1 Να αναφέρετε τα τέσσερα σημεία (Α, Β, Γ, Δ) στο σύστημα ψύξης και να εξηγήσετε τι πρέπει να ρυθμίζεται/ελέγχεται.",
         "prompt": "4.1 Να αναφέρετε τα τέσσερα σημεία (Α, Β, Γ, Δ) στο σύστημα ψύξης και να εξηγήσετε τι πρέπει να ρυθμίζεται/ελέγχεται.",
         "explain": "Α: Θερμοκρασία νερού επιστροφής (ανοιχτός βρόχος). Β: Θερμοκρασία εξερχόμενου νερού για αποφυγή παγώματος, συνήθως στους 3°C (ανοιχτός βρόχος). Γ: Ύπαρξη ροής κρύου νερού μέσω flow switch (ανοιχτός βρόχος). Δ: Πίεση συμπύκνωσης στον υδρόψυκτο συμπυκνωτή.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29602_fig01.webp",
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_29602_fig01.webp",
         "images": [
-          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_#29602_fig01.webp"
+          "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-08/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch08_29602_fig01.webp"
         ]
       },
       {

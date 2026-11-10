@@ -16,7 +16,7 @@
   },
   "images": [
     {
-      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png",
+      "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_25271_fig01.png",
       "bank_code": "25271",
       "role": "fig",
       "page": 2,
@@ -41,12 +41,12 @@
   "by_bank_code": {
     "25271": {
       "fig": [
-        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png"
+        "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_25271_fig01.png"
       ],
       "sol": [],
       "images": [
         {
-          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_#25271_fig01.png",
+          "file": "c_stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon_ch05_25271_fig01.png",
           "bank_code": "25271",
           "role": "fig",
           "page": 2,

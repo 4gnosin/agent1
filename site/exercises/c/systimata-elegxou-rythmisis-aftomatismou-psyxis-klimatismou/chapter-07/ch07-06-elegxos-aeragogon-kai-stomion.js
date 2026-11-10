@@ -40,7 +40,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         ],
         "answer": "a",
         "explain": "Όχι, γιατί δεν υπάρχει αισθητήριο με την ένδειξη AQ (Air Quality) στο σχήμα.",
-        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_#30190_fig01.webp"
+        "image": "images/c/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou/chapter-07/c_systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou_ch07_30190_fig01.webp"
       },
       {
         "kind": "mc",
