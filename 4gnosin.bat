@@ -4,6 +4,7 @@ cd /d "%~dp0"
 
 set "PYTHONIOENCODING=utf-8"
 set "PYTHONUTF8=1"
+set "PYTHONDONTWRITEBYTECODE=1"
 
 title 4gnosin Control Center
 
@@ -11,7 +12,7 @@ if exist "%~dp0.venv\Scripts\activate.bat" (
   call "%~dp0.venv\Scripts\activate.bat"
 )
 
-python menu.py %*
+python "%~dp0scripts\menu.py" %*
 
 if %ERRORLEVEL% neq 0 (
   echo.

@@ -123,7 +123,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "unit": "bar",
         "tolerance": 0.01,
         "hint": "Προσθέστε στην ένδειξη του μανομέτρου την ατμοσφαιρική πίεση.",
-        "explain": "Για το αέριο στο δοχείο Β έχουμε: \\( P_{\text{Bαπ}} = P_{\text{Bμαν}} + P_{\text{ατμ}} = 2,5\\text{ bar} + 1\\text{ bar} = 3,5\\text{ bar} \\)."
+        "explain": "Για το αέριο στο δοχείο Β έχουμε: \\( P_{Bαπ} = P_{Bμαν} + P_{ατμ} = 2,5\\text{ bar} + 1\\text{ bar} = 3,5\\text{ bar} \\)."
       },
       {
         "kind": "calc",
@@ -134,7 +134,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "unit": "bar",
         "tolerance": 0.01,
         "hint": "Η πίεση περιβάλλοντος για το δοχείο Α είναι η απόλυτη πίεση του αερίου Β.",
-        "explain": "Για το δοχείο Α ισχύει \\( P_{\text{Aαπ}} = P_{\text{Aμαν}} + P_{\text{περιβ}} \\) όπου \\( P_{\text{περιβ}} = P_{\text{Bαπ}} = 3,5\\text{ bar} \\). Άρα \\( P_{\text{Aμαν}} = P_{\text{Aαπ}} - P_{\text{Bαπ}} = 5\\text{ bar} - 3,5\\text{ bar} = 1,5\\text{ bar} \\)."
+        "explain": "Για το δοχείο Α ισχύει \\( P_{Aαπ} = P_{Aμαν} + P_{περιβ} \\) όπου \\( P_{περιβ} = P_{Bαπ} = 3,5\\text{ bar} \\). Άρα \\( P_{Aμαν} = P_{Aαπ} - P_{Bαπ} = 5\\text{ bar} - 3,5\\text{ bar} = 1,5\\text{ bar} \\)."
       }
     ]
   },

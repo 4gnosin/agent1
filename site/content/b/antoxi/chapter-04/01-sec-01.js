@@ -1,7 +1,7 @@
 window.SUBJECT_DATA = window.SUBJECT_DATA || {};
 window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [], groups: [], exercises: [] };
 window.SUBJECT_DATA["antoxi"].sections.push({
-  "slug": "sec-01",
+  "slug": "ch04-sec-01",
   "num": "4.1",
   "title": "Κέντρο βάρους",
   "kicker": "Μηχανολογία ΕΠΑΛ",

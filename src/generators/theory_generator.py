@@ -71,7 +71,9 @@ if __package__ is None or __package__ == "":
 
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-    from src.utils.structure import catalog_id_for_subject, with_structure_rules
+    from src.utils.latex_sanitizer import sanitize_obj, sanitize_text
+
+    from src.utils.structure import catalog_id_for_subject, normalize_subject, with_structure_rules
 
     from src.validators.site_validator import SiteValidator
 
@@ -93,7 +95,9 @@ if __package__ is None or __package__ == "":
 
 else:
 
-    from ..utils.structure import catalog_id_for_subject, with_structure_rules
+    from ..utils.latex_sanitizer import sanitize_obj, sanitize_text
+
+    from ..utils.structure import catalog_id_for_subject, normalize_subject, with_structure_rules
 
     from ..validators.site_validator import SiteValidator
 
@@ -473,10 +477,24 @@ class TheoryGenerator:
             lambda m: '"type": "callout",\n      ' + m.group(1).strip() + '\n    }',
             text
         )
+        # Αυτόματη διόρθωση blocks χωρίς "type" (image, src, h, p, formula, ul)
+        text = re.sub(r'\{\s*\"image\"\s*:\s*', r'{"type": "image", "src": ', text)
+        text = re.sub(r'\{\s*\"src\"\s*:\s*(\"[^"]+\")', r'{"type": "image", "src": \1', text)
+        text = re.sub(r'\{\s*\"h\"\s*:\s*', r'{"type": "h", "text": ', text)
+        text = re.sub(r'\{\s*\"p\"\s*:\s*', r'{"type": "p", "text": ', text)
+        text = re.sub(r'\{\s*\"formula\"\s*:\s*', r'{"type": "formula", "html": ', text)
+        text = re.sub(r'\{\s*\"ul\"\s*:\s*\[', r'{"type": "ul", "items": [', text)
+        # Αυτόματη διόρθωση mismatched delimiters \( ... \} και \[ ... \)
+        text = re.sub(r'\\\(([\s\S]*?)\\\}', r'\\(\1\\)', text)
+        text = re.sub(r'\\\[([\s\S]*?)\\\)', r'\\[\1\\]', text)
+        # Εξασφάλιση διπλών backslashes για delimiters \(, \), \[, \] σε JS strings
+        text = re.sub(r'(?<!\\)\\(?=[()[\]])', r'\\\\', text)
         # Εξασφάλιση διπλών backslashes για LaTeX commands σε JS strings
         latex_tokens = (
-            "varphi|theta|circ|Sigma|Delta|sqrt|frac|alpha|beta|gamma|lambda|mu|rho|tau|omega|"
-            "Phi|neq|approx|cdot|times|pm|mp|leq|geq|left|right|begin|end|aligned|text"
+            "sigma|varsigma|varphi|theta|vartheta|circ|Sigma|Delta|Gamma|Lambda|Phi|Psi|Omega|"
+            "sqrt|frac|alpha|beta|gamma|delta|epsilon|varepsilon|zeta|eta|iota|kappa|lambda|mu|nu|xi|"
+            "pi|rho|tau|upsilon|chi|psi|omega|sum|prod|int|lim|log|ln|neq|approx|cdot|times|pm|mp|"
+            "leq|geq|le|ge|left|right|begin|end|aligned|text|mathbf|mathrm|quad|qquad|to|sim"
         )
         text = re.sub(rf'(?<!\\)\\(?={latex_tokens}\\b)', r'\\\\', text)
 
@@ -550,6 +568,8 @@ class TheoryGenerator:
         """
 
         grade = normalize_grade(grade)
+        subject = normalize_subject(subject)
+        section_slug = slug if slug.startswith(f"ch{chapter:02d}-") else f"ch{chapter:02d}-{slug}"
 
         system_prompt = self.load_system_prompt()
 
@@ -593,7 +613,7 @@ class TheoryGenerator:
 
             f"- Αριθμός Section (num): \"{num}\"\n"
 
-            f"- Slug: \"{slug}\"\n"
+            f"- Slug: \"{section_slug}\"\n"
 
             f"- Τίτλος: \"{title}\"\n"
 
@@ -669,6 +689,8 @@ class TheoryGenerator:
 
         target_file = target_dir / filename
 
+        js_code = sanitize_text(js_code)
+
         target_file.write_text(js_code, encoding="utf-8")
 
 
@@ -726,6 +748,7 @@ class TheoryGenerator:
         """
 
         grade = normalize_grade(grade)
+        subject = normalize_subject(subject)
 
         system_prompt = self.load_system_prompt()
 
@@ -820,6 +843,8 @@ class TheoryGenerator:
         filename = f"{order:02d}-sfalmata-kai-dieykriniseis.js"
 
         target_file = target_dir / filename
+
+        js_code = sanitize_text(js_code)
 
         target_file.write_text(js_code, encoding="utf-8")
 
@@ -1060,6 +1085,11 @@ class TheoryGenerator:
         """
 
         grade = normalize_grade(grade)
+        subject = normalize_subject(subject)
+        try:
+            route_id = catalog_id_for_subject(subject)
+        except ValueError:
+            route_id = subject
 
         if BookExtractor is None:
 
@@ -1076,8 +1106,26 @@ class TheoryGenerator:
         else:
 
             books_dir = self.base_dir / "data" / "books" / grade / subject
-
             candidates = list(books_dir.glob("*.pdf"))
+            if not candidates and route_id != subject:
+                books_dir = self.base_dir / "data" / "books" / grade / route_id
+                candidates = list(books_dir.glob("*.pdf"))
+
+            if not candidates:
+                # Αυτόματη προσπάθεια λήψης από το ebooks.edu.gr μέσω scripts.edubooks
+                try:
+                    from scripts.edubooks import download_subject_books, BOOKS_CATALOG
+                    edubooks_taxi = "Β" if grade == "b" else "Γ"
+                    for s in [subject, route_id]:
+                        if s in BOOKS_CATALOG.get(edubooks_taxi, {}):
+                            print(f"\n📥 Δεν βρέθηκε PDF τοπικά. Αυτόματη λήψη από ebooks.edu.gr για '{s}'...")
+                            download_subject_books(edubooks_taxi, s)
+                            candidates = list((self.base_dir / "data" / "books" / grade / subject).glob("*.pdf"))
+                            if not candidates and route_id != subject:
+                                candidates = list((self.base_dir / "data" / "books" / grade / route_id).glob("*.pdf"))
+                            break
+                except Exception as e_dl:
+                    print(f"⚠️ Αδυναμία αυτόματης λήψης βιβλίου: {e_dl}")
 
             if not candidates:
 
@@ -1096,10 +1144,14 @@ class TheoryGenerator:
         if syl_file.exists():
 
             syl_data = json.loads(syl_file.read_text(encoding="utf-8"))
-
-            subj_key = f"{grade}_{subject}" if f"{grade}_{subject}" in syl_data.get("subjects", {}) else subject
-
-            subj_data = syl_data.get("subjects", {}).get(subj_key, {})
+            subjects_dict = syl_data.get("subjects", {})
+            subj_data = (
+                subjects_dict.get(f"{grade}_{subject}")
+                or subjects_dict.get(f"{grade}_{route_id}")
+                or subjects_dict.get(subject)
+                or subjects_dict.get(route_id)
+                or {}
+            )
 
             for ch in subj_data.get("chapters", []):
 
@@ -1119,19 +1171,9 @@ class TheoryGenerator:
 
 
 
-        try:
-
-            route_id = catalog_id_for_subject(subject)
-
-        except ValueError:
-
-            route_id = subject
-
-
-
         site_root = output_dir or self.base_dir / "site"
 
-        images_dir = site_root / "images" / grade / route_id / f"chapter-{chapter:02d}" / "theory"
+        images_dir = site_root / "images" / grade / subject / f"chapter-{chapter:02d}" / "theory"
 
 
 
@@ -1201,7 +1243,7 @@ class TheoryGenerator:
 
             {
 
-                "src": f"images/{grade}/{route_id}/chapter-{chapter:02d}/theory/{img.name}",
+                "src": f"images/{grade}/{subject}/chapter-{chapter:02d}/theory/{img.name}",
 
                 "caption": f"Σχήμα σχολικού βιβλίου (Κεφ. {chapter})",
 

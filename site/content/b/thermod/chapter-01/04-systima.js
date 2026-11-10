@@ -26,7 +26,7 @@ window.SECTIONS.push({
       },
       {
         "type": "image",
-        "src": "images/b/thermod/chapter-01/theory/ch01_p024_01.png",
+        "src": "images/b/thermod/chapter-01/theory/ch01_p024_01.webp",
         "alt": "Σύστημα, όριο και περιβάλλον",
         "caption": "Σχήμα 1.4: Θερμοδυναμικό σύστημα, όριο συστήματος και περιβάλλον."
       },
@@ -45,7 +45,7 @@ window.SECTIONS.push({
       },
       {
         "type": "image",
-        "src": "images/b/thermod/chapter-01/theory/ch01_p026_01.png",
+        "src": "images/b/thermod/chapter-01/theory/ch01_p026_01.webp",
         "alt": "Κλειστό θερμοδυναμικό σύστημα",
         "caption": "Σχήμα 1.4.1α: Κλειστό σύστημα (διάταξη κυλίνδρου-εμβόλου: m = σταθ., ο όγκος μεταβάλλεται)."
       },
@@ -90,7 +90,7 @@ window.SECTIONS.push({
       },
       {
         "type": "image",
-        "src": "images/b/thermod/chapter-01/theory/ch01_p028_01.png",
+        "src": "images/b/thermod/chapter-01/theory/ch01_p028_01.webp",
         "alt": "Ανοικτό σύστημα διπλής ροής",
         "caption": "Σχήμα 1.4.2α: Ανοικτό σύστημα διπλής ροής (μάζα εισέρχεται και εξέρχεται)."
       },

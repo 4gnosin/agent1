@@ -390,7 +390,7 @@ window.SUBJECT_DATA["thermo-lab"].sections.push({
     },
     {
       "type": "image",
-      "src": "images/thermodynamics/pressure/bourdon-gauge.jpg",
+      "src": "images/thermodynamics/pressure/bourdon-gauge.webp",
       "alt": "Μηχανικό μανόμετρο με σωλήνα Bourdon",
       "caption": "Μηχανικό μανόμετρο Bourdon."
     },
@@ -554,7 +554,7 @@ window.SUBJECT_DATA["thermo-lab"].sections.push({
     },
     {
       "type": "image",
-      "src": "images/thermodynamics/pressure/vacuum-compound-gauge.jpg",
+      "src": "images/thermodynamics/pressure/vacuum-compound-gauge.webp",
       "alt": "Σύνθετο μανόμετρο για μέτρηση κενού και θετικής πίεσης",
       "caption": "Σύνθετο μανόμετρο με περιοχή κενού και θετικής πίεσης."
     },
@@ -703,7 +703,7 @@ window.SUBJECT_DATA["thermo-lab"].sections.push({
     },
     {
       "type": "image",
-      "src": "images/thermodynamics/pressure/pressure-transmitter.jpg",
+      "src": "images/thermodynamics/pressure/pressure-transmitter.webp",
       "alt": "Βιομηχανικός μεταδότης πίεσης",
       "caption": "Pressure transmitter για ηλεκτρονική μέτρηση και μεταφορά της τιμής πίεσης σε σύστημα ελέγχου."
     },
@@ -731,7 +731,7 @@ window.SUBJECT_DATA["thermo-lab"].sections.push({
     },
     {
       "type": "image",
-      "src": "images/thermodynamics/pressure/pressostat.jpg",
+      "src": "images/thermodynamics/pressure/pressostat.webp",
       "alt": "Πρεσσοστάτης",
       "caption": "Πρεσσοστάτης για έλεγχο ή προστασία μιας εγκατάστασης."
     },

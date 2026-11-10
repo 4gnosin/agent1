@@ -28,6 +28,7 @@ if __package__ is None or __package__ == "":
     from src.utils.pdf_extractor import extract_chapter_from_pdf
     from src.utils.structure import (
         catalog_id_for_subject,
+        normalize_subject,
         parse_named_chapter_file,
         sort_exercise_files,
         sort_theory_files,
@@ -43,6 +44,7 @@ else:
     from .utils.pdf_extractor import extract_chapter_from_pdf
     from .utils.structure import (
         catalog_id_for_subject,
+        normalize_subject,
         parse_named_chapter_file,
         sort_exercise_files,
         sort_theory_files,
@@ -245,6 +247,7 @@ def normalize_grade(grade: str) -> str:
 def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
     """Register generated chapter scripts in index.html and sync the course catalog."""
     grade = normalize_grade(grade)
+    subject = normalize_subject(subject)
     index_path = site_dir / "index.html"
     catalog_path = site_dir / "content" / "catalog.js"
     if not index_path.is_file():

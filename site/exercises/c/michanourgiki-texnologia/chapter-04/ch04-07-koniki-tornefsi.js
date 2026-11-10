@@ -32,12 +32,12 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "kind": "calc",
         "subq": "4.1b",
         "prompt": "Υπολογίστε την ημιγωνία του κώνου $\\alpha/2$ σε μοίρες.",
-        "formula": "$\\tan\\left(\\frac{\\alpha}{2}\\right) = \\frac{D - d}{2 \\cdot l}$",
+        "formula": "$\\text{εφ}\\left(\\frac{\\alpha}{2}\\right) = \\frac{D - d}{2 \\cdot l}$",
         "answer": 1.43,
         "unit": "°",
         "tolerance": 0.05,
-        "hint": "Η ημιγωνία υπολογίζεται από τον τύπο $\\tan(\\alpha/2) = \\frac{D - d}{2 \\cdot l}$.",
-        "explain": " \\( \\tan\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\tan(1,43^\\circ) \\approx 0,025$, άρα $\\alpha/2 = 1,43^\\circ$."
+        "hint": "Η ημιγωνία υπολογίζεται από τον τύπο $\\text{εφ}(\\alpha/2) = \\frac{D - d}{2 \\cdot l}$.",
+        "explain": " \\( \\tan\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\text{εφ}(1,43^\\circ) \\approx 0,025$, άρα $\\alpha/2 = 1,43^\\circ$."
       },
       {
         "kind": "mc",
@@ -198,7 +198,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "units": 25,
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 3,
-    "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε έναν άξονα σαν αυτόν που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 20\\text{ mm}$, $d = 10\\text{ mm}$, $l = 20\\text{ mm}$.\nΔίνεται: $\\tan(\\varphi) = 0,25$ όταν η γωνία $\\varphi = 14,036^\\circ$.",
+    "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε έναν άξονα σαν αυτόν που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 20\\text{ mm}$, $d = 10\\text{ mm}$, $l = 20\\text{ mm}$.\nΔίνεται: $\\text{εφ}(\\varphi) = 0,25$ όταν η γωνία $\\varphi = 14,036^\\circ$.",
     "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27559_fig01.webp",
     "solutionImages": [
       "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_#27559_sol01.webp"
@@ -222,12 +222,12 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "subq": "β",
         "subqPrompt": "β. Να υπολογίσετε πόση θα είναι η στροφή του φορείου του εργαλειοδέτη για να κατεργαστείτε το τμήμα της κωνικότητας στο τεμάχιο.",
         "prompt": "Υπολογίστε την ημιγωνία του κώνου $\\alpha/2$ σε μοίρες.",
-        "formula": "$\\tan\\left(\\frac{\\alpha}{2}\\right) = \\frac{1}{2 \\cdot \\kappa}$",
+        "formula": "$\\text{εφ}\\left(\\frac{\\alpha}{2}\\right) = \\frac{1}{2 \\cdot \\kappa}$",
         "answer": 14.036,
         "unit": "°",
         "tolerance": 0.01,
-        "hint": "Η στροφή του φορείου γίνεται κατά την ημιγωνία $\\alpha/2$, όπου $\\tan(\\alpha/2) = \\frac{1}{2} \\cdot \\frac{1}{\\kappa} = \\frac{1}{4} = 0,25$.",
-        "explain": " \\( \\tan(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\arctan(0,25) = 14,036^\\circ$."
+        "hint": "Η στροφή του φορείου γίνεται κατά την ημιγωνία $\\alpha/2$, όπου $\\text{εφ}(\\alpha/2) = \\frac{1}{2} \\cdot \\frac{1}{\\kappa} = \\frac{1}{4} = 0,25$.",
+        "explain": " \\( \\tan(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\text{τοξεφ}(0,25) = 14,036^\\circ$."
       },
       {
         "kind": "mc",

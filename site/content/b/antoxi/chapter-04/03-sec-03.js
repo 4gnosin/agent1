@@ -1,7 +1,7 @@
 window.SUBJECT_DATA = window.SUBJECT_DATA || {};
 window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [], groups: [], exercises: [] };
 window.SUBJECT_DATA["antoxi"].sections.push({
-  "slug": "sec-03",
+  "slug": "ch04-sec-03",
   "num": "4.3",
   "title": "Κεντροειδή μερικών γεωμετρικών σχημάτων",
   "kicker": "Μηχανολογία ΕΠΑΛ",

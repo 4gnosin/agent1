@@ -189,6 +189,60 @@ class SiteValidator:
                         f"Section #{idx}, Block #{b_idx}: Μη έγκυρο callout kind '{block.get('kind')}'."
                     )
 
+                b_ctx = f"Section #{idx}, Block #{b_idx} ({b_type})"
+
+                # Έλεγχος εικόνων
+                if b_type == "image":
+                    src = block.get("src", "").strip()
+                    if not src:
+                        errors.append(f"{b_ctx}: Λείπει η διαδρομή εικόνας ('src').")
+                    else:
+                        img_path = Path("site") / src
+                        if not img_path.exists():
+                            errors.append(f"{b_ctx}: Η εικόνα δεν υπάρχει στον δίσκο: '{src}'.")
+                        elif not src.endswith(".svg") and img_path.stat().st_size < 1500:
+                            errors.append(f"{b_ctx}: Ύποπτα μικρό ή κενό αρχείο εικόνας ({img_path.stat().st_size} bytes): '{src}'.")
+
+                # KaTeX & Math Linter για blocks
+                def check_math(s: Any, field_name: str):
+                    if not isinstance(s, str) or not s:
+                        return
+                    ctx_f = f"{b_ctx} {field_name}"
+                    # Delimiter typos
+                    if re.search(r"\\\(+[^)]*?\\\}", s):
+                        errors.append(f"{ctx_f}: Λανθασμένο κλείσιμο μαθηματικών \\( ... \\}}.")
+                    if re.search(r"\\\[+[^\]]*?\\\)", s):
+                        errors.append(f"{ctx_f}: Λανθασμένο κλείσιμο μαθηματικών \\[ ... \\)).")
+                    if r"\triangle" in s:
+                        errors.append(f"{ctx_f}: Απαγορεύεται το '\\triangle'. Χρησιμοποιήστε '\\Delta'.")
+                    if r"\cdotp" in s:
+                        errors.append(f"{ctx_f}: Απαγορεύεται το '\\cdotp'.")
+                    # Check braces inside math
+                    for mb in re.findall(r"(\\\([\s\S]*?\\\)|\s*\\\[[\s\S]*?\\\]|\$[^\$\n]+\$)", s):
+                        if mb.count("{") != mb.count("}"):
+                            errors.append(f"{ctx_f}: Μη ισοζυγισμένες αγκύλες {{}} στο math block: '{mb}'.")
+                        if r"\text{" in mb and mb.count(r"\text{") > mb.count("}"):
+                            errors.append(f"{ctx_f}: Ανοικτό \\text{{}} χωρίς κλείσιμο στο: '{mb}'.")
+
+                if b_type in ("p", "h", "callout"):
+                    check_math(block.get("text"), "text")
+                    if b_type == "callout":
+                        check_math(block.get("title"), "title")
+                elif b_type == "formula":
+                    check_math(block.get("html"), "html")
+                    check_math(block.get("caption"), "caption")
+                elif b_type == "ul":
+                    for it_idx, it in enumerate(block.get("items", []), 1):
+                        check_math(it, f"item #{it_idx}")
+                elif b_type == "table":
+                    for h_idx, h in enumerate(block.get("headers", []), 1):
+                        check_math(h, f"header #{h_idx}")
+                    for r_idx, row in enumerate(block.get("rows", []), 1):
+                        if isinstance(row, list):
+                            for c_idx, cell in enumerate(row, 1):
+                                check_math(cell, f"row #{r_idx} cell #{c_idx}")
+                    check_math(block.get("caption"), "caption")
+
         return errors
 
     @classmethod
@@ -319,7 +373,49 @@ class SiteValidator:
                 for img_src in ex["solutionImages"]:
                     check_img(img_src, f"Exercise #{idx} solutionImages")
 
+            # KaTeX & Math Linter
+            def check_katex_syntax(s: Any, context: str, check_parens: bool = False):
+                if not isinstance(s, str) or not s:
+                    return
+                if r"\triangle" in s:
+                    errors.append(f"{context}: Απαγορεύεται το '\\triangle'. Χρησιμοποιήστε '\\Delta'.")
+                if r"\cdotp" in s:
+                    errors.append(f"{context}: Απαγορεύεται το '\\cdotp'.")
+                if "riangle" in s and not ("triangle" in s.lower()):
+                    errors.append(f"{context}: Εντοπίστηκε σπασμένο 'riangle' (πιθανό corrupted escape).")
+                if r"\text{$" in s:
+                    errors.append(f"{context}: Απαγορεύονται εμφωλευμένα δολάρια μέσα σε '\\text{{...}}'.")
+                if re.search(r"\\text\{[^}]*·", s):
+                    errors.append(f"{context}: Απαγορεύεται ο χαρακτήρας '·' μέσα σε '\\text{{...}}'. Χρησιμοποιήστε '\\cdot'.")
+                if s.count("$") % 2 != 0:
+                    errors.append(f"{context}: Ασύζευκτα δολάρια ($) σε μαθηματική έκφραση.")
+                if re.search(r"\(\$[^$)]+\$\)\)", s):
+                    errors.append(f"{context}: Εντοπίστηκε διπλή παρένθεση σε μαθηματικό όρο '($...$))'.")
+                if check_parens:
+                    s_check = re.sub(r"^[0-9a-zA-Z\u0370-\u03ff]\)\s*", "", s)
+                    if s_check.count("(") != s_check.count(")"):
+                        errors.append(f"{context}: Μη ισοζυγισμένες παρενθέσεις ({s_check.count('(')} ανοίγματα vs {s_check.count(')')} κλεισίματα).")
+
+            check_katex_syntax(ex.get("stem"), f"Exercise #{idx} (id: {ex.get('id', 'άγνωστο')}) stem")
+
             for i_idx, item in enumerate(items, 1):
+                item_ctx = f"Exercise #{idx}, Item #{i_idx}"
+                check_katex_syntax(item.get("prompt"), f"{item_ctx} prompt")
+                check_katex_syntax(item.get("explain"), f"{item_ctx} explain")
+                check_katex_syntax(item.get("hint"), f"{item_ctx} hint")
+                check_katex_syntax(item.get("formula"), f"{item_ctx} formula", check_parens=True)
+
+                anim = item.get("animation")
+                if isinstance(anim, dict):
+                    anim_title = anim.get("title")
+                    check_katex_syntax(anim_title, f"{item_ctx} animation.title", check_parens=True)
+                    for s_idx, step in enumerate(anim.get("steps", []), 1):
+                        step_ctx = f"{item_ctx} Step #{s_idx}"
+                        check_katex_syntax(step.get("kicker"), f"{step_ctx} kicker", check_parens=True)
+                        check_katex_syntax(step.get("text"), f"{step_ctx} text", check_parens=True)
+                        check_katex_syntax(step.get("math"), f"{step_ctx} math", check_parens=True)
+                        check_katex_syntax(step.get("note"), f"{step_ctx} note", check_parens=True)
+
                 if "image" in item and item["image"]:
                     check_img(item["image"], f"Exercise #{idx}, Item #{i_idx}")
                 if "images" in item and isinstance(item["images"], list):

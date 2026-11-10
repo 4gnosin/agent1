@@ -60,7 +60,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
           },
           {
             "id": "e",
-            "text": "Маγνητικό ρελέ μίζας"
+            "text": "Μαγνητικό ρελέ μίζας"
           },
           {
             "id": "στ",

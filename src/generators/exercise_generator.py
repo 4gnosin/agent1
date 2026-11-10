@@ -33,6 +33,7 @@ if __package__ is None or __package__ == "":
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
     from src.utils.api_retry import call_with_retry
+    from src.utils.latex_sanitizer import sanitize_obj, sanitize_text
     from src.utils.structure import (
         KIND_GROUP_IDS,
         apply_greek_ordinals,
@@ -44,6 +45,7 @@ if __package__ is None or __package__ == "":
     from src.validators.site_validator import SiteValidator
 else:
     from ..utils.api_retry import call_with_retry
+    from ..utils.latex_sanitizer import sanitize_obj, sanitize_text
     from ..utils.structure import (
         KIND_GROUP_IDS,
         apply_greek_ordinals,
@@ -183,6 +185,7 @@ class ExerciseGenerator:
         except Exception:
             return base_prompt
 
+    @staticmethod
     def clean_js_output(raw_text: str) -> str:
         """Καθαρίζει τυχόν markdown backticks."""
         text = raw_text.strip()
@@ -225,7 +228,7 @@ class ExerciseGenerator:
             ),
         )
 
-        js_code = self.clean_js_output(response.text or "")
+        js_code = sanitize_text(self.clean_js_output(response.text or ""))
         errors = SiteValidator.validate_groups_code(js_code)
         if errors:
             raise ValueError("groups.js δεν περνά την επικύρωση: " + "; ".join(errors))
@@ -274,7 +277,7 @@ class ExerciseGenerator:
             ),
         )
 
-        js_code = self.clean_js_output(response.text or "")
+        js_code = sanitize_text(self.clean_js_output(response.text or ""))
         errors = SiteValidator.validate_exercises_code(js_code)
         if errors:
             raise ValueError(f"{group_id}.js δεν περνά την επικύρωση: " + "; ".join(errors))
@@ -520,6 +523,7 @@ class ExerciseGenerator:
             prompt = self._build_exercise_prompt(content, grade=grade, subject=subject, chapter=chapter)
             result = self._call_gemini_json(prompt)
 
+        result = sanitize_obj(result)
         groups = result.get("groups")
         exercises = result.get("exercises")
         omitted = result.get("omitted", [])
@@ -715,11 +719,11 @@ class ExerciseGenerator:
                 )
             )
 
-        ordered_groups = [
+        ordered_groups = sanitize_obj([
             {**group, "chapter": str(chapter)}
             for group in groups
             if exercises_by_group.get(group.get("id"))
-        ]
+        ])
         route_id = catalog_id_for_subject(subject)
         groups_code = (
             _js_push_prefix(route_id, "groups")
@@ -734,6 +738,7 @@ class ExerciseGenerator:
         for group_id, group_exercises in exercises_by_group.items():
             if not group_exercises:
                 continue
+            group_exercises = sanitize_obj(group_exercises)
             code = (
                 _js_push_prefix(route_id, "exercises")
                 + json.dumps(group_exercises, ensure_ascii=False, indent=2)

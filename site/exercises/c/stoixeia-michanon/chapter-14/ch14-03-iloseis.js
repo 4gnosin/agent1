@@ -452,16 +452,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
 
     ],
 
-    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.webp",
-
-    "images": [
-
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.webp",
-
-      "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig02.webp"
-
-    ]
-
+    "image": "images/c/stoixeia-michanon/chapter-14/c_stoixeia-michanon_ch14_#25714_fig01.webp"
   },
 
   {

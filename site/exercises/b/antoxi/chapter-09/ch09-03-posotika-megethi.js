@@ -186,7 +186,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "answer": 3.14,
         "unit": "cm²",
         "tolerance": 0.01,
-        "hint": "Διαιρέστε τη δύναμη $F$ με την $\\tau_{\\text{επ}}.",
+        "hint": "Διαιρέστε τη δύναμη $F$ με την $\\tau_{\\text{επ}}$.",
         "explain": " \\( S = \\frac{3140}{1000} = 3{,}14\\text{ cm}^2 \\)."
       },
       {

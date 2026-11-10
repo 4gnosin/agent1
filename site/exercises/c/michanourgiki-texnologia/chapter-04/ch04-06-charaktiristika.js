@@ -24,7 +24,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "answer": 20,
         "unit": "m/min",
         "tolerance": 0.01,
-        "explain": "Από τον δοσμένο πίνακα, για χάλυβα $50-70\\text{ kg/mm}^2$, σε κατεργασία εκχόνδρισης με εργαλείο HSS, η ταχύτητα κοπής είναι $u = 20\\text{ m/min}。」"
+        "explain": "Από τον δοσμένο πίνακα, για χάλυβα $50-70\\text{ kg/mm}^2$, σε κατεργασία εκχόνδρισης με εργαλείο HSS, η ταχύτητα κοπής είναι $u = 20\\text{ m/min}$."
       },
       {
         "kind": "calc",

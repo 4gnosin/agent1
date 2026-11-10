@@ -408,7 +408,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "m/s",
         "tolerance": 0.02,
         "hint": "Μετατρέψτε την παροχή σε $\\text{m}^3\\text{/s}$ ($2000\\text{ L/s} = 2\\text{ m}^3\\text{/s}$) και διαιρέστε με την επιφάνεια $A_f = 1\\text{ m}^2$.",
-        "explain": "Παροχή $Q_\\alpha = 2\\text{ m}^3\\text{/s}$. Ταχύτητα $V_\\alpha = \\frac{2}{1} = 2\\text{ m/s}."
+        "explain": "Παροχή $Q_\\alpha = 2\\text{ m}^3\\text{/s}$. Ταχύτητα $V_\\alpha = \\frac{2}{1} = 2\\text{ m/s}$."
       },
       {
         "kind": "tf",

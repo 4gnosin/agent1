@@ -1,7 +1,7 @@
 window.SUBJECT_DATA = window.SUBJECT_DATA || {};
 window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [], groups: [], exercises: [] };
 window.SUBJECT_DATA["antoxi"].sections.push({
-  "slug": "sec-02",
+  "slug": "ch04-sec-02",
   "num": "4.2",
   "title": "Κεντροειδές γραμμών και επιφανειών",
   "kicker": "Μηχανολογία ΕΠΑΛ",

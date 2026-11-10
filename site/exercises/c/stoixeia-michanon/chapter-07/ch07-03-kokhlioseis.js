@@ -232,7 +232,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "right": [
           {
             "id": "a",
-            "text": "Пеραστός κοχλίας"
+            "text": "Пεραστός κοχλίας"
           },
           {
             "id": "b",

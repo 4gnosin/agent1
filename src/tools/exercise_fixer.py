@@ -21,7 +21,10 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-import fitz
+try:
+    import pymupdf as fitz
+except ImportError:
+    import fitz
 
 from src.validators.site_validator import SiteValidator
 

@@ -30,12 +30,12 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "Η απόσταση $L$ του πείρου από τον στροφαλοφόρο άξονα σε $\\text{m}$.",
-        "formula": "$L = \\frac{d}{\\sin\\varphi}$",
+        "formula": "$L = \\frac{d}{\\text{ημ}\\varphi}$",
         "answer": 0.2,
         "unit": "m",
         "tolerance": 0.01,
-        "hint": "Χρησιμοποιήστε τη δοσμένη τιμή $\\sin\\varphi = 0,35$.",
-        "explain": "$L = \\frac{d}{\\sin\\varphi} = \\frac{0,07\\text{ m}}{0,35} = 0,2\\text{ m}$."
+        "hint": "Χρησιμοποιήστε τη δοσμένη τιμή $\\text{ημ}\\varphi = 0,35$.",
+        "explain": "$L = \\frac{d}{\\text{ημ}\\varphi} = \\frac{0,07\\text{ m}}{0,35} = 0,2\\text{ m}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#23741_fig01.webp"
@@ -51,18 +51,18 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 4,
-    "stem": "Ο διωστήρας μιας Μηχανής Εσωτερικής Καύσης (ΜΕΚ) διαβιβάζει δύναμη $F$, η οποία προκαλεί ροπή ίση με $M = 560\\text{ Nm}$, ως προς τον άξονα του στροφαλοφόρου, όταν βρίσκεται στην θέση του σχήματος 1. Το ημίτονο της γωνίας $\\varphi$ είναι ίσο με $\\sin\\varphi = 0,2$ και η απόσταση του πείρου από τον στροφαλοφόρο άξονα είναι ίση με $L = 40\\text{ cm}$.",
+    "stem": "Ο διωστήρας μιας Μηχανής Εσωτερικής Καύσης (ΜΕΚ) διαβιβάζει δύναμη $F$, η οποία προκαλεί ροπή ίση με $M = 560\\text{ Nm}$, ως προς τον άξονα του στροφαλοφόρου, όταν βρίσκεται στην θέση του σχήματος 1. Το ημίτονο της γωνίας $\\varphi$ είναι ίσο με $\\text{ημ}\\varphi = 0,2$ και η απόσταση του πείρου από τον στροφαλοφόρο άξονα είναι ίση με $L = 40\\text{ cm}$.",
     "items": [
       {
         "kind": "calc",
         "subq": "α",
         "prompt": "Ο μοχλοβραχίονας $d$ της δύναμης $F$ του εμβόλου ως προς τον άξονα περιστροφής του στροφαλοφόρου σε $\\text{m}$.",
-        "formula": "$d = L \\cdot \\sin\\varphi$",
+        "formula": "$d = L \\cdot \\text{ημ}\\varphi$",
         "answer": 0.08,
         "unit": "m",
         "tolerance": 0.01,
-        "hint": "Μετατρέψτε το $L$ σε $\\text{m}$ και πολλαπλασιάστε με το $\\sin\\varphi$.",
-        "explain": "$L = 40\\text{ cm} = 0,4\\text{ m}$. $d = L \\cdot \\sin\\varphi = 0,4\\text{ m} \\cdot 0,2 = 0,08\\text{ m}$."
+        "hint": "Μετατρέψτε το $L$ σε $\\text{m}$ και πολλαπλασιάστε με το $\\text{ημ}\\varphi$.",
+        "explain": "$L = 40\\text{ cm} = 0,4\\text{ m}$. $d = L \\cdot \\text{ημ}\\varphi = 0,4\\text{ m} \\cdot 0,2 = 0,08\\text{ m}$."
       },
       {
         "kind": "calc",
@@ -89,7 +89,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 5,
-    "stem": "Δίνεται διωστήρας μιας πετρελαιομηχανής (diesel), ο οποίος μεταβιβάζει μία δύναμη $F = 8000\\text{ N}$, όπως φαίνεται στο παρακάτω σχήμα. Η ροπή που αναπτύσσεται ως προς τον άξονα του στροφαλοφόρου είναι $M = 764\\text{ Nm}$. Δίνονται: γωνία $\\varphi = 11^{\\circ}$, $\\sin 11^{\\circ} = 0,191$.",
+    "stem": "Δίνεται διωστήρας μιας πετρελαιομηχανής (diesel), ο οποίος μεταβιβάζει μία δύναμη $F = 8000\\text{ N}$, όπως φαίνεται στο παρακάτω σχήμα. Η ροπή που αναπτύσσεται ως προς τον άξονα του στροφαλοφόρου είναι $M = 764\\text{ Nm}$. Δίνονται: γωνία $\\varphi = 11^{\\circ}$, $\\text{ημ} 11^{\\circ} = 0,191$.",
     "items": [
       {
         "kind": "calc",
@@ -106,12 +106,12 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "Την απόσταση $L$ του πείρου του εμβόλου από τον στροφαλοφόρο άξονα σε $\\text{m}$.",
-        "formula": "$L = \\frac{d}{\\sin\\varphi}$",
+        "formula": "$L = \\frac{d}{\\text{ημ}\\varphi}$",
         "answer": 0.5,
         "unit": "m",
         "tolerance": 0.01,
-        "hint": "Διαιρέστε τον μοχλοβραχίονα $d$ με το $\\sin 11^{\\circ}$.",
-        "explain": "$L = \\frac{d}{\\sin 11^{\\circ}} = \\frac{0,0955\\text{ m}}{0,191} = 0,5\\text{ m}$."
+        "hint": "Διαιρέστε τον μοχλοβραχίονα $d$ με το $\\text{ημ} 11^{\\circ}$.",
+        "explain": "$L = \\frac{d}{\\text{ημ} 11^{\\circ}} = \\frac{0,0955\\text{ m}}{0,191} = 0,5\\text{ m}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#24400_fig01.webp"
@@ -127,7 +127,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 6,
-    "stem": "Ο διωστήρας μιας βενζινομηχανής μεταβιβάζει μια δύναμη $F = 8000\\text{ N}$, όταν βρίσκεται στην θέση του σχήματος 1, η οποία ως προς τον άξονα του στροφαλοφόρου προκαλεί ροπή $M = 1200\\text{ Nm}$. Δίνονται: Συνημίτονο της γωνίας $\\varphi = 75^{\\circ}$ είναι $\\cos\\varphi = 0,25$.",
+    "stem": "Ο διωστήρας μιας βενζινομηχανής μεταβιβάζει μια δύναμη $F = 8000\\text{ N}$, όταν βρίσκεται στην θέση του σχήματος 1, η οποία ως προς τον άξονα του στροφαλοφόρου προκαλεί ροπή $M = 1200\\text{ Nm}$. Δίνονται: Συνημίτονο της γωνίας $\\varphi = 75^{\\circ}$ είναι $\\text{συν}\\varphi = 0,25$.",
     "items": [
       {
         "kind": "calc",
@@ -144,12 +144,12 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "Η απόσταση $L$ σε $\\text{m}$.",
-        "formula": "$L = \\frac{d}{\\cos\\varphi}$",
+        "formula": "$L = \\frac{d}{\\text{συν}\\varphi}$",
         "answer": 0.6,
         "unit": "m",
         "tolerance": 0.01,
-        "hint": "Διαιρέστε το $d$ με το $\\cos\\varphi$.",
-        "explain": "$L = \\frac{d}{\\cos\\varphi} = \\frac{0,15\\text{ m}}{0,25} = 0,6\\text{ m}$."
+        "hint": "Διαιρέστε το $d$ με το $\\text{συν}\\varphi$.",
+        "explain": "$L = \\frac{d}{\\text{συν}\\varphi} = \\frac{0,15\\text{ m}}{0,25} = 0,6\\text{ m}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#34913_fig01.webp"
@@ -182,12 +182,12 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "Η γωνία $\\varphi$ σε μοίρες ($^{\\circ}$), βάσει του πινακίου ημιτόνων.",
-        "formula": "$\\sin\\varphi = \\frac{d}{L}$",
+        "formula": "$\\text{ημ}\\varphi = \\frac{d}{L}$",
         "answer": 13,
         "unit": "°",
         "tolerance": 0.01,
-        "hint": "Υπολογίστε το $\\sin\\varphi = d / L$ και βρείτε την αντίστοιχη γωνία.",
-        "explain": "$\\sin\\varphi = \\frac{0,18}{0,8} = 0,225$. Από τον πίνακα προκύπτει γωνία $13^{\\circ}$."
+        "hint": "Υπολογίστε το $\\text{ημ}\\varphi = d / L$ και βρείτε την αντίστοιχη γωνία.",
+        "explain": "$\\text{ημ}\\varphi = \\frac{0,18}{0,8} = 0,225$. Από τον πίνακα προκύπτει γωνία $13^{\\circ}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_#34916_fig01.webp"

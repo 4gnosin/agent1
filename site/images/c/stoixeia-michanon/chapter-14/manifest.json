@@ -60,28 +60,6 @@
       "is_full_page_scan": false
     },
     {
-      "file": "c_stoixeia-michanon_ch14_#25714_fig02.png",
-      "bank_code": "25714",
-      "role": "fig",
-      "page": 8,
-      "kind": "embedded",
-      "width": 86,
-      "height": 51,
-      "sha1": "d4df77b91fe5",
-      "bank_code_inherited": false,
-      "xref": 376,
-      "bbox": [
-        382.0,
-        152.2,
-        413.2,
-        170.6
-      ],
-      "question_anchor": null,
-      "text_before": "Q",
-      "text_after": "Ζητούνται:",
-      "is_full_page_scan": false
-    },
-    {
       "file": "c_stoixeia-michanon_ch14_#25987_fig01.png",
       "bank_code": "25987",
       "role": "fig",

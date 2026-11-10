@@ -53,7 +53,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
           "αδιαβατική",
           "κυκλική"
         ],
-        "explain": "Η μεταβολή υπό σταθερή πίεση ονομάζεται ισόθλιπτη (ή ισόбариκη)."
+        "explain": "Η μεταβολή υπό σταθερή πίεση ονομάζεται ισόθλιπτη (ή ισόбαρиκη)."
       },
       {
         "kind": "blank",

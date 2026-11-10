@@ -237,9 +237,12 @@ def ai_normalize_formulas(raw_markdown: str, model_name: str | None = None) -> s
 
 
 try:
-    import fitz
+    import pymupdf as fitz
 except ImportError:
-    fitz = None
+    try:
+        import fitz
+    except ImportError:
+        fitz = None
 
 
 def extract_chapter_from_pdf(

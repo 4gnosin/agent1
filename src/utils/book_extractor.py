@@ -8,7 +8,10 @@ import os
 from pathlib import Path
 from typing import Any
 
-import fitz  # PyMuPDF
+try:
+    import pymupdf as fitz
+except ImportError:
+    import fitz
 
 
 class BookExtractor:
@@ -71,8 +74,10 @@ class BookExtractor:
             width = base_image.get("width", 0)
             height = base_image.get("height", 0)
 
-            # Φιλτράρισμα μικρών διακοσμητικών γραφικών
+            # Φιλτράρισμα μικρών διακοσμητικών γραφικών ή υπερβολικά επιμήκων λωρίδων
             if width < min_width or height < min_height:
+                continue
+            if max(width, height) / max(1, min(width, height)) > 6.0:
                 continue
 
             filename = f"{prefix}_p{page_index + 1:03d}_{idx + 1:02d}.png"
@@ -102,11 +107,26 @@ class BookExtractor:
                                 pil_img = pil_img.convert("RGB")
                             pil_img.save(str(out_path), "PNG")
                         saved_paths.append(out_path)
+                        saved = True
                     except Exception:
                         ext = base_image.get("ext", "png").lower()
                         raw_path = output_dir / f"{prefix}_p{page_index + 1:03d}_{idx + 1:02d}.{ext}"
                         raw_path.write_bytes(image_bytes)
                         saved_paths.append(raw_path)
+                        saved = True
+
+            # Έλεγχος ότι η εικόνα δεν είναι κενό/μονόχρωμο διακοσμητικό πλαίσιο (blank margin artifact)
+            if saved and out_path.exists():
+                try:
+                    from PIL import Image, ImageStat
+                    with Image.open(out_path) as chk_img:
+                        stat = ImageStat.Stat(chk_img.convert("L"))
+                        if stat.stddev[0] < 4.0:
+                            out_path.unlink(missing_ok=True)
+                            if out_path in saved_paths:
+                                saved_paths.remove(out_path)
+                except Exception:
+                    pass
 
         return saved_paths
 

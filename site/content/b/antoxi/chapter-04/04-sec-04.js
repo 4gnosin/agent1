@@ -2,7 +2,7 @@ window.SUBJECT_DATA = window.SUBJECT_DATA || {};
 window.SUBJECT_DATA["antoxi"] = window.SUBJECT_DATA["antoxi"] || { sections: [], groups: [], exercises: [] };
 
 window.SUBJECT_DATA["antoxi"].sections.push({
-  "slug": "sec-04",
+  "slug": "ch04-sec-04",
   "num": "4.5",
   "title": "Ισορροπία και είδη ισορροπίας",
   "kicker": "Μηχανολογία ΕΠΑΛ",

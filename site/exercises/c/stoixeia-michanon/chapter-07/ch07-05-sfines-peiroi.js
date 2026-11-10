@@ -129,19 +129,19 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
         "right": [
           {
             "id": "a",
-            "text": "Кωνικοί"
+            "text": "Κωνικοί"
           },
           {
             "id": "b",
-            "text": "Поλύσφηνα"
+            "text": "Пολύσφηνα"
           },
           {
             "id": "c",
-            "text": "Кυλινδρικοί"
+            "text": "Κυλινδρικοί"
           },
           {
             "id": "d",
-            "text": "Ме εγκοπές"
+            "text": "Με εγκοπές"
           }
         ],
         "pairs": {
@@ -226,7 +226,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Оμφαλός"
+            "text": "Ομφαλός"
           },
           {
             "id": "c",
@@ -322,7 +322,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "d",
-            "text": "Поλύσφηνο"
+            "text": "Пολύσφηνο"
           }
         ],
         "pairs": {
@@ -411,7 +411,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Оμφαλός"
+            "text": "Ομφαλός"
           },
           {
             "id": "c",
@@ -423,7 +423,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "e",
-            "text": "Поλύσφηνο"
+            "text": "Пολύσφηνο"
           }
         ],
         "pairs": {
