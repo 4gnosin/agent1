@@ -271,7 +271,7 @@ window.SUBJECT_DATA["thermod"].exercises.push({
   "stem": "Σε κλειστό άκαμπτο δοχείο όγκου $V = 0{,}2\\text{ m}^3$ περιέχεται ιδανικό αέριο...",
   "figures": [
     {
-      "src": "images/b/thermod/chapter-05/b_thermod_ch05_#18622_fig01.webp",
+      "src": "images/b/thermod/chapter-05/b_thermod_ch05_18622_fig01.webp",
       "caption": "Διάγραμμα P-V της μεταβολής του αερίου"
     }
   ],
@@ -361,7 +361,7 @@ window.SUBJECT_DATA["thermod"].exercises.push({
 2. **Εξαγωγή & Μεταγλώττιση (`python -m src.cli process-inbox`):**
    - Εξάγει τα τεχνικά σχήματα των θεμάτων στο `site/images/{grade}/{subject}/chapter-{NN}/`.
    - Μετατρέπει το περιεχόμενο του PDF σε δομημένο Markdown στο `data/chapters/`.
-   - Καλεί το [`src/generators/exercise_generator.py`](src/generators/exercise_generator.py) (σε chunks των 8 θεμάτων για αποφυγή υπέρβασης ορίων tokens) ώστε να παραχθούν τα αρχεία `groups.js` και `chNN-MM-*.js`.
+   - Καλεί το [`src/generators/exercise_generator.py`](src/generators/exercise_generator.py) (σε chunks των 4 θεμάτων με `response_mime_type="application/json"` για μέγιστη πιστότητα, ελάχιστη κατανάλωση tokens και αποφυγή υπέρβασης ορίων) ώστε να παραχθούν τα αρχεία `groups.js` και `chNN-MM-*.js`.
    - Ενημερώνει αυτόματα το `site/index.html` και το `site/content/catalog.js` και μετακινεί το επεξεργασμένο PDF στο `data/inbox/done/`.
 
 ### 6.3 Pipeline Συγγραφής Θεωρίας (`edubooks.py` -> `theory.py`)
@@ -385,9 +385,9 @@ window.SUBJECT_DATA["thermod"].exercises.push({
 
 ### 7.1 Μηχανισμός Εξαγωγής και Ονοματοδοσίας
 - Τα σχήματα ανιχνεύονται είτε μέσω γεωμετρικής ανάλυσης vector paths/rasters (`src/utils/image_extractor.py`) είτε μέσω της σουίτας εργαλείων ArtCraft (`scripts/extract_pdf_images_craft.py`).
-- Ακολουθείται αυστηρή σύμβαση ονοματοδοσίας:
-  - Σχήματα εκφώνησης: `{grade}_{subject}_ch{NN}_#{bankCode}_fig{MM}.webp`
-  - Σχήματα λύσης: `{grade}_{subject}_ch{NN}_#{bankCode}_sol{MM}.webp`
+- Ακολουθείται αυστηρή σύμβαση ονοματοδοσίας (χωρίς το σύμβολο `#` ώστε να αποφεύγονται προβλήματα URL fragments στους browsers):
+  - Σχήματα εκφώνησης: `{grade}_{subject}_ch{NN}_{bankCode}_fig{MM}.webp`
+  - Σχήματα λύσης: `{grade}_{subject}_ch{NN}_{bankCode}_sol{MM}.webp`
   - Σχήματα θεωρίας: `ch{NN}_p{page}_{MM}.webp`
 
 ### 7.2 Συμπίεση WebP και Deduplication (`scripts/optimize_images_to_webp.py`)
@@ -419,12 +419,19 @@ window.SUBJECT_DATA["thermod"].exercises.push({
    - Για κάθε μάθημα και κεφάλαιο, το `<script src="exercises/.../chapter-NN/groups.js"></script>` πρέπει να προηγείται όλων των αρχείων ασκήσεων `chNN-MM-*.js` του ίδιου κεφαλαίου.
    - Όλα τα scripts περιεχομένου πρέπει να βρίσκονται **πριν** από το `<script src="js/app.js"></script>`.
 
-5. **Υποχρεωτική Επικύρωση πριν από την Ολοκλήρωση (`SiteValidator`):**
-   Μετά από κάθε προσθήκη ή τροποποίηση αρχείων στο `site/exercises/` ή στο `site/content/`, εκτελείται υποχρεωτικά ο στατικός επικυρωτής:
+5. **Υποχρεωτική Επικύρωση και Αυτόματη Επιδιόρθωση (`SiteValidator`):**
+   Μετά από κάθε προσθήκη ή τροποποίηση αρχείων στο `site/exercises/` ή στο `site/content/`, εκτελείται υποχρεωτικά ο επικυρωτής:
    ```powershell
-   python -m src.validators.site_validator
+   # 1. Αυστηρός έλεγχος (μόνο έλεγχος — επιστρέφει exit code 1 σε σφάλμα, κατάλληλο για CI/GitHub Actions)
+   python -m src.cli validate
+
+   # 2. Έλεγχος & Αυτόματη επιδιόρθωση (ασφαλές stripping trailing commas, βάθος καθαρισμού LaTeX)
+   python -m src.cli validate --fix
    ```
-   Ο επικυρωτής ελέγχει συντακτικά και τα 614+ αρχεία JavaScript, επαληθεύει την ύπαρξη όλων των συνδεδεμένων εικόνων στον δίσκο και διορθώνει αυτόματα τυχόν αποκλίσεις διαφυγής LaTeX.
+   Ο επικυρωτής ελέγχει συντακτικά και τα 619 αρχεία JavaScript, επαληθεύει την ύπαρξη όλων των συνδεδεμένων εικόνων στον δίσκο και με την επιλογή `--fix` διορθώνει αυτόματα κυριλλικά ομόγλυφα, διαρροές LaTeX και συντακτικές αποκλίσεις χωρίς να επηρεάζει μαθηματικά δεκαδικά (όπως `$2{,}5$`).
+
+6. **Μαθηματική Ανοχή Υπολογιστικών Ερωτημάτων (`calc`):**
+   Ο έλεγχος απαντήσεων στο [`site/js/app.js`](site/js/app.js) εφαρμόζει **αυστηρά σχετικό σφάλμα** (προεπιλογή 2% ή βάσει του πεδίου `item.tolerance`), με ασφαλή διαίρεση κοντά στο μηδέν και προαιρετική υποστήριξη απόλυτης ανοχής (`mode: "abs"`). Απαγορεύονται αυθαίρετα απόλυτα όρια (π.χ. `±0.51`) που αλλοιώνουν τόσο μικρές πιέσεις (3 bar) όσο και μεγάλες δυνάμεις (25.000 N).
 
 ---
 
@@ -451,7 +458,7 @@ copy .env.example .env   # Σε Windows CMD / PowerShell
 ```
 ```env
 GEMINI_API_KEY=<Το_API_Key_σας_από_το_Google_AI_Studio>
-GEMINI_MODEL=gemini-3.5-flash-lite
+GEMINI_MODEL=gemini-3.8-flash
 ```
 
 ### 9.2 Διαδραστική Εκτέλεση
@@ -473,13 +480,16 @@ GEMINI_MODEL=gemini-3.5-flash-lite
 | `python scripts/theory.py -g b -s antoxi -c 1` | Παραγωγή πλήρους θεωρίας για συγκεκριμένη τάξη, μάθημα και κεφάλαιο. |
 | `python -m src.cli process-inbox` | Πλήρης επεξεργασία όλων των PDF/MD που βρίσκονται στο `data/inbox/`. |
 | `python -m src.cli process-inbox --craft` | Επεξεργασία του `data/inbox/` με εξαγωγή σχημάτων μέσω ArtCraft CLI. |
-| `python -m src.cli fix-exercise "<URL_ή_ID>"` | Στοχευμένη επανεξαγωγή και επιδιόρθωση συγκεκριμένης άσκησης (και με `--instructions "..."`). |
+| `python -m src.cli fix-exercise "<URL_ή_ID>"` | Στοχευμένη επιδιόρθωση συγκεκριμένης άσκησης βάσει URL browser ή κωδικού (π.χ. `"ch06-29540"`). |
+| `python -m src.cli validate` | Πλήρης στατικός έλεγχος εγκυρότητας όλων των αρχείων JS και εικόνων του site (exit code 1 σε λάθος). |
+| `python -m src.cli validate --fix` | Έλεγχος και **αυτόματη επιδιόρθωση** LaTeX, ομογλύφων, ονομάτων εικόνων και trailing commas σε όλο το site. |
+| `pytest tests/` | Εκτέλεση της σουίτας αυτοματοποιημένων ελέγχων ποιότητας (unit tests) για τον LaTeX Sanitizer. |
 | `python -m src.cli sync -t b -s thermod` | Συγχρονισμός των `<script>` tags στο `site/index.html` και ενημέρωση του `catalog.js`. |
 | `python -m src.tools.calc_animator --scan` | Σάρωση όλων των υπολογιστικών ερωτημάτων και αναφορά κάλυψης animations 4 βημάτων. |
 | `python -m src.tools.calc_animator --subject thermod --chapter 5` | Παραγωγή σεναρίων μαυροπίνακα 4 βημάτων για συγκεκριμένο μάθημα και κεφάλαιο. |
 | `python scripts/optimize_images_to_webp.py` | Μαζική συμπίεση εικόνων σε WebP και αυτόματη ενημέρωση αναφορών στα αρχεία `.js`. |
 | `python scripts/extract_pdf_images_craft.py <path.pdf> --format webp` | Αυτόνομη εξαγωγή και βελτιστοποίηση σχημάτων από αρχείο PDF. |
-| `python -m src.validators.site_validator` | Πλήρης στατικός έλεγχος εγκυρότητας όλων των αρχείων JS, KaTeX και εικόνων του site. |
+| `python -m src.validators.site_validator --fix` | Άμεση εκτέλεση του validator με λειτουργία αυτόματης επιδιόρθωσης. |
 | `python scripts/site_server.py` | Εκκίνηση τοπικού multithreaded HTTP server στη διεύθυνση `http://localhost:8000`. |
 
 ---

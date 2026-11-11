@@ -17,7 +17,7 @@ window.SECTIONS.push({
     {
       "type": "formula",
       "html": "\\[ W_1 = P_1 A_1 \\cdot \\ell_1 = P_1 V_1 = m\\,P_1 v_1 \\]",
-      "caption": "\\( V_1 = A_1 \\ell_1 \\): όγκος του τμήματος · \\( v_1 = V_1 / m \\): ειδικός όγκος (m³/kg)"
+      "caption": "\\( V_1 = A_1 \\ell_1 \\]: όγκος του τμήματος · \\( v_1 = V_1 / m \\): ειδικός όγκος (m³/kg)"
     },
     {
       "type": "p",
@@ -31,7 +31,7 @@ window.SECTIONS.push({
     {
       "type": "formula",
       "html": "\\[ w = P_2 v_2 - P_1 v_1 \\]",
-      "caption": "\\( P \\) σε Pa, \\( v \\) σε m³/kg, \\( w \\) σε J/kg"
+      "caption": "\\( P \\] σε Pa, \\( v \\) σε m³/kg, \\( w \\) σε J/kg"
     },
     {
       "type": "callout",
@@ -49,7 +49,7 @@ window.SECTIONS.push({
     },
     {
       "type": "p",
-      "text": "Έξοδος: \\( v_2 = 1/\\rho_2 = 0{,}004\\ \\text{m}^3/\\text{kg} \\). Άρα το έργο εξόδου είναι:"
+      "text": "Έξοδος: \\( v_2 = 1/\\rho_2 = 0{,}004\\ \m^3/\kg \\]. Άρα το έργο εξόδου είναι:"
     },
     {
       "type": "formula",

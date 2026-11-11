@@ -27,7 +27,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "hint": "Χρησιμοποιήστε τη σχέση ισορροπίας ισχύος και τον ορισμό του $\\text{COP}$.",
         "explain": "Από τη σχέση ισορροπίας ισχύος $Q_{\\text{συμπυκνωτή}} = \\text{Ψυκτική Ισχύς} + \\text{Ισχύς Συμπιεστή}$ και τον ορισμό του $\\text{COP} = \\frac{\\text{Ψυκτική Ισχύς}}{\\text{Ισχύς Συμπιεστή}} \\Rightarrow \\text{Ψυκτική Ισχύς} = 2{,}5 \\cdot \\text{Ισχύς Συμπιεστή}$, προκύπτει $7\\text{ kW} = 2{,}5 \\cdot \\text{Ισχύς Συμπιεστή} + \\text{Ισχύς Συμπιεστή} = 3{,}5 \\cdot \\text{Ισχύς Συμπιεστή} \\Rightarrow \\text{Ισχύς Συμπιεστή} = 2\\text{ kW}$.",
         "animation": {
-          "title": "Ερώτημα (α): Υπολογισμός \\text{kW}",
+          "title": "Ερώτημα (α): Υπολογισμός \kW",
           "steps": [
             {
               "step": 1,
@@ -41,10 +41,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
             {
               "step": 2,
               "kicker": "Βήμα 2: Επιλογή Βασικού Τύπου & Επίλυση",
-              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
-              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
+              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
+              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
               "math": "\\begin{aligned}\n\\text{COP} &= \\frac{\\text{Ψυκτική Ισχύς}}{\\text{Ισχύς Συμπιεστή}} \\\\\n\\text{Ψυκτική Ισχύς} &= 2{,}5 \\cdot \\text{Ισχύς Συμπιεστή}\n\\end{aligned}",
-              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \\text{kW}.",
+              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \kW.",
               "highlight": false
             },
             {
@@ -61,7 +61,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{kW} = +2\\text{ kW}",
+              "math": "\kW = +2\kW",
               "note": "Η αναγραφή της μονάδας μέτρησης (kW) και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -79,7 +79,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "hint": "Πολλαπλασιάστε τον $\\text{COP}$ επί την ισχύ του συμπιεστή και μετατρέψτε τις μονάδες.",
         "explain": "Ψυκτική Ισχύς $= 2{,}5 \\cdot 2\\text{ kW} = 5\\text{ kW}$. Επειδή $1\\text{ kW} = 860\\text{ kcal/h}$, τα $5\\text{ kW} = 4300\\text{ kcal/h}$. Τέλος, επειδή $1\\text{ kcal/h} = 4\\text{ BTU/h}$, τα $4300\\text{ kcal/h} = 17200\\text{ BTU/h}$.",
         "animation": {
-          "title": "Ερώτημα (β): Υπολογισμός \\text{kW}",
+          "title": "Ερώτημα (β): Υπολογισμός \kW",
           "steps": [
             {
               "step": 1,
@@ -93,10 +93,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
             {
               "step": 2,
               "kicker": "Βήμα 2: Επιλογή Βασικού Τύπου & Επίλυση",
-              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
-              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
+              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
+              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
               "math": "\\begin{aligned}\n\\text{Ψυκτική Ισχύς} &= \\text{COP} \\cdot \\text{Ισχύς Συμπιεστή}\n\\end{aligned}",
-              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \\text{kW}.",
+              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \kW.",
               "highlight": false
             },
             {
@@ -113,7 +113,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{kW} = +5\\text{ kW}",
+              "math": "\kW = +5\kW",
               "note": "Η αναγραφή της μονάδας μέτρησης (kW) και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -146,7 +146,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "hint": "Μετατρέψτε πρώτα την ψυκτική ισχύ σε $\\text{kcal/h}$ και χρησιμοποιήστε τη σχέση ισορροπίας ενέργειας.",
         "explain": "Αρχικά μετατρέπουμε την ψυκτική ισχύ από $\\text{BTU/h}$ σε $\\text{kcal/h}$. Επειδή $1\\text{ kcal/h} = 4\\text{ BTU/h}$, έχουμε: Ψυκτική ισχύς = $20640 / 4 = 5160\\text{ kcal/h}$. Από τη σχέση Απορριπτόμενη θερμική ισχύς = Ψυκτική ισχύς + Ισχύς Συμπιεστή, βρίσκουμε: Ισχύς Συμπιεστή = $7740 - 5160 = 2580\\text{ kcal/h}$. Μετατρέποντας σε $\\text{kW}$ ($1\\text{ kW} = 860\\text{ kcal/h}$), προκύπτει: $2580 / 860 = 3\\text{ kW}$.",
         "animation": {
-          "title": "Ερώτημα (4.1): Υπολογισμός \\text{kW}",
+          "title": "Ερώτημα (4.1): Υπολογισμός \kW",
           "steps": [
             {
               "step": 1,
@@ -160,10 +160,10 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
             {
               "step": 2,
               "kicker": "Βήμα 2: Επιλογή Βασικού Τύπου & Επίλυση",
-              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
-              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\\text{kW}).",
+              "text": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
+              "description": "Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (\kW).",
               "math": "\\begin{aligned}\nP_{\\text{συμπ}} &= Q_{\\text{απορ}} - Q_{\\text{ψυκ}}\n\\end{aligned}",
-              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \\text{kW}.",
+              "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους \kW.",
               "highlight": false
             },
             {
@@ -180,7 +180,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{kW} = +3\\text{ kW}",
+              "math": "\kW = +3\kW",
               "note": "Η αναγραφή της μονάδας μέτρησης (kW) και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -232,7 +232,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{COP} = +2\\text{ }",
+              "math": "\\text{COP} = +2\ ",
               "note": "Η αναγραφή της μονάδας μέτρησης () και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -300,7 +300,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "A = +27\\text{ kW}",
+              "math": "A = +27\kW",
               "note": "Η αναγραφή της μονάδας μέτρησης (kW) και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -352,7 +352,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{COP} = +0.9\\text{ }",
+              "math": "\\text{COP} = +0.9\ ",
               "note": "Η αναγραφή της μονάδας μέτρησης () και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -533,7 +533,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "A = +6\\text{ kW}",
+              "math": "A = +6\kW",
               "note": "Η αναγραφή της μονάδας μέτρησης (kW) και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }
@@ -585,7 +585,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
               "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
               "text": "Προσδιορισμός της τελικής τιμής.",
               "description": "Προσδιορισμός της τελικής τιμής.",
-              "math": "\\text{COP} = +2\\text{ }",
+              "math": "\\text{COP} = +2\ ",
               "note": "Η αναγραφή της μονάδας μέτρησης () και του ορθού προσήμου είναι υποχρεωτική στις εξετάσεις.",
               "highlight": true
             }

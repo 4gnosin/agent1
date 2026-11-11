@@ -291,7 +291,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Τι θα μας έδειχνε, για την πίεση του αερίου, ένα μανόμετρο τοποθετημένο στον κύλινδρο;",
-        "formula": "P_{\\text{μαν}} = \\Delta P",
+        "formula": "$P_{\\text{μαν}}$ = \\Delta P",
         "answer": 20,
         "unit": "kPa",
         "tolerance": 0.01,

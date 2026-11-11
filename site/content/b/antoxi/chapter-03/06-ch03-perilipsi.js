@@ -34,7 +34,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\Sigma F_x &= F_{1x} + F_{2x} + \\dots \\\\ \\Sigma F_{$\psi$} &= F_{1\psi} + F_{2\psi} + \\dots \\\\ \\Sigma &= \\sqrt{(\\Sigma F_x)^2 + (\\Sigma F_{$\psi$})^2} \\\\ \\text{εφ}\\theta &= \\frac{\\Sigma F_{$\psi$}}{\\Sigma F_x} \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\Sigma F_x &= F_{1x} + F_{2x} + \\dots \\\\ \\Sigma F_{\psi} &= F_{1\psi} + F_{2\psi} + \\dots \\\\ \\Sigma &= \\sqrt{(\\Sigma F_x)^2 + (\\Sigma F_{\psi})^2} \\\\ \\text{εφ}\\theta &= \\frac{\\Sigma F_{\psi}}{\\Sigma F_x} \\end{aligned} \\]",
       "caption": "Υπολογισμός συνισταμένης και διεύθυνσης με την αναλυτική μέθοδο."
     },
     {
@@ -47,7 +47,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\frac{F_1}{F_2} &= \\frac{l_2}{l_1} \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\frac{F_1}{F_2} &= \\frac{l_2}{l_1} \\end{aligned} \\]",
       "caption": "Αντιστρόφως ανάλογες αποστάσεις ως προς τα μέτρα των συνιστωσών."
     },
     {
@@ -60,7 +60,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\Sigma F_x &= 0 \\\\ \\Sigma F_{$\psi$} &= 0 \\\\ \\Sigma M &= 0 \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\Sigma F_x &= 0 \\\\ \\Sigma F_{\psi} &= 0 \\\\ \\Sigma M &= 0 \\end{aligned} \\]",
       "caption": "Αναλυτικές συνθήκες ισορροπίας ομοεπίπεδου συστήματος δυνάμεων."
     },
     {
@@ -76,13 +76,13 @@ window.SUBJECT_DATA["antoxi"].sections.push({
         "Μονάδα SI"
       ],
       "rows": [
-        ["Συνισταμένη συγγραμμάτων (ομόρροπων)", "\\( \\Sigma \\)", "\\( \\Sigma = F_1 + F_2 \\)", "\\text{N} \\text{ ή } \\text{daN}"],
-        ["Συνισταμένη συγγραμμάτων (αντίρροπων)", "\\( \\Sigma \\)", "\\( \\Sigma = F_1 - F_2 \\)", "\\text{N} \\text{ ή } \\text{daN}"],
-        ["Συνισταμένη υπό γωνία \\( 90^\\circ \\)", "\\( \\Sigma \\)", "\\( \\Sigma = \\sqrt{F_1^2 + F_2^2} \\)", "\\text{N}"],
-        ["Συνιστώσες σε άξονες", "\\( F_x, F_{$\psi$} \\)", "\\( F_x = F \\cdot \\text{συν}\\theta, \\quad F_{$\psi$} = F \\cdot \\text{ημ}\\theta \\)", "\\text{N}"],
-        ["Μέτρο συνισταμένης (αναλυτικά)", "\\( \\Sigma \\)", "\\( \\Sigma = \\sqrt{(\\Sigma F_x)^2 + (\\Sigma F_{$\psi$})^2} \\)", "\\text{N}"],
-        ["Διεύθυνση συνισταμένης", "\\( \\theta \\)", "\\( \\text{εφ}\\theta = \\frac{\\Sigma F_{$\psi$}}{\\Sigma F_x} \\)", "\\text{rad} \\text{ ή } ^\\circ"],
-        ["Ροπή δύναμης", "\\( M \\)", "\\( M = F \\cdot d \\)", "\\text{N}\\cdot\\text{m} \\text{ ή } \\text{daN}\\cdot\\text{m}"]
+        ["Συνισταμένη συγγραμμάτων (ομόρροπων)", "\\( \\Sigma \\]", "\\( \\Sigma = F_1 + F_2 \\)", "\N \\text{ ή } \\text{daN}"],
+        ["Συνισταμένη συγγραμμάτων (αντίρροπων)", "\\( \\Sigma \\)", "\\( \\Sigma = F_1 - F_2 \\)", "\N \\text{ ή } \\text{daN}"],
+        ["Συνισταμένη υπό γωνία \\( 90^\\circ \\)", "\\( \\Sigma \\)", "\\( \\Sigma = \\sqrt{F_1^2 + F_2^2} \\)", "\N"],
+        ["Συνιστώσες σε άξονες", "\\( F_x, F_{$\psi$} \\)", "\\( F_x = F \\cdot \\text{συν}\\theta, \\quad F_{$\psi$} = F \\cdot \\text{ημ}\\theta \\)", "\N"],
+        ["Μέτρο συνισταμένης (αναλυτικά)", "\\( \\Sigma \\)", "\\( \\Sigma = \\sqrt{(\\Sigma F_x)^2 + (\\Sigma F_{$\psi$})^2} \\)", "\N"],
+        ["Διεύθυνση συνισταμένης", "\\( \\theta \\)", "\\( \\text{εφ}\\theta = \\frac{\\Sigma F_{$\psi$}}{\\Sigma F_x} \\)", "\rad \\text{ ή } ^\\circ"],
+        ["Ροπή δύναμης", "\\( M \\)", "\\( M = F \\cdot d \\)", "\N\\cdot\m \\text{ ή } \\text{daN}\\cdot\m"]
       ]
     },
     {

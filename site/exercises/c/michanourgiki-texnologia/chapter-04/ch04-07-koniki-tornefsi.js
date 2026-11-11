@@ -37,7 +37,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "unit": "°",
         "tolerance": 0.05,
         "hint": "Η ημιγωνία υπολογίζεται από τον τύπο $\\text{εφ}(\\alpha/2) = \\frac{D - d}{2 \\cdot l}$.",
-        "explain": " \\( \\tan\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\text{εφ}(1,43^\\circ) \\approx 0,025$, άρα $\\alpha/2 = 1,43^\\circ$."
+        "explain": " \\( \\text{εφ}\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\text{εφ}(1,43^\\circ) \\approx 0,025$, άρα $\\alpha/2 = 1,43^\\circ$."
       },
       {
         "kind": "mc",
@@ -227,7 +227,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "unit": "°",
         "tolerance": 0.01,
         "hint": "Η στροφή του φορείου γίνεται κατά την ημιγωνία $\\alpha/2$, όπου $\\text{εφ}(\\alpha/2) = \\frac{1}{2} \\cdot \\frac{1}{\\kappa} = \\frac{1}{4} = 0,25$.",
-        "explain": " \\( \\tan(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\text{τοξεφ}(0,25) = 14,036^\\circ$."
+        "explain": " \\( \\text{εφ}(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\text{τοξεφ}(0,25) = 14,036^\\circ$."
       },
       {
         "kind": "mc",

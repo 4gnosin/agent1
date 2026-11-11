@@ -42,7 +42,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} M_F &= F \\cdot l \\\\ &= (F_1 + F_2) \\cdot l \\\\ &= \\text{Σταθερό Αποτέλεσμα} \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} M_F &= F \\cdot l \\\\ &= (F_1 + F_2) \\cdot l \\\\ &= \\text{Σταθερό Αποτέλεσμα} \\end{aligned} \\]",
       "caption": "Εφαρμογή και σύνθεση ροπών κατά Varignon."
     }
   ]

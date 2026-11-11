@@ -28,14 +28,14 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} M &= F \\cdot l \\\\ M_{\\Sigma} &= M_{F1} + M_{F2} + \\dots \\\\ M_Z &= F \\cdot l \\\\ M_{\\text{μετάθεσης}} &= F \\cdot a \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} M &= F \\cdot l \\\\ M_{\\Sigma} &= M_{F1} + M_{F2} + \\dots \\\\ M_Z &= F \\cdot l \\\\ M_{\\text{μετάθεσης}} &= F \\cdot a \\end{aligned} \\]",
       "caption": "Βασικοί τύποι ροπών και συνισταμένης ροπής."
     },
     {
       "type": "table",
       "headers": ["Φυσικό Μέγεθος", "Σύμβολο", "Τύπος Υπολογισμού", "Μονάδα SI"],
       "rows": [
-        ["Ροπή δύναμης", "\\(M\\)", "\\(M = F \\cdot l\\)", "\\(\\text{N} \\cdot \\text{m}\\) (ή \\(\\text{daN} \\cdot \\text{m}\\))"],
+        ["Ροπή δύναμης", "\\(M\\]", "\\(M = F \\cdot l\\)", "\\(\\text{N} \\cdot \\text{m}\\) (ή \\(\\text{daN} \\cdot \\text{m}\\))"],
         ["Συνισταμένη ροπή", "\\(M_{\\Sigma}\\)", "\\(M_{\\Sigma} = \\sum M_i\\)", "\\(\\text{N} \\cdot \\text{m}\\)"],
         ["Ροπή ζεύγους", "\\(M_Z\\)", "\\(M_Z = F \\cdot l\\)", "\\(\\text{N} \\cdot \\text{m}\\)"],
         ["Απόσταση / Βραχίονας", "\\(l, a\\)", "Γεωμετρική απόσταση", "\\(\\text{m}\\)"]

@@ -1339,7 +1339,7 @@ function esc(s) {
     // 3. Εάν είναι σύντομος, αυτόνομος μαθηματικός τύπος χωρίς πεζό κείμενο
     var hasProseWords = /[α-ωΑ-Ω]{2,}\s+[α-ωΑ-Ω]{2,}/i.test(s) || s.indexOf("%") !== -1;
     if (!hasProseWords && !/[$]/.test(s) && !s.startsWith("\\[") && !s.startsWith("$$") && !s.startsWith("\\(") &&
-        (/\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega)\b|^\^|(?:\^|_)\{|=/).test(s)) {
+        (/\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega|dot|ddot|bar|vec|rho|pi|epsilon|kappa|zeta|chi|text|hat)\b|^\^|(?:\^|_)\{|=/).test(s)) {
       try {
         var cleanTex = s.startsWith("^") ? "{}" + s : s;
         var isDisplay = cleanTex.indexOf("\\\\") !== -1 || cleanTex.length > 55;
@@ -1388,8 +1388,8 @@ function esc(s) {
         }
       }
       // 5. Πεζό τμήμα: Εάν περιέχει γυμνές εντολές LaTeX (π.χ. \sigma\upsilon\nu 60^\circ = \frac{1}{2} ή \tau = \frac{Q}{A})
-      if (part.indexOf("\\") !== -1 && (/\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega)\b/).test(part)) {
-        var cmdPattern = /((?:[A-Za-z\u0370-\u03ff0-9_]+\s*=\s*)?\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega)[^\n,;.!?]*?(?:\{[^{}]*\}|[^\n,;.!?])*)/g;
+      if (part.indexOf("\\") !== -1 && (/\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega|dot|ddot|bar|vec|rho|pi|epsilon|kappa|zeta|chi|text|hat)\b/).test(part)) {
+        var cmdPattern = /((?:[A-Za-z\u0370-\u03ff0-9_]+\s*=\s*)?\\(?:frac|sqrt|cdot|times|pm|Delta|sigma|tau|mu|alpha|beta|gamma|lambda|phi|psi|omega|eta|theta|varphi|upsilon|nu|mathbf|approx|le|ge|Sigma|Omega|dot|ddot|bar|vec|rho|pi|epsilon|kappa|zeta|chi|text|hat)[^\n,;.!?]*?(?:\{[^{}]*\}|[^\n,;.!?])*)/g;
         return part.replace(cmdPattern, function (m) {
           var rawMath = m.trim();
           var trailing = "";
@@ -2409,7 +2409,7 @@ function esc(s) {
     if (ex.givens) {
       inner += '<div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.9rem">';
       ex.givens.forEach(function (g) {
-        inner += '<span class="chip"><span style="opacity:.7">' + esc(g.label) + "</span> <b>" + esc(g.value) + "</b></span>";
+        inner += '<span class="chip"><span style="opacity:.7">' + renderMathText(g.label) + "</span> <b>" + renderMathText(g.value) + "</b></span>";
       });
       inner += "</div>";
     }
@@ -2469,7 +2469,7 @@ function esc(s) {
       }
       inner += itemView(item, answer, state.checked, i);
       const hasAnim = Boolean(item && item.animation && Array.isArray(item.animation.steps) && item.animation.steps.length > 0);
-      const hasHint = item.hint || item.hintImage || hasAnim;
+      const hasHint = item.hint || item.formula || item.hintImage || hasAnim;
       if (hasHint) {
         const btnChalkClass = hasAnim ? "btn btn-chalk btn-chalk-anim" : "btn btn-chalk";
         inner += '<p><button class="' + btnChalkClass + '" style="margin-top:.8rem" data-act="hint" data-i="' + i + '">' +
@@ -2959,7 +2959,7 @@ function esc(s) {
       input.style.backgroundColor = "rgba(143,219,154,.15)";
       feedback.style.display = "block";
       feedback.style.backgroundColor = "rgba(143,219,154,.12)";
-      feedback.innerHTML = "<b>Μπράβο!</b> " + esc(ex.explain);
+      feedback.innerHTML = "<b>Μπράβο!</b> " + renderMathText(ex.explain);
       itemEl.setAttribute("data-solved", "1");
     } else {
       status.style.color = "var(--wrong, #e07a5f)";
@@ -2993,7 +2993,7 @@ function esc(s) {
     status.textContent = "Λύση";
     feedback.style.display = "block";
     feedback.style.backgroundColor = "rgba(196,92,38,.08)";
-    feedback.innerHTML = "<b>Αποτέλεσμα:</b> " + esc(ex.explain);
+    feedback.innerHTML = "<b>Αποτέλεσμα:</b> " + renderMathText(ex.explain);
     itemEl.removeAttribute("data-solved");
     updateMathScore();
   }

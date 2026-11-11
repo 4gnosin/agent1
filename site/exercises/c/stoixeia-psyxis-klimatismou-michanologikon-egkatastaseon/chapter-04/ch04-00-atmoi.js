@@ -20,7 +20,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon"].
         "subq": "α",
         "subqPrompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε $1\\text{ kg}$ πάγου θερμοκρασίας $-40\\text{ }^\\circ\\text{C}$ (σημείο Α) σε νερό θερμοκρασίας $0\\text{ }^\\circ\\text{C}$ (σημείο Γ);",
         "prompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε $1\\text{ kg}$ πάγου θερμοκρασίας $-40\\text{ }^\\circ\\text{C}$ (σημείο Α) σε νερό θερμοκρασίας $0\\text{ }^\\circ\\text{C}$ (σημείο Γ);",
-        "formula": "Q_{\\text{ολ}} = 100\\text{ kcal}",
+        "formula": "$Q_{\\text{ολ}}$ = 100\\text{ kcal}",
         "answer": 100,
         "unit": "kcal",
         "tolerance": 0.01,

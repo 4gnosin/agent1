@@ -96,7 +96,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Όταν επισκευάσετε τη βλάβη, σε ποια θερμοκρασία θα ρυθμίσετε τον θερμοστάτη, που θα τοποθετήσετε στο εξερχόμενο νερό για να μη τυχόν παγώσει το νερό και σπάσει τον εξατμιστή;",
-        "formula": "t_{\\text{επ}} = 3",
+        "formula": "$t_{\\text{επ}}$ = 3",
         "answer": 3,
         "unit": "°C",
         "tolerance": 0.0,

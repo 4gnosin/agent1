@@ -95,6 +95,15 @@ _NAKED_MATH_RE = re.compile(
     rf"(?<![\$\w\\])({_EQUATION_PREFIX}{_LATEX_COMMANDS}{_TOKEN}*)"
 )
 
+# Regex για εντοπισμό μεταβλητών με δείκτες/εκθέτες ή παραγώγους σε πεζό κείμενο
+# π.χ. T_{\text{αναρ}}, \dot{m}, P_{\text{αν}}, t_{\text{ημέρα}}
+_VAR_SUB_RE = re.compile(
+    r'(?<![\$\w\\])(?:'
+    r'\\(?:dot|ddot|vec|hat|bar)\{[a-zA-Z\u0370-\u03ff0-9_]+\}|'
+    r'[a-zA-Z](?:_|\^)\{(?:[^{}]*|\\text\{[^{}]*\})*\}'
+    r')(?!\$)'
+)
+
 
 def restore_control_chars(text: str) -> str:
     """Επαναφέρει κατεστραμμένα LaTeX escapes από ακούσια JSON control chars (\\t -> tab, \\f -> form feed)."""
@@ -113,7 +122,7 @@ def normalize_cyrillic(text: str) -> str:
 
 
 def clean_celsius_and_units_prose(text: str) -> str:
-    """
+    r"""
     Καθαρίζει εκφράσεις βαθμών Κελσίου και κοινών μονάδων σε πεζό κείμενο (εκτός $...$).
     π.χ. 27^\circ\text{C} -> 27°C, \text{ }^\circ\text{C} -> °C, \text{kg} -> kg
     """
@@ -174,6 +183,9 @@ def wrap_naked_latex_in_prose(prose: str) -> str:
     """
     if not prose or "\\" not in prose:
         return prose
+
+    # 1. Τύλιγμα μεταβλητών με δείκτες/εκθέτες και παραγώγους (π.χ. T_{\text{αναρ}}, \dot{m})
+    prose = _VAR_SUB_RE.sub(r"$\g<0>$", prose)
 
     # Προστασία HTML tags (<br>, <b>, <span> κ.λπ.)
     # Βρίσκουμε εντολές LaTeX

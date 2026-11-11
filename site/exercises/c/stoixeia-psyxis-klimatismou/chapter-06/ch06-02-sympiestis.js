@@ -16,15 +16,15 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "stem": "Σε μια ψυκτική διάταξη η ισχύς του συμπιεστή είναι $5\\text{ kW}$ και η απορριπτόμενη θερμική ισχύς στον συμπυκνωτή είναι $12\\text{ kW}$. Η μανομετρική πίεση κατάθλιψης είναι $8\\text{ bar}$ και η σχέση (λόγος) συμπίεσης $CR = 6$. Δίνεται η ατμοσφαιρική πίεση $P_{\\text{atm}} = 1\\text{ bar}$.",
     "givens": [
       {
-        "label": "P_{\\text{συμπ}}",
+        "label": "$P_{\\text{συμπ}}$",
         "value": "5 kW"
       },
       {
-        "label": "Q_{\\text{συμπ}}",
+        "label": "$Q_{\\text{συμπ}}$",
         "value": "12 kW"
       },
       {
-        "label": "P_{\\text{μαν.κατ}}",
+        "label": "$P_{\\text{μαν.κατ}}$",
         "value": "8 bar"
       },
       {
@@ -32,7 +32,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "value": "6"
       },
       {
-        "label": "P_{\\text{atm}}",
+        "label": "$P_{\\text{atm}}$",
         "value": "1 bar"
       }
     ],
@@ -89,7 +89,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "stem": "Σε ψυκτική διάταξη που λειτουργεί με μηχανική συμπίεση ατμών, η απόλυτη πίεση κατάθλιψης είναι $P_{\\text{απ.κατ.}} = 8\\text{ bar}$ και ο λόγος συμπίεσης $CR = 2{,}5$. Δίνεται η ατμοσφαιρική πίεση $P_{\\text{ατμ.}} = 1\\text{ bar}$.",
     "givens": [
       {
-        "label": "P_{\\text{απ.κατ.}}",
+        "label": "$P_{\\text{απ.κατ.}}$",
         "value": "8 bar"
       },
       {
@@ -97,7 +97,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "value": "2.5"
       },
       {
-        "label": "P_{\\text{ατμ.}}",
+        "label": "$P_{\\text{ατμ.}}$",
         "value": "1 bar"
       }
     ],

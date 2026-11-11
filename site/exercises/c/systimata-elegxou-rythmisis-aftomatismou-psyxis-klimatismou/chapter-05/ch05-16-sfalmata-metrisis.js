@@ -62,7 +62,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "kind": "calc",
         "subq": "2",
         "prompt": "2. Σε ένα σύστημα, ο πρεσσοστάτης έχει ρυθμιστεί σε πίεση $2{,}80\\text{ bar}$. Με βάση τον πίνακα μετατροπής ($1\\text{ bar} = 100\\text{ kPa}$), σε πόσο χρόνο ($s$) θα έχει φτάσει στην πίεση αυτή (αντιστοιχία $\\Delta T = 100\\text{ K}$ δίνει χρόνο $40\\text{ s}$);",
-        "formula": "t = 40\\text{ s}",
+        "formula": "t = 40\s",
         "answer": 40,
         "unit": "s",
         "tolerance": 0.01,

@@ -35,12 +35,12 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\Sigma &= F_1 + F_2 \\quad \\text{(Συγγραμμικές - Ομόρροπες)} \\\\ \\Sigma &= F_1 - F_2 \\quad \\text{(Συγγραμμικές - Αντίρροπες)} \\\\ \\Sigma &= \\sqrt{F_1^2 + F_2^2} \\quad (\\varphi = 90^\\circ) \\\\ \\varepsilon\\varphi\\theta &= \\frac{F_2}{F_1} \\quad \\text{(Διεύθυνση συνισταμένης υπό } 90^\\circ) \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\Sigma &= F_1 + F_2 \\quad \\text{(Συγγραμμικές - Ομόρροπες)} \\\\ \\Sigma &= F_1 - F_2 \\quad \\text{(Συγγραμμικές - Αντίρροπες)} \\\\ \\Sigma &= \\sqrt{F_1^2 + F_2^2} \\quad (\\varphi = 90^\\circ) \\\\ \\varepsilon\\varphi\\theta &= \\frac{F_2}{F_1} \\quad \\text{(Διεύθυνση συνισταμένης υπό } 90^\\circ) \\end{aligned} \\]",
       "caption": "Βασικοί τύποι σύνθεσης δυνάμεων."
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\Sigma_x &= \\Sigma F_x = F_{1x} + F_{2x} - F_{3x} \\\\ \\Sigma_\\psi &= \\Sigma F_\\psi = F_{1\\psi} - F_{2\\psi} + F_{3\\psi} \\\\ \\Sigma &= \\sqrt{(\\Sigma F_x)^2 + (~\\Sigma F_\\psi)^2} \\\\ \\varepsilon\\varphi\\theta &= \\frac{\\Sigma F_\\psi}{\\Sigma F_x} \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\Sigma_x &= \\Sigma F_x = F_{1x} + F_{2x} - F_{3x} \\\\ \\Sigma_\\psi &= \\Sigma F_\\psi = F_{1\\psi} - F_{2\\psi} + F_{3\\psi} \\\\ \\Sigma &= \\sqrt{(\\Sigma F_x)^2 + (~\\Sigma F_\\psi)^2} \\\\ \\varepsilon\\varphi\\theta &= \\frac{\\Sigma F_\\psi}{\\Sigma F_x} \\end{aligned} \\]",
       "caption": "Αναλυτική μέθοδος για πολλές ομοεπίπεδες δυνάμεις."
     },
     {

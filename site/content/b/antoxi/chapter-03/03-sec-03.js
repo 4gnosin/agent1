@@ -40,7 +40,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} R &= F_1 + F_2 \\\\ F_1 \\cdot l_1 &= F_2 \\cdot l_2 \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} R &= F_1 + F_2 \\\\ F_1 \\cdot l_1 &= F_2 \\cdot l_2 \\end{aligned} \\]",
       "caption": "Βασικές εξίσωση μέτρου συνισταμένης και ισορροπίας ροπών για παράλληλες ομόρροπες δυνάμεις."
     },
     {
@@ -50,7 +50,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     {
       "type": "ul",
       "items": [
-        "\\( R \\): Η συνισταμένη δύναμη σε \\( \\text{N} \\) (Newton).",
+        "\\( R \\]: Η συνισταμένη δύναμη σε \\( \\text{N} \\) (Newton).",
         "\\( F_1, F_2 \\): Οι δύο παράλληλες και ομόρροπες δυνάμεις σε \\( \\text{N} \\).",
         "\\( l_1 \\): Η απόσταση της δύναμης \\( F_1 \\) από το σημείο εφαρμογής της συνισταμένης \\( R \\) σε \\( \\text{m} \\) ή \\( \\text{cm} \\).",
         "\\( l_2 \\): Η απόσταση της δύναμης \\( F_2 \\) από το σημείο εφαρμογής της συνισταμένης \\( R \\) σε \\( \\text{m} \\) ή \\( \\text{cm} \\)."
@@ -71,17 +71,17 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} R &= F_1 + F_2 \\\\ &= 300 + 200 \\\\ &= 500\\text{ N} \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} R &= F_1 + F_2 \\\\ &= 300 + 200 \\\\ &= 500\\text{ N} \\end{aligned} \\]",
       "caption": "Υπολογισμός μέτρου συνισταμένης."
     },
     {
       "type": "p",
-      "text": "Για τις αποστάσεις γνωρίζουμε ότι \\( l_1 + l_2 = 1\\text{ m} \\) και από τη συνθήκη ροπών \\( F_1 \\cdot l_1 = F_2 \\cdot l_2 \\):"
+      "text": "Για τις αποστάσεις γνωρίζουμε ότι \\( l_1 + l_2 = 1\\text{ m} \\] και από τη συνθήκη ροπών \\( F_1 \\cdot l_1 = F_2 \\cdot l_2 \\):"
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} 300 \\cdot l_1 &= 200 \\cdot l_2 \\\\ 3 l_1 &= 2 l_2 \\\\ l_2 &= 1{,}5 l_1 \\end{aligned} \\]",
-      "caption": "Συσχέτιση αποστάσεων \\( l_1 \\) και \\( l_2 \\)."
+      "html": "\\[\\begin{aligned} 300 \\cdot l_1 &= 200 \\cdot l_2 \\\\ 3 l_1 &= 2 l_2 \\\\ l_2 &= 1{,}5 l_1 \\end{aligned} \\]",
+      "caption": "Συσχέτιση αποστάσεων \\( l_1 \\] και \\( l_2 \\)."
     },
     {
       "type": "p",
@@ -89,8 +89,8 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} l_1 + 1{,}5 l_1 &= 1 \\\\ 2{,}5 l_1 &= 1 \\\\ l_1 &= \\frac{1}{2{,}5} \\\\ &= 0{,}4\\text{ m} \\end{aligned} \\]",
-      "caption": "Υπολογισμός απόστασης \\( l_1 \\)."
+      "html": "\\[\\begin{aligned} l_1 + 1{,}5 l_1 &= 1 \\\\ 2{,}5 l_1 &= 1 \\\\ l_1 &= \\frac{1}{2{,}5} \\\\ &= 0{,}4\\text{ m} \\end{aligned} \\]",
+      "caption": "Υπολογισμός απόστασης \\( l_1 \\]."
     },
     {
       "type": "p",
@@ -98,8 +98,8 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} l_2 &= l - l_1 \\\\ &= 1 - 0{,}4 \\\\ &= 0{,}6\\text{ m} \\end{aligned} \\]",
-      "caption": "Υπολογισμός απόστασης \\( l_2 \\)."
+      "html": "\\[\\begin{aligned} l_2 &= l - l_1 \\\\ &= 1 - 0{,}4 \\\\ &= 0{,}6\\text{ m} \\end{aligned} \\]",
+      "caption": "Υπολογισμός απόστασης \\( l_2 \\]."
     },
     {
       "type": "callout",

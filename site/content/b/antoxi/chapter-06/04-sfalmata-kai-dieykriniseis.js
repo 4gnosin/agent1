@@ -37,7 +37,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
       "type": "callout",
       "kind": "warning",
       "title": "Προσοχή στις Μετατροπές Μονάδων",
-      "text": "Θυμηθείτε τις βασικές ισοδυναμίες που σώζουν από λάθη στους υπολογισμούς:\n\\[ \\begin{aligned} 1\\text{ cm} &= 10\\text{ mm} \\\\ 1\\text{ cm}^2 &= 100\\text{ mm}^2 = 10^{-2}\\text{ m}^2 \\\\ 1\\text{ daN} &= 10\\text{ N} \\\\ 1\\text{ kN} &= 1000\\text{ N} = 100\\text{ daN} \\end{aligned} \\]"
+      "text": "Θυμηθείτε τις βασικές ισοδυναμίες που σώζουν από λάθη στους υπολογισμούς:\n\\[\\begin{aligned} 1\\text{ cm} &= 10\\text{ mm} \\\\ 1\\text{ cm}^2 &= 100\\text{ mm}^2 = 10^{-2}\\text{ m}^2 \\\\ 1\\text{ daN} &= 10\\text{ N} \\\\ 1\\text{ kN} &= 1000\\text{ N} = 100\\text{ daN} \\end{aligned} \\]"
     },
     {
       "type": "h",
@@ -49,7 +49,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\sigma_{\\text{υπ}} &= \\frac{F}{A} \\\\ &= \\frac{2400\\text{ daN}}{4\\text{ cm} \\cdot 6\\text{ cm}} \\\\ &= \\frac{2400}{24} \\\\ &= 100\\text{ daN/cm}^2 \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\sigma_{\\text{υπ}} &= \\frac{F}{A} \\\\ &= \\frac{2400\\text{ daN}}{4\\text{ cm} \\cdot 6\\text{ cm}} \\\\ &= \\frac{2400}{24} \\\\ &= 100\\text{ daN/cm}^2 \\end{aligned} \\]",
       "caption": "Παράδειγμα ορθής κατακόρυφης ανάπτυξης πράξεων."
     },
     {

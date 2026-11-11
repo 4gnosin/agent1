@@ -31,7 +31,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "β",
         "prompt": "β) Να υπολογίσετε τον συντελεστή διόρθωσης $\\sigma_{\\delta}$ του σώματος χρησιμοποιώντας το διάγραμμα διόρθωσης απόδοσης.",
         "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-09/c_stoixeia-kentrikon-thermanseon_ch09_28564_fig01.webp",
-        "formula": "\\text{Από το διάγραμμα για } t_{\\text{εν}} = 60^\\circ\\text{C}",
+        "formula": "\\text{Από το διάγραμμα για } $t_{\\text{εν}}$ = 60^\\circ\\text{C}",
         "answer": 1,
         "unit": "",
         "tolerance": 0.01,

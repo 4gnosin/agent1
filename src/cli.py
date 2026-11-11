@@ -540,19 +540,40 @@ def validate_command(args: argparse.Namespace) -> None:
         print(f"❌ Η διαδρομή δεν υπάρχει: {target_path}", file=sys.stderr)
         sys.exit(1)
 
-    files_to_check = [target_path] if target_path.is_file() else list(target_path.rglob("*.js"))
+    if target_path.is_file():
+        files_to_check = [target_path]
+    else:
+        raw_files = list(target_path.rglob("*.js"))
+        files_to_check = []
+        for f in raw_files:
+            if "js" in f.parts or "simulations" in f.parts or "math" in f.parts:
+                continue
+            if f.name in ("catalog.js", "links.js", "scripts_catalog.js", "math.js"):
+                continue
+            if "content" in f.parts and not any(p.startswith("chapter-") for p in f.parts):
+                continue
+            files_to_check.append(f)
 
     do_fix = getattr(args, "fix", False)
     if do_fix:
         print("🔧 Ενεργοποιήθηκε αυτόματη επιδιόρθωση (--fix)...")
         fixed_count = 0
+        try:
+            from src.utils.latex_sanitizer import sanitize_js_file
+        except ImportError:
+            from .utils.latex_sanitizer import sanitize_js_file
+
         for f in files_to_check:
             try:
                 orig = f.read_text(encoding="utf-8")
                 new_t = re.sub(r'_#(?=\d+)', '_', orig)
-                new_t = re.sub(r',\s*([\]}])', r'\1', new_t)
+                new_t = SiteValidator.strip_trailing_commas(new_t)
                 if new_t != orig:
                     f.write_text(new_t, encoding="utf-8")
+                    fixed_count += 1
+
+                # Βαθύς καθαρισμός LaTeX, κυριλλικών και μαθηματικών
+                if sanitize_js_file(f):
                     fixed_count += 1
             except Exception as e:
                 print(f"   ⚠️ Σφάλμα επιδιόρθωσης στο {f.name}: {e}")
@@ -991,8 +1012,8 @@ def main() -> None:
 
     # 4. validate
     p_val = subparsers.add_parser("validate", help="Έλεγχος και επικύρωση αρχείων JavaScript")
-    p_val.add_argument("path", help="Διαδρομή αρχείου .js ή φακέλου προς έλεγχο")
-    p_val.add_argument("--fix", action="store_true", help="Αυτόματη επιδιόρθωση γνωστών λαθών (π.χ. αφαίρεση # από εικόνες)")
+    p_val.add_argument("path", nargs="?", default="site", help="Διαδρομή αρχείου .js ή φακέλου προς έλεγχο (προεπιλογή: site)")
+    p_val.add_argument("--fix", action="store_true", help="Αυτόματη επιδιόρθωση γνωστών λαθών, LaTeX και συντακτικού")
     p_val.set_defaults(func=validate_command)
 
     # 5. tutor

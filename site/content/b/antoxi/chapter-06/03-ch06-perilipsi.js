@@ -36,12 +36,12 @@ window.SUBJECT_DATA["antoxi"].sections.push({
         "Μονάδες (SI / Τεχνικές)"
       ],
       "rows": [
-        ["Ορθή τάση (εφελκυσμού / θλίψης)", "\\(\\sigma\\)", "\\[ \\sigma = \\frac{F}{A} \\]", "\\(\\text{N}/\\text{mm}^2\\), \\(\\text{daN}/\\text{cm}^2\\)"],
-        ["Διαστασιολόγηση", "\\(A_{\\text{απ}}\\)", "\\[ A_{\\text{απ}} = \\frac{F_{\\text{υπ}}}{\\sigma_{\\text{επ}}} \\]", "\\(\\text{mm}^2\\), \\(\\text{cm}^2\\)"],
-        ["Έλεγχος τάσεων", "\\(\\sigma_{\\text{υπ}}\\)", "\\[ \\sigma_{\\text{υπ}} = \\frac{F_{\\text{υπ}}}{A_{\\text{υπ}}} \\le \\sigma_{\\text{επ}} \\]", "\\(\\text{N}/\\text{mm}^2\\), \\(\\text{daN}/\\text{cm}^2\\)"],
-        ["Ικανότητα φόρτισης", "\\(F_{\\mu}\\)", "\\[ F_{\\mu} = A_{\\text{υπ}} \\cdot \\sigma_{\\text{επ}} \\]", "\\(\\text{N}\\), \\(\\text{daN}\\), \\(\\text{kN}\\)"],
-        ["Επιτρεπόμενη τάση", "\\(\\sigma_{\\text{επ}}\\)", "\\[ \\sigma_{\\text{επ}} = \\frac{\\sigma_{\\text{θρ}}}{\\nu} \\]", "\\(\\text{N}/\\text{mm}^2\\), \\(\\text{daN}/\\text{cm}^2\\)"],
-        ["Επιφανειακή πίεση", "\\(p\\)", "\\[ p = \\frac{F}{A} \\]", "\\(\\text{N}/\\text{mm}^2\\), \\(\\text{daN}/\\text{cm}^2\\)"]
+        ["Ορθή τάση (εφελκυσμού / θλίψης)", "\\(\\sigma\\)", "\\[ \\sigma = \\frac{F}{A} \\]", "\\(\\text{N}/\\text{mm}^2\\], \\(\\text{daN}/\\text{cm}^2\\)"],
+        ["Διαστασιολόγηση", "\\(A_{\\text{απ}}\\)", "\\[ A_{\\text{απ}} = \\frac{F_{\\text{υπ}}}{\\sigma_{\\text{επ}}} \\]", "\\(\\text{mm}^2\\], \\(\\text{cm}^2\\)"],
+        ["Έλεγχος τάσεων", "\\(\\sigma_{\\text{υπ}}\\)", "\\[ \\sigma_{\\text{υπ}} = \\frac{F_{\\text{υπ}}}{A_{\\text{υπ}}} \\le \\sigma_{\\text{επ}} \\]", "\\(\\text{N}/\\text{mm}^2\\], \\(\\text{daN}/\\text{cm}^2\\)"],
+        ["Ικανότητα φόρτισης", "\\(F_{\\mu}\\)", "\\[ F_{\\mu} = A_{\\text{υπ}} \\cdot \\sigma_{\\text{επ}} \\]", "\\(\\text{N}\\], \\(\\text{daN}\\), \\(\\text{kN}\\)"],
+        ["Επιτρεπόμενη τάση", "\\(\\sigma_{\\text{επ}}\\)", "\\[ \\sigma_{\\text{επ}} = \\frac{\\sigma_{\\text{θρ}}}{\\nu} \\]", "\\(\\text{N}/\\text{mm}^2\\], \\(\\text{daN}/\\text{cm}^2\\)"],
+        ["Επιφανειακή πίεση", "\\(p\\)", "\\[ p = \\frac{F}{A} \\]", "\\(\\text{N}/\\text{mm}^2\\], \\(\\text{daN}/\\text{cm}^2\\)"]
       ]
     },
     {

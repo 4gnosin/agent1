@@ -66,7 +66,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} \\text{εφ}\\varphi &= \\frac{b/2}{h/2} \\\\ &= \\frac{0{,}8}{2{,}0} \\\\ &= 0{,}4 \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} \\text{εφ}\\varphi &= \\frac{b/2}{h/2} \\\\ &= \\frac{0{,}8}{2{,}0} \\\\ &= 0{,}4 \\end{aligned} \\]",
       "caption": "Υπολογισμός εφαπμένης οριακής γωνίας ανατροπής."
     },
     {

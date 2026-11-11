@@ -6,9 +6,14 @@ SiteValidator - Επικύρωση αρχείων JavaScript για το 4gnosin
 from __future__ import annotations
 
 import json
+import os
 import re
+import sys
 from pathlib import Path
 from typing import Any
+
+if __package__ is None or __package__ == "":
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 
 class SiteValidator:
@@ -54,7 +59,7 @@ class SiteValidator:
                     try:
                         parsed = json.loads(argument)
                     except json.JSONDecodeError:
-                        fixed = re.sub(r",\s*([\]}])", r"\1", argument)
+                        fixed = cls.strip_trailing_commas(argument)
                         try:
                             parsed = json.loads(fixed.strip())
                         except json.JSONDecodeError:
@@ -115,6 +120,62 @@ class SiteValidator:
             else:
                 index += 1
         return len(source)
+
+    @staticmethod
+    def strip_trailing_commas(source: str) -> str:
+        """
+        Αφαιρεί ασφαλώς περιττά κόμματα πριν από ] ή } ΜΟΝΟ εκτός strings,
+        προστατεύοντας LaTeX εκφράσεις όπως 2{,}5.
+        """
+        chars = []
+        index = 0
+        in_quote = None
+        escaped = False
+        while index < len(source):
+            char = source[index]
+            if in_quote:
+                chars.append(char)
+                if escaped:
+                    escaped = False
+                elif char == "\\":
+                    escaped = True
+                elif char == in_quote:
+                    in_quote = None
+                index += 1
+                continue
+
+            if char in ('"', "'", "`"):
+                in_quote = char
+                chars.append(char)
+                index += 1
+                continue
+
+            if source.startswith("//", index):
+                newline = source.find("\n", index)
+                end = len(source) if newline == -1 else newline + 1
+                chars.append(source[index:end])
+                index = end
+                continue
+
+            if source.startswith("/*", index):
+                end_comment = source.find("*/", index)
+                end = len(source) if end_comment == -1 else end_comment + 2
+                chars.append(source[index:end])
+                index = end
+                continue
+
+            if char == ",":
+                lookahead = index + 1
+                while lookahead < len(source) and source[lookahead] in " \t\r\n":
+                    lookahead += 1
+                if lookahead < len(source) and source[lookahead] in ("]", "}"):
+                    index += 1
+                    continue
+
+            chars.append(char)
+            index += 1
+
+        return "".join(chars)
 
     @classmethod
     def _read_balanced_js_argument(cls, source: str, opening: int) -> tuple[str | None, int | None]:
@@ -457,13 +518,22 @@ def main():
     if do_fix:
         print("🔧 Ενεργοποιήθηκε η λειτουργία αυτόματης επιδιόρθωσης (--fix)...")
         fixed_files = 0
+        try:
+            from src.utils.latex_sanitizer import sanitize_js_file
+        except ImportError:
+            from ..utils.latex_sanitizer import sanitize_js_file
+
         for js_path in all_files:
             try:
                 orig = js_path.read_text(encoding="utf-8")
                 new_t = re.sub(r'_#(?=\d+)', '_', orig)
-                new_t = re.sub(r',\s*([\]}])', r'\1', new_t)
+                new_t = SiteValidator.strip_trailing_commas(new_t)
                 if new_t != orig:
                     js_path.write_text(new_t, encoding="utf-8")
+                    fixed_files += 1
+
+                # Βαθύς καθαρισμός LaTeX, κυριλλικών και μαθηματικών
+                if sanitize_js_file(js_path):
                     fixed_files += 1
             except Exception as e:
                 print(f"   ⚠️ Σφάλμα επιδιόρθωσης στο {js_path.name}: {e}")

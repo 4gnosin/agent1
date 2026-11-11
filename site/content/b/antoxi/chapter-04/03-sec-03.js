@@ -40,7 +40,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\begin{aligned} y_G &= \\frac{4R}{3\\pi} \\\\ &= \\frac{4 \\cdot R}{3 \\cdot 3{,}1416} \\\\ &\\approx 0{,}424 \\cdot R \\end{aligned} \\]",
+      "html": "\\[\\begin{aligned} y_G &= \\frac{4R}{3\\pi} \\\\ &= \\frac{4 \\cdot R}{3 \\cdot 3{,}1416} \\\\ &\\approx 0{,}424 \\cdot R \\end{aligned} \\]",
       "caption": "Τύπος απόστασης κεντροειδούς ημικυκλίου από τη βάση."
     },
     {
@@ -56,7 +56,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     {
       "type": "callout",
       "kind": "example",
-      "text": "<strong>Παράδειγμα:</strong> Να υπολογιστεί η απόσταση `y_G` του κεντροειδούς ημικυκλίου διαμέτρου `d = 100\\text{ mm}` από τη διαμετρική του βάση.<br><br><strong>Λύση:</strong><br>1. Δεδομένα: `d = 100\\text{ mm}`, άρα η ακτίνα είναι \\( R = \\frac{d}{2} = 50\\text{ mm} \\).<br>2. Τύπος: \\( y_G = \\frac{4R}{3\\pi} \\).<br>3. Αντικατάσταση και υπολογισμός:<br>\\[ \\begin{aligned} y_G &= \\frac{4 \\cdot 50}{3 \\cdot 3{,}14} \\\\ &= \\frac{200}{9{,}42} \\\\ &= 21{,}23\\text{ mm} \\end{aligned} \\]"
+      "text": "<strong>Παράδειγμα:</strong> Να υπολογιστεί η απόσταση `y_G` του κεντροειδούς ημικυκλίου διαμέτρου `d = 100\mm` από τη διαμετρική του βάση.  <strong>Λύση:</strong> 1. Δεδομένα: `d = 100\mm`, άρα η ακτίνα είναι \\( R = \\frac{d}{2} = 50\\text{ mm} \\]. 2. Τύπος: \\( y_G = \\frac{4R}{3\\pi} \\). 3. Αντικατάσταση και υπολογισμός: \\[\\begin{aligned} y_G &= \\frac{4 \\cdot 50}{3 \\cdot 3{,}14} \\\\ &= \\frac{200}{9{,}42} \\\\ &= 21{,}23\\text{ mm} \\end{aligned} \\]"
     },
     {
       "type": "h",
