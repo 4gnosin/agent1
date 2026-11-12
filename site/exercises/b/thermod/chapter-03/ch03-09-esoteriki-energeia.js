@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "16254",
     "code": "Θέμα 2<sup>ο</sup> · #16254",
-    "title": "#16254 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#16254 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-09-esoteriki-energeia",
     "sourceOrder": 2,

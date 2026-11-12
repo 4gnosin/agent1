@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #30344",
     "bankCode": "30344",
-    "title": "#30344 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#30344 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-anasi-kai-apodosi",
     "sourceOrder": 1,
@@ -58,9 +58,9 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       {
         "kind": "tf",
         "subq": "2.2",
-        "prompt": "γ. Με την πιθανή πτώση της θερμοκρασίας, κάτω από $45\\text{ }^\\circ\\text{C}$, μέσα στο φλογοθάλαμο, έχουμε προβλήματα διάβρωσης και καταπόνησης του λέβητα από απότομες διαστολές.",
+        "prompt": "γ. Με την πιθανή πτώση της θερμοκρασίας, κάτω από $45^{\\circ}\\text{C}$, μέσα στο φλογοθάλαμο, έχουμε προβλήματα διάβρωσης και καταπόνησης του λέβητα από απότομες διαστολές.",
         "answer": true,
-        "explain": "Σωστό. Θερμοκρασίες κάτω από $45\\text{ }^\\circ\\text{C}$ στον φλογοθάλαμο προκαλούν υγροποίηση των καυσαερίων (διάβρωση) και θερμικές καταπονήσεις."
+        "explain": "Σωστό. Θερμοκρασίες κάτω από $45^{\\circ}\\text{C}$ στον φλογοθάλαμο προκαλούν υγροποίηση των καυσαερίων (διάβρωση) και θερμικές καταπονήσεις."
       },
       {
         "kind": "tf",
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #30345",
     "bankCode": "30345",
-    "title": "#30345 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#30345 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-anasi-kai-apodosi",
     "sourceOrder": 2,

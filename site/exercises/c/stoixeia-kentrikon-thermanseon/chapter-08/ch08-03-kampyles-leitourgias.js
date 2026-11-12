@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24649",
     "bankCode": "24649",
-    "title": "#24649 — Θέμα 2<sup>ο</sup>",
+    "title": "#24649 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch08-03-kampyles-leitourgias",
     "sourceOrder": 2,
@@ -104,7 +104,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28454",
     "bankCode": "28454",
-    "title": "#28454 — Θέμα 4<sup>ο</sup>",
+    "title": "#28454 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch08-03-kampyles-leitourgias",
     "sourceOrder": 6,
@@ -112,11 +112,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "givens": [
       {
         "label": "H₁ = H₂",
-        "value": "6 m Σ.Ν."
+        "value": "$6 \\text{m} Σ.Ν.$"
       },
       {
         "label": "V₁ = V₂",
-        "value": "10 m³/h"
+        "value": "$10 m³/\\text{h}$"
       }
     ],
     "items": [

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19124",
     "bankCode": "19124",
-    "title": "#19124 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#19124 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "metra-asfaleias-kai-mesa-prostasias",
     "sourceOrder": 7,

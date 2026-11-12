@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25270",
     "bankCode": "25270",
-    "title": "#25270 — Θέμα 4<sup>ο</sup>",
+    "title": "#25270 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "sympiestes-pieseis",
     "sourceOrder": 1,
@@ -25,7 +25,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       },
       {
         "label": "$P_{\\text{μαν.κατ}}$",
-        "value": "8 bar"
+        "value": "$8 \\text{bar}$"
       },
       {
         "label": "CR",
@@ -33,7 +33,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       },
       {
         "label": "$P_{\\text{atm}}$",
-        "value": "1 bar"
+        "value": "$1 \\text{bar}$"
       }
     ],
     "items": [
@@ -82,7 +82,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25277",
     "bankCode": "25277",
-    "title": "#25277 — Θέμα 4<sup>ο</sup>",
+    "title": "#25277 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "sympiestes-pieseis",
     "sourceOrder": 2,
@@ -90,7 +90,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "givens": [
       {
         "label": "$P_{\\text{απ.κατ.}}$",
-        "value": "8 bar"
+        "value": "$8 \\text{bar}$"
       },
       {
         "label": "CR",
@@ -98,7 +98,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       },
       {
         "label": "$P_{\\text{ατμ.}}$",
-        "value": "1 bar"
+        "value": "$1 \\text{bar}$"
       }
     ],
     "items": [
@@ -129,7 +129,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #26759",
     "bankCode": "26759",
-    "title": "#26759 — Θέμα 2<sup>ο</sup>",
+    "title": "#26759 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "sympiestes-rotary",
     "sourceOrder": 4,
@@ -280,7 +280,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #33857",
     "bankCode": "33857",
-    "title": "#33857 — Θέμα 2<sup>ο</sup>",
+    "title": "#33857 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "sympiestes-typoi-diataxeis",
     "sourceOrder": 7,
@@ -440,7 +440,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #33877",
     "bankCode": "33877",
-    "title": "#33877 — Θέμα 2<sup>ο</sup>",
+    "title": "#33877 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "sympiestes-kathorismos",
     "sourceOrder": 8,

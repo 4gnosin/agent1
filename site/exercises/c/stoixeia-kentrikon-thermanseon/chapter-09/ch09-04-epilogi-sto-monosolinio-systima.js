@@ -9,11 +9,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28566",
     "bankCode": "28566",
-    "title": "#28566 — Θέμα 4<sup>ο</sup>",
+    "title": "#28566 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "stoixeia-kentrikon-thermanseon/ch09",
     "sourceOrder": 6,
-    "stem": "Σε ένα βρόχο μονοσωλήνιου συστήματος με $\\Delta t = 10^\\circ\\text{C}$ συνδέονται σε σειρά δύο σώματα $\\Sigma_1, \\Sigma_2$ τα οποία τοποθετούνται ως εξής: Το σώμα $\\Sigma_1$ σε χώρο με θερμικές απώλειες $Q_1 = 3500\\text{ Kcal/h}$ και το σώμα $\\Sigma_2$ σε χώρο με θερμικές απώλειες $Q_2 = 2000\\text{ Kcal/h}$. Το νερό εισέρχεται στον βρόγχο με θερμοκρασία $t_v = 90^\\circ\\text{C}$. Η προρρύθμιση για το πρώτο σώμα $\\Sigma_1$ είναι $50\\%$ και για το δεύτερο σώμα $\\Sigma_2$ είναι $100\\%$.",
+    "stem": "Σε ένα βρόχο μονοσωλήνιου συστήματος με $\\Delta t = 10{}^{\\circ}\\text{C}$ συνδέονται σε σειρά δύο σώματα $\\Sigma_1, \\Sigma_2$ τα οποία τοποθετούνται ως εξής: Το σώμα $\\Sigma_1$ σε χώρο με θερμικές απώλειες $Q_1 = 3500\\text{ Kcal/h}$ και το σώμα $\\Sigma_2$ σε χώρο με θερμικές απώλειες $Q_2 = 2000\\text{ Kcal/h}$. Το νερό εισέρχεται στον βρόγχο με θερμοκρασία $t_v = 90{}^{\\circ}\\text{C}$. Η προρρύθμιση για το πρώτο σώμα $\\Sigma_1$ είναι $50\\%$ και για το δεύτερο σώμα $\\Sigma_2$ είναι $100\\%$.",
     "items": [
       {
         "kind": "calc",
@@ -23,7 +23,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 550,
         "unit": "l/h",
         "tolerance": 0.01,
-        "hint": "Προσθέστε τα φορτία $Q_1 + Q_2$ και διαιρέστε με το $\\Delta t = 10^\\circ\\text{C}$.",
+        "hint": "Προσθέστε τα φορτία $Q_1 + Q_2$ και διαιρέστε με το $\\Delta t = 10{}^{\\circ}\\text{C}$.",
         "explain": "$V = \\frac{3500 + 2000}{10} = \\frac{5500}{10} = 550\\text{ l/h}$."
       },
       {
@@ -51,22 +51,22 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "γ",
         "subqPrompt": "γ) Να υπολογίσετε τις θερμοκρασίες λειτουργίας των σωμάτων:",
-        "prompt": "Θερμοκρασία εξόδου $t_{r1}$ του σώματος $\\Sigma_1$ ($t_{v1} = 90^\\circ\\text{C}$):",
+        "prompt": "Θερμοκρασία εξόδου $t_{r1}$ του σώματος $\\Sigma_1$ ($t_{v1} = 90{}^{\\circ}\\text{C}$):",
         "formula": "$\\Delta t_1 = \\frac{Q_1}{V_1}, \\quad t_{r1} = t_{v1} - \\Delta t_1$",
         "answer": 77.28,
         "unit": "°C",
         "tolerance": 0.05,
-        "explain": "$\\Delta t_1 = \\frac{3500}{275} = 12{,}72^\\circ\\text{C}$. Άρα $t_{r1} = 90^\\circ\\text{C} - 12{,}72^\\circ\\text{C} = 77{,}28^\\circ\\text{C}$."
+        "explain": "$\\Delta t_1 = \\frac{3500}{275} = 12{,}72{}^{\\circ}\\text{C}$. Άρα $t_{r1} = 90{}^{\\circ}\\text{C} - 12{,}72{}^{\\circ}\\text{C} = 77{,}28{}^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
         "subq": "γ",
-        "prompt": "Θερμοκρασία εισόδου $t_{v2}$ του σώματος $\\Sigma_2$ (ανάμιξη $50\\%$ νερού $90^\\circ\\text{C}$ και $50\\%$ νερού $77{,}28^\\circ\\text{C}$):",
+        "prompt": "Θερμοκρασία εισόδου $t_{v2}$ του σώματος $\\Sigma_2$ (ανάμιξη $50\\%$ νερού $90{}^{\\circ}\\text{C}$ και $50\\%$ νερού $77{,}28{}^{\\circ}\\text{C}$):",
         "formula": "$t_{v2} = \\frac{90 + t_{r1}}{2}$",
         "answer": 83.64,
         "unit": "°C",
         "tolerance": 0.05,
-        "explain": "$t_{v2} = \\frac{90^\\circ\\text{C} + 77{,}28^\\circ\\text{C}}{2} = 83{,}64^\\circ\\text{C}$."
+        "explain": "$t_{v2} = \\frac{90{}^{\\circ}\\text{C} + 77{,}28{}^{\\circ}\\text{C}}{2} = 83{,}64{}^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
@@ -76,7 +76,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 80,
         "unit": "°C",
         "tolerance": 0.05,
-        "explain": "$\\Delta t_2 = \\frac{2000}{550} = 3{,}64^\\circ\\text{C}$. Άρα $t_{r2} = 83{,}64^\\circ\\text{C} - 3{,}64^\\circ\\text{C} = 80^\\circ\\text{C}$."
+        "explain": "$\\Delta t_2 = \\frac{2000}{550} = 3{,}64{}^{\\circ}\\text{C}$. Άρα $t_{r2} = 83{,}64{}^{\\circ}\\text{C} - 3{,}64{}^{\\circ}\\text{C} = 80{}^{\\circ}\\text{C}$."
       }
     ],
     "omitted": []
@@ -88,7 +88,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28573",
     "bankCode": "28573",
-    "title": "#28573 — Θέμα 4<sup>ο</sup>",
+    "title": "#28573 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "stoixeia-kentrikon-thermanseon/ch09",
     "sourceOrder": 7,

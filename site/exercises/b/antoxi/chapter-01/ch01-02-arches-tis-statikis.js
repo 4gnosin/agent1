@@ -9,11 +9,11 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "18898",
     "code": "Θέμα 4<sup>ο</sup> · #18898",
-    "title": "#18898 — Θέμα 4<sup>ο</sup>",
+    "title": "#18898 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "statiki-dynameis",
     "sourceOrder": 1,
-    "stem": "Δύο δυνάμεις $F_1 = 20\\text{ N}$ και $F_2 = 30\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $\\varphi = 70^\\circ$, όπως φαίνεται στο παρακάτω σχήμα.\\n\\nΔίνεται: $\\text{ημ}70^\\circ = 0{,}940$, $\\text{συν}70^\\circ = 0{,}342$, $\\sqrt{1710{,}4} = 41{,}35$, $\\text{ημ}27^\\circ = 0{,}454$.",
+    "stem": "Δύο δυνάμεις $F_1 = 20\\text{ N}$ και $F_2 = 30\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $\\varphi = 70{}^{\\circ}$, όπως φαίνεται στο παρακάτω σχήμα.\n\nΔίνεται: $\\text{ημ}70{}^{\\circ} = 0{,}940$, $\\text{συν}70{}^{\\circ} = 0{,}342$, $\\sqrt{1710{,}4} = 41{,}35$, $\\text{ημ}27{}^{\\circ} = 0{,}454$.",
     "items": [
       {
         "kind": "calc",
@@ -25,7 +25,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "unit": "N",
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον νόμο του συνημιτόνου για τη σύνθεση δύο δυνάμεις που σχηματίζουν γωνία $\\varphi$.",
-        "explain": "Από τον τύπο της συνισταμένης δύναμης:\\n\\( \\Sigma = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}\\varphi} \\)\\n\\( \\Sigma = \\sqrt{20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot 0{,}342} = \\sqrt{400 + 900 + 400 \\cdot 0{,}342} = \\sqrt{1300 + 410{,}4} = \\sqrt{1710{,}4} = 41{,}35\\text{ N} \\)",
+        "explain": "Από τον τύπο της συνισταμένης δύναμης:\n\\( \\Sigma = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}\\varphi} \\)\n\\( \\Sigma = \\sqrt{20^2 + 30^2 + 2 \\cdot 20 \\cdot 30 \\cdot 0{,}342} = \\sqrt{400 + 900 + 400 \\cdot 0{,}342} = \\sqrt{1300 + 410{,}4} = \\sqrt{1710{,}4} = 41{,}35\\text{ N} \\)",
         "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_18898_fig01.webp"
       },
       {
@@ -38,7 +38,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "unit": "°",
         "tolerance": 0,
         "hint": "Χρησιμοποιήστε τον τύπο $\\text{ημ}\\theta = \\frac{F_1}{\\Sigma} \\cdot \\text{ημ}\\varphi$.",
-        "explain": "Υπολογισμός ημιτόνου και γωνίας:\\n\\( \\text{ημ}\\theta = \\frac{F_1}{\\Sigma} \\cdot \\text{ημ}\\varphi = \\frac{20}{41{,}35} \\cdot 0{,}940 = 0{,}454 \\)\\nΆρα $\\theta = 27^\\circ$."
+        "explain": "Υπολογισμός ημιτόνου και γωνίας:\n\\( \\text{ημ}\\theta = \\frac{F_1}{\\Sigma} \\cdot \\text{ημ}\\varphi = \\frac{20}{41{,}35} \\cdot 0{,}940 = 0{,}454 \\)\nΆρα $\\theta = 27{}^{\\circ}$."
       }
     ]
   },
@@ -49,7 +49,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "19129",
     "code": "Θέμα 2<sup>ο</sup> · #19129",
-    "title": "#19129 — Θέμα 2<sup>ο</sup>",
+    "title": "#19129 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "statiki-ennoies",
     "sourceOrder": 2,
@@ -186,11 +186,11 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "16261",
     "code": "Θέμα 4<sup>ο</sup> · #16261",
-    "title": "#16261 — Θέμα 4<sup>ο</sup> (1.2)",
+    "title": "#16261 — Θέμα 4$^{ο}$ (1.2)",
     "units": 25,
     "theory": "ch01-02",
     "sourceOrder": 3,
-    "stem": "Δύο δυνάμεις $F_1 = 5\\text{ N}$ και $F_2 = 4\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $60^\\circ$, όπως φαίνεται στο σχήμα.\\nΔίνεται $\\text{ημ}60^\\circ = \\frac{\\sqrt{3}}{2} = 0{,}866$, $\\text{συν}60^\\circ = \\frac{1}{2}$, $\\sqrt{61} = 7{,}81$.",
+    "stem": "Δύο δυνάμεις $F_1 = 5\\text{ N}$ και $F_2 = 4\\text{ N}$ έχουν κοινό σημείο εφαρμογής και σχηματίζουν γωνία $60{}^{\\circ}$, όπως φαίνεται στο σχήμα.\nΔίνεται $\\text{ημ}60{}^{\\circ} = \\frac{\\sqrt{3}}{2} = 0{,}866$, $\\text{συν}60{}^{\\circ} = \\frac{1}{2}$, $\\sqrt{61} = 7{,}81$.",
     "solutionImages": [
       "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_sol01.webp"
     ],
@@ -200,12 +200,12 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "4.1. Να υπολογίσετε το μέτρο της συνισταμένης δύναμης Σ.",
         "prompt": "Υπολογίστε το μέτρο της συνισταμένης δύναμης $\\Sigma$ (σε N).",
-        "formula": "$\\Sigma = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}60^\\circ}$",
+        "formula": "$\\Sigma = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}60{}^{\\circ}}$",
         "answer": 7.81,
         "unit": "N",
         "tolerance": 0.02,
         "hint": "Εφαρμόστε τον νόμο των συνημιτόνων για τις δύο δυνάμεις.",
-        "explain": "$\\begin{aligned}\n\\Sigma &= \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}60^\\circ} \\\\\n&= \\sqrt{5^2 + 4^2 + 2 \\cdot 5 \\cdot 4 \\cdot 0{,}5} \\\\\n&= \\sqrt{25 + 16 + 20} = \\sqrt{61} \\approx 7{,}81\\text{ N}\n\\end{aligned}$",
+        "explain": "$\\begin{aligned}\n\\Sigma &= \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\text{συν}60{}^{\\circ}} \\\\\n&= \\sqrt{5^2 + 4^2 + 2 \\cdot 5 \\cdot 4 \\cdot 0{,}5} \\\\\n&= \\sqrt{25 + 16 + 20} = \\sqrt{61} \\approx 7{,}81\\text{ N}\n\\end{aligned}$",
         "image": "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_fig01.webp",
         "hintImage": "images/b/antoxi/chapter-01/b_antoxi_ch01_16261_sol01.webp"
       },
@@ -214,12 +214,12 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "4.2",
         "subqPrompt": "4.2. Να ορίσετε τη διεύθυνση της συνισταμένης δύναμης, υπολογίζοντας το ημίτονο της γωνίας θ που σχηματίζει η συνισταμένη με τη δύναμη F2, όπως φαίνεται στο σχήμα.",
         "prompt": "Υπολογίστε το ημίτονο της γωνίας $\\theta$ ($\\text{ημ}\\theta$).",
-        "formula": "$\\text{ημ}\\theta = \\frac{F_1 \\cdot \\text{ημ}60^\\circ}{\\Sigma}$",
+        "formula": "$\\text{ημ}\\theta = \\frac{F_1 \\cdot \\text{ημ}60{}^{\\circ}}{\\Sigma}$",
         "answer": 0.554,
         "unit": "",
         "tolerance": 0.02,
         "hint": "Χρησιμοποιήστε τον νόμο των ημιτόνων στο τριγωνικό σχήμα των δυνάμεων.",
-        "explain": "$\\begin{aligned}\n\\frac{F_1}{\\text{ημ}\\theta} &= \\frac{\\Sigma}{\\text{ημ}60^\\circ} \\\\\n\\text{ημ}\\theta &= \\frac{F_1 \\cdot \\text{ημ}60^\\circ}{\\Sigma} = \\frac{5 \\cdot 0{,}866}{7{,}81} = \\frac{4{,}33}{7{,}81} \\approx 0{,}554\n\\end{aligned}$"
+        "explain": "$\\begin{aligned}\n\\frac{F_1}{\\text{ημ}\\theta} &= \\frac{\\Sigma}{\\text{ημ}60{}^{\\circ}} \\\\\n\\text{ημ}\\theta &= \\frac{F_1 \\cdot \\text{ημ}60{}^{\\circ}}{\\Sigma} = \\frac{5 \\cdot 0{,}866}{7{,}81} = \\frac{4{,}33}{7{,}81} \\approx 0{,}554\n\\end{aligned}$"
       }
     ]
   }

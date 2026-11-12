@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #33884",
     "bankCode": "33884",
-    "title": "#33884 — Θέμα 2<sup>ο</sup> (5.3)",
+    "title": "#33884 — Θέμα 2$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-psyktikos-kyklos",
     "sourceOrder": 1,

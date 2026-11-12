@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28607",
     "code": "Θέμα 2<sup>ο</sup> · #28607",
-    "title": "#28607 — Θέμα 2<sup>ο</sup> (7.2.2)",
+    "title": "#28607 — Θέμα 2$^{ο}$ (7.2.2)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 9,
@@ -122,7 +122,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28608",
     "code": "Θέμα 2<sup>ο</sup> · #28608",
-    "title": "#28608 — Θέμα 2<sup>ο</sup> (7.2.2)",
+    "title": "#28608 — Θέμα 2$^{ο}$ (7.2.2)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 10,
@@ -139,7 +139,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Ο εξωτερικός προστατευτικός σωλήνας αυξάνει τη θερμοκρασία του νερού κατά 10 °C πριν φτάσει στα θερμαντικά σώματα."
+            "text": "Ο εξωτερικός προστατευτικός σωλήνας αυξάνει τη θερμοκρασία του νερού κατά 10°C πριν φτάσει στα θερμαντικά σώματα."
           },
           {
             "id": "c",

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "29155",
     "code": "Θέμα 2<sup>ο</sup> · #29155",
-    "title": "#29155 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#29155 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-08-psyktika-fortia",
     "sourceOrder": 8,

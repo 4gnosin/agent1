@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "bankCode": "34983",
     "code": "Θέμα 2<sup>ο</sup> · #34983",
-    "title": "#34983 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34983 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch08-04-systima-psyxis",
     "sourceOrder": 1,

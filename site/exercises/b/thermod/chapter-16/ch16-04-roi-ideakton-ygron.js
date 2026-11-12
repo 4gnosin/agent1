@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "29232",
     "code": "Θέμα 4<sup>ο</sup> · #29232",
-    "title": "#29232 — Θέμα 4<sup>ο</sup>",
+    "title": "#29232 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch16-04-roi-ideakton-ygron",
     "sourceOrder": 1,

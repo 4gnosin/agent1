@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "bankCode": "34762",
     "code": "Θέμα 2<sup>ο</sup> · #34762",
-    "title": "#34762 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34762 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch04-09-systima-lipansis",
     "sourceOrder": 38,

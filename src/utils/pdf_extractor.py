@@ -318,7 +318,9 @@ def extract_chapter_from_pdf(
             has_full_scan = any(img.get("is_full_page_scan") for img in p_imgs)
 
             # Σαρωμένη σελίδα ή ολοσέλιδο διάγραμμα/χάρτης εκφώνησης χωρίς άλλο κείμενο
-            if (len(page_text) < 40 and p_imgs) or has_full_scan:
+            # ΕΠΙΤΡΕΠΕΤΑΙ ΜΟΝΟ αν το κείμενο είναι πραγματικά μηδαμινό (< 15 μη κενών χαρακτήρων)
+            is_truly_empty_text = len(re.sub(r"\s+", "", page_text)) < 15
+            if (is_truly_empty_text and p_imgs) or (has_full_scan and is_truly_empty_text):
                 header_lines = []
                 for b in page.get_text("blocks"):
                     bt = b[4].strip()
@@ -370,9 +372,10 @@ def extract_chapter_from_pdf(
                 r = fitz.Rect(b[:4])
                 cleaned = clean_greek_pdf_text(t)
                 is_item_num = bool(re.fullmatch(r"\d+[\.\)]", cleaned))
-                # Καταστολή κειμένων που είναι ήδη overlays μέσα στην εικόνα (εκτός αν είναι εξωτερικός αριθμός ερωτήματος 1., 2., 3.)
+                # Καταστολή κειμένων που είναι ήδη overlays μέσα στην εικόνα (ΜΟΝΟ για πραγματικές εικόνες/σχήματα, ΠΟΤΕ για ολοσέλιδα πλαίσια)
                 if not is_item_num and any(
-                    ir.contains(r) or (ir.intersects(r) and (ir & r).get_area() > 0.5 * r.get_area())
+                    (ir.width < page.rect.width * 0.85 or ir.height < page.rect.height * 0.7)
+                    and (ir.contains(r) or (ir.intersects(r) and (ir & r).get_area() > 0.5 * r.get_area()))
                     for ir in img_rects
                 ):
                     continue

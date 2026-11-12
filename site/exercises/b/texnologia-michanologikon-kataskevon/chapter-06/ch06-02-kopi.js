@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #16829",
     "bankCode": "16829",
-    "title": "#16829 — Θέμα 2<sup>ο</sup>",
+    "title": "#16829 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "kopi-elasmaton",
     "sourceOrder": 1,
@@ -97,7 +97,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29025",
     "bankCode": "29025",
-    "title": "#29025 — Θέμα 4<sup>ο</sup>",
+    "title": "#29025 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "kopi-elasmaton",
     "sourceOrder": 2,
@@ -141,7 +141,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Να θερμάνει το έλασμα στους 800 °C πριν την κοπή και να χρησιμοποιεί νερό υπό πίεση για την ψύξη των λεπίδων."
+            "text": "Να θερμάνει το έλασμα στους 800°C πριν την κοπή και να χρησιμοποιεί νερό υπό πίεση για την ψύξη των λεπίδων."
           },
           {
             "id": "c",

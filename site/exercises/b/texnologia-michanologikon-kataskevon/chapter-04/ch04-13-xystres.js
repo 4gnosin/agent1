@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19581",
     "bankCode": "19581",
-    "title": "#19581 — Θέμα 4<sup>ο</sup>",
+    "title": "#19581 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "xystres",
     "stem": "Έχετε δύο ελάσματα που ολισθαίνουν το ένα πάνω στο άλλο. Στο ένα έλασμα η επιφάνεια του έχει αποκτήσει μεγάλη τραχύτητα.",

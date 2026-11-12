@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23768",
     "code": "Θέμα 2<sup>ο</sup> · #23768",
-    "title": "#23768 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23768 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
     "sourceOrder": 2,
@@ -72,7 +72,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "kind": "mc",
         "openEnded": true,
         "subq": "2.2",
-        "prompt": "Ο αέρας ενός χώρου έχει θερμοκρασία σημείου δρόσου $t_{dp} = 18\\text{ }^\\circ\\text{C}$. Να εξηγήσετε τι θα συμβεί στην επιφάνεια ενός κουτιού αναψυκτικού που βγήκε από το ψυγείο και έχει θερμοκρασία $8\\text{ }^\\circ\\text{C}$.",
+        "prompt": "Ο αέρας ενός χώρου έχει θερμοκρασία σημείου δρόσου $t_{dp} = 18^{\\circ}\\text{C}$. Να εξηγήσετε τι θα συμβεί στην επιφάνεια ενός κουτιού αναψυκτικού που βγήκε από το ψυγείο και έχει θερμοκρασία $8^{\\circ}\\text{C}$.",
         "options": [
           {
             "id": "a",
@@ -92,7 +92,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Επειδή η θερμοκρασία στην επιφάνεια του αναψυκτικού ($8\\text{ }^\\circ\\text{C}$) είναι χαμηλότερη από το σημείο δρόσου ($18\\text{ }^\\circ\\text{C}$), οι υδρατμοί του αέρα υγροποιούνται στα τοιχώματα, δημιουργώντας στρώμα νερού."
+        "explain": "Επειδή η θερμοκρασία στην επιφάνεια του αναψυκτικού ($8^{\\circ}\\text{C}$) είναι χαμηλότερη από το σημείο δρόσου ($18^{\\circ}\\text{C}$), οι υδρατμοί του αέρα υγροποιούνται στα τοιχώματα, δημιουργώντας στρώμα νερού."
       }
     ]
   },
@@ -103,7 +103,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23769",
     "code": "Θέμα 2<sup>ο</sup> · #23769",
-    "title": "#23769 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#23769 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
     "sourceOrder": 3,
@@ -179,7 +179,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           },
           {
             "id": "c",
-            "text": "Ναι, αρκεί η θερμοκρασία να είναι κάτω από τους $0\\text{ }^\\circ\\text{C}$."
+            "text": "Ναι, αρκεί η θερμοκρασία να είναι κάτω από τους $0^{\\circ}\\text{C}$."
           },
           {
             "id": "d",
@@ -198,10 +198,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23770",
     "code": "Θέμα 4<sup>ο</sup> · #23770",
-    "title": "#23770 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#23770 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
-    "stem": "Σε έναν κλιματιζόμενο χώρο ο αέρας έχει θερμοκρασία ξηρού βολβού $t_{db} = 31\\text{ }^\\circ\\text{C}$ και θερμοκρασία υγρού βολβού $t_{wb} = 28\\text{ }^\\circ\\text{C}$. Με τη βοήθεια του ψυχρομετρικού χάρτη να βρείτε:",
+    "stem": "Σε έναν κλιματιζόμενο χώρο ο αέρας έχει θερμοκρασία ξηρού βολβού $t_{db} = 31^{\\circ}\\text{C}$ και θερμοκρασία υγρού βολβού $t_{wb} = 28^{\\circ}\\text{C}$. Με τη βοήθεια του ψυχρομετρικού χάρτη να βρείτε:",
     "sourceOrder": 4,
     "items": [
       {
@@ -212,8 +212,8 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "answer": 80,
         "unit": "%",
         "tolerance": 0.02,
-        "hint": "Εντοπίστε το σημείο τομής των γραμμών $t_{db} = 31\\text{ }^\\circ\\text{C}$ και $t_{wb} / t_{dp}$.",
-        "explain": "Από τον ψυχρομετρικό χάρτη για $t_{db} = 31\\text{ }^\\circ\\text{C}$ και $t_{wb} = 28\\text{ }^\\circ\\text{C}$, η σχετική υγρασία είναι $\\varphi = 80\\%$."
+        "hint": "Εντοπίστε το σημείο τομής των γραμμών $t_{db} = 31^{\\circ}\\text{C}$ και $t_{wb} / t_{dp}$.",
+        "explain": "Από τον ψυχρομετρικό χάρτη για $t_{db} = 31^{\\circ}\\text{C}$ και $t_{wb} = 28^{\\circ}\\text{C}$, η σχετική υγρασία είναι $\\varphi = 80\\%$."
       },
       {
         "kind": "calc",
@@ -245,8 +245,8 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "answer": 29,
         "unit": "g/kg",
         "tolerance": 0.02,
-        "hint": "Προεκτείνετε τη θερμοκρασία $t_{db} = 31\\text{ }^\\circ\\text{C}$ ως την καμπύλη κορεσμού $\\varphi = 100\\%$.",
-        "explain": "Για θερμοκρασία $t_{db} = 31\\text{ }^\\circ\\text{C}$ στην καμπύλη κορεσμού $\\varphi = 100\\%$, η ειδική υγρασία είναι $W = 29\\text{ g/kg}$."
+        "hint": "Προεκτείνετε τη θερμοκρασία $t_{db} = 31^{\\circ}\\text{C}$ ως την καμπύλη κορεσμού $\\varphi = 100\\%$.",
+        "explain": "Για θερμοκρασία $t_{db} = 31^{\\circ}\\text{C}$ στην καμπύλη κορεσμού $\\varphi = 100\\%$, η ειδική υγρασία είναι $W = 29\\text{ g/kg}$."
       }
     ],
     "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23770_fig01.webp",
@@ -261,7 +261,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23824",
     "code": "Θέμα 2<sup>ο</sup> · #23824",
-    "title": "#23824 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23824 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
     "sourceOrder": 5,
@@ -352,7 +352,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           },
           {
             "id": "d",
-            "text": "$^\\circ\\text{C}$"
+            "text": "${}^{\\circ}\\text{C}$"
           },
           {
             "id": "e",
@@ -365,7 +365,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           "3": "b",
           "4": "e"
         },
-        "explain": "Σημείο δρόσου: $^\\circ\\text{C}$ (δ). Ειδικός όγκος: $m^3/kg$ (α). Ενθαλπία: kJ/kg (β). Σχετική υγρασία: % (ε)."
+        "explain": "Σημείο δρόσου: ${}^{\\circ}\\text{C}$ (δ). Ειδικός όγκος: $m^3/kg$ (α). Ενθαλπία: kJ/kg (β). Σχετική υγρασία: % (ε)."
       }
     ]
   },
@@ -376,7 +376,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23828",
     "code": "Θέμα 2<sup>ο</sup> · #23828",
-    "title": "#23828 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23828 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
     "sourceOrder": 6,
@@ -506,7 +506,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23878",
     "code": "Θέμα 2<sup>ο</sup> · #23878",
-    "title": "#23878 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23878 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
     "sourceOrder": 7,
@@ -568,17 +568,17 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23894",
     "code": "Θέμα 4<sup>ο</sup> · #23894",
-    "title": "#23894 — Θέμα 4<sup>ο</sup> (4.1–4.3)",
+    "title": "#23894 — Θέμα 4$^{ο}$ (4.1–4.3)",
     "units": 25,
     "theory": "ch02-04-psychrometry",
-    "stem": "Σε κλιματιζόμενο χώρο οι συνθήκες του αέρα μετρήθηκαν θερμοκρασία $t_{db} = 24\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $\\varphi = 40\\%$ (κατάσταση 1). Με τη βοήθεια του ψυχρομετρικού χάρτη:",
+    "stem": "Σε κλιματιζόμενο χώρο οι συνθήκες του αέρα μετρήθηκαν θερμοκρασία $t_{db} = 24^{\\circ}\\text{C}$ και σχετική υγρασία $\\varphi = 40\\%$ (κατάσταση 1). Με τη βοήθεια του ψυχρομετρικού χάρτη:",
     "sourceOrder": 8,
     "items": [
       {
         "kind": "open",
         "subq": "4.1",
         "prompt": "4.1 Εντοπίστε πάνω στο χάρτη και σημειώστε το σημείο που απεικονίζει την κατάσταση του αέρα (Κατάσταση 1).",
-        "explain": "Εντοπισμός σημείου 1 στη διασταύρωση $t_{db} = 24\\text{ }^\\circ\\text{C}$ και $\\varphi = 40\\%$."
+        "explain": "Εντοπισμός σημείου 1 στη διασταύρωση $t_{db} = 24^{\\circ}\\text{C}$ και $\\varphi = 40\\%$."
       },
       {
         "kind": "open",
@@ -590,13 +590,13 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "kind": "calc",
         "subq": "4.3",
         "subqPrompt": "Υπολογίστε, βάσει του ψυχρομετρικού χάρτη, τα υπόλοιπα ψυχρομετρικά χαρακτηριστικά των δύο καταστάσεων (Θερμοκρασία υγρού βολβού $t_{wb}$ για Κατάσταση 1).",
-        "prompt": "Κατάσταση 1: Θερμοκρασία υγρού βολβού $t_{wb}$ ($^\\circ\\text{C}$)",
-        "formula": "$t_{wb1} = 15,4\\text{ }^\\circ\\text{C}$",
+        "prompt": "Κατάσταση 1: Θερμοκρασία υγρού βολβού $t_{wb}$ (${}^{\\circ}\\text{C}$)",
+        "formula": "$t_{wb1} = 15,4^{\\circ}\\text{C}$",
         "answer": 15.4,
         "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε την τιμή του $t_{wb}$ διαγώνια από την Κατάσταση 1.",
-        "explain": "Από τον ψυχρομετρικό χάρτη για την Κατάσταση 1, $t_{wb} = 15,4\\text{ }^\\circ\\text{C}$."
+        "explain": "Από τον ψυχρομετρικό χάρτη για την Κατάσταση 1, $t_{wb} = 15,4^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
@@ -634,24 +634,24 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.3",
-        "prompt": "Κατάσταση 1: Θερμοκρασία σημείου δρόσου $t_{dp1}$ ($^\\circ\\text{C}$)",
-        "formula": "$t_{dp1} = 9,6\\text{ }^\\circ\\text{C}$",
+        "prompt": "Κατάσταση 1: Θερμοκρασία σημείου δρόσου $t_{dp1}$ (${}^{\\circ}\\text{C}$)",
+        "formula": "$t_{dp1} = 9,6^{\\circ}\\text{C}$",
         "answer": 9.6,
         "unit": "°C",
         "tolerance": 0.05,
         "hint": "Ακολουθήστε οριζόντια γραμμή προς την καμπύλη κορεσμού.",
-        "explain": "Για την Κατάσταση 1, $t_{dp1} = 9,6\\text{ }^\\circ\\text{C}$."
+        "explain": "Για την Κατάσταση 1, $t_{dp1} = 9,6^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
         "subq": "4.3",
-        "prompt": "Κατάσταση 2: Θερμοκρασία υγρού βολβού $t_{wb2}$ ($^\\circ\\text{C}$)",
-        "formula": "$t_{wb2} = 18,6\\text{ }^\\circ\\text{C}$",
+        "prompt": "Κατάσταση 2: Θερμοκρασία υγρού βολβού $t_{wb2}$ (${}^{\\circ}\\text{C}$)",
+        "formula": "$t_{wb2} = 18,6^{\\circ}\\text{C}$",
         "answer": 18.6,
         "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε το $t_{wb}$ για την Κατάσταση 2.",
-        "explain": "Για την Κατάσταση 2, $t_{wb2} = 18,6\\text{ }^\\circ\\text{C}$."
+        "explain": "Για την Κατάσταση 2, $t_{wb2} = 18,6^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
@@ -689,13 +689,13 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.3",
-        "prompt": "Κατάσταση 2: Θερμοκρασία σημείου δρόσου $t_{dp2}$ ($^\\circ\\text{C}$)",
-        "formula": "$t_{dp2} = 15,8\\text{ }^\\circ\\text{C}$",
+        "prompt": "Κατάσταση 2: Θερμοκρασία σημείου δρόσου $t_{dp2}$ (${}^{\\circ}\\text{C}$)",
+        "formula": "$t_{dp2} = 15,8^{\\circ}\\text{C}$",
         "answer": 15.8,
         "unit": "°C",
         "tolerance": 0.05,
         "hint": "Διαβάστε το σημείο δρόσου στην Κατάσταση 2.",
-        "explain": "Για την Κατάσταση 2, $t_{dp2} = 15,8\\text{ }^\\circ\\text{C}$."
+        "explain": "Για την Κατάσταση 2, $t_{dp2} = 15,8^{\\circ}\\text{C}$."
       }
     ],
     "image": "images/c/egkatastaseis-klimatismou/chapter-02/c_egkatastaseis-klimatismou_ch02_23894_fig01.webp",

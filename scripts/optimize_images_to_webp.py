@@ -65,46 +65,46 @@ def optimize_images():
         webp_files = glob.glob(os.path.join(images_dir, "**", "*.webp"), recursive=True)
         total_webp_mb = sum(os.path.getsize(f) for f in webp_files) / (1024 * 1024)
         print(f"📊 Σύνολο βελτιστοποιημένων εικόνων WebP: {len(webp_files)} ({total_webp_mb:.2f} MB)")
-        print("=" * 68)
-        return
-        
-    initial_bytes = sum(os.path.getsize(f) for f in all_files)
-    initial_mb = initial_bytes / (1024 * 1024)
-    print(f"   Βρέθηκαν {total_files} εικόνες PNG/JPG προς μετατροπή (Συνολικός όγκος: {initial_mb:.2f} MB).\n")
+        initial_mb = total_webp_mb
+        final_mb = total_webp_mb
+    else:
+        initial_bytes = sum(os.path.getsize(f) for f in all_files)
+        initial_mb = initial_bytes / (1024 * 1024)
+        print(f"   Βρέθηκαν {total_files} εικόνες PNG/JPG προς μετατροπή (Συνολικός όγκος: {initial_mb:.2f} MB).\n")
 
-    print("2. ΜΕΤΑΤΡΟΠΗ ΣΕ WEBP (Ποιότητα=85, Μέθοδος=6)...")
-    
-    converted_count = 0
-    errors = []
-    
-    for idx, img_path in enumerate(all_files, 1):
-        base, ext = os.path.splitext(img_path)
-        webp_path = base + ".webp"
+        print("2. ΜΕΤΑΤΡΟΠΗ ΣΕ WEBP (Ποιότητα=85, Μέθοδος=6)...")
         
-        try:
-            with Image.open(img_path) as img:
-                img.save(webp_path, "WEBP", quality=85, method=6)
+        converted_count = 0
+        errors = []
+        
+        for idx, img_path in enumerate(all_files, 1):
+            base, ext = os.path.splitext(img_path)
+            webp_path = base + ".webp"
             
-            if os.path.exists(webp_path) and os.path.getsize(webp_path) > 0:
-                os.remove(img_path)
-                converted_count += 1
-            else:
-                errors.append((img_path, "Το αρχείο WebP δεν δημιουργήθηκε σωστά"))
-        except Exception as e:
-            errors.append((img_path, str(e)))
-            
-        if idx % 100 == 0 or idx == total_files:
-            print(f"   • Ολοκληρώθηκαν {idx}/{total_files} εικόνες...")
-            
-    print(f"\n   ✅ Επιτυχής μετατροπή & καθαρισμός: {converted_count}/{total_files} εικόνες.")
-    if errors:
-        print(f"   ⚠️ Εμφανίστηκαν {len(errors)} σφάλματα κατά τη μετατροπή.")
+            try:
+                with Image.open(img_path) as img:
+                    img.save(webp_path, "WEBP", quality=85, method=6)
+                
+                if os.path.exists(webp_path) and os.path.getsize(webp_path) > 0:
+                    os.remove(img_path)
+                    converted_count += 1
+                else:
+                    errors.append((img_path, "Το αρχείο WebP δεν δημιουργήθηκε σωστά"))
+            except Exception as e:
+                errors.append((img_path, str(e)))
+                
+            if idx % 100 == 0 or idx == total_files:
+                print(f"   • Ολοκληρώθηκαν {idx}/{total_files} εικόνες...")
+                
+        print(f"\n   ✅ Επιτυχής μετατροπή & καθαρισμός: {converted_count}/{total_files} εικόνες.")
+        if errors:
+            print(f"   ⚠️ Εμφανίστηκαν {len(errors)} σφάλματα κατά τη μετατροπή.")
 
-    # Μέτρηση νέου μεγέθους
-    webp_files = glob.glob(os.path.join(images_dir, "**", "*.webp"), recursive=True)
-    final_bytes = sum(os.path.getsize(f) for f in webp_files)
-    final_mb = final_bytes / (1024 * 1024)
-    saved_mb = initial_mb - (initial_bytes - sum(os.path.getsize(os.path.splitext(f)[0] + ".webp") for f in all_files if os.path.exists(os.path.splitext(f)[0] + ".webp"))) / (1024 * 1024)
+        # Μέτρηση νέου μεγέθους
+        webp_files = glob.glob(os.path.join(images_dir, "**", "*.webp"), recursive=True)
+        final_bytes = sum(os.path.getsize(f) for f in webp_files)
+        final_mb = final_bytes / (1024 * 1024)
+        saved_mb = initial_mb - (initial_bytes - sum(os.path.getsize(os.path.splitext(f)[0] + ".webp") for f in all_files if os.path.exists(os.path.splitext(f)[0] + ".webp"))) / (1024 * 1024)
 
     print("\n3. ΕΝΗΜΕΡΩΣΗ ΑΝΑΦΟΡΩΝ ΣΤΑ ΑΡΧΕΙΑ ΑΣΚΗΣΕΩΝ (.png -> .webp)...")
     

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27701",
     "bankCode": "27701",
-    "title": "#27701 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27701 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch09-03-metra-asfaleias",
     "sourceOrder": 1,

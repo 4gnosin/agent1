@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "18620",
     "code": "Θέμα 2<sup>ο</sup> · #18620",
-    "title": "#18620 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#18620 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-11-kyklikiki-metavoli-thermodynamikos-kyklos",
     "sourceOrder": 3,

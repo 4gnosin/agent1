@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "bankCode": "32634",
     "code": "Θέμα 2<sup>ο</sup> · #32634",
-    "title": "#32634 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#32634 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-02-methodoi-diefthynsis",
     "sourceOrder": 1,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #25262",
     "bankCode": "25262",
-    "title": "#25262 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#25262 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-08-anoikto-kai-kleisto-systima",
     "sourceOrder": 11,

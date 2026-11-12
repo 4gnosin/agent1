@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "25805",
     "code": "Θέμα 4<sup>ο</sup> · #25805",
-    "title": "#25805 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#25805 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch06-02-typopoiisi",
     "sourceOrder": 1,

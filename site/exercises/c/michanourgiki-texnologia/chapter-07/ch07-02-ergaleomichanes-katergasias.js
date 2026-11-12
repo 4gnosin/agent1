@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27620",
     "code": "Θέμα 2<sup>ο</sup> · #27620",
-    "title": "#27620 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27620 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch07-02-oplanisma-kai-leiansi",
     "sourceOrder": 4,
@@ -80,7 +80,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           },
           {
             "id": "e",
-            "text": "Пρόωση"
+            "text": "Πρόωση"
           }
         ],
         "pairs": {

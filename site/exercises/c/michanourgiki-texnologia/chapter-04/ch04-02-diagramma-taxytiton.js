@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29153",
     "bankCode": "29153",
-    "title": "#29153 — Θέμα 4<sup>ο</sup> (4.6.2)",
+    "title": "#29153 — Θέμα 4$^{ο}$ (4.6.2)",
     "units": 25,
     "theory": "ch04-02-diagramma-taxytiton",
     "sourceOrder": 4,

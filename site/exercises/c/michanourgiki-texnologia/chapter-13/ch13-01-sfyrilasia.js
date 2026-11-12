@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27201",
     "code": "Θέμα 4<sup>ο</sup> · #27201",
-    "title": "#27201 — Θέμα 4<sup>ο</sup> (α-γ)",
+    "title": "#27201 — Θέμα 4$^{ο}$ (α-γ)",
     "units": 25,
     "theory": "ch13-sfyrilasia",
     "sourceOrder": 1,

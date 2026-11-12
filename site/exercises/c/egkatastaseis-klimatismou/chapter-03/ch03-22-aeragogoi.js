@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "26877",
     "code": "Θέμα 2<sup>ο</sup> · #26877",
-    "title": "#26877 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#26877 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-22-aeragogoi",
     "sourceOrder": 15,

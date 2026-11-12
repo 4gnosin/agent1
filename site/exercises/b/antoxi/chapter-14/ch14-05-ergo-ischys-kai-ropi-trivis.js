@@ -9,7 +9,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23002",
     "bankCode": "23002",
-    "title": "#23002 — Θέμα 4<sup>ο</sup>",
+    "title": "#23002 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch14-05",
     "sourceOrder": 6,
@@ -30,7 +30,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "Η τριβή ολίσθησης $T$",
-        "formula": "$T = \\eta \\cdot F_\\kappa$",
+        "formula": "$T = \\\\beta \\cdot F_\\kappa$",
         "answer": 2100,
         "unit": "N",
         "tolerance": 0.01,
@@ -57,11 +57,11 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23317",
     "bankCode": "23317",
-    "title": "#23317 — Θέμα 4<sup>ο</sup>",
+    "title": "#23317 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch14-05",
     "sourceOrder": 7,
-    "stem": "Ένας ακονιστικός τροχός διαμέτρου $d = 800\\text{ mm}$, ακονίζει αντικείμενο το οποίο πιέζεται με δύναμη $F_\\kappa = 300\\text{ N}$ και κινείται με $f = 180\\text{ στρ/min}$, κατά τη διεύθυνση της ακτίνας του τροχού. Ο συντελεστής τριβής είναι $\\eta = 0{,}8$. Δίνεται $\\pi = 3{,}14$.",
+    "stem": "Ένας ακονιστικός τροχός διαμέτρου $d = 800\\text{ mm}$, ακονίζει αντικείμενο το οποίο πιέζεται με δύναμη $F_\\kappa = 300\\text{ N}$ και κινείται με $f = 180\\text{ στρ/min}$, κατά τη διεύθυνση της ακτίνας του τροχού. Ο συντελεστής τριβής είναι $\\\\beta = 0{,}8$. Δίνεται $\\pi = 3{,}14$.",
     "items": [
       {
         "kind": "calc",
@@ -73,7 +73,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           }
         ],
         "prompt": "Να υπολογιστεί η τριβή ($T$) που αναπτύσσεται.",
-        "formula": "$T = \\eta \\cdot F_\\kappa$",
+        "formula": "$T = \\\\beta \\cdot F_\\kappa$",
         "answer": 240,
         "unit": "N",
         "tolerance": 0.01,
@@ -112,7 +112,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23443",
     "bankCode": "23443",
-    "title": "#23443 — Θέμα 4<sup>ο</sup>",
+    "title": "#23443 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch14-05",
     "sourceOrder": 8,
@@ -143,13 +143,13 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
       {
         "kind": "calc",
         "subq": "γ",
-        "prompt": "Τον συντελεστή $\\eta$ της τριβής ολίσθησης που αναπτύσσεται",
-        "formula": "$\\eta = \\frac{T}{F_\\kappa}$",
+        "prompt": "Τον συντελεστή $\\\\beta$ της τριβής ολίσθησης που αναπτύσσεται",
+        "formula": "$\\\\beta = \\frac{T}{F_\\kappa}$",
         "answer": 0.1,
         "unit": "",
         "tolerance": 0.01,
         "hint": "Διαιρέστε την τριβή $T$ δια της κάθετης δύναμης $F_\\kappa$.",
-        "explain": "Ο συντελεστής τριβής είναι: $\\eta = \\frac{1000\\text{ N}}{10000\\text{ N}} = 0{,}1$."
+        "explain": "Ο συντελεστής τριβής είναι: $\\\\beta = \\frac{1000\\text{ N}}{10000\\text{ N}} = 0{,}1$."
       }
     ]
   },
@@ -160,11 +160,11 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23688",
     "bankCode": "23688",
-    "title": "#23688 — Θέμα 4<sup>ο</sup>",
+    "title": "#23688 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch14-05",
     "sourceOrder": 9,
-    "stem": "Στο σχήμα 1 διακρίνεται ένας ακονιστικός τροχός διαμέτρου $d$, που ακονίζει ένα αντικείμενο. Το αντικείμενο πιέζεται στον τροχό με δύναμη ίση με $F_\\kappa = 200\\text{ N}$, κατά τη διεύθυνση της ακτίνας του τροχού. Ο συντελεστής τριβής είναι $\\eta = 0{,}8$ και η αντιτιθέμενη προς τον κινητήρα ροπή, που δημιουργεί η δύναμη τριβής, είναι ίση με $M_T = 40\\text{ Nm}$.",
+    "stem": "Στο σχήμα 1 διακρίνεται ένας ακονιστικός τροχός διαμέτρου $d$, που ακονίζει ένα αντικείμενο. Το αντικείμενο πιέζεται στον τροχό με δύναμη ίση με $F_\\kappa = 200\\text{ N}$, κατά τη διεύθυνση της ακτίνας του τροχού. Ο συντελεστής τριβής είναι $\\\\beta = 0{,}8$ και η αντιτιθέμενη προς τον κινητήρα ροπή, που δημιουργεί η δύναμη τριβής, είναι ίση με $M_T = 40\\text{ Nm}$.",
     "items": [
       {
         "kind": "calc",
@@ -176,7 +176,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           }
         ],
         "prompt": "Η τριβή ολίσθησης $T$",
-        "formula": "$T = \\eta \\cdot F_\\kappa$",
+        "formula": "$T = \\\\beta \\cdot F_\\kappa$",
         "answer": 160,
         "unit": "N",
         "tolerance": 0.01,

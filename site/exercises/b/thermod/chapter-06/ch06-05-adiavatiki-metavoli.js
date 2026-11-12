@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "16255",
     "code": "Θέμα 2<sup>ο</sup> · #16255",
-    "title": "#16255 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#16255 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch06-05-adiavatiki-metavoli",
     "sourceOrder": 1,
@@ -24,7 +24,7 @@ window.EXERCISES.push(...
       {
         "kind": "tf",
         "subq": "2.1",
-        "prompt": "β. Οι ειδικές θερμότητες C_p και C_v είναι πάντα θετικές.",
+        "prompt": "β. Οι ειδικές θερμότητες $C_p$ και $C_v$ είναι πάντα θετικές.",
         "answer": true,
         "explain": "Σωστό. Οι ειδικές θερμότητες υπό σταθερή πίεση ($C_p$) και υπό σταθερό όγκο ($C_v$) είναι πάντοτε θετικές ποσότητες."
       },
@@ -104,7 +104,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "17641",
     "code": "Θέμα 2<sup>ο</sup> · #17641",
-    "title": "#17641 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#17641 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch06-05-adiavatiki-metavoli",
     "sourceOrder": 2,
@@ -139,7 +139,7 @@ window.EXERCISES.push(...
         "options": [
           {
             "id": "a",
-            "text": "Ισχύει W > 0, άρα \\Delta U < 0 \\implies C_v \\cdot (T_2 - T_1) < 0 \\implies T_2 < T_1, επομένως η θερμοκρασία μειώνεται."
+            "text": "Ισχύει W > 0, άρα $\\Delta U < 0$ $\\implies C_v$ $\\cdot (T_2 - T_1) < 0$ $\\implies T_2 < T_1$, επομένως η θερμοκρασία μειώνεται."
           },
           {
             "id": "b",
@@ -191,7 +191,7 @@ window.EXERCISES.push(...
         "options": [
           {
             "id": "a",
-            "text": "Στην ισόχωρη μεταβολή η θερμότητα είναι Q_v = m \\cdot C_v \\cdot (T_2 - T_1), ενώ στην ισοβαρή Q_p = m \\cdot C_p \\cdot (T_2 - T_1). Επειδή C_p > C_v, ισχύει Q_p > Q_v."
+            "text": "Στην ισόχωρη μεταβολή η θερμότητα είναι $Q_v = m \\cdot C_v \\cdot (T_2 - T_1)$, ενώ στην ισοβαρή $Q_p = m \\cdot C_p \\cdot (T_2 - T_1)$. Επειδή $C_p$ > $C_v$, ισχύει $Q_p$ > $Q_v$."
           },
           {
             "id": "b",

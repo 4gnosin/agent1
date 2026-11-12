@@ -71,7 +71,7 @@ if __package__ is None or __package__ == "":
 
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-    from src.utils.latex_sanitizer import sanitize_obj, sanitize_text
+    from src.utils.latex_sanitizer import sanitize_js_source, sanitize_obj, sanitize_text
 
     from src.utils.structure import catalog_id_for_subject, normalize_subject, with_structure_rules
 
@@ -95,7 +95,7 @@ if __package__ is None or __package__ == "":
 
 else:
 
-    from ..utils.latex_sanitizer import sanitize_obj, sanitize_text
+    from ..utils.latex_sanitizer import sanitize_js_source, sanitize_obj, sanitize_text
 
     from ..utils.structure import catalog_id_for_subject, normalize_subject, with_structure_rules
 
@@ -255,7 +255,7 @@ class TheoryGenerator:
 
                 "Η βιβλιοθήκη 'google-genai' δεν είναι εγκατεστημένη.\n"
 
-                "Εκτελέστε: pip install -r requirements.txt"
+                "Εκτελέστε: pip install -r scripts/requirements.txt"
 
             )
 
@@ -689,7 +689,7 @@ class TheoryGenerator:
 
         target_file = target_dir / filename
 
-        js_code = sanitize_text(js_code)
+        js_code = sanitize_js_source(js_code)
 
         target_file.write_text(js_code, encoding="utf-8")
 
@@ -844,7 +844,7 @@ class TheoryGenerator:
 
         target_file = target_dir / filename
 
-        js_code = sanitize_text(js_code)
+        js_code = sanitize_js_source(js_code)
 
         target_file.write_text(js_code, encoding="utf-8")
 

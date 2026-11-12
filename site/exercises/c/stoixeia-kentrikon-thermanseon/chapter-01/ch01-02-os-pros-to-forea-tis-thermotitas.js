@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24119",
     "code": "Θέμα 2<sup>ο</sup> · #24119",
-    "title": "#24119 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#24119 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "foreas-thermotitas",
     "sourceOrder": 6,

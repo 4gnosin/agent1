@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27602",
     "bankCode": "27602",
-    "title": "#27602 — Θέμα 4<sup>ο</sup>",
+    "title": "#27602 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-05-troxisma-ergaleion",
     "sourceOrder": 1,

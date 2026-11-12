@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19853",
     "bankCode": "19853",
-    "title": "#19853 — Θέμα 4<sup>ο</sup>",
+    "title": "#19853 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ergaleia-krousis",
     "stem": "Είσαστε στο μηχανουργείο και εκπαιδεύετε νέο εργαζόμενο. Περιγράψτε του τις οδηγίες για τη χρήση των σφυριών.",

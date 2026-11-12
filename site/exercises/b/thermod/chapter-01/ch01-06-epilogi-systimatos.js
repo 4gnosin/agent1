@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "19640",
     "code": "Θέμα 2<sup>ο</sup> · #19640",
-    "title": "#19640 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#19640 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-06-epilogi-systimatos",
     "sourceOrder": 1,

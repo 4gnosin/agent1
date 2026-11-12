@@ -67,10 +67,11 @@ class AgentMemory:
 
         if category and category in pillars:
             selected_pillars[category] = pillars[category]
-            # Πάντα περιλαμβάνουμε pedagogy και latex_and_code ως βασικούς πυλώνες
-            for base_cat in ["pedagogy", "latex_and_code"]:
-                if base_cat in pillars and base_cat != category:
-                    selected_pillars[base_cat] = pillars[base_cat]
+            # Για ασκήσεις αρκεί το latex_and_code (το pedagogy αφορά αποκλειστικά τη θεωρία)
+            if category == "theory" and "pedagogy" in pillars:
+                selected_pillars["pedagogy"] = pillars["pedagogy"]
+            if "latex_and_code" in pillars and "latex_and_code" != category:
+                selected_pillars["latex_and_code"] = pillars["latex_and_code"]
         else:
             selected_pillars = pillars
 

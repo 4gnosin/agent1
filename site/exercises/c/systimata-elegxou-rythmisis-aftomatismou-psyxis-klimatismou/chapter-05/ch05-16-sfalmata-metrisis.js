@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "23780",
     "code": "Θέμα 4<sup>ο</sup> · #23780",
-    "title": "#23780 — Θέμα 4<sup>ο</sup>",
+    "title": "#23780 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch05-16-sfalmata-metrisis",
     "sourceOrder": 7,
@@ -17,24 +17,24 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
       {
         "kind": "calc",
         "subq": "1.α1",
-        "prompt": "1. α) α1) Να υπολογίσετε τη θερμοκρασία των $100\\text{ }^\\circ\\text{C}$ στην κλίμακα Κέλβιν ($K$).",
-        "formula": "$T = t\\text{ }^\\circ\\text{C} + 273$",
+        "prompt": "1. α) α1) Να υπολογίσετε τη θερμοκρασία των $100^{\\circ}\\text{C}$ στην κλίμακα Κέλβιν ($K$).",
+        "formula": "$T = t^{\\circ}\\text{C} + 273$",
         "answer": 373,
         "unit": "K",
         "tolerance": 0.01,
         "hint": "Προσθέστε 273 στους βαθμούς Κελσίου.",
-        "explain": "Σύμφωνα με τη σχέση $T = t\\text{ }^\\circ\\text{C} + 273$, έχουμε $T = 100 + 273 = 373\\text{ K}$."
+        "explain": "Σύμφωνα με τη σχέση $T = t^{\\circ}\\text{C} + 273$, έχουμε $T = 100 + 273 = 373\\text{ K}$."
       },
       {
         "kind": "calc",
         "subq": "1.α2",
-        "prompt": "1. α) α2) Να υπολογίσετε τη θερμοκρασία των $100\\text{ }^\\circ\\text{C}$ στην κλίμακα Φαρενάιτ ($^\\circ\\text{F}$).",
-        "formula": "$^\\circ\\text{F} = \\frac{9}{5} \\cdot t\\text{ }^\\circ\\text{C} + 32$",
+        "prompt": "1. α) α2) Να υπολογίσετε τη θερμοκρασία των $100^{\\circ}\\text{C}$ στην κλίμακα Φαρενάιτ (${}^{\\circ}\\text{F}$).",
+        "formula": "${}^{\\circ}\\text{F} = \\frac{9}{5} \\cdot t^{\\circ}\\text{C} + 32$",
         "answer": 212,
         "unit": "°F",
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο μετατροπής Κελσίου σε Φαρενάιτ.",
-        "explain": "Από τη σχέση μετατροπής $\\frac{^\\circ\\text{C}}{5} = \\frac{^\\circ\\text{F} - 32}{9}$ προκύπτει $^\\circ\\text{F} = \\frac{9 \\cdot 100}{5} + 32 = 212\\text{ }^\\circ\\text{F}$."
+        "explain": "Από τη σχέση μετατροπής $\\frac{{}^{\\circ}\\text{C}}{5} = \\frac{{}^{\\circ}\\text{F} - 32}{9}$ προκύπτει ${}^{\\circ}\\text{F} = \\frac{9 \\cdot 100}{5} + 32 = 212^{\\circ}\\text{F}$."
       },
       {
         "kind": "mc",
@@ -44,7 +44,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "options": [
           {
             "id": "a",
-            "text": "Έστω $t_1 = 130\\text{ }^\\circ\\text{C}$ και $t_2 = 30\\text{ }^\\circ\\text{C}$, άρα $\\Delta t = 100\\text{ }^\\circ\\text{C}$. Στην κλίμακα Κέλβιν $T_1 = 130 + 273 = 403\\text{ K}$ και $T_2 = 30 + 273 = 303\\text{ K}$, άρα $\\Delta T = 403 - 303 = 100\\text{ K} = \\Delta t$."
+            "text": "Έστω $t_1 = 130^{\\circ}\\text{C}$ και $t_2 = 30^{\\circ}\\text{C}$, άρα $\\Delta t = 100^{\\circ}\\text{C}$. Στην κλίμακα Κέλβιν $T_1 = 130 + 273 = 403\\text{ K}$ και $T_2 = 30 + 273 = 303\\text{ K}$, άρα $\\Delta T = 403 - 303 = 100\\text{ K} = \\Delta t$."
           },
           {
             "id": "b",
@@ -62,7 +62,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
         "kind": "calc",
         "subq": "2",
         "prompt": "2. Σε ένα σύστημα, ο πρεσσοστάτης έχει ρυθμιστεί σε πίεση $2{,}80\\text{ bar}$. Με βάση τον πίνακα μετατροπής ($1\\text{ bar} = 100\\text{ kPa}$), σε πόσο χρόνο ($s$) θα έχει φτάσει στην πίεση αυτή (αντιστοιχία $\\Delta T = 100\\text{ K}$ δίνει χρόνο $40\\text{ s}$);",
-        "formula": "t = 40\s",
+        "formula": "t = 40s",
         "answer": 40,
         "unit": "s",
         "tolerance": 0.01,

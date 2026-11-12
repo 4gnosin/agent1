@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "30565",
     "code": "Θέμα 4<sup>ο</sup> · #30565",
-    "title": "#30565 — Θέμα 4<sup>ο</sup> (3.0)",
+    "title": "#30565 — Θέμα 4$^{ο}$ (3.0)",
     "units": 25,
     "theory": "stoixeia-ilektronikon-kyklomaton",
     "sourceOrder": 1,

@@ -53,12 +53,12 @@ window.SECTIONS.push({
     },
     {
       "type": "formula",
-      "html": "R = R<sub>a</sub> / M",
+      "html": "R = R$_{a}$ / M",
       "caption": "Όπου Rₐ είναι η παγκόσμια σταθερά των αερίων και M η μοριακή μάζα του αερίου."
     },
     {
       "type": "formula",
-      "html": "R<sub>a</sub> = 8,3143 kJ/(kgmol·K)"
+      "html": "R$_{a}$ = 8,3143 kJ/(kgmol·K)"
     },
     {
       "type": "p",
@@ -82,7 +82,7 @@ window.SECTIONS.push({
     },
     {
       "type": "formula",
-      "html": "C<sub>p</sub> − C<sub>v</sub> = R"
+      "html": "C$_{p}$ − C$_{v}$ = R"
     },
     {
       "type": "p",
@@ -105,7 +105,7 @@ window.SECTIONS.push({
       "type": "callout",
       "kind": "example",
       "title": "Τυπική εφαρμογή",
-      "text": "Για αέρα με ειδικό όγκο ν = 1 m³/kg, θερμοκρασία 27 °C και R = 287 J/(kg·K), πρώτα μετατρέπουμε τη θερμοκρασία: T = 300 K. Έπειτα από P·ν = R·T προκύπτει P = 86 100 Pa."
+      "text": "Για αέρα με ειδικό όγκο ν = 1 m³/kg, θερμοκρασία 27°C και R = 287 J/(kg·K), πρώτα μετατρέπουμε τη θερμοκρασία: T = 300 K. Έπειτα από P·ν = R·T προκύπτει P = 86 100 Pa."
     },
     {
       "type": "callout",

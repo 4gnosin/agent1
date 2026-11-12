@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #32801",
     "bankCode": "32801",
-    "title": "#32801 — Θέμα 2<sup>ο</sup> (5.4)",
+    "title": "#32801 — Θέμα 2$^{ο}$ (5.4)",
     "units": 25,
     "theory": "ch05-04-stomia-orofis",
     "sourceOrder": 8,

@@ -341,6 +341,64 @@ class SiteValidator:
         return errors
 
     @classmethod
+    def validate_animation_file(cls, file_path: Path | str) -> list[str]:
+        """Επικυρώνει ένα απομονωμένο αρχείο animation (site/animations/{grade}/{subject}/{exId}.js)."""
+        path = Path(file_path)
+        if not path.is_file():
+            return [f"Το αρχείο δεν υπάρχει: {path}"]
+        content = path.read_text(encoding="utf-8")
+        return cls.validate_animation_code(content, path.name)
+
+    @classmethod
+    def validate_animation_code(cls, content: str, source_label: str = "<animation>") -> list[str]:
+        """Επικυρώνει τον κώδικα JavaScript ενός αρχείου animation."""
+        errors: list[str] = []
+        if "window.EXERCISE_ANIMATIONS" not in content:
+            return [f"Δεν βρέθηκε αναφορά στο 'window.EXERCISE_ANIMATIONS' στο {source_label}."]
+
+        m = re.search(r'window\.EXERCISE_ANIMATIONS\[.*?\]\s*=\s*', content)
+        if not m:
+            return [f"Δεν βρέθηκε ανάθεση αντικειμένου στο window.EXERCISE_ANIMATIONS στο {source_label}."]
+
+        json_str = content[m.end():].strip().rstrip(";").strip()
+        try:
+            data = json.loads(json_str)
+        except Exception as exc:
+            return [f"Μη έγκυρο JSON στο animation {source_label}: {exc}"]
+
+        if not isinstance(data, dict):
+            return [f"Το animation στο {source_label} πρέπει να είναι JSON αντικείμενο."]
+
+        anims_to_check: list[tuple[str, dict[str, Any]]] = []
+        if "steps" in data:
+            anims_to_check.append(("default", data))
+        else:
+            for k, v in data.items():
+                if isinstance(v, dict):
+                    anims_to_check.append((str(k), v))
+                else:
+                    errors.append(f"Το κλειδί '{k}' στο {source_label} δεν περιέχει έγκυρο αντικείμενο animation.")
+
+        for subk, anim in anims_to_check:
+            title = anim.get("title")
+            if not title:
+                errors.append(f"Λείπει το 'title' στο animation ({subk}) του {source_label}.")
+            steps = anim.get("steps")
+            if not isinstance(steps, list) or len(steps) == 0:
+                errors.append(f"Το 'steps' στο animation ({subk}) του {source_label} πρέπει να είναι μη κενή λίστα.")
+            else:
+                for s_idx, st in enumerate(steps, 1):
+                    if not isinstance(st, dict):
+                        errors.append(f"Το βήμα #{s_idx} στο animation ({subk}) δεν είναι αντικείμενο.")
+                        continue
+                    if "text" not in st and "description" not in st:
+                        errors.append(f"Λείπει το 'text' στο βήμα #{s_idx} του animation ({subk}).")
+                    if "math" not in st and "latex" not in st:
+                        errors.append(f"Λείπει το 'math' στο βήμα #{s_idx} του animation ({subk}).")
+
+        return errors
+
+    @classmethod
     def validate_exercises_file(cls, file_path: Path | str) -> list[str]:
         """
         Επικυρώνει ένα αρχείο ασκήσεων (<group>.js).

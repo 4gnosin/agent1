@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34231",
     "bankCode": "34231",
-    "title": "#34231 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34231 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "aisthitires-kai-aytokinito",
     "items": [
@@ -92,7 +92,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #36257",
     "bankCode": "36257",
-    "title": "#36257 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#36257 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "aisthitires-kai-aytokinito",
     "items": [

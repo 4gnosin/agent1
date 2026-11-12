@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "18623",
     "code": "Θέμα 2<sup>ο</sup> · #18623",
-    "title": "#18623 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#18623 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-04-systima-orio-perivallon",
     "sourceOrder": 4,

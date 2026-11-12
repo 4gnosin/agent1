@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "bankCode": "32671",
     "code": "Θέμα 2<sup>ο</sup> · #32671",
-    "title": "#32671 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#32671 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-04-diaforiko-periorismenis-olisthisis",
     "sourceOrder": 5,

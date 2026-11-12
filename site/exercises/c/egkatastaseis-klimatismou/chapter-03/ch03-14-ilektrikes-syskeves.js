@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "25273",
     "code": "Θέμα 2<sup>ο</sup> · #25273",
-    "title": "#25273 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#25273 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-14-ilektrikes-syskeves",
     "sourceOrder": 14,

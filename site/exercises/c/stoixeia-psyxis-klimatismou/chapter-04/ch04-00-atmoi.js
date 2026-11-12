@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "33868",
     "code": "Θέμα 4<sup>ο</sup> · #33868",
-    "title": "#33868 — Θέμα 4<sup>ο</sup>",
+    "title": "#33868 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "atmoi",
     "sourceOrder": 1,
@@ -19,7 +19,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "α",
-        "subqPrompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε $1\\text{ kg}$ πάγου θερμοκρασίας $-40\\text{ }^\\circ\\text{C}$ (σημείο Α) σε νερό θερμοκρασίας $0\\text{ }^\\circ\\text{C}$ (σημείο Γ);",
+        "subqPrompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε $1\\text{ kg}$ πάγου θερμοκρασίας $-40^{\\circ}\\text{C}$ (σημείο Α) σε νερό θερμοκρασίας $0^{\\circ}\\text{C}$ (σημείο Γ);",
         "prompt": "Ποσό θερμότητας από σημείο Α έως σημείο Γ:",
         "formula": "$Q_{A-\\Gamma} = 100\\text{ kcal}$",
         "answer": 100,
@@ -80,7 +80,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "δ",
-        "subqPrompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε νερό θερμοκρασίας $0\\text{ }^\\circ\\text{C}$ (σημείο Γ) σε ξηρό κορεσμένο ατμό θερμοκρασίας $100\\text{ }^\\circ\\text{C}$;",
+        "subqPrompt": "Τι ποσό θερμότητας χρειάστηκε για να μετατρέψουμε νερό θερμοκρασίας $0^{\\circ}\\text{C}$ (σημείο Γ) σε ξηρό κορεσμένο ατμό θερμοκρασίας $100^{\\circ}\\text{C}$;",
         "prompt": "Ποσό θερμότητας από σημείο Γ έως σημείο Ε:",
         "formula": "$Q_{\\Gamma-E} = 740\\text{ kcal} - 100\\text{ kcal} = 640\\text{ kcal}$",
         "answer": 640,

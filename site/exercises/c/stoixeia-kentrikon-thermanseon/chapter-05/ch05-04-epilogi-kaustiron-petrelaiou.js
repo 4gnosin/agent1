@@ -9,15 +9,15 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24088",
     "code": "Θέμα 4<sup>ο</sup> · #24088",
-    "title": "#24088 — Θέμα 4<sup>ο</sup>",
+    "title": "#24088 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "epilogi-kaustiron-petrelaiou",
-    "stem": "Σε μία εγκατάσταση κεντρικής θέρμανσης θα πρέπει να επιλεγεί καυστήρας πετρελαίου για λέβητα ισχύος $Q_{\\Lambda} = 720.000\\text{ kcal/h}$ και αντίθλιψης $5\\text{ mbar}$. Η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$ και ο βαθμός απόδοσης είναι $\\eta = 90\\%$.",
+    "stem": "Σε μία εγκατάσταση κεντρικής θέρμανσης θα πρέπει να επιλεγεί καυστήρας πετρελαίου για λέβητα ισχύος $Q_{\\Lambda} = 720.000\\text{ kcal/h}$ και αντίθλιψης $5\\text{ mbar}$. Η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$ και ο βαθμός απόδοσης είναι $\\\\beta = 90\\%$.",
     "sourceOrder": 6,
     "givens": [
       {
-        "label": "Q_L",
-        "value": "720000 kcal/h"
+        "label": "$Q_L$",
+        "value": "$720000 \\text{kcal/h}$"
       },
       {
         "label": "p",
@@ -25,7 +25,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       },
       {
         "label": "H",
-        "value": "10000 kcal/kg"
+        "value": "$10000 \\text{kcal}/\\text{kg}$"
       },
       {
         "label": "η",
@@ -38,12 +38,12 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "α) Η κατανάλωση του καυστήρα $w$ (ωριαία ποσότητα καυσίμου).",
         "prompt": "Υπολογίστε την κατανάλωση καυσίμου $w$ σε $\\text{kg/h}$.",
-        "formula": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta}$",
+        "formula": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta}$",
         "answer": 80,
         "unit": "kg/h",
         "tolerance": 0.01,
-        "hint": "Χρησιμοποιήστε τον τύπο $w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta}$.",
-        "explain": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta} = \\frac{720.000}{10.000 \\cdot 0,9} = \\frac{720.000}{9.000} = 80\\text{ kg/h}$."
+        "hint": "Χρησιμοποιήστε τον τύπο $w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta}$.",
+        "explain": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta} = \\frac{720.000}{10.000 \\cdot 0,9} = \\frac{720.000}{9.000} = 80\\text{ kg/h}$."
       },
       {
         "kind": "mc",
@@ -88,36 +88,36 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24121",
     "code": "Θέμα 4<sup>ο</sup> · #24121",
-    "title": "#24121 — Θέμα 4<sup>ο</sup>",
+    "title": "#24121 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "epilogi-kaustiron-petrelaiou",
     "stem": "Καυστήρας εργάζεται σε λέβητα ισχύος $Q_{\\Lambda} = 64.000\\text{ kcal/h}$ και καταναλώνει $w = 8\\text{ kg/h}$ πετρέλαιο. Η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$.",
     "sourceOrder": 7,
     "givens": [
       {
-        "label": "Q_L",
-        "value": "64000 kcal/h"
+        "label": "$Q_L$",
+        "value": "$64000 \\text{kcal/h}$"
       },
       {
         "label": "w",
-        "value": "8 kg/h"
+        "value": "$8 \\text{kg/h}$"
       },
       {
         "label": "H",
-        "value": "10000 kcal/kg"
+        "value": "$10000 \\text{kcal}/\\text{kg}$"
       }
     ],
     "items": [
       {
         "kind": "calc",
         "subq": "4.1",
-        "prompt": "Υπολογίστε τον βαθμό απόδοσης $\\eta$ του λέβητα (ως δεκαδικό αριθμό).",
-        "formula": "$\\eta = \\frac{Q_{\\Lambda}}{H \\cdot w}$",
+        "prompt": "Υπολογίστε τον βαθμό απόδοσης $\\\\beta$ του λέβητα (ως δεκαδικό αριθμό).",
+        "formula": "$\\\\beta = \\frac{Q_{\\Lambda}}{H \\cdot w}$",
         "answer": 0.8,
         "unit": "",
         "tolerance": 0.01,
-        "hint": "Από τη σχέση $w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta} \\Rightarrow \\eta = \\frac{Q_{\\Lambda}}{H \\cdot w}$.",
-        "explain": "$\\eta = \\frac{Q_{\\Lambda}}{H \\cdot w} = \\frac{64.000}{10.000 \\cdot 8} = \\frac{64.000}{80.000} = 0,8$ (δηλαδή $80\\%$)."
+        "hint": "Από τη σχέση $w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta} \\Rightarrow \\\\beta = \\frac{Q_{\\Lambda}}{H \\cdot w}$.",
+        "explain": "$\\\\beta = \\frac{Q_{\\Lambda}}{H \\cdot w} = \\frac{64.000}{10.000 \\cdot 8} = \\frac{64.000}{80.000} = 0,8$ (δηλαδή $80\\%$)."
       }
     ]
   },
@@ -128,10 +128,10 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "25897",
     "code": "Θέμα 4<sup>ο</sup> · #25897",
-    "title": "#25897 — Θέμα 4<sup>ο</sup>",
+    "title": "#25897 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "epilogi-kaustiron-petrelaiou",
-    "stem": "Να υπολογιστεί η ισχύς που μπορεί να δίνει λέβητας πετρελαίου με βαθμό απόδοσης $\\eta = 80\\%$ με αντίθλιψη $6\\text{ mbar}$, όταν συνεργάζεται με καυστήρα OE–5.1Z για τη χαμηλότερη παροχή πετρελαίου, βάσει του διαγράμματος που δίδεται. Η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$.",
+    "stem": "Να υπολογιστεί η ισχύς που μπορεί να δίνει λέβητας πετρελαίου με βαθμό απόδοσης $\\\\beta = 80\\%$ με αντίθλιψη $6\\text{ mbar}$, όταν συνεργάζεται με καυστήρα OE–5.1Z για τη χαμηλότερη παροχή πετρελαίου, βάσει του διαγράμματος που δίδεται. Η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$.",
     "sourceOrder": 8,
     "givens": [
       {
@@ -144,7 +144,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       },
       {
         "label": "H",
-        "value": "10000 kcal/kg"
+        "value": "$10000 \\text{kcal}/\\text{kg}$"
       }
     ],
     "items": [
@@ -152,13 +152,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "kind": "calc",
         "subq": "4.1",
         "prompt": "Υπολογίστε την ισχύ $Q_{\\Lambda}$ του λέβητα σε $\\text{kcal/h}$ για τη χαμηλότερη παροχή καυσίμου ($w = 50\\text{ kg/h}$).",
-        "formula": "$Q_{\\Lambda} = w \\cdot H \\cdot \\eta$",
+        "formula": "$Q_{\\Lambda} = w \\cdot H \\cdot \\\\beta$",
         "answer": 400000,
         "unit": "kcal/h",
         "tolerance": 0.01,
         "hint": "Από το διάγραμμα, για αντίθλιψη 6 mbar και καυστήρα OE-5.1Z, η ελάχιστη παροχή είναι $w = 50\\text{ kg/h}$.",
         "hintImage": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_25897_sol01.webp",
-        "explain": "Από το διάγραμμα, για αντίθλιψη $6\\text{ mbar}$ και καυστήρα OE–5.1Ζ, η ωριαία ποσότητα καυσίμου είναι στην περιοχή $50\\text{ kg/h} < w < 65\\text{ kg/h}$. Για τη χαμηλότερη παροχή $w = 50\\text{ kg/h}$: $Q_{\\Lambda} = w \\cdot H \\cdot \\eta = 50\\text{ kg/h} \\cdot 10.000\\text{ kcal/kg} \\cdot 0,8 = 400.000\\text{ kcal/h}$."
+        "explain": "Από το διάγραμμα, για αντίθλιψη $6\\text{ mbar}$ και καυστήρα OE–5.1Ζ, η ωριαία ποσότητα καυσίμου είναι στην περιοχή $50\\text{ kg/h} < w < 65\\text{ kg/h}$. Για τη χαμηλότερη παροχή $w = 50\\text{ kg/h}$: $Q_{\\Lambda} = w \\cdot H \\cdot \\\\beta = 50\\text{ kg/h} \\cdot 10.000\\text{ kcal/kg} \\cdot 0,8 = 400.000\\text{ kcal/h}$."
       }
     ],
     "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-05/c_stoixeia-kentrikon-thermanseon_ch05_25897_fig01.webp",
@@ -173,15 +173,15 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28451",
     "code": "Θέμα 4<sup>ο</sup> · #28451",
-    "title": "#28451 — Θέμα 4<sup>ο</sup>",
+    "title": "#28451 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "epilogi-kaustiron-petrelaiou",
-    "stem": "Σε εγκατάσταση κεντρικής θέρμανσης, με καύσιμο το πετρέλαιο, ο λέβητας έχει θερμική ισχύ $Q_{\\Lambda} = 170.000\\text{ kcal/h}$. Ο βαθμός απόδοσης της εγκατάστασης είναι $\\eta = 85\\%$ και η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$. Ο εκτιμώμενος χρόνος λειτουργίας της εγκατάστασης είναι $T = 600\\text{ h/έτος}$.",
+    "stem": "Σε εγκατάσταση κεντρικής θέρμανσης, με καύσιμο το πετρέλαιο, ο λέβητας έχει θερμική ισχύ $Q_{\\Lambda} = 170.000\\text{ kcal/h}$. Ο βαθμός απόδοσης της εγκατάστασης είναι $\\\\beta = 85\\%$ και η θερμογόνος δύναμη του πετρελαίου είναι $H = 10.000\\text{ kcal/kg}$. Ο εκτιμώμενος χρόνος λειτουργίας της εγκατάστασης είναι $T = 600\\text{ h/έτος}$.",
     "sourceOrder": 9,
     "givens": [
       {
-        "label": "Q_L",
-        "value": "170000 kcal/h"
+        "label": "$Q_L$",
+        "value": "$170000 \\text{kcal/h}$"
       },
       {
         "label": "η",
@@ -189,11 +189,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       },
       {
         "label": "H",
-        "value": "10000 kcal/kg"
+        "value": "$10000 \\text{kcal}/\\text{kg}$"
       },
       {
         "label": "T",
-        "value": "600 h/έτος"
+        "value": "$600 \\text{h}/έτος$"
       }
     ],
     "items": [
@@ -202,11 +202,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "subq": "4.1",
         "subqPrompt": "α) Την ωριαία ποσότητα καυσίμου $w$ που μπορεί να καταναλώσει ο καυστήρας που συνεργάζεται με το συγκεκριμένο λέβητα.",
         "prompt": "Υπολογίστε την ωριαία ποσότητα καυσίμου $w$ σε $\\text{kg/h}$.",
-        "formula": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta}$",
+        "formula": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta}$",
         "answer": 20,
         "unit": "kg/h",
         "tolerance": 0.01,
-        "hint": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\eta}$",
+        "hint": "$w = \\frac{Q_{\\Lambda}}{H \\cdot \\\\beta}$",
         "explain": "$w = \\frac{170.000}{10.000 \\cdot 0,85} = \\frac{170.000}{8.500} = 20\\text{ kg/h}$."
       },
       {

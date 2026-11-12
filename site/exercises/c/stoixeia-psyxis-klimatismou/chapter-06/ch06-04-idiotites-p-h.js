@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25306",
     "bankCode": "25306",
-    "title": "#25306 — Θέμα 4<sup>ο</sup>",
+    "title": "#25306 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-r134a",
     "sourceOrder": 9,
@@ -124,7 +124,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #26758",
     "bankCode": "26758",
-    "title": "#26758 — Θέμα 2<sup>ο</sup>",
+    "title": "#26758 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "idiotites-psyktikon",
     "sourceOrder": 10,
@@ -254,7 +254,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29115",
     "bankCode": "29115",
-    "title": "#29115 — Θέμα 4<sup>ο</sup>",
+    "title": "#29115 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-metavoles",
     "sourceOrder": 12,
@@ -350,7 +350,6 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "explain": "Η μεταβολή ΔΖ συμβαίνει στο εκτονωτικό μέσο (βαλβίδα εκτόνωσης ή τριχοειδή σωλήνα), γιατί έχουμε απότομη πτώση της πίεσης (ισενθαλπικός στραγγαλισμός)."
       }
     ]
-    
   },
   {
     "id": "ch06-29221",
@@ -359,7 +358,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29221",
     "bankCode": "29221",
-    "title": "#29221 — Θέμα 4<sup>ο</sup>",
+    "title": "#29221 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-atmopoiitis",
     "sourceOrder": 14,
@@ -449,7 +448,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "prompt": "Θερμοκρασία $T_1$ στο Σημείο 1 (°C):",
         "answer": -10,
         "unit": "°C",
-        "explain": "$T_1 = -10\\text{ }^\\circ\\text{C}$."
+        "explain": "$T_1 = -10^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
@@ -457,7 +456,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "prompt": "Θερμοκρασία $T_2$ στο Σημείο 2 (°C):",
         "answer": -10,
         "unit": "°C",
-        "explain": "$T_2 = -10\\text{ }^\\circ\\text{C}$."
+        "explain": "$T_2 = -10^{\\circ}\\text{C}$."
       },
       {
         "kind": "calc",
@@ -480,7 +479,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29259",
     "bankCode": "29259",
-    "title": "#29259 — Θέμα 4<sup>ο</sup>",
+    "title": "#29259 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-r22",
     "sourceOrder": 15,
@@ -604,24 +603,24 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29331",
     "bankCode": "29331",
-    "title": "#29331 — Θέμα 4<sup>ο</sup>",
+    "title": "#29331 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-kyklos-r22",
     "sourceOrder": 16,
-    "stem": "Μια ψυκτική διάταξη μηχανικής συμπίεσης ατμού, χωρίς υπόψυξη συμπυκνώματος, χρησιμοποιεί το ψυκτικό μέσο R–22 με συνολική μάζα $m = 2\\text{ kg}$. Η ειδική ενθαλπία του υπέρθερμου ατμού, κατά την είσοδο στον συμπυκνωτή είναι $450\\text{ kJ/kg}$ και η θερμοκρασία του $80\\text{ }^\\circ\\text{C}$.",
+    "stem": "Μια ψυκτική διάταξη μηχανικής συμπίεσης ατμού, χωρίς υπόψυξη συμπυκνώματος, χρησιμοποιεί το ψυκτικό μέσο R–22 με συνολική μάζα $m = 2\\text{ kg}$. Η ειδική ενθαλπία του υπέρθερμου ατμού, κατά την είσοδο στον συμπυκνωτή είναι $450\\text{ kJ/kg}$ και η θερμοκρασία του $80^{\\circ}\\text{C}$.",
     "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_29331_fig01.webp",
     "givens": [
       {
         "label": "m",
-        "value": "2 kg"
+        "value": "$2 \\text{kg}$"
       },
       {
-        "label": "h_1",
-        "value": "450 kJ/kg"
+        "label": "$h_1$",
+        "value": "$450 kJ/\\text{kg}$"
       },
       {
-        "label": "T_1",
-        "value": "80 °C"
+        "label": "$T_1$",
+        "value": "$80 {}^{\\circ}\\text{C}$"
       }
     ],
     "items": [
@@ -629,7 +628,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "kind": "open",
         "subq": "α",
         "prompt": "α) Να σχεδιάσετε πάνω στο διάγραμμα πίεσης – ενθαλπίας τη μεταβολή της συμπύκνωσης, η οποία να θεωρηθεί εξ ολοκλήρου ισόθλιπτη.",
-        "explain": "Εντοπίζουμε το σημείο 1 ($h_1 = 450\\text{ kJ/kg}, T_1 = 80\\text{ }^\\circ\\text{C}$) και χαράσσουμε την οριζόντια ισόθλιπτη γραμμή συμπύκνωσης μέχρι τη γραμμή κορεσμένου υγρού (σημείο 2)."
+        "explain": "Εντοπίζουμε το σημείο 1 ($h_1 = 450\\text{ kJ/kg}, T_1 = 80^{\\circ}\\text{C}$) και χαράσσουμε την οριζόντια ισόθλιπτη γραμμή συμπύκνωσης μέχρι τη γραμμή κορεσμένου υγρού (σημείο 2)."
       },
       {
         "kind": "calc",
@@ -651,8 +650,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       {
         "kind": "open",
         "subq": "δ",
-        "prompt": "δ) Αν η θερμοκρασία ατμοποίησης είναι $-30\\text{ }^\\circ\\text{C}$, να ολοκληρώσετε τη σχεδίαση του ψυκτικού κύκλου σχεδιάζοντας την ισενθαλπική εκτόνωση, την ατμοποίηση έως την καμπύλη κορεσμένου ατμού και την ισεντροπική συμπίεση.",
-        "explain": "Από το σημείο 2 φέρνουμε κατακόρυφη έως τη θερμοκρασία $-30\\text{ }^\\circ\\text{C}$ (σημείο 3 - εκτόνωση). Έπειτα οριζόντια γραμμή έως την καμπύλη κορεσμένου ατμού (σημείο 4 - ατμοποίηση) και τέλος συνδέουμε τα σημεία 4 και 1 ακολουθώντας την καμπύλη σταθερής εντροπίας (συμπίεση)."
+        "prompt": "δ) Αν η θερμοκρασία ατμοποίησης είναι $-30^{\\circ}\\text{C}$, να ολοκληρώσετε τη σχεδίαση του ψυκτικού κύκλου σχεδιάζοντας την ισενθαλπική εκτόνωση, την ατμοποίηση έως την καμπύλη κορεσμένου ατμού και την ισεντροπική συμπίεση.",
+        "explain": "Από το σημείο 2 φέρνουμε κατακόρυφη έως τη θερμοκρασία $-30^{\\circ}\\text{C}$ (σημείο 3 - εκτόνωση). Έπειτα οριζόντια γραμμή έως την καμπύλη κορεσμένου ατμού (σημείο 4 - ατμοποίηση) και τέλος συνδέουμε τα σημεία 4 και 1 ακολουθώντας την καμπύλη σταθερής εντροπίας (συμπίεση)."
       }
     ],
     "solutionImages": [
@@ -666,7 +665,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #29501",
     "bankCode": "29501",
-    "title": "#29501 — Θέμα 2<sup>ο</sup>",
+    "title": "#29501 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-stoixeia",
     "sourceOrder": 17,
@@ -758,7 +757,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           },
           {
             "id": "c",
-            "text": "Αυξάνει τη θερμοκρασία του θαλάμου κατά 30 °C."
+            "text": "Αυξάνει τη θερμοκρασία του θαλάμου κατά 30°C."
           }
         ],
         "answer": "a",
@@ -773,7 +772,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29503",
     "bankCode": "29503",
-    "title": "#29503 — Θέμα 4<sup>ο</sup>",
+    "title": "#29503 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-simeia",
     "sourceOrder": 18,
@@ -842,7 +841,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #29539",
     "bankCode": "29539",
-    "title": "#29539 — Θέμα 2<sup>ο</sup>",
+    "title": "#29539 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "psyktika-revsta-properties",
     "sourceOrder": 19,
@@ -895,7 +894,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           },
           {
             "id": "c",
-            "text": "1. Να παγώνει στους 10 °C.\n2. Να μην αναμιγνύεται με τον αέρα."
+            "text": "1. Να παγώνει στους 10°C.\n2. Να μην αναμιγνύεται με τον αέρα."
           }
         ],
         "answer": "a",
@@ -910,19 +909,19 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29540",
     "bankCode": "29540",
-    "title": "#29540 — Θέμα 4<sup>ο</sup>",
+    "title": "#29540 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-isentropiki",
     "sourceOrder": 20,
-    "stem": "Ψυκτικό ρευστό R-22 βρίσκεται σε κατάσταση κορεσμένου ατμού, με θερμοκρασία $-20\\text{ }^\\circ\\text{C}$. Το αέριο συμπιέζεται ισεντροπικά και στην κατάθλιψη του συμπιεστή αποκτά θερμοκρασία $60\\text{ }^\\circ\\text{C}$.",
+    "stem": "Ψυκτικό ρευστό R-22 βρίσκεται σε κατάσταση κορεσμένου ατμού, με θερμοκρασία $-20^{\\circ}\\text{C}$. Το αέριο συμπιέζεται ισεντροπικά και στην κατάθλιψη του συμπιεστή αποκτά θερμοκρασία $60^{\\circ}\\text{C}$.",
     "givens": [
       {
         "label": "$T_{\\text{αναρ}}$",
-        "value": "-20 °C (κορεσμένος ατμός)"
+        "value": "$-20 {}^{\\circ}\\text{C} (κορεσμένος ατμός)$"
       },
       {
         "label": "$T_{\\text{κατ}}$",
-        "value": "60 °C"
+        "value": "$60 {}^{\\circ}\\text{C}$"
       }
     ],
     "items": [
@@ -930,7 +929,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "kind": "open",
         "subq": "α",
         "prompt": "α. Να παραστήσετε την ισεντροπική συμπίεση του αερίου στο διάγραμμα p-h.",
-        "explain": "Στο διάγραμμα εντοπίζουμε το σημείο Α πάνω στην καμπύλη κορεσμένου ατμού στους $-20\\text{ }^\\circ\\text{C}$. Από το Α ακολουθούμε την πλησιέστερη καμπύλη σταθερής εντροπίας προς τα πάνω μέχρι τη γραμμή των $60\\text{ }^\\circ\\text{C}$ (σημείο Β)."
+        "explain": "Στο διάγραμμα εντοπίζουμε το σημείο Α πάνω στην καμπύλη κορεσμένου ατμού στους $-20^{\\circ}\\text{C}$. Από το Α ακολουθούμε την πλησιέστερη καμπύλη σταθερής εντροπίας προς τα πάνω μέχρι τη γραμμή των $60^{\\circ}\\text{C}$ (σημείο Β)."
       },
       {
         "kind": "calc",
@@ -987,7 +986,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #30503",
     "bankCode": "30503",
-    "title": "#30503 — Θέμα 4<sup>ο</sup>",
+    "title": "#30503 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-isxys",
     "sourceOrder": 21,
@@ -995,8 +994,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "image": "images/c/stoixeia-psyxis-klimatismou/chapter-06/c_stoixeia-psyxis-klimatismou_ch06_30503_fig01.webp",
     "givens": [
       {
-        "label": "\\dot{m}",
-        "value": "0.1 kg/s"
+        "label": "$\\dot{m}$",
+        "value": "$0.1 \\text{kg}/s$"
       }
     ],
     "items": [
@@ -1061,7 +1060,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #33873",
     "bankCode": "33873",
-    "title": "#33873 — Θέμα 4<sup>ο</sup>",
+    "title": "#33873 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-logos-sympiesis",
     "sourceOrder": 23,
@@ -1137,7 +1136,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #33878",
     "bankCode": "33878",
-    "title": "#33878 — Θέμα 4<sup>ο</sup>",
+    "title": "#33878 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "diagramma-p-h-atmopoihsi-r22",
     "sourceOrder": 24,
@@ -1147,8 +1146,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       {
         "kind": "open",
         "subq": "α",
-        "prompt": "α) Να σημειώσετε πάνω στο διάγραμμα την κατάσταση του ψυκτικού ρευστού με θερμοκρασία $-10\\text{ }^\\circ\\text{C}$ και βαθμό ξηρότητας $x = 0{,}2$ (σημείο 1).",
-        "explain": "Εντοπίζουμε την τομή της γραμμής θερμοκρασίας $-10\\text{ }^\\circ\\text{C}$ με τη γραμμή βαθμού ξηρότητας $x = 0{,}2$ (σημείο 1)."
+        "prompt": "α) Να σημειώσετε πάνω στο διάγραμμα την κατάσταση του ψυκτικού ρευστού με θερμοκρασία $-10^{\\circ}\\text{C}$ και βαθμό ξηρότητας $x = 0{,}2$ (σημείο 1).",
+        "explain": "Εντοπίζουμε την τομή της γραμμής θερμοκρασίας $-10^{\\circ}\\text{C}$ με τη γραμμή βαθμού ξηρότητας $x = 0{,}2$ (σημείο 1)."
       },
       {
         "kind": "calc",

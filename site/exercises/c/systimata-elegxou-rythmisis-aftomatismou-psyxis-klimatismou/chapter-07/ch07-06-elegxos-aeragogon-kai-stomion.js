@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "30190",
     "code": "Θέμα 4<sup>ο</sup> · #30190",
-    "title": "#30190 — Θέμα 4<sup>ο</sup> (α–στ)",
+    "title": "#30190 — Θέμα 4$^{ο}$ (α–στ)",
     "units": 25,
     "theory": "ch07-06-elegxos-aeragogon-kai-stomion",
     "sourceOrder": 5,

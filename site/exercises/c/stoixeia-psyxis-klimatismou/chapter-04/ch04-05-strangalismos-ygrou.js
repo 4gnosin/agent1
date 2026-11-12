@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23872",
     "code": "Θέμα 2<sup>ο</sup> · #23872",
-    "title": "#23872 — Θέμα 2<sup>ο</sup>",
+    "title": "#23872 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "strangalismos",
     "sourceOrder": 10,
@@ -48,7 +48,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "options": [
           {
             "id": "a",
-            "text": "Ναι, διότι η νέα θερμοκρασία (130 °C) είναι χαμηλότερη από την κρίσιμη θερμοκρασία."
+            "text": "Ναι, διότι η νέα θερμοκρασία (130°C) είναι χαμηλότερη από την κρίσιμη θερμοκρασία."
           },
           {
             "id": "b",

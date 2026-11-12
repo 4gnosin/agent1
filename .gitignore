@@ -21,6 +21,7 @@ ENV/
 # Scratch & temporary workspace files
 scratch/
 .agents/
+.cache/
 *.tmp
 *.log
 

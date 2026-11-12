@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "25195",
     "code": "Θέμα 4<sup>ο</sup> · #25195",
-    "title": "#25195 — Θέμα 4<sup>ο</sup> (5.1)",
+    "title": "#25195 — Θέμα 4$^{ο}$ (5.1)",
     "units": 25,
     "theory": "ch05-01-methodoi-frezarismatos",
     "sourceOrder": 1,

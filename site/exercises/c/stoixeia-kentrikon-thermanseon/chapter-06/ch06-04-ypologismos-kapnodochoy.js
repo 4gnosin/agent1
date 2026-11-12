@@ -9,18 +9,18 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24112",
     "bankCode": "24112",
-    "title": "#24112 — Θέμα 2<sup>ο</sup>",
+    "title": "#24112 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch06-04-ypologismos-kapnodochoy",
     "stem": "Σε εγκατάσταση κεντρικής θέρμανσης η ισχύς του λέβητα είναι $Q_{\\lambda} = 90.000\\text{ Kcal/h}$ (αντιστοιχία $Q_{\\lambda} = 104{,}6\\text{ kW}$), ενώ η καπνοδόχος του είναι ορθογωνικής διατομής με ύψος $H = 20\\text{ m}$. Δίδεται $\\sqrt{20} = 4{,}4$.",
     "givens": [
       {
-        "label": "Q_λ",
-        "value": "90.000 Kcal/h (104,6 kW)"
+        "label": "$Q_λ$",
+        "value": "$90.000 Kcal/\\text{h} (104{,}6 kW)$"
       },
       {
         "label": "H",
-        "value": "20 m"
+        "value": "$20 \\text{m}$"
       },
       {
         "label": "√20",
@@ -112,18 +112,18 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #24122",
     "bankCode": "24122",
-    "title": "#24122 — Θέμα 4<sup>ο</sup>",
+    "title": "#24122 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-04-ypologismos-kapnodochoy",
     "stem": "Να υπολογιστεί η διατομή της καπνοδόχου σε $\\text{m}^2$, για λέβητα ισχύος $Q_{\\lambda} = 110{,}4\\text{ kW}$ (αντιστοιχία περίπου $Q_{\\lambda} = 95.000\\text{ Kcal/h}$) και για καπνοδόχο ύψους $H = 25\\text{ m}$.",
     "givens": [
       {
-        "label": "Q_λ",
-        "value": "110,4 kW (95.000 Kcal/h)"
+        "label": "$Q_λ$",
+        "value": "$110{,}4 kW (95.000 Kcal/\\text{h})$"
       },
       {
         "label": "H",
-        "value": "25 m"
+        "value": "$25 \\text{m}$"
       }
     ],
     "sourceOrder": 8,

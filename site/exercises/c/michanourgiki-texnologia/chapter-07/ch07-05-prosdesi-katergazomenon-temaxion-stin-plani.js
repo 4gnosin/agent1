@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27543",
     "code": "Θέμα 4<sup>ο</sup> · #27543",
-    "title": "#27543 — Θέμα 4<sup>ο</sup> (α–γ)",
+    "title": "#27543 — Θέμα 4$^{ο}$ (α–γ)",
     "units": 25,
     "theory": "ch07-05-prosdesi-katergazomenon-temaxion-stin-plani",
     "sourceOrder": 3,

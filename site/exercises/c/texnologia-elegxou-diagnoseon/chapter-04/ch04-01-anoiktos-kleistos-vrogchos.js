@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34106",
     "bankCode": "34106",
-    "title": "#34106 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#34106 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch04-01-anoiktos-kleistos-vrogchos",
     "sourceOrder": 1,

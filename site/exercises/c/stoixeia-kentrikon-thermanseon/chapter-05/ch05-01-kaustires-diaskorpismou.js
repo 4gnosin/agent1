@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28669",
     "code": "Θέμα 2<sup>ο</sup> · #28669",
-    "title": "#28669 — Θέμα 2<sup>ο</sup>",
+    "title": "#28669 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "kaustires-diaskorpismou",
     "sourceOrder": 1,

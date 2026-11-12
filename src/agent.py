@@ -51,7 +51,7 @@ class EpalMechAgent:
         if genai is None or types is None:
             raise ImportError(
                 "Η επίσημη βιβλιοθήκη 'google-genai' δεν είναι εγκατεστημένη.\n"
-                "Εκτελέστε: pip install -r requirements.txt"
+                "Εκτελέστε: pip install -r scripts/requirements.txt"
             )
 
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")

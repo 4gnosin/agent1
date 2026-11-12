@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "33036",
     "code": "Θέμα 4<sup>ο</sup> · #33036",
-    "title": "#33036 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#33036 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch07-07-elegxos-dianomis-aera-vav",
     "sourceOrder": 6,

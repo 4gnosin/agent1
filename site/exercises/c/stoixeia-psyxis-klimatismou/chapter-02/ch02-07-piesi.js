@@ -10,7 +10,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "stem": "Αέριο βρίσκεται μέσα σε μία φιάλη, καθώς και σε τμήμα ενός σωλήνα που περιέχει υδράργυρο και είναι τοποθετημένος στην άκρη της φιάλης, όπως φαίνεται στο παρακάτω σχήμα. Ο σωλήνας επικοινωνεί με την ατμόσφαιρα πίεσης $100\\text{ kPa}$ και η υψομετρική διαφορά $h$ ισούται με $150\\text{ mm}$. (Υπόδειξη: $1\\text{ kPa} = 7,5\\text{ mmHg}$)",
     "code": "Θέμα 4<sup>ο</sup> · #23813",
     "bankCode": "23813",
-    "title": "#23813 — Θέμα 4<sup>ο</sup> (α–γ)",
+    "title": "#23813 — Θέμα 4$^{ο}$ (α–γ)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 5,
@@ -71,7 +71,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #23846",
     "bankCode": "23846",
-    "title": "#23846 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23846 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 6,
@@ -162,7 +162,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           },
           {
             "id": "e",
-            "text": "ε. ^\\circ\\text{F}"
+            "text": "ε. °F"
           }
         ],
         "pairs": {
@@ -171,7 +171,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           "3": "d",
           "4": "b"
         },
-        "explain": "1-ε (Θερμοκρασία -> ^\\circ\\text{F}), 2-α (Έργο -> Joule), 3-δ (Ισχύς -> Watt), 4-β (Πίεση -> bar)."
+        "explain": "1-ε (Θερμοκρασία -> °$\\text{F}), 2-$α (Έργο -> Joule), 3-δ (Ισχύς -> Watt), 4-β (Πίεση -> bar)."
       }
     ]
   },
@@ -182,7 +182,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #23869",
     "bankCode": "23869",
-    "title": "#23869 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23869 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 7,
@@ -267,7 +267,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "stem": "Αέριο, το οποίο βρίσκεται σε κύλινδρο, συμπιέζεται όπως φαίνεται στο σχήμα, εφαρμόζοντας μία δύναμη $F = 12\\text{ kN}$ πάνω στο έμβολο. Ο κύλινδρος επικοινωνεί μέσω σωλήνα μικρής διαμέτρου, με την ατμόσφαιρα πίεσης $P_{\\text{atm}} = 100\\text{ kPa}$. Μεταξύ του αερίου και του ανοιχτού άκρου του σωλήνα υπάρχει υδράργυρος ο οποίος ανυψώνεται κατά $H = 150\\text{ mm}$. (Υπόδειξη: $1\\text{ kPa} = 7,5\\text{ mmHg}$)",
     "code": "Θέμα 4<sup>ο</sup> · #33883",
     "bankCode": "33883",
-    "title": "#33883 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#33883 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 8,
@@ -291,7 +291,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "kind": "calc",
         "subq": "β",
         "prompt": "β) Τι θα μας έδειχνε, για την πίεση του αερίου, ένα μανόμετρο τοποθετημένο στον κύλινδρο;",
-        "formula": "$P_{\\text{μαν}}$ = \\Delta P",
+        "formula": "$P_{\\text{μαν}} = \\Delta P$",
         "answer": 20,
         "unit": "kPa",
         "tolerance": 0.01,
@@ -329,7 +329,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34890",
     "bankCode": "34890",
-    "title": "#34890 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34890 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 9,
@@ -428,7 +428,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "stem": "Στο σχήμα 1, το δοχείο Α έχει αέριο με απόλυτη πίεση $P_{A\\text{απ}} = 5\\text{ bar}$, ενώ στο δοχείο Β, το οποίο περιέχει το δοχείο Α, υπάρχει αέριο με μανομετρική πίεση $P_{B\\text{μαν}} = 2,5\\text{ bar}$. Ο ατμοσφαιρικός αέρας που περιβάλλει το δοχείο Β έχει πίεση $P_{\\text{ατμ}} = 1\\text{ bar}$. Να υπολογιστεί:",
     "code": "Θέμα 4<sup>ο</sup> · #34891",
     "bankCode": "34891",
-    "title": "#34891 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#34891 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-07-piesi",
     "sourceOrder": 10,

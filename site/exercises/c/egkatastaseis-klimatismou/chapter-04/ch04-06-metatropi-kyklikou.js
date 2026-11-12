@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #26875",
     "bankCode": "26875",
-    "title": "#26875 — Θέμα 4<sup>ο</sup>",
+    "title": "#26875 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-06",
     "sourceOrder": 9,

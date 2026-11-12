@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #17364",
     "bankCode": "17364",
-    "title": "#17364 — Θέμα 2<sup>ο</sup>",
+    "title": "#17364 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ergaleia-sygkratisis",
     "sourceOrder": 2,

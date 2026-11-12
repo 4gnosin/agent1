@@ -32,7 +32,17 @@
         456.5,
         360.0
       ],
+      "row_id": "p2_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        141.5,
+        180.7,
+        456.5,
+        360.0
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "H2O.",
       "text_after": "Α  Β",
       "is_full_page_scan": false
@@ -54,9 +64,19 @@
         268.7,
         343.8
       ],
+      "row_id": "p4_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        171.3,
+        219.1,
+        268.7,
+        343.8
+      ],
       "question_anchor": "2.1",
-      "text_before": "(Kαταστάσεις υγρού-ατμού)",
-      "text_after": "1.",
+      "sub_index": 1,
+      "text_before": "1.",
+      "text_after": "β. Κορεσμένος ατμός",
       "is_full_page_scan": false
     },
     {
@@ -76,9 +96,19 @@
         254.6,
         486.1
       ],
+      "row_id": "p4_r2",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        188.0,
+        361.3,
+        254.6,
+        486.1
+      ],
       "question_anchor": "2.1",
-      "text_before": "1.",
-      "text_after": "2.",
+      "sub_index": 2,
+      "text_before": "2.",
+      "text_after": "γ. Ξηρός κορεσμένος ατμός",
       "is_full_page_scan": false
     },
     {
@@ -98,9 +128,19 @@
         255.7,
         626.7
       ],
+      "row_id": "p4_r3",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        181.9,
+        503.6,
+        255.7,
+        626.7
+      ],
       "question_anchor": "2.1",
-      "text_before": "2.",
-      "text_after": "3.",
+      "sub_index": 3,
+      "text_before": "3.",
+      "text_after": "δ. Κορεσμένο υγρό",
       "is_full_page_scan": false
     },
     {
@@ -120,9 +160,19 @@
         252.1,
         750.8
       ],
+      "row_id": "p4_r4",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        185.6,
+        641.8,
+        252.1,
+        750.8
+      ],
       "question_anchor": "2.1",
-      "text_before": "3.",
-      "text_after": "4.",
+      "sub_index": 4,
+      "text_before": "4.",
+      "text_after": "",
       "is_full_page_scan": false
     },
     {
@@ -142,7 +192,17 @@
         494.3,
         390.9
       ],
+      "row_id": "p7_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        100.9,
+        181.9,
+        494.3,
+        390.9
+      ],
       "question_anchor": "2.1",
+      "sub_index": null,
       "text_before": "αντιστοίχιση.",
       "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
       "is_full_page_scan": false
@@ -164,7 +224,17 @@
         444.6,
         746.1
       ],
+      "row_id": "p7_r2",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        310.9,
+        645.1,
+        444.6,
+        746.1
+      ],
       "question_anchor": "2.2",
+      "sub_index": 1,
       "text_before": "1. Υπόψυκτο υγρό.  α) Nερό t =10 0C",
       "text_after": "",
       "is_full_page_scan": false
@@ -186,7 +256,17 @@
         420.2,
         209.6
       ],
-      "question_anchor": null,
+      "row_id": "p8_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        335.3,
+        87.1,
+        420.2,
+        209.6
+      ],
+      "question_anchor": "2.2",
+      "sub_index": 2,
       "text_before": "2. Κορεσμένο υγρό.  β) Νερό και Ατμός t = 100 0C",
       "text_after": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
       "is_full_page_scan": false
@@ -208,7 +288,17 @@
         419.6,
         356.1
       ],
-      "question_anchor": null,
+      "row_id": "p8_r2",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        335.9,
+        232.1,
+        419.6,
+        356.1
+      ],
+      "question_anchor": "2.2",
+      "sub_index": 3,
       "text_before": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
       "text_after": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
       "is_full_page_scan": false
@@ -230,7 +320,17 @@
         423.9,
         532.7
       ],
-      "question_anchor": null,
+      "row_id": "p8_r3",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        331.5,
+        378.7,
+        423.9,
+        532.7
+      ],
+      "question_anchor": "2.2",
+      "sub_index": 4,
       "text_before": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
       "text_after": "ε) Ατμός t = 100 0C",
       "is_full_page_scan": false
@@ -252,7 +352,17 @@
         426.1,
         694.2
       ],
-      "question_anchor": null,
+      "row_id": "p8_r4",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        329.5,
+        555.1,
+        426.1,
+        694.2
+      ],
+      "question_anchor": "2.2",
+      "sub_index": 4,
       "text_before": "ε) Ατμός t = 100 0C",
       "text_after": "Μονάδες 16",
       "is_full_page_scan": false
@@ -274,7 +384,17 @@
         471.0,
         504.5
       ],
+      "row_id": "p14_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        123.6,
+        158.8,
+        471.0,
+        504.5
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "λανθάνουσα θερμότητα συμπύκνωσης του ψυκτικού ρευστού R12, να βρείτε:",
       "text_after": "α) Την πίεση συμπύκνωσης του ψυκτικού ρευστού. (Μονάδες 5)",
       "is_full_page_scan": false
@@ -296,7 +416,17 @@
         367.7,
         570.0
       ],
+      "row_id": "p16_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        231.0,
+        422.5,
+        367.7,
+        570.0
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
       "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
       "is_full_page_scan": false
@@ -318,7 +448,17 @@
         397.6,
         586.1
       ],
+      "row_id": "p18_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        198.7,
+        400.5,
+        397.6,
+        586.1
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "περισσέψει.",
       "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
       "is_full_page_scan": false
@@ -340,7 +480,17 @@
         524.4,
         355.8
       ],
+      "row_id": "p22_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        70.9,
+        202.7,
+        524.4,
+        355.8
+      ],
       "question_anchor": "2.1",
+      "sub_index": null,
       "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
       "text_after": "Μονάδες 10",
       "is_full_page_scan": false
@@ -362,7 +512,17 @@
         524.4,
         610.1
       ],
+      "row_id": "p22_r2",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        70.9,
+        516.3,
+        524.4,
+        610.1
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "ατμός μέσα στον σωλήνα.",
       "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
       "is_full_page_scan": false
@@ -395,9 +555,19 @@
             268.7,
             343.8
           ],
+          "row_id": "p4_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            171.3,
+            219.1,
+            268.7,
+            343.8
+          ],
           "question_anchor": "2.1",
-          "text_before": "(Kαταστάσεις υγρού-ατμού)",
-          "text_after": "1.",
+          "sub_index": 1,
+          "text_before": "1.",
+          "text_after": "β. Κορεσμένος ατμός",
           "is_full_page_scan": false
         },
         {
@@ -417,9 +587,19 @@
             254.6,
             486.1
           ],
+          "row_id": "p4_r2",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            188.0,
+            361.3,
+            254.6,
+            486.1
+          ],
           "question_anchor": "2.1",
-          "text_before": "1.",
-          "text_after": "2.",
+          "sub_index": 2,
+          "text_before": "2.",
+          "text_after": "γ. Ξηρός κορεσμένος ατμός",
           "is_full_page_scan": false
         },
         {
@@ -439,9 +619,19 @@
             255.7,
             626.7
           ],
+          "row_id": "p4_r3",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            181.9,
+            503.6,
+            255.7,
+            626.7
+          ],
           "question_anchor": "2.1",
-          "text_before": "2.",
-          "text_after": "3.",
+          "sub_index": 3,
+          "text_before": "3.",
+          "text_after": "δ. Κορεσμένο υγρό",
           "is_full_page_scan": false
         },
         {
@@ -461,9 +651,19 @@
             252.1,
             750.8
           ],
+          "row_id": "p4_r4",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            185.6,
+            641.8,
+            252.1,
+            750.8
+          ],
           "question_anchor": "2.1",
-          "text_before": "3.",
-          "text_after": "4.",
+          "sub_index": 4,
+          "text_before": "4.",
+          "text_after": "",
           "is_full_page_scan": false
         }
       ]
@@ -496,7 +696,17 @@
             494.3,
             390.9
           ],
+          "row_id": "p7_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            100.9,
+            181.9,
+            494.3,
+            390.9
+          ],
           "question_anchor": "2.1",
+          "sub_index": null,
           "text_before": "αντιστοίχιση.",
           "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
           "is_full_page_scan": false
@@ -518,7 +728,17 @@
             444.6,
             746.1
           ],
+          "row_id": "p7_r2",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            310.9,
+            645.1,
+            444.6,
+            746.1
+          ],
           "question_anchor": "2.2",
+          "sub_index": 1,
           "text_before": "1. Υπόψυκτο υγρό.  α) Nερό t =10 0C",
           "text_after": "",
           "is_full_page_scan": false
@@ -540,7 +760,17 @@
             420.2,
             209.6
           ],
-          "question_anchor": null,
+          "row_id": "p8_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            335.3,
+            87.1,
+            420.2,
+            209.6
+          ],
+          "question_anchor": "2.2",
+          "sub_index": 2,
           "text_before": "2. Κορεσμένο υγρό.  β) Νερό και Ατμός t = 100 0C",
           "text_after": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
           "is_full_page_scan": false
@@ -562,7 +792,17 @@
             419.6,
             356.1
           ],
-          "question_anchor": null,
+          "row_id": "p8_r2",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            335.9,
+            232.1,
+            419.6,
+            356.1
+          ],
+          "question_anchor": "2.2",
+          "sub_index": 3,
           "text_before": "3. Κορεσμένος ατμός.  γ) Νερό t = 100 0C",
           "text_after": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
           "is_full_page_scan": false
@@ -584,7 +824,17 @@
             423.9,
             532.7
           ],
-          "question_anchor": null,
+          "row_id": "p8_r3",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            331.5,
+            378.7,
+            423.9,
+            532.7
+          ],
+          "question_anchor": "2.2",
+          "sub_index": 4,
           "text_before": "4. Ξηρός κορεσμένος ατμός.  δ) Ατμός t > 100 0C",
           "text_after": "ε) Ατμός t = 100 0C",
           "is_full_page_scan": false
@@ -606,7 +856,17 @@
             426.1,
             694.2
           ],
-          "question_anchor": null,
+          "row_id": "p8_r4",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            329.5,
+            555.1,
+            426.1,
+            694.2
+          ],
+          "question_anchor": "2.2",
+          "sub_index": 4,
           "text_before": "ε) Ατμός t = 100 0C",
           "text_after": "Μονάδες 16",
           "is_full_page_scan": false
@@ -636,7 +896,17 @@
             471.0,
             504.5
           ],
+          "row_id": "p14_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            123.6,
+            158.8,
+            471.0,
+            504.5
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "λανθάνουσα θερμότητα συμπύκνωσης του ψυκτικού ρευστού R12, να βρείτε:",
           "text_after": "α) Την πίεση συμπύκνωσης του ψυκτικού ρευστού. (Μονάδες 5)",
           "is_full_page_scan": false
@@ -666,7 +936,17 @@
             367.7,
             570.0
           ],
+          "row_id": "p16_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            231.0,
+            422.5,
+            367.7,
+            570.0
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "στο σημείο Α,  ενώ η έξοδός του στο σημείο Δ.",
           "text_after": "Να γράψετε τον αριθμό κάθε μίας από τις παρακάτω προτάσεις και δίπλα στον αριθμό, το",
           "is_full_page_scan": false
@@ -696,7 +976,17 @@
             456.5,
             360.0
           ],
+          "row_id": "p2_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            141.5,
+            180.7,
+            456.5,
+            360.0
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "H2O.",
           "text_after": "Α  Β",
           "is_full_page_scan": false
@@ -726,7 +1016,17 @@
             397.6,
             586.1
           ],
+          "row_id": "p18_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            198.7,
+            400.5,
+            397.6,
+            586.1
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "περισσέψει.",
           "text_after": "ΣΤΗΛΗ Α  ΣΤΗΛΗ Β",
           "is_full_page_scan": false
@@ -757,7 +1057,17 @@
             524.4,
             355.8
           ],
+          "row_id": "p22_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            70.9,
+            202.7,
+            524.4,
+            355.8
+          ],
           "question_anchor": "2.1",
+          "sub_index": null,
           "text_before": "να υγροποιηθεί και γιατί; (Μονάδες 5)",
           "text_after": "Μονάδες 10",
           "is_full_page_scan": false
@@ -779,7 +1089,17 @@
             524.4,
             610.1
           ],
+          "row_id": "p22_r2",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            70.9,
+            516.3,
+            524.4,
+            610.1
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "ατμός μέσα στον σωλήνα.",
           "text_after": "α. Τι έχει συμβεί στη διαδρομή του υγρού μεταξύ των σημείων Α και Β, που οδήγησε",
           "is_full_page_scan": false

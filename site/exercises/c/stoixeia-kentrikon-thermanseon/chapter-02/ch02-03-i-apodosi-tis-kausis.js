@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #25280",
     "bankCode": "25280",
-    "title": "#25280 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#25280 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "i-apodosi-tis-kausis",
     "sourceOrder": 2,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #16417",
     "bankCode": "16417",
-    "title": "#16417 — Θέμα 2<sup>ο</sup>",
+    "title": "#16417 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "prionia",
     "sourceOrder": 11,

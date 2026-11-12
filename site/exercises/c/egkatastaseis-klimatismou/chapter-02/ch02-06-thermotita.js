@@ -9,17 +9,17 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23825",
     "code": "Θέμα 4<sup>ο</sup> · #23825",
-    "title": "#23825 — Θέμα 4<sup>ο</sup> (4.1–4.4)",
+    "title": "#23825 — Θέμα 4$^{ο}$ (4.1–4.4)",
     "units": 25,
     "theory": "ch02-06-thermotita",
-    "stem": "Σε κλιματιζόμενο χώρο όγκου $V = 348\\text{ m}^3$, μετρήθηκαν η θερμοκρασία ξηρού βολβού $t_{db} = 27\\text{ }^\\circ\\text{C}$ και η θερμοκρασία υγρού βολβού $t_{wb} = 22\\text{ }^\\circ\\text{C}$.",
+    "stem": "Σε κλιματιζόμενο χώρο όγκου $V = 348\\text{ m}^3$, μετρήθηκαν η θερμοκρασία ξηρού βολβού $t_{db} = 27^{\\circ}\\text{C}$ και η θερμοκρασία υγρού βολβού $t_{wb} = 22^{\\circ}\\text{C}$.",
     "sourceOrder": 9,
     "items": [
       {
         "kind": "open",
         "subq": "4.1",
         "prompt": "4.1 Να εντοπίσετε πάνω στον χάρτη και να σημειώσετε το σημείο που απεικονίζει την κατάσταση του αέρα (Κατάσταση 1).",
-        "explain": "Εντοπισμός σημείου 1 στη διασταύρωση $t_{db} = 27\\text{ }^\\circ\\text{C}$ και $t_{wb} = 22\\text{ }^\\circ\\text{C}$."
+        "explain": "Εντοπισμός σημείου 1 στη διασταύρωση $t_{db} = 27^{\\circ}\\text{C}$ και $t_{wb} = 22^{\\circ}\\text{C}$."
       },
       {
         "kind": "open",
@@ -62,7 +62,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23849",
     "code": "Θέμα 2<sup>ο</sup> · #23849",
-    "title": "#23849 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23849 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch02-06-thermotita",
     "sourceOrder": 10,
@@ -151,10 +151,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23871",
     "code": "Θέμα 4<sup>ο</sup> · #23871",
-    "title": "#23871 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#23871 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-06-thermotita",
-    "stem": "Σ’ έναν κλιματιζόμενο χώρο ο κλιματιζόμενος αέρας έχει σχετική υγρασία $\\varphi_1 = 50\\%$, θερμοκρασία ξηρού θερμέτρου $t_{db} = 30\\text{ }^\\circ\\text{C}$, ειδική υγρασία $w_1 = 13,5\\text{ gr/kg}$ και ειδική ενθαλπία $h_1 = 65\\text{ kJ/kg}$. Θέλουμε να κατεβάσουμε την ειδική υγρασία στα $w_2 = 5,5\\text{ gr/kg}$ διατηρώντας τη θερμοκρασία σταθερή, με ενθαλπία $h_2 = 43\\text{ kJ/kg}$ και μάζα $m = 500\\text{ kg}$.",
+    "stem": "Σ’ έναν κλιματιζόμενο χώρο ο κλιματιζόμενος αέρας έχει σχετική υγρασία $\\varphi_1 = 50\\%$, θερμοκρασία ξηρού θερμέτρου $t_{db} = 30^{\\circ}\\text{C}$, ειδική υγρασία $w_1 = 13,5\\text{ gr/kg}$ και ειδική ενθαλπία $h_1 = 65\\text{ kJ/kg}$. Θέλουμε να κατεβάσουμε την ειδική υγρασία στα $w_2 = 5,5\\text{ gr/kg}$ διατηρώντας τη θερμοκρασία σταθερή, με ενθαλπία $h_2 = 43\\text{ kJ/kg}$ και μάζα $m = 500\\text{ kg}$.",
     "sourceOrder": 11,
     "items": [
       {

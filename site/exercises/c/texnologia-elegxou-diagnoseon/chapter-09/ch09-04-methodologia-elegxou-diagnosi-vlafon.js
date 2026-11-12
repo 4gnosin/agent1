@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "36825",
     "code": "Θέμα 4<sup>ο</sup> · #36825",
-    "title": "#36825 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#36825 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch09-04-methodologia-elegxou-diagnosi-vlafon",
     "sourceOrder": 4,

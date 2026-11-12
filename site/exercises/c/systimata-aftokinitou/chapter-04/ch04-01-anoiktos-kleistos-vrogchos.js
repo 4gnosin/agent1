@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27395",
     "bankCode": "27395",
-    "title": "#27395 — Θέμα 4<sup>ο</sup>",
+    "title": "#27395 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-01",
     "sourceOrder": 1,

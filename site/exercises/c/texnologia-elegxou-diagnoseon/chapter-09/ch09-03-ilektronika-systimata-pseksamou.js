@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "34105",
     "code": "Θέμα 2<sup>ο</sup> · #34105",
-    "title": "#34105 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34105 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch09-03-ilektronika-systimata-pseksamou",
     "sourceOrder": 3,

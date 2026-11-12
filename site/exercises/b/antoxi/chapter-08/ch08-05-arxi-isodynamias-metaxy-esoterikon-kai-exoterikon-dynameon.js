@@ -9,7 +9,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "17858",
     "code": "Θέμα 2<sup>ο</sup> · #17858",
-    "title": "#17858 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#17858 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch08-05",
     "sourceOrder": 2,
@@ -56,15 +56,15 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "options": [
           {
             "id": "a",
-            "text": "Η οριζόντια αντίδραση A_x"
+            "text": "Η οριζόντια αντίδραση $A_x$"
           },
           {
             "id": "b",
-            "text": "Η κατακόρυφη αντίδραση A_y"
+            "text": "Η κατακόρυφη αντίδραση $A_y$"
           },
           {
             "id": "c",
-            "text": "Η ροπή πάκτωσης M_\\Pi"
+            "text": "Η ροπή πάκτωσης $M_\\Pi$"
           },
           {
             "id": "d",
@@ -82,15 +82,15 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "options": [
           {
             "id": "a",
-            "text": "Η κατακόρυφη αντίδραση A_y"
+            "text": "Η κατακόρυφη αντίδραση $A_y$"
           },
           {
             "id": "b",
-            "text": "Η οριζόντια αντίδραση A_x και η κατακόρυφη αντίδραση A_y"
+            "text": "Η οριζόντια αντίδραση $A_x$ και η κατακόρυφη αντίδραση $A_y$"
           },
           {
             "id": "c",
-            "text": "Η ροπή πάκτωσης M_\\Pi"
+            "text": "Η ροπή πάκτωσης $M_\\Pi$"
           },
           {
             "id": "d",
@@ -107,15 +107,15 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "options": [
           {
             "id": "a",
-            "text": "Η κατακόρυφη αντίδραση A_y"
+            "text": "Η κατακόρυφη αντίδραση $A_y$"
           },
           {
             "id": "b",
-            "text": "Η οριζόντια αντίδραση A_x και η κατακόρυφη αντίδραση A_y"
+            "text": "Η οριζόντια αντίδραση $A_x$ και η κατακόρυφη αντίδραση $A_y$"
           },
           {
             "id": "c",
-            "text": "Η ροπή πάκτωσης M_\\Pi"
+            "text": "Η ροπή πάκτωσης $M_\\Pi$"
           },
           {
             "id": "d",
@@ -134,7 +134,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "19460",
     "code": "Θέμα 2<sup>ο</sup> · #19460",
-    "title": "#19460 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#19460 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch08-05",
     "sourceOrder": 4,

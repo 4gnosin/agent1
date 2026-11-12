@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "23783",
     "code": "Θέμα 2<sup>ο</sup> · #23783",
-    "title": "#23783 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23783 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-03-rythmisi-synexis-kai-dyo-theseon",
     "sourceOrder": 5,

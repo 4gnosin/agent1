@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "16252",
     "code": "Θέμα 2<sup>ο</sup> · #16252",
-    "title": "#16252 — Θέμα 2<sup>ο</sup>",
+    "title": "#16252 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch04-04-ergo-metavlitis-dynamis",
     "sourceOrder": 3,
@@ -100,11 +100,11 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "16257",
     "code": "Θέμα 4<sup>ο</sup> · #16257",
-    "title": "#16257 — Θέμα 4<sup>ο</sup>",
+    "title": "#16257 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-04-ergo-metavlitis-dynamis",
     "sourceOrder": 4,
-    "stem": "Αυτοκίνητο ρυμουλκείται με σταθερή δύναμη $F = 100\\text{ N}$ σε απόσταση $l = 2\\text{ km}$. Εάν το συρματόσχοινο που ρυμουλκεί το αυτοκίνητο σχηματίζει γωνία $60^\\circ$ με τη μετατόπιση, να υπολογίσετε το έργο που απαιτείται να καταναλωθεί. Δίνεται $\\sigma\\upsilon\\nu 60^\\circ = \\frac{1}{2}$.",
+    "stem": "Αυτοκίνητο ρυμουλκείται με σταθερή δύναμη $F = 100\\text{ N}$ σε απόσταση $l = 2\\text{ km}$. Εάν το συρματόσχοινο που ρυμουλκεί το αυτοκίνητο σχηματίζει γωνία $60{}^{\\circ}$ με τη μετατόπιση, να υπολογίσετε το έργο που απαιτείται να καταναλωθεί. Δίνεται $\\sigma\\upsilon\\nu 60{}^{\\circ} = \\frac{1}{2}$.",
     "items": [
       {
         "kind": "calc",
@@ -115,7 +115,7 @@ window.EXERCISES.push(...
         "answer": 100,
         "unit": "kJ",
         "tolerance": 0.01,
-        "hint": "Χρησιμοποιήστε τον τύπο $W = F \\cdot l \\cdot \\sigma\\upsilon\\nu 60^\\circ$, μετατρέποντας τα $2\\text{ km}$ σε μέτρα ($2000\\text{ m}$).",
+        "hint": "Χρησιμοποιήστε τον τύπο $W = F \\cdot l \\cdot \\sigma\\upsilon\\nu 60{}^{\\circ}$, μετατρέποντας τα $2\\text{ km}$ σε μέτρα ($2000\\text{ m}$).",
         "explain": "$W = 100\\text{ N} \\cdot 2000\\text{ m} \\cdot \\frac{1}{2} = 100000\\text{ J} = 100\\text{ kJ}$.",
         "image": "images/b/thermod/chapter-04/b_thermod_ch04_16257_fig01.webp"
       },

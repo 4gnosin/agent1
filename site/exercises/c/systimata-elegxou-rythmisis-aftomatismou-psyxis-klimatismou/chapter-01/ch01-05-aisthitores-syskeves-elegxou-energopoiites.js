@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "23784",
     "code": "Θέμα 2<sup>ο</sup> · #23784",
-    "title": "#23784 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#23784 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "ch01-05-aisthitores-syskeves-elegxou-energopoiites",
     "sourceOrder": 6,

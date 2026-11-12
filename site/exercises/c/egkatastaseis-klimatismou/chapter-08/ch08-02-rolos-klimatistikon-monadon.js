@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34473",
     "bankCode": "34473",
-    "title": "#34473 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34473 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch08-02-rolos-klimatistikon-monadon",
     "sourceOrder": 1,

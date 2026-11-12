@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27537",
     "code": "Θέμα 2<sup>ο</sup> · #27537",
-    "title": "#27537 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27537 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-01-domika-stoicheia",
     "sourceOrder": 1,

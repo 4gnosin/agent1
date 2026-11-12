@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #28450",
     "bankCode": "28450",
-    "title": "#28450 — Θέμα 2<sup>ο</sup>",
+    "title": "#28450 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch08-03-epilogi-kykloforiti",
     "sourceOrder": 3,
@@ -49,7 +49,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "prompt": "2.2 Να συμπληρώσετε τα κενά του παρακάτω κειμένου με τις κατάλληλες λέξεις:",
         "textBefore": [
           "«Ο κυκλοφορητής είναι μια ηλεκτροκίνητη ",
-          " αντλία με ενσωματωμένο στο κέλυφός της τον ηλεκτροκινητήρα. Είναι ανθεκτικός σε θερμοκρασίες της τάξης των 120 °C, ",
+          " αντλία με ενσωματωμένο στο κέλυφός της τον ηλεκτροκινητήρα. Είναι ανθεκτικός σε θερμοκρασίες της τάξης των 120°C, ",
           " και δεν απαιτεί συντήρηση. Η λειτουργία του είναι ικανοποιητικά αθόρυβη, με τη προϋπόθεση ότι έχει γίνει σωστή επιλογή του μεγέθους του καθώς και των διαμέτρων των σωλήνων. Γενικά οι ",
           " στροφές και οι μικρές διάμετροι ευνοούν τους θορύβους.»"
         ],
@@ -77,23 +77,23 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28452",
     "bankCode": "28452",
-    "title": "#28452 — Θέμα 4<sup>ο</sup>",
+    "title": "#28452 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch08-03-epilogi-kykloforiti",
     "sourceOrder": 4,
-    "stem": "Σε εγκατάσταση κεντρικής θέρμανσης η θερμική ισχύς του λέβητα είναι $Q_{\\Lambda} = 320.000\\text{ kcal/h}$, η διαφορά θερμοκρασίας του νερού στο λέβητα $\\Delta t = 20\\text{ }^\\circ\\text{C}$ και το μανομετρικό ύψος $H = 8\\text{ m Σ.Ν.}$",
+    "stem": "Σε εγκατάσταση κεντρικής θέρμανσης η θερμική ισχύς του λέβητα είναι $Q_{\\Lambda} = 320.000\\text{ kcal/h}$, η διαφορά θερμοκρασίας του νερού στο λέβητα $\\Delta t = 20^{\\circ}\\text{C}$ και το μανομετρικό ύψος $H = 8\\text{ m Σ.Ν.}$",
     "givens": [
       {
-        "label": "Q_Λ",
-        "value": "320000 kcal/h"
+        "label": "$Q_Λ$",
+        "value": "$320000 \\text{kcal/h}$"
       },
       {
         "label": "Δt",
-        "value": "20 °C"
+        "value": "$20 {}^{\\circ}\\text{C}$"
       },
       {
         "label": "H",
-        "value": "8 m Σ.Ν."
+        "value": "$8 \\text{m} Σ.Ν.$"
       }
     ],
     "items": [
@@ -105,7 +105,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 16,
         "unit": "m³/h",
         "tolerance": 0.01,
-        "explain": "$V = \\frac{Q_{\\Lambda}}{\\Delta t} = \\frac{320.000\\text{ kcal/h}}{20\\text{ }^\\circ\\text{C}} = 16.000\\text{ l/h} = 16\\text{ m}^3/\\text{h}$."
+        "explain": "$V = \\frac{Q_{\\Lambda}}{\\Delta t} = \\frac{320.000\\text{ kcal/h}}{20^{\\circ}\\text{C}} = 16.000\\text{ l/h} = 16\\text{ m}^3/\\text{h}$."
       },
       {
         "kind": "mc",

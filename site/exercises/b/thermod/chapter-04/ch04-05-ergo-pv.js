@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #18614",
     "bankCode": "18614",
-    "title": "#18614 — Θέμα 4<sup>ο</sup> (4.1)",
+    "title": "#18614 — Θέμα 4$^{ο}$ (4.1)",
     "units": 25,
     "theory": "",
     "sourceOrder": 1,

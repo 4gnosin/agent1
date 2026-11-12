@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #18884",
     "bankCode": "18884",
-    "title": "#18884 — Θέμα 4<sup>ο</sup>",
+    "title": "#18884 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "genika-koptikon-ergaleion",
     "stem": "Στο σχήμα 1 απεικονίζεται εργαλείο κοπής που διαμορφώνει ένα μεταλλικό κομμάτι με αφαίρεση υλικού. Διακρίνουμε τις επιφάνειες 1 και 2 της κόψης του κοπτικού εργαλείου και τις γωνίες κοπής $\\alpha$, $\\beta$ και $\\gamma$.",
@@ -113,13 +113,13 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.4",
-        "prompt": "δ) Να υπολογίσετε την γωνία $\\gamma$ (σε μοίρες °), αν γνωρίζετε ότι η γωνία $\\beta = 37^\\circ$ και η γωνία $\\alpha = 22^\\circ$.",
-        "formula": "$\\alpha + \\beta + \\gamma = 90^\\circ \\Rightarrow \\gamma = 90^\\circ - (\\alpha + \\beta)$",
+        "prompt": "δ) Να υπολογίσετε την γωνία $\\gamma$ (σε μοίρες °), αν γνωρίζετε ότι η γωνία $\\beta = 37{}^{\\circ}$ και η γωνία $\\alpha = 22{}^{\\circ}$.",
+        "formula": "$\\alpha + \\beta + \\gamma = 90{}^{\\circ} \\Rightarrow \\gamma = 90{}^{\\circ} - (\\alpha + \\beta)$",
         "answer": 31,
         "unit": "°",
         "tolerance": 0.01,
-        "hint": "Ισχύει $\\alpha + \\beta + \\gamma = 90^\\circ$.",
-        "explain": "$\\alpha + \\beta + \\gamma = 90^\\circ \\Rightarrow 22^\\circ + 37^\\circ + \\gamma = 90^\\circ \\Rightarrow \\gamma = 90^\\circ - 59^\\circ = 31^\\circ$."
+        "hint": "Ισχύει $\\alpha + \\beta + \\gamma = 90{}^{\\circ}$.",
+        "explain": "$\\alpha + \\beta + \\gamma = 90{}^{\\circ} \\Rightarrow 22{}^{\\circ} + 37{}^{\\circ} + \\gamma = 90{}^{\\circ} \\Rightarrow \\gamma = 90{}^{\\circ} - 59{}^{\\circ} = 31{}^{\\circ}$."
       }
     ]
   }

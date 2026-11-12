@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27328",
     "bankCode": "27328",
-    "title": "#27328 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27328 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-10-katergasies-en-psyhro",
     "sourceOrder": 1,
@@ -119,7 +119,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           },
           {
             "id": "d",
-            "text": "1. Σκληρυνнтική φάση, 2. Μαρτενσιτική μετατροπή, 3. Ελατtωση όγκου."
+            "text": "1. Σκληρυντική φάση, 2. Μαρτενσιτική μετατροπή, 3. Ελάττωση όγκου."
           }
         ],
         "answer": "a",

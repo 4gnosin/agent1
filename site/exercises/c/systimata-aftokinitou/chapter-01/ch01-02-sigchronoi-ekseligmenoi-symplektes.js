@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-aftokinitou"].exercises.push(...
     "layout": "unified",
     "bankCode": "27703",
     "code": "Θέμα 2<sup>ο</sup> · #27703",
-    "title": "#27703 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27703 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-02-sigchronoi-ekseligmenoi-symplektes",
     "sourceOrder": 1,

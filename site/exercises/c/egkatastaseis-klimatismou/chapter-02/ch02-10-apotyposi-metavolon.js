@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23810",
     "code": "Θέμα 2<sup>ο</sup> · #23810",
-    "title": "#23810 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#23810 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "ch02-10-apotyposi-metavolon",
     "sourceOrder": 13,
@@ -104,10 +104,10 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23811",
     "code": "Θέμα 4<sup>ο</sup> · #23811",
-    "title": "#23811 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#23811 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch02-10-apotyposi-metavolon",
-    "stem": "Σε μια κλιματιστική μονάδα ο αέρας εισέρχεται με θερμοκρασία $t_{db1} = 28\\text{ }^\\circ\\text{C}$ και σχετική υγρασία $\\varphi_1 = 60\\%$ (σημείο 1) και εξέρχεται με ενθαλπία $h_2 = 45\\text{ kJ/kg}$ και ειδική υγρασία $W_2 = 9,5\\text{ g/kg}$. Η παροχή του αέρα είναι $Q = 305\\text{ L/s}$.",
+    "stem": "Σε μια κλιματιστική μονάδα ο αέρας εισέρχεται με θερμοκρασία $t_{db1} = 28^{\\circ}\\text{C}$ και σχετική υγρασία $\\varphi_1 = 60\\%$ (σημείο 1) και εξέρχεται με ενθαλπία $h_2 = 45\\text{ kJ/kg}$ και ειδική υγρασία $W_2 = 9,5\\text{ g/kg}$. Η παροχή του αέρα είναι $Q = 305\\text{ L/s}$.",
     "sourceOrder": 14,
     "items": [
       {
@@ -118,7 +118,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "answer": 64,
         "unit": "kJ/kg",
         "tolerance": 0.02,
-        "hint": "Διαβάστε την ενθαλπία $h_1$ από τον ψυχρομετρικό χάρτη για $t_{db1} = 28\\text{ }^\\circ\\text{C}$ και $\\varphi_1 = 60\\%$.",
+        "hint": "Διαβάστε την ενθαλπία $h_1$ από τον ψυχρομετρικό χάρτη για $t_{db1} = 28^{\\circ}\\text{C}$ και $\\varphi_1 = 60\\%$.",
         "explain": "Από τον χάρτη, $h_1 = 64\\text{ kJ/kg}$."
       },
       {

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #20070",
     "bankCode": "20070",
-    "title": "#20070 — Θέμα 2<sup>ο</sup>",
+    "title": "#20070 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch10-01-genika",
     "sourceOrder": 1,

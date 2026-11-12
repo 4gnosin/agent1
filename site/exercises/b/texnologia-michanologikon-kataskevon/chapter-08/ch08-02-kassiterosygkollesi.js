@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #18408",
     "bankCode": "18408",
-    "title": "#18408 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#18408 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "kassiterosygkollesi",
     "sourceOrder": 2,
@@ -106,7 +106,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #18409",
     "bankCode": "18409",
-    "title": "#18409 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#18409 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "kassiterosygkollesi",
     "sourceOrder": 3,
@@ -140,9 +140,9 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
         "kind": "tf",
         "subq": "2.2",
         "subqPrompt": "Να χαρακτηρίσετε τις προτάσεις που ακολουθούν ως Σωστό ή Λάθος:",
-        "prompt": "α. Οι θερμοκρασίες που τήκονται οι κασσιτεροκολλήσεις είναι κάτω των $400\\text{ }^\\circ\\text{C}$ οπότε ανήκουν στις μαλακές κολλήσεις.",
+        "prompt": "α. Οι θερμοκρασίες που τήκονται οι κασσιτεροκολλήσεις είναι κάτω των $400^{\\circ}\\text{C}$ οπότε ανήκουν στις μαλακές κολλήσεις.",
         "answer": true,
-        "explain": "Σωστό. Η κασσιτεροσυγκόλληση είναι μαλακή συγκόλληση διότι η θερμοκρασία τήξης του κράματος είναι $<400\\text{ }^\\circ\\text{C}$."
+        "explain": "Σωστό. Η κασσιτεροσυγκόλληση είναι μαλακή συγκόλληση διότι η θερμοκρασία τήξης του κράματος είναι $<400^{\\circ}\\text{C}$."
       },
       {
         "kind": "tf",
@@ -174,7 +174,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25409",
     "bankCode": "25409",
-    "title": "#25409 — Θέμα 4<sup>ο</sup>",
+    "title": "#25409 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "kassiterosygkollesi",
     "sourceOrder": 4,

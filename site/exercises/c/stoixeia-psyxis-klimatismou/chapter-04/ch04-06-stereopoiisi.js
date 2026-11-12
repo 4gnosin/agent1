@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "25269",
     "code": "Θέμα 2<sup>ο</sup> · #25269",
-    "title": "#25269 — Θέμα 2<sup>ο</sup>",
+    "title": "#25269 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "stereopoiisi",
     "sourceOrder": 11,
@@ -131,7 +131,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "26773",
     "code": "Θέμα 2<sup>ο</sup> · #26773",
-    "title": "#26773 — Θέμα 2<sup>ο</sup>",
+    "title": "#26773 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "stereopoiisi",
     "sourceOrder": 12,
@@ -184,7 +184,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Και τα δύο φαινόμενα συμβαίνουν αποκλειστικά στους 100 °C."
+            "text": "Και τα δύο φαινόμενα συμβαίνουν αποκλειστικά στους 100°C."
           },
           {
             "id": "c",

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34015",
     "bankCode": "34015",
-    "title": "#34015 — Θέμα 4<sup>ο</sup>",
+    "title": "#34015 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch07-02-ilektromagnitikes-valvides",
     "sourceOrder": 1,

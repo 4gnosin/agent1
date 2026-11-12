@@ -32,7 +32,17 @@
         410.2,
         584.4
       ],
+      "row_id": "p6_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        185.2,
+        422.5,
+        410.2,
+        584.4
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
       "text_after": "Μονάδες 9",
       "is_full_page_scan": false
@@ -54,7 +64,17 @@
         522.8,
         287.3
       ],
+      "row_id": "p8_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        427.8,
+        136.5,
+        522.8,
+        287.3
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "10 cm (σχήμα 1). Αν η μία πλευρά της επιφάνειας έχει θερμοκρασία θ1 = 27 0C  και η άλλη θ2",
       "text_after": "Σχήμα 1",
       "is_full_page_scan": false
@@ -76,7 +96,17 @@
         424.3,
         474.8
       ],
+      "row_id": "p12_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        186.6,
+        234.4,
+        424.3,
+        474.8
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "Μονάδες 25",
       "text_after": "Σχήμα 1",
       "is_full_page_scan": false
@@ -98,7 +128,17 @@
         502.4,
         436.1
       ],
+      "row_id": "p14_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        92.2,
+        202.7,
+        502.4,
+        436.1
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "1 kPa = 7,5 mmHg)",
       "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
       "is_full_page_scan": false
@@ -120,7 +160,17 @@
         483.5,
         463.7
       ],
+      "row_id": "p20_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        128.2,
+        252.6,
+        483.5,
+        463.7
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "Μονάδες 25",
       "text_after": "Σχήμα 1",
       "is_full_page_scan": false
@@ -142,7 +192,17 @@
         311.1,
         253.5
       ],
+      "row_id": "p26_r1",
+      "row_index": 0,
+      "row_size": 2,
+      "row_bbox": [
+        124.5,
+        180.8,
+        486.0,
+        255.5
+      ],
       "question_anchor": "2.1",
+      "sub_index": 1,
       "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
       "text_after": "α.    β.",
       "is_full_page_scan": false
@@ -164,7 +224,17 @@
         486.0,
         255.5
       ],
+      "row_id": "p26_r1",
+      "row_index": 1,
+      "row_size": 2,
+      "row_bbox": [
+        124.5,
+        180.8,
+        486.0,
+        255.5
+      ],
       "question_anchor": "2.1",
+      "sub_index": 1,
       "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
       "text_after": "α.    β.",
       "is_full_page_scan": false
@@ -186,7 +256,17 @@
         254.7,
         466.3
       ],
+      "row_id": "p26_r2",
+      "row_index": 0,
+      "row_size": 2,
+      "row_bbox": [
+        129.9,
+        310.3,
+        503.1,
+        466.3
+      ],
       "question_anchor": "2.1",
+      "sub_index": 2,
       "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
       "text_after": "α.     β.",
       "is_full_page_scan": false
@@ -208,7 +288,17 @@
         503.1,
         465.8
       ],
+      "row_id": "p26_r2",
+      "row_index": 1,
+      "row_size": 2,
+      "row_bbox": [
+        129.9,
+        310.3,
+        503.1,
+        466.3
+      ],
       "question_anchor": "2.1",
+      "sub_index": 2,
       "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
       "text_after": "α.     β.",
       "is_full_page_scan": false
@@ -230,7 +320,17 @@
         313.7,
         645.2
       ],
+      "row_id": "p26_r3",
+      "row_index": 0,
+      "row_size": 2,
+      "row_bbox": [
+        135.4,
+        542.7,
+        506.5,
+        646.2
+      ],
       "question_anchor": "2.1",
+      "sub_index": 3,
       "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
       "text_after": "α.    β.",
       "is_full_page_scan": false
@@ -252,7 +352,17 @@
         506.5,
         646.2
       ],
+      "row_id": "p26_r3",
+      "row_index": 1,
+      "row_size": 2,
+      "row_bbox": [
+        135.4,
+        542.7,
+        506.5,
+        646.2
+      ],
       "question_anchor": "2.1",
+      "sub_index": 3,
       "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
       "text_after": "α.    β.",
       "is_full_page_scan": false
@@ -282,7 +392,17 @@
             424.3,
             474.8
           ],
+          "row_id": "p12_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            186.6,
+            234.4,
+            424.3,
+            474.8
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "Μονάδες 25",
           "text_after": "Σχήμα 1",
           "is_full_page_scan": false
@@ -312,7 +432,17 @@
             483.5,
             463.7
           ],
+          "row_id": "p20_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            128.2,
+            252.6,
+            483.5,
+            463.7
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "Μονάδες 25",
           "text_after": "Σχήμα 1",
           "is_full_page_scan": false
@@ -342,7 +472,17 @@
             502.4,
             436.1
           ],
+          "row_id": "p14_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            92.2,
+            202.7,
+            502.4,
+            436.1
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "1 kPa = 7,5 mmHg)",
           "text_after": "α) Να μετατρέψετε το ύψος της στήλης του υδραργύρου σε πίεση μονάδων kPa.",
           "is_full_page_scan": false
@@ -372,7 +512,17 @@
             410.2,
             584.4
           ],
+          "row_id": "p6_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            185.2,
+            422.5,
+            410.2,
+            584.4
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "δίπλα τον τρόπο μετάδοσης της θερμότητας που αναλογεί σε κάθε περίπτωση.",
           "text_after": "Μονάδες 9",
           "is_full_page_scan": false
@@ -402,7 +552,17 @@
             522.8,
             287.3
           ],
+          "row_id": "p8_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            427.8,
+            136.5,
+            522.8,
+            287.3
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "10 cm (σχήμα 1). Αν η μία πλευρά της επιφάνειας έχει θερμοκρασία θ1 = 27 0C  και η άλλη θ2",
           "text_after": "Σχήμα 1",
           "is_full_page_scan": false
@@ -437,7 +597,17 @@
             311.1,
             253.5
           ],
+          "row_id": "p26_r1",
+          "row_index": 0,
+          "row_size": 2,
+          "row_bbox": [
+            124.5,
+            180.8,
+            486.0,
+            255.5
+          ],
           "question_anchor": "2.1",
+          "sub_index": 1,
           "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
           "text_after": "α.    β.",
           "is_full_page_scan": false
@@ -459,7 +629,17 @@
             486.0,
             255.5
           ],
+          "row_id": "p26_r1",
+          "row_index": 1,
+          "row_size": 2,
+          "row_bbox": [
+            124.5,
+            180.8,
+            486.0,
+            255.5
+          ],
           "question_anchor": "2.1",
+          "sub_index": 1,
           "text_before": "1. Το σχήμα που αντιπροσωπεύει μαθηματικά, τον Α΄Θερμοδυναμικό νόμο :",
           "text_after": "α.    β.",
           "is_full_page_scan": false
@@ -481,7 +661,17 @@
             254.7,
             466.3
           ],
+          "row_id": "p26_r2",
+          "row_index": 0,
+          "row_size": 2,
+          "row_bbox": [
+            129.9,
+            310.3,
+            503.1,
+            466.3
+          ],
           "question_anchor": "2.1",
+          "sub_index": 2,
           "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
           "text_after": "α.     β.",
           "is_full_page_scan": false
@@ -503,7 +693,17 @@
             503.1,
             465.8
           ],
+          "row_id": "p26_r2",
+          "row_index": 1,
+          "row_size": 2,
+          "row_bbox": [
+            129.9,
+            310.3,
+            503.1,
+            466.3
+          ],
           "question_anchor": "2.1",
+          "sub_index": 2,
           "text_before": "2. Το σχήμα που αντιπροσωπεύει ένα ανοικτό σύστημα:",
           "text_after": "α.     β.",
           "is_full_page_scan": false
@@ -525,7 +725,17 @@
             313.7,
             645.2
           ],
+          "row_id": "p26_r3",
+          "row_index": 0,
+          "row_size": 2,
+          "row_bbox": [
+            135.4,
+            542.7,
+            506.5,
+            646.2
+          ],
           "question_anchor": "2.1",
+          "sub_index": 3,
           "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
           "text_after": "α.    β.",
           "is_full_page_scan": false
@@ -547,7 +757,17 @@
             506.5,
             646.2
           ],
+          "row_id": "p26_r3",
+          "row_index": 1,
+          "row_size": 2,
+          "row_bbox": [
+            135.4,
+            542.7,
+            506.5,
+            646.2
+          ],
           "question_anchor": "2.1",
+          "sub_index": 3,
           "text_before": "με το Β’ Θερμοδυναμικό αξίωμα:",
           "text_after": "α.    β.",
           "is_full_page_scan": false

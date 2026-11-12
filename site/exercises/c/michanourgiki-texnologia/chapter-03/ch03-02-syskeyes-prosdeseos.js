@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27542",
     "code": "Θέμα 4<sup>ο</sup> · #27542",
-    "title": "#27542 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#27542 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-02-syskeyes-prosdeseos",
     "sourceOrder": 1,

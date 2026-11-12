@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #28609",
     "bankCode": "28609",
-    "title": "#28609 — Θέμα 2<sup>ο</sup>",
+    "title": "#28609 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch08-02-syndesi-kykloforiton",
     "sourceOrder": 1,

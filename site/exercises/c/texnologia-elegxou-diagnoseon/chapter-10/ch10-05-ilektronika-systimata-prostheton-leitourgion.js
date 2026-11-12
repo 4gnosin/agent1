@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "36507",
     "code": "Θέμα 2<sup>ο</sup> · #36507",
-    "title": "#36507 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#36507 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-05",
     "sourceOrder": 1,

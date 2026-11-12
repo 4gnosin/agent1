@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "32665",
     "code": "Θέμα 4<sup>ο</sup> · #32665",
-    "title": "#32665 — Θέμα 4<sup>ο</sup> (α-γ)",
+    "title": "#32665 — Θέμα 4$^{ο}$ (α-γ)",
     "units": 25,
     "theory": "ch14-sintelestis",
     "sourceOrder": 1,
@@ -55,7 +55,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
           },
           {
             "id": "c",
-            "text": "Η χάρη είναι η θερμοκρασία θέρμανσης του ελάσματος και κυμαίνεται από 350 έως 500 °C."
+            "text": "Η χάρη είναι η θερμοκρασία θέρμανσης του ελάσματος και κυμαίνεται από 350 έως 500°C."
           },
           {
             "id": "d",

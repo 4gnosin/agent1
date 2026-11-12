@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29136",
     "bankCode": "29136",
-    "title": "#29136 — Θέμα 4<sup>ο</sup>",
+    "title": "#29136 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-07-tropoi-konikis-tornefsis",
     "sourceOrder": 1,

@@ -33,7 +33,7 @@ window.SUBJECT_DATA["antoxi"].sections.push({
       "type": "callout",
       "kind": "example",
       "title": "Λυμένο Υπόδειγμα 1: Ανάλυση Δύναμης σε Συνιστώσες",
-      "text": "<strong>Δεδομένα:</strong> Δύναμη \\( F = 500\\text{ N} \\] ασκείται υπό γωνία \\( \\varphi = 30^{\\circ} \\) ως προς τον οριζόντιο άξονα. <strong>Ζητούμενα:</strong> Οι συνιστώσες \\( F_x \\) και \\( F_y \\).  <strong>Λύση:</strong> Για την οριζόντια συνιστώσα \\( F_x \\): \\[\\begin{aligned} F_x &= F \\cdot \\text{συν}\\varphi \\\\ &= 500 \\cdot \\text{συν}(30^{\\circ}) \\\\ &= 500 \\cdot 0{,}866 \\\\ &= 433\\text{ N} \\end{aligned} \\]  Για την κατακόρυφη συνιστώσα \\( F_y \\]: \\[\\begin{aligned} F_y &= F \\cdot \\text{ημ}\\varphi \\\\ &= 500 \\cdot \\text{ημ}(30^{\\circ}) \\\\ &= 500 \\cdot 0{,}5 \\\\ &= 250\\text{ N} \\end{aligned} \\]"
+      "text": "Δεδομένα: Δύναμη \\( F = 500\\text{ N} \\) ασκείται υπό γωνία \\( \\varphi = 30^{\\circ} \\) ως προς τον οριζόντιο άξονα. Ζητούμενα: Οι συνιστώσες \\( F_x \\) και \\( F_y \\).  Λύση: Για την οριζόντια συνιστώσα \\( F_x \\): \\[\\begin{aligned} F_x &= F \\cdot \\text{συν}\\varphi \\\\ &= 500 \\cdot \\text{συν}(30^{\\circ}) \\\\ &= 500 \\cdot 0{,}866 \\\\ &= 433\\text{ N} \\end{aligned} \\]  Για την κατακόρυφη συνιστώσα \\( F_y \\): \\[\\begin{aligned} F_y &= F \\cdot \\text{ημ}\\varphi \\\\ &= 500 \\cdot \\text{ημ}(30^{\\circ}) \\\\ &= 500 \\cdot 0{,}5 \\\\ &= 250\\text{ N} \\end{aligned} \\]"
     },
     {
       "type": "h",
@@ -41,13 +41,13 @@ window.SUBJECT_DATA["antoxi"].sections.push({
     },
     {
       "type": "p",
-      "text": "Στους υπολογισμούς αντοχής υλικών συχνά απαιτείται η μετατροπή επιφανειών από \\( \\text{mm}^2 \\] ή \\( \\text{cm}^2 \\) σε \\( \\text{m}^2 \\), καθώς και η μετατροπή πιέσεων/τάσεων από \\( \\text{MPa} \\) ή \\( \\text{bar} \\) σε \\( \\text{Pa} \\):"
+      "text": "Στους υπολογισμούς αντοχής υλικών συχνά απαιτείται η μετατροπή επιφανειών από \\( \\text{mm}^2 \\) ή \\( \\text{cm}^2 \\) σε \\( \\text{m}^2 \\), καθώς και η μετατροπή πιέσεων/τάσεων από \\( \\text{MPa} \\) ή \\( \\text{bar} \\) σε \\( \\text{Pa} \\):"
     },
     {
       "type": "callout",
       "kind": "example",
       "title": "Λυμένο Υπόδειγμα 2: Μετατροπή Τάσης & Επιφάνειας",
-      "text": "<strong>Δεδομένα:</strong> Δοκός ορθογωνικής διατομής με επιφάνεια \\( A = 20\\text{ cm}^2 \\) δέχεται εφελκυστική τάση \\( \\sigma = 150\\text{ MPa} \\). <strong>Ζητούμενο:</strong> Η δύναμη \\( F \\) σε Νιούτον (N) και κιλονιούτον (kN).  <strong>Λύση:</strong> Μετατρέπουμε την επιφάνεια \\( A \\) σε \\( \\text{m}^2 \\): \\[\\begin{aligned} A &= 20\\text{ cm}^2 \\\\ &= 20 \\cdot (10^{-2}\\text{ m})^2 \\\\ &= 20 \\cdot 10^{-4}\\text{ m}^2 \\\\ &= 2 \\cdot 10^{-3}\\text{ m}^2 \\end{aligned} \\]  Η τάση στο SI είναι: \\[\\begin{aligned} \\sigma &= 150\\text{ MPa} \\\\ &= 150 \\cdot 10^6\\text{ Pa} \\\\ &= 150 \\cdot 10^6\\frac{\\text{N}}{\\text{m}^2} \\end{aligned} \\]  Από τον τύπο της τάσης \\( \\sigma = \\frac{F}{A} \\], επιλύουμε ως προς τη δύναμη \\( F \\): \\[\\begin{aligned} F &= \\sigma \\cdot A \\\\ &= (150 \\cdot 10^6) \\cdot (2 \\cdot 10^{-3}) \\\\ &= 300 \\cdot 10^3\\text{ N} \\\\ &= 300\\text{ kN} \\end{aligned} \\]"
+      "text": "Δεδομένα: Δοκός ορθογωνικής διατομής με επιφάνεια \\( A = 20\\text{ cm}^2 \\) δέχεται εφελκυστική τάση \\( \\sigma = 150\\text{ MPa} \\). Ζητούμενο: Η δύναμη \\( F \\) σε Νιούτον (N) και κιλονιούτον (kN).  Λύση: Μετατρέπουμε την επιφάνεια \\( A \\) σε \\( \\text{m}^2 \\): \\[\\begin{aligned} A &= 20\\text{ cm}^2 \\\\ &= 20 \\cdot (10^{-2}\\text{ m})^2 \\\\ &= 20 \\cdot 10^{-4}\\text{ m}^2 \\\\ &= 2 \\cdot 10^{-3}\\text{ m}^2 \\end{aligned} \\]  Η τάση στο SI είναι: \\[\\begin{aligned} \\sigma &= 150\\text{ MPa} \\\\ &= 150 \\cdot 10^6\\text{ Pa} \\\\ &= 150 \\cdot 10^6\\frac{\\text{N}}{\\text{m}^2} \\end{aligned} \\]  Από τον τύπο της τάσης \\( \\sigma = \\frac{F}{A} \\), επιλύουμε ως προς τη δύναμη \\( F \\): \\[\\begin{aligned} F &= \\sigma \\cdot A \\\\ &= (150 \\cdot 10^6) \\cdot (2 \\cdot 10^{-3}) \\\\ &= 300 \\cdot 10^3\\text{ N} \\\\ &= 300\\text{ kN} \\end{aligned} \\]"
     },
     {
       "type": "callout",

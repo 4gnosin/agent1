@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34103",
     "bankCode": "34103",
-    "title": "#34103 — Θέμα 2<sup>ο</sup>",
+    "title": "#34103 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch07-04-kinitires-kai-vimatikoi-kinitires",
     "sourceOrder": 2,

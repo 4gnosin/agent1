@@ -32,7 +32,17 @@
         320.1,
         389.6
       ],
+      "row_id": "p2_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        79.6,
+        247.7,
+        320.1,
+        389.6
+      ],
       "question_anchor": "2.1",
+      "sub_index": null,
       "text_before": "α. Εκτονωτικό μέσο",
       "text_after": "Μονάδες 9",
       "is_full_page_scan": false
@@ -62,7 +72,17 @@
             320.1,
             389.6
           ],
+          "row_id": "p2_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            79.6,
+            247.7,
+            320.1,
+            389.6
+          ],
           "question_anchor": "2.1",
+          "sub_index": null,
           "text_before": "α. Εκτονωτικό μέσο",
           "text_after": "Μονάδες 9",
           "is_full_page_scan": false

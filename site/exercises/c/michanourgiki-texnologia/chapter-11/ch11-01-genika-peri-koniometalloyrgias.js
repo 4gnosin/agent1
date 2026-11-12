@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27689",
     "code": "Θέμα 2<sup>ο</sup> · #27689",
-    "title": "#27689 — Θέμα 2<sup>ο</sup>",
+    "title": "#27689 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch11-koniometalloyrgia",
     "sourceOrder": 1,
@@ -59,7 +59,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
       {
         "kind": "match",
         "subq": "2.1",
-        "prompt": "2. Το υψηλό σημείο τήξεως της πλατίνας ($1772\\text{ }^\\circ\\text{C}$) καθιστά δύσκολη και με υψηλές ενεργειακές απαιτήσεις τη διαμόρφωση προϊόντων πλατίνας με ______________ .",
+        "prompt": "2. Το υψηλό σημείο τήξεως της πλατίνας ($1772^{\\circ}\\text{C}$) καθιστά δύσκολη και με υψηλές ενεργειακές απαιτήσεις τη διαμόρφωση προϊόντων πλατίνας με ______________ .",
         "left": [
           {
             "id": "2",

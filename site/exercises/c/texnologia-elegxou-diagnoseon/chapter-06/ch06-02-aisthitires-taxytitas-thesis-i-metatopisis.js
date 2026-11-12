@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34239",
     "bankCode": "34239",
-    "title": "#34239 — Θέμα 4<sup>ο</sup>",
+    "title": "#34239 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "aisthitires-taxytitas-thesis-i-metatopisis",
     "stem": "Το παρακάτω σήμα από παλμογράφο είναι από έναν αισθητήρα ταχύτητας στροφών σε σύστημα ABS με οδοντωτό τροχό. Η ευαισθησία τάσης είναι $E_v = 1\\text{ V/DIV}$ και η ευαισθησία χρόνου είναι $E_t = 5\\text{ ms/DIV}$.",

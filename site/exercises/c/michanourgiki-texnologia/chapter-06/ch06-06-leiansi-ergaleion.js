@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27619",
     "code": "Θέμα 2<sup>ο</sup> · #27619",
-    "title": "#27619 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27619 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch06-06",
     "sourceOrder": 2,

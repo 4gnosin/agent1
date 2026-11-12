@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from pathlib import Path
 from typing import Any
 
@@ -146,7 +147,7 @@ class ExerciseGenerator:
         if genai is None or types is None:
             raise ImportError(
                 "Η βιβλιοθήκη 'google-genai' δεν είναι εγκατεστημένη.\n"
-                "Εκτελέστε: pip install -r requirements.txt"
+                "Εκτελέστε: pip install -r scripts/requirements.txt"
             )
 
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
@@ -171,13 +172,10 @@ class ExerciseGenerator:
         )
 
     def load_system_prompt(self) -> str:
-        """Φορτώνει το prompt παραγωγής ασκήσεων εμπλουτισμένο με τη μόνιμη μνήμη κανόνων."""
+        """Φορτώνει το prompt παραγωγής ασκήσεων εμπλουτισμένο με τη μόνιμη μνήμη κανόνων (χωρίς άσχετους κανόνες πλοήγησης)."""
         if not self.prompt_file.exists():
             raise FileNotFoundError(f"Δεν βρέθηκε το αρχείο prompt: {self.prompt_file}")
-        base_prompt = with_structure_rules(
-            self.prompt_file.read_text(encoding="utf-8"),
-            self.prompts_dir,
-        )
+        base_prompt = self.prompt_file.read_text(encoding="utf-8")
         try:
             from ..utils.agent_memory import get_agent_memory
             memory_injection = get_agent_memory().get_prompt_injection("exercises")
@@ -334,80 +332,21 @@ class ExerciseGenerator:
         subject: str,
         chapter: int,
     ) -> str:
-        """Δημιουργεί το prompt για παραγωγή διαδραστικών ασκήσεων."""
+        """Δημιουργεί το prompt για παραγωγή διαδραστικών ασκήσεων (συμπτυγμένο, χωρίς διπλότυπα tokens)."""
         return (
-            f"Μετέτρεψε τις ασκήσεις που ΥΠΑΡΧΟΥΝ στο παρακάτω αρχείο σε διαδραστικές ασκήσεις "
-            f"για το site. Μην επινοήσεις άσχετες ερωτήσεις.\n"
-            f"Μάθημα: {subject}, τάξη: {grade}, κεφάλαιο: {chapter}.\n\n"
-            "ΠΗΓΗ ΑΠΟ PDF: Το κείμενο μπορεί να είναι σπασμένο (κλάσματα σε πολλές γραμμές, "
-            "παράξενα σύμβολα, κομμένες λέξεις). ΜΗΝ επινοείς φυσική ή αριθμούς που δεν φαίνονται "
-            "ρητά στην εκφώνηση ή στην ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ. Στήριξε calc answers ΜΟΝΟ σε εμφανείς "
-            "αριθμούς της λύσης/εκφώνησης.\n"
-            "ΚΡΙΣΙΜΟΙ ΚΑΝΟΝΕΣ ΠΙΣΤΗΣ ΑΝΤΙΓΡΑΦΗΣ & ΔΟΜΗΣ:\n"
-            "1. ΠΙΣΤΗ ΑΝΤΙΓΡΑΦΗ ΕΚΦΩΝΗΣΗΣ: Απαγορεύεται να παραφράζεις ή να κόβεις την εκφώνηση. "
-            "Αν υπάρχει εισαγωγικό κείμενο/δεδομένα πριν τα υποερωτήματα, βάλ' το αυτούσιο στο 'stem'. "
-            "Χρησιμοποίησε LaTeX με $ ... $ για όλα τα σύμβολα/μεταβλητές (π.χ. $t_{db}$, $\\phi$, $\\Delta h_L$).\n"
-            "2. ΑΡΙΘΜΗΣΗ ΥΠΟΕΡΩΤΗΜΑΤΩΝ ('subq'): Σε ΚΑΘΕ item βάλε υποχρεωτικά το πεδίο 'subq' με τον "
-            "ακριβή κωδικό υποερωτήματος του PDF (π.χ. '2.1', '2.2', '2.3', '4.1', '4.2', '4.3', '4.4' ή 'α', 'β', 'γ', 'δ'). "
-            "Όταν το 2.1 έχει προτάσεις Σωστό/Λάθος (α, β, γ, δ) ή ένα υποερώτημα (π.χ. 4.3 πίνακας) έχει πολλαπλές τιμές, "
-            "δώσε σε ΟΛΑ τα επιμέρους items το ΙΔΙΟ 'subq' (π.χ. '2.1' ή '4.3') και βάλε στο πρώτο item 'subqPrompt' "
-            "με την εκφώνηση του υποερωτήματος, ώστε να εμφανίζονται ενιαία και να ΜΗΝ σπάνε σε πολλά μικρά ερωτήματα!\n"
-            "3. ΕΡΩΤΗΣΕΙΣ ΑΝΑΠΤΥΞΗΣ / ΑΙΤΙΟΛΟΓΗΣΗΣ (π.χ. '2.2 Με βάση τον ψυχρομετρικό χάρτη να αιτιολογήσετε την απάντηση...', "
-            "'Δικαιολογήστε την απάντησή σας στο γ.', 'Να εξηγήσετε...'): ΑΠΑΓΟΡΕΥΕΤΑΙ να παραλείπονται! "
-            "Δημιούργησε ξεχωριστό item με 'kind': 'mc', 'openEnded': true, 'subq': τον αριθμό του (π.χ. '2.2'), "
-            "'prompt': την ακριβή εκφώνηση, και σωστή απάντηση την ΕΝΔΕΙΚΤΙΚΗ ΑΠΑΝΤΗΣΗ.\n"
-            "4. ΣΧΕΔΙΑΣΤΙΚΑ ΕΡΩΤΗΜΑΤΑ ΧΑΡΤΗ (π.χ. '4.1 Εντοπίστε πάνω στον χάρτη το σημείο...', "
-            "'4.2 ...εντοπίστε το νέο σημείο και σχεδιάστε τη μεταβολή'): ΜΗΝ τα παραλείπεις! "
-            "Βάλ' τα ως ξεχωριστά items με 'kind': 'open', 'subq': '4.1' / '4.2', 'prompt': την ακριβή εκφώνηση του PDF, "
-            "και 'explain': την επεξήγηση της λύσης.\n"
-            "5. ΚΕΦΑΛΙΔΕΣ PDF: Η κεφαλίδα '## Θέμα #ΚΩΔΙΚΟΣ | Υποενότητα' δείχνει την αρχή του θέματος, τον ακριβή κωδικό "
-            "και την υποενότητα, ενώ η κεφαλίδα '### Λύση #ΚΩΔΙΚΟΣ' δείχνει πού ξεκινά η λύση.\n"
-            "6. ΟΝΟΜΑΤΟΔΟΣΙΑ ΥΠΟΕΝΟΤΗΤΩΝ (groups[].id):\n"
-            "Το id κάθε υποενότητας ΠΡΕΠΕΙ υποχρεωτικά να έχει τη μορφή: "
-            "'ch{Κεφάλαιο:02d}-{Υποκεφάλαιο:02d}-{slug}' (με διψήφιο αριθμό κεφαλαίου και υποκεφαλαίου)!\n"
-            "Παραδείγματα:\n"
-            "- Για την ενότητα '2.4 Η αποτύπωση...': 'ch02-04-psychrometry' (παράγει το αρχείο ch02-04-psychrometry.js).\n"
-            "- Για την ενότητα '2.10 Ειδικές διατάξεις...': 'ch02-10-eidikes-diataxeis' (παράγει το αρχείο ch02-10-eidikes-diataxeis.js).\n"
-            "- Για την ενότητα '8.2 Ο ρόλος...': 'ch08-02-rolos-klimatistikon-monadon' (παράγει το ch08-02-rolos-klimatistikon-monadon.js).\n"
-            "7. ΑΣΚΗΣΕΙΣ ΑΝΤΙΣΤΟΙΧΙΣΗΣ (match):\n"
-            "- Όταν η Στήλη Α περιέχει κείμενο/φράσεις (π.χ. ονόματα εξαρτημάτων, τύπους μηχανών, ορισμούς), "
-            "ΠΡΕΠΕΙ ΥΠΟΧΡΕΩΤΙΚΑ να βάζεις ολόκληρο το κείμενο/φράση στο πεδίο 'text' (π.χ. 'text': 'Μηχανή τύπου Boxer'). "
-            "ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να βάζεις μόνο τον αριθμό 'text': '1' όταν υπάρχει κείμενο στη Στήλη Α!\n"
-            "- Όταν η Στήλη Α αναφέρεται αποκλειστικά σε αριθμημένα μέρη/βέλη ενός σχήματος χωρίς άλλη περιγραφή, "
-            "τότε μόνο βάλε 'text': '1' ή 'Γραμμή 1'. ΑΠΑΓΟΡΕΥΕΤΑΙ αυστηρά να προσθέτεις δικές σου επεξηγήσεις σε παρενθέσεις (π.χ. '(καμπύλη)', '(οριζόντια προς τα δεξιά)'), διότι προδίδουν τη λύση και αλλοιώνουν την πρωτότυπη άσκηση της Τράπεζας Θεμάτων!\n"
-            "8. ΣΧΗΜΑΤΑ, ΖΕΥΓΗ ΕΙΚΟΝΩΝ ΔΙΠΛΑ-ΔΙΠΛΑ & ΥΠΟΔΕΙΞΕΙΣ (hintImage):\n"
-            "- Όταν ένα υποερώτημα (π.χ. 2.2) έχει αριθμημένα επιμέρους ερωτήματα (1., 2., 3.) όπου το καθένα συνοδεύεται "
-            "από ζεύγος εικόνων δίπλα-δίπλα ΚΑΙ επιλογές πολλαπλής επιλογής (α., β., γ.), ΑΠΑΓΟΡΕΥΕΤΑΙ ΑΥΣΤΗΡΑ να το μετατρέψεις "
-            "σε ενιαίο 'match' item! Δημιούργησε ξεχωριστά διαδοχικά items 'kind': 'mc' (όλα με το ίδιο 'subq', π.χ. '2.2', "
-            "και 'subqPrompt' στο πρώτο), όπου το 1ο item έχει 'images': [fig01, fig02], 'imageLayout': 'grid', το 2ο item "
-            "έχει 'images': [fig03, fig04], 'imageLayout': 'grid', και το 3ο item έχει 'images': [fig05, fig06], 'imageLayout': 'grid', "
-            "ώστε να διατηρείται 100% η αυθεντική διάταξη του PDF (εικόνες δίπλα-δίπλα -> κείμενο/επιλογές -> εικόνες δίπλα-δίπλα -> κείμενο/επιλογές)!\n"
-            "- Όταν η εκφώνηση συνοδεύεται από κοινό εισαγωγικό σχήμα/διάγραμμα, ορίζεται στο 'image' της άσκησης (ex.image). "
-            "ΑΠΑΓΟΡΕΥΕΤΑΙ να επαναλαμβάνεται η ίδια εικόνα στο 'image' του υποερωτήματος (item.image), ώστε να μην εμφανίζεται διπλή!\n"
-            "- Σε ερωτήματα αντιστοίχισης με πολλαπλά σχήματα (π.χ. Σχήματα 1, 2, 3), όρισε υποχρεωτικά 'imageLayout': 'grid' "
-            "και 'imageLabels': ['1. Σχήμα 1', '2. Σχήμα 2', ...] στο item, και Στήλη Α: '1 (Σχήμα 1)'. ΜΗΝ βάζεις μεμονωμένο 'image' στο item.\n"
-            "- Αν στην ενδεικτική απάντηση υπάρχει σχήμα λύσης (π.χ. διάγραμμα με γραμμές ανάγνωσης τιμών, διαγράμματα λειτουργίας κ.λπ.), "
-            "αυτό αποτελεί ΣΧΗΜΑ ΥΠΟΔΕΙΞΗΣ και πρέπει να ορίζεται ως 'hintImage' στο αντίστοιχο υποερώτημα (item.hintImage)!\n"
-            "9. ΣΥΜΠΛΗΡΩΣΗ ΚΕΝΩΝ (blank): Όταν ένα υποερώτημα έχει πολλαπλά αριθμημένα κενά (π.χ. 1-5) με κοινή δεξαμενή λέξεων, "
-            "δημιούργησε ΕΝΑ ενιαίο blank item με textBefore, answers και bank, ΟΧΙ 5 ξεχωριστά πανομοιότυπα items!\n"
-            "10. ΚΩΔΙΚΟΠΟΙΗΣΗ & ΠΙΣΤΟΤΗΤΑ: Χρησιμοποίησε αποκλειστικά ελληνικά γράμματα Unicode, ποτέ κυριλλικά ομόγλυφα (π.χ. ποτέ κυριλλικό 'К' αντί για ελληνικό 'Κ'). "
-            "Τα ζεύγη αντιστοίχισης (pairs) πρέπει να ακολουθούν απαρέγκλιτα το επίσημο κλειδί απαντήσεων του Ι.Ε.Π.\n"
-            "Στο code/title γράψε απλά «Θέμα 2ο · #18622» (ΧΩΡΙΣ <sup>).\n"
-            "sourceOrder = σειρά στην πηγή. answer/pairs από την ενδεικτική λύση — ποτέ εικασίες.\n"
-            "stem: ΜΟΝΟ ουσιαστική εκφώνηση/δεδομένα ΠΡΙΝ τα υποερωτήματα. "
-            "ΑΠΑΓΟΡΕΥΕΤΑΙ stem «Θέμα 2ο»/«Θέμα 4ο»/κενό — αυτά είναι ήδη σε code & title· "
-            "αν δεν υπάρχει άλλη εκφώνηση, ΜΗΝ βάλεις καθόλου το πεδίο stem.\n"
-            "item.prompt = ολόκληρο το υποερώτημα. Κάθε item έχει explain. calc: answer + unit.\n\n"
-            "Επέστρεψε αποκλειστικά ένα JSON object (ξεκινά με { και κλείνει με }, ΟΧΙ JSON array []) με σχήμα:\n"
-            '{"groups":[{"id":"ch02-04-psychrometry","title":"2.4 Η αποτύπωση των θερμοδυναμικών χαρακτηριστικών",'
-            '"blurb":"..."}],'
-            '"exercises":[{"id":"ch02-23768","group":"ch02-04-psychrometry","kind":"tf",'
-            '"layout":"unified","bankCode":"23768","code":"Θέμα 2ο · #23768",'
-            '"title":"#23768 — Θέμα 2ο","units":25,"theory":"...","sourceOrder":1,'
-            '"items":[{"kind":"tf","prompt":"...","answer":true,"explain":"..."},'
-            '{"kind":"match","prompt":"...","left":[{"id":"1","text":"Γραμμή 1"}],"right":[{"id":"a","text":"..."}],"pairs":{"1":"a"},'
-            '"explain":"..."}]}],"omitted":[]}\n\n'
-            f"ΠΗΓΗ ΑΣΚΗΣΕΩΝ ΚΑΙ ΛΥΣΕΩΝ:\n{source_content}"
+            f"Μετέτρεψε τα παρακάτω θέματα της Τράπεζας Θεμάτων και τις επίσημες ενδεικτικές λύσεις τους "
+            f"σε διαδραστικές ασκήσεις για το 4gnosin.github.io.\n"
+            f"Μάθημα: {subject}, Τάξη: {grade}, Κεφάλαιο: {chapter}.\n\n"
+            "ΑΠΑΡΑΒΙΑΣΤΟΙ ΚΑΝΟΝΕΣ:\n"
+            "1. 100% ΠΙΣΤΟΤΗΤΑ: Μην παραλείψεις ΚΑΝΕΝΑ θέμα και ΚΑΝΕΝΑ υποερώτημα (stem, subq, open-ended, calc, match, blank).\n"
+            "2. ΑΠΑΝΤΗΣΕΙΣ: Άντλησε όλες τις σωστές επιλογές, τιμές και αιτιολογήσεις αποκλειστικά από την επίσημη λύση κάθε θέματος.\n"
+            "3. ΣΧΗΜΑΤΑ: Βάλε εικόνα (ex.image ή item.hintImage) ΑΠΟΚΛΕΙΣΤΙΚΑ ΚΑΙ ΜΟΝΟ αν υπάρχει ρητό markdown image tag (![...](...)) στο κείμενο του συγκεκριμένου θέματος. ΑΠΑΓΟΡΕΥΕΤΑΙ ΑΥΣΤΗΡΑ η προσθήκη εικόνας αν δεν υπάρχει ρητή εικόνα στην πηγή!\n"
+            "4. ΟΝΟΜΑΤΟΔΟΣΙΑ GROUPS: Το group id κάθε υποενότητας πρέπει να είναι αυστηρά 'ch{Κεφάλαιο:02d}-{Υποκεφάλαιο:02d}-{slug}'.\n"
+            "5. ΑΝΤΙΣΤΟΙΧΙΣΗ (match): Στις στήλες Α (left) και Β (right) γράψε ΟΛΟΚΛΗΡΟ το πλήρες κείμενο ή τον μαθηματικό τύπο κάθε επιλογής (π.χ. '1. Ισόογκη μεταβολή', 'α. $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$'). ΠΟΤΕ σκέτους αριθμούς '1', '2' ή σκέτα γράμματα 'α', 'β'!\n"
+            "6. ΜΑΘΗΜΑΤΙΚΑ & LATEX: Όλοι οι μαθηματικοί τύποι, κλάσματα, δείκτες και σύμβολα να είναι σωστά και καλαίσθητα σε LaTeX εντός $...$ (π.χ. $\\Delta U = 0$, $P_1 \\cdot V_1 = P_2 \\cdot V_2$). Ποτέ γυμνές εντολές LaTeX στο πεζό κείμενο.\n"
+            "7. ΕΞΑΓΩΓΗ: Επέστρεψε αποκλειστικά ένα JSON object (ξεκινά με { και κλείνει με }): "
+            '{"groups": [...], "exercises": [...], "omitted": []}\n\n'
+            f"ΠΗΓΗ ΘΕΜΑΤΩΝ ΚΑΙ ΛΥΣΕΩΝ:\n{source_content}"
         )
 
     def _call_gemini_json(self, prompt: str) -> dict[str, Any]:
@@ -432,15 +371,59 @@ class ExerciseGenerator:
         )
 
         raw_result = self.clean_js_output(response.text or "")
+        result = None
+
+        # 1. Άμεση ανάγνωση JSON
         try:
-            result = json.loads(raw_result)
-        except json.JSONDecodeError:
+            result = json.loads(raw_result, strict=False)
+        except Exception:
+            pass
+
+        # 2. Αφαίρεση markdown fences αν υπάρχουν
+        cleaned = raw_result
+        if result is None:
             cleaned = re.sub(r"^```(?:json)?\s*", "", raw_result.strip(), flags=re.IGNORECASE)
             cleaned = re.sub(r"\s*```$", "", cleaned)
             try:
-                result = json.loads(cleaned)
-            except json.JSONDecodeError as exc:
-                raise ValueError("Το Gemini δεν επέστρεψε έγκυρο JSON για τις ασκήσεις.") from exc
+                result = json.loads(cleaned, strict=False)
+            except Exception:
+                pass
+
+        # 3. Εξυγίανση μη έγκυρων escapes (πολύ συχνό σε LaTeX σύμβολα όπως \Delta, \phi, \text)
+        if result is None:
+            fixed_escapes = re.sub(r'(?<!\\)\\(?!["\\/bfnrt]|u[0-9a-fA-F]{4})', r'\\\\', cleaned)
+            try:
+                result = json.loads(fixed_escapes, strict=False)
+            except Exception:
+                pass
+
+            # 4. Αφαίρεση trailing commas
+            if result is None:
+                try:
+                    fixed_commas = SiteValidator.strip_trailing_commas(fixed_escapes)
+                    result = json.loads(fixed_commas, strict=False)
+                except Exception:
+                    pass
+
+        # 5. Αυτόματη επιδιόρθωση μέσω json_repair (σώζει unescaped quotes, control chars, unclosed brackets)
+        if result is None:
+            try:
+                import json_repair
+                repaired = json_repair.loads(cleaned)
+                if repaired and isinstance(repaired, (dict, list)):
+                    result = repaired
+            except Exception:
+                pass
+
+        # 6. Fallback εξαγωγή μέσω SiteValidator
+        if result is None:
+            extracted = SiteValidator.extract_json_from_js(raw_result)
+            if extracted:
+                result = extracted
+
+        if result is None:
+            snippet = raw_result[:250].replace("\n", " ")
+            raise ValueError(f"Το Gemini δεν επέστρεψε έγκυρο JSON για τις ασκήσεις. Απόσπασμα: {snippet!r}")
 
         if isinstance(result, list):
             if len(result) == 1 and isinstance(result[0], dict) and ("groups" in result[0] or "exercises" in result[0]):
@@ -484,6 +467,7 @@ class ExerciseGenerator:
         subject: str = "antoxi",
         chapter: int = 1,
         output_dir: Path | None = None,
+        force: bool = False,
     ) -> list[Path]:
         """Classify source questions and generate validated exercise files."""
         path = Path(source_markdown_path)
@@ -500,12 +484,53 @@ class ExerciseGenerator:
             from ..utils.pdf_extractor import normalize_pdf_symbols
         content = normalize_pdf_symbols(content)
 
+        # Checkpoint / Cache υποδομή για ασφάλεια & οικονομία tokens
+        cache_dir = self.base_dir / "data" / ".cache" / "exercises"
+        checkpoint_file = cache_dir / f"{grade}_{subject}_ch{chapter:02d}_checkpoint.json"
+
+        if force and checkpoint_file.exists():
+            checkpoint_file.unlink()
+            print("   🔄 [--force] Διαγραφή προηγούμενου checkpoint — εκκίνηση από την αρχή.")
+
+        cached_data: dict[str, Any] = {"groups": [], "exercises": [], "omitted": []}
+        completed_by_code: dict[str, dict[str, Any]] = {}
+
+        if checkpoint_file.exists():
+            try:
+                cached_data = json.loads(checkpoint_file.read_text(encoding="utf-8"))
+                for ex in cached_data.get("exercises", []):
+                    bc = str(ex.get("bankCode") or "").strip()
+                    if bc:
+                        completed_by_code[bc] = ex
+                if completed_by_code:
+                    print(f"   📂 Βρέθηκε ενεργό checkpoint: {len(completed_by_code)} θέματα είναι ήδη έτοιμα.")
+            except Exception as e:
+                print(f"   ⚠️ Σφάλμα ανάγνωσης checkpoint: {e}")
+                cached_data = {"groups": [], "exercises": [], "omitted": []}
+
+        target_dir = (
+            output_dir or self.base_dir / "output"
+        ) / "exercises" / grade / subject / f"chapter-{chapter:02d}"
+
+        # Ανίχνευση αν υπάρχουν ήδη ασκήσεις στο site από παλαιότερη εκτέλεση
+        if not force and target_dir.is_dir():
+            for js_f in target_dir.glob("*.js"):
+                if js_f.name == "groups.js":
+                    continue
+                try:
+                    site_exs = SiteValidator.extract_json_from_js(js_f.read_text(encoding="utf-8"))
+                    for ex in site_exs:
+                        bc = str(ex.get("bankCode") or "").strip()
+                        if bc and bc not in completed_by_code:
+                            completed_by_code[bc] = ex
+                except Exception:
+                    pass
+
         # Εντοπισμός θεμάτων στην πηγή (## Θέμα #ΚΩΔΙΚΟΣ ή ## Θέμα)
         topic_pattern = re.compile(r'(?m)^##\s+Θέμα\s*(?:#?(\d+))?')
         topic_matches = list(topic_pattern.finditer(content))
 
-        CHUNK_SIZE = 4
-        if len(topic_matches) > CHUNK_SIZE:
+        if topic_matches:
             preamble = content[:topic_matches[0].start()].strip()
             topic_sections = []
             topic_codes = []
@@ -515,54 +540,189 @@ class ExerciseGenerator:
                 topic_sections.append(content[start:end].strip())
                 topic_codes.append(match.group(1) or f"Θέμα {i+1}")
 
-            chunks = [
-                topic_sections[i : i + CHUNK_SIZE]
-                for i in range(0, len(topic_sections), CHUNK_SIZE)
-            ]
-            codes_chunks = [
-                topic_codes[i : i + CHUNK_SIZE]
-                for i in range(0, len(topic_codes), CHUNK_SIZE)
-            ]
-            total_chunks = len(chunks)
-            print(f"\n📝 Παραγωγή ασκήσεων για '{path.name}': {len(topic_matches)} θέματα σε {total_chunks} τμήματα (εγγύηση 100% πιστότητας)...")
+            total_topics = len(topic_sections)
 
-            merged_groups: list[dict[str, Any]] = []
-            merged_exercises: list[dict[str, Any]] = []
-            merged_omitted: list[Any] = []
+            merged_groups: list[dict[str, Any]] = list(cached_data.get("groups", []))
+            merged_omitted: list[Any] = list(cached_data.get("omitted", []))
 
-            for idx, (chunk_list, c_codes) in enumerate(zip(chunks, codes_chunks, strict=False), 1):
-                chunk_codes_str = ", ".join(f"#{c}" if str(c).isdigit() else str(c) for c in c_codes)
-                print(f"   ⏳ Τμήμα {idx}/{total_chunks} ({chunk_codes_str})...")
-                chunk_content = (preamble + "\n\n" if preamble else "") + "\n\n".join(chunk_list)
+            # Διαχωρισμός σε έτοιμα (checkpoint) και εκκρεμή θέματα
+            pending_items: list[tuple[int, str, str]] = []  # (1-based idx, t_sec, t_code)
 
-                chunk_prompt = self._build_exercise_prompt(
-                    chunk_content, grade=grade, subject=subject, chapter=chapter
+            for idx, (t_sec, t_code) in enumerate(zip(topic_sections, topic_codes, strict=False), 1):
+                code_lbl = f"#{t_code}" if str(t_code).isdigit() else str(t_code)
+                code_key = str(t_code).strip()
+
+                if code_key and code_key in completed_by_code:
+                    ex = completed_by_code[code_key]
+                    ex_grp = ex.get("group")
+                    if ex_grp and not any(g.get("id") == ex_grp for g in merged_groups):
+                        for g in cached_data.get("groups", []):
+                            if g.get("id") == ex_grp:
+                                merged_groups.append(g)
+                                break
+                    print(f"   ⏩ Θέμα {idx}/{total_topics} ({code_lbl}): Ήδη έτοιμο στο checkpoint (0 tokens — παράκαμψη)")
+                else:
+                    pending_items.append((idx, t_sec, t_code))
+
+            if not pending_items:
+                print(f"   ✨ Όλα τα {total_topics} θέματα είναι ήδη έτοιμα!")
+            else:
+                # Δυναμικό μέγεθος mini-block:
+                # Αν εκκρεμούν έως 7 θέματα -> 1 κλήση όλα μαζί!
+                # Αν εκκρεμούν πάνω από 7 θέματα -> μπλοκ των 5 θεμάτων.
+                block_size = len(pending_items) if len(pending_items) <= 7 else 5
+                blocks = [pending_items[i:i + block_size] for i in range(0, len(pending_items), block_size)]
+
+                print(
+                    f"\n📝 Παραγωγή ασκήσεων για '{path.name}': {len(pending_items)} εκκρεμή θέματα "
+                    f"σε {len(blocks)} mini-block(s) (από σύνολο {total_topics} θεμάτων)..."
                 )
-                chunk_result = self._call_gemini_json(chunk_prompt)
 
-                for grp in chunk_result.get("groups", []):
-                    if isinstance(grp, dict) and grp.get("id"):
-                        if not any(g.get("id") == grp["id"] for g in merged_groups):
-                            merged_groups.append(grp)
-                for ex in chunk_result.get("exercises", []):
-                    if isinstance(ex, dict):
-                        merged_exercises.append(ex)
-                merged_omitted.extend(chunk_result.get("omitted", []))
+                try:
+                    for b_idx, block in enumerate(blocks, 1):
+                        b_codes = [f"#{t_c}" if str(t_c).isdigit() else str(t_c) for _, _, t_c in block]
+                        print(f"   ⏳ Mini-block {b_idx}/{len(blocks)} ({len(block)} θέματα: {', '.join(b_codes)}): Κλήση Gemini...")
 
-            result = {
-                "groups": merged_groups,
-                "exercises": merged_exercises,
-                "omitted": merged_omitted,
-            }
+                        block_content = (preamble + "\n\n" if preamble else "") + "\n\n---\n\n".join(t_s for _, t_s, _ in block)
+                        block_prompt = self._build_exercise_prompt(
+                            block_content, grade=grade, subject=subject, chapter=chapter
+                        )
+                        try:
+                            block_result = self._call_gemini_json(block_prompt)
+                        except Exception as block_err:
+                            print(f"   ⚠️ Σφάλμα στο mini-block ({block_err}) — άμεση επανάληψη...")
+                            time.sleep(2)
+                            block_result = self._call_gemini_json(block_prompt)
+
+                        # Επεξεργασία groups
+                        for grp in block_result.get("groups", []):
+                            if isinstance(grp, dict) and grp.get("id"):
+                                if not any(g.get("id") == grp["id"] for g in merged_groups):
+                                    merged_groups.append(grp)
+
+                        # Επεξεργασία exercises & αντιστοίχιση με bank codes
+                        block_exs = block_result.get("exercises", [])
+                        for ex in block_exs:
+                            if isinstance(ex, dict):
+                                bc = str(ex.get("bankCode") or "").strip()
+                                if not bc:
+                                    bc = extract_bank_code(ex.get("title", "")) or extract_bank_code(ex.get("code", ""))
+                                    if bc:
+                                        ex["bankCode"] = bc
+                                if bc:
+                                    if not ex.get("id") or "chNN" in str(ex.get("id", "")):
+                                        ex["id"] = f"ch{chapter:02d}-{bc}"
+                                    completed_by_code[bc] = ex
+
+                        # Fallback αντιστοίχιση με βάση τη σειρά του block
+                        if len(block_exs) == len(block):
+                            for (_, _, t_c), ex in zip(block, block_exs, strict=False):
+                                t_c_str = str(t_c).strip()
+                                if t_c_str.isdigit() and (t_c_str not in completed_by_code or not ex.get("bankCode")):
+                                    ex["bankCode"] = t_c_str
+                                    ex["id"] = f"ch{chapter:02d}-{t_c_str}"
+                                    completed_by_code[t_c_str] = ex
+
+                        merged_omitted.extend(block_result.get("omitted", []))
+
+                        # Ανακατασκευή των ολοκληρωμένων ασκήσεων στη σειρά εμφάνισης του PDF
+                        current_exercises = [
+                            completed_by_code[str(tc).strip()]
+                            for tc in topic_codes
+                            if str(tc).strip() in completed_by_code
+                        ]
+
+                        # Άμεση ενημέρωση checkpoint στο δίσκο
+                        cache_dir.mkdir(parents=True, exist_ok=True)
+                        checkpoint_data = {
+                            "chapter": chapter,
+                            "subject": subject,
+                            "grade": grade,
+                            "total_topics": total_topics,
+                            "groups": merged_groups,
+                            "exercises": current_exercises,
+                            "omitted": merged_omitted,
+                        }
+                        checkpoint_file.write_text(
+                            json.dumps(checkpoint_data, ensure_ascii=False, indent=2),
+                            encoding="utf-8",
+                        )
+                        print(f"      💾 Αποθηκεύτηκε στο checkpoint ({len(completed_by_code)}/{total_topics} θέματα έτοιμα)")
+
+                        if b_idx < len(blocks):
+                            time.sleep(2.0)
+
+                except Exception as loop_err:
+                    current_exercises = [
+                        completed_by_code[str(tc).strip()]
+                        for tc in topic_codes
+                        if str(tc).strip() in completed_by_code
+                    ]
+                    if current_exercises:
+                        print(f"\n⚠️ Η διαδικασία διεκόπη στο mini-block {b_idx}/{len(blocks)} ({loop_err}).")
+                        print(f"💾 Άμεση αποθήκευση των {len(current_exercises)} ολοκληρωμένων θεμάτων στο site...")
+                        try:
+                            partial_files = self._save_and_validate_exercise_files(
+                                groups=merged_groups,
+                                exercises=current_exercises,
+                                omitted=merged_omitted,
+                                chapter=chapter,
+                                grade=grade,
+                                subject=subject,
+                                output_dir=output_dir,
+                                content=content,
+                            )
+                            print(f"✅ Ενημερώθηκαν {len(partial_files)} αρχεία στο site για τα θέματα που ολοκληρώθηκαν.")
+                        except Exception as save_err:
+                            print(f"⚠️ Σημείωση μερικής αποθήκευσης: {save_err}")
+                    raise
+
+            # Τελική ανακατασκευή ασκήσεων στη σειρά του PDF
+            final_exercises = [
+                completed_by_code[str(tc).strip()]
+                for tc in topic_codes
+                if str(tc).strip() in completed_by_code
+            ]
+
+            return self._save_and_validate_exercise_files(
+                groups=merged_groups,
+                exercises=final_exercises,
+                omitted=merged_omitted,
+                chapter=chapter,
+                grade=grade,
+                subject=subject,
+                output_dir=output_dir,
+                content=content,
+            )
         else:
             print(f"\n📝 Παραγωγή ομάδων & ασκήσεων για το κεφάλαιο '{path.name}'...")
             prompt = self._build_exercise_prompt(content, grade=grade, subject=subject, chapter=chapter)
-            result = self._call_gemini_json(prompt)
+            result = sanitize_obj(self._call_gemini_json(prompt))
+            return self._save_and_validate_exercise_files(
+                groups=result.get("groups", []),
+                exercises=result.get("exercises", []),
+                omitted=result.get("omitted", []),
+                chapter=chapter,
+                grade=grade,
+                subject=subject,
+                output_dir=output_dir,
+                content=content,
+            )
 
-        result = sanitize_obj(result)
-        groups = result.get("groups")
-        exercises = result.get("exercises")
-        omitted = result.get("omitted", [])
+    def _save_and_validate_exercise_files(
+        self,
+        groups: list[dict[str, Any]],
+        exercises: list[dict[str, Any]],
+        omitted: list[Any],
+        chapter: int,
+        grade: str,
+        subject: str,
+        output_dir: Path | None,
+        content: str,
+    ) -> list[Path]:
+        groups = sanitize_obj(groups)
+        exercises = sanitize_obj(exercises)
+        omitted = omitted or []
         if not isinstance(groups, list) or not groups:
             raise ValueError("Δεν δημιουργήθηκαν έγκυρες ομάδες ασκήσεων.")
         if not isinstance(exercises, list) or not exercises:
@@ -742,6 +902,88 @@ class ExerciseGenerator:
                     )
             except Exception:
                 pass
+
+            # Φόρτωση manifest κεφαλαίου για απόλυτα αυστηρή επαλήθευση εικόνων ανά θέμα
+            manifest_cand = (
+                (output_dir or self.base_dir / "site")
+                / "images"
+                / grade
+                / subject
+                / f"chapter-{int(chapter):02d}"
+                / "manifest.json"
+            )
+            manifest_images_all: set[str] = set()
+            manifest_by_bank: dict[str, dict[str, list[str]]] = {}
+            if manifest_cand.is_file():
+                try:
+                    m_data = json.loads(manifest_cand.read_text(encoding="utf-8"))
+                    for im in m_data.get("images", []):
+                        fn = Path(im.get("file", "")).stem
+                        manifest_images_all.add(fn)
+                    manifest_by_bank = m_data.get("by_bank_code", {})
+                except Exception:
+                    pass
+
+            # Αυστηρός έλεγχος εικόνας: πρέπει να υπάρχει στο manifest ΚΑΙ να ανήκει στο bank_code
+            site_img_base = self.base_dir / "site"
+
+            def _clean_img_path(img_ref: Any) -> str | None:
+                if not img_ref or not isinstance(img_ref, str):
+                    return None
+                ref_clean = img_ref.lstrip("/\\").replace("\\", "/")
+                # Κανονικοποίηση σε .webp αν υπάρχει στον δίσκο
+                stem = Path(ref_clean).stem
+                if manifest_images_all and stem not in manifest_images_all:
+                    return None
+                if manifest_by_bank and bank_code not in manifest_by_bank:
+                    return None
+                full_p = site_img_base / ref_clean
+                if full_p.is_file():
+                    return ref_clean
+                base_no_ext, _ = os.path.splitext(ref_clean)
+                for ext in [".webp", ".png", ".jpg"]:
+                    if (site_img_base / f"{base_no_ext}{ext}").is_file():
+                        return f"{base_no_ext}{ext}"
+                return None
+
+            if "image" in exercise:
+                cleaned = _clean_img_path(exercise["image"])
+                if cleaned:
+                    exercise["image"] = cleaned
+                else:
+                    del exercise["image"]
+
+            if "images" in exercise and isinstance(exercise["images"], list):
+                new_imgs = [_clean_img_path(im) for im in exercise["images"]]
+                exercise["images"] = [im for im in new_imgs if im]
+                if not exercise["images"]:
+                    del exercise["images"]
+
+            if "solutionImages" in exercise and isinstance(exercise["solutionImages"], list):
+                new_sols = [_clean_img_path(im) for im in exercise["solutionImages"]]
+                exercise["solutionImages"] = [im for im in new_sols if im]
+                if not exercise["solutionImages"]:
+                    del exercise["solutionImages"]
+
+            for it in exercise.get("items", []):
+                if isinstance(it, dict):
+                    if "image" in it:
+                        cleaned = _clean_img_path(it["image"])
+                        if cleaned:
+                            it["image"] = cleaned
+                        else:
+                            del it["image"]
+                    if "images" in it and isinstance(it["images"], list):
+                        new_it_imgs = [_clean_img_path(im) for im in it["images"]]
+                        it["images"] = [im for im in new_it_imgs if im]
+                        if not it["images"]:
+                            del it["images"]
+                    if "hintImage" in it:
+                        cleaned = _clean_img_path(it["hintImage"])
+                        if cleaned:
+                            it["hintImage"] = cleaned
+                        else:
+                            del it["hintImage"]
 
             exercises_by_group[group_id].append(exercise)
 

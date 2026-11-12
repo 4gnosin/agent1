@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #29116",
     "bankCode": "29116",
-    "title": "#29116 — Θέμα 2<sup>ο</sup>",
+    "title": "#29116 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "grammes-p-h",
     "sourceOrder": 13,

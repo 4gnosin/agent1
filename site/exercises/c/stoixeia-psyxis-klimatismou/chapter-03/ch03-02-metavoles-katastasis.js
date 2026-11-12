@@ -9,11 +9,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23775",
     "bankCode": "23775",
-    "title": "#23775 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#23775 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch03-02-metavoles-katastasis",
     "sourceOrder": 3,
-    "stem": "Αέριο βρίσκεται σε κύλινδρο σταθερού όγκου $0,1\\text{ m}^3$ με αρχική θερμοκρασία $\\vartheta_1 = 7\\text{ }^\\circ\\text{C}$ και πίεση $P_1 = 50\\text{ Pa}$. Στο αέριο προσδίδεται θερμότητα $Q = 500\\text{ Joule}$ και η πίεση του αυξάνεται στα $P_2 = 200\\text{ Pa}$.",
+    "stem": "Αέριο βρίσκεται σε κύλινδρο σταθερού όγκου $0,1\\text{ m}^3$ με αρχική θερμοκρασία $\\vartheta_1 = 7^{\\circ}\\text{C}$ και πίεση $P_1 = 50\\text{ Pa}$. Στο αέριο προσδίδεται θερμότητα $Q = 500\\text{ Joule}$ και η πίεση του αυξάνεται στα $P_2 = 200\\text{ Pa}$.",
     "items": [
       {
         "kind": "open",
@@ -31,7 +31,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 280,
         "unit": "K",
         "tolerance": 0.01,
-        "hint": "Προσθέστε 273 στην τιμή της θερμοκρασίας σε $^\\circ\\text{C}$.",
+        "hint": "Προσθέστε 273 στην τιμή της θερμοκρασίας σε ${}^{\\circ}\\text{C}$.",
         "explain": " \\( T_1 = 7 + 273 = 280\\text{ K} \\)."
       },
       {
@@ -68,7 +68,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23844",
     "bankCode": "23844",
-    "title": "#23844 — Θέμα 4<sup>ο</sup> (4.1–4.3)",
+    "title": "#23844 — Θέμα 4$^{ο}$ (4.1–4.3)",
     "units": 25,
     "theory": "ch03-02-metavoles-katastasis",
     "sourceOrder": 4,
@@ -116,11 +116,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23873",
     "bankCode": "23873",
-    "title": "#23873 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#23873 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch03-02-metavoles-katastasis",
     "sourceOrder": 5,
-    "stem": "Αέριο βρίσκεται σε κύλινδρο σταθερού όγκου. Η αρχική θερμοκρασία του είναι $47\\text{ }^\\circ\\text{C}$ και η αρχική απόλυτη πίεση είναι $30\\text{ Pa}$. Το αέριο θερμαίνεται και φτάνει στη θερμοκρασία των $527\\text{ }^\\circ\\text{C}$.",
+    "stem": "Αέριο βρίσκεται σε κύλινδρο σταθερού όγκου. Η αρχική θερμοκρασία του είναι $47^{\\circ}\\text{C}$ και η αρχική απόλυτη πίεση είναι $30\\text{ Pa}$. Το αέριο θερμαίνεται και φτάνει στη θερμοκρασία των $527^{\\circ}\\text{C}$.",
     "items": [
       {
         "kind": "open",
@@ -138,7 +138,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 320,
         "unit": "K",
         "tolerance": 0.01,
-        "hint": "Προσθέστε 273 στους $47\\text{ }^\\circ\\text{C}$.",
+        "hint": "Προσθέστε 273 στους $47^{\\circ}\\text{C}$.",
         "explain": " \\( T_1 = 47 + 273 = 320\\text{ K} \\)."
       },
       {
@@ -175,7 +175,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #33914",
     "bankCode": "33914",
-    "title": "#33914 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#33914 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-02-metavoles-katastasis",
     "sourceOrder": 6,
@@ -233,7 +233,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34893",
     "bankCode": "34893",
-    "title": "#34893 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34893 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-01-orismos-teleiou-aeriou",
     "sourceOrder": 7,
@@ -327,11 +327,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34894",
     "bankCode": "34894",
-    "title": "#34894 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#34894 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch03-02-metavoles-katastasis",
     "sourceOrder": 8,
-    "stem": "Τέλειο αέριο βρίσκεται σε κύλινδρο, με έμβολο που μπορεί να κινείται ελεύθερα. Η αρχική απόλυτη πίεση του αερίου είναι $P_1 = 4\\text{ bar}$ και ο αρχικός του όγκος είναι $V_1 = 0,09\\text{ m}^3$. Αν το αέριο συμπιεστεί υπό σταθερή θερμοκρασία $T = 27\\text{ }^\\circ\\text{C}$ μέχρι η πίεσή του να γίνει $P_2 = 12\\text{ bar}$, δίνεται $R = 400\\text{ J}/(\\text{kg}\\cdot\\text{K})$.",
+    "stem": "Τέλειο αέριο βρίσκεται σε κύλινδρο, με έμβολο που μπορεί να κινείται ελεύθερα. Η αρχική απόλυτη πίεση του αερίου είναι $P_1 = 4\\text{ bar}$ και ο αρχικός του όγκος είναι $V_1 = 0,09\\text{ m}^3$. Αν το αέριο συμπιεστεί υπό σταθερή θερμοκρασία $T = 27^{\\circ}\\text{C}$ μέχρι η πίεσή του να γίνει $P_2 = 12\\text{ bar}$, δίνεται $R = 400\\text{ J}/(\\text{kg}\\cdot\\text{K})$.",
     "items": [
       {
         "kind": "calc",

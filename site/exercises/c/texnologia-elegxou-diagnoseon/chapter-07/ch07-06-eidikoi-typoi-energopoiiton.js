@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34300",
     "bankCode": "34300",
-    "title": "#34300 — Θέμα 2<sup>ο</sup>",
+    "title": "#34300 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch07-06-eidikoi-typoi-energopoiiton",
     "sourceOrder": 3,

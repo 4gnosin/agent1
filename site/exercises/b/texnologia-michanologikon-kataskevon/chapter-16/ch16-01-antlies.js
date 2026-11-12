@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #19896",
     "bankCode": "19896",
-    "title": "#19896 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#19896 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch16-01-antlies",
     "sourceOrder": 1,
@@ -78,7 +78,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #19897",
     "bankCode": "19897",
-    "title": "#19897 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#19897 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch16-01-antlies",
     "sourceOrder": 2,
@@ -184,7 +184,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19898",
     "bankCode": "19898",
-    "title": "#19898 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#19898 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch16-01-antlies",
     "sourceOrder": 3,
@@ -247,7 +247,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19899",
     "bankCode": "19899",
-    "title": "#19899 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#19899 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch16-01-antlies",
     "sourceOrder": 4,
@@ -281,13 +281,13 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.2",
-        "prompt": "4.2 Μία αντλία χρησιμοποιείται για την άντληση υδάτων από ένα φρεάτιο στον προαύλιο χώρο. Εάν ο υδραυλικός βαθμός απόδοσης είναι $\\eta_h = 0{,}60$, ο ογκομετρικός βαθμός απόδοσης είναι $\\eta_v = 0{,}50$ και ο μηχανικός βαθμός απόδοσης είναι $\\eta_m = 0{,}90$, να υπολογιστεί ο συνολικός βαθμός απόδοσης $\\eta$ της αντλίας.",
-        "formula": "$\\eta = \\eta_h \\cdot \\eta_v \\cdot \\eta_m$",
+        "prompt": "4.2 Μία αντλία χρησιμοποιείται για την άντληση υδάτων από ένα φρεάτιο στον προαύλιο χώρο. Εάν ο υδραυλικός βαθμός απόδοσης είναι $\\\\beta_h = 0{,}60$, ο ογκομετρικός βαθμός απόδοσης είναι $\\\\beta_v = 0{,}50$ και ο μηχανικός βαθμός απόδοσης είναι $\\\\beta_m = 0{,}90$, να υπολογιστεί ο συνολικός βαθμός απόδοσης $\\\\beta$ της αντλίας.",
+        "formula": "$\\\\beta = \\\\beta_h \\cdot \\\\beta_v \\cdot \\\\beta_m$",
         "answer": 0.27,
         "unit": "",
         "tolerance": 0.005,
-        "hint": "$\\eta = \\eta_h \\cdot \\eta_v \\cdot \\eta_m = 0{,}60 \\cdot 0{,}50 \\cdot 0{,}90$",
-        "explain": "$\\eta = \\eta_h \\cdot \\eta_v \\cdot \\eta_m = 0{,}60 \\cdot 0{,}50 \\cdot 0{,}90 = 0{,}27$."
+        "hint": "$\\\\beta = \\\\beta_h \\cdot \\\\beta_v \\cdot \\\\beta_m = 0{,}60 \\cdot 0{,}50 \\cdot 0{,}90$",
+        "explain": "$\\\\beta = \\\\beta_h \\cdot \\\\beta_v \\cdot \\\\beta_m = 0{,}60 \\cdot 0{,}50 \\cdot 0{,}90 = 0{,}27$."
       }
     ]
   }

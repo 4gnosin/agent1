@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #35091",
     "bankCode": "35091",
-    "title": "#35091 — Θέμα 2<sup>ο</sup> (α–β)",
+    "title": "#35091 — Θέμα 2$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch08-08-kentrikes-klimatistikes-monades",
     "sourceOrder": 6,

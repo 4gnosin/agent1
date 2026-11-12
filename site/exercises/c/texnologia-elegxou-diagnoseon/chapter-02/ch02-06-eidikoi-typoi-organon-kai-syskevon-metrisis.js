@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #30564",
     "bankCode": "30564",
-    "title": "#30564 — Θέμα 2<sup>ο</sup>",
+    "title": "#30564 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "eidikoi-typoi-organon",
     "sourceOrder": 12,

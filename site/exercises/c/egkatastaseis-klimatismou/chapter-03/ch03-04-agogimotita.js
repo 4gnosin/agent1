@@ -9,11 +9,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23639",
     "code": "Θέμα 4<sup>ο</sup> · #23639",
-    "title": "#23639 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#23639 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-04-agogimotita",
     "sourceOrder": 2,
-    "stem": "Η εσωτερική θερμοκρασία αίθουσας διδασκαλίας είναι $t_i = 20\\text{ }^\\circ\\text{C}$, ενώ η θερμοκρασία περιβάλλοντος είναι $t_o = -5\\text{ }^\\circ\\text{C}$. Οι θερμικές απώλειες του εξωτερικού τοίχου της αίθουσας είναι $q = 972\\text{ W}$. Ο ολικός συντελεστής θερμοπερατότητας του τοίχου είναι $U = 2,16\\text{ W}/(\\text{m}^2\\cdot\\text{K})$ και ο τοίχος έχει μήκος $M = 6\\text{ m}$.",
+    "stem": "Η εσωτερική θερμοκρασία αίθουσας διδασκαλίας είναι $t_i = 20^{\\circ}\\text{C}$, ενώ η θερμοκρασία περιβάλλοντος είναι $t_o = -5^{\\circ}\\text{C}$. Οι θερμικές απώλειες του εξωτερικού τοίχου της αίθουσας είναι $q = 972\\text{ W}$. Ο ολικός συντελεστής θερμοπερατότητας του τοίχου είναι $U = 2,16\\text{ W}/(\\text{m}^2\\cdot\\text{K})$ και ο τοίχος έχει μήκος $M = 6\\text{ m}$.",
     "items": [
       {
         "subq": "4.1",
@@ -46,7 +46,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23879",
     "code": "Θέμα 4<sup>ο</sup> · #23879",
-    "title": "#23879 — Θέμα 4<sup>ο</sup>",
+    "title": "#23879 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch03-04-agogimotita",
     "sourceOrder": 3,
@@ -61,7 +61,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "W",
         "tolerance": 0.01,
         "hint": "Βρείτε τα $t_o$, $t_i$ και $U$ από τους πίνακες και χρησιμοποιήστε το $q = A \\cdot U \\cdot (t_i - t_o)$.",
-        "explain": "Για τη Χίο $t_o = +3\\text{ }^\\circ\\text{C}$, για αίθουσα διδασκαλίας $t_i = 20\\text{ }^\\circ\\text{C}$ και για οροφή με μόνωση $5\\text{ cm}$, $U = 0,61\\text{ W}/(\\text{m}^2\\cdot\\text{K})$. Η επιφάνεια είναι $A = 8 \\cdot 5 = 40\\text{ m}^2$. Άποτε $q = 40 \\cdot 0,61 \\cdot (20 - 3) = 414,8\\text{ W}$."
+        "explain": "Για τη Χίο $t_o = +3^{\\circ}\\text{C}$, για αίθουσα διδασκαλίας $t_i = 20^{\\circ}\\text{C}$ και για οροφή με μόνωση $5\\text{ cm}$, $U = 0,61\\text{ W}/(\\text{m}^2\\cdot\\text{K})$. Η επιφάνεια είναι $A = 8 \\cdot 5 = 40\\text{ m}^2$. Άποτε $q = 40 \\cdot 0,61 \\cdot (20 - 3) = 414,8\\text{ W}$."
       }
     ]
   },
@@ -72,7 +72,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "25284",
     "code": "Θέμα 4<sup>ο</sup> · #25284",
-    "title": "#25284 — Θέμα 4<sup>ο</sup>",
+    "title": "#25284 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch03-04-agogimotita",
     "sourceOrder": 4,
@@ -87,7 +87,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "W",
         "tolerance": 0.01,
         "hint": "Υπολογίστε ξεχωριστά τις απώλειες του καθαρού τοίχου και του κουφώματος και προσθέστε τες.",
-        "explain": "Για Μυτιλήνη $t_o = +2\\text{ }^\\circ\\text{C}$, για κλιμακοστάσιο $t_i = 15\\text{ }^\\circ\\text{C}$ ($\\Delta t = 13\\text{ }^\\circ\\text{C}$). $U_{\\text{τοιξ.}} = 0,58$, $U_{\\text{κουφ.}} = 3,00\\text{ W}/(\\text{m}^2\\cdot\\text{K})$. $A_{\\text{κουφ.}} = 6\\text{ m}^2$, $A_{\\text{τοιξ.}} = 24 - 6 = 18\\text{ m}^2$. $q_{\\text{τοιξ.}} = 18 \\cdot 0,58 \\cdot 13 = 135,72\\text{ W}$, $q_{\\text{κουφ.}} = 6 \\cdot 3,00 \\cdot 13 = 234\\text{ W}$. Ολικές απώλειες: $135,72 + 234 = 369,72\\text{ W}$."
+        "explain": "Για Μυτιλήνη $t_o = +2^{\\circ}\\text{C}$, για κλιμακοστάσιο $t_i = 15^{\\circ}\\text{C}$ ($\\Delta t = 13^{\\circ}\\text{C}$). $U_{\\text{τοιξ.}} = 0,58$, $U_{\\text{κουφ.}} = 3,00\\text{ W}/(\\text{m}^2\\cdot\\text{K})$. $A_{\\text{κουφ.}} = 6\\text{ m}^2$, $A_{\\text{τοιξ.}} = 24 - 6 = 18\\text{ m}^2$. $q_{\\text{τοιξ.}} = 18 \\cdot 0,58 \\cdot 13 = 135,72\\text{ W}$, $q_{\\text{κουφ.}} = 6 \\cdot 3,00 \\cdot 13 = 234\\text{ W}$. Ολικές απώλειες: $135,72 + 234 = 369,72\\text{ W}$."
       }
     ]
   },
@@ -98,11 +98,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "26823",
     "code": "Θέμα 4<sup>ο</sup> · #26823",
-    "title": "#26823 — Θέμα 4<sup>ο</sup> (α–γ)",
+    "title": "#26823 — Θέμα 4$^{ο}$ (α–γ)",
     "units": 25,
     "theory": "ch03-04-agogimotita",
     "sourceOrder": 5,
-    "stem": "Ο βορεινός τοίχος αίθουσας σχολείου έχει μήκος $8\\text{ m}$ και ύψος $3\\text{ m}$ (συνήθης εξωτερικός τοίχος με μόνωση $5\\text{ cm}$). Έχει δύο ανοίγματα-παράθυρα μήκους $2\\text{ m}$ και ύψους $1\\text{ m}$ το καθένα, από αλουμίνιο με απλά τζάμια. Η θερμοκρασία περιβάλλοντος είναι $t_1 = +2\\text{ }^\\circ\\text{C}$ και του εσωτερικού $t_2 = +22\\text{ }^\\circ\\text{C}$.",
+    "stem": "Ο βορεινός τοίχος αίθουσας σχολείου έχει μήκος $8\\text{ m}$ και ύψος $3\\text{ m}$ (συνήθης εξωτερικός τοίχος με μόνωση $5\\text{ cm}$). Έχει δύο ανοίγματα-παράθυρα μήκους $2\\text{ m}$ και ύψους $1\\text{ m}$ το καθένα, από αλουμίνιο με απλά τζάμια. Η θερμοκρασία περιβάλλοντος είναι $t_1 = +2^{\\circ}\\text{C}$ και του εσωτερικού $t_2 = +22^{\\circ}\\text{C}$.",
     "items": [
       {
         "subq": "α",
@@ -113,7 +113,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "W",
         "tolerance": 0.01,
         "hint": "Υπολογίστε το συνολικό εμβαδόν των 2 παραθύρων και χρησιμοποιήστε $U = 5\\text{ W}/(\\text{m}^2\\cdot\\text{K})$.",
-        "explain": "$A_{\\pi 1} = 2 \\cdot 1 = 2\\text{ m}^2$, άρα για 2 παράθυρα $A_\\pi = 4\\text{ m}^2$. $\\Delta t = 22 - 2 = 20\\text{ }^\\circ\\text{C}$. $q_\\pi = 4 \\cdot 5 \\cdot 20 = 400\\text{ W}$."
+        "explain": "$A_{\\pi 1} = 2 \\cdot 1 = 2\\text{ m}^2$, άρα για 2 παράθυρα $A_\\pi = 4\\text{ m}^2$. $\\Delta t = 22 - 2 = 20^{\\circ}\\text{C}$. $q_\\pi = 4 \\cdot 5 \\cdot 20 = 400\\text{ W}$."
       },
       {
         "subq": "β",

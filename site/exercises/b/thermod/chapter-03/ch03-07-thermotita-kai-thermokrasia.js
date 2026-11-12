@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "18707",
     "code": "Θέμα 4<sup>ο</sup> · #18707",
-    "title": "#18707 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#18707 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-07-thermotita-kai-thermokrasia",
     "sourceOrder": 1,
@@ -16,25 +16,25 @@ window.EXERCISES.push(...
       {
         "kind": "calc",
         "subq": "4.1",
-        "subqPrompt": "4.1. Να μετατρέψετε την θερμοκρασία των $30\\text{ }^\\circ\\text{C}$:",
+        "subqPrompt": "4.1. Να μετατρέψετε την θερμοκρασία των $30^{\\circ}\\text{C}$:",
         "prompt": "α) Σε κλίμακα Κέλβιν (Kelvin).",
-        "formula": "$T = t \\text{ }^\\circ\\text{C} + 273$",
+        "formula": "$T = t {}^{\\circ}\\text{C} + 273$",
         "answer": 303,
         "unit": "K",
         "tolerance": 0.01,
         "hint": "Προσθέστε 273 στη θερμοκρασία σε βαθμούς Κελσίου.",
-        "explain": "Σύμφωνα με τη σχέση $T = t \\text{ }^\\circ\\text{C} + 273$ έχουμε $T = 30 + 273 = 303\\text{ K}$."
+        "explain": "Σύμφωνα με τη σχέση $T = t {}^{\\circ}\\text{C} + 273$ έχουμε $T = 30 + 273 = 303\\text{ K}$."
       },
       {
         "kind": "calc",
         "subq": "4.1",
         "prompt": "β) Σε κλίμακα Φαρενάιτ (Fahrenheit).",
-        "formula": "$F = \\frac{9 \\cdot t \\text{ }^\\circ\\text{C}}{5} + 32$",
+        "formula": "$F = \\frac{9 \\cdot t {}^{\\circ}\\text{C}}{5} + 32$",
         "answer": 86,
         "unit": "°F",
         "tolerance": 0.01,
         "hint": "Χρησιμοποιήστε τον τύπο μετατροπής Κελσίου σε Φαρενάιτ.",
-        "explain": "Από τη σχέση $\\frac{t \\text{ }^\\circ\\text{C}}{5} = \\frac{F - 32}{9}$ προκύπτει $F = \\frac{9 \\cdot 30}{5} + 32 = 54 + 32 = 86\\text{ }^\\circ\\text{F}$."
+        "explain": "Από τη σχέση $\\frac{t {}^{\\circ}\\text{C}}{5} = \\frac{F - 32}{9}$ προκύπτει $F = \\frac{9 \\cdot 30}{5} + 32 = 54 + 32 = 86^{\\circ}\\text{F}$."
       },
       {
         "kind": "calc",

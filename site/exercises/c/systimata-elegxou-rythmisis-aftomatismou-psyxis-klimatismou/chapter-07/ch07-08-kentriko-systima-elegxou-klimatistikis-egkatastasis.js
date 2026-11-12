@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "35406",
     "code": "Θέμα 2<sup>ο</sup> · #35406",
-    "title": "#35406 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#35406 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch07-08-kentriko-systima-elegxou-klimatistikis-egkatastasis",
     "sourceOrder": 7,

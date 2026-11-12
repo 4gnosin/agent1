@@ -4,7 +4,7 @@ Unit tests για τον απολυμαντή LaTeX (src.utils.latex_sanitizer).
 """
 
 import pytest
-from src.utils.latex_sanitizer import sanitize_text, sanitize_obj
+from src.utils.latex_sanitizer import sanitize_text, sanitize_obj, sanitize_js_file, sanitize_directory
 
 
 class TestControlCharCollisions:
@@ -108,3 +108,41 @@ class TestPreserveCleanMath:
         sanitized = sanitize_text(formula)
         assert r"\sigma_{\text{επ}}" in sanitized
         assert r"\cdot" in sanitized
+
+
+class TestCodeDirectoryGuardrails:
+    """Έλεγχος ότι αρχεία λογικής / κώδικα (app.js, simulations) προστατεύονται από τροποποίηση."""
+
+    def test_app_js_is_never_touched(self, tmp_path):
+        from pathlib import Path
+        js_dir = tmp_path / "site" / "js"
+        js_dir.mkdir(parents=True)
+        dummy_app = js_dir / "app.js"
+        dummy_app.write_text("var temp = '60 °C'; /^\\([\\s\\S]*\\)$/.test(x);", encoding="utf-8")
+
+        result = sanitize_js_file(dummy_app)
+        assert result is False
+        assert dummy_app.read_text(encoding="utf-8") == "var temp = '60 °C'; /^\\([\\s\\S]*\\)$/.test(x);"
+
+    def test_simulations_are_never_touched(self, tmp_path):
+        sim_dir = tmp_path / "site" / "simulations"
+        sim_dir.mkdir(parents=True)
+        dummy_sim = sim_dir / "fwg.js"
+        dummy_sim.write_text("var label = '60 °C';", encoding="utf-8")
+
+        result = sanitize_js_file(dummy_sim)
+        assert result is False
+        assert dummy_sim.read_text(encoding="utf-8") == "var label = '60 °C';"
+
+    def test_sanitize_directory_skips_code_folders(self, tmp_path):
+        site_dir = tmp_path / "site"
+        js_dir = site_dir / "js"
+        sim_dir = site_dir / "simulations"
+        js_dir.mkdir(parents=True)
+        sim_dir.mkdir(parents=True)
+        (js_dir / "app.js").write_text("var x = 1;", encoding="utf-8")
+        (sim_dir / "sim.js").write_text("var y = 2;", encoding="utf-8")
+
+        mod, tot = sanitize_directory(site_dir)
+        assert mod == 0
+        assert tot == 0

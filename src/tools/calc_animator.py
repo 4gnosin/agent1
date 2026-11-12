@@ -32,13 +32,28 @@ try:
         title: str = Field(description="Παιδαγωγικός τίτλος επίλυσης")
         steps: list[StepTextEnrichment] = Field(description="Λίστα των 4 εμπλουτισμένων βημάτων")
 
+    class FullAnimationStep(BaseModel):
+        step: int = Field(description="Αριθμός βήματος (αυστηρά 1, 2, 3 ή 4)")
+        kicker: str = Field(description="Παιδαγωγικός τίτλος του βήματος (χωρίς εξισώσεις)")
+        text: str = Field(description="Αναλυτική λεκτική επεξήγηση για μαθητή ΕΠΑ.Λ. (μόνο πεζό κείμενο και απλές μεταβλητές σε $...$)")
+        math: str = Field(description="Καθαρό LaTeX/KaTeX ΧΩΡΙΣ εξωτερικά $...$ ή \\[...\\] (πολλές γραμμές με \\begin{aligned}...\\end{aligned})")
+        note: str = Field(description="Παιδαγωγική επισήμανση ή SOS συμβουλή εξετάσεων")
+        highlight: bool = Field(description="True ΜΟΝΟ στο Βήμα 4 (τελικό αποτέλεσμα), False στα Βήματα 1-3")
+
+    class FullAnimationSpec(BaseModel):
+        title: str = Field(description="Παιδαγωγικός τίτλος επίλυσης (π.χ. Υπολογισμός ... (#κωδικός))")
+        steps: list[FullAnimationStep] = Field(description="Ακριβώς 4 διαδοχικά αναλυτικά βήματα επίλυσης (step 1..4)")
+
 except ImportError:
     StepTextEnrichment = None
     AnimationEnrichment = None
+    FullAnimationStep = None
+    FullAnimationSpec = None
 
 from src.validators.site_validator import SiteValidator
 from src.utils.agent_memory import get_agent_memory
-from src.utils.latex_sanitizer import sanitize_obj, sanitize_text
+from src.utils.api_retry import call_with_retry
+from src.utils.latex_sanitizer import sanitize_math_inner, sanitize_obj, sanitize_text
 
 SUBJECT_TITLES = {
     "b/thermod": "Β' Τάξη | Στοιχεία Τεχνικής Θερμοδυναμικής – Εφαρμογές",
@@ -105,10 +120,66 @@ def resolve_subject_key(raw_input: str, available_keys: list[str]) -> str | None
     return None
 
 
+def load_exercise_animations(anim_file: Path) -> dict[str, Any]:
+    """Φορτώνει το υφιστάμενο αρχείο animation αν υπάρχει και επιστρέφει το λεξικό του."""
+    if not anim_file.is_file():
+        return {}
+    text = anim_file.read_text(encoding="utf-8").strip()
+    m = re.search(r'window\.EXERCISE_ANIMATIONS\[.*?\]\s*=\s*', text)
+    if m:
+        json_str = text[m.end():].strip().rstrip(";").strip()
+        try:
+            data = json.loads(json_str)
+            if isinstance(data, dict):
+                return data
+        except Exception:
+            return {}
+    return {}
+
+
+def has_item_animation(item: dict[str, Any], idx: int, ex_anims: dict[str, Any]) -> bool:
+    """Ελέγχει αν ένα υπολογιστικό ερώτημα διαθέτει έτοιμο animation."""
+    if item.get("animation") and isinstance(item["animation"], dict) and item["animation"].get("steps"):
+        return True
+    if not ex_anims:
+        return False
+    if "steps" in ex_anims and isinstance(ex_anims["steps"], list) and len(ex_anims["steps"]) > 0:
+        return True
+    subq = str(item.get("subq", "")).strip()
+    if subq and subq in ex_anims:
+        val = ex_anims[subq]
+        if isinstance(val, dict) and val.get("steps"):
+            return True
+    clean_subq = re.sub(r"^[^\dα-ωa-z]+", "", subq, flags=re.IGNORECASE).strip()
+    if clean_subq and clean_subq in ex_anims:
+        val = ex_anims[clean_subq]
+        if isinstance(val, dict) and val.get("steps"):
+            return True
+    for k in (idx, str(idx), "default"):
+        if k in ex_anims:
+            val = ex_anims[k]
+            if isinstance(val, dict) and val.get("steps"):
+                return True
+    return False
+
+
+def save_exercise_animations(anim_file: Path, ex_id: str, anim_map: dict[str, Any]) -> None:
+    """Αποθηκεύει το απομονωμένο αρχείο animation στο site/animations/{grade}/{subject}/{exId}.js."""
+    anim_file.parent.mkdir(parents=True, exist_ok=True)
+    sanitized = sanitize_obj(anim_map)
+    json_str = json.dumps(sanitized, ensure_ascii=False, indent=2)
+    content = (
+        "window.EXERCISE_ANIMATIONS = window.EXERCISE_ANIMATIONS || {};\n"
+        f'window.EXERCISE_ANIMATIONS["{ex_id}"] = {json_str};\n'
+    )
+    anim_file.write_text(content, encoding="utf-8")
+
+
 def scan_computational_exercises(base_dir: Path | None = None) -> dict[str, Any]:
     """
     Σαρώνει όλα τα αρχεία ασκήσεων και εντοπίζει ποια μαθήματα και ποια κεφάλαια
-    περιέχουν υπολογιστικές ασκήσεις (kind == 'calc').
+    περιέχουν υπολογιστικές ασκήσεις (kind == 'calc'), ελέγχοντας τόσο τα αρχεία
+    ασκήσεων όσο και τον απομονωμένο κατάλογο site/animations/.
     """
     base_dir = base_dir or Path.cwd()
     exercises_dir = base_dir / "site" / "exercises"
@@ -168,13 +239,17 @@ def scan_computational_exercises(base_dir: Path | None = None) -> dict[str, Any]
             stats["total_exercises"] += 1
             ch_dict["exercises_count"] += 1
             has_calc = False
-            for item in ex.get("items", []):
+            ex_id = ex.get("id")
+            anim_file = base_dir / "site" / "animations" / grade / subject / f"{ex_id}.js"
+            ex_anims = load_exercise_animations(anim_file)
+
+            for idx, item in enumerate(ex.get("items", [])):
                 if item.get("kind") == "calc":
                     has_calc = True
                     stats["total_calc_items"] += 1
                     ch_dict["calc_items_count"] += 1
                     stats["subjects"][subj_key]["total_calc"] += 1
-                    if "animation" in item and item["animation"]:
+                    if has_item_animation(item, idx, ex_anims):
                         stats["animated_calc_items"] += 1
                         ch_dict["animated_count"] += 1
                         stats["subjects"][subj_key]["animated_calc"] += 1
@@ -401,47 +476,61 @@ def build_animation_locally(item: dict[str, Any], exercise_meta: dict[str, Any])
     step1_math = "\\begin{aligned}\n" + " \\\\\n".join(givens_lines) + "\n\\end{aligned}"
     step1_text = "Καταγραφή όλων των γνωστών δεδομένων της άσκησης και έλεγχος των μονάδων μέτρησης σε μονάδες SI."
 
+    def _expr_to_aligned_lines(expr: str, require_digit: bool = False) -> list[str]:
+        cleaned = format_greek_math((expr or "").strip().strip("$").strip())
+        cleaned = re.sub(r"^\\begin\{aligned\*?\}\s*", "", cleaned)
+        cleaned = re.sub(r"\s*\\end\{aligned\*?\}$", "", cleaned)
+        out_lines: list[str] = []
+        raw_rows = re.split(r"\\\\|\n", cleaned)
+        for row in raw_rows:
+            for sp in re.split(r"\\(?:Rightarrow|implies)", row):
+                sp_norm = re.sub(r"\s*&\s*=", " =", sp.strip().strip("$").strip())
+                if not sp_norm or "=" not in sp_norm or "0 = 0" in sp_norm:
+                    continue
+                if require_digit and not re.search(r"\d", sp_norm):
+                    continue
+                eq_parts = [p.strip() for p in sp_norm.split("=")]
+                if eq_parts[0]:
+                    out_lines.append(f"{eq_parts[0]} &= {eq_parts[1]}")
+                    for extra in eq_parts[2:]:
+                        if extra:
+                            out_lines.append(f"&= {extra}")
+                else:
+                    for extra in eq_parts[1:]:
+                        if extra:
+                            out_lines.append(f"&= {extra}")
+        return out_lines
+
     # 3. Βήμα 2: Επιλογή Βασικού Τύπου & Αλγεβρική Επίλυση
-    step2_lines = []
+    step2_lines: List[str] = []
     base_formula = format_greek_math(formula_raw.strip().strip("$").strip())
     exp_math_chunks = re.findall(r"\$([^$]+)\$", explain_raw)
     alg_found = False
 
     if "\\Rightarrow" in base_formula or "\\implies" in base_formula:
-        parts = re.split(r"\\(?:Rightarrow|implies)", base_formula)
-        for p in parts:
-            p_c = format_greek_math(p.strip())
-            if p_c and "=" in p_c:
-                lhs, rhs = p_c.split("=", 1)
-                step2_lines.append(f"{lhs.strip()} &= {rhs.strip()}")
-        alg_found = True
+        step2_lines.extend(_expr_to_aligned_lines(base_formula))
+        alg_found = bool(step2_lines)
 
     if not alg_found:
         for chunk in exp_math_chunks:
-            if ("\\Rightarrow" in chunk or "\\implies" in chunk) and not re.search(r"\d{2,}", chunk):
-                parts = re.split(r"\\(?:Rightarrow|implies)", chunk)
-                for p in parts:
-                    p_c = format_greek_math(p.strip())
-                    if p_c and "=" in p_c:
-                        lhs, rhs = p_c.split("=", 1)
-                        step2_lines.append(f"{lhs.strip()} &= {rhs.strip()}")
-                        alg_found = True
-                if alg_found:
+            has_numeric_assign = bool(re.search(r"=\s*[-+]?\d+(?:[.,]\d+)?(?:\s*(?:\\text|\\,|\\;|[a-zA-Z])|$)", chunk))
+            if ("\\Rightarrow" in chunk or "\\implies" in chunk) and not re.search(r"\d{2,}", chunk) and not has_numeric_assign:
+                lines = _expr_to_aligned_lines(chunk)
+                if lines:
+                    step2_lines.extend(lines)
+                    alg_found = True
                     break
 
     if not step2_lines:
-        if "=" in base_formula:
-            lhs, rhs = base_formula.split("=", 1)
-            step2_lines.append(f"{lhs.strip()} &= {rhs.strip()}")
-        else:
-            step2_lines.append(base_formula)
+        lines = _expr_to_aligned_lines(base_formula)
+        step2_lines.extend(lines if lines else [base_formula])
 
     step2_math = "\\begin{aligned}\n" + " \\\\\n".join(step2_lines) + "\n\\end{aligned}"
     step2_text = f"Επιλογή του βασικού τύπου και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (${target}$)."
 
     # 4. Βήμα 3: Αριθμητική Αντικατάσταση & Σταδιακές Απλοποιήσεις
-    step3_lines = []
-    
+    step3_lines: List[str] = []
+
     # Πρώτη προτεραιότητα: chunk που περιέχει το target
     target_chunk = None
     for chunk in exp_math_chunks:
@@ -450,28 +539,15 @@ def build_animation_locally(item: dict[str, Any], exercise_meta: dict[str, Any])
             if is_same_variable(var_lhs, target) or target in chunk or target.lower() in chunk.lower():
                 target_chunk = chunk
                 break
-                
+
     candidate_chunks = [target_chunk] if target_chunk else exp_math_chunks
     for chunk in candidate_chunks:
         if not chunk:
             continue
-        if "=" in chunk and re.search(r"\d", chunk) and not ("0 = 0" in chunk):
-            c_clean = format_greek_math(chunk)
-            if "\\Rightarrow" in c_clean or "\\implies" in c_clean:
-                sub_parts = re.split(r"\\(?:Rightarrow|implies)", c_clean)
-                for sp in sub_parts:
-                    if "=" in sp and re.search(r"\d", sp):
-                        eq_parts = sp.split("=")
-                        step3_lines.append(f"{eq_parts[0].strip()} &= {eq_parts[1].strip()}")
-                        for extra in eq_parts[2:]:
-                            step3_lines.append(f"&= {extra.strip()}")
-            else:
-                eq_parts = c_clean.split("=")
-                step3_lines.append(f"{eq_parts[0].strip()} &= {eq_parts[1].strip()}")
-                for extra in eq_parts[2:]:
-                    step3_lines.append(f"&= {extra.strip()}")
-            if step3_lines:
-                break
+        lines = _expr_to_aligned_lines(chunk, require_digit=True)
+        if lines:
+            step3_lines.extend(lines)
+            break
 
     if not step3_lines or len(step3_lines) == 1:
         if is_same_variable(target, r"\Delta U") and any(is_same_variable("W", s) for s in seen_vars):
@@ -565,19 +641,21 @@ def build_animation_locally(item: dict[str, Any], exercise_meta: dict[str, Any])
 
 
 _GEMINI_CLIENT = None
+_GEMINI_CLIENT_KEY = None
 
 
 def get_gemini_client() -> Any:
-    global _GEMINI_CLIENT
-    if _GEMINI_CLIENT is not None:
-        return _GEMINI_CLIENT
+    global _GEMINI_CLIENT, _GEMINI_CLIENT_KEY
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key or genai is None:
         return None
+    if _GEMINI_CLIENT is not None and _GEMINI_CLIENT_KEY == api_key:
+        return _GEMINI_CLIENT
     _GEMINI_CLIENT = genai.Client(
         api_key=api_key,
-        http_options=types.HttpOptions(client_args={"verify": False, "timeout": 15.0}) if types else None,
+        http_options=types.HttpOptions(client_args={"verify": False, "timeout": 60.0}) if types else None,
     )
+    _GEMINI_CLIENT_KEY = api_key
     return _GEMINI_CLIENT
 
 
@@ -731,53 +809,237 @@ def parse_gemini_json(raw_text: str) -> Any:
                 return None
 
 
+_DEFAULT_STEP_KICKERS = [
+    "Βήμα 1: Συλλογή Δεδομένων & Μετατροπές",
+    "Βήμα 2: Επιλογή Τύπου & Αναλυτική Επίλυση",
+    "Βήμα 3: Αντικατάσταση & Αναλυτικές Πράξεις",
+    "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
+]
+
+
+def _has_balanced_braces(expr: str) -> bool:
+    """Ελέγχει αν τα άγκιστρα {...} είναι ισορροπημένα (αγνοώντας escaped \\{ και \\})."""
+    depth = 0
+    i = 0
+    n = len(expr)
+    while i < n:
+        ch = expr[i]
+        if ch == "\\" and i + 1 < n:
+            i += 2
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth < 0:
+                return False
+        i += 1
+    return depth == 0
+
+
+def _strip_outer_math_delimiters(expr: str) -> str:
+    """Αφαιρεί εξωτερικούς οριοθέτες math ($$, \\[...\\], \\(...\\), μονά $)."""
+    s = (expr or "").strip()
+    while True:
+        prev = s
+        if s.startswith("$$") and s.endswith("$$") and len(s) >= 4:
+            s = s[2:-2].strip()
+        elif s.startswith(r"\[") and s.endswith(r"\]") and len(s) >= 4:
+            s = s[2:-2].strip()
+        elif s.startswith(r"\(") and s.endswith(r"\)") and len(s) >= 4:
+            s = s[2:-2].strip()
+        elif s.startswith("$") and s.endswith("$") and len(s) >= 2 and s.count("$") == 2:
+            s = s[1:-1].strip()
+        if s == prev:
+            break
+    return s
+
+
+def _normalize_ai_math(raw_math: str) -> str:
+    """Κανονικοποιεί LaTeX/KaTeX από LLM και αποτρέπει διπλά aligned ή \\triangle."""
+    if not raw_math:
+        return ""
+    s = _strip_outer_math_delimiters(raw_math)
+    s = sanitize_math_inner(s)
+    s = re.sub(r"\\triangle\b", r"\\Delta", s).strip()
+    if not s:
+        return ""
+
+    aligned_begins = list(re.finditer(r"\\begin\{aligned\*?\}", s))
+    if len(aligned_begins) > 1 or (
+        len(aligned_begins) == 1
+        and not (re.match(r"^\\begin\{aligned\*?\}", s) and re.search(r"\\end\{aligned\*?\}$", s))
+    ):
+        inner = re.sub(r"\\(?:begin|end)\{aligned\*?\}", "", s)
+        inner = re.sub(r"^(?:\s|\\\\)+|(?:\s|\\\\)+$", "", inner)
+        if inner:
+            s = f"\\begin{{aligned}}\n{inner}\n\\end{{aligned}}"
+    elif len(aligned_begins) == 0 and r"\\" in s and r"\begin{" not in s:
+        s = f"\\begin{{aligned}}\n{s}\n\\end{{aligned}}"
+
+    return s
+
+
+def _has_analytical_steps(anim: dict[str, Any]) -> bool:
+    """Επιστρέφει True αν τα Βήματα 2 και 3 περιέχουν πολυγραμμική αναλυτική πορεία."""
+    steps = anim.get("steps")
+    if not isinstance(steps, list) or len(steps) < 4:
+        return False
+    step2_math = str(steps[1].get("math", ""))
+    step3_math = str(steps[2].get("math", ""))
+    return (r"\\" in step2_math) and (r"\\" in step3_math)
+
+
+def _normalize_ai_animation(
+    raw_anim: dict[str, Any] | None,
+    item: dict[str, Any],
+    exercise_meta: dict[str, Any],
+    fallback: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Επικυρώνει και κανονικοποιεί AI-παραγόμενο 4-βηματικό animation με ασφαλές fallback."""
+    fb = fallback if fallback is not None else build_animation_locally(item, exercise_meta)
+    if not isinstance(raw_anim, dict):
+        return sanitize_obj(fb)
+
+    raw_steps = raw_anim.get("steps")
+    if not isinstance(raw_steps, list) or len(raw_steps) != 4 or not all(isinstance(st, dict) for st in raw_steps):
+        return sanitize_obj(fb)
+
+    try:
+        step_nums = {int(st.get("step", -1)) for st in raw_steps}
+    except (TypeError, ValueError):
+        step_nums = set()
+    ordered_raw = sorted(raw_steps, key=lambda st: int(st["step"])) if step_nums == {1, 2, 3, 4} else raw_steps
+
+    fb_title = str(fb.get("title") or "Αναλυτική Επίλυση")
+    raw_title = str(raw_anim.get("title") or fb_title)
+    title = sanitize_text(sanitize_and_validate_pedagogy(raw_title, fb_title))
+
+    norm_steps: list[dict[str, Any]] = []
+    for idx, raw_step in enumerate(ordered_raw):
+        fb_step = fb["steps"][idx]
+        fb_kicker = str(fb_step.get("kicker") or _DEFAULT_STEP_KICKERS[idx])
+        fb_text = str(fb_step.get("text") or "")
+        fb_note = str(fb_step.get("note") or "")
+        fb_math = str(fb_step.get("math") or "")
+
+        kicker = sanitize_text(sanitize_and_validate_pedagogy(str(raw_step.get("kicker") or fb_kicker), fb_kicker))
+        text = sanitize_text(sanitize_and_validate_pedagogy(str(raw_step.get("text") or fb_text), fb_text))
+        if not text.strip():
+            text = fb_text
+        note = sanitize_text(sanitize_and_validate_pedagogy(str(raw_step.get("note") or fb_note), fb_note))
+
+        math_norm = _normalize_ai_math(str(raw_step.get("math") or ""))
+        if (
+            not math_norm
+            or not _has_balanced_braces(math_norm)
+            or r"\text{$" in math_norm
+            or r"\triangle" in math_norm
+            or "$" in math_norm
+        ):
+            math_norm = fb_math
+
+        norm_steps.append(
+            {
+                "step": idx + 1,
+                "kicker": kicker,
+                "text": text,
+                "description": text,
+                "math": math_norm,
+                "note": note,
+                "highlight": idx == 3,
+            }
+        )
+
+    return sanitize_obj({"title": title, "steps": norm_steps})
+
+
 def generate_animation_with_gemini(
     item: dict[str, Any],
     exercise_meta: dict[str, Any],
-) -> dict[str, Any] | None:
-    """Fallback παραγωγή μέσω Gemini αν λείπουν εντελώς τα δεδομένα."""
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key or genai is None:
-        return build_animation_locally(item, exercise_meta)
+    base_anim: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Παράγει πλήρες 4-βηματικό αναλυτικό animation (με αλγεβρική επίλυση & αναλυτικές πράξεις) μέσω Gemini API."""
+    fallback = base_anim if base_anim is not None else build_animation_locally(item, exercise_meta)
+    client = get_gemini_client()
+    if client is None or types is None:
+        return sanitize_obj(fallback)
 
-    client = genai.Client(
-        api_key=api_key,
-        http_options=types.HttpOptions(client_args={"verify": False, "timeout": 45.0}) if types else None,
-    )
+    memory_rules = ""
+    try:
+        memory_rules = get_agent_memory().get_prompt_injection("animation")
+    except Exception:
+        pass
 
     system_instruction = (
-        "Είσαι ο καθηγητής Μηχανολογίας και Animator του 4gnosin.github.io.\n"
-        "Δημιούργησε ένα 4-step Manim Animation JSON (step, kicker, text, math, note, highlight).\n"
-        "Μαθηματικά σε καθαρό LaTeX με κατακόρυφη στοίχιση ισοτήτων (aligned).\n"
+        "Είσαι έμπειρος καθηγητής Μηχανολογίας ΕΠΑ.Λ. και δημιουργός εκπαιδευτικών animations για το 4gnosin.github.io.\n"
+        "Δημιούργησε ΑΥΣΤΗΡΑ 4 αναλυτικά βήματα επίλυσης (step 1..4) σε καθαρό JSON (title, steps) με βάση τη δομή:\n"
+        "- Βήμα 1 (Συλλογή Δεδομένων & Μετατροπές): Κατέγραψε όλα τα δεδομένα και τις μετατροπές μονάδων σε ένα \\begin{aligned}...\\end{aligned} "
+        "(1 μέγεθος ή μετατροπή ανά γραμμή με \\\\ και &=, ΧΩΡΙΣ τεράστια οριζόντια κενά \\quad).\n"
+        "- Βήμα 2 (Επιλογή Βασικού Τύπου & Αναλυτική Αλγεβρική Επίλυση): Ξεκίνα από τον βασικό νόμο/τύπο και δείξε ΑΝΑΛΥΤΙΚΑ, "
+        "γραμμή-γραμμή με \\\\ &=, ΟΛΑ τα αλγεβρικά βήματα επίλυσης/απομόνωσης του ζητούμενου (χιαστί, απαλοιφή παρονομαστών, μεταφορά όρων, ρίζα, τριγωνομετρική/βοηθητική αντικατάσταση). "
+        "ΜΗΝ παραλείπεις ενδιάμεσα αλγεβρικά βήματα.\n"
+        "- Βήμα 3 (Αριθμητική Αντικατάσταση & Αναλυτικές Πράξεις): Αντικατέστησε τα αριθμητικά δεδομένα στον επιλυμένο τύπο και δείξε ΑΝΑΛΥΤΙΚΑ, "
+        "γραμμή-γραμμή με \\\\ &=, τις ενδιάμεσες πράξεις, δυνάμεις, ρίζες, κλάσματα και απλοποιήσεις μέχρι να φανεί καθαρά πώς προκύπτει το νούμερο.\n"
+        "- Βήμα 4 (Τελικό Αποτέλεσμα & Μονάδα Μέτρησης): Κάνε highlight=true, γράψε καθαρά το τελικό αποτέλεσμα με μονάδα (\\text{...}) και ελληνική υποδιαστολή {,} αν υπάρχουν δεκαδικά, "
+        "συν σύντομη φυσική/τεχνική ερμηνεία στο text και SOS συμβουλή εξετάσεων στο note.\n\n"
+        "ΑΥΣΤΗΡΟΙ ΚΑΝΟΝΕΣ KaTeX / ΕΚΠΑΙΔΕΥΤΙΚΗΣ ΣΥΝΤΑΞΗΣ:\n"
+        "1. Το πεδίο math περιέχει ΜΟΝΟ καθαρό LaTeX ΧΩΡΙΣ εξωτερικά $, $$, \\[...\\] ή \\(...\\).\n"
+        "2. Πολυγραμμικές εξισώσεις ΜΟΝΟ με ένα \\begin{aligned}...\\end{aligned} (γραμμές με \\\\ και &=).\n"
+        "3. Ελληνική τριγωνομετρία ΜΟΝΟ: \\text{ημ}, \\text{συν}, \\text{εφ}, \\text{σφ} (ΠΟΤΕ \\sin, \\cos, \\tan, \\cot).\n"
+        "4. ΠΟΤΕ \\triangle (ΜΟΝΟ \\Delta).\n"
+        "5. Στα πεδία title, kicker, text, note βάλε ΜΟΝΟ πεζό κείμενο και απλές μεταβλητές σε $...$ (ΠΟΤΕ \\text{$...$} και ΠΟΤΕ μεγάλα κλάσματα/εξισώσεις στο text).\n"
+        "6. Διατήρησε απόλυτη μαθηματική συμφωνία με την εκφώνηση, τη λύση και την τελική απάντηση.\n"
     )
+    if memory_rules:
+        system_instruction += f"\nΚΑΝΟΝΕΣ ΜΝΗΜΗΣ:\n{memory_rules}\n"
 
     prompt = (
-        f"Εκφώνηση: {exercise_meta.get('stem')}\n"
-        f"Ερώτημα: {item.get('prompt')}\n"
-        f"Τύπος: {item.get('formula')}\n"
-        f"Απάντηση: {item.get('answer')} {item.get('unit')}\n"
-        f"Λύση: {item.get('explain')}\n"
+        f"Κωδικός Θέματος: #{exercise_meta.get('bankCode', '')} | Τίτλος: {exercise_meta.get('title', '')}\n"
+        f"Θεωρία / Πλαίσιο: {exercise_meta.get('theory', '')}\n"
+        f"Εκφώνηση: {exercise_meta.get('stem', '')}\n"
+        f"Ερώτημα ({item.get('subq', '') or 'α'}): {item.get('prompt', '')}\n"
+        f"Δεδομένα (givens): {json.dumps(item.get('givens', []), ensure_ascii=False)}\n"
+        f"Τύπος: {item.get('formula', '')}\n"
+        f"Απάντηση: {item.get('answer', '')} {item.get('unit', '')}\n"
+        f"Υπάρχουσα εξήγηση/λύση: {item.get('explain', '')}\n"
+        f"Τοπικό προσχέδιο αναφοράς (JSON):\n{json.dumps(fallback, ensure_ascii=False, indent=2)}\n"
     )
 
-    for m_name in ["gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-flash-latest"]:
+    preferred_model = (os.getenv("GEMINI_MODEL") or "gemini-3.8-flash").strip()
+    candidate_models = list(
+        dict.fromkeys([preferred_model, "gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-flash-latest"])
+    )
+
+    config_kwargs: dict[str, Any] = {
+        "system_instruction": system_instruction,
+        "response_mime_type": "application/json",
+        "temperature": 0.1,
+    }
+    if FullAnimationSpec is not None:
+        config_kwargs["response_schema"] = FullAnimationSpec
+
+    for m_name in candidate_models:
         try:
-            resp = client.models.generate_content(
+            resp = call_with_retry(
+                client.models.generate_content,
                 model=m_name,
                 contents=prompt,
-                config=types.GenerateContentConfig(
-                    system_instruction=system_instruction,
-                    response_mime_type="application/json",
-                    temperature=0.1,
-                ),
+                config=types.GenerateContentConfig(**config_kwargs),
+                max_attempts=3,
+                base_delay=2.0,
+                max_delay=10.0,
+                label=f"AnimGen({m_name})",
             )
             if resp and resp.text:
                 data = parse_gemini_json(resp.text)
-                if isinstance(data, dict) and "steps" in data:
-                    return data
-        except Exception:
+                if isinstance(data, dict) and isinstance(data.get("steps"), list) and len(data["steps"]) == 4:
+                    return _normalize_ai_animation(data, item, exercise_meta, fallback=fallback)
+        except Exception as exc:
+            print(f" ⚠️ [AnimGen {m_name}: {exc}]", end="", flush=True)
             continue
 
-    return build_animation_locally(item, exercise_meta)
+    return sanitize_obj(fallback)
 
 
 def animate_exercise_file(
@@ -785,13 +1047,27 @@ def animate_exercise_file(
     target_bank_code: str | None = None,
     overwrite_existing: bool = False,
     mode: str = "hybrid",
+    sync_catalog: bool = True,
 ) -> tuple[int, list[str]]:
     """
     Επεξεργάζεται ένα αρχείο ασκήσεων, παράγει animations για τα calc items
-    με βάση το mode ('local', 'hybrid', 'ai-pedagogy'), και αποθηκεύει το αρχείο επικυρώνοντάς το.
+    με βάση το mode ('local', 'hybrid', 'ai-pedagogy', 'ai', 'ai-full'), και αποθηκεύει τα animations
+    απομονωμένα στο site/animations/{grade}/{subject}/{exId}.js.
     """
     val = SiteValidator()
     mem = get_agent_memory()
+
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    exercises_dir = base_dir / "site" / "exercises"
+
+    try:
+        rel_parts = js_path.relative_to(exercises_dir).parts
+        grade = rel_parts[0]
+        subject = rel_parts[1]
+    except Exception:
+        idx_ex = js_path.parts.index("exercises")
+        grade = js_path.parts[idx_ex + 1]
+        subject = js_path.parts[idx_ex + 2]
 
     content = js_path.read_text(encoding="utf-8")
     exercises = val.extract_json_from_js(content)
@@ -805,64 +1081,108 @@ def animate_exercise_file(
     updated_count = 0
     logs: list[str] = []
 
-    pending_items: list[tuple[dict[str, Any], dict[str, Any]]] = []
+    loaded_anims: dict[str, tuple[Path, dict[str, Any]]] = {}
+    pending_items: list[tuple[dict[str, Any], dict[str, Any], int, dict[str, Any]]] = []
+
     for ex in exercises:
         bcode = str(ex.get("bankCode", "")).strip()
         if target_bank_code and bcode != target_bank_code:
             continue
+        ex_id = str(ex.get("id", "")).strip()
+        if not ex_id:
+            continue
+        anim_file = base_dir / "site" / "animations" / grade / subject / f"{ex_id}.js"
+        ex_anims = load_exercise_animations(anim_file)
+        loaded_anims[ex_id] = (anim_file, ex_anims)
+
         ex_meta = {
+            "id": ex_id,
             "title": ex.get("title", ""),
             "code": ex.get("code", ""),
             "theory": ex.get("theory", ""),
             "stem": ex.get("stem", ""),
             "bankCode": bcode,
         }
-        for item in ex.get("items", []):
+        for idx, item in enumerate(ex.get("items", [])):
             if item.get("kind") != "calc":
                 continue
-            if "animation" in item and item["animation"] and not overwrite_existing:
+            if not overwrite_existing and has_item_animation(item, idx, ex_anims):
                 continue
-            pending_items.append((item, ex_meta))
+            pending_items.append((ex, item, idx, ex_meta))
 
     if pending_items:
-        print(f"\n🎬 Επεξεργασία Manim Animations ({mode.upper()}): {len(pending_items)} υπολογιστικά ερωτήματα...")
+        effective_mode = "ai" if mode == "ai-full" else mode
+        print(f"\n🎬 Επεξεργασία Manim Animations ({effective_mode.upper()}): {len(pending_items)} υπολογιστικά ερωτήματα...")
+        anims_modified_for_ex: dict[str, dict[str, Any]] = {}
 
-        for item, ex_meta in pending_items:
+        for ex, item, idx, ex_meta in pending_items:
+            ex_id = ex_meta["id"]
             bcode = ex_meta["bankCode"]
-            subq = item.get("subq", "")
+            subq = str(item.get("subq", "")).strip()
+            key = subq if subq else (str(idx) if len(ex.get("items", [])) > 1 else "default")
 
             # 1. Παραγωγή βάσης από τον τοπικό builder (πάντα ασφαλής, 0 tokens)
             anim_data = build_animation_locally(item, ex_meta)
 
             # 2. Εφαρμογή mode
-            if mode == "ai-pedagogy":
-                print(f"   ⏳ AI Παιδαγωγικός έλεγχος για #{bcode} ({subq})...", end="", flush=True)
+            if effective_mode == "ai":
+                print(f"   ⏳ AI 4-βηματική αναλυτική παραγωγή (Gemini) για #{bcode} ({subq or key})...", end="", flush=True)
+                t_ai_0 = time.time()
+                anim_data = generate_animation_with_gemini(item, ex_meta, base_anim=anim_data)
+                dt_ai = time.time() - t_ai_0
+                print(f" ✓ ({dt_ai:.1f}s)")
+                time.sleep(0.5)
+            elif effective_mode == "ai-pedagogy":
+                print(f"   ⏳ AI Παιδαγωγικός έλεγχος για #{bcode} ({subq or key})...", end="", flush=True)
                 t_ai_0 = time.time()
                 anim_data = inspect_pedagogy_with_ai(anim_data, item, ex_meta)
                 dt_ai = time.time() - t_ai_0
                 print(f" ✓ ({dt_ai:.1f}s)")
                 time.sleep(1.0)
-            elif mode == "hybrid":
-                # Αν λείπουν εντελώς formula και explain, καλούμε το AI
-                if not item.get("formula") and not item.get("explain"):
-                    print(f"   ⏳ AI Fallback (ελλιπή δεδομένα) για #{bcode} ({subq})...", end="", flush=True)
-                    anim_ai = generate_animation_with_gemini(item, ex_meta)
-                    if anim_ai:
-                        anim_data = anim_ai
-                    print(" ✓")
-                    time.sleep(1.0)
+            elif effective_mode == "hybrid":
+                needs_ai_fallback = not item.get("formula") and not item.get("explain")
+                lacks_analytical = not _has_analytical_steps(anim_data)
+                if (needs_ai_fallback or lacks_analytical) and os.environ.get("GEMINI_API_KEY"):
+                    reason = "ελλιπή δεδομένα" if needs_ai_fallback else "αναλυτική επίλυση & πράξεις"
+                    print(f"   ⏳ AI ({reason}) για #{bcode} ({subq or key})...", end="", flush=True)
+                    t_ai_0 = time.time()
+                    anim_data = generate_animation_with_gemini(item, ex_meta, base_anim=anim_data)
+                    dt_ai = time.time() - t_ai_0
+                    print(f" ✓ ({dt_ai:.1f}s)")
+                    time.sleep(0.5)
 
             # 3. Έλεγχος ποιότητας μέσω AgentMemory
             warns = mem.validate_code_standards(json.dumps(anim_data, ensure_ascii=False))
             if warns:
                 for w in warns:
-                    logs.append(f"⚠️ [AgentMemory #{bcode} ({subq})]: {w}")
+                    logs.append(f"⚠️ [AgentMemory #{bcode} ({subq or key})]: {w}")
 
-            item["animation"] = sanitize_obj(anim_data)
+            if ex_id not in anims_modified_for_ex:
+                anims_modified_for_ex[ex_id] = dict(loaded_anims[ex_id][1])
+
+            anims_modified_for_ex[ex_id][key] = sanitize_obj(anim_data)
             updated_count += 1
-            logs.append(f"Προστέθηκε animation στο θέμα #{bcode} ({subq})")
+            logs.append(f"Προστέθηκε animation στο θέμα #{bcode} ({subq or key})")
 
-    if updated_count > 0:
+        # Αποθήκευση απομονωμένων αρχείων animations
+        for ex_id, anim_dict in anims_modified_for_ex.items():
+            anim_file = loaded_anims[ex_id][0]
+            save_exercise_animations(anim_file, ex_id, anim_dict)
+            val_errs = val.validate_animation_file(anim_file)
+            if val_errs:
+                logs.append(f"⚠️ Προσοχή στο animation {anim_file.name}: {len(val_errs)} σφάλματα επικύρωσης")
+            else:
+                logs.append(f"✅ Επιτυχής επικύρωση animation: {anim_file.relative_to(base_dir)}")
+
+    # Καθαρισμός τυχόν παλαιών inline animations από το αρχείο ασκήσεων
+    had_inline = False
+    for ex in exercises:
+        for it in ex.get("items", []):
+            if "animation" in it:
+                it.pop("animation", None)
+                had_inline = True
+
+    if had_inline:
         if header_style == "SUBJECT_DATA":
             header = (
                 "window.SUBJECT_DATA = window.SUBJECT_DATA || {};\n"
@@ -875,12 +1195,16 @@ def animate_exercise_file(
         sanitized_exercises = sanitize_obj(exercises)
         new_content = header + json.dumps(sanitized_exercises, ensure_ascii=False, indent=2) + "\n);\n"
         js_path.write_text(new_content, encoding="utf-8")
+        logs.append(f"🧹 Καθαρίστηκαν ενσωματωμένα animations από το {js_path.name}")
 
-        val_errs = val.validate_exercises_file(str(js_path))
-        if val_errs:
-            logs.append(f"⚠️ Προσοχή: Εμφανίστηκαν {len(val_errs)} σφάλματα επικύρωσης στο {js_path.name}")
-        else:
-            logs.append(f"✅ Επιτυχής επικύρωση (0 σφάλματα) για το {js_path.name}")
+    if updated_count > 0 and sync_catalog:
+        try:
+            from scripts.build_bundles import build_bundles
+            print("\n📦 Αυτόματη ανανέωση scripts_catalog.js και bundles...")
+            build_bundles()
+            logs.append("✅ Ενημερώθηκε το scripts_catalog.js και τα bundles")
+        except Exception as exc:
+            logs.append(f"⚠️ Σφάλμα κατά την ενημέρωση του καταλόγου: {exc}")
 
     return updated_count, logs
 
@@ -905,11 +1229,12 @@ def interactive_menu():
         return
 
     print("\nΜΕΘΟΔΟΣ ΠΑΡΑΓΩΓΗΣ:")
-    print(" [1] Hybrid (Προτεινόμενο: Script-First, ακαριαία εκτέλεση, AI μόνο όπου χρειάζεται)")
+    print(" [1] Hybrid (Προτεινόμενο: Script-First + AI για αναλυτική επίλυση όπου χρειάζεται)")
     print(" [2] Local (100% Python Script, 0 AI tokens, ακαριαία)")
     print(" [3] AI-Pedagogy (Script + Παιδαγωγικός Επιθεωρητής Gemini)")
-    m_choice = input("👉 Επιλογή μεθόδου [1-3] (προεπιλογή 1): ").strip()
-    mode_map = {"1": "hybrid", "2": "local", "3": "ai-pedagogy"}
+    print(" [4] AI Analytical (Gemini API — Πλήρης 4-βηματική αναλυτική λύση & πράξεις)")
+    m_choice = input("👉 Επιλογή μεθόδου [1-4] (προεπιλογή 1): ").strip()
+    mode_map = {"1": "hybrid", "2": "local", "3": "ai-pedagogy", "4": "ai"}
     selected_mode = mode_map.get(m_choice, "hybrid")
 
     if choice == "3":
@@ -931,7 +1256,7 @@ def interactive_menu():
             return
 
         print(f"\n⏳ Έναρξη παραγωγής animation για το θέμα #{target} ({selected_mode})...")
-        count, logs = animate_exercise_file(found_file, target_bank_code=target, overwrite_existing=True, mode=selected_mode)
+        count, logs = animate_exercise_file(found_file, target_bank_code=target, overwrite_existing=True, mode=selected_mode, sync_catalog=True)
         for l in logs:
             print(f"  • {l}")
         print(f"\n🎉 Ολοκληρώθηκε! Παράχθηκαν {count} animations.")
@@ -967,10 +1292,17 @@ def interactive_menu():
         print(f"\n⏳ Έναρξη παραγωγής animations για {sel_key} - Κεφάλαιο {sel_chapter:02d} ({selected_mode})...")
         total_gen = 0
         for f in ch_data["files"]:
-            c_count, logs = animate_exercise_file(f, overwrite_existing=False, mode=selected_mode)
+            c_count, logs = animate_exercise_file(f, overwrite_existing=False, mode=selected_mode, sync_catalog=False)
             total_gen += c_count
             for l in logs:
                 print(f"  • {l}")
+        if total_gen > 0:
+            try:
+                from scripts.build_bundles import build_bundles
+                print("\n📦 Αυτόματη ανανέωση scripts_catalog.js και bundles...")
+                build_bundles()
+            except Exception as exc:
+                print(f"⚠️ Σφάλμα καταλόγου: {exc}")
         print(f"\n🎉 Ολοκληρώθηκε! Παράχθηκαν συνολικά {total_gen} νέα animations.")
 
     elif choice == "2":
@@ -991,10 +1323,17 @@ def interactive_menu():
         total_gen = 0
         for c, cd in stats["subjects"][sel_key]["chapters"].items():
             for f in cd["files"]:
-                c_count, logs = animate_exercise_file(f, overwrite_existing=False, mode=selected_mode)
+                c_count, logs = animate_exercise_file(f, overwrite_existing=False, mode=selected_mode, sync_catalog=False)
                 total_gen += c_count
                 for l in logs:
                     print(f"  • {l}")
+        if total_gen > 0:
+            try:
+                from scripts.build_bundles import build_bundles
+                print("\n📦 Αυτόματη ανανέωση scripts_catalog.js και bundles...")
+                build_bundles()
+            except Exception as exc:
+                print(f"⚠️ Σφάλμα καταλόγου: {exc}")
         print(f"\n🎉 Ολοκληρώθηκε! Παράχθηκαν συνολικά {total_gen} νέα animations για το μάθημα {sel_key}.")
 
 
@@ -1008,9 +1347,9 @@ def main():
     parser.add_argument(
         "--mode",
         type=str,
-        choices=["local", "hybrid", "ai-pedagogy"],
+        choices=["local", "hybrid", "ai-pedagogy", "ai", "ai-full"],
         default="hybrid",
-        help="Μέθοδος παραγωγής: 'hybrid' (default, script-first + AI fallback), 'local' (100% script, 0 tokens), 'ai-pedagogy' (script + AI επιμελητής)",
+        help="Μέθοδος παραγωγής: 'hybrid' (default), 'local' (0 tokens), 'ai-pedagogy' (κείμενα), 'ai' / 'ai-full' (πλήρης 4-βηματική αναλυτική λύση via Gemini API)",
     )
 
     args = parser.parse_args()
@@ -1044,6 +1383,7 @@ def main():
             target_bank_code=target,
             overwrite_existing=args.overwrite,
             mode=args.mode,
+            sync_catalog=True,
         )
         for l in logs:
             print(f"  • {l}")
@@ -1070,10 +1410,17 @@ def main():
             print(f"\n⏳ Έναρξη παραγωγής animations για {target_key} - Κεφάλαιο {args.chapter:02d} ({args.mode})...")
             total_gen = 0
             for f in ch_data["files"]:
-                count, logs = animate_exercise_file(f, overwrite_existing=args.overwrite, mode=args.mode)
+                count, logs = animate_exercise_file(f, overwrite_existing=args.overwrite, mode=args.mode, sync_catalog=False)
                 total_gen += count
                 for l in logs:
                     print(f"  • {l}")
+            if total_gen > 0:
+                try:
+                    from scripts.build_bundles import build_bundles
+                    print("\n📦 Αυτόματη ανανέωση scripts_catalog.js και bundles...")
+                    build_bundles()
+                except Exception as exc:
+                    print(f"⚠️ Σφάλμα καταλόγου: {exc}")
             print(f"\n🎉 Ολοκληρώθηκε! Παράχθηκαν συνολικά {total_gen} νέα animations.")
             return
         else:
@@ -1081,10 +1428,17 @@ def main():
             total_gen = 0
             for c, cd in s_data["chapters"].items():
                 for f in cd["files"]:
-                    count, logs = animate_exercise_file(f, overwrite_existing=args.overwrite, mode=args.mode)
+                    count, logs = animate_exercise_file(f, overwrite_existing=args.overwrite, mode=args.mode, sync_catalog=False)
                     total_gen += count
                     for l in logs:
                         print(f"  • {l}")
+            if total_gen > 0:
+                try:
+                    from scripts.build_bundles import build_bundles
+                    print("\n📦 Αυτόματη ανανέωση scripts_catalog.js και bundles...")
+                    build_bundles()
+                except Exception as exc:
+                    print(f"⚠️ Σφάλμα καταλόγου: {exc}")
             print(f"\n🎉 Ολοκληρώθηκε! Παράχθηκαν συνολικά {total_gen} νέα animations για το μάθημα {target_key}.")
             return
 

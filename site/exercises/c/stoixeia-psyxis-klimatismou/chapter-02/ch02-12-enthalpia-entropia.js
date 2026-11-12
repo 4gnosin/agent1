@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #23812",
     "bankCode": "23812",
-    "title": "#23812 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#23812 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "ch02-12-enthalpia-entropia",
     "sourceOrder": 14,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "27798",
     "code": "Θέμα 2<sup>ο</sup> · #27798",
-    "title": "#27798 — Θέμα 2<sup>ο</sup>",
+    "title": "#27798 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch11-03-paradeigma-ypologismou-thermikon-apoleion",
     "sourceOrder": 2,
@@ -75,35 +75,35 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "27806",
     "code": "Θέμα 4<sup>ο</sup> · #27806",
-    "title": "#27806 — Θέμα 4<sup>ο</sup>",
+    "title": "#27806 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch11-03-paradeigma-ypologismou-thermikon-apoleion",
     "sourceOrder": 3,
-    "stem": "Έστω ο χώρος Α του σχήματος 1. Ο χώρος έχει διαστάσεις $4 \\text{ m} \\times 3 \\text{ m}$, ύψος $3 \\text{ m}$, και περιβάλλεται από δύο εσωτερικούς θερμαινόμενους χώρους (Β, Γ) και δύο εξωτερικούς (Δ, Ε). Ο χώρος βρίσκεται στην περιοχή του Βόλου όπου $t_{\\text{εξ}} = -2\\text{ }^\\circ\\text{C}$, δηλαδή οι θερμοκρασίες των Δ, Ε είναι $-2\\text{ }^\\circ\\text{C}$, ενώ η επιθυμητή εσωτερική θερμοκρασία του είναι $t_{\\text{εσ}} = 18\\text{ }^\\circ\\text{C}$.\nΔυτικά του χώρου (προς τον εξωτερικό χώρο Δ) υπάρχει παράθυρο διαστάσεων $2 \\text{ m} \\times 1 \\text{ m}$ με συντελεστή θερμοπερατότητας $K_{\\text{παραθ.}} = 3 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot^\\circ\\text{C})$. Ο εξωτερικός τοίχος που διαχωρίζει τους χώρους Α και Δ έχει συντελεστή θερμοπερατότητας $K_{\\text{τοιχ.}} = 1{,}2 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot^\\circ\\text{C})$.",
+    "stem": "Έστω ο χώρος Α του σχήματος 1. Ο χώρος έχει διαστάσεις $4 \\text{ m} \\times 3 \\text{ m}$, ύψος $3 \\text{ m}$, και περιβάλλεται από δύο εσωτερικούς θερμαινόμενους χώρους (Β, Γ) και δύο εξωτερικούς (Δ, Ε). Ο χώρος βρίσκεται στην περιοχή του Βόλου όπου $t_{\\text{εξ}} = -2^{\\circ}\\text{C}$, δηλαδή οι θερμοκρασίες των Δ, Ε είναι $-2^{\\circ}\\text{C}$, ενώ η επιθυμητή εσωτερική θερμοκρασία του είναι $t_{\\text{εσ}} = 18^{\\circ}\\text{C}$.\nΔυτικά του χώρου (προς τον εξωτερικό χώρο Δ) υπάρχει παράθυρο διαστάσεων $2 \\text{ m} \\times 1 \\text{ m}$ με συντελεστή θερμοπερατότητας $K_{\\text{παραθ.}} = 3 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot{}^{\\circ}\\text{C})$. Ο εξωτερικός τοίχος που διαχωρίζει τους χώρους Α και Δ έχει συντελεστή θερμοπερατότητας $K_{\\text{τοιχ.}} = 1{,}2 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot{}^{\\circ}\\text{C})$.",
     "givens": [
       {
         "label": "Διαστάσεις χώρου Α",
-        "value": "4 m × 3 m (ύψος 3 m)"
+        "value": "$4 \\text{m} × 3 \\text{m} (ύψος 3 \\text{m})$"
       },
       {
-        "label": "t_εσ",
-        "value": "18 °C"
+        "label": "$t_εσ$",
+        "value": "$18 {}^{\\circ}\\text{C}$"
       },
       {
-        "label": "t_εξ",
-        "value": "-2 °C"
+        "label": "$t_εξ$",
+        "value": "$-2 {}^{\\circ}\\text{C}$"
       },
       {
         "label": "Διαστάσεις παραθύρου",
-        "value": "2 m × 1 m"
+        "value": "$2 \\text{m} × 1 \\text{m}$"
       },
       {
-        "label": "K_παραθ.",
-        "value": "3 kcal/(m²·h·°C)"
+        "label": "$K_παραθ.$",
+        "value": "$3 \\text{kcal}/(m²·\\text{h}·{}^{\\circ}\\text{C})$"
       },
       {
-        "label": "K_τοιχ.",
-        "value": "1.2 kcal/(m²·h·°C)"
+        "label": "$K_τοιχ.$",
+        "value": "$1.2 \\text{kcal}/(m²·\\text{h}·{}^{\\circ}\\text{C})$"
       }
     ],
     "items": [
@@ -115,8 +115,8 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 120,
         "unit": "kcal/h",
         "tolerance": 0.01,
-        "hint": "Υπολογίστε την επιφάνεια του παραθύρου $F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $18 - (-2) = 20\\text{ }^\\circ\\text{C}$.",
-        "explain": "$F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2$\n$Q_{\\text{παραθ.}} = K_{\\text{παραθ.}} \\cdot F_{\\text{παραθ.}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 3 \\cdot (2 \\cdot 1) \\cdot (18 - (-2)) = 3 \\cdot 2 \\cdot 20 = 120 \\text{ kcal/h}$.",
+        "hint": "Υπολογίστε την επιφάνεια του παραθύρου $F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $18 - (-2) = 20^{\\circ}\\text{C}$.",
+        "explain": "$F_{\\text{παραθ.}} = 2 \\cdot 1 = 2 \\text{ m}^2Q_{\\text{παραθ.}} = K_{\\text{παραθ.}} \\cdot F_{\\text{παραθ.}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 3 \\cdot (2 \\cdot 1) \\cdot (18 - (-2)) = 3 \\cdot 2 \\cdot 20 = 120 \\text{ kcal/h}$.",
         "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27806_fig01.webp"
       },
       {
@@ -128,7 +128,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "unit": "kcal/h",
         "tolerance": 0.01,
         "hint": "Η καθαρή επιφάνεια του τοίχου είναι η συνολική επιφάνεια μείον την επιφάνεια του παραθύρου: $F_{\\text{τοιχ.}} = (3 \\cdot 3) - (2 \\cdot 1) = 7 \\text{ m}^2$.",
-        "explain": "$F_{\\text{συνολ.}} = 3 \\cdot 3 = 9 \\text{ m}^2$\n$F_{\\text{τοιχ.}} = 9 - 2 = 7 \\text{ m}^2$\n$Q_{\\text{τοιχ.}} = K_{\\text{τοιχ.}} \\cdot F_{\\text{τοιχ.}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 1{,}2 \\cdot (3 \\cdot 3 - (2 \\cdot 1)) \\cdot (18 - (-2)) = 1{,}2 \\cdot 7 \\cdot 20 = 168 \\text{ kcal/h}$."
+        "explain": "$F_{\\text{συνολ.}} = 3 \\cdot 3 = 9 \\text{ m}^2F_{\\text{τοιχ.}} = 9 - 2 = 7 \\text{ m}^2Q_{\\text{τοιχ.}} = K_{\\text{τοιχ.}} \\cdot F_{\\text{τοιχ.}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 1{,}2 \\cdot (3 \\cdot 3 - (2 \\cdot 1)) \\cdot (18 - (-2)) = 1{,}2 \\cdot 7 \\cdot 20 = 168 \\text{ kcal/h}$."
       },
       {
         "kind": "calc",
@@ -151,31 +151,31 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "27809",
     "code": "Θέμα 4<sup>ο</sup> · #27809",
-    "title": "#27809 — Θέμα 4<sup>ο</sup>",
+    "title": "#27809 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch11-03-paradeigma-ypologismou-thermikon-apoleion",
     "sourceOrder": 4,
-    "stem": "Έστω ο χώρος Α του σχήματος 1. Ο χώρος έχει διαστάσεις $5 \\text{ m} \\times 3{,}50 \\text{ m}$, ύψος $3 \\text{ m}$, και περιβάλλεται από δύο εσωτερικούς θερμαινόμενους χώρους (Β, Γ) και δύο εξωτερικούς (Δ, Ε). Ο χώρος βρίσκεται στην περιοχή της Κορίνθου όπου η μέση ελάχιστη εξωτερική θερμοκρασία είναι $t_{\\text{εξ}} = 1\\text{ }^\\circ\\text{C}$, ενώ η επιθυμητή εσωτερική θερμοκρασία του είναι $t_{\\text{εσ}} = 21\\text{ }^\\circ\\text{C}$.\nΗ οροφή του χώρου είναι ακάλυπτη με συντελεστή θερμοπερατότητας $K_{\\text{οροφής}} = 2 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot^\\circ\\text{C})$ ενώ το δάπεδο είναι από υλικό με συντελεστή θερμοπερατότητας $K_{\\text{δαπέδου}} = 1 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot^\\circ\\text{C})$. Κάτω από το δάπεδο υπάρχει πυλωτή, δηλαδή μη θερμαινόμενος χώρος.",
+    "stem": "Έστω ο χώρος Α του σχήματος 1. Ο χώρος έχει διαστάσεις $5 \\text{ m} \\times 3{,}50 \\text{ m}$, ύψος $3 \\text{ m}$, και περιβάλλεται από δύο εσωτερικούς θερμαινόμενους χώρους (Β, Γ) και δύο εξωτερικούς (Δ, Ε). Ο χώρος βρίσκεται στην περιοχή της Κορίνθου όπου η μέση ελάχιστη εξωτερική θερμοκρασία είναι $t_{\\text{εξ}} = 1^{\\circ}\\text{C}$, ενώ η επιθυμητή εσωτερική θερμοκρασία του είναι $t_{\\text{εσ}} = 21^{\\circ}\\text{C}$.\nΗ οροφή του χώρου είναι ακάλυπτη με συντελεστή θερμοπερατότητας $K_{\\text{οροφής}} = 2 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot{}^{\\circ}\\text{C})$ ενώ το δάπεδο είναι από υλικό με συντελεστή θερμοπερατότητας $K_{\\text{δαπέδου}} = 1 \\text{ kcal}/(\\text{m}^2\\cdot\\text{h}\\cdot{}^{\\circ}\\text{C})$. Κάτω από το δάπεδο υπάρχει πυλωτή, δηλαδή μη θερμαινόμενος χώρος.",
     "givens": [
       {
         "label": "Διαστάσεις χώρου Α",
-        "value": "5 m × 3.50 m (ύψος 3 m)"
+        "value": "$5 \\text{m} × 3.50 \\text{m} (ύψος 3 \\text{m})$"
       },
       {
-        "label": "t_εσ",
-        "value": "21 °C"
+        "label": "$t_εσ$",
+        "value": "$21 {}^{\\circ}\\text{C}$"
       },
       {
-        "label": "t_εξ",
-        "value": "1 °C"
+        "label": "$t_εξ$",
+        "value": "$1 {}^{\\circ}\\text{C}$"
       },
       {
-        "label": "K_οροφής",
-        "value": "2 kcal/(m²·h·°C)"
+        "label": "$K_οροφής$",
+        "value": "$2 \\text{kcal}/(m²·\\text{h}·{}^{\\circ}\\text{C})$"
       },
       {
-        "label": "K_δαπέδου",
-        "value": "1 kcal/(m²·h·°C)"
+        "label": "$K_δαπέδου$",
+        "value": "$1 \\text{kcal}/(m²·\\text{h}·{}^{\\circ}\\text{C})$"
       }
     ],
     "items": [
@@ -187,8 +187,8 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 700,
         "unit": "kcal/h",
         "tolerance": 0.01,
-        "hint": "Υπολογίστε την επιφάνεια της οροφής $F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $21 - 1 = 20\\text{ }^\\circ\\text{C}$.",
-        "explain": "$F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$\n$Q_{\\text{οροφής}} = K_{\\text{οροφής}} \\cdot F_{\\text{οροφής}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 2 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 2 \\cdot 17{,}5 \\cdot 20 = 700 \\text{ kcal/h}$.",
+        "hint": "Υπολογίστε την επιφάνεια της οροφής $F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$ και τη διαφορά θερμοκρασίας $21 - 1 = 20^{\\circ}\\text{C}$.",
+        "explain": "$F_{\\text{οροφής}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2Q_{\\text{οροφής}} = K_{\\text{οροφής}} \\cdot F_{\\text{οροφής}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 2 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 2 \\cdot 17{,}5 \\cdot 20 = 700 \\text{ kcal/h}$.",
         "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27809_fig01.webp"
       },
       {
@@ -200,7 +200,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "unit": "kcal/h",
         "tolerance": 0.01,
         "hint": "Υπολογίστε την επιφάνεια του δαπέδου $F_{\\text{δαπέδου}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$.",
-        "explain": "$F_{\\text{δαπέδου}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2$\n$Q_{\\text{δαπέδου}} = K_{\\text{δαπέδου}} \\cdot F_{\\text{δαπέδου}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 1 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 1 \\cdot 17{,}5 \\cdot 20 = 350 \\text{ kcal/h}$."
+        "explain": "$F_{\\text{δαπέδου}} = 5 \\cdot 3{,}50 = 17{,}5 \\text{ m}^2Q_{\\text{δαπέδου}} = K_{\\text{δαπέδου}} \\cdot F_{\\text{δαπέδου}} \\cdot (t_{\\text{εσ}} - t_{\\text{εξ}}) = 1 \\cdot (5 \\cdot 3{,}50) \\cdot (21 - 1) = 1 \\cdot 17{,}5 \\cdot 20 = 350 \\text{ kcal/h}$."
       }
     ],
     "image": "images/c/stoixeia-kentrikon-thermanseon/chapter-11/c_stoixeia-kentrikon-thermanseon_ch11_27809_fig01.webp"

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #19847",
     "bankCode": "19847",
-    "title": "#19847 — Θέμα 4<sup>ο</sup>",
+    "title": "#19847 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch01-05-asfaleia-sto-michanourgeio",
     "sourceOrder": 8,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #20071",
     "bankCode": "20071",
-    "title": "#20071 — Θέμα 4<sup>ο</sup>",
+    "title": "#20071 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "psalidia",
     "stem": "Στο σχήμα 1 παρουσιάζεται ένα σχέδιο κοπής ελάσματος και τα μεταλλοψάλιδα χεριού που είναι διαθέσιμα προς χρήση.",

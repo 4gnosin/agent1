@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #26750",
     "bankCode": "26750",
-    "title": "#26750 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#26750 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "diaforoi-alloi-typoi-aisthitiron",
     "items": [
@@ -82,7 +82,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #34014",
     "bankCode": "34014",
-    "title": "#34014 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#34014 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "diaforoi-alloi-typoi-aisthitiron",
     "items": [
@@ -97,9 +97,9 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
       {
         "kind": "tf",
         "subq": "2.1",
-        "prompt": "β. Ο αισθητήρας λ μπορεί να λειτουργήσει σε θερμοκρασία $100\\text{ }^\\circ\\text{C}$.",
+        "prompt": "β. Ο αισθητήρας λ μπορεί να λειτουργήσει σε θερμοκρασία $100^{\\circ}\\text{C}$.",
         "answer": false,
-        "explain": "Λάθος. Ο αισθητήρας λ απαιτεί θερμοκρασία άνω των $300\\text{ }^\\circ\\text{C}$ για να καταστεί αγώγιμος ο ηλεκτρολύτης ζιρκονίου."
+        "explain": "Λάθος. Ο αισθητήρας λ απαιτεί θερμοκρασία άνω των $300^{\\circ}\\text{C}$ για να καταστεί αγώγιμος ο ηλεκτρολύτης ζιρκονίου."
       },
       {
         "kind": "tf",

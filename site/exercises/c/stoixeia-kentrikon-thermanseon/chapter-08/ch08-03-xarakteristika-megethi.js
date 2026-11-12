@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28453",
     "bankCode": "28453",
-    "title": "#28453 — Θέμα 4<sup>ο</sup>",
+    "title": "#28453 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch08-03-xarakteristika-megethi",
     "sourceOrder": 5,
@@ -17,11 +17,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "givens": [
       {
         "label": "V₁",
-        "value": "8 m³/h"
+        "value": "$8 m³/\\text{h}$"
       },
       {
         "label": "H₁",
-        "value": "2 m Σ.Ν."
+        "value": "$2 \\text{m} Σ.Ν.$"
       }
     ],
     "items": [

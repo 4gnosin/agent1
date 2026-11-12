@@ -546,7 +546,7 @@ def validate_command(args: argparse.Namespace) -> None:
         raw_files = list(target_path.rglob("*.js"))
         files_to_check = []
         for f in raw_files:
-            if "js" in f.parts or "simulations" in f.parts or "math" in f.parts:
+            if "js" in f.parts or "simulations" in f.parts or "math" in f.parts or "bundles" in f.parts:
                 continue
             if f.name in ("catalog.js", "links.js", "scripts_catalog.js", "math.js"):
                 continue
@@ -588,6 +588,8 @@ def validate_command(args: argparse.Namespace) -> None:
             errs = SiteValidator.validate_groups_file(f)
         elif "content" in f.parts or f.name.startswith("0"):
             errs = SiteValidator.validate_section_file(f)
+        elif "animations" in f.parts:
+            errs = SiteValidator.validate_animation_file(f)
         else:
             errs = SiteValidator.validate_exercises_file(f)
 
@@ -900,6 +902,7 @@ def process_inbox_command(args: argparse.Namespace) -> None:
                 subject=subject,
                 chapter=chapter,
                 output_dir=site_dir,
+                force=getattr(args, "force", False),
             )
             for f in files:
                 print(f"      ✓ {f}")
@@ -927,6 +930,7 @@ def process_inbox_command(args: argparse.Namespace) -> None:
             msg = f"{source.name}: {exc}"
             print(f"❌ {msg}")
             errors.append(msg)
+            subjects_touched.add((grade, subject))
 
     for grade, subject in sorted(subjects_touched):
         try:
@@ -945,6 +949,35 @@ def process_inbox_command(args: argparse.Namespace) -> None:
         sys.exit(1)
     print("✨ Όλα τα αρχεία του inbox επεξεργάστηκαν επιτυχώς.")
     print("=" * 70)
+
+
+def sanitize_latex_command(args: argparse.Namespace) -> None:
+    """Αυτόματος καθαρισμός & επιδιόρθωση LaTeX, KaTeX, κυριλλικών και μαθηματικών."""
+    from pathlib import Path
+    try:
+        from src.utils.latex_sanitizer import sanitize_directory, sanitize_js_file
+    except ImportError:
+        from .utils.latex_sanitizer import sanitize_directory, sanitize_js_file
+
+    target = Path(args.path)
+    if not target.exists():
+        print(f"❌ Σφάλμα: Η διαδρομή δεν υπάρχει: {target}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"🧹 Έναρξη καθαρισμού LaTeX σε: {target}")
+    if target.is_file():
+        if sanitize_js_file(target):
+            print(f"✅ Επιδιορθώθηκε επιτυχώς: {target}")
+        else:
+            print(f"✨ Το αρχείο είναι ήδη καθαρό (0 αλλαγές): {target}")
+    else:
+        pattern = getattr(args, "pattern", "*.js")
+        mod, tot = sanitize_directory(target, pattern=pattern)
+        print(f"🎉 Ολοκληρώθηκε ο έλεγχος LaTeX σε {tot} αρχεία.")
+        if mod > 0:
+            print(f"✅ Επιδιορθώθηκαν αυτόματα {mod} αρχεία.")
+        else:
+            print(f"✨ Όλα τα αρχεία ({tot}) ήταν ήδη απόλυτα καθαρά και σύμφωνα με τους κανόνες KaTeX.")
 
 
 def main() -> None:
@@ -1062,6 +1095,11 @@ def main() -> None:
         action="store_true",
         help="Χρήση της σουίτας ArtCraft (PdfCraft + PhotoCraft) για εξαγωγή εικόνων",
     )
+    p_inbox.add_argument(
+        "--force",
+        action="store_true",
+        help="Αγνόηση του τοπικού checkpoint και πλήρης επαναπαραγωγή όλων των θεμάτων από την αρχή",
+    )
     p_inbox.set_defaults(func=process_inbox_command)
 
     # 9. fix-stems — διόρθωση υπαρχουσών ασκήσεων (περιττά stem + ονόματα chNN-)
@@ -1089,6 +1127,20 @@ def main() -> None:
     )
     p_fix_ex.add_argument("target", help="Link, URL ή κωδικός θέματος (π.χ. 27123)")
     p_fix_ex.set_defaults(func=lambda args: __import__("src.tools.exercise_fixer", fromlist=["run_exercise_fix"]).run_exercise_fix(args.target))
+
+    # 11. sanitize-latex — καθαρισμός & επιδιόρθωση LaTeX/KaTeX τύπων
+    p_latex = subparsers.add_parser(
+        "sanitize-latex",
+        help="Αυτόματος καθαρισμός & επιδιόρθωση LaTeX, KaTeX, κυριλλικών και μαθηματικών",
+    )
+    p_latex.add_argument(
+        "path",
+        nargs="?",
+        default="site/exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon",
+        help="Διαδρομή αρχείου ή φακέλου για καθαρισμό LaTeX",
+    )
+    p_latex.add_argument("--pattern", default="*.js", help="Pattern αρχείων (προεπιλογή: *.js)")
+    p_latex.set_defaults(func=sanitize_latex_command)
 
     args = parser.parse_args()
     args.func(args)

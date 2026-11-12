@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "17722",
     "code": "Θέμα 2<sup>ο</sup> · #17722",
-    "title": "#17722 — Θέμα 2<sup>ο</sup>",
+    "title": "#17722 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch12-00-metadosi-thermotitas",
     "sourceOrder": 1,
@@ -119,7 +119,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "18619",
     "code": "Θέμα 2<sup>ο</sup> · #18619",
-    "title": "#18619 — Θέμα 2<sup>ο</sup>",
+    "title": "#18619 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch12-00-metadosi-thermotitas",
     "sourceOrder": 2,
@@ -153,11 +153,11 @@ window.EXERCISES.push(...
         "options": [
           {
             "id": "a",
-            "text": "Σύμβολο: \\alpha, Μονάδα: \\( W / (m^2 \\cdot K) \\)"
+            "text": "Σύμβολο: $\\alpha$, Μονάδα: \\( W / (m^2 \\cdot K) \\)"
           },
           {
             "id": "b",
-            "text": "Σύμβολο: \\lambda, Μονάδα: \\( W / (m \\cdot K) \\)"
+            "text": "Σύμβολο: $\\lambda$, Μονάδα: \\( W / (m \\cdot K) \\)"
           },
           {
             "id": "c",
@@ -169,7 +169,7 @@ window.EXERCISES.push(...
           }
         ],
         "answer": "a",
-        "explain": "Ο συντελεστής θερμικής μεταφοράς συμβολίζεται με το γράμμα \\alpha και η μονάδα μέτρησής του στο S.I. είναι \\( W / (m^2 \\cdot K) \\)."
+        "explain": "Ο συντελεστής θερμικής μεταφοράς συμβολίζεται με το γράμμα $\\alpha$ και η μονάδα μέτρησής του στο S.I. είναι \\( W / (m^2 \\cdot K) \\)."
       },
       {
         "kind": "mc",
@@ -205,7 +205,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "20973",
     "code": "Θέμα 2<sup>ο</sup> · #20973",
-    "title": "#20973 — Θέμα 2<sup>ο</sup>",
+    "title": "#20973 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch12-00-metadosi-thermotitas",
     "sourceOrder": 3,

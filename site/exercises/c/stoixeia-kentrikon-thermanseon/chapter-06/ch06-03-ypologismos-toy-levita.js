@@ -9,14 +9,14 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #24650",
     "bankCode": "24650",
-    "title": "#24650 — Θέμα 4<sup>ο</sup>",
+    "title": "#24650 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-03-ypologismos-toy-levita",
     "stem": "Σε μια μονοκατοικία, για την εγκατάσταση συστήματος κεντρικής θέρμανσης, υπολογίστηκε ότι το σύνολο των θερμικών απαιτήσεων είναι $Q_{\\text{ολ}} = 50.000\\text{ kcal/h}$.",
     "givens": [
       {
-        "label": "Q_ολ",
-        "value": "50.000 kcal/h"
+        "label": "$Q_ολ$",
+        "value": "$50.000 \\text{kcal/h}$"
       },
       {
         "label": "Προσαύξηση",
@@ -28,7 +28,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       },
       {
         "label": "H",
-        "value": "10.000 kcal/kg"
+        "value": "$10.000 \\text{kcal}/\\text{kg}$"
       }
     ],
     "sourceOrder": 5,
@@ -47,13 +47,13 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.2",
-        "prompt": "4.2 Ο λέβητας του οποίου η ισχύς υπολογίστηκε στο ερώτημα 4.1 θα συνεργαστεί με καυστήρα που έχει βαθμό απόδοσης $\\eta = 0{,}8$ και καίει καύσιμο με θερμογόνο δύναμη $H = 10.000\\text{ kcal/kg}$. Πόση είναι η ωριαία ποσότητα καυσίμου $w$ που μπορεί να καταναλώσει;",
-        "formula": "$w = \\frac{Q_{\\lambda}}{H \\cdot \\eta}$",
+        "prompt": "4.2 Ο λέβητας του οποίου η ισχύς υπολογίστηκε στο ερώτημα 4.1 θα συνεργαστεί με καυστήρα που έχει βαθμό απόδοσης $\\\\beta = 0{,}8$ και καίει καύσιμο με θερμογόνο δύναμη $H = 10.000\\text{ kcal/kg}$. Πόση είναι η ωριαία ποσότητα καυσίμου $w$ που μπορεί να καταναλώσει;",
+        "formula": "$w = \\frac{Q_{\\lambda}}{H \\cdot \\\\beta}$",
         "answer": 8.125,
         "unit": "kg/h",
         "tolerance": 0.01,
         "hint": "$w = \\frac{65.000}{10.000 \\cdot 0{,}8}$",
-        "explain": "$w = \\frac{Q_{\\lambda}}{H \\cdot \\eta} = \\frac{65.000}{10.000 \\cdot 0{,}8} = \\frac{65.000}{8.000} = 8{,}125\\text{ kg/h}$."
+        "explain": "$w = \\frac{Q_{\\lambda}}{H \\cdot \\\\beta} = \\frac{65.000}{10.000 \\cdot 0{,}8} = \\frac{65.000}{8.000} = 8{,}125\\text{ kg/h}$."
       }
     ]
   },
@@ -64,7 +64,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28675",
     "bankCode": "28675",
-    "title": "#28675 — Θέμα 4<sup>ο</sup>",
+    "title": "#28675 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-03-ypologismos-toy-levita",
     "stem": "Σε μία μελέτη κεντρικής θέρμανσης υπολογίζετε το σύνολο των θερμικών απαιτήσεων του κτιρίου ότι είναι $Q_{\\text{ολ}} = 95.000\\text{ kW}$.",

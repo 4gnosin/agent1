@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "23653",
     "code": "Θέμα 2<sup>ο</sup> · #23653",
-    "title": "#23653 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#23653 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "ch02-03-psykhrometrika-kharaktiristika",
     "sourceOrder": 1,

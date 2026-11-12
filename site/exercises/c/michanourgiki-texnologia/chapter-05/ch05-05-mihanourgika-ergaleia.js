@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27200",
     "bankCode": "27200",
-    "title": "#27200 — Θέμα 2<sup>ο</sup>",
+    "title": "#27200 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch05-05-mihanourgika-ergaleia",
     "sourceOrder": 3,

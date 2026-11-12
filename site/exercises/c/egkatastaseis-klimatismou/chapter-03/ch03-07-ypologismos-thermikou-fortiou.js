@@ -9,11 +9,11 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "25268",
     "code": "Θέμα 4<sup>ο</sup> · #25268",
-    "title": "#25268 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#25268 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch03-07-ypologismos-thermikou-fortiou",
     "sourceOrder": 7,
-    "stem": "Εξωτερικός τοίχος θερμομονωμένης κατοικίας έχει μήκος $10\\text{ m}$ και ύψος $3\\text{ m}$ ($U = 0,58\\text{ W}/(\\text{m}^2\\cdot\\text{K})$). Η εξωτερική θερμοκρασία είναι $t_o = 0\\text{ }^\\circ\\text{C}$ και η εσωτερική $t_i = 20\\text{ }^\\circ\\text{C}$.",
+    "stem": "Εξωτερικός τοίχος θερμομονωμένης κατοικίας έχει μήκος $10\\text{ m}$ και ύψος $3\\text{ m}$ ($U = 0,58\\text{ W}/(\\text{m}^2\\cdot\\text{K})$). Η εξωτερική θερμοκρασία είναι $t_o = 0^{\\circ}\\text{C}$ και η εσωτερική $t_i = 20^{\\circ}\\text{C}$.",
     "items": [
       {
         "subq": "α",
@@ -24,7 +24,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "W",
         "tolerance": 0.01,
         "hint": "Υπολογίστε το εμβαδόν $A$ και εφαρμόστε τον τύπο $q = A \\cdot U \\cdot \\Delta t$.",
-        "explain": "$A = 3 \\cdot 10 = 30\\text{ m}^2$. $\\Delta t = 20 - 0 = 20\\text{ }^\\circ\\text{C}$. $q = 30 \\cdot 0,58 \\cdot 20 = 348\\text{ W}$."
+        "explain": "$A = 3 \\cdot 10 = 30\\text{ m}^2$. $\\Delta t = 20 - 0 = 20^{\\circ}\\text{C}$. $q = 30 \\cdot 0,58 \\cdot 20 = 348\\text{ W}$."
       },
       {
         "subq": "β",

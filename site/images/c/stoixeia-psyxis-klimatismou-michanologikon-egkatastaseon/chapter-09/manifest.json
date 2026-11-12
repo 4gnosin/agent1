@@ -32,7 +32,17 @@
         524.1,
         567.9
       ],
+      "row_id": "p2_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        99.9,
+        314.1,
+        524.1,
+        567.9
+      ],
       "question_anchor": null,
+      "sub_index": null,
       "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
       "text_after": "Μονάδες 25",
       "is_full_page_scan": false
@@ -54,7 +64,17 @@
         417.4,
         541.7
       ],
+      "row_id": "p4_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        194.6,
+        406.9,
+        417.4,
+        541.7
+      ],
       "question_anchor": "2.2",
+      "sub_index": 3,
       "text_before": "PPD. Απαντήστε στα παρακάτω ερωτήματα:",
       "text_after": "α. Ποιος άξονας αντιστοιχεί στον δείκτη άνεσης PMV και ποιος στον δείκτη δυσαρέσκειας",
       "is_full_page_scan": false
@@ -76,7 +96,17 @@
         435.2,
         580.3
       ],
+      "row_id": "p5_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        176.3,
+        423.6,
+        435.2,
+        580.3
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "= 10 % από το διάγραμμα προκύπτει ότι PMV = -0,5 ή PMV = 0,5.",
       "text_after": "β. PMV = 0",
       "is_full_page_scan": false
@@ -98,7 +128,17 @@
         497.5,
         742.2
       ],
+      "row_id": "p9_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        98.9,
+        510.4,
+        497.5,
+        742.2
+      ],
       "question_anchor": "2.2",
+      "sub_index": null,
       "text_before": "ικανοποιημένοι με το θερμικό περιβάλλον του χώρου; (μονάδες 8)",
       "text_after": "Μονάδες 12",
       "is_full_page_scan": false
@@ -120,7 +160,17 @@
         477.8,
         730.9
       ],
+      "row_id": "p11_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        118.4,
+        373.8,
+        477.8,
+        730.9
+      ],
       "question_anchor": "4.2",
+      "sub_index": null,
       "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
       "text_after": "",
       "is_full_page_scan": false
@@ -142,7 +192,17 @@
         477.8,
         634.4
       ],
+      "row_id": "p12_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        118.4,
+        277.3,
+        477.8,
+        634.4
+      ],
       "question_anchor": "4.1",
+      "sub_index": null,
       "text_before": "ίση με 27,2 οC.",
       "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
       "is_full_page_scan": false
@@ -164,7 +224,17 @@
         477.8,
         590.4
       ],
+      "row_id": "p13_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        118.4,
+        233.3,
+        477.8,
+        590.4
+      ],
       "question_anchor": "4.2",
+      "sub_index": null,
       "text_before": "10 οC.",
       "text_after": "",
       "is_full_page_scan": false
@@ -186,7 +256,17 @@
         525.9,
         732.0
       ],
+      "row_id": "p14_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        72.4,
+        417.0,
+        525.9,
+        732.0
+      ],
       "question_anchor": "4.2",
+      "sub_index": null,
       "text_before": "ρουχισμό.",
       "text_after": "",
       "is_full_page_scan": false
@@ -208,7 +288,17 @@
         525.9,
         585.7
       ],
+      "row_id": "p15_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        72.4,
+        270.7,
+        525.9,
+        585.7
+      ],
       "question_anchor": "4.1",
+      "sub_index": null,
       "text_before": "𝐬.",
       "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
       "is_full_page_scan": false
@@ -230,7 +320,17 @@
         525.9,
         541.8
       ],
+      "row_id": "p16_r1",
+      "row_index": 0,
+      "row_size": 1,
+      "row_bbox": [
+        72.4,
+        226.8,
+        525.9,
+        541.8
+      ],
       "question_anchor": "4.2",
+      "sub_index": null,
       "text_before": "απαιτούμενη θερμοκρασία του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με 19 οC.",
       "text_after": "",
       "is_full_page_scan": false
@@ -260,7 +360,17 @@
             524.1,
             567.9
           ],
+          "row_id": "p2_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            99.9,
+            314.1,
+            524.1,
+            567.9
+          ],
           "question_anchor": null,
+          "sub_index": null,
           "text_before": "Δείκτης PMV  -3  -2  -1  0  +1  +2  +3",
           "text_after": "Μονάδες 25",
           "is_full_page_scan": false
@@ -290,7 +400,17 @@
             497.5,
             742.2
           ],
+          "row_id": "p9_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            98.9,
+            510.4,
+            497.5,
+            742.2
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "ικανοποιημένοι με το θερμικό περιβάλλον του χώρου; (μονάδες 8)",
           "text_after": "Μονάδες 12",
           "is_full_page_scan": false
@@ -322,7 +442,17 @@
             417.4,
             541.7
           ],
+          "row_id": "p4_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            194.6,
+            406.9,
+            417.4,
+            541.7
+          ],
           "question_anchor": "2.2",
+          "sub_index": 3,
           "text_before": "PPD. Απαντήστε στα παρακάτω ερωτήματα:",
           "text_after": "α. Ποιος άξονας αντιστοιχεί στον δείκτη άνεσης PMV και ποιος στον δείκτη δυσαρέσκειας",
           "is_full_page_scan": false
@@ -344,7 +474,17 @@
             435.2,
             580.3
           ],
+          "row_id": "p5_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            176.3,
+            423.6,
+            435.2,
+            580.3
+          ],
           "question_anchor": "2.2",
+          "sub_index": null,
           "text_before": "= 10 % από το διάγραμμα προκύπτει ότι PMV = -0,5 ή PMV = 0,5.",
           "text_after": "β. PMV = 0",
           "is_full_page_scan": false
@@ -377,7 +517,17 @@
             477.8,
             730.9
           ],
+          "row_id": "p11_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            118.4,
+            373.8,
+            477.8,
+            730.9
+          ],
           "question_anchor": "4.2",
+          "sub_index": null,
           "text_before": "αυτού για ένα άτομο που έχει ελαφρύ ρουχισμό.",
           "text_after": "",
           "is_full_page_scan": false
@@ -399,7 +549,17 @@
             477.8,
             634.4
           ],
+          "row_id": "p12_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            118.4,
+            277.3,
+            477.8,
+            634.4
+          ],
           "question_anchor": "4.1",
+          "sub_index": null,
           "text_before": "ίση με 27,2 οC.",
           "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
           "is_full_page_scan": false
@@ -421,7 +581,17 @@
             477.8,
             590.4
           ],
+          "row_id": "p13_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            118.4,
+            233.3,
+            477.8,
+            590.4
+          ],
           "question_anchor": "4.2",
+          "sub_index": null,
           "text_before": "10 οC.",
           "text_after": "",
           "is_full_page_scan": false
@@ -454,7 +624,17 @@
             525.9,
             732.0
           ],
+          "row_id": "p14_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            72.4,
+            417.0,
+            525.9,
+            732.0
+          ],
           "question_anchor": "4.2",
+          "sub_index": null,
           "text_before": "ρουχισμό.",
           "text_after": "",
           "is_full_page_scan": false
@@ -476,7 +656,17 @@
             525.9,
             585.7
           ],
+          "row_id": "p15_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            72.4,
+            270.7,
+            525.9,
+            585.7
+          ],
           "question_anchor": "4.1",
+          "sub_index": null,
           "text_before": "𝐬.",
           "text_after": "Σημείωση: Για την ακρίβεια, με βάση τα αποτελέσματα του διαγράμματος, αναμένουμε,",
           "is_full_page_scan": false
@@ -498,7 +688,17 @@
             525.9,
             541.8
           ],
+          "row_id": "p16_r1",
+          "row_index": 0,
+          "row_size": 1,
+          "row_bbox": [
+            72.4,
+            226.8,
+            525.9,
+            541.8
+          ],
           "question_anchor": "4.2",
+          "sub_index": null,
           "text_before": "απαιτούμενη θερμοκρασία του αέρα, έτσι ώστε να νιώθει ο τεχνίτης άνετα, ίση με 19 οC.",
           "text_after": "",
           "is_full_page_scan": false

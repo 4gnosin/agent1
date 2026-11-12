@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25471",
     "bankCode": "25471",
-    "title": "#25471 — Θέμα 4<sup>ο</sup>",
+    "title": "#25471 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-08-kopi-speiromaton",
     "sourceOrder": 2,
@@ -86,7 +86,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27210",
     "bankCode": "27210",
-    "title": "#27210 — Θέμα 2<sup>ο</sup>",
+    "title": "#27210 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch04-08-kopi-speiromaton",
     "sourceOrder": 3,
@@ -146,7 +146,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27558",
     "bankCode": "27558",
-    "title": "#27558 — Θέμα 4<sup>ο</sup>",
+    "title": "#27558 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-08-kopi-speiromaton",
     "sourceOrder": 4,
@@ -190,12 +190,12 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "kind": "calc",
         "subq": "δ",
         "prompt": "δ. Πόση είναι η γωνία αιχμής του κοπτικού εργαλείου;",
-        "formula": "$\\gamma_{\\text{αιχμής}} = 60^\\circ$",
+        "formula": "$\\gamma_{\\text{αιχμής}} = 60{}^{\\circ}$",
         "answer": 60,
         "unit": "°",
         "tolerance": 0.01,
         "hint": "Η γωνία αιχμής αντιστοιχεί στη γωνία του μετρικού σπειρώματος.",
-        "explain": "Η γωνία αιχμής του κοπτικού εργαλείου είναι ανάλογη με τη γωνία του σπειρώματος και για μετρικό σπείρωμα ISO είναι ίση με $60^\\circ$."
+        "explain": "Η γωνία αιχμής του κοπτικού εργαλείου είναι ανάλογη με τη γωνία του σπειρώματος και για μετρικό σπείρωμα ISO είναι ίση με $60{}^{\\circ}$."
       }
     ]
   }

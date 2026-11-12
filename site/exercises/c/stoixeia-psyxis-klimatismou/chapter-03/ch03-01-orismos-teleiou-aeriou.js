@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23847",
     "bankCode": "23847",
-    "title": "#23847 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#23847 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-01-orismos-teleiou-aeriou",
     "sourceOrder": 1,
@@ -30,13 +30,13 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
       {
         "kind": "calc",
         "subq": "4.2",
-        "prompt": "4.2 Να υπολογιστεί η θερμοκρασία του αέρα σε ${}^\\circ\\text{C}$.",
+        "prompt": "4.2 Να υπολογιστεί η θερμοκρασία του αέρα σε ${}^{\\circ}\\text{C}$.",
         "formula": "$T = \\frac{P \\cdot V}{m \\cdot R}$",
         "answer": 17,
         "unit": "°C",
         "tolerance": 0.02,
         "hint": "Χρησιμοποιήστε την καταστατική εξίσωση $P \\cdot V = m \\cdot R \\cdot T$ για να βρείτε την απόλυτη θερμοκρασία σε Kelvin και έπειτα αφαιρέστε 273.",
-        "explain": "Από την καταστατική εξίσωση \\( P \\cdot V = m \\cdot R \\cdot T \\) υπολογίζουμε \\( T = \\frac{2,9 \\cdot 10^5 \\cdot 143{,}5}{500 \\cdot 287} = 290\\text{ K} \\). Η θερμοκρασία σε ${}^\\circ\\text{C}$ είναι \\( t = 290 - 273 = 17^\\circ\\text{C} \\)."
+        "explain": "Από την καταστατική εξίσωση \\( P \\cdot V = m \\cdot R \\cdot T \\) υπολογίζουμε \\( T = \\frac{2,9 \\cdot 10^5 \\cdot 143{,}5}{500 \\cdot 287} = 290\\text{ K} \\). Η θερμοκρασία σε ${}^{\\circ}\\text{C}$ είναι \\( t = 290 - 273 = 17{}^{\\circ}\\text{C} \\)."
       }
     ]
   },
@@ -47,11 +47,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #33900",
     "bankCode": "33900",
-    "title": "#33900 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#33900 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-01-orismos-teleiou-aeriou",
     "sourceOrder": 2,
-    "stem": "Εργαστηριακός χώρος έχει όγκο $V = 143{,}5\\text{ m}^3$. Η θερμοκρασία του αέρα είναι $17\\text{ }^\\circ\\text{C}$ και η μανομετρική πίεση του αέρα είναι $P_{\\text{μαν.}} = 1{,}9\\text{ bar}$. Δίνεται η ατμοσφαιρική πίεση $P_{\\text{ατμ.}} = 1\\text{ bar}$, $R_{\\text{αέρα}} = 287\\text{ J}/(\\text{kg} \\cdot \\text{K})$ και $1\\text{ bar} = 10^5\\text{ N}/\\text{m}^2$.",
+    "stem": "Εργαστηριακός χώρος έχει όγκο $V = 143{,}5\\text{ m}^3$. Η θερμοκρασία του αέρα είναι $17^{\\circ}\\text{C}$ και η μανομετρική πίεση του αέρα είναι $P_{\\text{μαν.}} = 1{,}9\\text{ bar}$. Δίνεται η ατμοσφαιρική πίεση $P_{\\text{ατμ.}} = 1\\text{ bar}$, $R_{\\text{αέρα}} = 287\\text{ J}/(\\text{kg} \\cdot \\text{K})$ και $1\\text{ bar} = 10^5\\text{ N}/\\text{m}^2$.",
     "items": [
       {
         "kind": "calc",

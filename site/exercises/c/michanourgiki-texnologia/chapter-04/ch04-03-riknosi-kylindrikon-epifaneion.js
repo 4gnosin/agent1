@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27618",
     "code": "Θέμα 2<sup>ο</sup> · #27618",
-    "title": "#27618 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27618 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch04-03-riknosi-kylindrikon-epifaneion",
     "sourceOrder": 3,

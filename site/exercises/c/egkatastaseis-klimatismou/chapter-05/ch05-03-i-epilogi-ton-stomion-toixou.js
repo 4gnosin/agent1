@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29156",
     "bankCode": "29156",
-    "title": "#29156 — Θέμα 4<sup>ο</sup> (5.3)",
+    "title": "#29156 — Θέμα 4$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 1,
@@ -49,7 +49,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Από τον Πίνακα 1 για παροχή αέρα $106\\text{ L/s}$ και ταχύτητα αέρα $3,75\\text{ m/s}$ η πλησιέστερη τιμή είναι $4\\text{ m/s}$, σε γωνία πτερυγίων $0^\\circ$. Το βεληνεκές είναι $7,3\\text{ m}$ που ικανοποιεί το υπολογισμένο βεληνεκές των $7,5\\text{ m}$. Επιλέγουμε στόμιο τοίχου με διαστάσεις $305 \\times 127\\text{ mm}$ σε $0^\\circ$."
+        "explain": "Από τον Πίνακα 1 για παροχή αέρα $106\\text{ L/s}$ και ταχύτητα αέρα $3,75\\text{ m/s}$ η πλησιέστερη τιμή είναι $4\\text{ m/s}$, σε γωνία πτερυγίων $0{}^{\\circ}$. Το βεληνεκές είναι $7,3\\text{ m}$ που ικανοποιεί το υπολογισμένο βεληνεκές των $7,5\\text{ m}$. Επιλέγουμε στόμιο τοίχου με διαστάσεις $305 \\times 127\\text{ mm}$ σε $0{}^{\\circ}$."
       }
     ],
     "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29156_fig01.webp",
@@ -64,7 +64,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29329",
     "bankCode": "29329",
-    "title": "#29329 — Θέμα 4<sup>ο</sup> (5.3)",
+    "title": "#29329 — Θέμα 4$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 2,
@@ -126,7 +126,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "unit": "°",
         "tolerance": 0.1,
         "hint": "Δείτε τη ρύθμιση πτερυγίων στον πίνακα στοιχείων επιλογής.",
-        "explain": "Από τον πίνακα 2, για τα στόμια που έχουμε επιλέξει, η γωνία ρύθμισης των πτερυγίων πρέπει να είναι $0^\\circ$."
+        "explain": "Από τον πίνακα 2, για τα στόμια που έχουμε επιλέξει, η γωνία ρύθμισης των πτερυγίων πρέπει να είναι $0{}^{\\circ}$."
       }
     ],
     "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_29329_fig01.webp",
@@ -142,7 +142,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #29499",
     "bankCode": "29499",
-    "title": "#29499 — Θέμα 4<sup>ο</sup> (5.3)",
+    "title": "#29499 — Θέμα 4$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 3,
@@ -182,7 +182,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Η πλησιέστερη ταχύτητα στον πίνακα είναι $2,7\\text{ m/s}$, η οποία ικανοποιεί και το ζητούμενο βεληνεκές $5,85\\text{ m}$ ($5,79\\text{ m}$). Συνεπώς επιλέγουμε το στόμιο με διαστάσεις $356 \\times 127\\text{ mm}$, σε $0^\\circ$."
+        "explain": "Η πλησιέστερη ταχύτητα στον πίνακα είναι $2,7\\text{ m/s}$, η οποία ικανοποιεί και το ζητούμενο βεληνεκές $5,85\\text{ m}$ ($5,79\\text{ m}$). Συνεπώς επιλέγουμε το στόμιο με διαστάσεις $356 \\times 127\\text{ mm}$, σε $0{}^{\\circ}$."
       }
     ]
   },
@@ -193,7 +193,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #29500",
     "bankCode": "29500",
-    "title": "#29500 — Θέμα 2<sup>ο</sup> (5.3)",
+    "title": "#29500 — Θέμα 2$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 4,
@@ -305,7 +305,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #32807",
     "bankCode": "32807",
-    "title": "#32807 — Θέμα 2<sup>ο</sup> (5.3)",
+    "title": "#32807 — Θέμα 2$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 5,
@@ -374,7 +374,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #32809",
     "bankCode": "32809",
-    "title": "#32809 — Θέμα 4<sup>ο</sup> (5.3)",
+    "title": "#32809 — Θέμα 4$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 6,
@@ -451,7 +451,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Για παροχή $106\\text{ L/s}$ και ταχύτητα κοντά σε $5\\text{ m/s}$ (πλησιέστερη $4,7\\text{ m/s}$ σε $0^\\circ$), επιλέγουμε διαστάσεις $305 \\times 102\\text{ mm}$ σε γωνία πτερυγίων $0^\\circ$."
+        "explain": "Για παροχή $106\\text{ L/s}$ και ταχύτητα κοντά σε $5\\text{ m/s}$ (πλησιέστερη $4,7\\text{ m/s}$ σε $0{}^{\\circ}$), επιλέγουμε διαστάσεις $305 \\times 102\\text{ mm}$ σε γωνία πτερυγίων $0{}^{\\circ}$."
       }
     ],
     "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_32809_fig01.webp",
@@ -466,7 +466,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #32859",
     "bankCode": "32859",
-    "title": "#32859 — Θέμα 2<sup>ο</sup> (5.3)",
+    "title": "#32859 — Θέμα 2$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 7,
@@ -534,7 +534,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34654",
     "bankCode": "34654",
-    "title": "#34654 — Θέμα 4<sup>ο</sup> (5.3)",
+    "title": "#34654 — Θέμα 4$^{ο}$ (5.3)",
     "units": 25,
     "theory": "ch05-03-i-epilogi-ton-stomion-toixou",
     "sourceOrder": 14,
@@ -563,7 +563,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Το βεληνεκές είναι $\\frac{3}{4} \\cdot 12\\text{ m} = 9\\text{ m}$. Η ταχύτητα για σχολεία είναι $5\\text{ m/s}$. Από τον πίνακα 2 για παροχή $118\\text{ L/s}$, ταχύτητα $5,3\\text{ m/s}$ και βεληνεκές $9,1\\text{ m}$, επιλέγουμε διαστάσεις $305\\times102\\text{ mm}$ σε γωνία $0^\\circ$.",
+        "explain": "Το βεληνεκές είναι $\\frac{3}{4} \\cdot 12\\text{ m} = 9\\text{ m}$. Η ταχύτητα για σχολεία είναι $5\\text{ m/s}$. Από τον πίνακα 2 για παροχή $118\\text{ L/s}$, ταχύτητα $5,3\\text{ m/s}$ και βεληνεκές $9,1\\text{ m}$, επιλέγουμε διαστάσεις $305\\times102\\text{ mm}$ σε γωνία $0{}^{\\circ}$.",
         "image": "images/c/egkatastaseis-klimatismou/chapter-05/c_egkatastaseis-klimatismou_ch05_34654_fig01.webp"
       },
       {

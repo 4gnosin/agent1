@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "25464",
     "code": "Θέμα 2<sup>ο</sup> · #25464",
-    "title": "#25464 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#25464 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch05-08-eidi-ekteloumenon-katergasion",
     "sourceOrder": 1,

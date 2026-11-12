@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "32841",
     "code": "Θέμα 2<sup>ο</sup> · #32841",
-    "title": "#32841 — Θέμα 2<sup>ο</sup> (7.10)",
+    "title": "#32841 — Θέμα 2$^{ο}$ (7.10)",
     "units": 25,
     "theory": "ch07-10",
     "sourceOrder": 5,

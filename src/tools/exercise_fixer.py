@@ -477,9 +477,11 @@ def check_and_fix_vector_diagrams(
         return fixes, extracted_figs
 
     # 2. Fallback: Έλεγχος αν υπάρχουν διανυσματικά σχέδια (>= 10) όταν δεν υπάρχουν embedded εικόνες
+    # ΜΟΝΟ αν η σελίδα έχει ελάχιστο κείμενο (< 80 chars), ΠΟΤΕ σε σελίδες με κανονικές εκφωνήσεις/πίνακες
     q_page = q_pages[0]
+    page_text = q_page.get_text("text").strip()
     drawings = q_page.get_drawings()
-    has_vector = len(drawings) >= 10
+    has_vector = len(drawings) >= 10 and len(page_text) < 80
     diag_rects = [d["rect"] for d in drawings if d["rect"].width > 10 and d["rect"].height > 10]
 
     if has_vector and diag_rects:
@@ -595,7 +597,7 @@ def reconstruct_interleaved_multipart_subquestions(
 
             opt_matches = list(
                 re.finditer(
-                    r"(?m)^[ \t]*([αβγδε])[ \t]*[\.\)][ \t]*(.+?)(?=(?:^[ \t]*[αβγδε][ \t]*[\.\)])|\Z)",
+                    r"(?m)^[ \t]*([αβγδε])[ \t]*[\.\)][ \t]*(.*?)(?=(?:^[ \t]*[αβγδε][ \t]*[\.\)])|\Z)",
                     p_chunk_clean,
                     flags=re.DOTALL | re.MULTILINE,
                 )
@@ -609,6 +611,8 @@ def reconstruct_interleaved_multipart_subquestions(
                 opt_gr = om.group(1).lower()
                 opt_id = gr_to_lat.get(opt_gr, opt_gr)
                 opt_txt = re.sub(r"\s+", " ", om.group(2).strip())
+                if not opt_txt:
+                    opt_txt = f"Σχήμα {opt_gr}"
                 options.append({"id": opt_id, "text": opt_txt})
 
             parsed_parts.append({
@@ -640,10 +644,15 @@ def reconstruct_interleaved_multipart_subquestions(
         if len(rows_ordered) == n_parts:
             for p_dict, r_imgs in zip(parsed_parts, rows_ordered, strict=False):
                 p_dict["images"] = [f"{web_prefix}/{im['file']}" for im in r_imgs]
+                if len(r_imgs) > 1:
+                    p_dict["imageLabels"] = [f"Σχήμα {lat_to_gr.get(chr(ord('a') + k), str(k+1))}" for k in range(len(r_imgs))]
+                    p_dict["imageLayout"] = "grid"
         elif len(sq_figs) == 2 * n_parts:
             for idx_p, p_dict in enumerate(parsed_parts):
                 pair = sq_figs[2 * idx_p : 2 * idx_p + 2]
                 p_dict["images"] = [f"{web_prefix}/{im['file']}" for im in pair]
+                p_dict["imageLabels"] = ["Σχήμα α", "Σχήμα β"]
+                p_dict["imageLayout"] = "grid"
         elif len(sq_figs) == n_parts:
             for idx_p, p_dict in enumerate(parsed_parts):
                 p_dict["images"] = [f"{web_prefix}/{sq_figs[idx_p]['file']}"]
@@ -720,6 +729,8 @@ def reconstruct_interleaved_multipart_subquestions(
                 new_it["prompt"] = f"{p_num}." if not p_dict["title"] else f"{p_num}. {p_dict['title']}"
                 if len(p_dict["images"]) > 1:
                     new_it["images"] = p_dict["images"]
+                    if p_dict.get("imageLabels"):
+                        new_it["imageLabels"] = p_dict["imageLabels"]
                     new_it["imageLayout"] = "grid"
                 elif len(p_dict["images"]) == 1:
                     new_it["image"] = p_dict["images"][0]

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #28672",
     "bankCode": "28672",
-    "title": "#28672 — Θέμα 2<sup>ο</sup>",
+    "title": "#28672 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch06-02-plakoeideis-enallaktes",
     "sourceOrder": 2,

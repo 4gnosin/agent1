@@ -125,6 +125,11 @@ def op_trapeza_pipeline(step_download: bool = True, step_process: bool = True, s
     print("📌 ΒΗΜΑ 4: Έλεγχος Ορθότητας & Εγκυρότητας Αρχείων (Site Validator)")
     run_py_command(["-m", "src.validators.site_validator"])
 
+    # Βήμα 5: Ενημέρωση Bundles
+    print("\n" + "-" * 72)
+    print("📌 ΒΗΜΑ 5: Αναδόμηση Bundles Μαθημάτων & On-Demand Catalog")
+    run_py_command(["build_bundles.py"])
+
     print("\n" + "=" * 72)
     print("✨ Η ροή Τράπεζας Θεμάτων ολοκληρώθηκε!")
     print("=" * 72)
@@ -186,6 +191,11 @@ def op_theory_pipeline():
     print("📌 Έλεγχος συνδέσμων & αρχείων θεωρίας (Site Validator)...")
     run_py_command(["-m", "src.validators.site_validator"])
 
+    # Ενημέρωση bundles
+    print("\n" + "-" * 72)
+    print("📌 Αναδόμηση Bundles Μαθημάτων & On-Demand Catalog...")
+    run_py_command(["build_bundles.py"])
+
     print("\n✨ Η διαδικασία θεωρίας ολοκληρώθηκε!")
     input("\nΠατήστε Enter για επιστροφή στο μενού...")
 
@@ -230,6 +240,18 @@ def menu_theory():
 # 3. ΠΡΟΣΟΜΟΙΩΣΕΙΣ & ANIMATIONS (MANIM-STYLE)
 # ==============================================================================
 
+def _prompt_animation_mode(default_choice: str = "1") -> str:
+    """Ζητά από τον χρήστη επιλογή μεθόδου παραγωγής animation."""
+    mode_map = {"1": "hybrid", "2": "local", "3": "ai-pedagogy", "4": "ai"}
+    print("\nΕΠΙΛΟΓΗ ΜΕΘΟΔΟΥ:")
+    print(" [1] Hybrid (Προτεινόμενο: Script-First + AI για αναλυτική επίλυση όπου χρειάζεται)")
+    print(" [2] Local (100% Python Script, 0 AI tokens)")
+    print(" [3] AI-Pedagogy (Script + Παιδαγωγικός Επιθεωρητής Gemini)")
+    print(" [4] AI Analytical (Gemini API — Πλήρης 4-βηματική αναλυτική λύση & πράξεις)")
+    m_sel = input(f"👉 Μέθοδος [1-4] (προεπιλογή {default_choice}): ").strip() or default_choice
+    return mode_map.get(m_sel, mode_map.get(default_choice, "hybrid"))
+
+
 def menu_animations():
     """Υπομενού επιλογών για Προσομοιώσεις & Animations."""
     while True:
@@ -254,7 +276,12 @@ def menu_animations():
             print_header("ΠΑΡΑΓΩΓΗ ANIMATION ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΘΕΜΑ")
             t_id = input("Δώστε τον κωδικό του θέματος (π.χ. 25806): ").strip().replace("#", "")
             if t_id:
-                run_py_command(["-m", "src.tools.calc_animator", "--target", t_id])
+                mode_arg = _prompt_animation_mode(default_choice="4")
+                ow_sel = input("👉 Επανεγγραφή αν υπάρχει ήδη; [1=Ναι, 2=Όχι] (προεπιλογή 1): ").strip()
+                cmd = ["-m", "src.tools.calc_animator", "--target", t_id, "--mode", mode_arg]
+                if ow_sel != "2":
+                    cmd.append("--overwrite")
+                run_py_command(cmd)
             input("\nΠατήστε Enter για συνέχεια...")
         elif choice == "3":
             clear_screen()
@@ -328,19 +355,16 @@ def menu_animations():
             if not ch_choice or ch_choice == "0":
                 continue
 
-            print("\nΕΠΙΛΟΓΗ ΜΕΘΟΔΟΥ:")
-            print(" [1] Hybrid (Προτεινόμενο: Script-First, ακαριαία εκτέλεση, AI μόνο αν χρειάζεται)")
-            print(" [2] Local (100% Python Script, 0 AI tokens)")
-            print(" [3] AI-Pedagogy (Script + Παιδαγωγικός Επιθεωρητής Gemini)")
-            m_sel = input("👉 Μέθοδος [1-3] (προεπιλογή 1): ").strip()
-            mode_arg = {"1": "hybrid", "2": "local", "3": "ai-pedagogy"}.get(m_sel, "hybrid")
+            mode_arg = _prompt_animation_mode(default_choice="1")
+            ow_sel = input("👉 Επανεγγραφή υπαρχόντων; [1=Όχι (μόνο νέα), 2=Ναι (όλα)] (προεπιλογή 1): ").strip()
+            ow_flag = ["--overwrite"] if ow_sel == "2" else []
 
             if ch_choice == "A":
-                run_py_command(["-m", "src.tools.calc_animator", "--subject", chosen_key, "--mode", mode_arg])
+                run_py_command(["-m", "src.tools.calc_animator", "--subject", chosen_key, "--mode", mode_arg, *ow_flag])
             else:
                 try:
                     c_val = int(ch_choice)
-                    run_py_command(["-m", "src.tools.calc_animator", "--subject", chosen_key, "--chapter", str(c_val), "--mode", mode_arg])
+                    run_py_command(["-m", "src.tools.calc_animator", "--subject", chosen_key, "--chapter", str(c_val), "--mode", mode_arg, *ow_flag])
                 except ValueError:
                     print("❌ Μη έγκυρη επιλογή.")
             input("\nΠατήστε Enter για συνέχεια...")
@@ -403,6 +427,8 @@ def op_combined_pipeline(run_theory: bool, run_trapeza: bool, run_anims: bool):
     run_py_command(["optimize_images_to_webp.py"])
     print("\n-> Έλεγχος Ορθότητας & Εγκυρότητας Ιστότοπου...")
     run_py_command(["-m", "src.validators.site_validator"])
+    print("\n-> Αναδόμηση Bundles Μαθημάτων & On-Demand Catalog...")
+    run_py_command(["build_bundles.py"])
 
     print("\n" + "=" * 72)
     print("🎉 ΟΛΟΚΛΗΡΩΘΗΚΕ ΕΠΙΤΥΧΩΣ ΤΟ ΣΥΝΔΥΑΣΤΙΚΟ PIPELINE!")
@@ -524,12 +550,14 @@ def menu_tools():
         print("  [1] Εκκίνηση Τοπικού Server (localhost:8000) & Άνοιγμα Πλατφόρμας")
         print("  [2] Βελτιστοποίηση όλων των εικόνων σε WebP (optimize_images_to_webp.py)")
         print("  [3] Πλήρης Έλεγχος Υγείας & Ορθότητας Αρχείων (Site Validator)")
-        print("  [4] Προβολή Ενεργής Μνήμης & Προτύπων AI Agent (Agent Memory)")
+        print("  [4] Αναδόμηση Bundles Μαθημάτων & On-Demand Catalog (build_bundles.py)")
+        print("  [5] Προβολή Ενεργής Μνήμης & Προτύπων AI Agent (Agent Memory)")
+        print("  [6] Καθαρισμός & Επιδιόρθωση LaTeX / KaTeX (latex_sanitizer)")
         print()
         print("  [0] Επιστροφή στο κεντρικό μενού")
         print("=" * 72)
 
-        choice = input("👉 Επιλογή [0-4]: ").strip()
+        choice = input("👉 Επιλογή [0-6]: ").strip()
         if choice == "1":
             op_start_server(open_browser_flag=True)
             break
@@ -546,7 +574,18 @@ def menu_tools():
             input("\nΠατήστε Enter για συνέχεια...")
             break
         elif choice == "4":
+            clear_screen()
+            print_header("ΑΝΑΔΟΜΗΣΗ BUNDLES & ON-DEMAND CATALOG")
+            run_py_command(["build_bundles.py"])
+            input("\nΠατήστε Enter για συνέχεια...")
+            break
+        elif choice == "5":
             op_view_agent_memory()
+            break
+        elif choice == "6":
+            clear_screen()
+            run_py_command(["-m", "src.utils.latex_sanitizer"])
+            input("\nΠατήστε Enter για συνέχεια...")
             break
         elif choice in ("0", "q", "exit"):
             break

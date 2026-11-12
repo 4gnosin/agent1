@@ -521,6 +521,33 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
             })
 
         candidates = stitch_contiguous_slices(raw_candidates)
+        # Φιλτράρισμα μικρών επιμέρους εικόνων (π.χ. ετικέτες πάνω σε ψυχρομετρικό χάρτη)
+        # που περιέχονται χωρικά (>60%) μέσα σε μεγαλύτερη εικόνα της ίδιας σελίδας
+        if len(candidates) > 1:
+            filtered_cands = []
+            for idx_c, c_inner in enumerate(candidates):
+                bb_in = c_inner.get("bbox")
+                if not bb_in:
+                    filtered_cands.append(c_inner)
+                    continue
+                r_in = fitz.Rect(bb_in)
+                area_in = max(1.0, r_in.width * r_in.height)
+                contained_in_larger = False
+                for idx_o, c_outer in enumerate(candidates):
+                    if idx_c == idx_o or not c_outer.get("bbox"):
+                        continue
+                    r_out = fitz.Rect(c_outer["bbox"])
+                    area_out = r_out.width * r_out.height
+                    if area_out > area_in * 1.5:
+                        inter = r_in & r_out
+                        if not inter.is_empty and (inter.width * inter.height) / area_in >= 0.60:
+                            contained_in_larger = True
+                            c_outer["force_overlay_render"] = True
+                            break
+                if not contained_in_larger:
+                    filtered_cands.append(c_inner)
+            candidates = filtered_cands
+
         candidates = group_candidates_into_rows(candidates, page_num)
 
         for cand in candidates:
@@ -550,9 +577,50 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
                 n = counters[(code, role)]
                 name = f"{stem}_{code}_{role}{n:02d}.png"
                 bank = code
-            has_overlays = False
+            has_overlays = bool(cand.get("force_overlay_render"))
             if img_bbox:
                 r_img = fitz.Rect(img_bbox)
+                # Αν η ενσωματωμένη εικόνα είναι απλώς μια μικρή ετικέτα άξονα (π.χ. 'P (bar)' ή 'P')
+                # δίπλα σε διανυσματικό διάγραμμα (vector drawings), επεκτείνουμε το bbox ώστε να
+                # συμπεριλάβει ολόκληρο το διανυσματικό διάγραμμα και τις ετικέτες των αξόνων του!
+                if r_img.width < 120 or r_img.height < 80:
+                    page_drawings = [
+                        fitz.Rect(d["rect"])
+                        for d in page.get_drawings()
+                        if d.get("rect") and d["rect"][1] > 70 and (d["rect"][2] - d["rect"][0]) < 480
+                    ]
+                    if page_drawings:
+                        union_r = fitz.Rect(r_img)
+                        changed = True
+                        while changed:
+                            changed = False
+                            expanded_search = fitz.Rect(
+                                union_r.x0 - 45, union_r.y0 - 45, union_r.x1 + 45, union_r.y1 + 45
+                            )
+                            for dr in page_drawings:
+                                if expanded_search.intersects(dr) and not union_r.contains(dr):
+                                    union_r |= dr
+                                    changed = True
+                        if union_r.width > r_img.width * 1.5 or union_r.height > r_img.height * 1.5:
+                            # Συμπερίληψη σύντομων ετικετών αξόνων (π.χ. '0', '5', 'V (L)', 'Α', 'Β') γύρω από το διάγραμμα
+                            label_search = fitz.Rect(
+                                union_r.x0 - 35, union_r.y0 - 25, union_r.x1 + 40, union_r.y1 + 35
+                            )
+                            for b in page.get_text("blocks"):
+                                bt = b[4].strip()
+                                br = fitz.Rect(b[:4])
+                                if bt and len(bt) <= 18 and label_search.intersects(br):
+                                    union_r |= br
+                            pad = 6.0
+                            r_img = fitz.Rect(
+                                max(0.0, union_r.x0 - pad),
+                                max(0.0, union_r.y0 - pad),
+                                min(page.rect.width, union_r.x1 + pad),
+                                min(page.rect.height, union_r.y1 + pad),
+                            )
+                            img_bbox = [r_img.x0, r_img.y0, r_img.x1, r_img.y1]
+                            has_overlays = True
+
                 for b in page.get_text("blocks"):
                     bt = b[4].strip()
                     if not bt:
@@ -571,7 +639,8 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
 
             if has_overlays and img_bbox:
                 clip_rect = fitz.Rect(img_bbox)
-                pix = page.get_pixmap(clip=clip_rect, dpi=args.dpi, alpha=False)
+                pix = page.get_pixmap(clip=clip_rect, dpi=max(args.dpi, 200), alpha=False)
+                w, h = pix.width, pix.height
 
             pix.save(str(out_dir / name))
             seen_hashes[key] = name
@@ -618,68 +687,82 @@ def extract(pdf_path: Path, args: argparse.Namespace) -> Path:
         render_reason = None
         has_large_embedded = any(e.get("width", 0) >= 160 and e.get("height", 0) >= 160 for e in entries_this_page)
         drawings = page.get_drawings() if hasattr(page, "get_drawings") else []
+        page_text = text.strip()
 
-        if args.vector_threshold > 0 and len(drawings) >= args.vector_threshold and not has_large_embedded:
-            render_reason = "vector-drawings"
-        elif not entries_this_page and args.render_empty_pages:
-            if len(text.strip()) < 80:
-                if FIGURE_RE.search(normalize_text(text)):
-                    render_reason = "keyword"
-                elif args.vector_threshold > 0 and len(drawings) >= args.vector_threshold:
-                    render_reason = "vector-drawings"
+        # Render διανυσματικών σχεδίων ή σαρωμένης σελίδας ΜΟΝΟ αν args.render_empty_pages είναι True
+        # και η σελίδα έχει ελάχιστο κείμενο (< 80 χαρακτήρες).
+        # ΠΟΤΕ σε κανονικές σελίδες με κείμενο/εκφωνήσεις, όπου τα drawings είναι απλώς πίνακες/κλάσματα!
+        if not entries_this_page and args.render_empty_pages and len(page_text) < 80:
+            if FIGURE_RE.search(normalize_text(page_text)):
+                render_reason = "keyword"
+            elif args.vector_threshold > 0 and len(drawings) >= args.vector_threshold:
+                render_reason = "vector-drawings"
 
         if render_reason:
-            if not code:
-                counters[("unknown", role)] += 1
-                n = counters[("unknown", role)]
-                name = f"{stem}_page{page_num:02d}_{role}{n:02d}.png"
-                bank = None
-            else:
-                counters[(code, role)] += 1
-                n = counters[(code, role)]
-                name = f"{stem}_{code}_{role}{n:02d}.png"
-                bank = code
             clip = None
             kind = "render"
             if render_reason == "vector-drawings" and drawings:
-                diag_rects = [d["rect"] for d in drawings if d["rect"].width > 10 and d["rect"].height > 10]
+                # Φιλτράρισμα: αγνόησε πλαίσια ολόκληρης σελίδας
+                r = page.rect
+                diag_rects = [
+                    d["rect"] for d in drawings
+                    if d["rect"].width > 15 and d["rect"].height > 15
+                    and d["rect"].width < r.width * 0.85
+                    and d["rect"].height < r.height * 0.85
+                ]
                 if diag_rects:
-                    r = page.rect
-                    min_x = max(0.0, min(dr.x0 for dr in diag_rects) - 25.0)
-                    min_y = max(r.height * 0.08, min(dr.y0 for dr in diag_rects) - 20.0)
-                    max_x = min(r.width, max(dr.x1 for dr in diag_rects) + 25.0)
-                    max_y = min(r.height * 0.95, max(dr.y1 for dr in diag_rects) + 20.0)
-                    if (max_x - min_x) >= 60 and (max_y - min_y) >= 40:
-                        clip = fitz.Rect(min_x, min_y, max_x, max_y)
+                    min_x = max(0.0, min(dr.x0 for dr in diag_rects) - 15.0)
+                    min_y = max(r.height * 0.08, min(dr.y0 for dr in diag_rects) - 15.0)
+                    max_x = min(r.width, max(dr.x1 for dr in diag_rects) + 15.0)
+                    max_y = min(r.height * 0.95, max(dr.y1 for dr in diag_rects) + 15.0)
+                    candidate_clip = fitz.Rect(min_x, min_y, max_x, max_y)
+                    # Αν μέσα στο candidate clip υπάρχει πολύ κείμενο (> 80 χαρακτήρες), πρόκειται για πίνακα ή κείμενο, ΟΧΙ για σχήμα!
+                    clip_text = page.get_text("text", clip=candidate_clip).strip()
+                    if (max_x - min_x) >= 60 and (max_y - min_y) >= 40 and len(clip_text) < 80:
+                        clip = candidate_clip
                         kind = "vector-crop-render"
-            if not clip and args.crop:
-                # Κόψε πάνω κεφαλίδα ~8% και κάτω υποσέλιδο ~5%
+
+            # Ολοσέλιδη αποκοπή (crop-render) ΕΠΙΤΡΕΠΕΤΑΙ ΜΟΝΟ αν η σελίδα είναι σχεδόν κενή από κείμενο (< 60 χαρακτήρες)
+            # και έχει ζητηθεί ρητά render_empty_pages! ΠΟΤΕ σε σελίδες με κανονικό κείμενο εκφωνήσεων/ασκήσεων!
+            if not clip and args.render_empty_pages and len(page_text) < 60 and args.crop:
                 r = page.rect
                 clip = fitz.Rect(r.x0, r.y0 + r.height * 0.08, r.x1, r.y1 - r.height * 0.05)
                 kind = "crop-render"
-            pix = page.get_pixmap(dpi=args.dpi, clip=clip, alpha=False)
-            pix.save(str(out_dir / name))
-            stats["rendered"] += 1
-            spatial_ctx = get_image_spatial_context(page, [clip.x0, clip.y0, clip.x1, clip.y1] if clip else list(page.rect))
-            entry = {
-                "file": name,
-                "bank_code": bank,
-                "role": role,
-                "page": page_num,
-                "kind": kind,
-                "reason": render_reason,
-                "width": pix.width,
-                "height": pix.height,
-                "dpi": args.dpi,
-                "bank_code_inherited": inherited,
-                "bbox": spatial_ctx["bbox"],
-                "question_anchor": spatial_ctx["question_anchor"],
-                "text_before": spatial_ctx["text_before"],
-                "text_after": spatial_ctx["text_after"],
-                "is_full_page_scan": spatial_ctx["is_full_page_scan"],
-            }
-            entries_this_page.append(entry)
-            flat_images.append(entry)
+
+            if clip is not None:
+                if not code:
+                    counters[("unknown", role)] += 1
+                    n = counters[("unknown", role)]
+                    name = f"{stem}_page{page_num:02d}_{role}{n:02d}.png"
+                    bank = None
+                else:
+                    counters[(code, role)] += 1
+                    n = counters[(code, role)]
+                    name = f"{stem}_{code}_{role}{n:02d}.png"
+                    bank = code
+                pix = page.get_pixmap(dpi=args.dpi, clip=clip, alpha=False)
+                pix.save(str(out_dir / name))
+                stats["rendered"] += 1
+                spatial_ctx = get_image_spatial_context(page, [clip.x0, clip.y0, clip.x1, clip.y1])
+                entry = {
+                    "file": name,
+                    "bank_code": bank,
+                    "role": role,
+                    "page": page_num,
+                    "kind": kind,
+                    "reason": render_reason,
+                    "width": pix.width,
+                    "height": pix.height,
+                    "dpi": args.dpi,
+                    "bank_code_inherited": inherited,
+                    "bbox": spatial_ctx["bbox"],
+                    "question_anchor": spatial_ctx["question_anchor"],
+                    "text_before": spatial_ctx["text_before"],
+                    "text_after": spatial_ctx["text_after"],
+                    "is_full_page_scan": spatial_ctx["is_full_page_scan"],
+                }
+                entries_this_page.append(entry)
+                flat_images.append(entry)
 
         if args.verbose:
             n_emb = sum(1 for e in entries_this_page if e["kind"] == "embedded")
@@ -1042,6 +1125,9 @@ def attach_images_to_js_files(
                 fig_file = fig_meta["file"]
                 if fig_file in handled_files:
                     continue
+                # ΜΗΝ συνδέεις ποτέ ως εικόνες ερωτημάτων αρχεία που είναι scans ολόκληρης σελίδας ή renders εκφωνήσεων
+                if fig_meta.get("is_full_page_scan") or fig_meta.get("kind") in ("crop-render", "render"):
+                    continue
                 fig_url = f"{web_prefix}/{fig_file}"
                 matched_item_idx = match_image_to_item(fig_meta, items)
 
@@ -1063,7 +1149,7 @@ def attach_images_to_js_files(
                     touched = True
                 else:
                     # Έλεγχος αν υπάρχει άλλο υποερώτημα (item) που αναφέρεται σε σχήμα/εικόνα και δεν έχει ακόμα εικόνα
-                    next_item = next((it for it in items if any(w in normalize_gr(str(it.get("prompt") or it.get("subqPrompt") or "")) for w in ["σχημα", "διαγραμμα", "εικονα", "αντιστοιχ"]) and "image" not in it and "images" not in it), None)
+                    next_item = next((it for it in items if any(w in normalize_gr(str(it.get("prompt") or it.get("subqPrompt") or "")) for w in ["σχημα", "διαγραμμα", "εικονα"]) and "image" not in it and "images" not in it), None)
                     if next_item:
                         next_item["image"] = fig_url
                         touched = True

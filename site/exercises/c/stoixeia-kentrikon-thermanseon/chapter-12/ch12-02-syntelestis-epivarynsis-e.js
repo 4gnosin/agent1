@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27799",
     "bankCode": "27799",
-    "title": "#27799 — Θέμα 2<sup>ο</sup> (12.2.5)",
+    "title": "#27799 — Θέμα 2$^{ο}$ (12.2.5)",
     "units": 25,
     "theory": "ch12-02-syntelestis-epivarynsis-e",
     "sourceOrder": 1,

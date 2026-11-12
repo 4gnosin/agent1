@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #26660",
     "bankCode": "26660",
-    "title": "#26660 — Θέμα 4<sup>ο</sup>",
+    "title": "#26660 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-02",
     "sourceOrder": 1,
@@ -34,7 +34,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
         "answer": 480,
         "unit": "L/s",
         "tolerance": 0.01,
-        "hint": "Χρησιμοποιήστε τον τύπο \\( Q = A \\cdot V \\) και μετατρέψτε τα $\text{m}^3\\text{/s}$ σε $\text{L/s}$.",
+        "hint": "Χρησιμοποιήστε τον τύπο \\( Q = A \\cdot V \\) και μετατρέψτε τα $\\text{m}^3\\text{/s}$ σε $\\text{L/s}$.",
         "explain": " \\( Q = A \\cdot V = 0,24\\text{ m}^2 \\cdot 2\\text{ m/s} = 0,48\\text{ m}^3\\text{/s} = 480\\text{ L/s} \\)."
       },
       {

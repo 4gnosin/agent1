@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #25468",
     "bankCode": "25468",
-    "title": "#25468 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#25468 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 1,
@@ -37,7 +37,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "unit": "°",
         "tolerance": 0.05,
         "hint": "Η ημιγωνία υπολογίζεται από τον τύπο $\\text{εφ}(\\alpha/2) = \\frac{D - d}{2 \\cdot l}$.",
-        "explain": " \\( \\text{εφ}\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\text{εφ}(1,43^\\circ) \\approx 0,025$, άρα $\\alpha/2 = 1,43^\\circ$."
+        "explain": " \\( \\text{εφ}\\left(\\frac{\\alpha}{2}\\right) = \\frac{60 - 50}{2 \\cdot 200} = \\frac{10}{400} = \\frac{1}{40} = 0,025 \\). Δίνεται ότι $\\text{εφ}(1,43{}^{\\circ}) \\approx 0,025$, άρα $\\alpha/2 = 1,43{}^{\\circ}$."
       },
       {
         "kind": "mc",
@@ -99,7 +99,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27329",
     "bankCode": "27329",
-    "title": "#27329 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27329 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 2,
@@ -194,11 +194,11 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27559",
     "bankCode": "27559",
-    "title": "#27559 — Θέμα 4<sup>ο</sup> (α–δ)",
+    "title": "#27559 — Θέμα 4$^{ο}$ (α–δ)",
     "units": 25,
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 3,
-    "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε έναν άξονα σαν αυτόν που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 20\\text{ mm}$, $d = 10\\text{ mm}$, $l = 20\\text{ mm}$.\nΔίνεται: $\\text{εφ}(\\varphi) = 0,25$ όταν η γωνία $\\varphi = 14,036^\\circ$.",
+    "stem": "Στο μηχανουργείο που δουλεύετε, πρόκειται να κατεργαστείτε έναν άξονα σαν αυτόν που φαίνεται στο παρακάτω σχήμα. Τα δεδομένα από το μηχανολογικό σχέδιο, που σας έδωσε ο πελάτης σας είναι:\n$D = 20\\text{ mm}$, $d = 10\\text{ mm}$, $l = 20\\text{ mm}$.\nΔίνεται: $\\text{εφ}(\\varphi) = 0,25$ όταν η γωνία $\\varphi = 14,036{}^{\\circ}$.",
     "image": "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27559_fig01.webp",
     "solutionImages": [
       "images/c/michanourgiki-texnologia/chapter-04/c_michanourgiki-texnologia_ch04_27559_sol01.webp"
@@ -227,7 +227,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
         "unit": "°",
         "tolerance": 0.01,
         "hint": "Η στροφή του φορείου γίνεται κατά την ημιγωνία $\\alpha/2$, όπου $\\text{εφ}(\\alpha/2) = \\frac{1}{2} \\cdot \\frac{1}{\\kappa} = \\frac{1}{4} = 0,25$.",
-        "explain": " \\( \\text{εφ}(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\text{τοξεφ}(0,25) = 14,036^\\circ$."
+        "explain": " \\( \\text{εφ}(\\alpha/2) = \\frac{1}{2 \\cdot 2} = \\frac{1}{4} = 0,25 \\). Άρα $\\alpha/2 = \\text{τοξεφ}(0,25) = 14,036{}^{\\circ}$."
       },
       {
         "kind": "mc",
@@ -290,7 +290,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27560",
     "bankCode": "27560",
-    "title": "#27560 — Θέμα 4<sup>ο</sup> (α–γ)",
+    "title": "#27560 — Θέμα 4$^{ο}$ (α–γ)",
     "units": 25,
     "theory": "ch04-07-koniki-tornefsi",
     "sourceOrder": 4,

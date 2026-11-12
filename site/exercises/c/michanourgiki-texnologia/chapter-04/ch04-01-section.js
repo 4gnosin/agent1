@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #27600",
     "bankCode": "27600",
-    "title": "#27600 — Θέμα 4<sup>ο</sup>",
+    "title": "#27600 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch04-01",
     "sourceOrder": 1,

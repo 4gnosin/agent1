@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "27160",
     "code": "Θέμα 2<sup>ο</sup> · #27160",
-    "title": "#27160 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27160 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch06-06-systimata-kleistou-vroxou",
     "sourceOrder": 3,

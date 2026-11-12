@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "25175",
     "code": "Θέμα 2<sup>ο</sup> · #25175",
-    "title": "#25175 — Θέμα 2<sup>ο</sup> (7.1)",
+    "title": "#25175 — Θέμα 2$^{ο}$ (7.1)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 1,
@@ -107,7 +107,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "25177",
     "code": "Θέμα 2<sup>ο</sup> · #25177",
-    "title": "#25177 — Θέμα 2<sup>ο</sup> (7.1.5)",
+    "title": "#25177 — Θέμα 2$^{ο}$ (7.1.5)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 2,
@@ -231,7 +231,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28604",
     "code": "Θέμα 2<sup>ο</sup> · #28604",
-    "title": "#28604 — Θέμα 2<sup>ο</sup> (7.1.5)",
+    "title": "#28604 — Θέμα 2$^{ο}$ (7.1.5)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 3,
@@ -333,7 +333,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28605",
     "code": "Θέμα 2<sup>ο</sup> · #28605",
-    "title": "#28605 — Θέμα 2<sup>ο</sup> (7.1.5)",
+    "title": "#28605 — Θέμα 2$^{ο}$ (7.1.5)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 4,
@@ -371,19 +371,19 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "options": [
           {
             "id": "a",
-            "text": "30 και 40 °C"
+            "text": "30 και 40°C"
           },
           {
             "id": "b",
-            "text": "10 και 20 °C"
+            "text": "10 και 20°C"
           },
           {
             "id": "c",
-            "text": "0 και 10 °C"
+            "text": "0 και 10°C"
           }
         ],
         "answer": "b",
-        "explain": "Στην πράξη η θερμοκρασιακή πτώση $Δt$ κυμαίνεται μεταξύ 10 και 20 °C."
+        "explain": "Στην πράξη η θερμοκρασιακή πτώση $Δt$ κυμαίνεται μεταξύ 10 και 20°C."
       },
       {
         "kind": "mc",

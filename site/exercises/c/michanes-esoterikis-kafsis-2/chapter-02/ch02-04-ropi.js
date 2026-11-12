@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23741",
     "bankCode": "23741",
-    "title": "#23741 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#23741 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 3,
@@ -47,7 +47,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #23742",
     "bankCode": "23742",
-    "title": "#23742 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#23742 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 4,
@@ -85,11 +85,11 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #24400",
     "bankCode": "24400",
-    "title": "#24400 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#24400 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 5,
-    "stem": "Δίνεται διωστήρας μιας πετρελαιομηχανής (diesel), ο οποίος μεταβιβάζει μία δύναμη $F = 8000\\text{ N}$, όπως φαίνεται στο παρακάτω σχήμα. Η ροπή που αναπτύσσεται ως προς τον άξονα του στροφαλοφόρου είναι $M = 764\\text{ Nm}$. Δίνονται: γωνία $\\varphi = 11^{\\circ}$, $\\text{ημ} 11^{\\circ} = 0,191$.",
+    "stem": "Δίνεται διωστήρας μιας πετρελαιομηχανής (diesel), ο οποίος μεταβιβάζει μία δύναμη $F = 8000\\text{ N}$, όπως φαίνεται στο παρακάτω σχήμα. Η ροπή που αναπτύσσεται ως προς τον άξονα του στροφαλοφόρου είναι $M = 764\\text{ Nm}$. Δίνονται: γωνία $\\varphi = 11{}^{\\circ}$, $\\text{ημ} 11{}^{\\circ} = 0,191$.",
     "items": [
       {
         "kind": "calc",
@@ -110,8 +110,8 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
         "answer": 0.5,
         "unit": "m",
         "tolerance": 0.01,
-        "hint": "Διαιρέστε τον μοχλοβραχίονα $d$ με το $\\text{ημ} 11^{\\circ}$.",
-        "explain": "$L = \\frac{d}{\\text{ημ} 11^{\\circ}} = \\frac{0,0955\\text{ m}}{0,191} = 0,5\\text{ m}$."
+        "hint": "Διαιρέστε τον μοχλοβραχίονα $d$ με το $\\text{ημ} 11{}^{\\circ}$.",
+        "explain": "$L = \\frac{d}{\\text{ημ} 11{}^{\\circ}} = \\frac{0,0955\\text{ m}}{0,191} = 0,5\\text{ m}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_24400_fig01.webp"
@@ -123,11 +123,11 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34913",
     "bankCode": "34913",
-    "title": "#34913 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#34913 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 6,
-    "stem": "Ο διωστήρας μιας βενζινομηχανής μεταβιβάζει μια δύναμη $F = 8000\\text{ N}$, όταν βρίσκεται στην θέση του σχήματος 1, η οποία ως προς τον άξονα του στροφαλοφόρου προκαλεί ροπή $M = 1200\\text{ Nm}$. Δίνονται: Συνημίτονο της γωνίας $\\varphi = 75^{\\circ}$ είναι $\\text{συν}\\varphi = 0,25$.",
+    "stem": "Ο διωστήρας μιας βενζινομηχανής μεταβιβάζει μια δύναμη $F = 8000\\text{ N}$, όταν βρίσκεται στην θέση του σχήματος 1, η οποία ως προς τον άξονα του στροφαλοφόρου προκαλεί ροπή $M = 1200\\text{ Nm}$. Δίνονται: Συνημίτονο της γωνίας $\\varphi = 75{}^{\\circ}$ είναι $\\text{συν}\\varphi = 0,25$.",
     "items": [
       {
         "kind": "calc",
@@ -161,7 +161,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #34916",
     "bankCode": "34916",
-    "title": "#34916 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#34916 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch02-04-ropi",
     "sourceOrder": 7,
@@ -181,13 +181,13 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
       {
         "kind": "calc",
         "subq": "β",
-        "prompt": "Η γωνία $\\varphi$ σε μοίρες ($^{\\circ}$), βάσει του πινακίου ημιτόνων.",
+        "prompt": "Η γωνία $\\varphi$ σε μοίρες (${}^{\\circ}$), βάσει του πινακίου ημιτόνων.",
         "formula": "$\\text{ημ}\\varphi = \\frac{d}{L}$",
         "answer": 13,
         "unit": "°",
         "tolerance": 0.01,
         "hint": "Υπολογίστε το $\\text{ημ}\\varphi = d / L$ και βρείτε την αντίστοιχη γωνία.",
-        "explain": "$\\text{ημ}\\varphi = \\frac{0,18}{0,8} = 0,225$. Από τον πίνακα προκύπτει γωνία $13^{\\circ}$."
+        "explain": "$\\text{ημ}\\varphi = \\frac{0,18}{0,8} = 0,225$. Από τον πίνακα προκύπτει γωνία $13{}^{\\circ}$."
       }
     ],
     "image": "images/c/michanes-esoterikis-kafsis-2/chapter-02/c_michanes-esoterikis-kafsis-2_ch02_34916_fig01.webp"

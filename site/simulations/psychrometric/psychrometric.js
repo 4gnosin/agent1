@@ -351,7 +351,7 @@
     layerVolume.innerHTML = vHtml;
 
     // 6. Ζώνη Άνεσης ASHRAE 55 (Comfort Zone)
-    // Summer: 23°C - 27°C, 30% - 60% RH | Winter: 20°C - 24°C, 30% - 60% RH
+    // Summer: 23{}^{\circ}\text{C} - 27{}^{\circ}\text{C}, 30% - 60% RH | Winter: 20{}^{\circ}\text{C} - 24{}^{\circ}\text{C}, 30% - 60% RH
     const c1 = toScreen(20, calcW(20, 30));
     const c2 = toScreen(27, calcW(27, 30));
     const c3 = toScreen(27, calcW(27, 60));
@@ -440,11 +440,11 @@
             <button class="btn-card-del" data-del-id="${pt.id}" title="Διαγραφή">✕</button>
           </div>
           <div class="point-props-grid">
-            <div>Tdb: <b>${pt.t.toFixed(1)}</b> °C</div>
+            <div>Tdb: <b>${pt.t.toFixed(1)}</b> {}^{\circ}\text{C}</div>
             <div>RH: <b>${pt.rh.toFixed(1)}</b> %</div>
             <div>w: <b>${pt.w_g.toFixed(1)}</b> g/kg</div>
             <div>h: <b>${pt.h.toFixed(1)}</b> kJ/kg</div>
-            <div>Twb: <b>${pt.twb.toFixed(1)}</b> °C</div>
+            <div>Twb: <b>${pt.twb.toFixed(1)}</b> {}^{\circ}\text{C}</div>
             <div>Tdp: <b>${pt.tdp.toFixed(1)}</b> °C</div>
             <div>v: <b>${pt.v.toFixed(3)}</b> m³/kg</div>
             <div>Pv: <b>${pt.pv.toFixed(2)}</b> kPa</div>
@@ -527,7 +527,7 @@
             <button class="btn-card-del" data-del-proc="${proc.id}" title="Διαγραφή Μεταβολής">✕</button>
           </div>
           <div class="process-data-grid">
-            <div>ΔT: <b>${dT > 0 ? '+' : ''}${dT.toFixed(1)}</b> °C</div>
+            <div>ΔT: <b>${dT > 0 ? '+' : ''}${dT.toFixed(1)}</b> {}^{\circ}\text{C}</div>
             <div>Δw: <b>${dw_g > 0 ? '+' : ''}${dw_g.toFixed(2)}</b> g/kg</div>
             <div>Δh: <b>${dh > 0 ? '+' : ''}${dh.toFixed(1)}</b> kJ/kg</div>
             <div>SHR: <b>${shr.toFixed(2)}</b></div>
@@ -631,37 +631,37 @@
   function loadPreset(presetKey) {
     clearAll();
     if (presetKey === 'summer-ac') {
-      // 1. Εξωτερικός Αέρας (35°C, 45% RH)
+      // 1. Εξωτερικός Αέρας (35{}^{\circ}\text{C}, 45% RH)
       const p1 = addPoint(35, 45, '1. Εξωτερικός (OA)', '#ef4444');
-      // 2. Μετά το στοιχείο ψύξης & αφύγρανσης (12°C, 95% RH)
+      // 2. Μετά το στοιχείο ψύξης & αφύγρανσης (12{}^{\circ}\text{C}, 95% RH)
       const p2 = addPoint(12, 95, '2. Μετά Ψυκτικό', '#06b6d4');
-      // 3. Προσαγωγή στο χώρο (17°C, 70% RH)
+      // 3. Προσαγωγή στο χώρο (17{}^{\circ}\text{C}, 70% RH)
       const p3 = addPoint(17, 70, '3. Προσαγωγή (SA)', '#3b82f6');
-      // 4. Συνθήκες Χώρου (24°C, 50% RH)
+      // 4. Συνθήκες Χώρου (24{}^{\circ}\text{C}, 50% RH)
       const p4 = addPoint(24, 50, '4. Χώρος (RA)', '#10b981');
       addProcess(p1, p2);
       addProcess(p2, p3);
       addProcess(p3, p4);
     } else if (presetKey === 'winter-ac') {
-      // 1. Χειμερινός Εξωτερικός (4°C, 80% RH)
+      // 1. Χειμερινός Εξωτερικός (4{}^{\circ}\text{C}, 80% RH)
       const p1 = addPoint(4, 80, '1. Εξωτερικός', '#3b82f6');
-      // 2. Προθέρμανση (20°C, w=const)
+      // 2. Προθέρμανση (20{}^{\circ}\text{C}, w=const)
       const p2 = addPoint(20, 23, '2. Προθέρμανση', '#f59e0b');
-      // 3. Ύγρανση με ατμό (21°C, 50% RH)
+      // 3. Ύγρανση με ατμό (21{}^{\circ}\text{C}, 50% RH)
       const p3 = addPoint(21, 50, '3. Ύγρανση Χώρου', '#10b981');
       addProcess(p1, p2);
       addProcess(p2, p3);
     } else if (presetKey === 'adiabatic-mixing') {
-      // 1. Νωπός αέρας (34°C, 40% RH)
+      // 1. Νωπός αέρας (34{}^{\circ}\text{C}, 40% RH)
       const p1 = addPoint(34, 40, '1. Νωπός Αέρας', '#ef4444');
-      // 2. Αέρας ανακυκλοφορίας (24°C, 50% RH)
+      // 2. Αέρας ανακυκλοφορίας (24{}^{\circ}\text{C}, 50% RH)
       const p2 = addPoint(24, 50, '2. Ανακυκλοφορία', '#3b82f6');
-      // 3. Μείγμα (1/3 νωπός, 2/3 ανακυκλοφορία) -> T = 27.3°C
+      // 3. Μείγμα (1/3 νωπός, 2/3 ανακυκλοφορία) -> T = 27.3{}^{\circ}\text{C}
       const p3 = addPoint(27.3, 47, '3. Μείγμα (Mix)', '#8b5cf6');
       addProcess(p1, p3);
       addProcess(p2, p3);
     } else if (presetKey === 'evap-cooling') {
-      // Εξατμιστική ψύξη (Desert cooler): 38°C, 20% RH -> Twb = 20.8°C -> ακολουθεί Twb=const
+      // Εξατμιστική ψύξη (Desert cooler): 38{}^{\circ}\text{C}, 20% RH -> Twb = 20.8{}^{\circ}\text{C} -> ακολουθεί Twb=const
       const p1 = addPoint(38, 20, '1. Θερμός Ξηρός', '#ef4444');
       const p2 = addPoint(24, 75, '2. Μετά Ψεκαστήρα', '#06b6d4');
       addProcess(p1, p2);

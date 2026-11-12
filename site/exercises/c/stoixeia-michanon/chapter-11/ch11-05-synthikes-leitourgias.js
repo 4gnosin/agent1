@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #30366",
     "bankCode": "30366",
-    "title": "#30366 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#30366 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch11-05-synthikes-leitourgias",
     "sourceOrder": 4,

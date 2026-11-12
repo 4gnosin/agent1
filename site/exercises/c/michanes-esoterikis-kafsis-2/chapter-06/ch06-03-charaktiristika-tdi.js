@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "bankCode": "28766",
     "code": "Θέμα 2<sup>ο</sup> · #28766",
-    "title": "#28766 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#28766 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch06-03-charaktiristika-tdi",
     "sourceOrder": 2,

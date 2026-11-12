@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #23880",
     "bankCode": "23880",
-    "title": "#23880 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#23880 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-05-kyklos-carnot",
     "sourceOrder": 12,
@@ -90,11 +90,11 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #26870",
     "bankCode": "26870",
-    "title": "#26870 — Θέμα 4<sup>ο</sup> (4.1–4.2)",
+    "title": "#26870 — Θέμα 4$^{ο}$ (4.1–4.2)",
     "units": 25,
     "theory": "ch03-05-kyklos-carnot",
     "sourceOrder": 13,
-    "stem": "Μία θερμική μηχανή που ακολουθεί τον κύκλο του Carnot, λειτουργεί ανάμεσα στις θερμοκρασίες $T_1$ (υψηλή) και $T_2 = 86\\text{ }^\\circ\\text{F}$ (χαμηλή). Ο θερμικός βαθμός απόδοσης της μηχανής είναι $n_\\theta = 0,7$.",
+    "stem": "Μία θερμική μηχανή που ακολουθεί τον κύκλο του Carnot, λειτουργεί ανάμεσα στις θερμοκρασίες $T_1$ (υψηλή) και $T_2 = 86^{\\circ}\\text{F}$ (χαμηλή). Ο θερμικός βαθμός απόδοσης της μηχανής είναι $n_\\theta = 0,7$.",
     "items": [
       {
         "kind": "calc",
@@ -105,8 +105,8 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
         "answer": 303,
         "unit": "K",
         "tolerance": 0.02,
-        "hint": "Μετατρέψτε πρώτα τους $86\\text{ }^\\circ\\text{F}$ σε $^\\circ\\text{C}$ και έπειτα σε K.",
-        "explain": "Από τη σχέση $\\frac{\\vartheta_2}{5} = \\frac{86 - 32}{9}$ προκύπτει $\\vartheta_2 = 30\\text{ }^\\circ\\text{C}$. Άρα $T_2 = 30 + 273 = 303\\text{ K}$."
+        "hint": "Μετατρέψτε πρώτα τους $86^{\\circ}\\text{F}$ σε ${}^{\\circ}\\text{C}$ και έπειτα σε K.",
+        "explain": "Από τη σχέση $\\frac{\\vartheta_2}{5} = \\frac{86 - 32}{9}$ προκύπτει $\\vartheta_2 = 30^{\\circ}\\text{C}$. Άρα $T_2 = 30 + 273 = 303\\text{ K}$."
       },
       {
         "kind": "calc",
@@ -128,7 +128,7 @@ window.SUBJECT_DATA["stoixeia-psyxis-klimatismou"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #33903",
     "bankCode": "33903",
-    "title": "#33903 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#33903 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch03-05-kyklos-carnot",
     "sourceOrder": 14,

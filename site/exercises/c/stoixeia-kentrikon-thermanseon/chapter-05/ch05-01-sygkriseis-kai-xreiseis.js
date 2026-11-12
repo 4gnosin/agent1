@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28673",
     "code": "Θέμα 4<sup>ο</sup> · #28673",
-    "title": "#28673 — Θέμα 4<sup>ο</sup>",
+    "title": "#28673 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "sygkriseis-kai-xreiseis-kaustiron",
     "stem": "Στα πλαίσια μίας μελέτης κεντρικής θέρμανσης κατοικίας, για μεσαίου μεγέθους εγκατάσταση, καλείστε να επιλέξετε τον τύπο καυστήρα πετρελαίου που θα εγκαταστήσετε.",

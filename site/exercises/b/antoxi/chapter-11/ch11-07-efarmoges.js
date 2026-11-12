@@ -9,7 +9,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "bankCode": "29001",
     "code": "Θέμα 4<sup>ο</sup> · #29001",
-    "title": "#29001 — Θέμα 4<sup>ο</sup> (α–β)",
+    "title": "#29001 — Θέμα 4$^{ο}$ (α–β)",
     "units": 25,
     "theory": "ch11-07",
     "sourceOrder": 2,

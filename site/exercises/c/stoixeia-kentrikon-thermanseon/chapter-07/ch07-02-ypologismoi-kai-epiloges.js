@@ -9,11 +9,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24314",
     "code": "Θέμα 4<sup>ο</sup> · #24314",
-    "title": "#24314 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#24314 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 5,
-    "stem": "Στο παρακάτω σχήμα απεικονίζεται ένα στοιχειώδες κύκλωμα δισωλήνιου συστήματος. Τα επιμέρους θερμικά φορτία του συστήματος είναι $Q_1 = 2000\\text{ kcal/h}$ και $Q_2 = 2500\\text{ kcal/h}$ όταν η θερμοκρασιακή πτώση του κυκλώματος είναι $\\Delta t = 15\\text{ }^\\circ\\text{C}$.",
+    "stem": "Στο παρακάτω σχήμα απεικονίζεται ένα στοιχειώδες κύκλωμα δισωλήνιου συστήματος. Τα επιμέρους θερμικά φορτία του συστήματος είναι $Q_1 = 2000\\text{ kcal/h}$ και $Q_2 = 2500\\text{ kcal/h}$ όταν η θερμοκρασιακή πτώση του κυκλώματος είναι $\\Delta t = 15^{\\circ}\\text{C}$.",
     "items": [
       {
         "kind": "calc",
@@ -24,7 +24,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 300,
         "unit": "l/h",
         "tolerance": 0.01,
-        "explain": "Το ολικό θερμικό φορτίο είναι $Q = Q_1 + Q_2 = 2000 + 2500 = 4500\\text{ kcal/h}$.\\\\nΗ απαιτούμενη παροχή υπολογίζεται: $V = \\frac{Q}{\\Delta t} = \\frac{4500\\text{ kcal/h}}{15\\text{ }^\\circ\\text{C}} = 300\\text{ l/h}$.",
+        "explain": "Το ολικό θερμικό φορτίο είναι $Q = Q_1 + Q_2 = 2000 + 2500 = 4500\\text{ kcal/h}$.\\\\nΗ απαιτούμενη παροχή υπολογίζεται: $V = \\frac{Q}{\\Delta t} = \\frac{4500\\text{ kcal/h}}{15^{\\circ}\\text{C}} = 300\\text{ l/h}$.",
         "images": [
           "images/c/stoixeia-kentrikon-thermanseon/chapter-07/c_stoixeia-kentrikon-thermanseon_ch07_24314_fig01.webp"
         ]
@@ -70,7 +70,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24317",
     "code": "Θέμα 2<sup>ο</sup> · #24317",
-    "title": "#24317 — Θέμα 2<sup>ο</sup> (7.2.3)",
+    "title": "#24317 — Θέμα 2$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 6,
@@ -164,7 +164,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "24389",
     "code": "Θέμα 4<sup>ο</sup> · #24389",
-    "title": "#24389 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#24389 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 7,
@@ -236,7 +236,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28611",
     "code": "Θέμα 4<sup>ο</sup> · #28611",
-    "title": "#28611 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#28611 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 11,
@@ -383,7 +383,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28612",
     "code": "Θέμα 4<sup>ο</sup> · #28612",
-    "title": "#28612 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#28612 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 12,
@@ -546,11 +546,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28613",
     "code": "Θέμα 4<sup>ο</sup> · #28613",
-    "title": "#28613 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#28613 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 13,
-    "stem": "Για το στοιχειώδες κύκλωμα του σχήματος δίνεται ότι το θερμικό φορτίο είναι $Q = 6000\\text{ kcal/h}$, η διαφορά θερμοκρασίας εισόδου – εξόδου του νερού στο λέβητα $\\Delta t = 20\\text{ }^\\circ\\text{C}$ και ότι το υλικό κατασκευής των σωλήνων είναι χάλυβας διατομής 15 x 1,2.",
+    "stem": "Για το στοιχειώδες κύκλωμα του σχήματος δίνεται ότι το θερμικό φορτίο είναι $Q = 6000\\text{ kcal/h}$, η διαφορά θερμοκρασίας εισόδου – εξόδου του νερού στο λέβητα $\\Delta t = 20^{\\circ}\\text{C}$ και ότι το υλικό κατασκευής των σωλήνων είναι χάλυβας διατομής 15 x 1,2.",
     "items": [
       {
         "kind": "calc",
@@ -561,7 +561,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 300,
         "unit": "l/h",
         "tolerance": 0.01,
-        "explain": "$V = \\frac{Q}{\\Delta t} = \\frac{6000\\text{ kcal/h}}{20\\text{ }^\\circ\\text{C}} = 300\\text{ l/h}$."
+        "explain": "$V = \\frac{Q}{\\Delta t} = \\frac{6000\\text{ kcal/h}}{20^{\\circ}\\text{C}} = 300\\text{ l/h}$."
       },
       {
         "kind": "calc",
@@ -608,11 +608,11 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "28614",
     "code": "Θέμα 4<sup>ο</sup> · #28614",
-    "title": "#28614 — Θέμα 4<sup>ο</sup> (7.2.3)",
+    "title": "#28614 — Θέμα 4$^{ο}$ (7.2.3)",
     "units": 25,
     "theory": "stichio-kentrikon-thermanseon-ch07",
     "sourceOrder": 14,
-    "stem": "Για τον βρόχο ενός μονοσωληνίου συστήματος, με δύο θερμαντικά σώματα φορτίου $Q_1 = 1900\\text{ kcal/h}$ και $Q_2 = 1340\\text{ kcal/h}$, η θερμοκρασιακή πτώση είναι $\\Delta t = 15\\text{ }^\\circ\\text{C}$ και το υλικό κατασκευής του είναι χαλκοσωλήνας 18 x 1. Αν το συνολικό μήκος των σωληνώσεων είναι $L = 18\\text{ m}$ και το ισοδύναμο μήκος των εξαρτημάτων είναι $L_{\\text{ισ}} = 10\\text{ m}$:",
+    "stem": "Για τον βρόχο ενός μονοσωληνίου συστήματος, με δύο θερμαντικά σώματα φορτίου $Q_1 = 1900\\text{ kcal/h}$ και $Q_2 = 1340\\text{ kcal/h}$, η θερμοκρασιακή πτώση είναι $\\Delta t = 15^{\\circ}\\text{C}$ και το υλικό κατασκευής του είναι χαλκοσωλήνας 18 x 1. Αν το συνολικό μήκος των σωληνώσεων είναι $L = 18\\text{ m}$ και το ισοδύναμο μήκος των εξαρτημάτων είναι $L_{\\text{ισ}} = 10\\text{ m}$:",
     "items": [
       {
         "kind": "calc",
@@ -624,7 +624,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
         "answer": 216,
         "unit": "l/h",
         "tolerance": 0.01,
-        "explain": "Συνολικό θερμικό φορτίο: $Q = Q_1 + Q_2 = 1900 + 1340 = 3240\\text{ kcal/h}$.\\\\nΠαροχή σε l/h: $V = \\frac{3240\\text{ kcal/h}}{15\\text{ }^\\circ\\text{C}} = 216\\text{ l/h}$."
+        "explain": "Συνολικό θερμικό φορτίο: $Q = Q_1 + Q_2 = 1900 + 1340 = 3240\\text{ kcal/h}$.\\\\nΠαροχή σε l/h: $V = \\frac{3240\\text{ kcal/h}}{15^{\\circ}\\text{C}} = 216\\text{ l/h}$."
       },
       {
         "kind": "calc",

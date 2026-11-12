@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28979",
     "bankCode": "28979",
-    "title": "#28979 — Θέμα 4<sup>ο</sup>",
+    "title": "#28979 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ichorypansi",
     "sourceOrder": 6,

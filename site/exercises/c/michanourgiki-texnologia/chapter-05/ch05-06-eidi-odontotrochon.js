@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #32664",
     "bankCode": "32664",
-    "title": "#32664 — Θέμα 4<sup>ο</sup>",
+    "title": "#32664 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch05-06-eidi-odontotrochon",
     "sourceOrder": 4,

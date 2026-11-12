@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "26781",
     "code": "Θέμα 2<sup>ο</sup> · #26781",
-    "title": "#26781 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#26781 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch01-asfaleia-ergaleiomichanon",
     "sourceOrder": 1,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "33652",
     "code": "Θέμα 4<sup>ο</sup> · #33652",
-    "title": "#33652 — Θέμα 4<sup>ο</sup>",
+    "title": "#33652 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch07-06-apofugi-atiximaton-kata-to-planisma",
     "sourceOrder": 4,

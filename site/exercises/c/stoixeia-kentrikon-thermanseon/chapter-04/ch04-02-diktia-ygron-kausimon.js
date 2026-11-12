@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #24089",
     "bankCode": "24089",
-    "title": "#24089 — Θέμα 4<sup>ο</sup> (4.2.1)",
+    "title": "#24089 — Θέμα 4$^{ο}$ (4.2.1)",
     "units": 25,
     "theory": "dexamenes-petrelaiou",
     "sourceOrder": 1,
@@ -17,15 +17,15 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "givens": [
       {
         "label": "$t_{\\text{ημέρα}}$",
-        "value": "24 h/ημέρα"
+        "value": "$24 \\text{h}/ημέρα$"
       },
       {
         "label": "M",
-        "value": "78000 kg/έτος"
+        "value": "$78000 \\text{kg}/έτος$"
       },
       {
         "label": "$T_{\\text{ημέρες}}$",
-        "value": "65 ημέρες/έτος"
+        "value": "$65 ημέρες/έτος$"
       }
     ],
     "items": [
@@ -60,7 +60,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24110",
     "bankCode": "24110",
-    "title": "#24110 — Θέμα 2<sup>ο</sup> (4.2.2)",
+    "title": "#24110 — Θέμα 2$^{ο}$ (4.2.2)",
     "units": 25,
     "theory": "exartimata-dexamenon-petrelaiou",
     "sourceOrder": 2,
@@ -143,7 +143,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #28981",
     "bankCode": "28981",
-    "title": "#28981 — Θέμα 4<sup>ο</sup> (4.2.1)",
+    "title": "#28981 — Θέμα 4$^{ο}$ (4.2.1)",
     "units": 25,
     "theory": "dexamenes-petrelaiou",
     "sourceOrder": 3,
@@ -151,15 +151,15 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "givens": [
       {
         "label": "$t_{\\text{ημέρα}}$",
-        "value": "11 h/ημέρα"
+        "value": "$11 \\text{h}/ημέρα$"
       },
       {
         "label": "w",
-        "value": "50 kg/h"
+        "value": "$50 \\text{kg/h}$"
       },
       {
         "label": "M",
-        "value": "55000 kg/έτος"
+        "value": "$55000 \\text{kg}/έτος$"
       }
     ],
     "items": [
@@ -194,7 +194,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #28984",
     "bankCode": "28984",
-    "title": "#28984 — Θέμα 2<sup>ο</sup> (4.2)",
+    "title": "#28984 — Θέμα 2$^{ο}$ (4.2)",
     "units": 25,
     "theory": "diktia-ygron-kausimon",
     "sourceOrder": 4,
@@ -282,7 +282,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #28985",
     "bankCode": "28985",
-    "title": "#28985 — Θέμα 2<sup>ο</sup> (4.2)",
+    "title": "#28985 — Θέμα 2$^{ο}$ (4.2)",
     "units": 25,
     "theory": "diktia-ygron-kausimon",
     "sourceOrder": 5,
@@ -369,7 +369,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #31266",
     "bankCode": "31266",
-    "title": "#31266 — Θέμα 2<sup>ο</sup> (4.2.2)",
+    "title": "#31266 — Θέμα 2$^{ο}$ (4.2.2)",
     "units": 25,
     "theory": "exartimata-dexamenon-petrelaiou",
     "sourceOrder": 6,
@@ -456,14 +456,14 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #31268",
     "bankCode": "31268",
-    "title": "#31268 — Θέμα 4<sup>ο</sup> (4.2.2)",
+    "title": "#31268 — Θέμα 4$^{ο}$ (4.2.2)",
     "units": 25,
     "theory": "exartimata-dexamenon-petrelaiou",
     "sourceOrder": 7,
     "stem": "Σε τετραώροφο κτίριο, με όγκο ανά όροφο $1750\\text{ m}^3$, θέλουμε να αντικαταστήσουμε την υπάρχουσα δεξαμενή πετρελαίου, λόγω παλαιότητας, με νέα, η οποία θα πληροί τους ισχύοντες κανονισμούς.\n\nΠίνακας 1:\n• Όγκος κτιρίου $2000\\text{ m}^3 \\rightarrow$ Χωρητικότητα δεξαμενής $1\\text{ m}^3$\n• Όγκος κτιρίου $4000\\text{ m}^3 \\rightarrow$ Χωρητικότητα δεξαμενής $2\\text{ m}^3$\n• Όγκος κτιρίου $7000\\text{ m}^3 \\rightarrow$ Χωρητικότητα δεξαμενής $3{,}5\\text{ m}^3$",
     "givens": [
       {
-        "label": "\\text{Αριθμός ορόφων}",
+        "label": "Αριθμός ορόφων",
         "value": "4"
       },
       {

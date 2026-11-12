@@ -9,11 +9,11 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #20475",
     "bankCode": "20475",
-    "title": "#20475 — Θέμα 4<sup>ο</sup>",
+    "title": "#20475 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch03-01",
     "sourceOrder": 1,
-    "stem": "Σε ένα σώμα ασκούνται δύο δυνάμεις με μέτρο $F_1 = 10\\text{ N}$ και $F_2 = 4\\text{ N}$ όπως φαίνεται στο σχήμα 1. Δίδεται ότι: $\\text{ημ}45^\\circ = \\text{συν}45^\\circ = \\frac{\\sqrt{2}}{2} = 0,7$ και $\\sqrt{170} = 13,03$.",
+    "stem": "Σε ένα σώμα ασκούνται δύο δυνάμεις με μέτρο $F_1 = 10\\text{ N}$ και $F_2 = 4\\text{ N}$ όπως φαίνεται στο σχήμα 1. Δίδεται ότι: $\\text{ημ}45{}^{\\circ} = \\text{συν}45{}^{\\circ} = \\frac{\\sqrt{2}}{2} = 0,7$ και $\\sqrt{170} = 13,03$.",
     "image": "images/b/antoxi/chapter-03/b_antoxi_ch03_20475_fig01.webp",
     "items": [
       {
@@ -21,23 +21,23 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
         "subq": "α",
         "subqPrompt": "Να υπολογίσετε με την αναλυτική μέθοδο:",
         "prompt": "Το μέτρο της συνιστώσας $F_{1x}$ στον άξονα $Ox$.",
-        "formula": "$F_{1x} = F_1 \\cdot \\text{συν}45^\\circ$",
+        "formula": "$F_{1x} = F_1 \\cdot \\text{συν}45{}^{\\circ}$",
         "answer": 7,
         "unit": "N",
         "tolerance": 0.02,
         "hint": "Αναλύστε τη δύναμη $F_1$ στους άξονες $Ox$ και $Oy$.",
-        "explain": "$\\text{Από τη σχέση } F_{1x} = F_1 \\cdot \\text{συν}45^\\circ = 10\\text{ N} \\cdot 0,7 = 7\\text{ N}$."
+        "explain": "$\\text{Από τη σχέση } F_{1x} = F_1 \\cdot \\text{συν}45{}^{\\circ} = 10\\text{ N} \\cdot 0,7 = 7\\text{ N}$."
       },
       {
         "kind": "calc",
         "subq": "α",
         "prompt": "Το μέτρο της συνιστώσας $F_{1y}$ στον άξονα $Oy$.",
-        "formula": "$F_{1y} = F_1 \\cdot \\text{ημ}45^\\circ$",
+        "formula": "$F_{1y} = F_1 \\cdot \\text{ημ}45{}^{\\circ}$",
         "answer": 7,
         "unit": "N",
         "tolerance": 0.02,
         "hint": "Χρησιμοποιήστε την τιμή του ημιτόνου.",
-        "explain": "$\\text{Από τη σχέση } F_{1y} = F_1 \\cdot \\text{ημ}45^\\circ = 10\\text{ N} \\cdot 0,7 = 7\\text{ N}$."
+        "explain": "$\\text{Από τη σχέση } F_{1y} = F_1 \\cdot \\text{ημ}45{}^{\\circ} = 10\\text{ N} \\cdot 0,7 = 7\\text{ N}$."
       },
       {
         "kind": "calc",
@@ -84,7 +84,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #20705",
     "bankCode": "20705",
-    "title": "#20705 — Θέμα 2<sup>ο</sup>",
+    "title": "#20705 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch03-01",
     "sourceOrder": 2,
@@ -169,7 +169,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #21107",
     "bankCode": "21107",
-    "title": "#21107 — Θέμα 2<sup>ο</sup>",
+    "title": "#21107 — Θέμα 2$^{ο}$",
     "units": 25,
     "theory": "ch03-01",
     "sourceOrder": 3,
@@ -206,7 +206,7 @@ window.SUBJECT_DATA["antoxi"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "β. Η διεύθυνση δίνεται από την σχέση: \\varepsilon \\varphi \\theta = \\frac{F_2}{F_1}"
+            "text": "β. Η διεύθυνση δίνεται από την σχέση: $\\varepsilon \\varphi \\theta = \\frac{F_2}{F_1}$"
           },
           {
             "id": "c",

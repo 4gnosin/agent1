@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-kentrikon-thermanseon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 4<sup>ο</sup> · #30340",
     "bankCode": "30340",
-    "title": "#30340 — Θέμα 4<sup>ο</sup>",
+    "title": "#30340 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch10-02-asfalistiko-systima",
     "sourceOrder": 3,

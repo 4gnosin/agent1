@@ -9,7 +9,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24031",
     "bankCode": "24031",
-    "title": "#24031 — Θέμα 2<sup>ο</sup> (7.5.2)",
+    "title": "#24031 — Θέμα 2$^{ο}$ (7.5.2)",
     "units": 25,
     "theory": "7.5.2",
     "sourceOrder": 26,
@@ -102,7 +102,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24032",
     "bankCode": "24032",
-    "title": "#24032 — Θέμα 2<sup>ο</sup> (7.5)",
+    "title": "#24032 — Θέμα 2$^{ο}$ (7.5)",
     "units": 25,
     "theory": "7.5",
     "sourceOrder": 27,
@@ -133,7 +133,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "b",
-            "text": "Пολύσφηνα"
+            "text": "Πολύσφηνα"
           },
           {
             "id": "c",
@@ -195,7 +195,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24213",
     "bankCode": "24213",
-    "title": "#24213 — Θέμα 2<sup>ο</sup> (7.5)",
+    "title": "#24213 — Θέμα 2$^{ο}$ (7.5)",
     "units": 25,
     "theory": "7.5",
     "sourceOrder": 28,
@@ -283,7 +283,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24215",
     "bankCode": "24215",
-    "title": "#24215 — Θέμα 2<sup>ο</sup> (7.5)",
+    "title": "#24215 — Θέμα 2$^{ο}$ (7.5)",
     "units": 25,
     "theory": "7.5",
     "sourceOrder": 29,
@@ -322,7 +322,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "d",
-            "text": "Пολύσφηνο"
+            "text": "Πολύσφηνο"
           }
         ],
         "pairs": {
@@ -376,7 +376,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #24217",
     "bankCode": "24217",
-    "title": "#24217 — Θέμα 2<sup>ο</sup> (7.5)",
+    "title": "#24217 — Θέμα 2$^{ο}$ (7.5)",
     "units": 25,
     "theory": "7.5",
     "sourceOrder": 30,
@@ -423,7 +423,7 @@ window.SUBJECT_DATA["stoixeia-michanon"].exercises.push(...
           },
           {
             "id": "e",
-            "text": "Пολύσφηνο"
+            "text": "Πολύσφηνο"
           }
         ],
         "pairs": {

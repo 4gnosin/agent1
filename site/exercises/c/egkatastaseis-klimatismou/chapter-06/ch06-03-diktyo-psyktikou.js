@@ -9,7 +9,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "32842",
     "code": "Θέμα 4<sup>ο</sup> · #32842",
-    "title": "#32842 — Θέμα 4<sup>ο</sup>",
+    "title": "#32842 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-03-diktyo-psyktikou",
     "sourceOrder": 1,
@@ -139,7 +139,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Ο δείκτης φόρτισης είναι 3 \\times 30 = 90. Για 50-100 αντιστοιχεί τύπος διακλάδωσης 18Τ."
+        "explain": "Ο δείκτης φόρτισης είναι 3 $\\times 30 = 90$. Για 50-100 αντιστοιχεί τύπος διακλάδωσης 18Τ."
       },
       {
         "subq": "4.3",
@@ -164,7 +164,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Ο δείκτης φόρτισης είναι 2 \\times 35 = 70. Για 50-100 αντιστοιχεί τύπος διακλάδωσης 18Τ."
+        "explain": "Ο δείκτης φόρτισης είναι 2 $\\times 35 = 70$. Για 50-100 αντιστοιχεί τύπος διακλάδωσης 18Τ."
       },
       {
         "subq": "4.1",
@@ -305,7 +305,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "34866",
     "code": "Θέμα 4<sup>ο</sup> · #34866",
-    "title": "#34866 — Θέμα 4<sup>ο</sup>",
+    "title": "#34866 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-03-diktyo-psyktikou",
     "sourceOrder": 2,
@@ -398,7 +398,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
     "layout": "unified",
     "bankCode": "35118",
     "code": "Θέμα 4<sup>ο</sup> · #35118",
-    "title": "#35118 — Θέμα 4<sup>ο</sup>",
+    "title": "#35118 — Θέμα 4$^{ο}$",
     "units": 25,
     "theory": "ch06-03-diktyo-psyktikou",
     "sourceOrder": 3,
@@ -478,7 +478,7 @@ window.SUBJECT_DATA["egkatastaseis-klimatismou"].exercises.push(...
           }
         ],
         "answer": "a",
-        "explain": "Στο τμήμα ΒΓ ο δείκτης φόρτισης είναι 2 \\times 45 = 90 (50-100). Επιλέγεται γραμμή αναρρόφησης 15,9 mm και γραμμή υγρού 9,5 mm."
+        "explain": "Στο τμήμα ΒΓ ο δείκτης φόρτισης είναι 2 $\\times 45 = 90 (50-100)$. Επιλέγεται γραμμή αναρρόφησης 15,9 mm και γραμμή υγρού 9,5 mm."
       },
       {
         "subq": "δ",

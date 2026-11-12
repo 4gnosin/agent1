@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27202",
     "code": "Θέμα 2<sup>ο</sup> · #27202",
-    "title": "#27202 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#27202 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch04-10-tornoi-revolver",
     "sourceOrder": 2,

@@ -175,12 +175,12 @@ window.SECTIONS.push({
       },
       {
         "type": "formula",
-        "html": "E\u003csub>g\u003c/sub> = m g Z",
+        "html": "E$_{g}$ = m g Z",
         "caption": "Δυναμική ενέργεια λόγω ύψους Z. Ανά μονάδα μάζας: g·Z ≈ 9,81 Z (J/kg)."
       },
       {
         "type": "formula",
-        "html": "E\u003csub>c\u003c/sub> = V² / 2",
+        "html": "E$_{c}$ = V² / 2",
         "caption": "Κινητική ενέργεια ανά μονάδα μάζας (J/kg), όταν το ρευστό ρέει με ταχύτητα V."
       },
       {

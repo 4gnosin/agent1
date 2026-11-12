@@ -35,7 +35,7 @@ window.SECTIONS.push({
     },
     {
       "type": "formula",
-      "html": "\\[ T = t_{^{\\circ}C} + 273 \\]",
+      "html": "\\[ T = t_{{}^{\\circ}\\text{C}} + 273 \\]",
       "caption": "T: απόλυτη θερμοκρασία σε Κέλβιν, t: θερμοκρασία σε βαθμούς Κελσίου."
     },
     {
@@ -44,7 +44,7 @@ window.SECTIONS.push({
     },
     {
       "type": "formula",
-      "html": "\\[ \\frac{^{\\circ}C}{5} = \\frac{^{\\circ}F - 32}{9} \\]",
+      "html": "\\[ \\frac{{}^{\\circ}\\text{C}}{5} = \\frac{{}^{\\circ}F - 32}{9} \\]",
       "caption": "Λύνοντας ως προς °F ή °C παίρνουμε την τιμή στην άλλη κλίμακα."
     },
     {

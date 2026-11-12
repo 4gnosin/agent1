@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "bankCode": "27197",
     "code": "Θέμα 4<sup>ο</sup> · #27197",
-    "title": "#27197 — Θέμα 4<sup>ο</sup> (α-β)",
+    "title": "#27197 — Θέμα 4$^{ο}$ (α-β)",
     "units": 25,
     "theory": "ch13-exothisi",
     "sourceOrder": 2,

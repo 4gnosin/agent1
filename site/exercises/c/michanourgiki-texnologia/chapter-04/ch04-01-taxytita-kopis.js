@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanourgiki-texnologia"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #27616",
     "bankCode": "27616",
-    "title": "#27616 — Θέμα 2<sup>ο</sup> (4.6.1)",
+    "title": "#27616 — Θέμα 2$^{ο}$ (4.6.1)",
     "units": 25,
     "theory": "ch04-01-taxytita-kopis",
     "sourceOrder": 2,

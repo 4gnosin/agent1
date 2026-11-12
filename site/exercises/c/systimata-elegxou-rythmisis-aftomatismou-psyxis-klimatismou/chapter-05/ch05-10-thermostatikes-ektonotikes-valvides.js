@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "25379",
     "code": "Θέμα 2<sup>ο</sup> · #25379",
-    "title": "#25379 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#25379 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch05-10-thermostatikes-ektonotikes-valvides",
     "sourceOrder": 4,

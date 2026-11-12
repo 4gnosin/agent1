@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-elegxou-diagnoseon"].exercises.push(...
     "layout": "unified",
     "bankCode": "34238",
     "code": "Θέμα 2<sup>ο</sup> · #34238",
-    "title": "#34238 — Θέμα 2<sup>ο</sup> (3.3)",
+    "title": "#34238 — Θέμα 2$^{ο}$ (3.3)",
     "units": 25,
     "theory": "olokliromena-kyklomata",
     "sourceOrder": 2,

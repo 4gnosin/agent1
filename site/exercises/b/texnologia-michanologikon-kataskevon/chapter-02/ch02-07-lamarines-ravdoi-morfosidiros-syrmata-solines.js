@@ -9,7 +9,7 @@ window.SUBJECT_DATA["texnologia-michanologikon-kataskevon"].exercises.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #16404",
     "bankCode": "16404",
-    "title": "#16404 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#16404 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "lamarines-ravdoi-morfosidiros",
     "sourceOrder": 10,

@@ -9,7 +9,7 @@ window.SUBJECT_DATA["systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou
     "layout": "unified",
     "bankCode": "36449",
     "code": "Θέμα 4<sup>ο</sup> · #36449",
-    "title": "#36449 — Θέμα 4<sup>ο</sup> (α–γ)",
+    "title": "#36449 — Θέμα 4$^{ο}$ (α–γ)",
     "units": 25,
     "theory": "ch06-07-tropos-elegxou-hlektronikes-diataxeis",
     "sourceOrder": 4,

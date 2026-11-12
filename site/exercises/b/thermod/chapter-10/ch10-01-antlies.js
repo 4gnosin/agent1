@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "18653",
     "code": "Θέμα 2<sup>ο</sup> · #18653",
-    "title": "#18653 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#18653 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-antlies",
     "sourceOrder": 1,
@@ -93,7 +93,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "19718",
     "code": "Θέμα 2<sup>ο</sup> · #19718",
-    "title": "#19718 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#19718 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-antlies",
     "sourceOrder": 2,
@@ -204,7 +204,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "20952",
     "code": "Θέμα 2<sup>ο</sup> · #20952",
-    "title": "#20952 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#20952 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-antlies",
     "sourceOrder": 3,
@@ -284,9 +284,9 @@ window.EXERCISES.push(...
       {
         "kind": "tf",
         "subq": "2.2",
-        "prompt": "δ. Αν η αποδιδόμενη ισχύς της αντλίας είναι $N = 1,8\\text{ KW}$ και η εισερχόμενη ισχύς στον άξονα της αντλίας είναι $N_a = 2\\text{ KW}$, τότε ο ολικός βαθμός απόδοσης της αντλίας θα είναι $\\eta = 90\\%$.",
+        "prompt": "δ. Αν η αποδιδόμενη ισχύς της αντλίας είναι $N = 1,8\\text{ KW}$ και η εισερχόμενη ισχύς στον άξονα της αντλίας είναι $N_a = 2\\text{ KW}$, τότε ο ολικός βαθμός απόδοσης της αντλίας θα είναι $\\\\beta = 90\\%$.",
         "answer": true,
-        "explain": "Σωστό. Ο ολικός βαθμός απόδοσης υπολογίζεται ως $\\eta = \\frac{N}{N_a} = \\frac{1,8\\text{ KW}}{2\\text{ KW}} = 0,9 = 90\\%$."
+        "explain": "Σωστό. Ο ολικός βαθμός απόδοσης υπολογίζεται ως $\\\\beta = \\frac{N}{N_a} = \\frac{1,8\\text{ KW}}{2\\text{ KW}} = 0,9 = 90\\%$."
       }
     ]
   },
@@ -297,7 +297,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "bankCode": "20984",
     "code": "Θέμα 2<sup>ο</sup> · #20984",
-    "title": "#20984 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#20984 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch10-01-antlies",
     "sourceOrder": 4,

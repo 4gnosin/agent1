@@ -1,6 +1,53 @@
 // Αυτόματα παραγόμενος κατάλογος scripts ανά μάθημα για On-Demand Lazy Loading (χωρίς fetch)
 // Υποστηρίζει άμεση εκτέλεση σε file:/// και GitHub Pages.
+// Παράγεται από το scripts/build_bundles.py
 window.SUBJECT_SCRIPTS = {
+  "antoxi": [
+    "bundles/antoxi.bundle.js"
+  ],
+  "egkatastaseis-klimatismou": [
+    "bundles/egkatastaseis-klimatismou.bundle.js"
+  ],
+  "michanes-esoterikis-kafsis-2": [
+    "bundles/michanes-esoterikis-kafsis-2.bundle.js"
+  ],
+  "michanourgiki-texnologia": [
+    "bundles/michanourgiki-texnologia.bundle.js"
+  ],
+  "stoixeia-kentrikon-thermanseon": [
+    "bundles/stoixeia-kentrikon-thermanseon.bundle.js"
+  ],
+  "stoixeia-michanon": [
+    "bundles/stoixeia-michanon.bundle.js"
+  ],
+  "stoixeia-psyxis-klimatismou": [
+    "bundles/stoixeia-psyxis-klimatismou.bundle.js"
+  ],
+  "stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon": [
+    "bundles/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon.bundle.js"
+  ],
+  "systimata-aftokinitou": [
+    "bundles/systimata-aftokinitou.bundle.js"
+  ],
+  "systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou": [
+    "bundles/systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou.bundle.js"
+  ],
+  "texnologia-elegxou-diagnoseon": [
+    "bundles/texnologia-elegxou-diagnoseon.bundle.js"
+  ],
+  "texnologia-michanologikon-kataskevon": [
+    "bundles/texnologia-michanologikon-kataskevon.bundle.js"
+  ],
+  "thermo": [
+    "bundles/thermo.bundle.js"
+  ],
+  "thermo-lab": [
+    "bundles/thermo-lab.bundle.js"
+  ]
+};
+
+// Πλήρης κατάλογος αρχικών πηγαίων αρχείων (για αναφορά & development)
+window.SUBJECT_RAW_SCRIPTS = {
   "antoxi": [
     "content/b/antoxi/chapter-00/00-stoxoi.js",
     "content/b/antoxi/chapter-00/01-genika.js",
@@ -309,7 +356,8 @@ window.SUBJECT_SCRIPTS = {
     "exercises/c/stoixeia-michanon/chapter-14/ch14-06-atraktoi-axones.js",
     "exercises/c/stoixeia-michanon/chapter-14/ch14-07-edrana-kylisis.js",
     "exercises/c/stoixeia-michanon/chapter-14/ch14-08-odontoseis.js",
-    "exercises/c/stoixeia-michanon/chapter-14/ch14-09-imantokineisi.js"
+    "exercises/c/stoixeia-michanon/chapter-14/ch14-09-imantokineisi.js",
+    "animations/c/stoixeia-michanon/ch14-25806.js"
   ],
   "stoixeia-psyxis-klimatismou": [
     "exercises/c/stoixeia-psyxis-klimatismou/chapter-02/groups.js",
@@ -354,42 +402,37 @@ window.SUBJECT_SCRIPTS = {
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/groups.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-06-metadosi-thermotitas.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-07-piesi-piesometra.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-10-proto-thermodynamiko-axiosima.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-10-proto-thermodynamiko-axioma.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-11-deutero-thermodynamiko-axioma.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-12-enthalpia-entropia.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-02/ch02-12-enthalpy-entropy.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/groups.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-01-orismos-teleiou-aeriou.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-02-metavoles-aerion.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-02-metavoles-katastasis.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-02-thermodynamikes-metavoles.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-03-strangalismos-aeriou.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-01-ideal-gas.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-02-thermodynamic-processes.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-03-strangalismos.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-04-kyklikes-metavoles.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-03/ch03-05-kyklos-carnot.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/groups.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/ch04-00-atmoi.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/ch04-03-piesi-kai-thermokrasia-atmopoiisis.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/ch04-03-piesi-thermokrasia-atmopoiisis.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/ch04-04-sympyknosi.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-04/ch04-05-strangalismos-ygrou.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/groups.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/ch05-03-psychros-kyklos.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/ch05-03-psychriktos-kyklos.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/ch05-05-syntelestis-symperiforas.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/ch05-06-ypopsykse-sympyknomatos.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-05/ch05-06-ypopsyxsi-sympyknomatos.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/groups.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-03-sympiestis.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-03-systimata.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-04-apeikonisi-p-h.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-04-psyktika-mesa.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-06-ygrosia-lipantiko.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-01-atropoiitis.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-02-sympiesstis.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-03-sympyknostis.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-04-leitourgia-psychrikon-kyklomaton.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-06/ch06-06-ygrosia-lipantika.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/groups.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/ch09-01-synthikes-anesis.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/ch09-03-thermokrasia-ygresia-taxytita.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/ch09-03-thermokrasia-ygrosia-tachytita-klimatizomenou-aera.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-09/ch09-03-thermokrasia-ugrasia-tachytita.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/groups.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-02-psychrometric-terms.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-04-psyrometric-charts.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-07-practical-application.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-07-praktiki-efarmogi.js",
-    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-08-psychrometric-changes.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-04-psychrometric-charts.js",
+    "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-07-practical-applications.js",
     "exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon/chapter-10/ch10-08-psychrometrikes-metavoles.js"
   ],
   "systimata-aftokinitou": [
@@ -643,7 +686,25 @@ window.SUBJECT_SCRIPTS = {
     "exercises/b/thermod/chapter-16/ch16-03-teleia-idanika-uygra.js",
     "exercises/b/thermod/chapter-16/ch16-04-nomoi-rois-idanikon-ygron.js",
     "exercises/b/thermod/chapter-16/ch16-04-roi-ideakton-ygron.js",
-    "exercises/b/thermod/chapter-16/ch16-05-roi-ygron-se-solines.js"
+    "exercises/b/thermod/chapter-16/ch16-05-roi-ygron-se-solines.js",
+    "animations/b/thermod/ch05-16233.js",
+    "animations/b/thermod/ch05-17114.js",
+    "animations/b/thermod/ch05-19641.js",
+    "animations/b/thermod/ch05-19686.js",
+    "animations/b/thermod/ch05-19687.js",
+    "animations/b/thermod/ch05-19719.js",
+    "animations/b/thermod/ch05-20954.js",
+    "animations/b/thermod/ch05-20955.js",
+    "animations/b/thermod/ch06-16235.js",
+    "animations/b/thermod/ch06-16258.js",
+    "animations/b/thermod/ch06-17649.js",
+    "animations/b/thermod/ch06-17650.js",
+    "animations/b/thermod/ch06-18625.js",
+    "animations/b/thermod/ch06-18627.js",
+    "animations/b/thermod/ch06-18710.js",
+    "animations/b/thermod/ch06-20976.js",
+    "animations/b/thermod/ch06-20986.js",
+    "animations/b/thermod/ch06-20987.js"
   ],
   "thermo-lab": [
     "content/b/thermo-lab/chapter-01/01-organa-piesis.js"

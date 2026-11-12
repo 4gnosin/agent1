@@ -8,7 +8,7 @@ window.EXERCISES.push(...
     "layout": "unified",
     "code": "Θέμα 2<sup>ο</sup> · #20985",
     "bankCode": "20985",
-    "title": "#20985 — Θέμα 2<sup>ο</sup> (2.1–2.3)",
+    "title": "#20985 — Θέμα 2$^{ο}$ (2.1–2.3)",
     "units": 25,
     "theory": "",
     "sourceOrder": 2,

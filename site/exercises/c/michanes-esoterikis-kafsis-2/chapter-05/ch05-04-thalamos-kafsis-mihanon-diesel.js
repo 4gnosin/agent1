@@ -9,7 +9,7 @@ window.SUBJECT_DATA["michanes-esoterikis-kafsis-2"].exercises.push(...
     "layout": "unified",
     "bankCode": "31678",
     "code": "Θέμα 2<sup>ο</sup> · #31678",
-    "title": "#31678 — Θέμα 2<sup>ο</sup> (2.1–2.2)",
+    "title": "#31678 — Θέμα 2$^{ο}$ (2.1–2.2)",
     "units": 25,
     "theory": "ch05-thalamos-kafsis",
     "sourceOrder": 1,
