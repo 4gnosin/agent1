@@ -1,5 +1,7 @@
 # Προδιαγραφές Δομών Δεδομένων (Data Schemas) — 4gnosin.github.io
 
+**Γλώσσα / Language:** Ελληνικά | [English](en/schemas.md)
+
 Το παρόν έγγραφο ορίζει τα αυστηρά σχήματα δεδομένων (JavaScript objects) που χρησιμοποιούνται σε όλο το περιεχόμενο της πλατφόρμας. Κάθε αρχείο επικυρώνεται αυτόματα από τον `SiteValidator` (`python -m src.cli validate`).
 
 ---

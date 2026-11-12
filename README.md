@@ -1,6 +1,6 @@
 # 4gnosin.github.io — Πλατφόρμα Μηχανολογίας ΕΠΑ.Λ.
 
-🌐 **Γλώσσα / Language:** **Ελληνικά** | [English](README.en.md)
+**Γλώσσα / Language:** Ελληνικά | [English](README.en.md)
 
 [![Site Status](https://img.shields.io/badge/Site-Live-success)](https://4gnosin.github.io)
 [![Agent Status](https://img.shields.io/badge/Agent-Under%20Construction-yellow)](#)
@@ -17,7 +17,7 @@
 
 ---
 
-## ⚡ Γρήγορη Εκκίνηση (Quickstart)
+## Γρήγορη Εκκίνηση (Quickstart)
 
 ### 1. Άνοιγμα της Εφαρμογής (Frontend)
 Η εφαρμογή είναι στατική (SPA) και λειτουργεί **χωρίς server ή εγκατάσταση**:
@@ -44,7 +44,7 @@ python -m venv venv
 source venv/bin/activate
 
 # 2. Εγκατάσταση εξαρτήσεων
-pip install -r scripts/requirements.txt
+pip install -r requirements.txt
 
 # 3. Εγκατάσταση Chromium για το Playwright (λήψη θεμάτων ΙΕΠ)
 playwright install chromium
@@ -52,21 +52,21 @@ playwright install chromium
 
 ---
 
-## 📚 Ευρετήριο Τεκμηρίωσης (Documentation Index)
+## Ευρετήριο Τεκμηρίωσης (Documentation Index)
 
-Η τεκμηρίωση του συστήματος είναι κατανεμημένη σε εξειδικευμένα έγγραφα στον φάκελο [`docs/`](docs/):
+Η τεκμηρίωση του συστήματος είναι κατανεμημένη σε εξειδικευμένα έγγραφα στον φάκελο [`docs/`](docs/) (διαθέσιμη και στα Αγγλικά στον φάκελο [`docs/en/`](docs/en/)):
 
 | Έγγραφο Τεκμηρίωσης | Περιεχόμενο & Θεματολογία |
 | :--- | :--- |
-| 🏛️ **[docs/architecture.md](docs/architecture.md)** | **Αρχιτεκτονική Συστήματος & SPA:** Συνολική ροή δεδομένων, ο κανόνας Zero-Fetch, μηχανισμός On-Demand Lazy Loading (`scripts_catalog.js`), Hash Routing και δομή φακέλων. |
-| 📋 **[docs/schemas.md](docs/schemas.md)** | **Προδιαγραφές Δομών Δεδομένων (Data Schemas):** Αυστηρά σχήματα για Θεωρία (`sections`), Ομάδες (`groups.js`), Ασκήσεις και αναλυτικές προδιαγραφές των 6 τύπων ερωτημάτων (`mc`, `tf`, `calc`, `match`, `blank`, `open`). |
-| 🎬 **[docs/animations.md](docs/animations.md)** | **Διαδραστικός Μαυροπίνακας (Manim-Style):** Η αποσυζευγμένη αρχιτεκτονική **Plug & Play** (`site/animations/`), τα 4 υποχρεωτικά παιδαγωγικά βήματα, ο player κιμωλίας και οδηγίες άμεσης διαγραφής/προσθήκης. |
-| ⚙️ **[docs/pipelines.md](docs/pipelines.md)** | **Αυτοματισμοί, Pipelines & CLI:** Εργαλεία άντλησης ΙΕΠ (`trapeza7.py`), PyMuPDF image extractor με αυτόματη ανίχνευση διανυσματικών διαγραμμάτων, βελτιστοποίηση WebP και πλήρης πίνακας εντολών `python -m src.cli`. |
-| 📐 **[docs/rules.md](docs/rules.md)** | **Κανόνες Σύνταξης & AI Guidelines:** Απαράβατοι κανόνες KaTeX (αποφυγή raw LaTeX σε πεζό κείμενο, delimiters, `{}^\circ\text{C}`, `\cdot m`), κωδικοποίηση UTF-8, κανόνες σχημάτων λύσης και αρχή της αποσύνδεσης (Decoupling). |
+| **[docs/architecture.md](docs/architecture.md)** | **Αρχιτεκτονική Συστήματος & SPA:** Συνολική ροή δεδομένων, ο κανόνας Zero-Fetch, μηχανισμός On-Demand Lazy Loading (`scripts_catalog.js`), Hash Routing και δομή φακέλων. |
+| **[docs/schemas.md](docs/schemas.md)** | **Προδιαγραφές Δομών Δεδομένων (Data Schemas):** Αυστηρά σχήματα για Θεωρία (`sections`), Ομάδες (`groups.js`), Ασκήσεις και αναλυτικές προδιαγραφές των 6 τύπων ερωτημάτων (`mc`, `tf`, `calc`, `match`, `blank`, `open`). |
+| **[docs/animations.md](docs/animations.md)** | **Διαδραστικός Μαυροπίνακας (Manim-Style):** Η αποσυζευγμένη αρχιτεκτονική **Plug & Play** (`site/animations/`), τα 4 υποχρεωτικά παιδαγωγικά βήματα, ο player κιμωλίας και οδηγίες άμεσης διαγραφής/προσθήκης. |
+| **[docs/pipelines.md](docs/pipelines.md)** | **Αυτοματισμοί, Pipelines & CLI:** Εργαλεία άντλησης ΙΕΠ (`trapeza7.py`), PyMuPDF image extractor με αυτόματη ανίχνευση διανυσματικών διαγραμμάτων, βελτιστοποίηση WebP και πλήρης πίνακας εντολών `python -m src.cli`. |
+| **[docs/rules.md](docs/rules.md)** | **Κανόνες Σύνταξης & AI Guidelines:** Απαράβατοι κανόνες KaTeX (αποφυγή raw LaTeX σε πεζό κείμενο, delimiters, `{}^\circ\text{C}`, `\cdot m`), κωδικοποίηση UTF-8, κανόνες σχημάτων λύσης και αρχή της αποσύνδεσης (Decoupling). |
 
 ---
 
-## 🗂️ Υποστηριζόμενα Μαθήματα
+## Υποστηριζόμενα Μαθήματα
 
 Η πλατφόρμα υποστηρίζει πλήρως όλα τα πανελλαδικά και εργαστηριακά μαθήματα του Τομέα Μηχανολογίας:
 
@@ -89,7 +89,7 @@ playwright install chromium
 
 ---
 
-## 🛡️ Πνευματικά Δικαιώματα & Άδεια Χρήσης
+## Πνευματικά Δικαιώματα & Άδεια Χρήσης
 
 * Τα θέματα και οι εκφωνήσεις προέρχονται από την επίσημη **Τράπεζα Θεμάτων Διαβαθμισμένης Δυσκολίας (ΙΕΠ)**.
 * Τα κείμενα και τα βασικά σχήματα της θεωρίας προέρχονται από τα εγκεκριμένα διδακτικά εγχειρίδια του **ΙΤΥΕ «Διόφαντος»** και του **Υπουργείου Παιδείας**.

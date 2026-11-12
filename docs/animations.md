@@ -1,5 +1,7 @@
 # Διαδραστικός Μαυροπίνακας & Animations Επίλυσης — 4gnosin.github.io
 
+**Γλώσσα / Language:** Ελληνικά | [English](en/animations.md)
+
 Το παρόν έγγραφο αναλύει τη μηχανή του **Διαδραστικού Μαυροπίνακα (Manim-Style Web Animation)** και την ανεξάρτητη αρχιτεκτονική **Plug & Play** για τα animations επίλυσης των ασκήσεων.
 
 ---

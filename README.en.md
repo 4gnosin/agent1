@@ -1,6 +1,6 @@
 # 4gnosin.github.io — EPAL Mechanical Engineering Platform
 
-🌐 **Language / Γλώσσα:** [Ελληνικά](README.md) | **English**
+**Language / Γλώσσα:** [Ελληνικά](README.md) | English
 
 [![Site Status](https://img.shields.io/badge/Site-Live-success)](https://4gnosin.github.io)
 [![Agent Status](https://img.shields.io/badge/Agent-Under%20Construction-yellow)](#)
@@ -17,7 +17,7 @@ The platform includes complete theory notes, interactive exercises from the offi
 
 ---
 
-## ⚡ Quickstart
+## Quickstart
 
 ### 1. Opening the Application (Frontend)
 The application is a static Single Page Application (SPA) and works **without a server or installation**:
@@ -44,7 +44,7 @@ python -m venv venv
 source venv/bin/activate
 
 # 2. Install dependencies
-pip install -r scripts/requirements.txt
+pip install -r requirements.txt
 
 # 3. Install Chromium for Playwright (downloading IEP exam topics)
 playwright install chromium
@@ -52,30 +52,30 @@ playwright install chromium
 
 ---
 
-## 📚 Documentation Index
+## Documentation Index
 
-The system documentation is organized into dedicated files inside the [`docs/`](docs/) directory *(written in Greek)*:
+The system documentation is organized into dedicated files inside [`docs/en/`](docs/en/) (Greek originals are in [`docs/`](docs/)):
 
 | Documentation File | Contents & Topics |
 | :--- | :--- |
-| 🏛️ **[docs/architecture.md](docs/architecture.md)** | **System Architecture & SPA:** End-to-end data flow, the Zero-Fetch rule, On-Demand Lazy Loading mechanism (`scripts_catalog.js`), Hash Routing, and folder structure. |
-| 📋 **[docs/schemas.md](docs/schemas.md)** | **Data Schemas:** Strict schemas for Theory (`sections`), Groups (`groups.js`), Exercises, and detailed specifications for the 6 question types (`mc`, `tf`, `calc`, `match`, `blank`, `open`). |
-| 🎬 **[docs/animations.md](docs/animations.md)** | **Interactive Blackboard (Manim-Style):** The decoupled **Plug & Play** architecture (`site/animations/`), the 4 mandatory pedagogical steps, the chalk player, and instructions for instant removal/addition. |
-| ⚙️ **[docs/pipelines.md](docs/pipelines.md)** | **Automations, Pipelines & CLI:** IEP scraping tools (`trapeza7.py`), PyMuPDF image extractor with automatic vector diagram detection, WebP optimization, and full `python -m src.cli` command table. |
-| 📐 **[docs/rules.md](docs/rules.md)** | **Formatting Rules & AI Guidelines:** Strict KaTeX rules (avoiding raw LaTeX in prose, delimiters, `{}^\circ\text{C}`, `\cdot m`), UTF-8 encoding, solution diagram rules, and the Decoupling principle. |
+| **[docs/en/architecture.md](docs/en/architecture.md)** | **System Architecture & SPA:** End-to-end data flow, the Zero-Fetch rule, On-Demand Lazy Loading mechanism (`scripts_catalog.js`), Hash Routing, and folder structure. |
+| **[docs/en/schemas.md](docs/en/schemas.md)** | **Data Schemas:** Strict schemas for Theory (`sections`), Groups (`groups.js`), Exercises, and detailed specifications for the 6 question types (`mc`, `tf`, `calc`, `match`, `blank`, `open`). |
+| **[docs/en/animations.md](docs/en/animations.md)** | **Interactive Blackboard (Manim-Style):** The decoupled **Plug & Play** architecture (`site/animations/`), the 4 mandatory pedagogical steps, the chalk player, and instructions for instant removal/addition. |
+| **[docs/en/pipelines.md](docs/en/pipelines.md)** | **Automations, Pipelines & CLI:** IEP scraping tools (`trapeza7.py`), PyMuPDF image extractor with automatic vector diagram detection, WebP optimization, and full `python -m src.cli` command reference table. |
+| **[docs/en/rules.md](docs/en/rules.md)** | **Formatting Rules & AI Guidelines:** Strict KaTeX rules (avoiding raw LaTeX in prose, delimiters, `{}^\circ\text{C}`, `\cdot m`), UTF-8 encoding, solution diagram rules, and the Decoupling principle. |
 
 ---
 
-## 🗂️ Supported Courses
+## Supported Courses
 
 The platform fully supports all national-exam and laboratory courses of the Mechanical Engineering Sector:
 
-### 2nd Grade EPAL (Β΄ Τάξη ΕΠΑ.Λ.)
+### 2nd Grade EPAL
 * **Thermodynamics** (`thermo`)
 * **Elements of Engineering Thermodynamics — Lab** (`thermo-lab`)
 * **Mechanics — Strength of Materials** (`antoxi`)
 
-### 3rd Grade EPAL (Γ΄ Τάξη ΕΠΑ.Λ.)
+### 3rd Grade EPAL
 * **Elements of Refrigeration & Air Conditioning** (`stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon`)
 * **Air Conditioning Installations** (`egkatastaseis-klimatismou`)
 * **Control, Regulation & Automation Systems for Refrigeration Installations** (`systimata-elegxou-rythmisis-aftomatismou-psyxis-klimatismou`)
@@ -89,7 +89,7 @@ The platform fully supports all national-exam and laboratory courses of the Mech
 
 ---
 
-## 🛡️ Copyright & License
+## Copyright & License
 
 * Exam topics and problem statements originate from the official **Graded Difficulty Exam Item Bank (IEP — Institute of Educational Policy)**.
 * Theory texts and core diagrams originate from the approved textbooks of **CTI "Diophantus"** and the **Hellenic Ministry of Education**.
