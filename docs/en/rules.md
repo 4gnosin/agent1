@@ -46,6 +46,9 @@ The rendering engine is based on KaTeX. To prevent visual glitches or raw TeX co
 * **No Corrupted / Foreign Characters:**
   * During OCR or AI processing, foreign/corrupted characters (e.g. Vietnamese "từ" instead of "από", Bengali digits, etc.) must never be introduced.
   * Greek technical symbols ($\sigma, \tau, \eta, \lambda, \Delta, \mu$) must be preserved properly either as Unicode in prose or as valid TeX commands (`\sigma`, `\tau`, `\Delta`) in math mode.
+* **Ordinal Number Formatting (`Θέμα N<sup>ο</sup>`):**
+  * In `code`, `title`, and prose references to exam themes ("Θέμα Νο"), always write ordinals using the HTML superscript tag `<sup>ο</sup>` (e.g., `Θέμα 2<sup>ο</sup>`, `Θέμα 4<sup>ο</sup>`).
+  * Never write plain `Θέμα 2ο` / `Θέμα 20` or LaTeX `$^{ο}$`, because `fmtOrd()` in `site/js/app.js` HTML-escapes text and matches ordinal patterns rather than LaTeX `$^{ο}$`.
 
 ---
 
@@ -65,8 +68,11 @@ The rendering engine is based on KaTeX. To prevent visual glitches or raw TeX co
 ## 4. Design Ergonomics & Modular Architecture
 
 As a core architectural principle of the project:
-1. **Decoupling Principle (Plug & Play):**
-   * Any advanced feature (such as the animated blackboard, interactive simulations, or hints) must be designed as a **standalone module** (e.g. `site/animations/`) rather than embedded overhead inside exercise files.
-   * Removing or modifying an add-on feature must only require deleting its file, without opening or modifying exercise source code.
-2. **Proactive Ergonomic Design:**
+1. **Decoupling Principle (Plug & Play) & Mandatory Bundle Rebuild:**
+   * Any advanced feature (such as the animated blackboard, interactive simulations, or hints) must be designed as a **standalone module** (e.g. `site/animations/`) rather than embedded overhead inside exercise files (`site/exercises/`).
+   * Adding or deleting an add-on file leaves exercise files untouched, **however updating production (`site/index.html`) always requires re-running `python scripts/build_bundles.py`** to refresh `site/bundles/{subject}.bundle.js` and `site/content/scripts_catalog.js`.
+2. **Subject Slug Convention & `thermo` / `b/thermod` Exception:**
+   * The canonical subject ID in `window.SUBJECT_DATA["<id>"]` and URL hash routes (`#/thermo`) comes strictly from the `id` field in `site/content/catalog.js`.
+   * Legacy compatibility exception: the subject with `id: "thermo"` (Grade B Thermodynamics) maps to disk folder `b/thermod` (`site/exercises/b/thermod/`, `site/animations/b/thermod/`) and uses legacy globals (`window.SECTIONS`, `GROUPS`, `EXERCISES`), which are merged by `site/js/app.js` and bundled under `"thermo"` by `scripts/build_bundles.py`.
+3. **Proactive Ergonomic Design:**
    * When designing new capabilities, the AI Agent should proactively propose modular, flexible architectures that minimize maintenance complexity for the user.

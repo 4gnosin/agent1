@@ -21,6 +21,67 @@ class SiteValidator:
     Επικυρωτής δομών δεδομένων για το 4gnosin.github.io.
     """
 
+    SKIP_DIRS = frozenset({"js", "simulations", "math", "bundles"})
+    SKIP_FILENAMES = frozenset({"catalog.js", "links.js", "scripts_catalog.js", "math.js"})
+
+    @classmethod
+    def collect_site_files(cls, target_path: Path | str) -> list[Path]:
+        """Συλλέγει όλα τα αρχεία περιεχομένου (θεωρία, ομάδες, ασκήσεις, animations)."""
+        path = Path(target_path)
+        if path.is_file():
+            return [path]
+
+        files: list[Path] = []
+        for f in sorted(path.rglob("*.js")):
+            if any(skip in f.parts for skip in cls.SKIP_DIRS):
+                continue
+            if f.name in cls.SKIP_FILENAMES:
+                continue
+            if "content" in f.parts and not any(p.startswith("chapter-") for p in f.parts):
+                continue
+            files.append(f)
+        return files
+
+    @classmethod
+    def validate_file(cls, file_path: Path | str) -> list[str]:
+        """Επικυρώνει ένα αρχείο .js ανάλογα με τον τύπο/διαδρομή του."""
+        path = Path(file_path)
+        if "animations" in path.parts:
+            return cls.validate_animation_file(path)
+        if path.name == "groups.js":
+            return cls.validate_groups_file(path)
+        if "content" in path.parts or ("exercises" not in path.parts and path.name.startswith("0")):
+            return cls.validate_section_file(path)
+        return cls.validate_exercises_file(path)
+
+    @staticmethod
+    def check_katex_syntax(s: Any, context: str, check_parens: bool = False) -> list[str]:
+        """Ελέγχει συνήθη σφάλματα σύνταξης KaTeX/LaTeX σε πεδία κειμένου ή μαθηματικών."""
+        errors: list[str] = []
+        if not isinstance(s, str) or not s:
+            return errors
+        if r"\triangle" in s:
+            errors.append(f"{context}: Απαγορεύεται το '\\triangle'. Χρησιμοποιήστε '\\Delta'.")
+        if r"\cdotp" in s:
+            errors.append(f"{context}: Απαγορεύεται το '\\cdotp'.")
+        if "riangle" in s and not ("triangle" in s.lower()):
+            errors.append(f"{context}: Εντοπίστηκε σπασμένο 'riangle' (πιθανό corrupted escape).")
+        if r"\text{$" in s:
+            errors.append(f"{context}: Απαγορεύονται εμφωλευμένα δολάρια μέσα σε '\\text{{...}}'.")
+        if re.search(r"\\text\{[^}]*·", s):
+            errors.append(f"{context}: Απαγορεύεται ο χαρακτήρας '·' μέσα σε '\\text{{...}}'. Χρησιμοποιήστε '\\cdot'.")
+        if s.count("$") % 2 != 0:
+            errors.append(f"{context}: Ασύζευκτα δολάρια ($) σε μαθηματική έκφραση.")
+        if re.search(r"\(\$[^$)]+\$\)\)", s):
+            errors.append(f"{context}: Εντοπίστηκε διπλή παρένθεση σε μαθηματικό όρο '($...$))'.")
+        if check_parens:
+            s_check = re.sub(r"^[0-9a-zA-Z\u0370-\u03ff]\)\s*", "", s)
+            if s_check.count("(") != s_check.count(")"):
+                errors.append(
+                    f"{context}: Μη ισοζυγισμένες παρενθέσεις ({s_check.count('(')} ανοίγματα vs {s_check.count(')')} κλεισίματα)."
+                )
+        return errors
+
     @classmethod
     def extract_json_from_js(cls, js_code: str) -> list[dict[str, Any]]:
         """
@@ -380,9 +441,13 @@ class SiteValidator:
                     errors.append(f"Το κλειδί '{k}' στο {source_label} δεν περιέχει έγκυρο αντικείμενο animation.")
 
         for subk, anim in anims_to_check:
+            anim_ctx = f"{source_label} ({subk})"
             title = anim.get("title")
             if not title:
                 errors.append(f"Λείπει το 'title' στο animation ({subk}) του {source_label}.")
+            else:
+                errors.extend(cls.check_katex_syntax(title, f"{anim_ctx} title", check_parens=False))
+
             steps = anim.get("steps")
             if not isinstance(steps, list) or len(steps) == 0:
                 errors.append(f"Το 'steps' στο animation ({subk}) του {source_label} πρέπει να είναι μη κενή λίστα.")
@@ -391,10 +456,23 @@ class SiteValidator:
                     if not isinstance(st, dict):
                         errors.append(f"Το βήμα #{s_idx} στο animation ({subk}) δεν είναι αντικείμενο.")
                         continue
+                    step_ctx = f"{anim_ctx} Βήμα #{s_idx}"
+                    text_val = st.get("text") if "text" in st else st.get("description")
+                    math_val = st.get("math") if "math" in st else st.get("latex")
                     if "text" not in st and "description" not in st:
                         errors.append(f"Λείπει το 'text' στο βήμα #{s_idx} του animation ({subk}).")
+                    else:
+                        errors.extend(cls.check_katex_syntax(text_val, f"{step_ctx} text", check_parens=False))
+
                     if "math" not in st and "latex" not in st:
                         errors.append(f"Λείπει το 'math' στο βήμα #{s_idx} του animation ({subk}).")
+                    else:
+                        errors.extend(cls.check_katex_syntax(math_val, f"{step_ctx} math", check_parens=True))
+
+                    errors.extend(cls.check_katex_syntax(st.get("kicker"), f"{step_ctx} kicker", check_parens=False))
+                    errors.extend(cls.check_katex_syntax(st.get("note"), f"{step_ctx} note", check_parens=False))
+                    if isinstance(st.get("highlight"), str):
+                        errors.extend(cls.check_katex_syntax(st.get("highlight"), f"{step_ctx} highlight", check_parens=False))
 
         return errors
 
@@ -496,26 +574,7 @@ class SiteValidator:
 
             # KaTeX & Math Linter
             def check_katex_syntax(s: Any, context: str, check_parens: bool = False):
-                if not isinstance(s, str) or not s:
-                    return
-                if r"\triangle" in s:
-                    errors.append(f"{context}: Απαγορεύεται το '\\triangle'. Χρησιμοποιήστε '\\Delta'.")
-                if r"\cdotp" in s:
-                    errors.append(f"{context}: Απαγορεύεται το '\\cdotp'.")
-                if "riangle" in s and not ("triangle" in s.lower()):
-                    errors.append(f"{context}: Εντοπίστηκε σπασμένο 'riangle' (πιθανό corrupted escape).")
-                if r"\text{$" in s:
-                    errors.append(f"{context}: Απαγορεύονται εμφωλευμένα δολάρια μέσα σε '\\text{{...}}'.")
-                if re.search(r"\\text\{[^}]*·", s):
-                    errors.append(f"{context}: Απαγορεύεται ο χαρακτήρας '·' μέσα σε '\\text{{...}}'. Χρησιμοποιήστε '\\cdot'.")
-                if s.count("$") % 2 != 0:
-                    errors.append(f"{context}: Ασύζευκτα δολάρια ($) σε μαθηματική έκφραση.")
-                if re.search(r"\(\$[^$)]+\$\)\)", s):
-                    errors.append(f"{context}: Εντοπίστηκε διπλή παρένθεση σε μαθηματικό όρο '($...$))'.")
-                if check_parens:
-                    s_check = re.sub(r"^[0-9a-zA-Z\u0370-\u03ff]\)\s*", "", s)
-                    if s_check.count("(") != s_check.count(")"):
-                        errors.append(f"{context}: Μη ισοζυγισμένες παρενθέσεις ({s_check.count('(')} ανοίγματα vs {s_check.count(')')} κλεισίματα).")
+                errors.extend(cls.check_katex_syntax(s, context, check_parens=check_parens))
 
             check_katex_syntax(ex.get("stem"), f"Exercise #{idx} (id: {ex.get('id', 'άγνωστο')}) stem")
 
@@ -558,7 +617,8 @@ def main():
     print("=" * 68)
 
     val = SiteValidator()
-    exercises_dir = Path("site/exercises")
+    site_dir = Path("site")
+    exercises_dir = site_dir / "exercises"
     if not exercises_dir.exists():
         print("❌ Δεν βρέθηκε ο κατάλογος site/exercises.")
         sys.exit(1)
@@ -567,10 +627,7 @@ def main():
     total_errors = 0
     failed_files = 0
 
-    content_dir = Path("site/content")
-    all_files = sorted(exercises_dir.rglob("*.js"))
-    if content_dir.exists():
-        all_files.extend(sorted(content_dir.rglob("*.js")))
+    all_files = val.collect_site_files(site_dir)
 
     do_fix = "--fix" in sys.argv
     if do_fix:
@@ -599,17 +656,8 @@ def main():
             print(f"✅ Επιδιορθώθηκαν αυτόματα {fixed_files} αρχεία.\n")
 
     for js_path in all_files:
-        if "content" in js_path.parts:
-            if not any(p.startswith("chapter-") for p in js_path.parts):
-                continue
-            total_files += 1
-            errs = val.validate_section_file(str(js_path))
-        elif js_path.name == "groups.js":
-            total_files += 1
-            errs = val.validate_groups_file(str(js_path))
-        else:
-            total_files += 1
-            errs = val.validate_exercises_file(str(js_path))
+        total_files += 1
+        errs = val.validate_file(js_path)
 
         if errs:
             failed_files += 1

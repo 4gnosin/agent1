@@ -10,7 +10,7 @@
 
 Η πλατφόρμα αποτελείται από δύο διακριτούς κόσμους:
 1. **Backend / Generation Pipeline (Python):** Επεξεργασία PDFs, OCR, εξαγωγή διανυσματικών σχημάτων και εικόνων, καθαρισμός μαθηματικών τύπων (LaTeX sanitizer), παραγωγή δομημένων αρχείων JavaScript και αυτόματο bundling ανά μάθημα.
-2. **Frontend Client (Vanilla JS Single Page Application):** Στατική εφαρμογή που εκτελείται 100% στον φυλλομετρητή (browser) χωρίς ανάγκη για backend server, βάση δεδομένων ή node.js runtime.
+2. **Frontend Client (Vanilla JS Single Page Application):** Στατική εφαρμογή που εκτελείται 100% στον φυλλομετρητή (browser) χωρίς ανάγκη για backend server, βάση δεδομένων ή Node.js runtime.
 
 ```mermaid
 flowchart TD
@@ -75,30 +75,32 @@ flowchart TD
 Τα tags αυτά εκτελούνται ελεύθερα τόσο στο διαδίκτυο (GitHub Pages) όσο και σε τοπικό δίσκο (`file:///`).
 
 Κάθε αρχείο προσαρτά τα δεδομένα του σε καθολικά αντικείμενα του `window`:
-* `window.SUBJECT_DATA`: Περιέχει τα δεδομένα θεωρίας, ομάδων και ασκήσεων του ενεργού μαθήματος.
-* `window.SUBJECT_SCRIPTS`: Ευρετήριο ενεργών scripts ανά μάθημα (δείχνει στο ενιαίο `bundles/{subject}.bundle.js` για ακαριαία φόρτωση με 1 αίτημα).
-* `window.SUBJECT_RAW_SCRIPTS`: Πλήρες ευρετήριο των αρχικών πηγαίων αρχείων ανά μάθημα (χρήσιμο για development / fallback με `--raw`).
-* `window.EXERCISE_ANIMATIONS`: Ανεξάρτητο μητρώο για τα βήματα του διαδραστικού μαυροπίνακα (Plug & Play).
+* `window.SUBJECT_DATA`: Περιέχει τα δεδομένα θεωρίας (`sections`), ομάδων (`groups`) και ασκήσεων (`exercises`) του ενεργού μαθήματος (όλα τα νέα μαθήματα).
+* `window.SECTIONS`, `window.GROUPS`, `window.EXERCISES`: Legacy καθολικοί πίνακες που διατηρούνται για τα υπάρχοντα αρχεία της Θερμοδυναμικής (`thermo` στον φάκελο `b/thermod/`). Η `subjectData("thermo")` στο `app.js` τους συνενώνει αυτόματα με το `window.SUBJECT_DATA["thermo"]`.
+* `window.SUBJECT_SCRIPTS`: Ευρετήριο ενεργών scripts ανά μάθημα (δείχνει στο ενιαίο `bundles/{subject}.bundle.js` για φόρτωση με 1 αίτημα, ή στα μεμονωμένα αρχεία όταν παραχθεί με `--raw`).
+* `window.SUBJECT_RAW_SCRIPTS`: Πλήρες ευρετήριο των αρχικών πηγαίων αρχείων ανά μάθημα (για ανάπτυξη / αναφορά).
+* `window.EXERCISE_ANIMATIONS`: Ανεξάρτητο μητρώο για τα βήματα του διαδραστικού μαυροπίνακα ανά `exId` και `subq`.
+
+> **Σύμβαση Slug `thermo` vs `b/thermod`:** Το canonical `id` στον κατάλογο `site/content/catalog.js` και στο routing του `site/js/app.js` είναι **`thermo`**, ενώ ο φάκελος στον δίσκο παραμένει **`b/thermod`** (`site/content/b/thermod/`, `site/exercises/b/thermod/`, `site/animations/b/thermod/`). Το `scripts/build_bundles.py` μεταφράζει αυτόματα το `thermod` σε `"thermo"` κατά τη δημιουργία του `thermo.bundle.js` και του `scripts_catalog.js`.
 
 ---
 
 ## 3. Μηχανισμός Φόρτωσης & Επιδόσεων (High-Speed Lazy Loading)
 
 ### 3.1 Η Αρχιτεκτονική Εξέλιξη
-1. **Φάση 1 (Μονολιθική — `index_full.html`):** Φόρτωνε και τα 650+ αρχεία στην εκκίνηση. Η αρχική σελίδα ήταν αργή.
+1. **Φάση 1 (Μονολιθική — `index_full.html`):** Φόρτωνε όλα τα αρχεία στην εκκίνηση. Η αρχική σελίδα ήταν αργή.
 2. **Φάση 2 (Απλό Lazy Loading με μεμονωμένα αρχεία):** Η αρχική σελίδα έγινε γρήγορη, αλλά η επιλογή ενός μαθήματος απαιτούσε 80–110 ξεχωριστά αιτήματα δικτύου (HTTP requests), προκαλώντας καθυστέρηση 2–4 δευτερολέπτων.
 3. **Φάση 3 (Παραγωγή — Subject Bundles + Hover Prefetching):** Η αρχική σελίδα παραμένει αστραπιαία, ενώ κάθε μάθημα συνενώνεται σε **1 μόνο αρχείο bundle** (~300–600 KB).
 
 ### 3.2 Πώς Λειτουργεί στην Παραγωγή (`site/index.html` + `site/js/app.js`)
 * **Μέγεθος Αρχικής Σελίδας:** ~2.4 KB (μόλις 39 γραμμές).
-* **Εκκίνηση:** Φορτώνονται μόνο ο σκελετός HTML, το KaTeX, το CSS, το `catalog.js`, το `scripts_catalog.js` και το `site/js/app.js`. Μηδενική καθυστέρηση στην αρχική.
-* **Hover / Pointer Prefetching:** Όταν ο κέρσορας πλησιάσει (ή αγγίξει σε οθόνη αφής) την κάρτα ενός μαθήματος στην αρχική σελίδα, το `app.js` ξεκινά αθόρυβα την προφόρτωση του bundle στο παρασκήνιο. Όταν ο χρήστης πατήσει κλικ, το μάθημα είναι ήδη στη μνήμη (**0ms perceived latency**).
-* **Promise Caching:** Η συνάρτηση `ensureSubjectLoaded(subjectId)` διατηρεί Promise cache, αποτρέποντας διπλότυπες εγγραφές tags στο DOM ή race conditions κατά την πλοήγηση.
+* **Εκκίνηση:** Φορτώνονται μόνο ο σκελετός HTML, το KaTeX, το CSS, το `catalog.js`, το `scripts_catalog.js`, οι προσομοιώσεις, τα βασικά μαθηματικά και το `site/js/app.js`. Μηδενική καθυστέρηση στην αρχική.
+* **Hover / Pointer Prefetching:** Όταν ο κέρσορας πλησιάσει (ή αγγίξει σε οθόνη αφής) την κάρτα ενός μαθήματος στην αρχική σελίδα, το `app.js` ξεκινά αθόρυβα την προφόρτωση του bundle στο παρασκήνιο. Όταν ο χρήστης πατήσει κλικ, το μάθημα είναι ήδη στη μνήμη (**0 ms perceived latency**).
+* **Promise Caching:** Η `ensureSubjectLoaded(subjectId)` διατηρεί cache φόρτωσης, αποτρέποντας διπλότυπες εγγραφές `<script>` tags στο DOM ή race conditions κατά την πλοήγηση.
 * **Ανθεκτικότητα Σφαλμάτων:** Ακόμη κι αν κάποιο script αποτύχει, ο event handler `s.onerror` αποτρέπει το πάγωμα της εφαρμογής.
 
 ### 3.3 `site/index_full.html` (Η εφεδρική μονολιθική έκδοση — Fallback / Debug)
-* **Μέγεθος:** ~65 KB (650+ γραμμές).
-* **Ρόλος:** Περιέχει στατικά δηλωμένα `<script>` tags για κάθε αρχείο θεωρίας, άσκησης και animation όλων των μαθημάτων. Παραμένει ως αυτόνομο αντίγραφο ασφαλείας για περιβάλλοντα που δεν υποστηρίζουν δυναμική εισαγωγή scripts.
+* Περιέχει στατικά δηλωμένα `<script>` tags για κάθε αρχείο θεωρίας, άσκησης και animation όλων των μαθημάτων. Παραμένει ως αυτόνομο αντίγραφο ασφαλείας για περιβάλλοντα που δεν υποστηρίζουν δυναμική εισαγωγή scripts.
 
 ---
 
@@ -108,13 +110,16 @@ flowchart TD
 
 | Hash Route Pattern | Σελίδα Προβολής | Περιγραφή |
 | :--- | :--- | :--- |
-| `#/` | Αρχική Σελίδα (Home) | Λίστα όλων των μαθημάτων Β΄ και Γ΄ Τάξης ΕΠΑ.Λ. |
-| `#/{subject}` | Επισκόπηση Μαθήματος | Περιεχόμενα, σύνδεσμοι θεωρίας, ασκήσεων και προσομοιώσεων. |
+| `#/` | Αρχική Σελίδα (Home) | Επιλογή τάξης, προσομοιώσεων, χρήσιμων links και βασικών μαθηματικών. |
+| `#/grade/{b\|c}` | Κατάλογος Τάξης | Μαθήματα και ειδικότητες της επιλεγμένης τάξης ΕΠΑ.Λ. |
+| `#/{subject}` | Επισκόπηση Μαθήματος | Περιεχόμενα, σύνδεσμοι θεωρίας και ασκήσεων του μαθήματος. |
 | `#/{subject}/notes` | Ευρετήριο Σημειώσεων | Συγκεντρωτική λίστα κεφαλαίων θεωρίας. |
 | `#/{subject}/notes/{slug}` | Σελίδα Θεωρίας (Section) | Πλήρες κείμενο ενότητας με μαθηματικούς τύπους, εικόνες και επεξηγήσεις. |
-| `#/{subject}/board` | Πίνακας Ασκήσεων (Board) | Όλες οι ασκήσεις ανά κεφάλαιο με ενδείξεις προόδου (✓) και badges `🎬 Animation`. |
+| `#/{subject}/board` | Πίνακας Ασκήσεων (Board) | Όλες οι ασκήσεις ανά κεφάλαιο με ενδείξεις προόδου και badges `Animation`. |
 | `#/{subject}/board/{exId}` | Σελίδα Άσκησης | Διαδραστική επίλυση με άμεσο έλεγχο, υποδείξεις, βήματα μαυροπίνακα και σχήματα λύσης. |
+| `#/simulations` & `#/simulations/{id}` | Προσομοιώσεις | Κατάλογος και διαδραστικές προσομοιώσεις (`fwg`, `hydrophore`, `ejector-evaporator`). |
 | `#/math` & `#/math/{category}` | Βασικά Μαθηματικά | Οδηγοί αναφοράς (κλάσματα, ταυτότητες, δυνάμεις, παραγοντοποίηση). |
+| `#/links` | Χρήσιμα Links | Εξωτερικοί σύνδεσμοι για μαθήματα και σχολικό υλικό. |
 
 ---
 
@@ -128,17 +133,17 @@ site/
 │   └── style.css              # Ενιαίο responsive design, θέμα μαυροπίνακα & κιμωλίας
 ├── js/
 │   └── app.js                 # SPA Router, Promise Cache, Hover Prefetch, Chalkboard player
-├── bundles/                   # Ενιαία bundles ανά μάθημα (1 αρχείο/μάθημα για ακαριαία φόρτωση)
+├── bundles/                   # Ενιαία bundles ανά μάθημα (1 αρχείο/μάθημα για φόρτωση με 1 αίτημα)
 │   └── {subject}.bundle.js    # Συνενωμένη θεωρία, ασκήσεις, ομάδες & animations (~300-600 KB)
 ├── content/                   # Πηγαία Θεωρία (Sections)
 │   ├── catalog.js             # Κατάλογος μαθημάτων, τάξεων και τίτλων
 │   ├── scripts_catalog.js     # Χάρτης ενεργών bundles (και raw scripts) ανά μάθημα
-│   └── {grade}/{subject}/...  # Πηγαία αρχεία θεωρίας ανά κεφάλαιο (π.χ. 01-sec.js)
+│   └── {grade}/{subject}/...  # Πηγαία αρχεία θεωρίας ανά κεφάλαιο (π.χ. 01-genika.js)
 ├── exercises/                 # Πηγαίες Ασκήσεις Τράπεζας Θεμάτων
 │   └── {grade}/{subject}/...
 │       ├── groups.js          # Ομαδοποίηση υποενοτήτων ανά κεφάλαιο
 │       └── chNN-MM-slug.js    # Ασκήσεις (mc, tf, calc, match, blank, open)
-├── animations/                # Διαδραστικοί Μαυροπίνακες (Plug & Play)
+├── animations/                # Διαδραστικοί Μαυροπίνακες (απομονωμένα αρχεία πηγής)
 │   └── {grade}/{subject}/
 │       └── {exId}.js          # Ανεξάρτητο animation ανά άσκηση
 └── images/                    # Βελτιστοποιημένα τεχνικά σχήματα & διαγράμματα (WebP)
@@ -146,15 +151,16 @@ site/
 
 scripts/
 ├── build_bundles.py           # Κατασκευή bundles ανά μάθημα & ενημέρωση scripts_catalog.js
+├── build_scripts_catalog.py   # Compatibility wrapper που καλεί το build_bundles.py
 ├── build_bundles.bat          # Εκτέλεση με διπλό κλικ σε Windows
-├── menu.py                    # Control Center (επιλογή [4] στα εργαλεία & αυτόματο bundling)
-└── ...                        # Εργαλεία PDF extraction, OCR, WebP, Validator
+├── menu.py                    # Control Center (διαδραστικό TUI μενού)
+└── ...                        # Εργαλεία λήψης ΙΕΠ/βιβλίων, WebP, theory.py, site_server.py
 ```
 
 ---
 
 ## 6. Αυτοματισμός & Συντήρηση
 
-* **Προσθήκη / Επεξεργασία Υλικού:** Ο προγραμματιστής / συντάκτης συνεχίζει να εργάζεται στα καθαρά, επιμέρους αρχεία (`content/`, `exercises/`, `animations/`).
-* **Ενημέρωση Παραγωγής:** Κάθε φορά που εκτελείται το pipeline από το `menu.py` (ή απευθείας το `scripts/build_bundles.bat`), τα bundles και το `scripts_catalog.js` ενημερώνονται αυτόματα σε 1-2 δευτερόλεπτα.
-* **Έλεγχος Ορθότητας:** Το `site_validator.py` επικυρώνει τα αρχικά πηγαία αρχεία πριν από την παραγωγή των bundles, διασφαλίζοντας 100% ακεραιότητα δεδομένων.
+* **Προσθήκη / Επεξεργασία Υλικού:** Ο προγραμματιστής / συντάκτης εργάζεται στα επιμέρους πηγαία αρχεία (`content/`, `exercises/`, `animations/`).
+* **Ενημέρωση Παραγωγής:** Μετά από **οποιαδήποτε** προσθήκη, αλλαγή ή διαγραφή αρχείου θεωρίας, άσκησης ή animation, εκτελείται το `python scripts/build_bundles.py` (ή το `scripts/build_bundles.bat` / `scripts/menu.py`), ώστε να αναδομηθούν τα `site/bundles/{subject}.bundle.js` και το `site/content/scripts_catalog.js`.
+* **Έλεγχος Ορθότητας:** Ο `SiteValidator` (`src/validators/site_validator.py`, τόσο μέσω `python -m src.cli validate` όσο και αυτόνομα) επικυρώνει τα αρχεία θεωρίας (`site/content/`), ασκήσεων/ομάδων (`site/exercises/`) και animations (`site/animations/`).

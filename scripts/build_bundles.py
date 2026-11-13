@@ -87,21 +87,24 @@ def collect_subject_scripts(site_dir: Path) -> dict[str, list[str]]:
     return scripts_by_subject
 
 
-def build_bundles(use_raw: bool = False) -> None:
-    base_dir = (
-        Path(__file__).resolve().parent.parent
-        if Path(__file__).resolve().parent.name == "scripts"
-        else Path(__file__).resolve().parent
-    )
-    site_dir = base_dir / "site"
-    bundles_dir = site_dir / "bundles"
+def build_bundles(use_raw: bool = False, site_dir: Path | str | None = None) -> None:
+    if site_dir is not None:
+        target_site_dir = Path(site_dir)
+    else:
+        base_dir = (
+            Path(__file__).resolve().parent.parent
+            if Path(__file__).resolve().parent.name == "scripts"
+            else Path(__file__).resolve().parent
+        )
+        target_site_dir = base_dir / "site"
+    bundles_dir = target_site_dir / "bundles"
     bundles_dir.mkdir(parents=True, exist_ok=True)
 
-    catalog_path = site_dir / "content" / "catalog.js"
+    catalog_path = target_site_dir / "content" / "catalog.js"
     if not catalog_path.is_file():
         raise FileNotFoundError(f"Δεν βρέθηκε το catalog.js: {catalog_path}")
 
-    raw_scripts_by_subject = collect_subject_scripts(site_dir)
+    raw_scripts_by_subject = collect_subject_scripts(target_site_dir)
     bundled_scripts_by_subject: dict[str, list[str]] = {}
 
     print("=" * 72)
@@ -125,7 +128,7 @@ def build_bundles(use_raw: bool = False) -> None:
         ]
 
         for rel_p in script_list:
-            src_p = site_dir / rel_p
+            src_p = target_site_dir / rel_p
             if not src_p.is_file():
                 print(f"⚠️ Προειδοποίηση: Το αρχείο {rel_p} δεν βρέθηκε.")
                 continue
@@ -141,7 +144,7 @@ def build_bundles(use_raw: bool = False) -> None:
         bundled_scripts_by_subject[subj_id] = [rel_bundle_path]
         print(f"  • {subj_id:<45} : {len(script_list):>3} αρχεία -> {sz_kb:>6.1f} KB")
 
-    out_file = site_dir / "content" / "scripts_catalog.js"
+    out_file = target_site_dir / "content" / "scripts_catalog.js"
     active_scripts = raw_scripts_by_subject if use_raw else bundled_scripts_by_subject
 
     js_lines = [

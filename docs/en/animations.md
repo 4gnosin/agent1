@@ -1,176 +1,155 @@
-# Interactive Blackboard & Solution Animations — 4gnosin.github.io
-
 **Language / Γλώσσα:** [Ελληνικά](../animations.md) | English
 
-This document analyzes the **Interactive Blackboard (Manim-Style Web Animation)** engine and the decoupled **Plug & Play** architecture for exercise solution animations.
+# Interactive Exercise Solution Animations (Chalkboard System)
+
+The **BlackboardAnimation** system provides step-by-step mathematical walkthroughs for calculation (`calc`) exercises, with KaTeX math rendering and playback controls (Play, Pause, Replay, and individual step navigation).
 
 ---
 
-## 1. Philosophy & Educational Approach
+## 1. Decoupled Source Architecture & Production Bundles
 
-The Interactive Blackboard is designed to simulate the classroom teaching experience:
-* **Chalk Writing:** The student watches the instructor write on the blackboard character-by-character in real time (chalk typewriter effect).
-* **KaTeX Mathematical Precision:** All formulas, fractions, units, and subscripts are rendered with LaTeX typographic quality.
-* **Vertical Equation Alignment:** Numerical substitutions are strictly aligned at the equals sign (`=`), training the student in proper Panhellenic Exam presentation methodology.
-
----
-
-## 2. Plug & Play Architecture (Decoupled from Exercises)
-
-Animation data **no longer resides inside exercise files**. Instead, it is stored in completely independent files under:
+Animation data is **not embedded** inside exercise files (`site/exercises/`), and instead lives in separate source files under `site/animations/`:
 
 ```text
-site/animations/{grade}/{subject}/{exId}.js
+site/
+├── exercises/
+│   ├── b/thermod/ch05-20954.js            # Exercise problem data (untouched)
+│   └── c/stoixeia-michanon/ch14-25806.js
+├── animations/
+│   ├── b/thermod/ch05-20954.js            # Thermodynamics animation (folder b/thermod -> id: "thermo")
+│   └── c/stoixeia-michanon/ch14-25806.js
+├── bundles/
+│   ├── thermo.bundle.js                   # Packaged production bundle
+│   └── stoixeia-michanon.bundle.js
+└── content/
+    └── scripts_catalog.js                 # Defines window.SUBJECT_SCRIPTS for Lazy Loading
 ```
 
-### Example paths:
-* `site/animations/b/thermod/ch05-20954.js`
-* `site/animations/b/thermod/ch05-17114.js`
-* `site/animations/c/stoixeia-michanon/ch14-25806.js`
-
-### Benefits of Decoupling:
-1. **Removal without editing code:** To remove an animation, **simply delete its file** from disk. There is no need to open or modify the exercise file.
-2. **Fault Tolerance:** If an animation file is missing or deleted, the exercise continues working normally as a standard exercise, with no console errors.
-3. **Lightweight exercise files:** Files in `site/exercises/` remain clean and readable (containing only problem statements, givens, and numerical answers).
+> [!IMPORTANT]
+> **Production Packaging Rule:** Although source files under `site/exercises/` and `site/animations/` are decoupled, the production site (`site/index.html`) loads from `site/bundles/{subject}.bundle.js` via `site/content/scripts_catalog.js`. Any addition, edit, or deletion under `site/animations/` **does not take effect in production** until you run `python scripts/build_bundles.py`. The `--raw` mode (or `site/index_full.html`) is only for loading unpacked source files.
 
 ---
 
-## 3. Animation File Structure Specifications (`.js`)
+## 2. Registry `window.EXERCISE_ANIMATIONS` & Key Convention
 
-Each animation file registers its steps in the global registry `window.EXERCISE_ANIMATIONS[exId]`:
+Each animation file registers its walkthrough entries on the global object `window.EXERCISE_ANIMATIONS[exId]`:
 
 ```javascript
 window.EXERCISE_ANIMATIONS = window.EXERCISE_ANIMATIONS || {};
 window.EXERCISE_ANIMATIONS["ch05-20954"] = {
-  "4.3": {                                     // The sub-question it attaches to (subq)
-    "title": "Ερώτημα (4.3): Υπολογισμός ΔU", // Blackboard title
+  "4.3": {
+    "title": "Ερώτημα (4.3): Υπολογισμός μεταβολής εσωτερικής ενέργειας",
     "steps": [
-      // The 4 mandatory steps (see section 4)
+      {
+        "kicker": "Βήμα 1 — Δεδομένα & Ζητούμενο",
+        "text": "Εντοπίζουμε τα δεδομένα του θερμοδυναμικού συστήματος και τη ζητούμενη μεταβολή εσωτερικής ενέργειας.",
+        "math": "Q = +450\\text{ J}, \\quad W = +150\\text{ J}",
+        "note": "Προσοχή στις συμβάσεις προσήμων του Πρώτου Νόμου.",
+        "highlight": "\\Delta U = ?"
+      },
+      {
+        "kicker": "Βήμα 2 — Φυσικός Νόμος",
+        "text": "Εφαρμόζουμε τον Πρώτο Νόμο της Θερμοδυναμικής για κλειστό σύστημα.",
+        "math": "\\Delta U = Q - W",
+        "note": "Ισχύει ανεξάρτητα από τη φύση της διεργασίας.",
+        "highlight": "\\Delta U = Q - W"
+      }
     ]
   }
 };
 ```
 
-> **Multi-question support:** If an exercise has animations for more than one sub-question (e.g. questions a, b, c), they are declared as separate keys inside the same file (e.g. `"α": { ... }`, `"β": { ... }`).
+A real multi-step example with Greek sub-question keys exists in `site/animations/c/stoixeia-michanon/ch14-25806.js`, which uses keys `"α"` and `"β"` (with `"α"` consisting of 6 consecutive steps).
+
+### Canonical Key Convention (`src/tools/calc_animator.py`)
+
+To match each animation reliably to its calculation sub-item (`calc` item):
+
+1. **When the item has a non-empty `subq`:** The key is `str(item["subq"]).strip()` **verbatim** (e.g., `"4.3"`, `"4.2α"`, `"α"`, `"β"`), without stripping prefixes or symbols.
+2. **When `subq` is missing/empty and the exercise has multiple items (`len(items) > 1`):** Use the 0-based string index: `"0"`, `"1"`, `"2"`, ...
+3. **When `subq` is missing/empty and the exercise has a single item:** Use `"default"`.
+
+### Frontend Lookup Order (`getAnimationForCalcItem` in `site/js/app.js`)
+
+When rendering a calculation item, `site/js/app.js` looks up an animation in this order:
+
+1. `item.animation` *(deprecated legacy inline fallback — avoid in new files)*
+2. `exAnims.steps` *(direct object on the exercise entry)*
+3. `exAnims[item.subq]` *(primary canonical key)*
+4. `exAnims[cleanSubq]`
+5. `exAnims[itemIdx]` *(index `"0"`, `"1"`, ...)*
+6. `exAnims["default"]`
+7. `store[exId + "_" + item.subq]` or `store[exId + "_" + itemIdx]`
 
 ---
 
-## 4. The 4 Mandatory Pedagogical Steps (`steps`)
+## 3. Entry & Step Schema (`SiteValidator` vs Chalkboard Design)
 
-Every calculation sub-question animation strictly follows the **4-step** structure:
+According to the validator (`src/validators/site_validator.py`) and renderer (`site/js/app.js`):
 
-```mermaid
-flowchart LR
-    S1["Step 1:<br>Data & SI Units"] --> S2["Step 2:<br>Base Formula & Solving"]
-    S2 --> S3["Step 3:<br>Substitution & Arithmetic"]
-    S3 --> S4["Step 4:<br>Final Result & Highlight"]
+| Field | Level | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `title` | Sub-question entry | Yes | Non-empty chalkboard title |
+| `steps` | Sub-question entry | Yes | Non-empty array of step objects |
+| `text` (or `description`) | Step | Yes | Pedagogical explanation text for the step (in Greek for student UI) |
+| `math` (or `latex`) | Step | Yes | LaTeX/KaTeX mathematical expression rendered on the chalkboard |
+| `kicker` | Step | No | Short phase label/header (e.g., `"Βήμα 1 — Δεδομένα"`) |
+| `note` | Step | No | Concise formula note, unit reminder, or physical insight |
+| `highlight` | Step | No | Key intermediate or final result to emphasize |
+
+> [!NOTE]
+> **Step Count:** `calc_animator.py` typically generates **4 pedagogical steps** (1. Statement/Given, 2. Physical Law/Formula, 3. Substitution/Calculation, 4. Final Result/Verification), but neither `SiteValidator` nor the frontend enforces a 4-step cap. Complex derivations can have more steps (such as the 6 steps under key `"α"` in `ch14-25806.js`).
+
+---
+
+## 4. Automated Generation (`calc_animator.py`)
+
+The `calc_animator.py` generator runs as a **standalone module** (not via `python -m src.cli`):
+
+```bash
+# Scan all exercises for missing animations
+python -m src.tools.calc_animator --scan
+
+# Generate animations for a specific subject, chapter, or exercise bank code
+python -m src.tools.calc_animator --subject thermo --chapter 5
+python -m src.tools.calc_animator --target 25806 --mode hybrid --overwrite
 ```
 
-### Detailed Field Specification per Step:
-| Field | Type | Description |
+### Command-Line Arguments
+
+| Argument | Type / Choices | Description |
 | :--- | :--- | :--- |
-| `step` | `number` | Step number (`1`, `2`, `3`, `4`). |
-| `kicker` | `string` | Short step label (e.g. `"Βήμα 1: Συλλογή Δεδομένων"`). |
-| `text` | `string` | Explanatory prose rendered with the chalk-writing effect. |
-| `description` | `string` | Step summary. |
-| `math` | `string` | Mathematical formula in LaTeX (`\begin{aligned} ... \end{aligned}`). |
-| `note` | `string` | Educational note or exam warning. |
-| `highlight` | `boolean` | `true` only on step 4 to visually highlight the final result. |
+| `--scan` | flag | Scan `calc` exercises for missing animations |
+| `--subject <ID>` | string | Subject catalog ID or alias (e.g., `thermo`, `stoixeia-michanon`) |
+| `--chapter <N>` | integer | Filter to a specific chapter number |
+| `--target <CODE>` | string | Target a specific exercise by bank code (e.g., `25806`) |
+| `--overwrite` | flag | Overwrite existing animation files |
+| `--mode <MODE>` | `local`, `hybrid` *(default)*, `ai-pedagogy`, `ai`, `ai-full` | Step generation strategy |
 
-### Full Schema Example:
-```javascript
-{
-  "step": 1,
-  "kicker": "Βήμα 1: Συλλογή Δεδομένων & Μετατροπές",
-  "text": "Καταγραφή όλων των γνωστών δεδομένων της άσκησης και έλεγχος των μονάδων σε μονάδες SI.",
-  "description": "Καταγραφή όλων των γνωστών δεδομένων της άσκησης.",
-  "math": "\\begin{aligned}\nQ &= 0 \\\\\nW &= -450\\text{ kJ}\n\\end{aligned}",
-  "note": "Όλα τα μεγέθη ελέγχονται αν βρίσκονται σε συμβατές μονάδες SI.",
-  "highlight": false
-},
-{
-  "step": 2,
-  "kicker": "Βήμα 2: Επιλογή Βασικού Τύπου & Επίλυση",
-  "text": "Επιλογή του 1ου θερμοδυναμικού αξιώματος και αλγεβρική επίλυση ως προς το ζητούμενο μέγεθος (ΔU).",
-  "description": "Επιλογή βασικού τύπου και αλγεβρική επίλυση.",
-  "math": "\\Delta U = -W",
-  "note": "Αλγεβρική απομόνωση του ζητούμενου μεγέθους.",
-  "highlight": false
-},
-{
-  "step": 3,
-  "kicker": "Βήμα 3: Αντικατάσταση & Απλοποιήσεις",
-  "text": "Αντικατάσταση των αριθμητικών τιμών με κατακόρυφη στοίχιση των ισοτήτων.",
-  "description": "Αντικατάσταση δεδομένων στον επιλυμένο τύπο.",
-  "math": "\\begin{aligned}\n\\Delta U &= -(-450\\text{ kJ}) \\\\\n&= +450\\text{ kJ}\n\\end{aligned}",
-  "note": "Προσοχή στις πράξεις προσήμων.",
-  "highlight": false
-},
-{
-  "step": 4,
-  "kicker": "Βήμα 4: Τελικό Αποτέλεσμα & Μονάδα Μέτρησης",
-  "text": "Προσδιορισμός της τελικής τιμής. Η εσωτερική ενέργεια του αερίου αυξήθηκε.",
-  "description": "Τελική τιμή και μονάδα μέτρησης.",
-  "math": "\\Delta U = +450\\text{ kJ}",
-  "note": "Η αναγραφή της μονάδας μέτρησης (kJ) είναι υποχρεωτική στις εξετάσεις.",
-  "highlight": true
-}
-```
+When generating animations, `calc_animator.py` automatically triggers bundle rebuilding as well.
 
 ---
 
-## 5. Frontend Player Behavior (`site/js/app.js`)
+## 5. Manual Addition, Deletion & Verification
 
-`renderManimPlayer(item, exId, itemIdx)` provides the following controls:
-* **Auto-Play Toggle (`Play` / `Pause`):** Simulates live step-by-step writing.
-* **Navigation:** `Back`, `Next Step`, `Restart` (replay).
-* **Step Pills:** Students can jump directly to any step (e.g. "Step 3").
-* **Exercise Visibility:**
-  * In the exercise list (`Board`), an **Animation** badge is shown.
-  * At the top of the exercise, the central **Hero Banner** appears.
-  * On the question's hint button, the **`Hint & Animation`** (`Υπόδειξη & Animation`) option is shown.
-
----
-
-## 6. Management Guide
-
-### 6.1 How to add a new animation:
-1. Create the file `site/animations/{grade}/{subject}/{exId}.js`.
-2. Register the 4 steps under `window.EXERCISE_ANIMATIONS["{exId}"]`.
-3. Run:
+### 5.1 Adding a New Animation Manually
+1. Create `site/animations/{grade}/{subject_dir}/{exId}.js` (for `thermo`, the folder is `b/thermod`).
+2. Register `window.EXERCISE_ANIMATIONS["{exId}"]` following the Section 2 key convention (`item.subq`, or `"0"`/`"1"`, or `"default"`), with non-empty `title` and `steps` containing `text` and `math`.
+3. Rebuild production bundles (mandatory):
    ```bash
-   python scripts/build_scripts_catalog.py
+   python scripts/build_bundles.py
    ```
-   The file is automatically included in the subject's Lazy Loading catalog.
+   (`python scripts/build_scripts_catalog.py` acts as a wrapper that also invokes the bundler. Pass `--raw` only when running without bundles.)
 
-### 6.2 How to delete an animation:
-1. Delete the file `site/animations/{grade}/{subject}/{exId}.js`.
-2. *(Optional)* Re-run `python scripts/build_scripts_catalog.py` to remove it from the catalog.
-> The exercise remains 100% functional immediately upon deletion.
+### 5.2 Deleting an Animation
+1. Delete `site/animations/{grade}/{subject_dir}/{exId}.js`.
+2. **Mandatory for production:** Run:
+   ```bash
+   python scripts/build_bundles.py
+   ```
+   to rebuild `site/bundles/{subject}.bundle.js` without the deleted animation.
+3. The corresponding exercise file in `site/exercises/` stays untouched and continues working normally without the animation button.
 
-### 6.3 Automatic Generation via `calc_animator.py`
-
-The portal includes a dedicated animation generator (`src/tools/calc_animator.py`), fully aligned with the decoupled architecture:
-
-* **Status Scan:**
-  ```bash
-  python -m src.tools.calc_animator --scan
-  ```
-  Reports animation coverage per subject and chapter by scanning `site/animations/` directly.
-
-* **Targeted Single-Exercise Generation:**
-  ```bash
-  python -m src.tools.calc_animator --target 20954 --mode hybrid
-  ```
-
-* **Batch Generation per Chapter or Subject:**
-  ```bash
-  python -m src.tools.calc_animator --subject thermo --chapter 5
-  ```
-
-* **Generation Modes (`--mode`):**
-  1. `hybrid` (Default): Script-first (instant, 0 tokens) with AI fallback only when formulas/solutions are missing.
-  2. `local`: 100% deterministic Python builder (0 AI tokens, instantaneous execution).
-  3. `ai-pedagogy`: Script builder + Gemini API Pedagogical Reviewer to enhance instructional explanations.
-
-> **Catalog Automation:** After generating any new animation, the tool automatically invokes `build_bundles()`, updating `site/content/scripts_catalog.js` and the subject bundles with zero manual intervention. Exercise files (`site/exercises/`) always remain 100% untouched.
+### 5.3 Local Verification
+* Both `python -m src.cli validate` and `python -m src.validators.site_validator` automatically validate `site/exercises/`, `site/content/`, **and** `site/animations/` (schema structure, required fields, and KaTeX syntax).
+* Always verify new or edited animations visually by starting the local server (`python scripts/site_server.py`) and opening the exercise in the browser.

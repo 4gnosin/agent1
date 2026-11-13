@@ -2,57 +2,60 @@
 
 **Γλώσσα / Language:** Ελληνικά | [English](en/schemas.md)
 
-Το παρόν έγγραφο ορίζει τα αυστηρά σχήματα δεδομένων (JavaScript objects) που χρησιμοποιούνται σε όλο το περιεχόμενο της πλατφόρμας. Κάθε αρχείο επικυρώνεται αυτόματα από τον `SiteValidator` (`python -m src.cli validate`).
+Το παρόν έγγραφο ορίζει τα αυστηρά σχήματα δεδομένων (JavaScript objects) που χρησιμοποιούνται σε όλο το περιεχόμενο της πλατφόρμας, όπως επαληθεύονται από το `site/js/app.js` και τον `SiteValidator` (`python -m src.cli validate`).
 
 ---
 
 ## 1. Κεφαλίδα Αρχικοποίησης (Υποχρεωτική)
 
-Κάθε αρχείο θεωρίας, ομάδων και ασκήσεων **πρέπει** να ξεκινά με την τυποποιημένη αρχικοποίηση του καθολικού χώρου ονομάτων:
+Κάθε νέο αρχείο θεωρίας, ομάδων και ασκήσεων **πρέπει** να ξεκινά με την τυποποιημένη αρχικοποίηση του καθολικού χώρου ονομάτων:
 
 ```javascript
 window.SUBJECT_DATA = window.SUBJECT_DATA || {};
 window.SUBJECT_DATA["subject-slug"] = window.SUBJECT_DATA["subject-slug"] || { sections: [], groups: [], exercises: [] };
 window.SUBJECT_DATA["subject-slug"].<collection>.push(...
 [
-  // ... δεδομένα ...
+  // ... δεδομένα (όπου <collection> είναι sections, groups ή exercises) ...
 ]
 );
 ```
-> **Κανόνας:** Το `subject-slug` πρέπει να ταυτίζεται επακριβώς με το `id` του μαθήματος στο `site/content/catalog.js` (π.χ. `stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon`, `thermo`, `antoxi`).
+
+* Το `subject-slug` πρέπει να ταυτίζεται επακριβώς με το `id` του μαθήματος στο `site/content/catalog.js` (π.χ. `antoxi`, `stoixeia-michanon`, `stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon`).
+* **Εξαίρεση Legacy (`thermo` / φάκελος `b/thermod/`):** Τα υπάρχοντα αρχεία της Θερμοδυναμικής Β΄ Τάξης χρησιμοποιούν τους καθολικούς πίνακες `window.SECTIONS`, `window.GROUPS` και `window.EXERCISES` (`window.SECTIONS.push(...)`, `window.GROUPS.push(...)`, `window.EXERCISES.push(...)`). Το `site/js/app.js` συνενώνει αυτόματα αυτούς τους πίνακες με το `window.SUBJECT_DATA["thermo"]`.
 
 ---
 
 ## 2. Σχήμα Ενότητας Θεωρίας (`site/content/{grade}/{subject}/chapter-NN/MM-slug.js`)
 
-Προσθέτει αντικείμενα στον πίνακα `sections`.
+Προσθέτει αντικείμενα στον πίνακα `sections` (`SUBJECT_DATA[slug].sections` ή `window.SECTIONS`).
 
 ```javascript
 {
-  "slug": "01-thermotita-kai-thermokrasia",    // Μοναδικό αναγνωριστικό URL (hash route)
-  "chapter": "3",                              // Αριθμός κεφαλαίου (string ή number)
-  "num": "3.1",                                // Αρίθμηση ενότητας
-  "title": "Θερμότητα και Θερμοκρασία",       // Τίτλος ενότητας
-  "lead": "Εισαγωγική σύνοψη της ενότητας...", // Σύντομη περίληψη
+  "slug": "genika",                            // Μοναδικό αναγνωριστικό URL (hash route)
+  "num": "1.1",                                // Αρίθμηση ενότητας (το πρώτο τμήμα ορίζει το κεφάλαιο)
+  "title": "Γενικά",                           // Τίτλος ενότητας
+  "kicker": "Μηχανολογία ΕΠΑΛ",                // (Προαιρετικό) Ετικέτα πάνω από τον τίτλο
+  "lead": "Εισαγωγική σύνοψη της ενότητας...", // (Προαιρετικό) Σύντομη περίληψη
   "blocks": [                                  // Συστοιχία τυποποιημένων blocks κειμένου/πολυμέσων
-    // Βλ. παρακάτω τύπους blocks
+    // Βλ. παρακάτω τους 8 έγκυρους τύπους blocks
   ]
 }
 ```
 
-### Υποστηριζόμενοι Τύποι Blocks Θεωρίας:
+> **Σημείωση:** Το `site/js/app.js` εξάγει τον αριθμό κεφαλαίου από το `num` (`String(s.num).split(".")[0]`). Ο `SiteValidator` απαιτεί υποχρεωτικά τα πεδία `slug`, `num`, `title` και `blocks`.
+
+### Υποστηριζόμενοι Τύποι Blocks Θεωρίας (`app.js` & `SiteValidator`):
+
 | Τύπος (`type`) | Πεδία | Περιγραφή |
 | :--- | :--- | :--- |
-| `"p"` | `text` | Παράγραφος πεζού κειμένου με ενσωματωμένο LaTeX (`$ ... $`). |
-| `"h"` | `level` (2-4), `text` | Υποκεφαλίδα ενότητας. |
-| `"math"` | `tex` | Αυτόνομος κεντρικός μαθηματικός τύπος σε display mode. |
-| `"formula-card"` | `title`, `math`, `where: [{sym, desc}]` | Κάρτα τύπου με επεξήγηση συμβόλων και μονάδων μέτρησης. |
-| `"callout"` | `kind` (`"info"`/`"tip"`/`"warn"`), `title`, `text` | Πλαίσιο επισήμανσης σημαντικών εννοιών ή παγίδων. |
-| `"diagram"` | `src`, `caption` | Τεχνικό σχήμα WebP με λεζάντα. |
-| `"steps"` | `title`, `items: [string]` | Αριθμημένη μεθοδολογία βήμα-βήμα. |
-| `"comparison"` | `title`, `left: {title, items}`, `right: {title, items}` | Πίνακας σύγκρισης δύο εννοιών δίπλα-δίπλα. |
-| `"table"` | `headers: [string]`, `rows: [[string]]` | Πίνακας δεδομένων. |
-| `"quick-check"` | `question`, `answer` | Ερώτηση αυτοαξιολόγησης (accordion). |
+| `"p"` | `text` | Παράγραφος πεζού κειμένου (υποστηρίζει inline math `$ ... $` / `\( ... \)` και markdown bold `**...**`). |
+| `"h"` | `text` | Υποκεφαλίδα ενότητας (αποδίδεται ως `<h2>`). |
+| `"ul"` | `items: [string]` | Λίστα με κουκκίδες (`<ul><li>...</li></ul>`). |
+| `"formula"` | `html`, `caption` *(προαιρετικό)* | Αυτόνομος μαθηματικός τύπος / εξίσωση με προαιρετική λεζάντα. |
+| `"callout"` | `kind`, `title` *(προαιρετικό)*, `text` | Πλαίσιο επισήμανσης. Επιτρεπόμενες τιμές `kind`: `"def"`, `"example"`, `"remember"`, `"tip"`, `"warning"`. |
+| `"image"` | `src`, `alt` *(προαιρετικό)*, `caption` *(προαιρετικό)* | Εξωτερική εικόνα WebP (`images/{grade}/{subject}/...`) με λεζάντα. |
+| `"table"` | `headers: [string]`, `rows: [[string]]`, `caption` *(προαιρετικό)* | Πίνακας δεδομένων. |
+| `"diagram"` | `id`, `caption` *(προαιρετικό)* | Ενσωματωμένο SVG διάγραμμα βάσει `id` της συνάρτησης `diagram()` στο `site/js/app.js`. |
 
 ---
 
@@ -63,9 +66,9 @@ window.SUBJECT_DATA["subject-slug"].<collection>.push(...
 ```javascript
 {
   "id": "ch03-02-thermodynamic-processes",     // Μοναδικό ID ομάδας
-  "chapter": "3",                              // Αριθμός κεφαλαίου
-  "title": "Καταστατικές Μεταβολές Αερίων",    // Τίτλος ομάδας
-  "blurb": "Ισόθερμη, ισόχωρη, ισοβαρής και αδιαβατική μεταβολή." // Σύντομη περιγραφή
+  "chapter": "3",                              // Αριθμός κεφαλαίου (υποχρεωτικό)
+  "title": "Καταστατικές Μεταβολές Αερίων",    // Τίτλος ομάδας (υποχρεωτικό)
+  "blurb": "Ισόθερμη, ισόχωρη, ισοβαρής και αδιαβατική μεταβολή." // Σύντομη περιγραφή (υποχρεωτικό)
 }
 ```
 
@@ -81,16 +84,17 @@ window.SUBJECT_DATA["subject-slug"].<collection>.push(...
   "group": "ch03-02-thermodynamic-processes",  // Σύνδεση με το αντίστοιχο group.id
   "kind": "calc",                              // Κύριος τύπος ("mc", "tf", "calc", "match", "blank", "open")
   "layout": "unified",                         // Πάντα "unified"
-  "code": "Θέμα 4<sup>ο</sup> · #23978",       // Τίτλος κεφαλίδας Τράπεζας Θεμάτων
+  "code": "Θέμα 4<sup>ο</sup> · #23978",       // Τίτλος κεφαλίδας Τράπεζας Θεμάτων (υποχρεωτικά <sup>ο</sup>)
   "bankCode": "23978",                         // Κωδικός θέματος ΙΕΠ
-  "title": "#23978 — Θέμα 4ο (Κύκλος Μεταβολών)", // Τίτλος άσκησης
+  "title": "#23978 — Θέμα 4<sup>ο</sup> (Κύκλος Μεταβολών)", // Τίτλος άσκησης (υποχρεωτικά <sup>ο</sup>)
   "units": 25,                                 // Μονάδες θέματος (συνήθως 25 ή 15)
   "theory": "01-thermodynamic-processes",      // Slug της αντίστοιχης θεωρίας
-  "stem": "Εκφώνηση θέματος με μαθηματικούς τύπους $P-V$...", // Κεντρική εκφώνηση
+  "sourceOrder": 1,                            // (Προαιρετικό) Σειρά ταξινόμησης από την πηγή
+  "stem": "Εκφώνηση θέματος με μαθηματικούς τύπους $P-V$...", // (Προαιρετικό) Κεντρική εκφώνηση
   "image": "images/.../fig01.webp",            // (Προαιρετικό) Κεντρικό σχήμα εκφώνησης
   "images": [ ... ],                           // (Προαιρετικό) Πολλαπλά σχήματα εκφώνησης
   "imageLabels": ["Σχήμα α", "Σχήμα β"],       // (Προαιρετικό) Ετικέτες πολλαπλών σχημάτων
-  "imageLayout": "grid",                       // (Προαιρετικό) "grid" ή "row"
+  "imageLayout": "grid",                       // (Προαιρετικό) "grid", "row" ή "column"
   "solutionImages": [                          // (Προαιρετικό) Σχήματα ενδεικτικής λύσης
     "images/.../sol01.webp"                    // Εμφανίζονται ΜΟΝΟ μετά το κλικ «Έλεγχος όλων»
   ],
@@ -107,6 +111,8 @@ window.SUBJECT_DATA["subject-slug"].<collection>.push(...
 ---
 
 ## 5. Προδιαγραφές των 6 Τύπων Υποερωτημάτων (`items`)
+
+Κάθε item μπορεί προαιρετικά να έχει `"subq"` (π.χ. `"2.1"`, `"4.2α"`) και `"subqPrompt"` (εισαγωγική εκφώνηση ομάδας υποερωτημάτων).
 
 ### 5.1 Πολλαπλής Επιλογής (`kind: "mc"`)
 ```javascript
@@ -135,7 +141,7 @@ window.SUBJECT_DATA["subject-slug"].<collection>.push(...
   "subq": "2.1α",
   "prompt": "Στην ισοθερμοκρασιακή μεταβολή η θερμοκρασία παραμένει σταθερή.",
   "answer": true,                              // boolean: true ή false
-  "explain": "Σωστό. Εξ' ορισμού η ισοθερμοκρασιακή μεταβολή εκτελείται υπό σταθερή θερμοκρασία ($T = \\text{σταθ.}$) ."
+  "explain": "Σωστό. Εξ ορισμού η ισοθερμοκρασιακή μεταβολή εκτελείται υπό σταθερή θερμοκρασία ($T = \\text{σταθ.}$)."
 }
 ```
 
@@ -148,11 +154,12 @@ window.SUBJECT_DATA["subject-slug"].<collection>.push(...
   "formula": "$P_1 \\cdot V_1 = P_2 \\cdot V_2$", // Βασικός μαθηματικός τύπος
   "answer": 0.08,                              // Αριθμητική τιμή (αριθμός, όχι string)
   "unit": "m³",                                // Μονάδα μέτρησης
-  "tolerance": 0.02,                           // Ανοχή αποδεκτού σφάλματος (0.02 = ±2%)
+  "tolerance": 0.02,                           // Ανοχή σφάλματος (0.02 = ±2%, ή απόλυτη αν toleranceMode: "abs")
   "hint": "Εφαρμόστε τον νόμο Boyle-Mariotte...", // Υπόδειξη (εμφανίζεται με κλικ)
   "explain": "Από τη σχέση $P_1 V_1 = P_2 V_2$ έχουμε:\n$$V_2 = \\frac{1 \\cdot 0{,}8}{10} = 0{,}08\\text{ m}^3$$"
 }
 ```
+> **Σημείωση για Animations (`item.animation` vs `site/animations/`):** Παρότι η `getAnimationForCalcItem()` στο `site/js/app.js` διαβάζει ακόμη ενσωματωμένο `item.animation` για συμβατότητα προς τα πίσω (legacy fallback), **όλα τα νέα animations γράφονται αποκλειστικά ως ανεξάρτητα αρχεία** στο `site/animations/{grade}/{subject}/{exId}.js` (βλ. [docs/animations.md](animations.md)).
 
 ### 5.4 Αντιστοίχιση 2 Στηλών (`kind: "match"`)
 Υποστηρίζει κείμενο αλλά και **εικόνες** τόσο στη Στήλη Α όσο και στη Στήλη Β:

@@ -1,126 +1,162 @@
-# Content Generation Subsystems & CLI Commands — 4gnosin.github.io
-
 **Language / Γλώσσα:** [Ελληνικά](../pipelines.md) | English
 
-This document catalogs all automation tools, material processing pipelines (PDFs, OCR, WebP), and the complete Command-Line Interface (`CLI`) reference.
+# Automation Pipelines & CLI Reference
+
+The **4gnosin** platform combines a central CLI (`python -m src.cli`) with dedicated standalone tools (`src/tools/`, `scripts/`) for PDF text/image extraction, theory and exercise generation, LaTeX sanitization, animation generation, and production bundle packaging.
 
 ---
 
-## 1. Central Controller (`4gnosin.bat` / `scripts/menu.py`)
+## 1. Textbook & Exam Bank Acquisition
 
-For daily workflows, an interactive Terminal User Interface (TUI) is available via:
-```cmd
-4gnosin.bat
-# or: python scripts/menu.py
-```
-The menu provides guided execution of all operations (downloading exam topics, extracting images, authoring theory, validation, and starting the site locally) without needing to memorize CLI flags.
+To fetch and organize primary source material:
 
----
-
-## 2. Exam Item Bank Pipeline (`trapeza7.py` -> `process-inbox`)
-
-The processing workflow for topics from the official IEP Exam Item Bank:
-
-```mermaid
-flowchart TD
-    IEP["IEP Exam Item Bank"] -->|scripts/trapeza7.py (Playwright)| INBOX["data/inbox/ (Topic & Solution PDFs)"]
-    INBOX -->|python -m src.cli process-inbox| PARSER["PDF Extractor & Topic Parser"]
-    PARSER --> IMAGES["Image Extraction & Optimization"]
-    PARSER --> CODE["Exercise Generation (JS)"]
-    IMAGES --> SITE_IMG["site/images/{grade}/{subject}/"]
-    CODE --> SITE_EX["site/exercises/{grade}/{subject}/"]
-    PARSER --> DONE["data/inbox/done/ (PDF Archiving)"]
-```
-
-### Execution Steps:
-1. **Automated Download:**
-   ```bash
-   python scripts/trapeza7.py
-   ```
-   Uses Playwright (Chromium) to browse the IEP portal automatically and save topic and indicative solution PDFs into `data/inbox/`.
-2. **Batch Processing & Conversion:**
-   ```bash
-   python -m src.cli process-inbox
-   ```
-   * Automatically detects grade, subject, chapter, and topic code.
-   * Separates problem statements from indicative solutions.
-   * Extracts and links the corresponding diagrams.
-   * Moves processed PDFs to `data/inbox/done/`.
-
----
-
-## 3. Technical Diagram Extraction & WebP Optimization Pipeline
-
-### 3.1 Extraction with PyMuPDF (`src/utils/image_extractor.py`)
-The extractor includes advanced recovery algorithms:
-* **Vertical slice stitching (`stitch_contiguous_slices`):** IEP / Word PDF exports frequently split a single figure into 5–10 thin horizontal strips. The extractor detects them by coordinates and stitches them back into a single unified image.
-* **Vector Diagram Detection & Expansion:** When a chart (e.g. $P-V$) contains vector paths and only axis labels are raster (`P (bar)`), the extractor detects the vector paths and renders the full diagram at high resolution (3x DPI).
-* **Chart Overlay Consolidation:** In complex charts (e.g. psychrometric charts), small text overlays are embedded directly onto the chart rather than exported as useless micro-images.
-
-### 3.2 WebP Compression (`scripts/optimize_images_to_webp.py`)
-All images are automatically converted to the modern **WebP** format:
 ```bash
-python scripts/optimize_images_to_webp.py
+# List available textbooks and download by grade or subject
+python scripts/edubooks.py --list
+python scripts/edubooks.py --taxi b --subject thermo
+python scripts/edubooks.py --all
+
+# Automated collection from the National Exam Bank (trapeza7)
+python scripts/trapeza7.py
 ```
-* Compression quality: 85–92%.
-* Storage savings: **60% to 80%** compared to original PNG/JPG files, ensuring fast loading.
 
 ---
 
-## 4. Theory Authoring Pipeline (`edubooks.py` -> `generate-theory`)
+## 2. PDF Text & Image Extraction
 
-1. **Downloading School Textbooks:**
+### 2.1 Text Extraction with `extract-pdf`
+```bash
+python -m src.cli extract-pdf -p data/pdf/book.pdf -o data/text/ch01.txt --start-page 10 --end-page 25 -t "Κεφάλαιο 1" --ai-clean
+```
+
+### 2.2 Diagram Extraction & WebP Optimization
+1. **Extract images from PDF:**
    ```bash
-   python scripts/edubooks.py
+   python scripts/extract_pdf_images_craft.py data/pdf/book.pdf -o site/images/thermod --dpi 200 --pages 10-25
    ```
-   Downloads the official approved school textbooks from CTI "Diophantus".
-2. **Chapter Extraction & Theory Generation:**
+2. **Optimize images to WebP:**
    ```bash
-   python -m src.cli extract-pdf "data/books/c_psyxi.pdf" -o "data/theory/ch03.md" --pages 15-45
-   python -m src.cli generate-theory "data/theory/ch03.md" --grade c --subject stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon --chapter 3
+   python scripts/optimize_images_to_webp.py
    ```
-   Generates standardized theory blocks inside `site/content/c/...`.
+   This script converts images to WebP via Pillow (`quality=85`, `method=6`) and strips `#` characters from image filenames so URLs do not break during frontend loading.
 
 ---
 
-## 5. Validation, Sanitization & Synchronization Tools
+## 3. Theory & Exercise Generation
 
-### 5.1 Schema Validation (`validate`)
-Strictly checks the syntax and compatibility of all JavaScript files:
+### 3.1 Theory Generation (`generate-theory` & `scripts/theory.py`)
 ```bash
-python -m src.cli validate site/exercises/c/stoixeia-psyxis-klimatismou-michanologikon-egkatastaseon
+# Via central CLI from extracted text/PDF
+python -m src.cli generate-theory -i data/text/ch01.txt -g b -s thermo -c 1 -o site
+
+# Standalone theory script by subject and page range
+python scripts/theory.py --list
+python scripts/theory.py -s thermo -c 1 --page-start 1 --page-end 30 -g b
 ```
 
-### 5.2 Automated LaTeX Sanitizer (`sanitize-latex` / `scripts\sanitize_latex.bat`)
-Automatically fixes LaTeX syntax errors (degrees Celsius `°C`, spacing in `\cdot m`, stripping redundant `{}`, etc.):
-```cmd
-scripts\sanitize_latex.bat
-# or from the main menu (4gnosin.bat -> [5] -> [6])
-```
-* **Double-click:** Opens an interactive menu to select target directories (Exercises, Theory, Animations, or the entire site).
-* **Drag & Drop:** Drag any file or folder onto the `.bat` script for instant sanitization.
-* **Via CLI:**
+### 3.2 Exercises & Full Chapter Builds
 ```bash
-python -m src.cli sanitize-latex site/exercises/b/thermod
+# Generate exercises from input text/PDF
+python -m src.cli generate-exercises -i data/exercises/input.txt -g b -s thermo -c 1 -o site
+
+# Combined chapter build (theory + exercises) or batch folder processing
+python -m src.cli build-chapter -i data/theory.txt -e data/exercises.txt -g b -s thermo -c 1 --start-page 1 --end-page 20 -o site
+python -m src.cli build-batch -i data/theory_dir -e data/exercises_dir -g b -s thermo -o site
 ```
 
-### 5.3 Updating the Lazy Loading Catalog (`build_scripts_catalog.py`)
-Scans theory, exercise, and animation files and rebuilds `site/content/scripts_catalog.js`:
+### 3.3 Automated Inbox Processing (`process-inbox`)
+Scans the inbox folder (default `data/inbox`) for new source files and generates chapters/exercises into the output directory (default `site/`):
 ```bash
-python scripts/build_scripts_catalog.py
+python -m src.cli process-inbox --inbox data/inbox -o site --craft --force
 ```
 
 ---
 
-## 6. Complete CLI Command Reference
+## 4. Maintenance, LaTeX Sanitization & Validation
 
-| CLI Command | Arguments / Flags | Description |
+### 4.1 Targeted Exercise Fix & Stem Normalization (`fix-exercise`, `fix-stems`)
+```bash
+# Fix a specific exercise by URL, link, or Exam Bank code
+python -m src.cli fix-exercise 27123
+
+# Check or rename exercise file stems
+python -m src.cli fix-stems -o site --rename
+```
+
+### 4.2 LaTeX Sanitization (`sanitize-latex`)
+To fix doubled/broken backslashes, Unicode math symbols, and KaTeX delimiters:
+```bash
+python -m src.cli sanitize-latex site/exercises/b/thermod --pattern "*.js"
+```
+A batch wrapper is also available at `scripts\sanitize_latex.bat` (runs `python -m src.utils.latex_sanitizer %*`).
+
+### 4.3 Validation (`validate`)
+```bash
+# Validate schemas & KaTeX under site/exercises, site/content, and site/animations
+python -m src.cli validate site --fix
+```
+> [!NOTE]
+> Both `python -m src.cli validate` and `python -m src.validators.site_validator` automatically scan `site/exercises`, `site/content`, and `site/animations`.
+
+### 4.4 Automated Tests (`pytest`)
+```bash
+# Run the full test suite under tests/
+python -m pytest
+```
+The test suite under `tests/` covers LaTeX sanitization, `calc_animator`, bundle rebuilding and synchronization via `sync_site_index`, `SiteValidator` scanning of `site/animations/`, and consistency checks across `catalog.js`, CLI commands, and documentation.
+
+---
+
+## 5. Animations, Production Bundles & Local Server
+
+1. **Generate step-by-step animations (standalone module):**
+   ```bash
+   python -m src.tools.calc_animator --scan
+   python -m src.tools.calc_animator --subject thermo --chapter 5 --mode hybrid --overwrite
+   ```
+2. **Build Production Bundles & Scripts Catalog:**
+   ```bash
+   python scripts/build_bundles.py
+   ```
+   Creates `site/bundles/{subject}.bundle.js` (mapping folder `b/thermod` to canonical ID `thermo`) and updates `site/content/scripts_catalog.js`. Synced generation workflows (`build-batch`, `generate-exercises`, `process-inbox`, `scripts/theory.py`) also invoke the bundler automatically via `sync_site_index`. Passing `--raw` points `scripts_catalog.js` to individual source files instead of bundles. `python scripts/build_scripts_catalog.py` is a compatibility wrapper that delegates to `build_bundles.py`.
+3. **Start Local Web Server:**
+   ```bash
+   python scripts/site_server.py
+   ```
+   Serves `site/` locally at `http://localhost:8000`.
+
+---
+
+## 6. Complete CLI & Script Reference
+
+### 6.1 `python -m src.cli` Subcommands
+
+| Subcommand | Key Flags | Description |
 | :--- | :--- | :--- |
-| `process-inbox` | `--inbox-dir <DIR>`, `--batch-size <N>` | Batch processing of new PDFs from the IEP Exam Item Bank. |
-| `validate` | `<PATH_TO_JS_OR_DIR>` | Validates data schemas against site rules. |
-| `sanitize-latex` | `<PATH_TO_JS_OR_DIR>`, `--dry-run` | Automatic correction of mathematical formulas and LaTeX symbols. |
-| `fix-exercise` | `<FILE.JS>`, `--code <BANK_CODE>` | Automatic exercise restructuring, sub-question splitting & image linking. |
-| `extract-pdf` | `<PDF>`, `-o <OUTPUT.MD>`, `--pages <RANGE>` | Extracts selected PDF pages into clean Markdown text. |
-| `generate-theory` | `<MD_FILE>`, `--grade <B\|C>`, `--subject <ID>`, `--chapter <N>` | Converts theory Markdown into JavaScript blocks (`site/content/`). |
-| `generate-exercises` | `<MD_FILE>`, `--grade <B\|C>`, `--subject <ID>`, `--chapter <N>` | Generates exercise files from structured source material. |
-| `calc_animator` | `--scan`, `--target <ID>`, `--subject <S>`, `--mode <M>` | Generates decoupled solution animations (`site/animations/`). |
+| `build-chapter` | `-i`, `-e`, `-g`, `-s`, `-c`, `--start-page`, `--end-page`, `-o`, `-m` | Build a single chapter (theory and optional exercises) |
+| `build-batch` | `-i`/`--input-dir`, `-e`/`--exercises-dir`, `-g`, `-s`, `-o`, `-m` | Batch-build chapters from an input directory |
+| `generate-theory` | `-i`, `-g`, `-s`, `-c`, `-o`, `-m` | Generate theory section for a subject and chapter |
+| `generate-exercises` | `-i`, `-e`, `-g`, `-s`, `-c`, `-o`, `-m` | Generate exercise file |
+| `validate` | `[path]` (default `site`), `--fix` | Validate schemas under `site/exercises`, `site/content`, and `site/animations` |
+| `tutor` | `-c`, `-q`, `-l`, `-m` | Launch interactive AI tutoring assistant |
+| `extract-pdf` | `-p`/`--pdf`, `-o`, `--start-page`, `--end-page`, `-t`, `--ai-clean`, `-m` | Extract text from PDF with optional AI cleanup |
+| `assistant` | `-m` | Launch interactive CLI assistant |
+| `process-inbox` | `--inbox`, `-o`, `-m`, `--craft`, `--force` | Process queued files from `data/inbox` |
+| `fix-stems` | `-o`/`--site`, `--rename` | Check and normalize exercise file stems |
+| `fix-exercise` | `target` (positional) | Fix a specific exercise by URL, link, or bank code (e.g., `27123`) |
+| `sanitize-latex` | `[path]`, `--pattern` (default `*.js`) | Clean and normalize LaTeX/KaTeX math expressions |
+
+### 6.2 Standalone Tools & Scripts
+
+| Command | Key Flags | Description |
+| :--- | :--- | :--- |
+| `python -m src.tools.calc_animator` | `--scan`, `--target`, `--subject`, `--chapter`, `--overwrite`, `--mode` | Scan and generate animations for `calc` exercises (`local`, `hybrid`, `ai-pedagogy`, `ai`, `ai-full`) |
+| `python scripts/build_bundles.py` | `--raw` | Build `site/bundles/*.bundle.js` and `site/content/scripts_catalog.js` |
+| `python scripts/build_scripts_catalog.py` | `--raw` | Compatibility wrapper delegating to `build_bundles.py` |
+| `python scripts/theory.py` | `-s`, `-c`, `--page-start`, `--page-end`, `-g`, `-l` | Standalone theory generator by subject and page range |
+| `python scripts/edubooks.py` | `--taxi`, `--subject`, `--all`, `--force`, `--list` | Download EPAL school textbooks |
+| `python scripts/trapeza7.py` | — | Collect exam problems from Trapeza7 |
+| `python scripts/extract_pdf_images_craft.py` | `<pdf>`, `-o`/`--out`, `--dpi`, `--pages`, `-v` | Extract images from PDF |
+| `python scripts/optimize_images_to_webp.py` | — | Convert images to WebP (`quality=85, method=6`) and strip `#` |
+| `scripts\sanitize_latex.bat` | `[args]` | Batch wrapper running `python -m src.utils.latex_sanitizer` |
+| `python scripts/site_server.py` | — | Local HTTP server (`http://localhost:8000`) serving `site/` |

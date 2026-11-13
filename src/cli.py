@@ -245,7 +245,7 @@ def normalize_grade(grade: str) -> str:
 
 
 def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
-    """Register generated chapter scripts in index.html and sync the course catalog."""
+    """Sync catalog, fallback index_full.html, subject bundles, and scripts_catalog.js."""
     grade = normalize_grade(grade)
     subject = normalize_subject(subject)
     index_path = site_dir / "index.html"
@@ -259,9 +259,9 @@ def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
     validate_site_subject(site_dir, subject_id)
     subject_dir = site_dir / "content" / grade / subject
     exercises_dir = site_dir / "exercises" / grade / subject
-    if not exercises_dir.is_dir():
+    if not subject_dir.is_dir() and not exercises_dir.is_dir():
         raise FileNotFoundError(
-            f"Δεν βρέθηκε ο φάκελος ασκήσεων για {grade}/{subject} στο {site_dir}."
+            f"Δεν βρέθηκαν φάκελοι θεωρίας ή ασκήσεων για {grade}/{subject} στο {site_dir}."
         )
 
     catalog_text = catalog_path.read_text(encoding="utf-8")
@@ -285,17 +285,19 @@ def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
                 theory_files.append(path)
 
     exercise_files: list[Path] = []
-    for path in sort_exercise_files(list(exercises_dir.glob("chapter-*/*.js"))):
-        if path.name == "groups.js":
-            errors = SiteValidator.validate_groups_file(path)
-        else:
-            errors = SiteValidator.validate_exercises_file(path)
-        if errors:
-            print(f"   ℹ️ {path.name} (έχει παρατηρήσεις, συνδέεται κανονικά): {'; '.join(errors)}")
-        exercise_files.append(path)
-    if not exercise_files:
+    if exercises_dir.is_dir():
+        for path in sort_exercise_files(list(exercises_dir.glob("chapter-*/*.js"))):
+            if path.name == "groups.js":
+                errors = SiteValidator.validate_groups_file(path)
+            else:
+                errors = SiteValidator.validate_exercises_file(path)
+            if errors:
+                print(f"   ℹ️ {path.name} (έχει παρατηρήσεις, συνδέεται κανονικά): {'; '.join(errors)}")
+            exercise_files.append(path)
+
+    if not theory_files and not exercise_files:
         raise FileNotFoundError(
-            f"Δεν βρέθηκαν παραγόμενα αρχεία ασκήσεων για {grade}/{subject}."
+            f"Δεν βρέθηκαν παραγόμενα αρχεία θεωρίας ή ασκήσεων για {grade}/{subject}."
         )
 
     index_full_path = site_dir / "index_full.html"
@@ -314,16 +316,17 @@ def sync_site_index(site_dir: Path, grade: str, subject: str) -> None:
         except Exception:
             pass
 
-    # Ενημέρωση scripts_catalog.js για Lazy Loading
-    try:
-        from scripts.build_scripts_catalog import build_catalog
-        build_catalog()
-    except Exception as e:
-        print(f"⚠️ Σφάλμα κατά την ενημέρωση του scripts_catalog.js: {e}")
+    # Ενημέρωση bundles και scripts_catalog.js για Lazy Loading
+    repo_root = Path(__file__).resolve().parent.parent
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+    from scripts.build_bundles import build_bundles
+
+    build_bundles(site_dir=site_dir)
 
     updated_catalog = sync_catalog_subject(catalog_text, subject_id)
     catalog_path.write_text(updated_catalog, encoding="utf-8")
-    print(f"Synchronized course '{subject_id}' in {catalog_path} and scripts_catalog.js")
+    print(f"Synchronized course '{subject_id}' in {catalog_path}, scripts_catalog.js and bundles")
 
 
 def build_batch_command(args: argparse.Namespace) -> None:
@@ -540,19 +543,7 @@ def validate_command(args: argparse.Namespace) -> None:
         print(f"❌ Η διαδρομή δεν υπάρχει: {target_path}", file=sys.stderr)
         sys.exit(1)
 
-    if target_path.is_file():
-        files_to_check = [target_path]
-    else:
-        raw_files = list(target_path.rglob("*.js"))
-        files_to_check = []
-        for f in raw_files:
-            if "js" in f.parts or "simulations" in f.parts or "math" in f.parts or "bundles" in f.parts:
-                continue
-            if f.name in ("catalog.js", "links.js", "scripts_catalog.js", "math.js"):
-                continue
-            if "content" in f.parts and not any(p.startswith("chapter-") for p in f.parts):
-                continue
-            files_to_check.append(f)
+    files_to_check = SiteValidator.collect_site_files(target_path)
 
     do_fix = getattr(args, "fix", False)
     if do_fix:
@@ -577,21 +568,13 @@ def validate_command(args: argparse.Namespace) -> None:
                     fixed_count += 1
             except Exception as e:
                 print(f"   ⚠️ Σφάλμα επιδιόρθωσης στο {f.name}: {e}")
-        if fixed_count > 0:
-            print(f"✅ Επιδιορθώθηκαν αυτόματα {fixed_count} αρχεία.\n")
+        if fixed_files := fixed_count:
+            print(f"✅ Επιδιορθώθηκαν αυτόματα {fixed_files} αρχεία.\n")
 
     print(f"\n🔍 Επικύρωση {len(files_to_check)} αρχείων JavaScript...")
     has_errors = False
     for f in files_to_check:
-        errs = []
-        if f.name == "groups.js":
-            errs = SiteValidator.validate_groups_file(f)
-        elif "content" in f.parts or f.name.startswith("0"):
-            errs = SiteValidator.validate_section_file(f)
-        elif "animations" in f.parts:
-            errs = SiteValidator.validate_animation_file(f)
-        else:
-            errs = SiteValidator.validate_exercises_file(f)
+        errs = SiteValidator.validate_file(f)
 
         if errs:
             has_errors = True
